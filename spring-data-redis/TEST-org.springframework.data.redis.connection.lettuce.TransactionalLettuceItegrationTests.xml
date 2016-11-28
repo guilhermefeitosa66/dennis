@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests" time="1.31" tests="10" errors="10" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/aluno/spring-projects/maven/spring-data-redis"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.13.0-91-generic"/>
+    <property name="user.home" value="/home/aluno"/>
+    <property name="user.timezone" value="America/Fortaleza"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="aluno"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="listOperationLPushShoudBeRolledBackCorrectly" classname="org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests" time="0.198">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+    <system-out><![CDATA[2016-10-04 17:03:39,182 ERROR ction.TransactionalTestExecutionListener: 290 - Exception encountered while executing @AfterTransaction method [public void org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult()] for test context [DefaultTestContext@12bd8a64 testClass = TransactionalLettuceItegrationTests, testInstance = org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests@61e94def, testMethod = listOperationLPushShoudBeRolledBackCorrectly@AbstractTransactionalTestBase, testException = org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379, mergedContextConfiguration = [MergedContextConfiguration@ae3540e testClass = TransactionalLettuceItegrationTests, locations = '{}', classes = '{class org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests$LettuceContextConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:545)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.initConnection(LettuceConnectionFactory.java:214)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:518)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:190)
+	at org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult(AbstractTransactionalTestBase.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.runAfterTransactionMethods(TransactionalTestExecutionListener.java:283)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:231)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at com.lambdaworks.redis.AbstractRedisClient.initializeChannel(AbstractRedisClient.java:249)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:443)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:423)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:389)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:535)
+	... 32 common frames omitted
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:528)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-04 17:03:39,185  WARN ramework.test.context.TestContextManager: 323 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@65fe9e33] to process 'after' execution for test: method [public void org.springframework.data.redis.connection.AbstractTransactionalTestBase.listOperationLPushShoudBeRolledBackCorrectly()], instance [org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests@61e94def], exception [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379]
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:545)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.initConnection(LettuceConnectionFactory.java:214)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:518)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:190)
+	at org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult(AbstractTransactionalTestBase.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.runAfterTransactionMethods(TransactionalTestExecutionListener.java:283)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:231)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at com.lambdaworks.redis.AbstractRedisClient.initializeChannel(AbstractRedisClient.java:249)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:443)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:423)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:389)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:535)
+	... 32 common frames omitted
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:528)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+]]></system-out>
+  </testcase>
+  <testcase name="listOperationLPushShoudBeRolledBackCorrectly" classname="org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests" time="0.198">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="valueOperationShouldWorkWithReadOnlyTransactions" classname="org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests" time="0.088">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+    <system-out><![CDATA[2016-10-04 17:03:39,208 ERROR ction.TransactionalTestExecutionListener: 290 - Exception encountered while executing @AfterTransaction method [public void org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult()] for test context [DefaultTestContext@12bd8a64 testClass = TransactionalLettuceItegrationTests, testInstance = org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests@53142455, testMethod = valueOperationShouldWorkWithReadOnlyTransactions@AbstractTransactionalTestBase, testException = org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379, mergedContextConfiguration = [MergedContextConfiguration@ae3540e testClass = TransactionalLettuceItegrationTests, locations = '{}', classes = '{class org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests$LettuceContextConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:545)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.initConnection(LettuceConnectionFactory.java:214)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:518)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:190)
+	at org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult(AbstractTransactionalTestBase.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.runAfterTransactionMethods(TransactionalTestExecutionListener.java:283)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:231)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at com.lambdaworks.redis.AbstractRedisClient.initializeChannel(AbstractRedisClient.java:249)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:443)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:423)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:389)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:535)
+	... 32 common frames omitted
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:528)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-04 17:03:39,209  WARN ramework.test.context.TestContextManager: 323 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@65fe9e33] to process 'after' execution for test: method [public void org.springframework.data.redis.connection.AbstractTransactionalTestBase.valueOperationShouldWorkWithReadOnlyTransactions()], instance [org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests@53142455], exception [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379]
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:545)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.initConnection(LettuceConnectionFactory.java:214)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:518)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:190)
+	at org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult(AbstractTransactionalTestBase.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.runAfterTransactionMethods(TransactionalTestExecutionListener.java:283)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:231)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at com.lambdaworks.redis.AbstractRedisClient.initializeChannel(AbstractRedisClient.java:249)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:443)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:423)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:389)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:535)
+	... 32 common frames omitted
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:528)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+]]></system-out>
+  </testcase>
+  <testcase name="valueOperationShouldWorkWithReadOnlyTransactions" classname="org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests" time="0.088">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="valueOperationSetShouldBeRolledBackCorrectly" classname="org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests" time="0.002">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+    <system-out><![CDATA[2016-10-04 17:03:39,221 ERROR ction.TransactionalTestExecutionListener: 290 - Exception encountered while executing @AfterTransaction method [public void org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult()] for test context [DefaultTestContext@12bd8a64 testClass = TransactionalLettuceItegrationTests, testInstance = org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests@40dff0b7, testMethod = valueOperationSetShouldBeRolledBackCorrectly@AbstractTransactionalTestBase, testException = org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379, mergedContextConfiguration = [MergedContextConfiguration@ae3540e testClass = TransactionalLettuceItegrationTests, locations = '{}', classes = '{class org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests$LettuceContextConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:545)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.initConnection(LettuceConnectionFactory.java:214)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:518)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:190)
+	at org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult(AbstractTransactionalTestBase.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.runAfterTransactionMethods(TransactionalTestExecutionListener.java:283)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:231)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at com.lambdaworks.redis.AbstractRedisClient.initializeChannel(AbstractRedisClient.java:249)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:443)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:423)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:389)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:535)
+	... 32 common frames omitted
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:528)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-04 17:03:39,222  WARN ramework.test.context.TestContextManager: 323 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@65fe9e33] to process 'after' execution for test: method [public void org.springframework.data.redis.connection.AbstractTransactionalTestBase.valueOperationSetShouldBeRolledBackCorrectly()], instance [org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests@40dff0b7], exception [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379]
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:545)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.initConnection(LettuceConnectionFactory.java:214)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:518)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:190)
+	at org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult(AbstractTransactionalTestBase.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.runAfterTransactionMethods(TransactionalTestExecutionListener.java:283)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:231)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at com.lambdaworks.redis.AbstractRedisClient.initializeChannel(AbstractRedisClient.java:249)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:443)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:423)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:389)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:535)
+	... 32 common frames omitted
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:528)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+]]></system-out>
+  </testcase>
+  <testcase name="valueOperationSetShouldBeRolledBackCorrectly" classname="org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests" time="0.002">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="listOperationLPushShouldBeCommittedCorrectly" classname="org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests" time="0.003">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+    <system-out><![CDATA[2016-10-04 17:03:39,234 ERROR ction.TransactionalTestExecutionListener: 290 - Exception encountered while executing @AfterTransaction method [public void org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult()] for test context [DefaultTestContext@12bd8a64 testClass = TransactionalLettuceItegrationTests, testInstance = org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests@60975100, testMethod = listOperationLPushShouldBeCommittedCorrectly@AbstractTransactionalTestBase, testException = org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379, mergedContextConfiguration = [MergedContextConfiguration@ae3540e testClass = TransactionalLettuceItegrationTests, locations = '{}', classes = '{class org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests$LettuceContextConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:545)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.initConnection(LettuceConnectionFactory.java:214)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:518)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:190)
+	at org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult(AbstractTransactionalTestBase.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.runAfterTransactionMethods(TransactionalTestExecutionListener.java:283)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:231)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at com.lambdaworks.redis.AbstractRedisClient.initializeChannel(AbstractRedisClient.java:249)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:443)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:423)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:389)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:535)
+	... 32 common frames omitted
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:528)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-04 17:03:39,234  WARN ramework.test.context.TestContextManager: 323 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@65fe9e33] to process 'after' execution for test: method [public void org.springframework.data.redis.connection.AbstractTransactionalTestBase.listOperationLPushShouldBeCommittedCorrectly()], instance [org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests@60975100], exception [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379]
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:545)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.initConnection(LettuceConnectionFactory.java:214)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:518)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:190)
+	at org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult(AbstractTransactionalTestBase.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.runAfterTransactionMethods(TransactionalTestExecutionListener.java:283)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:231)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at com.lambdaworks.redis.AbstractRedisClient.initializeChannel(AbstractRedisClient.java:249)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:443)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:423)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:389)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:535)
+	... 32 common frames omitted
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:528)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+]]></system-out>
+  </testcase>
+  <testcase name="listOperationLPushShouldBeCommittedCorrectly" classname="org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests" time="0.003">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="valueOperationSetShouldBeCommittedCorrectly" classname="org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests" time="0.001">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+    <system-out><![CDATA[2016-10-04 17:03:39,242 ERROR ction.TransactionalTestExecutionListener: 290 - Exception encountered while executing @AfterTransaction method [public void org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult()] for test context [DefaultTestContext@12bd8a64 testClass = TransactionalLettuceItegrationTests, testInstance = org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests@1253e7cb, testMethod = valueOperationSetShouldBeCommittedCorrectly@AbstractTransactionalTestBase, testException = org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379, mergedContextConfiguration = [MergedContextConfiguration@ae3540e testClass = TransactionalLettuceItegrationTests, locations = '{}', classes = '{class org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests$LettuceContextConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:545)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.initConnection(LettuceConnectionFactory.java:214)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:518)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:190)
+	at org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult(AbstractTransactionalTestBase.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.runAfterTransactionMethods(TransactionalTestExecutionListener.java:283)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:231)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at com.lambdaworks.redis.AbstractRedisClient.initializeChannel(AbstractRedisClient.java:249)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:443)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:423)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:389)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:535)
+	... 32 common frames omitted
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:528)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-04 17:03:39,243  WARN ramework.test.context.TestContextManager: 323 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@65fe9e33] to process 'after' execution for test: method [public void org.springframework.data.redis.connection.AbstractTransactionalTestBase.valueOperationSetShouldBeCommittedCorrectly()], instance [org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests@1253e7cb], exception [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379]
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:545)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.initConnection(LettuceConnectionFactory.java:214)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:518)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:190)
+	at org.springframework.data.redis.connection.AbstractTransactionalTestBase.verifyTransactionResult(AbstractTransactionalTestBase.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.runAfterTransactionMethods(TransactionalTestExecutionListener.java:283)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:231)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:319)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at com.lambdaworks.redis.AbstractRedisClient.initializeChannel(AbstractRedisClient.java:249)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:443)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:423)
+	at com.lambdaworks.redis.RedisClient.connectAsync(RedisClient.java:389)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.createLettuceConnector(LettuceConnectionFactory.java:535)
+	... 32 common frames omitted
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:224)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:289)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:528)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+]]></system-out>
+  </testcase>
+  <testcase name="valueOperationSetShouldBeCommittedCorrectly" classname="org.springframework.data.redis.connection.lettuce.TransactionalLettuceItegrationTests" time="0.02">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+</testsuite>

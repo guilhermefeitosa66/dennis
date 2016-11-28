@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="2.254" tests="116" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/aluno/spring-projects/maven/spring-data-redis"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.13.0-91-generic"/>
+    <property name="user.home" value="/home/aluno"/>
+    <property name="user.timezone" value="America/Fortaleza"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="aluno"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="readConvertsListOfSimplePropertiesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.39"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithSimpleMapValueWhenNotPassedInAsCollectionCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.027"/>
+  <testcase name="writeDoesNotTTLWhenNotPresent" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.012"/>
+  <testcase name="readListComplexPropertyCorrectlyAndConsidersClassTypeInformation" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.039"/>
+  <testcase name="writeHandlesArraysOfPrimitivesProperly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.01"/>
+  <testcase name="readShouldHonorCustomConversionOnNestedType" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.17"/>
+  <testcase name="writeShouldThrowExceptionForUpdateValueInCollectionNotAssignableToDomainTypeProperty" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.019"/>
+  <testcase name="writeAppendsTypeHintForRootCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.021"/>
+  <testcase name="writeAppendsKeyCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.016"/>
+  <testcase name="writeShouldConsiderTimeToLiveConfiguration" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.004"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithComplexListValueWhenNotPassedInAsCollectionWithPositionalParameterCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.017"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithComplexMapValueWhenNotPassedInAsCollectionCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.015"/>
+  <testcase name="readHandlesArraysOfPrimitivesProperly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.006"/>
+  <testcase name="readConvertsUnorderedListOfSimplePropertiesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.017"/>
+  <testcase name="writeShouldAppendTyeHintToObjectMapValueTypesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.006"/>
+  <testcase name="readsDateValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.017"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithListOfReferencesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.009"/>
+  <testcase name="writesIntegerValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.014"/>
+  <testcase name="writeSingleReferenceOnRootCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.015"/>
+  <testcase name="readsStringBooleanValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.012"/>
+  <testcase name="readLoadsListOfReferencesOnRootCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.021"/>
+  <testcase name="writeShouldThrowExceptionOnPartialUpdatePathWithSimpleMapValueWhenItsASingleValueWithoutPath" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.011"/>
+  <testcase name="readsLocalTimeValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.033"/>
+  <testcase name="writeAppendsListOfComplexObjectsCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.023"/>
+  <testcase name="writeAppendsMapWithSimpleKeyCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.012"/>
+  <testcase name="writeShouldConsiderMapConvertersInsideLists" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.014"/>
+  <testcase name="readConsidersClassTypeInformationCorrectlyForNonMatchingTypes" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.016"/>
+  <testcase name="readsLocalDateTimeValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.013"/>
+  <testcase name="writeHandlesArraysOfSimpleTypeProperly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.003"/>
+  <testcase name="writesPeriodValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.013"/>
+  <testcase name="readLoadsReferenceDataOnNestedElementCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.016"/>
+  <testcase name="writeShouldAppendTyeHintToObjectListValueTypesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.004"/>
+  <testcase name="writeHandlesArraysOfComplexTypeProperly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.005"/>
+  <testcase name="writeShouldUseDefaultTimeToLiveIfPropertyIsPresentButNull" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.008"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithComplexListValueCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.016"/>
+  <testcase name="readsEnumValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.013"/>
+  <testcase name="writesInstantValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.011"/>
+  <testcase name="writesBooleanValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.018"/>
+  <testcase name="readHandlesArraysOfSimpleTypeProperly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.009"/>
+  <testcase name="writeShouldThrowExceptionForUpdateMapValueNotAssignableToDomainTypeProperty" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.007"/>
+  <testcase name="readConvertsSimplePropertiesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.022"/>
+  <testcase name="writesLocalDateTimeValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.044"/>
+  <testcase name="writeShouldHonorIndexAnnotationsOnWhenCustomConversionOnNestedype" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.027"/>
+  <testcase name="writeHandlesArraysProperly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.077"/>
+  <testcase name="readLoadsReferenceDataOnRootCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.016"/>
+  <testcase name="writeShouldConsiderMapConvertersForNestedType" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.014"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithSimpleMapValueCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.006"/>
+  <testcase name="shouldWriteReadObjectMapValueTypeCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.008"/>
+  <testcase name="readSimpleMapValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.016"/>
+  <testcase name="writeShouldHonorIndexOnCustomConversionForNestedType" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.026"/>
+  <testcase name="readUnorderedListOfComplexPropertyCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.026"/>
+  <testcase name="writeAppendsClassTypeInformationCorrectlyForMapWithComplexObjects" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.032"/>
+  <testcase name="readMapWithComplexObjectsCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.022"/>
+  <testcase name="writeShouldThrowExceptionForUpdateValueNotAssignableToDomainTypeProperty" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.012"/>
+  <testcase name="readsLocalDateValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.013"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithComplexMapValueCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.008"/>
+  <testcase name="writeAddsClassTypeInformationCorrectlyForNonMatchingTypes" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.011"/>
+  <testcase name="shouldWriteReadObjectListValueTypeCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.005"/>
+  <testcase name="readConsidersClassTypeInformationCorrectlyForMapWithComplexObjects" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.014"/>
+  <testcase name="readShouldHonorCustomConversionOnRootType" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.002"/>
+  <testcase name="writesDurationValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.015"/>
+  <testcase name="writeShouldWritePartialUpdateNestedPathWithSimpleValueCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.008"/>
+  <testcase name="readHandlesArraysOfComplexTypeProperly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.006"/>
+  <testcase name="writeAppendsListOfSimplePropertiesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.009"/>
+  <testcase name="readListComplexPropertyCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.009"/>
+  <testcase name="writeHandlesArraysOfObjectTypeProperly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.004"/>
+  <testcase name="readShouldConsiderMapConvertersForValuesInList" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.01"/>
+  <testcase name="writeDoesNotAppendPropertiesWithNullValues" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.008"/>
+  <testcase name="writesZoneIdValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.016"/>
+  <testcase name="readsInstantValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.008"/>
+  <testcase name="writeShouldThrowExceptionForUpdateValueInMapNotAssignableToDomainTypeProperty" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.007"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithComplexListValueWhenNotPassedInAsCollectionCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.009"/>
+  <testcase name="writeShouldWritePartialUpdateSimpleValueCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.006"/>
+  <testcase name="writeShouldHonorCustomConversionOnNestedType" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.01"/>
+  <testcase name="readsBooleanValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.011"/>
+  <testcase name="readsPeriodValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.008"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithSimpleListValueWhenNotPassedInAsCollectionWithPositionalParameterCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.005"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithSimpleMapValueWhenNotPassedInAsCollectionWithPositionalParameterCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.005"/>
+  <testcase name="writesLocalTimeValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.007"/>
+  <testcase name="writeShouldHonorCustomConversionOnRootType" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.004"/>
+  <testcase name="readHandlesArraysOfObjectTypeProperly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.004"/>
+  <testcase name="writeShouldConsiderKeyspaceConfiguration" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.002"/>
+  <testcase name="writeListOfReferencesOnRootCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.014"/>
+  <testcase name="shouldWriteReadObjectPropertyValueTypeCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.002"/>
+  <testcase name="writeAppendsSimpleRootPropertyCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.007"/>
+  <testcase name="writeShouldThrowExceptionForUpdateCollectionValueNotAssignableToDomainTypeProperty" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.003"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithSimpleListValueWhenNotPassedInAsCollectionCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.003"/>
+  <testcase name="readComplexPropertyCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.007"/>
+  <testcase name="writeAppendsMapWithComplexObjectsCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.007"/>
+  <testcase name="writeDoesNotAddClassTypeInformationCorrectlyForMatchingTypes" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.007"/>
+  <testcase name="readsZonedDateTimeValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.029"/>
+  <testcase name="writeShouldPickUpTimeToLiveFromPropertyIfPresent" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.002"/>
+  <testcase name="writeShouldNotAppendClassTypeHint" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.007"/>
+  <testcase name="writeDoesNotAppendPropertiesWithEmptyCollections" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.007"/>
+  <testcase name="readsDurationValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.009"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithSimpleValueCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.006"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithComplexValueCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.005"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithSimpleListValueCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.004"/>
+  <testcase name="writesLocalDateValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.006"/>
+  <testcase name="writesZonedDateTimeValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.006"/>
+  <testcase name="writesDateValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.006"/>
+  <testcase name="writeAppendsKeyCorrectlyWhenThereIsAnAdditionalIdFieldInNestedElement" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.01"/>
+  <testcase name="writeSetsAnnotatedTimeToLiveCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.002"/>
+  <testcase name="writeAddsClassTypeInformationCorrectlyForNonMatchingTypesInCollections" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.024"/>
+  <testcase name="readShouldConsiderMapConvertersForNestedType" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.015"/>
+  <testcase name="writeSingleReferenceOnNestedElementCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.01"/>
+  <testcase name="readsZoneIdValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.012"/>
+  <testcase name="readShouldConsiderMapConvertersForRootType" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.001"/>
+  <testcase name="writeAppendsMapWithSimpleKeyOnNestedObjectCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.011"/>
+  <testcase name="writeShouldConsiderMapConvertersForRootType" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.002"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithRegisteredCustomConversionCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.008"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithReferenceCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.005"/>
+  <testcase name="writeShouldAppendTyeHintToObjectPropertyValueTypesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.003"/>
+  <testcase name="writesEnumValuesCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.017"/>
+  <testcase name="writeShouldWritePartialUpdatePathWithSimpleMapValueOnNestedElementCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.003"/>
+  <testcase name="writeAppendsComplexObjectCorrectly" classname="org.springframework.data.redis.core.convert.MappingRedisConverterUnitTests" time="0.006"/>
+</testsuite>

@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.springframework.data.redis.cache.RedisCacheTest" time="0.833" tests="140" errors="140" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/aluno/spring-projects/maven/spring-data-redis"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.13.0-91-generic"/>
+    <property name="user.home" value="/home/aluno"/>
+    <property name="user.timezone" value="America/Fortaleza"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="aluno"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="cachePutWithNullShouldRemoveKeyIfExists[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.024">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldRetunInstanceOfCorrectType[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetSynchronized[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testGetWhileClear[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnNullIfNoCachedValueFound[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldThrowExceptionOnInvalidType[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testConcurrentRead[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldNotAddStuffToRedis[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.006">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheName[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnCachedInstance[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="putIfAbsentShouldSetValueOnlyIfNotPresent[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.004">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheClear[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCachePut[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testNativeCache[0]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldRemoveKeyIfExists[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldRetunInstanceOfCorrectType[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetSynchronized[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testGetWhileClear[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnNullIfNoCachedValueFound[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldThrowExceptionOnInvalidType[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testConcurrentRead[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldNotAddStuffToRedis[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheName[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnCachedInstance[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="putIfAbsentShouldSetValueOnlyIfNotPresent[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheClear[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCachePut[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testNativeCache[1]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldRemoveKeyIfExists[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldRetunInstanceOfCorrectType[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetSynchronized[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testGetWhileClear[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnNullIfNoCachedValueFound[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldThrowExceptionOnInvalidType[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testConcurrentRead[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldNotAddStuffToRedis[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheName[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnCachedInstance[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="putIfAbsentShouldSetValueOnlyIfNotPresent[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.006">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheClear[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCachePut[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testNativeCache[2]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldRemoveKeyIfExists[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldRetunInstanceOfCorrectType[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetSynchronized[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testGetWhileClear[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnNullIfNoCachedValueFound[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldThrowExceptionOnInvalidType[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testConcurrentRead[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldNotAddStuffToRedis[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheName[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnCachedInstance[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.01">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="putIfAbsentShouldSetValueOnlyIfNotPresent[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.008">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheClear[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCachePut[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testNativeCache[3]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.003">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldRemoveKeyIfExists[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldRetunInstanceOfCorrectType[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetSynchronized[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testGetWhileClear[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnNullIfNoCachedValueFound[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldThrowExceptionOnInvalidType[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.003">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testConcurrentRead[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldNotAddStuffToRedis[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheName[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnCachedInstance[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="putIfAbsentShouldSetValueOnlyIfNotPresent[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheClear[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCachePut[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testNativeCache[4]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.009">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldRemoveKeyIfExists[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldRetunInstanceOfCorrectType[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetSynchronized[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testGetWhileClear[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnNullIfNoCachedValueFound[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldThrowExceptionOnInvalidType[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testConcurrentRead[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldNotAddStuffToRedis[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheName[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnCachedInstance[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="putIfAbsentShouldSetValueOnlyIfNotPresent[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheClear[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCachePut[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testNativeCache[5]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldRemoveKeyIfExists[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldRetunInstanceOfCorrectType[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetSynchronized[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.004">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testGetWhileClear[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnNullIfNoCachedValueFound[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.005">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldThrowExceptionOnInvalidType[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testConcurrentRead[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldNotAddStuffToRedis[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.007">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheName[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnCachedInstance[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="putIfAbsentShouldSetValueOnlyIfNotPresent[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheClear[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCachePut[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.006">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testNativeCache[6]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.003">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldRemoveKeyIfExists[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldRetunInstanceOfCorrectType[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetSynchronized[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testGetWhileClear[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnNullIfNoCachedValueFound[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldThrowExceptionOnInvalidType[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testConcurrentRead[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldNotAddStuffToRedis[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheName[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnCachedInstance[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="putIfAbsentShouldSetValueOnlyIfNotPresent[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheClear[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.005">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCachePut[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testNativeCache[7]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldRemoveKeyIfExists[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldRetunInstanceOfCorrectType[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.003">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetSynchronized[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testGetWhileClear[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnNullIfNoCachedValueFound[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.004">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldThrowExceptionOnInvalidType[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testConcurrentRead[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldNotAddStuffToRedis[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheName[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnCachedInstance[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="putIfAbsentShouldSetValueOnlyIfNotPresent[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheClear[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCachePut[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testNativeCache[8]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldRemoveKeyIfExists[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldRetunInstanceOfCorrectType[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.002">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetSynchronized[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testGetWhileClear[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnNullIfNoCachedValueFound[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldThrowExceptionOnInvalidType[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testConcurrentRead[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="cachePutWithNullShouldNotAddStuffToRedis[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheName[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheGetShouldReturnCachedInstance[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="putIfAbsentShouldSetValueOnlyIfNotPresent[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCacheClear[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testCachePut[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+  <testcase name="testNativeCache[9]" classname="org.springframework.data.redis.cache.RedisCacheTest" time="0.001">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.cache.RedisCacheTest.setUp(RedisCacheTest.java:90)
+</error>
+  </testcase>
+</testsuite>

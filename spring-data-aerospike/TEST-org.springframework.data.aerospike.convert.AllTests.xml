@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.aerospike.convert.AllTests" time="1.689" tests="46" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/aluno/spring-projects/maven/spring-data-aerospike"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.13.0-91-generic"/>
+    <property name="user.home" value="/home/aluno"/>
+    <property name="user.timezone" value="America/Fortaleza"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="aluno"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testGetNamespace" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0"/>
+  <testcase name="testGetSetName" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0"/>
+  <testcase name="testGetBinNames" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.081"/>
+  <testcase name="testSetIDString" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0"/>
+  <testcase name="testSetIDValue" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.002"/>
+  <testcase name="testForRead" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0"/>
+  <testcase name="testGetBins" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.001"/>
+  <testcase name="testAddListOfBin" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0"/>
+  <testcase name="testGetSpringId" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.002"/>
+  <testcase name="testSetSetName" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.001"/>
+  <testcase name="testSetIDByteArray" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.002"/>
+  <testcase name="testSetIDLong" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.002"/>
+  <testcase name="testForWrite" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.001"/>
+  <testcase name="testAddBin" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.001"/>
+  <testcase name="testSetRecord" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.001"/>
+  <testcase name="testGetKey" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.001"/>
+  <testcase name="testGetRecord" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.002"/>
+  <testcase name="testGetBinsAsArray" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.002"/>
+  <testcase name="testSetIDSerializable" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0.004"/>
+  <testcase name="testSetIDInt" classname="org.springframework.data.aerospike.convert.AerospikeDataTest" time="0"/>
+  <testcase name="convertsAddressCorrectlyToAerospikeData" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterConversionTest" time="0.306"/>
+  <testcase name="resolvesNestedComplexTypeForWriteCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterConversionTest" time="0.034"/>
+  <testcase name="convertsAddressCorrectlyToAerospikeData" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.542"/>
+  <testcase name="testGetMappingContext" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0"/>
+  <testcase name="readsEnumCollectionsCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.461"/>
+  <testcase name="writesNullValuesForCollection" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.006"/>
+  <testcase name="convertsObjectIdStringsToObjectIdCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.052"/>
+  <testcase name="considersFieldNameAnnotationWhenReading" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.004"/>
+  <testcase name="convertsDateTypesCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.002"/>
+  <testcase name="resolvesNestedComplexTypeForReadCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.005"/>
+  <testcase name="resolvesNestedComplexTypeForWriteCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.001"/>
+  <testcase name="considersFieldNameAnnotationWhenWriting" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.002"/>
+  <testcase name="writesClassWithBigDecimal" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.072"/>
+  <testcase name="writesEnumsCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0"/>
+  <testcase name="readsEmptySetsCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.021"/>
+  <testcase name="maybeConvertHandlesNullValuesCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0"/>
+  <testcase name="convertsCustomEmptyMapCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.009"/>
+  <testcase name="testGetConversionService" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.001"/>
+  <testcase name="writesIntIdCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.002"/>
+  <testcase name="convertsAerospikeDataToAddressCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.006"/>
+  <testcase name="readClassWithBigDecimal" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.043"/>
+  <testcase name="writesEnumCollectionCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.002"/>
+  <testcase name="writesNullValuesForMapsCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.009"/>
+  <testcase name="readsEnumsCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.003"/>
+  <testcase name="testMappingAerospikeConverter" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.001"/>
+  <testcase name="writesMapTypeCorrectly" classname="org.springframework.data.aerospike.convert.MappingAerospikeConverterTest" time="0.002"/>
+</testsuite>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.393" tests="77" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/aluno/spring-projects/maven/spring-data-solr"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.13.0-100-generic"/>
+    <property name="user.home" value="/home/aluno"/>
+    <property name="user.timezone" value="America/Fortaleza"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="aluno"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test clover:aggregate clover:clover"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testWriteWithSimpleTypes" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.019"/>
+  <testcase name="testReadFieldWithTrailingWildcardToDynamicMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.016"/>
+  <testcase name="testReadFieldWithTrailingWildcardToMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.013"/>
+  <testcase name="testMapWildcardFieldBoosting" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.008"/>
+  <testcase name="testWriteListWithLeadingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.007"/>
+  <testcase name="testReadToFieldExcludedFromIndexing" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.005"/>
+  <testcase name="testWriteDynamicMappedPropertyWithLeadingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.005"/>
+  <testcase name="testWriteWithNulls" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="testReadWithTargetConstructorCall" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testReadPropertyWithTrailingWildcardToCollection" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.007"/>
+  <testcase name="testReadPropertyWithLeadingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.007"/>
+  <testcase name="testReadMultivaluedFieldWithLeadingWildcardToListInDynamicMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="testWriteListWithTrailingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="shouldUseConstructorCorrectlyWhenMultivaluedConvertedToArray" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testWriteMappedListProperty" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="testReadPropertyWithTrailingWildcardToArray" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.007"/>
+  <testcase name="testWriteArrayWithTailingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="testWriteSingeValuedFieldWithLeadingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.005"/>
+  <testcase name="testReadSingleValuedArray" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testWriteArrayWithLeadingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="testWrite" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testRead" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testReadBeanWithInheritance" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.005"/>
+  <testcase name="testWriteDynamicMappedPropertyWithTrailingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testReadWithCustomTypes" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.008"/>
+  <testcase name="testReadPropertyWithLeadingWildcardToCollection" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="testReadWithPropertiesNotInDocument" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testWriteBeanWithInheritance" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testReadToLinkedHashMapMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.007"/>
+  <testcase name="testReadMultivaluedFieldWithLeadingWildcardToListInMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="testReadPropertyWithTrailingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="testWriteWithFieldsExcludedFromIndexing" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.002"/>
+  <testcase name="testReadOverlappingWildcradsIgnoresNoWildcardFields" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.005"/>
+  <testcase name="testDocumentBoosting" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.005"/>
+  <testcase name="testWriteNonMapPropertyWithWildcardWhenNotIndexed" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testReadWithSimpleTypes" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="testReadToMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testReadWithNullFields" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testWriteNullToSolrInputDocumentColletion" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0"/>
+  <testcase name="testWriteWithoutFieldAnnotation" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testWriteEmptyCollectionToSolrInputDocumentColletion" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0"/>
+  <testcase name="testReadMultivaluedFieldWithTrailingWildcardToArrayInMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="testWriteListWithWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="testReadWithWithFieldAnnotationOnSetters" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testWriteWithFieldAnnotationOnSetter" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testReadToHashMapMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testWriteCollectionToSolrInputDocumentColletion" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testReadWithCatchAllField" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testWriteDynamicMappedArrayPropertyWithLeadingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testWriteMappedArrayProperty" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.005"/>
+  <testcase name="testReadMultivaluedFieldWithTrailingWildcardToListInDynamicMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testWriteWithCustomType" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testWriteDynamicMappedListPropertyWithLeadingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testWriteUpdate" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.001"/>
+  <testcase name="testReadMultivaluedFieldWithTrailingWildcardToDynamicMapWithSingleEntry" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testReadWithNamedProperty" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testWriteWithCustomTypeList" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testReadMultivaluedFieldWithTrailingWildcardToArrayInDynamicMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.005"/>
+  <testcase name="testRegularFieldBoosting" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testWriteSingeValuedFieldWithTrailingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testReadPropertyWithLeadingWildcardToArray" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="shouldConvertTypesWithinCollectionsOfMapCorrectly" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testWriteDynamicMappedListPropertyWithTrailingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testReadMultivaluedFieldWithTrailingWildcardToListInMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="testReadMultivaluedFieldWithLeadingWildcardToMapWithSingleEntry" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.006"/>
+  <testcase name="testWriteWithNamedProperty" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.002"/>
+  <testcase name="testReadOverlappingWildcardsShouldMatchWildCardAtEndOfPattern" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.002"/>
+  <testcase name="testReadMultivaluedFieldWithLeadingWildcardToArrayInMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.005"/>
+  <testcase name="testWriteMappedProperty" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.005"/>
+  <testcase name="testReadMultivaluedFieldWithLeadingWildcardToDynamicMapWithSingleEntry" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testWriteDynamicMappedArrayPropertyWithTrailingWildcard" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testReadOverlappingWildcradsShouldPlaceStringInMultipleMatchingFields" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testReadMultivaluedFieldWithTrailingWildcardToMapWithSingleEntry" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.005"/>
+  <testcase name="testReadOverlappingWildcradsShouldPlaceStringInOnlyOneMatchingFieldWhenNoFullMatch" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.003"/>
+  <testcase name="testReadFieldWithLeadingWildcardToMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.005"/>
+  <testcase name="testReadFieldWithLeadingWildcardToDynamicMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+  <testcase name="testReadMultivaluedFieldWithLeadingWildcardToArrayInDynamicMap" classname="org.springframework.data.solr.core.convert.MappingSolrConverterTests" time="0.004"/>
+</testsuite>

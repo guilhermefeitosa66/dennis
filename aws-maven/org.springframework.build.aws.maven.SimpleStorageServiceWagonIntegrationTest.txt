@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: org.springframework.build.aws.maven.SimpleStorageServiceWagonIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.769 sec <<< FAILURE! - in org.springframework.build.aws.maven.SimpleStorageServiceWagonIntegrationTest
+regionConnections(org.springframework.build.aws.maven.SimpleStorageServiceWagonIntegrationTest)  Time elapsed: 2.388 sec  <<< ERROR!
+com.amazonaws.AmazonClientException: Unable to load AWS credentials from any provider in the chain
+	at com.amazonaws.auth.AWSCredentialsProviderChain.getCredentials(AWSCredentialsProviderChain.java:117)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:3377)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:3336)
+	at com.amazonaws.services.s3.AmazonS3Client.getBucketLocation(AmazonS3Client.java:669)
+	at com.amazonaws.services.s3.AmazonS3Client.getBucketLocation(AmazonS3Client.java:677)
+	at org.springframework.build.aws.maven.SimpleStorageServiceWagon.connectToRepository(SimpleStorageServiceWagon.java:86)
+	at org.springframework.build.aws.maven.SimpleStorageServiceWagonIntegrationTest.__CLR4_1_1h5ln2wk8(SimpleStorageServiceWagonIntegrationTest.java:77)
+	at org.springframework.build.aws.maven.SimpleStorageServiceWagonIntegrationTest.regionConnections(SimpleStorageServiceWagonIntegrationTest.java:68)
+

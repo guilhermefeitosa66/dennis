@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="1.502" tests="80" errors="80" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/aluno/spring-projects/maven/spring-data-redis"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.13.0-91-generic"/>
+    <property name="user.home" value="/home/aluno"/>
+    <property name="user.timezone" value="America/Fortaleza"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="aluno"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="shouldReadBackExplicitTimeToLive[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.275">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLive(RedisKeyValueTemplateTests.java:884)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLive(RedisKeyValueTemplateTests.java:884)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLive(RedisKeyValueTemplateTests.java:884)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLive(RedisKeyValueTemplateTests.java:884)
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLive[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.277">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="partialUpdateComplexType[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.052">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexType(RedisKeyValueTemplateTests.java:360)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexType(RedisKeyValueTemplateTests.java:360)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexType(RedisKeyValueTemplateTests.java:360)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexType(RedisKeyValueTemplateTests.java:360)
+</error>
+  </testcase>
+  <testcase name="partialUpdateComplexType[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.058">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="partialUpdateObjectType[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.038">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectType(RedisKeyValueTemplateTests.java:407)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectType(RedisKeyValueTemplateTests.java:407)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectType(RedisKeyValueTemplateTests.java:407)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectType(RedisKeyValueTemplateTests.java:407)
+</error>
+  </testcase>
+  <testcase name="partialUpdateObjectType[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.038">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="findProcessesCallbackReturningMultipleIdsCorrectly[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.051">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningMultipleIdsCorrectly(RedisKeyValueTemplateTests.java:179)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningMultipleIdsCorrectly(RedisKeyValueTemplateTests.java:179)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningMultipleIdsCorrectly(RedisKeyValueTemplateTests.java:179)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningMultipleIdsCorrectly(RedisKeyValueTemplateTests.java:179)
+</error>
+  </testcase>
+  <testcase name="findProcessesCallbackReturningMultipleIdsCorrectly[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.052">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="partialUpdateObjectTypedList[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.013">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectTypedList(RedisKeyValueTemplateTests.java:750)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectTypedList(RedisKeyValueTemplateTests.java:750)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectTypedList(RedisKeyValueTemplateTests.java:750)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectTypedList(RedisKeyValueTemplateTests.java:750)
+</error>
+  </testcase>
+  <testcase name="partialUpdateObjectTypedList[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.013">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="partialUpdateComplexTypedList[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.031">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexTypedList(RedisKeyValueTemplateTests.java:690)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexTypedList(RedisKeyValueTemplateTests.java:690)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexTypedList(RedisKeyValueTemplateTests.java:690)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexTypedList(RedisKeyValueTemplateTests.java:690)
+</error>
+  </testcase>
+  <testcase name="partialUpdateComplexTypedList[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.032">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLiveAndSetItToMinusOnelIfPersisted[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveAndSetItToMinusOnelIfPersisted(RedisKeyValueTemplateTests.java:944)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveAndSetItToMinusOnelIfPersisted(RedisKeyValueTemplateTests.java:944)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveAndSetItToMinusOnelIfPersisted(RedisKeyValueTemplateTests.java:944)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveAndSetItToMinusOnelIfPersisted(RedisKeyValueTemplateTests.java:944)
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLiveAndSetItToMinusOnelIfPersisted[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="partialUpdateComplexTypedMap[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.011">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexTypedMap(RedisKeyValueTemplateTests.java:503)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexTypedMap(RedisKeyValueTemplateTests.java:503)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexTypedMap(RedisKeyValueTemplateTests.java:503)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexTypedMap(RedisKeyValueTemplateTests.java:503)
+</error>
+  </testcase>
+  <testcase name="partialUpdateComplexTypedMap[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.015">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="partialUpdateObjectTypedMap[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.021">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectTypedMap(RedisKeyValueTemplateTests.java:570)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectTypedMap(RedisKeyValueTemplateTests.java:570)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectTypedMap(RedisKeyValueTemplateTests.java:570)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectTypedMap(RedisKeyValueTemplateTests.java:570)
+</error>
+  </testcase>
+  <testcase name="partialUpdateObjectTypedMap[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.021">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="partialUpdateShouldLeaveIndexesNotInvolvedInUpdateUntouched[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.018">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateShouldLeaveIndexesNotInvolvedInUpdateUntouched(RedisKeyValueTemplateTests.java:809)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateShouldLeaveIndexesNotInvolvedInUpdateUntouched(RedisKeyValueTemplateTests.java:809)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateShouldLeaveIndexesNotInvolvedInUpdateUntouched(RedisKeyValueTemplateTests.java:809)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateShouldLeaveIndexesNotInvolvedInUpdateUntouched(RedisKeyValueTemplateTests.java:809)
+</error>
+  </testcase>
+  <testcase name="partialUpdateShouldLeaveIndexesNotInvolvedInUpdateUntouched[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.018">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="partialUpdateSimpleType[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.008">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleType(RedisKeyValueTemplateTests.java:325)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleType(RedisKeyValueTemplateTests.java:325)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleType(RedisKeyValueTemplateTests.java:325)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleType(RedisKeyValueTemplateTests.java:325)
+</error>
+  </testcase>
+  <testcase name="partialUpdateSimpleType[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.009">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="updateShouldAlterIndexesCorrectlyWhenValuesGetRemovedFromHash[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.updateShouldAlterIndexesCorrectlyWhenValuesGetRemovedFromHash(RedisKeyValueTemplateTests.java:844)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.updateShouldAlterIndexesCorrectlyWhenValuesGetRemovedFromHash(RedisKeyValueTemplateTests.java:844)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.updateShouldAlterIndexesCorrectlyWhenValuesGetRemovedFromHash(RedisKeyValueTemplateTests.java:844)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.updateShouldAlterIndexesCorrectlyWhenValuesGetRemovedFromHash(RedisKeyValueTemplateTests.java:844)
+</error>
+  </testcase>
+  <testcase name="updateShouldAlterIndexesCorrectlyWhenValuesGetRemovedFromHash[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLiveWhenFetchingList[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.005">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveWhenFetchingList(RedisKeyValueTemplateTests.java:923)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveWhenFetchingList(RedisKeyValueTemplateTests.java:923)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveWhenFetchingList(RedisKeyValueTemplateTests.java:923)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveWhenFetchingList(RedisKeyValueTemplateTests.java:923)
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLiveWhenFetchingList[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.005">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="savesObjectCorrectly[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.savesObjectCorrectly(RedisKeyValueTemplateTests.java:127)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.savesObjectCorrectly(RedisKeyValueTemplateTests.java:127)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.savesObjectCorrectly(RedisKeyValueTemplateTests.java:127)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.savesObjectCorrectly(RedisKeyValueTemplateTests.java:127)
+</error>
+  </testcase>
+  <testcase name="savesObjectCorrectly[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLiveToPrimitiveField[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.008">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveToPrimitiveField(RedisKeyValueTemplateTests.java:904)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveToPrimitiveField(RedisKeyValueTemplateTests.java:904)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveToPrimitiveField(RedisKeyValueTemplateTests.java:904)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveToPrimitiveField(RedisKeyValueTemplateTests.java:904)
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLiveToPrimitiveField[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.008">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="partialUpdateSimpleTypedMap[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.01">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleTypedMap(RedisKeyValueTemplateTests.java:455)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleTypedMap(RedisKeyValueTemplateTests.java:455)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleTypedMap(RedisKeyValueTemplateTests.java:455)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleTypedMap(RedisKeyValueTemplateTests.java:455)
+</error>
+  </testcase>
+  <testcase name="partialUpdateSimpleTypedMap[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.016">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="partialUpdate[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.018">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdate(RedisKeyValueTemplateTests.java:229)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdate(RedisKeyValueTemplateTests.java:229)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdate(RedisKeyValueTemplateTests.java:229)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdate(RedisKeyValueTemplateTests.java:229)
+</error>
+  </testcase>
+  <testcase name="partialUpdate[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.019">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="partialUpdateSimpleTypedList[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.021">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleTypedList(RedisKeyValueTemplateTests.java:641)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleTypedList(RedisKeyValueTemplateTests.java:641)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleTypedList(RedisKeyValueTemplateTests.java:641)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleTypedList(RedisKeyValueTemplateTests.java:641)
+</error>
+  </testcase>
+  <testcase name="partialUpdateSimpleTypedList[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.022">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="findProcessesCallbackReturningSingleIdCorrectly[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.016">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningSingleIdCorrectly(RedisKeyValueTemplateTests.java:152)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningSingleIdCorrectly(RedisKeyValueTemplateTests.java:152)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningSingleIdCorrectly(RedisKeyValueTemplateTests.java:152)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningSingleIdCorrectly(RedisKeyValueTemplateTests.java:152)
+</error>
+  </testcase>
+  <testcase name="findProcessesCallbackReturningSingleIdCorrectly[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.022">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="findProcessesCallbackReturningNullCorrectly[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.013">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningNullCorrectly(RedisKeyValueTemplateTests.java:206)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningNullCorrectly(RedisKeyValueTemplateTests.java:206)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningNullCorrectly(RedisKeyValueTemplateTests.java:206)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningNullCorrectly(RedisKeyValueTemplateTests.java:206)
+</error>
+  </testcase>
+  <testcase name="findProcessesCallbackReturningNullCorrectly[0]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.017">
+    <error message="Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLive[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.185">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLive(RedisKeyValueTemplateTests.java:884)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLive(RedisKeyValueTemplateTests.java:884)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLive[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.185">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateComplexType[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.019">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexType(RedisKeyValueTemplateTests.java:360)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexType(RedisKeyValueTemplateTests.java:360)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateComplexType[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.019">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateObjectType[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.019">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectType(RedisKeyValueTemplateTests.java:407)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectType(RedisKeyValueTemplateTests.java:407)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateObjectType[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.019">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="findProcessesCallbackReturningMultipleIdsCorrectly[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.008">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningMultipleIdsCorrectly(RedisKeyValueTemplateTests.java:179)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningMultipleIdsCorrectly(RedisKeyValueTemplateTests.java:179)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="findProcessesCallbackReturningMultipleIdsCorrectly[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.009">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateObjectTypedList[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectTypedList(RedisKeyValueTemplateTests.java:750)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectTypedList(RedisKeyValueTemplateTests.java:750)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateObjectTypedList[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateComplexTypedList[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.008">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexTypedList(RedisKeyValueTemplateTests.java:690)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexTypedList(RedisKeyValueTemplateTests.java:690)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateComplexTypedList[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.008">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLiveAndSetItToMinusOnelIfPersisted[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.005">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveAndSetItToMinusOnelIfPersisted(RedisKeyValueTemplateTests.java:944)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveAndSetItToMinusOnelIfPersisted(RedisKeyValueTemplateTests.java:944)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLiveAndSetItToMinusOnelIfPersisted[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.005">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateComplexTypedMap[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.008">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexTypedMap(RedisKeyValueTemplateTests.java:503)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateComplexTypedMap(RedisKeyValueTemplateTests.java:503)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateComplexTypedMap[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.008">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateObjectTypedMap[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.006">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectTypedMap(RedisKeyValueTemplateTests.java:570)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateObjectTypedMap(RedisKeyValueTemplateTests.java:570)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateObjectTypedMap[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.006">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateShouldLeaveIndexesNotInvolvedInUpdateUntouched[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.006">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateShouldLeaveIndexesNotInvolvedInUpdateUntouched(RedisKeyValueTemplateTests.java:809)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateShouldLeaveIndexesNotInvolvedInUpdateUntouched(RedisKeyValueTemplateTests.java:809)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateShouldLeaveIndexesNotInvolvedInUpdateUntouched[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.006">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateSimpleType[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleType(RedisKeyValueTemplateTests.java:325)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleType(RedisKeyValueTemplateTests.java:325)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateSimpleType[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="updateShouldAlterIndexesCorrectlyWhenValuesGetRemovedFromHash[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.updateShouldAlterIndexesCorrectlyWhenValuesGetRemovedFromHash(RedisKeyValueTemplateTests.java:844)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.updateShouldAlterIndexesCorrectlyWhenValuesGetRemovedFromHash(RedisKeyValueTemplateTests.java:844)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="updateShouldAlterIndexesCorrectlyWhenValuesGetRemovedFromHash[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLiveWhenFetchingList[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.015">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveWhenFetchingList(RedisKeyValueTemplateTests.java:923)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveWhenFetchingList(RedisKeyValueTemplateTests.java:923)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLiveWhenFetchingList[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.015">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="savesObjectCorrectly[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.savesObjectCorrectly(RedisKeyValueTemplateTests.java:127)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.savesObjectCorrectly(RedisKeyValueTemplateTests.java:127)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="savesObjectCorrectly[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.007">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLiveToPrimitiveField[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.005">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveToPrimitiveField(RedisKeyValueTemplateTests.java:904)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.shouldReadBackExplicitTimeToLiveToPrimitiveField(RedisKeyValueTemplateTests.java:904)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="shouldReadBackExplicitTimeToLiveToPrimitiveField[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.005">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateSimpleTypedMap[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.006">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleTypedMap(RedisKeyValueTemplateTests.java:455)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleTypedMap(RedisKeyValueTemplateTests.java:455)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateSimpleTypedMap[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.006">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdate[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.005">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdate(RedisKeyValueTemplateTests.java:229)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdate(RedisKeyValueTemplateTests.java:229)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdate[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.006">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateSimpleTypedList[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.006">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleTypedList(RedisKeyValueTemplateTests.java:641)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.partialUpdateSimpleTypedList(RedisKeyValueTemplateTests.java:641)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="partialUpdateSimpleTypedList[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.006">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="findProcessesCallbackReturningSingleIdCorrectly[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.009">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningSingleIdCorrectly(RedisKeyValueTemplateTests.java:152)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningSingleIdCorrectly(RedisKeyValueTemplateTests.java:152)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="findProcessesCallbackReturningSingleIdCorrectly[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.009">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="findProcessesCallbackReturningNullCorrectly[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.009">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningNullCorrectly(RedisKeyValueTemplateTests.java:206)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.findProcessesCallbackReturningNullCorrectly(RedisKeyValueTemplateTests.java:206)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+  <testcase name="findProcessesCallbackReturningNullCorrectly[1]" classname="org.springframework.data.redis.core.RedisKeyValueTemplateTests" time="0.009">
+    <error message="Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379" type="org.springframework.data.redis.RedisConnectionFailureException">org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis on localhost:6379; nested exception is com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: com.lambdaworks.redis.RedisConnectionException: Unable to connect to localhost/127.0.0.1:6379
+	at org.springframework.data.redis.core.RedisKeyValueTemplateTests.tearDown(RedisKeyValueTemplateTests.java:104)
+Caused by: java.net.ConnectException: Conexão recusada: localhost/127.0.0.1:6379
+</error>
+  </testcase>
+</testsuite>
