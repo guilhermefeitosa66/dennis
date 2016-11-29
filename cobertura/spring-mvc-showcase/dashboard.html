@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    
+    
+    <link rel="SHORTCUT ICON" href="img/clover.ico" />
+
+    <link rel="stylesheet" href="aui/css/aui.min.css" media="all"/>
+    <link rel="stylesheet" href="aui/css/aui-experimental.min.css" media="all"/>
+    <!--[if IE 9]><link rel="stylesheet" href="aui/css/aui-ie9.min.css" media="all"/><![endif]-->
+
+    <style type="text/css" media="all">
+        @import url('style.css');
+        @import url('tree.css');
+        
+    </style>
+
+    <script src="jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui-experimental.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui-soy.min.js" type="text/javascript"></script>
+
+    <script src="package-nodes-tree.js" type="text/javascript"></script>
+    <script src="clover-tree.js" type="text/javascript"></script>
+    <script src="clover.js" type="text/javascript"></script>
+    <script src="clover-descriptions.js" type="text/javascript"></script>
+    <script src="cloud.js" type="text/javascript"></script>
+
+            <title>spring-mvc-showcase 1.0.0-BUILD-SNAPSHOT</title>
+    </head>
+
+<body onresize="processTreeMapDashJson(treeMapJson);" >
+    <div id="page">
+        
+        
+
+
+<header id="header" role="banner">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation">
+        <div class="aui-header-inner">
+            <div class="aui-header-primary">
+                <h1 id="logo" class="aui-header-logo aui-header-logo-clover">
+                    <a href="http://www.atlassian.com/clover" title="Open Atlassian Clover home page"><span class="aui-header-logo-device">Clover</span></a>
+                </h1>
+                            </div>
+            <div class="aui-header-secondary">
+                <ul class="aui-nav">
+                    <li id="system-help-menu">
+                        <a class="aui-nav-link" title="Open online Clover documentation" target="_blank"
+                           href="https://confluence.atlassian.com/display/CLOVER/Clover+Documentation+Home">
+                            <span class="aui-icon aui-icon-small aui-iconfont-help">&#160;Help</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+        
+        <div class="aui-page-panel">
+            <div class="aui-page-panel-inner">
+                <div class="aui-page-panel-nav aui-page-panel-nav-clover">
+                    
+
+<div class="aui-page-header-inner" style="margin-bottom: 20px;">
+    <div class="aui-page-header-image">
+                <div class="aui-avatar aui-avatar-large aui-avatar-project">
+            <div class="aui-avatar-inner">
+                                    <img src="img/clover_logo_large.png" alt="Clover icon"/>
+                            </div>
+        </div>
+            </div>
+    <div class="aui-page-header-main" >
+        <h1>
+                                        spring-mvc-showcase 1.0.0-BUILD-SNAPSHOT
+                                </h1>
+    </div>
+</div>
+
+<nav class="aui-navgroup aui-navgroup-vertical">
+    <div class="aui-navgroup-inner">
+                                            <ul class="aui-nav">
+                <li class="aui-nav-selected">
+                    <a href="dashboard.html">Project overview</a>
+                </li>
+            </ul>
+        
+                <div class="aui-nav-heading packages-nav-heading">
+            <strong>Packages</strong>
+        </div>
+        <div class="aui-nav project-packages">
+            <form method="get" action="#" class="aui package-filter-container">
+                <input type="text" autocomplete="off" class="package-filter text"
+                       placeholder="Type to filter packages..." name="package-filter" id="package-filter"
+                       title="Start typing package name (or part of the name) to search through the tree. Use arrow keys and the Enter key to navigate."/>
+            </form>
+            <p class="package-filter-no-results-message hidden">
+                <small>No results found.</small>
+            </p>
+                                                  <div class="packages-tree-wrapper" data-root-relative="" data-package-name="">
+                <div class="packages-tree-container"></div>
+                <div class="clover-packages-lozenges"></div>
+            </div>
+        </div>
+        
+            </div>
+</nav>                </div>
+                <section class="aui-page-panel-content">
+                    <div class="aui-page-panel-content-clover">
+
+                    
+                    <ol class="aui-nav aui-nav-breadcrumbs">
+            
+        <li><a href="dashboard.html">Project Clover database Sex out 28 2016 14:29:47 BRT</a></li>
+    </ol>
+    
+<h1 class="aui-h2-clover">
+            Project overview
+    </h1>
+<div class="aui-tabs horizontal-tabs">
+        <ul class="tabs-menu">
+            <li class="menu-item active-tab">
+            <a href="dashboard.html">Dashboard</a>
+        </li>
+                <li class="menu-item ">
+            <a href="pkg-summary.html"><strong>Application code</strong></a>
+        </li>
+                <li class="menu-item ">
+            <a href="testsrc-pkg-summary.html"><strong>Test code</strong></a>
+        </li>
+        <li class="menu-item ">
+            <a href="test-pkg-summary.html"><strong>Test results</strong></a>
+        </li>
+                <li class="menu-item ">
+            <a href="top-risks.html"><strong>Top risks</strong></a>
+        </li>
+        <li class="menu-item ">
+            <a href="quick-wins.html"><strong>Quick wins</strong></a>
+        </li>
+                                                <li class="menu-item ">
+                <a href="treemap.html"><strong>Coverage tree map</strong></a>
+            </li>
+            </ul>
+    <div class="tabs-pane active-pane" id="tabs-first">
+
+        <div>&#160;</div>
+
+
+
+    <div class="aui-message aui-message-warning">
+        <p class="title">
+            <strong>Evaluation License</strong>
+        </p>
+        <p>
+            This report was generated with an evaluation server license.  <a href="http://www.atlassian.com/software/clover">Purchase Clover</a> or <a href="http://confluence.atlassian.com/x/JAgQCQ">configure your license.</a>
+        </p>
+    </div>
+
+
+
+<div class="aui-group">
+    <div class="aui-item">
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                
+                <h3>
+                    Code coverage
+                    <small style="float:right; font-weight: normal">
+                        38 classes,
+                        447 /
+                        519 elements
+                    </small>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                <div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.8612717</span>86,1%</div><div style="display: table-cell">
+ <div title="86,1% Covered"  style="min-width:200px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:86.1%"></div></div></div></div>
+                <p><a href="pkg-summary.html">See more</a></p>
+            </div>
+        </div>
+
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>
+                    Test results
+                    <small style="float:right; font-weight: normal">
+                        81 /
+                        81 tests
+                        11,86 secs
+                    </small>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                                    
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>                                <p><a href="test-pkg-summary.html">See more</a></p>
+            </div>
+        </div>
+
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>Code metrics</h3>
+            </header>
+                         
+
+<div id="$statsId" class="aui-item" style="display: ${display}">
+<div style="display: table">
+    <div class="stats-box">
+        <div class="stats-box-label"><label title="Total number of branches in this project">Branches:</label></div>
+        <div class="stats-box-value">36</div>
+    </div>
+    <div class="stats-box">
+        <div class="stats-box-label"><label title="Total number of statements in this project">Statements:</label></div>
+        <div class="stats-box-value">296</div>
+    </div>
+    <div class="stats-box">
+        <div class="stats-box-label"><label title="Total number of methods in this project">Methods:</label></div>
+        <div class="stats-box-value">187</div>
+    </div>
+    <div class="stats-box">
+        <div class="stats-box-label"><label title="Total number of classes in this project">Classes:</label></div>
+        <div class="stats-box-value">38</div>
+    </div>
+            <div class="stats-box">
+            <div class="stats-box-label"><label title="Total number of files in this project">Files:</label></div>
+            <div class="stats-box-value">37</div>
+        </div>
+                <div class="stats-box">
+            <div class="stats-box-label"><label title="Total number of packages in this project">Packages:</label></div>
+            <div class="stats-box-value">16</div>
+        </div>
+        <div class="stats-box">
+        <div class="stats-box-label"><label title="Total number of lines of code in this project">LOC:</label></div>
+        <div class="stats-box-value">1.634</div>
+    </div>
+    <div class="stats-box">
+        <div class="stats-box-label"><label title="Total number of non-comment lines of code in this project">NCLOC:</label></div>
+        <div class="stats-box-value">1.229</div>
+    </div>
+    <div class="stats-box">
+        <div class="stats-box-label"><label title="Cyclomatic complexity is the number of paths in this project">Total complexity:</label></div>
+        <div class="stats-box-value">207</div>
+    </div>
+    <div class="stats-box">
+        <div class="stats-box-label">
+            <label title="Complexity density is the complexity divided by the number of statements in this project">Complexity density:</label>
+        </div>
+        <div class="stats-box-value">0,7</div>
+    </div>
+    <div class="stats-box">
+        <div class="stats-box-label"><label title="Number of statements per method.">Statements/Method:</label></div>
+        <div class="stats-box-value">1,58</div>
+    </div>
+    <div class="stats-box">
+        <div class="stats-box-label"><label title="Number of methods per class.">Methods/Class:</label></div>
+        <div class="stats-box-value">4,92</div>
+    </div>
+            <div class="stats-box">
+            <div class="stats-box-label"><label title="Number of classes per package.">Classes/Package:</label></div>
+            <div class="stats-box-value">2,38</div>
+        </div>
+        <div class="stats-box">
+        <div class="stats-box-label"><label title="Complexity divided by the number of methods in this project">Average method complexity:</label></div>
+        <div class="stats-box-value">1,11</div>
+    </div>
+</div>
+
+</div>        </div>
+
+                <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>Class Coverage Distribution</h3>
+            </header>
+            <div class="dashboard-widget-content">
+                <div style="text-align: center">                     <img src="img/classDistrubutionChart.png" alt="img/classDistrubutionChart.png" usemap="#classDistrubutionChart.png"/>
+                </div>
+                <map id="classDistrubutionChart.png" name="classDistrubutionChart.png">
+<area shape="rect" coords="288,15,310,206" title="21 classes have 91-100% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="263,179,285,206" title="3 classes have 81-90% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="238,179,260,206" title="3 classes have 71-80% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="213,188,235,206" title="2 classes have 61-70% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="188,197,210,206" title="1 class has 51-60% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="113,197,135,206" title="1 class has 21-30% coverage" alt="" nohref="nohref"/>
+<area shape="rect" coords="38,179,60,206" title="3 classes have 0% coverage" alt="" nohref="nohref"/>
+</map>
+            </div>
+        </div>
+        
+                <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>Class Complexity</h3>
+            </header>
+            <div class="dashboard-widget-content">
+                <div style="text-align: center">
+                    <img src="img/classComplexityChart.png" alt="img/classComplexityChart.png" usemap="#classComplexityChart.png"/>
+                </div>
+                <map id="classComplexityChart.png" name="classComplexityChart.png">
+<area shape="poly" coords="274,137,272,140,269,137,272,135,274,137,274,137" title="Complexity: 9; Coverage: 88%; Class: RequestDataController" alt="" href="org/springframework/samples/mvc/data/RequestDataController.html#RequestDataController"/>
+<area shape="poly" coords="304,161,302,164,299,161,302,159,304,161,304,161" title="Complexity: 6; Coverage: 100%; Class: JavaBean" alt="" href="org/springframework/samples/mvc/data/JavaBean.html#JavaBean"/>
+<area shape="poly" coords="304,193,302,196,299,193,302,191,304,193,304,193" title="Complexity: 2; Coverage: 100%; Class: ValidationController" alt="" href="org/springframework/samples/mvc/validation/ValidationController.html#ValidationController"/>
+<area shape="poly" coords="304,177,302,180,299,177,302,175,304,177,304,177" title="Complexity: 4; Coverage: 100%; Class: JavaBean" alt="" href="org/springframework/samples/mvc/validation/JavaBean.html#JavaBean"/>
+<area shape="poly" coords="304,113,302,116,299,113,302,111,304,113,304,113" title="Complexity: 12; Coverage: 100%; Class: MessageConvertersController" alt="" href="org/springframework/samples/mvc/messageconverters/MessageConvertersController.html#MessageConvertersController"/>
+<area shape="poly" coords="304,153,302,156,299,153,302,151,304,153,304,153" title="Complexity: 7; Coverage: 100%; Class: JavaBean" alt="" href="org/springframework/samples/mvc/messageconverters/JavaBean.html#JavaBean"/>
+<area shape="poly" coords="257,177,254,180,252,177,254,175,257,177,257,177" title="Complexity: 4; Coverage: 81%; Class: ViewsController" alt="" href="org/springframework/samples/mvc/views/ViewsController.html#ViewsController"/>
+<area shape="poly" coords="54,177,52,180,49,177,52,175,54,177,54,177" title="Complexity: 4; Coverage: 0%; Class: JavaBean" alt="" href="org/springframework/samples/mvc/views/JavaBean.html#JavaBean"/>
+<area shape="poly" coords="304,129,302,132,299,129,302,127,304,129,304,129" title="Complexity: 10; Coverage: 100%; Class: MappingController" alt="" href="org/springframework/samples/mvc/mapping/MappingController.html#MappingController"/>
+<area shape="poly" coords="304,169,302,172,299,169,302,167,304,169,304,169" title="Complexity: 5; Coverage: 100%; Class: JavaBean" alt="" href="org/springframework/samples/mvc/mapping/JavaBean.html#JavaBean"/>
+<area shape="poly" coords="54,137,52,140,49,137,52,135,54,137,54,137" title="Complexity: 9; Coverage: 0%; Class: ClasslevelMappingController" alt="" href="org/springframework/samples/mvc/mapping/ClasslevelMappingController.html#ClasslevelMappingController"/>
+<area shape="poly" coords="254,185,252,188,249,185,252,183,254,185,254,185" title="Complexity: 3; Coverage: 80%; Class: FileUploadController" alt="" href="org/springframework/samples/mvc/fileupload/FileUploadController.html#FileUploadController"/>
+<area shape="poly" coords="219,185,217,188,214,185,217,183,219,185,219,185" title="Complexity: 3; Coverage: 66%; Class: SocialSecurityNumber" alt="" href="org/springframework/samples/mvc/convert/SocialSecurityNumber.html#SocialSecurityNumber"/>
+<area shape="poly" coords="304,129,302,132,299,129,302,127,304,129,304,129" title="Complexity: 10; Coverage: 100%; Class: MappingController" alt="" href="org/springframework/samples/mvc/mapping/MappingController.html#MappingController"/>
+<area shape="poly" coords="189,169,187,172,184,169,187,167,189,169,189,169" title="Complexity: 5; Coverage: 54%; Class: MaskFormatAnnotationFormatterFactory.MaskFormatter" alt="" href="org/springframework/samples/mvc/convert/MaskFormatAnnotationFormatterFactory.html#MaskFormatAnnotationFormatterFactory.MaskFormatter"/>
+<area shape="poly" coords="242,185,239,188,237,185,239,183,242,185,242,185" title="Complexity: 3; Coverage: 75%; Class: MaskFormatAnnotationFormatterFactory" alt="" href="org/springframework/samples/mvc/convert/MaskFormatAnnotationFormatterFactory.html#MaskFormatAnnotationFormatterFactory"/>
+<area shape="poly" coords="304,34,302,36,299,34,302,31,304,34,304,34" title="Complexity: 22; Coverage: 100%; Class: JavaBean" alt="" href="org/springframework/samples/mvc/convert/JavaBean.html#JavaBean"/>
+<area shape="poly" coords="304,153,302,156,299,153,302,151,304,153,304,153" title="Complexity: 7; Coverage: 100%; Class: JavaBean" alt="" href="org/springframework/samples/mvc/messageconverters/JavaBean.html#JavaBean"/>
+<area shape="poly" coords="289,161,287,164,284,161,287,159,289,161,289,161" title="Complexity: 6; Coverage: 94%; Class: FormController" alt="" href="org/springframework/samples/mvc/form/FormController.html#FormController"/>
+<area shape="poly" coords="282,18,279,20,277,18,279,15,282,18,282,18" title="Complexity: 24; Coverage: 91%; Class: FormBean" alt="" href="org/springframework/samples/mvc/form/FormBean.html#FormBean"/>
+<area shape="poly" coords="54,201,52,204,49,201,52,199,54,201,54,201" title="Complexity: 1; Coverage: 0%; Class: TimeoutCallableProcessingInterceptor" alt="" href="org/springframework/samples/mvc/async/TimeoutCallableProcessingInterceptor.html#TimeoutCallableProcessingInterceptor"/>
+<area shape="poly" coords="122,169,119,172,117,169,119,167,122,169,122,169" title="Complexity: 5; Coverage: 27%; Class: JavaBean" alt="" href="org/springframework/samples/mvc/async/JavaBean.html#JavaBean"/>
+<area shape="poly" coords="284,161,282,164,279,161,282,159,284,161,284,161" title="Complexity: 6; Coverage: 92%; Class: DeferredResultController" alt="" href="org/springframework/samples/mvc/async/DeferredResultController.html#DeferredResultController"/>
+<area shape="poly" coords="234,129,232,132,229,129,232,127,234,129,234,129" title="Complexity: 10; Coverage: 72%; Class: CallableController" alt="" href="org/springframework/samples/mvc/async/CallableController.html#CallableController"/>
+<area shape="poly" coords="262,177,259,180,257,177,259,175,262,177,262,177" title="Complexity: 4; Coverage: 83%; Class: RedirectController" alt="" href="org/springframework/samples/mvc/redirect/RedirectController.html#RedirectController"/>
+<area shape="poly" coords="304,169,302,172,299,169,302,167,304,169,304,169" title="Complexity: 5; Coverage: 100%; Class: JavaBean" alt="" href="org/springframework/samples/mvc/mapping/JavaBean.html#JavaBean"/>
+<area shape="poly" coords="304,201,302,204,299,201,302,199,304,201,304,201" title="Complexity: 1; Coverage: 100%; Class: SimpleControllerRevisited" alt="" href="org/springframework/samples/mvc/simple/SimpleControllerRevisited.html#SimpleControllerRevisited"/>
+<area shape="poly" coords="304,201,302,204,299,201,302,199,304,201,304,201" title="Complexity: 1; Coverage: 100%; Class: SimpleControllerRevisited" alt="" href="org/springframework/samples/mvc/simple/SimpleControllerRevisited.html#SimpleControllerRevisited"/>
+<area shape="poly" coords="304,193,302,196,299,193,302,191,304,193,304,193" title="Complexity: 2; Coverage: 100%; Class: ValidationController" alt="" href="org/springframework/samples/mvc/validation/ValidationController.html#ValidationController"/>
+<area shape="poly" coords="304,193,302,196,299,193,302,191,304,193,304,193" title="Complexity: 2; Coverage: 100%; Class: ValidationController" alt="" href="org/springframework/samples/mvc/validation/ValidationController.html#ValidationController"/>
+<area shape="poly" coords="304,201,302,204,299,201,302,199,304,201,304,201" title="Complexity: 1; Coverage: 100%; Class: SimpleControllerRevisited" alt="" href="org/springframework/samples/mvc/simple/SimpleControllerRevisited.html#SimpleControllerRevisited"/>
+<area shape="poly" coords="304,185,302,188,299,185,302,183,304,185,304,185" title="Complexity: 3; Coverage: 100%; Class: ExceptionController" alt="" href="org/springframework/samples/mvc/exceptions/ExceptionController.html#ExceptionController"/>
+<area shape="poly" coords="209,177,207,180,204,177,207,175,209,177,209,177" title="Complexity: 4; Coverage: 62%; Class: AjaxUtils" alt="" href="org/springframework/mvc/extensions/ajax/AjaxUtils.html#AjaxUtils"/>
+<area shape="poly" coords="304,153,302,156,299,153,302,151,304,153,304,153" title="Complexity: 7; Coverage: 100%; Class: JavaBean" alt="" href="org/springframework/samples/mvc/messageconverters/JavaBean.html#JavaBean"/>
+</map>
+            </div>
+        </div>
+        
+                    <div class="dashboard-widget">
+                <header class="dashboard-widget-header">
+                    <h3>Coverage tree map</h3>
+                </header>
+                <div class="dashboard-widget-content">
+                    <div id="infovis" style="width:100%; height:250px;">
+                        <div id="treemap-loader" style="position:relative;top:50px;">
+                            <p>
+                                Generating Coverage Tree Map. Please wait...
+                            </p>
+                            <p>
+                                <img src="img/ajax-loader.gif" alt="Loading Treemap"/>
+                            </p>
+                        </div>
+                    </div>
+                    <p><a href="treemap.html">See more</a></p>
+                </div>
+
+            </div>
+            </div>
+
+
+    <div class="aui-item">
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>Top 20 project risks</h3>
+            </header>
+            <div class="dashboard-widget-content">
+                
+                                                                <a class="tag" href="org/springframework/samples/mvc/form/FormController.html"
+                            style="font-size: 26px;color:#89c495"
+                            title="Average Method Complexity - 1,5 , Coverage - 94,4% ">FormController</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/form/FormBean.html"
+                            style="font-size: 22px;color:#89c495"
+                            title="Average Method Complexity - 1,143 , Coverage - 91,2% ">FormBean</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/async/DeferredResultController.html"
+                            style="font-size: 21px;color:#89c495"
+                            title="Average Method Complexity - 1 , Coverage - 92,3% ">DeferredResultController</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/data/RequestDataController.html"
+                            style="font-size: 21px;color:#14892c"
+                            title="Average Method Complexity - 1 , Coverage - 88,9% ">RequestDataController</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/redirect/RedirectController.html"
+                            style="font-size: 21px;color:#14892c"
+                            title="Average Method Complexity - 1 , Coverage - 83,3% ">RedirectController</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/convert/MaskFormatAnnotationFormatterFactory.html"
+                            style="font-size: 28px;color:#e7a19b"
+                            title="Average Method Complexity - 1,667 , Coverage - 54,5% ">MaskFormatAnnotationFormatterFactory.MaskFormatter</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/async/CallableController.html"
+                            style="font-size: 22px;color:#fae1a0"
+                            title="Average Method Complexity - 1,111 , Coverage - 72,4% ">CallableController</a>
+                                    
+                                                                <a class="tag" href="org/springframework/mvc/extensions/ajax/AjaxUtils.html"
+                            style="font-size: 24px;color:#f6c342"
+                            title="Average Method Complexity - 1,333 , Coverage - 62,5% ">AjaxUtils</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/views/ViewsController.html"
+                            style="font-size: 21px;color:#14892c"
+                            title="Average Method Complexity - 1 , Coverage - 81,8% ">ViewsController</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/fileupload/FileUploadController.html"
+                            style="font-size: 21px;color:#14892c"
+                            title="Average Method Complexity - 1 , Coverage - 80% ">FileUploadController</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/convert/MaskFormatAnnotationFormatterFactory.html"
+                            style="font-size: 21px;color:#fae1a0"
+                            title="Average Method Complexity - 1 , Coverage - 75% ">MaskFormatAnnotationFormatterFactory</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/convert/SocialSecurityNumber.html"
+                            style="font-size: 21px;color:#f6c342"
+                            title="Average Method Complexity - 1 , Coverage - 66,7% ">SocialSecurityNumber</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/async/JavaBean.html"
+                            style="font-size: 21px;color:#de7b72"
+                            title="Average Method Complexity - 1 , Coverage - 27,3% ">JavaBean</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/mapping/ClasslevelMappingController.html"
+                            style="font-size: 21px;color:#d04437"
+                            title="Average Method Complexity - 1 , Coverage - 0% ">ClasslevelMappingController</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/views/JavaBean.html"
+                            style="font-size: 21px;color:#d04437"
+                            title="Average Method Complexity - 1 , Coverage - 0% ">JavaBean</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/async/TimeoutCallableProcessingInterceptor.html"
+                            style="font-size: 21px;color:#d04437"
+                            title="Average Method Complexity - 1 , Coverage - 0% ">TimeoutCallableProcessingInterceptor</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/exceptions/BusinessException.html"
+                            style="font-size: 12px;color:#d04437"
+                            title="Average Method Complexity - 0 , Coverage -  -  ">BusinessException</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/data/custom/RequestAttribute.html"
+                            style="font-size: 12px;color:#d04437"
+                            title="Average Method Complexity - 0 , Coverage -  -  ">RequestAttribute</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/form/InquiryType.html"
+                            style="font-size: 12px;color:#d04437"
+                            title="Average Method Complexity - 0 , Coverage -  -  ">InquiryType</a>
+                                    
+                                                                <a class="tag" href="org/springframework/samples/mvc/convert/MaskFormat.html"
+                            style="font-size: 12px;color:#d04437"
+                            title="Average Method Complexity - 0 , Coverage -  -  ">MaskFormat</a>
+                                                    <p><a href="top-risks.html">See more</a></p>
+            </div>
+        </div>
+
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>Most complex packages</h3>
+            </header>
+            <div class="dashboard-widget-content">
+                
+                <table class="aui">
+                                            
+                                                <tr>
+                            <td>1. </td>
+                            <td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.92913383</span>92,9%</div><div style="display: table-cell">
+ <div title="92,9% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:92.9%"></div></div></div></div></td>
+                            <td>
+                                <a href="org/springframework/samples/mvc/convert/pkg-summary.html">org.springframework.samples.mvc.convert</a>
+                                <span class="aui-badge" title="Package complexity">50</span>
+                            </td>
+                        </tr>
+                                            
+                                                <tr>
+                            <td>2. </td>
+                            <td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.9186047</span>91,9%</div><div style="display: table-cell">
+ <div title="91,9% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:91.9%"></div></div></div></div></td>
+                            <td>
+                                <a href="org/springframework/samples/mvc/form/pkg-summary.html">org.springframework.samples.mvc.form</a>
+                                <span class="aui-badge" title="Package complexity">30</span>
+                            </td>
+                        </tr>
+                                            
+                                                <tr>
+                            <td>3. </td>
+                            <td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.625</span>62,5%</div><div style="display: table-cell">
+ <div title="62,5% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:62.5%"></div></div></div></div></td>
+                            <td>
+                                <a href="org/springframework/samples/mvc/mapping/pkg-summary.html">org.springframework.samples.mvc.mapping</a>
+                                <span class="aui-badge" title="Package complexity">24</span>
+                            </td>
+                        </tr>
+                                            
+                                                <tr>
+                            <td>4. </td>
+                            <td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.7058824</span>70,6%</div><div style="display: table-cell">
+ <div title="70,6% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:70.6%"></div></div></div></div></td>
+                            <td>
+                                <a href="org/springframework/samples/mvc/async/pkg-summary.html">org.springframework.samples.mvc.async</a>
+                                <span class="aui-badge" title="Package complexity">22</span>
+                            </td>
+                        </tr>
+                                            
+                                                <tr>
+                            <td>5. </td>
+                            <td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">1.0</span>100%</div><div style="display: table-cell">
+ <div title="100% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:100%"></div></div></div></div></td>
+                            <td>
+                                <a href="org/springframework/samples/mvc/messageconverters/pkg-summary.html">org.springframework.samples.mvc.messageconverters</a>
+                                <span class="aui-badge" title="Package complexity">19</span>
+                            </td>
+                        </tr>
+                                    </table>
+            </div>
+        </div>
+
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>Most complex classes</h3>
+            </header>
+            <div class="dashboard-widget-content">
+                <table class="aui">
+                                            
+                                                <tr>
+                            <td>1. </td>
+                            <td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.9117647</span>91,2%</div><div style="display: table-cell">
+ <div title="91,2% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:91.2%"></div></div></div></div></td>
+                            <td>
+                                <a  href="org/springframework/samples/mvc/form/FormBean.html"  title="org.springframework.samples.mvc.form.FormBean">FormBean</a>
+                                <span class="aui-badge" title="Class complexity">24</span>
+                            </td>
+                        </tr>
+                                            
+                                                <tr>
+                            <td>2. </td>
+                            <td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">1.0</span>100%</div><div style="display: table-cell">
+ <div title="100% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:100%"></div></div></div></div></td>
+                            <td>
+                                <a  href="org/springframework/samples/mvc/convert/JavaBean.html"  title="org.springframework.samples.mvc.convert.JavaBean">JavaBean</a>
+                                <span class="aui-badge" title="Class complexity">22</span>
+                            </td>
+                        </tr>
+                                            
+                                                <tr>
+                            <td>3. </td>
+                            <td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">1.0</span>100%</div><div style="display: table-cell">
+ <div title="100% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:100%"></div></div></div></div></td>
+                            <td>
+                                <a  href="org/springframework/samples/mvc/messageconverters/MessageConvertersController.html"  title="org.springframework.samples.mvc.messageconverters.MessageConvertersController">MessageConvertersController</a>
+                                <span class="aui-badge" title="Class complexity">12</span>
+                            </td>
+                        </tr>
+                                            
+                                                <tr>
+                            <td>4. </td>
+                            <td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">1.0</span>100%</div><div style="display: table-cell">
+ <div title="100% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:100%"></div></div></div></div></td>
+                            <td>
+                                <a  href="org/springframework/samples/mvc/mapping/MappingController.html"  title="org.springframework.samples.mvc.mapping.MappingController">MappingController</a>
+                                <span class="aui-badge" title="Class complexity">10</span>
+                            </td>
+                        </tr>
+                                            
+                                                <tr>
+                            <td>5. </td>
+                            <td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">1.0</span>100%</div><div style="display: table-cell">
+ <div title="100% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:100%"></div></div></div></div></td>
+                            <td>
+                                <a  href="org/springframework/samples/mvc/convert/NestedBean.html"  title="org.springframework.samples.mvc.convert.NestedBean">NestedBean</a>
+                                <span class="aui-badge" title="Class complexity">10</span>
+                            </td>
+                        </tr>
+                                    </table>
+            </div>
+        </div>
+
+                <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>Least tested methods</h3>
+            </header>
+            <div class="dashboard-widget-content">
+                <table class="aui">
+                                            
+
+                    <tr>
+                        <td align="right">1.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="MaskFormatAnnotationFormatterFactory.MaskFormatter.print(String,Locale)&#160;:&#160;String" href="org/springframework/samples/mvc/convert/MaskFormatAnnotationFormatterFactory.html?line=42#src-42">MaskFormatAnnotationFormatterFactory.MaskFormatter.print(String,Locale)&#160;:&#160;String</a>
+                            <span class="aui-badge" title="Method complexity">2</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">2.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="CallableController.call()&#160;:&#160;String" href="org/springframework/samples/mvc/async/CallableController.html?line=67#src-67">CallableController.call()&#160;:&#160;String</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">3.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="CallableController.callableWithCustomTimeoutHandling()&#160;:&#160;WebAsyncTask&lt;String&gt;" href="org/springframework/samples/mvc/async/CallableController.html?line=63#src-63">CallableController.callableWithCustomTimeoutHandling()&#160;:&#160;WebAsyncTask&lt;String&gt;</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">4.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="AjaxUtils.isAjaxUploadRequest(WebRequest)&#160;:&#160;boolean" href="org/springframework/mvc/extensions/ajax/AjaxUtils.html?line=12#src-12">AjaxUtils.isAjaxUploadRequest(WebRequest)&#160;:&#160;boolean</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">5.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="RedirectController.show(String,LocalDate)&#160;:&#160;String" href="org/springframework/samples/mvc/redirect/RedirectController.html?line=42#src-42">RedirectController.show(String,LocalDate)&#160;:&#160;String</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">6.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="DeferredResultController.deferredResultWithTimeoutValue()&#160;:&#160;DeferredResult&lt;String&gt;" href="org/springframework/samples/mvc/async/DeferredResultController.html?line=46#src-46">DeferredResultController.deferredResultWithTimeoutValue()&#160;:&#160;DeferredResult&lt;String&gt;</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">7.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="JavaBean.getFoo()&#160;:&#160;String" href="org/springframework/samples/mvc/async/JavaBean.html?line=14#src-14">JavaBean.getFoo()&#160;:&#160;String</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">8.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="JavaBean.setFoo(String)&#160;:&#160;void" href="org/springframework/samples/mvc/async/JavaBean.html?line=18#src-18">JavaBean.setFoo(String)&#160;:&#160;void</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">9.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="JavaBean.getFruit()&#160;:&#160;String" href="org/springframework/samples/mvc/async/JavaBean.html?line=22#src-22">JavaBean.getFruit()&#160;:&#160;String</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">10.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="JavaBean.setFruit(String)&#160;:&#160;void" href="org/springframework/samples/mvc/async/JavaBean.html?line=26#src-26">JavaBean.setFruit(String)&#160;:&#160;void</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">11.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="TimeoutCallableProcessingInterceptor.handleTimeout(NativeWebRequest,Callable&lt;T&gt;)&#160;:&#160;Object" href="org/springframework/samples/mvc/async/TimeoutCallableProcessingInterceptor.html?line=10#src-10">TimeoutCallableProcessingInterceptor.handleTimeout(NativeWebRequest,Callable&lt;T&gt;)&#160;:&#160;Object</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">12.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="MaskFormatAnnotationFormatterFactory.getPrinter(MaskFormat,Class&lt;?&gt;)&#160;:&#160;Printer&lt;?&gt;" href="org/springframework/samples/mvc/convert/MaskFormatAnnotationFormatterFactory.html?line=25#src-25">MaskFormatAnnotationFormatterFactory.getPrinter(MaskFormat,Class&lt;?&gt;)&#160;:&#160;Printer&lt;?&gt;</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">13.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="SocialSecurityNumber.getValue()&#160;:&#160;String" href="org/springframework/samples/mvc/convert/SocialSecurityNumber.html?line=11#src-11">SocialSecurityNumber.getValue()&#160;:&#160;String</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">14.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="ClasslevelMappingController.byPath()&#160;:&#160;String" href="org/springframework/samples/mvc/mapping/ClasslevelMappingController.html?line=15#src-15">ClasslevelMappingController.byPath()&#160;:&#160;String</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">15.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="ClasslevelMappingController.byPathPattern(HttpServletRequest)&#160;:&#160;String" href="org/springframework/samples/mvc/mapping/ClasslevelMappingController.html?line=20#src-20">ClasslevelMappingController.byPathPattern(HttpServletRequest)&#160;:&#160;String</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">16.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="ClasslevelMappingController.byMethod()&#160;:&#160;String" href="org/springframework/samples/mvc/mapping/ClasslevelMappingController.html?line=25#src-25">ClasslevelMappingController.byMethod()&#160;:&#160;String</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">17.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="ClasslevelMappingController.byParameter()&#160;:&#160;String" href="org/springframework/samples/mvc/mapping/ClasslevelMappingController.html?line=30#src-30">ClasslevelMappingController.byParameter()&#160;:&#160;String</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">18.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="ClasslevelMappingController.byParameterNegation()&#160;:&#160;String" href="org/springframework/samples/mvc/mapping/ClasslevelMappingController.html?line=35#src-35">ClasslevelMappingController.byParameterNegation()&#160;:&#160;String</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">19.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="ClasslevelMappingController.byHeader()&#160;:&#160;String" href="org/springframework/samples/mvc/mapping/ClasslevelMappingController.html?line=40#src-40">ClasslevelMappingController.byHeader()&#160;:&#160;String</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                            
+
+                    <tr>
+                        <td align="right">20.</td>
+                        <td align="right"><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td>
+                        <td>
+                              <!-- normal method -->
+                                                      <a title="ClasslevelMappingController.byHeaderNegation()&#160;:&#160;String" href="org/springframework/samples/mvc/mapping/ClasslevelMappingController.html?line=45#src-45">ClasslevelMappingController.byHeaderNegation()&#160;:&#160;String</a>
+                            <span class="aui-badge" title="Method complexity">1</span>
+
+                        </td>
+                    </tr>
+                                    </table>
+            </div>
+        </div>
+        
+    </div>
+</div>
+                            </div> <!-- tabs-pane active-pane -->
+                        </div>
+
+    <script type="text/javascript" src="jit.js" ></script>
+    <script type="text/javascript" src="treemap-dash-json.js" ></script>
+
+                        </div> <!-- class="aui-page-panel-content-clover" -->
+                    <footer id="footer" role="contentinfo">
+    <section class="footer-body">
+        <ul>
+            <li>
+                Report generated by <a target="_new" href="http://www.atlassian.com/software/clover">Atlassian Clover</a> v 4.1.1
+                on Sex out 28 2016 14:30:05 BRT using coverage data from Sex out 28 2016 14:30:03 BRT.
+            </li>
+        </ul>
+        <ul>
+            <li>Clover Evaluation License registered to Clover Maven Plugin. You have 25 day(s) before your license expires.</li>
+        </ul>
+        <div id="footer-logo">
+            <a target="_blank" href="http://www.atlassian.com/">
+                Atlassian
+            </a>
+        </div>
+    </section>
+</footer>                </section> <!-- class="aui-page-panel-content" -->
+            </div> <!-- class="aui-page-panel-inner" -->
+        </div> <!-- class="aui-page-panel" -->
+    </div> <!-- id="page" -->
+</body>
+</html>

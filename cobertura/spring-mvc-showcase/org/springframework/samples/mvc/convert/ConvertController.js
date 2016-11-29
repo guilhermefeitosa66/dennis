@@ -1,0 +1,10 @@
+var clover = new Object();
+
+// JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
+clover.pageData = {"classes":[{"el":54,"id":76,"methods":[{"el":21,"sc":2,"sl":18},{"el":27,"sc":2,"sl":24},{"el":32,"sc":2,"sl":29},{"el":37,"sc":2,"sl":34},{"el":42,"sc":2,"sl":39},{"el":47,"sc":2,"sl":44},{"el":52,"sc":2,"sl":49}],"name":"ConvertController","sl":16}]}
+
+// JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
+clover.testTargets = {"test_0":{"methods":[{"sl":39}],"name":"beanCollection","pass":true,"statements":[{"sl":41}]},"test_1":{"methods":[{"sl":39}],"name":"beanDate","pass":true,"statements":[{"sl":41}]},"test_14":{"methods":[{"sl":39}],"name":"beanMap","pass":true,"statements":[{"sl":41}]},"test_16":{"methods":[{"sl":39}],"name":"beanMasked","pass":true,"statements":[{"sl":41}]},"test_2":{"methods":[{"sl":29}],"name":"collection","pass":true,"statements":[{"sl":31}]},"test_31":{"methods":[{"sl":34}],"name":"formattedCollection","pass":true,"statements":[{"sl":36}]},"test_39":{"methods":[{"sl":49}],"name":"custom","pass":true,"statements":[{"sl":51}]},"test_48":{"methods":[{"sl":44}],"name":"valueOf","pass":true,"statements":[{"sl":46}]},"test_5":{"methods":[{"sl":39}],"name":"beanNested","pass":true,"statements":[{"sl":41}]},"test_60":{"methods":[{"sl":29}],"name":"collection2","pass":true,"statements":[{"sl":31}]},"test_72":{"methods":[{"sl":39}],"name":"beanPrimitive","pass":true,"statements":[{"sl":41}]},"test_75":{"methods":[{"sl":39}],"name":"beanFormattedCollection","pass":true,"statements":[{"sl":41}]},"test_77":{"methods":[{"sl":18}],"name":"primitive","pass":true,"statements":[{"sl":20}]},"test_78":{"methods":[{"sl":24}],"name":"date","pass":true,"statements":[{"sl":26}]}}
+
+// JSON: { lines : [{tests : [testid1, testid2, testid3, ...]}, ...]};
+clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [77], [], [77], [], [], [], [78], [], [78], [], [], [2, 60], [], [2, 60], [], [], [31], [], [31], [], [], [75, 5, 72, 0, 1, 14, 16], [], [75, 5, 72, 0, 1, 14, 16], [], [], [48], [], [48], [], [], [39], [], [39], [], [], []]

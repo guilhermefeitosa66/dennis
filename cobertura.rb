@@ -3,11 +3,20 @@ require 'nokogiri'
 require 'uri'
 require 'axlsx' # gem install axlsx
 require 'pp'
+require 'find'
 
 coverage = []
 
+file_paths = []
+
+Find.find('cobertura/') do |path|
+  file_paths << path if path =~ /.*\/pkg-summary\.html$/
+end
+
+# pp file_paths
+
 # ler arquivos html
-Dir.glob("cobertura/*/pkg-summary.html") do |html_files|
+file_paths.each do |html_files|
   sumary = ""
   file = ""
   # ler o arquivo do sumário com o nome das classes
@@ -32,10 +41,14 @@ Dir.glob("cobertura/*/pkg-summary.html") do |html_files|
   end
 
   project_name = html_files.split("/")[1]
+  path = html_files.gsub("/pkg-summary.html", "")
+  puts path
 
   # extrair nome do método e cobertura
   classes_list.each do |c|
-    File.open("cobertura/#{project_name}/#{c[:class_name]}.html", 'r') do |html_file|
+    c[:class_name] = c[:class_name].split(".")[0]
+
+    File.open("#{path}/#{c[:class_name]}.html", 'r') do |html_file|
       while line = html_file.gets
         file << line
       end
@@ -69,7 +82,7 @@ end
 # gerar planilha com os dados
 Axlsx::Package.new do |p|
   p.workbook.add_worksheet(:name => "testcases") do |sheet|
-    sheet.add_row %w{CLASS METHOD COVERAGE}
+    sheet.add_row %w{PROJECT CLASS METHOD COVERAGE}
     coverage.each { |e| sheet.add_row([ e[:project], e[:class], e[:method_name], e[:coverage] ]) }
   end
   p.serialize('cobertura.xlsx')
