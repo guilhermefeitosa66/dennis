@@ -33,6 +33,7 @@ Dir.glob("cobertura/*/pkg-summary.html") do |html_files|
 
   project_name = html_files.split("/")[1]
 
+  # extrair nome do método e cobertura
   classes_list.each do |c|
     File.open("cobertura/#{project_name}/#{c[:class_name]}.html", 'r') do |html_file|
       while line = html_file.gets
@@ -58,7 +59,7 @@ Dir.glob("cobertura/*/pkg-summary.html") do |html_files|
     end
 
     array.each do |e|
-      coverage << {class: c[:class_name], method_name: e[:method_name], coverage: e[:coverage]}
+      coverage << {project: project_name, class: c[:class_name], method_name: e[:method_name], coverage: e[:coverage]}
     end
   end
 
@@ -69,7 +70,7 @@ end
 Axlsx::Package.new do |p|
   p.workbook.add_worksheet(:name => "testcases") do |sheet|
     sheet.add_row %w{CLASS METHOD COVERAGE}
-    coverage.each { |e| sheet.add_row([e[:class], e[:method_name], e[:coverage]]) }
+    coverage.each { |e| sheet.add_row([ e[:project], e[:class], e[:method_name], e[:coverage] ]) }
   end
   p.serialize('cobertura.xlsx')
 end
