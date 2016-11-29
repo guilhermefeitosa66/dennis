@@ -1,0 +1,10 @@
+var clover = new Object();
+
+// JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
+clover.pageData = {"classes":[{"el":45,"id":673,"methods":[{"el":37,"sc":5,"sl":33},{"el":43,"sc":5,"sl":39}],"name":"AuthenticationInfoAwsCredentialsTest","sl":26}]}
+
+// JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
+clover.testTargets = {"test_142":{"methods":[{"sl":39}],"name":"getAWSSecretKey","pass":true,"statements":[{"sl":41},{"sl":42}]},"test_210":{"methods":[{"sl":39}],"name":"getAWSSecretKey","pass":true,"statements":[{"sl":41},{"sl":42}]},"test_289":{"methods":[{"sl":39}],"name":"getAWSSecretKey","pass":true,"statements":[{"sl":41},{"sl":42}]},"test_295":{"methods":[{"sl":33}],"name":"getAWSAccessKeyId","pass":true,"statements":[{"sl":35},{"sl":36}]},"test_310":{"methods":[{"sl":39}],"name":"getAWSSecretKey","pass":true,"statements":[{"sl":41},{"sl":42}]},"test_403":{"methods":[{"sl":33}],"name":"getAWSAccessKeyId","pass":true,"statements":[{"sl":35},{"sl":36}]},"test_404":{"methods":[{"sl":33}],"name":"getAWSAccessKeyId","pass":true,"statements":[{"sl":35},{"sl":36}]},"test_473":{"methods":[{"sl":33}],"name":"getAWSAccessKeyId","pass":true,"statements":[{"sl":35},{"sl":36}]},"test_506":{"methods":[{"sl":39}],"name":"getAWSSecretKey","pass":true,"statements":[{"sl":41},{"sl":42}]},"test_542":{"methods":[{"sl":33}],"name":"getAWSAccessKeyId","pass":true,"statements":[{"sl":35},{"sl":36}]},"test_79":{"methods":[{"sl":39}],"name":"getAWSSecretKey","pass":true,"statements":[{"sl":41},{"sl":42}]},"test_83":{"methods":[{"sl":33}],"name":"getAWSAccessKeyId","pass":true,"statements":[{"sl":35},{"sl":36}]}}
+
+// JSON: { lines : [{tests : [testid1, testid2, testid3, ...]}, ...]};
+clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [404, 295, 473, 542, 403, 83], [], [404, 295, 473, 542, 403, 83], [404, 295, 473, 542, 403, 83], [], [], [310, 289, 210, 506, 79, 142], [], [310, 289, 210, 506, 79, 142], [310, 289, 210, 506, 79, 142], [], [], []]

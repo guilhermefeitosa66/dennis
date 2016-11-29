@@ -1,0 +1,2560 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    
+    
+    <link rel="SHORTCUT ICON" href="../../../../../img/clover.ico" />
+
+    <link rel="stylesheet" href="../../../../../aui/css/aui.min.css" media="all"/>
+    <link rel="stylesheet" href="../../../../../aui/css/aui-experimental.min.css" media="all"/>
+    <!--[if IE 9]><link rel="stylesheet" href="../../../../../aui/css/aui-ie9.min.css" media="all"/><![endif]-->
+
+    <style type="text/css" media="all">
+        @import url('../../../../../style.css');
+        @import url('../../../../../tree.css');
+        
+    </style>
+
+    <script src="../../../../../jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="../../../../../aui/js/aui.min.js" type="text/javascript"></script>
+    <script src="../../../../../aui/js/aui-experimental.min.js" type="text/javascript"></script>
+    <script src="../../../../../aui/js/aui-soy.min.js" type="text/javascript"></script>
+
+    <script src="../../../../../package-nodes-tree.js" type="text/javascript"></script>
+    <script src="../../../../../clover-tree.js" type="text/javascript"></script>
+    <script src="../../../../../clover.js" type="text/javascript"></script>
+    <script src="../../../../../clover-descriptions.js" type="text/javascript"></script>
+    <script src="../../../../../cloud.js" type="text/javascript"></script>
+
+            <title>Amazon Web Services S3 Maven Wagon Support 5.1.0.BUILD-SNAPSHOT</title>
+    </head>
+
+<body>
+    <div id="page">
+        
+        
+
+
+<header id="header" role="banner">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation">
+        <div class="aui-header-inner">
+            <div class="aui-header-primary">
+                <h1 id="logo" class="aui-header-logo aui-header-logo-clover">
+                    <a href="http://www.atlassian.com/clover" title="Open Atlassian Clover home page"><span class="aui-header-logo-device">Clover</span></a>
+                </h1>
+                            </div>
+            <div class="aui-header-secondary">
+                <ul class="aui-nav">
+                    <li id="system-help-menu">
+                        <a class="aui-nav-link" title="Open online Clover documentation" target="_blank"
+                           href="https://confluence.atlassian.com/display/CLOVER/Clover+Documentation+Home">
+                            <span class="aui-icon aui-icon-small aui-iconfont-help">&#160;Help</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+        
+        <div class="aui-page-panel">
+            <div class="aui-page-panel-inner">
+                <div class="aui-page-panel-nav aui-page-panel-nav-clover">
+                    
+
+<div class="aui-page-header-inner" style="margin-bottom: 20px;">
+    <div class="aui-page-header-image">
+                    <a href="https://github.com/spring-projects/aws-maven" target="_top">
+                <div class="aui-avatar aui-avatar-large aui-avatar-project">
+            <div class="aui-avatar-inner">
+                                    <img src="../../../../../img/clover_logo_large.png" alt="Clover icon"/>
+                            </div>
+        </div>
+                    </a>
+            </div>
+    <div class="aui-page-header-main" >
+        <h1>
+                            <a href="https://github.com/spring-projects/aws-maven" target="_top">
+                                        Amazon Web Services S3 Maven Wagon Support 5.1.0.BUILD-SNAPSHOT
+                                        </a>
+                    </h1>
+    </div>
+</div>
+
+<nav class="aui-navgroup aui-navgroup-vertical">
+    <div class="aui-navgroup-inner">
+                                            <ul class="aui-nav">
+                <li class="">
+                    <a href="../../../../../dashboard.html">Project overview</a>
+                </li>
+            </ul>
+        
+                <div class="aui-nav-heading packages-nav-heading">
+            <strong>Packages</strong>
+        </div>
+        <div class="aui-nav project-packages">
+            <form method="get" action="#" class="aui package-filter-container">
+                <input type="text" autocomplete="off" class="package-filter text"
+                       placeholder="Type to filter packages..." name="package-filter" id="package-filter"
+                       title="Start typing package name (or part of the name) to search through the tree. Use arrow keys and the Enter key to navigate."/>
+            </form>
+            <p class="package-filter-no-results-message hidden">
+                <small>No results found.</small>
+            </p>
+                                                <div class="packages-tree-wrapper" data-root-relative="../../../../../" data-package-name="org.springframework.build.aws.maven">
+                <div class="packages-tree-container"></div>
+                <div class="clover-packages-lozenges"></div>
+            </div>
+        </div>
+        
+            </div>
+</nav>                </div>
+                <section class="aui-page-panel-content">
+                    <div class="aui-page-panel-content-clover">
+
+                    
+                    <div class="aui-page-header-main"><ol class="aui-nav aui-nav-breadcrumbs">
+    
+    <li><a href="../../../../../dashboard.html"> Project Clover database Sex out 28 2016 13:17:02 BRT</a></li>
+     <li><a href="test-pkg-summary.html">Package org.springframework.build.aws.maven</a></li>
+</ol></div>
+    
+<h1 class="aui-h2-clover">
+            
+        Class AbstractWagonTest
+    </h1>
+    <div class="aui-message aui-message-warning">
+        <p class="title">
+            <strong>Evaluation License</strong>
+        </p>
+        <p>
+            This report was generated with an evaluation server license.  <a href="http://www.atlassian.com/software/clover">Purchase Clover</a> or <a href="http://confluence.atlassian.com/x/JAgQCQ">configure your license.</a>
+        </p>
+    </div>
+
+
+ 
+<div class="aui-tabs horizontal-tabs" id="tabs-file">
+    <ul class="tabs-menu">
+        <li class="menu-item">
+            <a href="AbstractWagonTest.html"><strong>Source file</strong></a>
+        </li>
+        <li class="menu-item active-tab">
+            <a href="#tabs-file-test-results"><strong>Test results</strong></a>
+        </li>
+    </ul>
+    <div class="tabs-pane aui-tabs-pane-100-pcnt active-pane" id="tabs-file-test-results">
+        <div>&#160;</div>
+
+
+
+
+<table id="testClassSummaryTable" class="aui">
+<thead>
+    <tr>
+        <th width="40%"><label>Class</label></th>
+        <th width="10%"><label title="Total number of tests (or test iterations) executed.">Tests</label></th>
+        <th width="10%"><label title="Number of failed tests">Fail</label></th>
+        <th width="10%"><label title="Number of test errors">Error</label></th>
+        <th width="10%">
+            <label title="The total time in seconds taken to run this set of tests.">Time (secs)</label>
+        </th>
+        <th width="20%"><label>% Tests Success</label></th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>AbstractWagonTest</td>
+        <td class="testPasses"><span class="sortValue">258</span>258</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td>0,18</td>
+        <td class="align-middle">
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+</tbody>
+</table>
+
+<div>&#160;</div>
+
+<table id="testClassTestsTable" class="aui aui-table-sortable">
+<thead>
+    <tr>
+        <th width="40%">
+            <label title="Tests (or test iterations) which were executed.">Tests</label>
+        </th>
+        <th width="10%"><label>Started</label></th>
+        <th width="10%"><label>Status</label></th>
+        <th width="10%">
+            <label title="The total time in seconds taken to run this set of tests.">Time (secs)</label>
+        </th>
+        <th width="30%"><label>Message</label></th>
+    </tr>
+</thead>
+<tbody>
+
+
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerTransferFailedException</span><a href="AbstractWagonTest_getIfNewerTransferFailedException_16.html">AbstractWagonTest.getIfNewerTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429661</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationProxyInfo</span><a href="AbstractWagonTest_connectRepositoryAuthenticationProxyInfo_5w.html">AbstractWagonTest.connectRepositoryAuthenticationProxyInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974165</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.removeTransferListener</span><a href="AbstractWagonTest_removeTransferListener_b3.html">AbstractWagonTest.removeTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429597</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExistsAuthorizationException</span><a href="AbstractWagonTest_resourceExistsAuthorizationException_dx.html">AbstractWagonTest.resourceExistsAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015699</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExistsAuthorizationException</span><a href="AbstractWagonTest_resourceExistsAuthorizationException_bv.html">AbstractWagonTest.resourceExistsAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974146</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.interactive</span><a href="AbstractWagonTest_interactive_e3.html">AbstractWagonTest.interactive</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033894</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileListTransferFailedException</span><a href="AbstractWagonTest_getFileListTransferFailedException_de.html">AbstractWagonTest.getFileListTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033896</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileResourceDoesNotExistException</span><a href="AbstractWagonTest_getFileResourceDoesNotExistException_u.html">AbstractWagonTest.getFileResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501193</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putDirectory</span><a href="AbstractWagonTest_putDirectory_8g.html">AbstractWagonTest.putDirectory</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033891</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerAuthorizationException</span><a href="AbstractWagonTest_getIfNewerAuthorizationException_6b.html">AbstractWagonTest.getIfNewerAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501204</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.supportsDirectoryCopy</span><a href="AbstractWagonTest_supportsDirectoryCopy_6m.html">AbstractWagonTest.supportsDirectoryCopy</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974173</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerNewer</span><a href="AbstractWagonTest_getIfNewerNewer_f5.html">AbstractWagonTest.getIfNewerNewer</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429598</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.012</span>0,012</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.hasSessionListener</span><a href="AbstractWagonTest_hasSessionListener_7r.html">AbstractWagonTest.hasSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974118</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExistsTransferFailedException</span><a href="AbstractWagonTest_resourceExistsTransferFailedException_6p.html">AbstractWagonTest.resourceExistsTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511069</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getTransferFailedException</span><a href="AbstractWagonTest_getTransferFailedException_17.html">AbstractWagonTest.getTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033846</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.put</span><a href="AbstractWagonTest_put_85.html">AbstractWagonTest.put</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974148</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileListTransferFailedException</span><a href="AbstractWagonTest_getFileListTransferFailedException_24.html">AbstractWagonTest.getFileListTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974176</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExistsTransferFailedException</span><a href="AbstractWagonTest_resourceExistsTransferFailedException_6u.html">AbstractWagonTest.resourceExistsTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033869</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.hasTransferListener</span><a href="AbstractWagonTest_hasTransferListener_6a.html">AbstractWagonTest.hasTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429620</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationInfo</span><a href="AbstractWagonTest_connectRepositoryAuthenticationInfo_7y.html">AbstractWagonTest.connectRepositoryAuthenticationInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974164</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putDirectory</span><a href="AbstractWagonTest_putDirectory_5o.html">AbstractWagonTest.putDirectory</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511090</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileResourceDoesNotExistException</span><a href="AbstractWagonTest_getFileResourceDoesNotExistException_92.html">AbstractWagonTest.getFileResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511076</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryProxyInfo</span><a href="AbstractWagonTest_connectRepositoryProxyInfo_1p.html">AbstractWagonTest.connectRepositoryProxyInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429644</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExists</span><a href="AbstractWagonTest_resourceExists_ek.html">AbstractWagonTest.resourceExists</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511061</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectConnectionException</span><a href="AbstractWagonTest_connectConnectionException_dy.html">AbstractWagonTest.connectConnectionException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501189</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationInfoProxyInfoProvider</span><a href="AbstractWagonTest_connectRepositoryAuthenticationInfoProxyInfoProvider_b4.html">AbstractWagonTest.connectRepositoryAuthenticationInfoProxyInfoProvider</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511092</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationInfoProxyInfoProvider</span><a href="AbstractWagonTest_connectRepositoryAuthenticationInfoProxyInfoProvider_b5.html">AbstractWagonTest.connectRepositoryAuthenticationInfoProxyInfoProvider</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015734</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.simpleConstructor</span><a href="AbstractWagonTest_simpleConstructor_dm.html">AbstractWagonTest.simpleConstructor</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033818</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.addTransferListener</span><a href="AbstractWagonTest_addTransferListener_6z.html">AbstractWagonTest.addTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511055</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.supportsDirectoryCopy</span><a href="AbstractWagonTest_supportsDirectoryCopy_w.html">AbstractWagonTest.supportsDirectoryCopy</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429660</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getAuthorizationException</span><a href="AbstractWagonTest_getAuthorizationException_7x.html">AbstractWagonTest.getAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429655</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.hasSessionListener</span><a href="AbstractWagonTest_hasSessionListener_fq.html">AbstractWagonTest.hasSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429592</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileListAuthorizationException</span><a href="AbstractWagonTest_getFileListAuthorizationException_6c.html">AbstractWagonTest.getFileListAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501176</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerTransferFailedException</span><a href="AbstractWagonTest_getIfNewerTransferFailedException_ab.html">AbstractWagonTest.getIfNewerTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015737</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.disconnectConnectionException</span><a href="AbstractWagonTest_disconnectConnectionException_9r.html">AbstractWagonTest.disconnectConnectionException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511051</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getAuthorizationException</span><a href="AbstractWagonTest_getAuthorizationException_9z.html">AbstractWagonTest.getAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974168</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectAuthenticationException</span><a href="AbstractWagonTest_connectAuthenticationException_9a.html">AbstractWagonTest.connectAuthenticationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015704</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.readTimeOut</span><a href="AbstractWagonTest_readTimeOut_45.html">AbstractWagonTest.readTimeOut</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501151</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.interactive</span><a href="AbstractWagonTest_interactive_43.html">AbstractWagonTest.interactive</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974174</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putAuthorizationException</span><a href="AbstractWagonTest_putAuthorizationException_c6.html">AbstractWagonTest.putAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511030</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.002</span>0,002</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putResourceDoesNotExistException</span><a href="AbstractWagonTest_putResourceDoesNotExistException_10.html">AbstractWagonTest.putResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511081</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putResourceDoesNotExistException</span><a href="AbstractWagonTest_putResourceDoesNotExistException_ai.html">AbstractWagonTest.putResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974162</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerResourceDoesNotExistException</span><a href="AbstractWagonTest_getIfNewerResourceDoesNotExistException_dn.html">AbstractWagonTest.getIfNewerResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015722</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationInfoProxyInfoProvider</span><a href="AbstractWagonTest_connectRepositoryAuthenticationInfoProxyInfoProvider_fg.html">AbstractWagonTest.connectRepositoryAuthenticationInfoProxyInfoProvider</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033892</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.get</span><a href="AbstractWagonTest_get_5v.html">AbstractWagonTest.get</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501183</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerResourceDoesNotExistException</span><a href="AbstractWagonTest_getIfNewerResourceDoesNotExistException_3f.html">AbstractWagonTest.getIfNewerResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033882</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileListTransferFailedException</span><a href="AbstractWagonTest_getFileListTransferFailedException_dz.html">AbstractWagonTest.getFileListTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511096</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryProxyInfoProvider</span><a href="AbstractWagonTest_connectRepositoryProxyInfoProvider_4m.html">AbstractWagonTest.connectRepositoryProxyInfoProvider</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501201</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerTransferFailedException</span><a href="AbstractWagonTest_getIfNewerTransferFailedException_1u.html">AbstractWagonTest.getIfNewerTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511095</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExists</span><a href="AbstractWagonTest_resourceExists_44.html">AbstractWagonTest.resourceExists</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974144</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileResourceDoesNotExistException</span><a href="AbstractWagonTest_getFileResourceDoesNotExistException_as.html">AbstractWagonTest.getFileResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033877</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putTransferFailedException</span><a href="AbstractWagonTest_putTransferFailedException_9d.html">AbstractWagonTest.putTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429642</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.timeOut</span><a href="AbstractWagonTest_timeOut_1e.html">AbstractWagonTest.timeOut</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974119</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getTransferFailedException</span><a href="AbstractWagonTest_getTransferFailedException_a8.html">AbstractWagonTest.getTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429614</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerOlder</span><a href="AbstractWagonTest_getIfNewerOlder_dk.html">AbstractWagonTest.getIfNewerOlder</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501171</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationInfoProxyInfoProvider</span><a href="AbstractWagonTest_connectRepositoryAuthenticationInfoProxyInfoProvider_a6.html">AbstractWagonTest.connectRepositoryAuthenticationInfoProxyInfoProvider</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429659</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.disconnect</span><a href="AbstractWagonTest_disconnect_bb.html">AbstractWagonTest.disconnect</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033874</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExistsAuthorizationException</span><a href="AbstractWagonTest_resourceExistsAuthorizationException_2q.html">AbstractWagonTest.resourceExistsAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511063</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationProxyInfo</span><a href="AbstractWagonTest_connectRepositoryAuthenticationProxyInfo_fn.html">AbstractWagonTest.connectRepositoryAuthenticationProxyInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511085</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putDirectory</span><a href="AbstractWagonTest_putDirectory_4y.html">AbstractWagonTest.putDirectory</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974170</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.get</span><a href="AbstractWagonTest_get_61.html">AbstractWagonTest.get</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033863</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExists</span><a href="AbstractWagonTest_resourceExists_58.html">AbstractWagonTest.resourceExists</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015697</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.supportsDirectoryCopy</span><a href="AbstractWagonTest_supportsDirectoryCopy_1s.html">AbstractWagonTest.supportsDirectoryCopy</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015735</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.removeTransferListener</span><a href="AbstractWagonTest_removeTransferListener_f4.html">AbstractWagonTest.removeTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015671</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepository</span><a href="AbstractWagonTest_connectRepository_4g.html">AbstractWagonTest.connectRepository</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511074</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationInfo</span><a href="AbstractWagonTest_connectRepositoryAuthenticationInfo_bg.html">AbstractWagonTest.connectRepositoryAuthenticationInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429650</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putTransferFailedException</span><a href="AbstractWagonTest_putTransferFailedException_2i.html">AbstractWagonTest.putTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974158</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerOlder</span><a href="AbstractWagonTest_getIfNewerOlder_6q.html">AbstractWagonTest.getIfNewerOlder</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033843</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerNewer</span><a href="AbstractWagonTest_getIfNewerNewer_1c.html">AbstractWagonTest.getIfNewerNewer</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974123</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.011</span>0,011</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.disconnectConnectionException</span><a href="AbstractWagonTest_disconnectConnectionException_33.html">AbstractWagonTest.disconnectConnectionException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033844</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.put</span><a href="AbstractWagonTest_put_9v.html">AbstractWagonTest.put</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511066</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getResourceDoesNotExistException</span><a href="AbstractWagonTest_getResourceDoesNotExistException_60.html">AbstractWagonTest.getResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974152</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerAuthorizationException</span><a href="AbstractWagonTest_getIfNewerAuthorizationException_49.html">AbstractWagonTest.getIfNewerAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974167</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getResourceDoesNotExistException</span><a href="AbstractWagonTest_getResourceDoesNotExistException_7l.html">AbstractWagonTest.getResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033870</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileListTransferFailedException</span><a href="AbstractWagonTest_getFileListTransferFailedException_5b.html">AbstractWagonTest.getFileListTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501213</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerNewer</span><a href="AbstractWagonTest_getIfNewerNewer_ex.html">AbstractWagonTest.getIfNewerNewer</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015672</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.014</span>0,014</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.addSessionListener</span><a href="AbstractWagonTest_addSessionListener_e.html">AbstractWagonTest.addSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501181</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.put</span><a href="AbstractWagonTest_put_cp.html">AbstractWagonTest.put</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501184</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getTransferFailedException</span><a href="AbstractWagonTest_getTransferFailedException_en.html">AbstractWagonTest.getTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501173</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putResourceDoesNotExistException</span><a href="AbstractWagonTest_putResourceDoesNotExistException_2r.html">AbstractWagonTest.putResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501199</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryProxyInfo</span><a href="AbstractWagonTest_connectRepositoryProxyInfo_8x.html">AbstractWagonTest.connectRepositoryProxyInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015719</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.removeSessionListener</span><a href="AbstractWagonTest_removeSessionListener_c2.html">AbstractWagonTest.removeSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033852</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.readTimeOut</span><a href="AbstractWagonTest_readTimeOut_5f.html">AbstractWagonTest.readTimeOut</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974116</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerAuthorizationException</span><a href="AbstractWagonTest_getIfNewerAuthorizationException_eb.html">AbstractWagonTest.getIfNewerAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429653</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepository</span><a href="AbstractWagonTest_connectRepository_ft.html">AbstractWagonTest.connectRepository</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033875</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.simpleConstructor</span><a href="AbstractWagonTest_simpleConstructor_3u.html">AbstractWagonTest.simpleConstructor</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511023</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.timeOut</span><a href="AbstractWagonTest_timeOut_f.html">AbstractWagonTest.timeOut</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429593</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryProxyInfoProvider</span><a href="AbstractWagonTest_connectRepositoryProxyInfoProvider_7e.html">AbstractWagonTest.connectRepositoryProxyInfoProvider</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015725</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerNewer</span><a href="AbstractWagonTest_getIfNewerNewer_5x.html">AbstractWagonTest.getIfNewerNewer</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511034</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.015</span>0,015</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.addTransferListener</span><a href="AbstractWagonTest_addTransferListener_at.html">AbstractWagonTest.addTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033848</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putAuthorizationException</span><a href="AbstractWagonTest_putAuthorizationException_ca.html">AbstractWagonTest.putAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429594</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.002</span>0,002</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getAuthorizationException</span><a href="AbstractWagonTest_getAuthorizationException_34.html">AbstractWagonTest.getAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015730</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putTransferFailedException</span><a href="AbstractWagonTest_putTransferFailedException_5a.html">AbstractWagonTest.putTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511077</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getAuthorizationException</span><a href="AbstractWagonTest_getAuthorizationException_cb.html">AbstractWagonTest.getAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501205</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationInfo</span><a href="AbstractWagonTest_connectRepositoryAuthenticationInfo_6r.html">AbstractWagonTest.connectRepositoryAuthenticationInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033885</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putResourceDoesNotExistException</span><a href="AbstractWagonTest_putResourceDoesNotExistException_8c.html">AbstractWagonTest.putResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015723</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.readTimeOut</span><a href="AbstractWagonTest_readTimeOut_63.html">AbstractWagonTest.readTimeOut</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429589</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectConnectionException</span><a href="AbstractWagonTest_connectConnectionException_c5.html">AbstractWagonTest.connectConnectionException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974153</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.put</span><a href="AbstractWagonTest_put_a.html">AbstractWagonTest.put</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429631</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.openConnection</span><a href="AbstractWagonTest_openConnection_e5.html">AbstractWagonTest.openConnection</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015661</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.removeSessionListener</span><a href="AbstractWagonTest_removeSessionListener_31.html">AbstractWagonTest.removeSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501177</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getResourceDoesNotExistException</span><a href="AbstractWagonTest_getResourceDoesNotExistException_3b.html">AbstractWagonTest.getResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429635</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.get</span><a href="AbstractWagonTest_get_6f.html">AbstractWagonTest.get</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511065</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryProxyInfoProvider</span><a href="AbstractWagonTest_connectRepositoryProxyInfoProvider_b.html">AbstractWagonTest.connectRepositoryProxyInfoProvider</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033884</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.hasTransferListener</span><a href="AbstractWagonTest_hasTransferListener_cu.html">AbstractWagonTest.hasTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974142</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putAuthorizationException</span><a href="AbstractWagonTest_putAuthorizationException_7b.html">AbstractWagonTest.putAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501155</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerAuthorizationException</span><a href="AbstractWagonTest_getIfNewerAuthorizationException_bx.html">AbstractWagonTest.getIfNewerAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033887</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileListTransferFailedException</span><a href="AbstractWagonTest_getFileListTransferFailedException_fi.html">AbstractWagonTest.getFileListTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015738</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putTransferFailedException</span><a href="AbstractWagonTest_putTransferFailedException_2k.html">AbstractWagonTest.putTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501195</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerOlder</span><a href="AbstractWagonTest_getIfNewerOlder_4v.html">AbstractWagonTest.getIfNewerOlder</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429611</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.addSessionListener</span><a href="AbstractWagonTest_addSessionListener_8d.html">AbstractWagonTest.addSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033860</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepository</span><a href="AbstractWagonTest_connectRepository_5i.html">AbstractWagonTest.connectRepository</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501192</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.put</span><a href="AbstractWagonTest_put_77.html">AbstractWagonTest.put</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033865</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.readTimeOut</span><a href="AbstractWagonTest_readTimeOut_2n.html">AbstractWagonTest.readTimeOut</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033821</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putDirectory</span><a href="AbstractWagonTest_putDirectory_do.html">AbstractWagonTest.putDirectory</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015732</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putAuthorizationException</span><a href="AbstractWagonTest_putAuthorizationException_bl.html">AbstractWagonTest.putAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974120</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileListAuthorizationException</span><a href="AbstractWagonTest_getFileListAuthorizationException_9p.html">AbstractWagonTest.getFileListAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429617</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerOlder</span><a href="AbstractWagonTest_getIfNewerOlder_2y.html">AbstractWagonTest.getIfNewerOlder</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015687</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerOlder</span><a href="AbstractWagonTest_getIfNewerOlder_e6.html">AbstractWagonTest.getIfNewerOlder</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511050</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExists</span><a href="AbstractWagonTest_resourceExists_3m.html">AbstractWagonTest.resourceExists</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501180</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.openConnection</span><a href="AbstractWagonTest_openConnection_a4.html">AbstractWagonTest.openConnection</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033822</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.timeOut</span><a href="AbstractWagonTest_timeOut_83.html">AbstractWagonTest.timeOut</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501154</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getResourceDoesNotExistException</span><a href="AbstractWagonTest_getResourceDoesNotExistException_42.html">AbstractWagonTest.getResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015706</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerResourceDoesNotExistException</span><a href="AbstractWagonTest_getIfNewerResourceDoesNotExistException_8y.html">AbstractWagonTest.getIfNewerResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501198</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectConnectionException</span><a href="AbstractWagonTest_connectConnectionException_bq.html">AbstractWagonTest.connectConnectionException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429636</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.addSessionListener</span><a href="AbstractWagonTest_addSessionListener_k.html">AbstractWagonTest.addSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974145</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.hasTransferListener</span><a href="AbstractWagonTest_hasTransferListener_3w.html">AbstractWagonTest.hasTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501178</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationProxyInfo</span><a href="AbstractWagonTest_connectRepositoryAuthenticationProxyInfo_an.html">AbstractWagonTest.connectRepositoryAuthenticationProxyInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501203</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileListAuthorizationException</span><a href="AbstractWagonTest_getFileListAuthorizationException_64.html">AbstractWagonTest.getFileListAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015693</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.readTimeOut</span><a href="AbstractWagonTest_readTimeOut_4c.html">AbstractWagonTest.readTimeOut</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511025</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.disconnect</span><a href="AbstractWagonTest_disconnect_4i.html">AbstractWagonTest.disconnect</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015709</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExistsTransferFailedException</span><a href="AbstractWagonTest_resourceExistsTransferFailedException_ar.html">AbstractWagonTest.resourceExistsTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501187</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.removeTransferListener</span><a href="AbstractWagonTest_removeTransferListener_4q.html">AbstractWagonTest.removeTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974122</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryProxyInfo</span><a href="AbstractWagonTest_connectRepositoryProxyInfo_67.html">AbstractWagonTest.connectRepositoryProxyInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511078</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.addTransferListener</span><a href="AbstractWagonTest_addTransferListener_13.html">AbstractWagonTest.addTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501175</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectAuthenticationException</span><a href="AbstractWagonTest_connectAuthenticationException_53.html">AbstractWagonTest.connectAuthenticationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511067</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putDirectory</span><a href="AbstractWagonTest_putDirectory_8p.html">AbstractWagonTest.putDirectory</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429657</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerAuthorizationException</span><a href="AbstractWagonTest_getIfNewerAuthorizationException_4h.html">AbstractWagonTest.getIfNewerAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511087</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.addTransferListener</span><a href="AbstractWagonTest_addTransferListener_c.html">AbstractWagonTest.addTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974139</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putTransferFailedException</span><a href="AbstractWagonTest_putTransferFailedException_cc.html">AbstractWagonTest.putTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015713</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.removeTransferListener</span><a href="AbstractWagonTest_removeTransferListener_52.html">AbstractWagonTest.removeTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501157</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepository</span><a href="AbstractWagonTest_connectRepository_ch.html">AbstractWagonTest.connectRepository</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015711</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.simpleConstructor</span><a href="AbstractWagonTest_simpleConstructor_d9.html">AbstractWagonTest.simpleConstructor</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974114</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExistsAuthorizationException</span><a href="AbstractWagonTest_resourceExistsAuthorizationException_fo.html">AbstractWagonTest.resourceExistsAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033861</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.interactive</span><a href="AbstractWagonTest_interactive_1q.html">AbstractWagonTest.interactive</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015736</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.openConnection</span><a href="AbstractWagonTest_openConnection_30.html">AbstractWagonTest.openConnection</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511026</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.removeSessionListener</span><a href="AbstractWagonTest_removeSessionListener_dq.html">AbstractWagonTest.removeSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974141</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.removeTransferListener</span><a href="AbstractWagonTest_removeTransferListener_5q.html">AbstractWagonTest.removeTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511033</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileList</span><a href="AbstractWagonTest_getFileList_7k.html">AbstractWagonTest.getFileList</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033890</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.hasTransferListener</span><a href="AbstractWagonTest_hasTransferListener_7h.html">AbstractWagonTest.hasTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511059</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.hasSessionListener</span><a href="AbstractWagonTest_hasSessionListener_9h.html">AbstractWagonTest.hasSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015663</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.disconnectConnectionException</span><a href="AbstractWagonTest_disconnectConnectionException_6s.html">AbstractWagonTest.disconnectConnectionException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429612</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileListTransferFailedException</span><a href="AbstractWagonTest_getFileListTransferFailedException_f8.html">AbstractWagonTest.getFileListTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429663</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryProxyInfoProvider</span><a href="AbstractWagonTest_connectRepositoryProxyInfoProvider_5p.html">AbstractWagonTest.connectRepositoryProxyInfoProvider</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511083</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationProxyInfo</span><a href="AbstractWagonTest_connectRepositoryAuthenticationProxyInfo_ey.html">AbstractWagonTest.connectRepositoryAuthenticationProxyInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033886</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerTransferFailedException</span><a href="AbstractWagonTest_getIfNewerTransferFailedException_cg.html">AbstractWagonTest.getIfNewerTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501212</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putAuthorizationException</span><a href="AbstractWagonTest_putAuthorizationException_21.html">AbstractWagonTest.putAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033825</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.002</span>0,002</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.put</span><a href="AbstractWagonTest_put_2v.html">AbstractWagonTest.put</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015702</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.openConnection</span><a href="AbstractWagonTest_openConnection_8r.html">AbstractWagonTest.openConnection</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501152</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerResourceDoesNotExistException</span><a href="AbstractWagonTest_getIfNewerResourceDoesNotExistException_9.html">AbstractWagonTest.getIfNewerResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974161</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putResourceDoesNotExistException</span><a href="AbstractWagonTest_putResourceDoesNotExistException_d8.html">AbstractWagonTest.putResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429647</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.disconnect</span><a href="AbstractWagonTest_disconnect_9s.html">AbstractWagonTest.disconnect</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974154</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.get</span><a href="AbstractWagonTest_get_4.html">AbstractWagonTest.get</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015700</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileListAuthorizationException</span><a href="AbstractWagonTest_getFileListAuthorizationException_dh.html">AbstractWagonTest.getFileListAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511057</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileList</span><a href="AbstractWagonTest_getFileList_82.html">AbstractWagonTest.getFileList</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511089</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileListAuthorizationException</span><a href="AbstractWagonTest_getFileListAuthorizationException_f7.html">AbstractWagonTest.getFileListAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033850</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileList</span><a href="AbstractWagonTest_getFileList_9q.html">AbstractWagonTest.getFileList</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501206</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.get</span><a href="AbstractWagonTest_get_3x.html">AbstractWagonTest.get</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429629</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExistsTransferFailedException</span><a href="AbstractWagonTest_resourceExistsTransferFailedException_cn.html">AbstractWagonTest.resourceExistsTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429633</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.removeSessionListener</span><a href="AbstractWagonTest_removeSessionListener_fp.html">AbstractWagonTest.removeSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015694</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationInfo</span><a href="AbstractWagonTest_connectRepositoryAuthenticationInfo_4e.html">AbstractWagonTest.connectRepositoryAuthenticationInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501202</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerNewer</span><a href="AbstractWagonTest_getIfNewerNewer_co.html">AbstractWagonTest.getIfNewerNewer</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501159</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.01</span>0,01</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectAuthenticationException</span><a href="AbstractWagonTest_connectAuthenticationException_1j.html">AbstractWagonTest.connectAuthenticationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033867</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectAuthenticationException</span><a href="AbstractWagonTest_connectAuthenticationException_b1.html">AbstractWagonTest.connectAuthenticationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429632</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.interactive</span><a href="AbstractWagonTest_interactive_6.html">AbstractWagonTest.interactive</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429661</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepository</span><a href="AbstractWagonTest_connectRepository_c4.html">AbstractWagonTest.connectRepository</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974156</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putAuthorizationException</span><a href="AbstractWagonTest_putAuthorizationException_9e.html">AbstractWagonTest.putAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015666</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.003</span>0,003</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectConnectionException</span><a href="AbstractWagonTest_connectConnectionException_8j.html">AbstractWagonTest.connectConnectionException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511071</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putDirectory</span><a href="AbstractWagonTest_putDirectory_8w.html">AbstractWagonTest.putDirectory</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501207</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.addSessionListener</span><a href="AbstractWagonTest_addSessionListener_3e.html">AbstractWagonTest.addSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015698</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryProxyInfo</span><a href="AbstractWagonTest_connectRepositoryProxyInfo_a1.html">AbstractWagonTest.connectRepositoryProxyInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033879</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.002</span>0,002</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationInfo</span><a href="AbstractWagonTest_connectRepositoryAuthenticationInfo_7j.html">AbstractWagonTest.connectRepositoryAuthenticationInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511084</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.removeSessionListener</span><a href="AbstractWagonTest_removeSessionListener_8k.html">AbstractWagonTest.removeSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429618</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.timeOut</span><a href="AbstractWagonTest_timeOut_el.html">AbstractWagonTest.timeOut</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015664</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationInfoProxyInfoProvider</span><a href="AbstractWagonTest_connectRepositoryAuthenticationInfoProxyInfoProvider_8u.html">AbstractWagonTest.connectRepositoryAuthenticationInfoProxyInfoProvider</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974171</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExistsTransferFailedException</span><a href="AbstractWagonTest_resourceExistsTransferFailedException_bf.html">AbstractWagonTest.resourceExistsTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974151</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepository</span><a href="AbstractWagonTest_connectRepository_57.html">AbstractWagonTest.connectRepository</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429639</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExistsAuthorizationException</span><a href="AbstractWagonTest_resourceExistsAuthorizationException_5s.html">AbstractWagonTest.resourceExistsAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501182</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectAuthenticationException</span><a href="AbstractWagonTest_connectAuthenticationException_ez.html">AbstractWagonTest.connectAuthenticationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974149</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerAuthorizationException</span><a href="AbstractWagonTest_getIfNewerAuthorizationException_7n.html">AbstractWagonTest.getIfNewerAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015729</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putTransferFailedException</span><a href="AbstractWagonTest_putTransferFailedException_8.html">AbstractWagonTest.putTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033878</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileListAuthorizationException</span><a href="AbstractWagonTest_getFileListAuthorizationException_6i.html">AbstractWagonTest.getFileListAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974140</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileResourceDoesNotExistException</span><a href="AbstractWagonTest_getFileResourceDoesNotExistException_bh.html">AbstractWagonTest.getFileResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429641</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getResourceDoesNotExistException</span><a href="AbstractWagonTest_getResourceDoesNotExistException_98.html">AbstractWagonTest.getResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511070</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.putResourceDoesNotExistException</span><a href="AbstractWagonTest_putResourceDoesNotExistException_1n.html">AbstractWagonTest.putResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033883</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.disconnect</span><a href="AbstractWagonTest_disconnect_1t.html">AbstractWagonTest.disconnect</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501191</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.hasTransferListener</span><a href="AbstractWagonTest_hasTransferListener_eu.html">AbstractWagonTest.hasTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033857</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationInfoProxyInfoProvider</span><a href="AbstractWagonTest_connectRepositoryAuthenticationInfoProxyInfoProvider_4u.html">AbstractWagonTest.connectRepositoryAuthenticationInfoProxyInfoProvider</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501209</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.simpleConstructor</span><a href="AbstractWagonTest_simpleConstructor_cd.html">AbstractWagonTest.simpleConstructor</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429588</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.removeTransferListener</span><a href="AbstractWagonTest_removeTransferListener_dj.html">AbstractWagonTest.removeTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033828</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.timeOut</span><a href="AbstractWagonTest_timeOut_et.html">AbstractWagonTest.timeOut</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511029</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.addSessionListener</span><a href="AbstractWagonTest_addSessionListener_t.html">AbstractWagonTest.addSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429622</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.disconnectConnectionException</span><a href="AbstractWagonTest_disconnectConnectionException_3s.html">AbstractWagonTest.disconnectConnectionException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974136</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getTransferFailedException</span><a href="AbstractWagonTest_getTransferFailedException_ea.html">AbstractWagonTest.getTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511053</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileList</span><a href="AbstractWagonTest_getFileList_o.html">AbstractWagonTest.getFileList</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015731</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationProxyInfo</span><a href="AbstractWagonTest_connectRepositoryAuthenticationProxyInfo_6w.html">AbstractWagonTest.connectRepositoryAuthenticationProxyInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015727</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileResourceDoesNotExistException</span><a href="AbstractWagonTest_getFileResourceDoesNotExistException_5d.html">AbstractWagonTest.getFileResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974157</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationInfo</span><a href="AbstractWagonTest_connectRepositoryAuthenticationInfo_al.html">AbstractWagonTest.connectRepositoryAuthenticationInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015726</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getResourceDoesNotExistException</span><a href="AbstractWagonTest_getResourceDoesNotExistException_7p.html">AbstractWagonTest.getResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501188</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryProxyInfo</span><a href="AbstractWagonTest_connectRepositoryProxyInfo_5l.html">AbstractWagonTest.connectRepositoryProxyInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501196</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerTransferFailedException</span><a href="AbstractWagonTest_getIfNewerTransferFailedException_2o.html">AbstractWagonTest.getIfNewerTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974174</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.hasSessionListener</span><a href="AbstractWagonTest_hasSessionListener_4s.html">AbstractWagonTest.hasSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511027</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getAuthorizationException</span><a href="AbstractWagonTest_getAuthorizationException_cy.html">AbstractWagonTest.getAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033889</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.openConnection</span><a href="AbstractWagonTest_openConnection_dc.html">AbstractWagonTest.openConnection</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974117</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerOlder</span><a href="AbstractWagonTest_getIfNewerOlder_50.html">AbstractWagonTest.getIfNewerOlder</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974135</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.disconnectConnectionException</span><a href="AbstractWagonTest_disconnectConnectionException_4t.html">AbstractWagonTest.disconnectConnectionException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501172</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExists</span><a href="AbstractWagonTest_resourceExists_fm.html">AbstractWagonTest.resourceExists</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429621</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerTransferFailedException</span><a href="AbstractWagonTest_getIfNewerTransferFailedException_4l.html">AbstractWagonTest.getIfNewerTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033895</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.addTransferListener</span><a href="AbstractWagonTest_addTransferListener_dt.html">AbstractWagonTest.addTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429615</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryProxyInfoProvider</span><a href="AbstractWagonTest_connectRepositoryProxyInfoProvider_1g.html">AbstractWagonTest.connectRepositoryProxyInfoProvider</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974163</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectConnectionException</span><a href="AbstractWagonTest_connectConnectionException_39.html">AbstractWagonTest.connectConnectionException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033872</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getTransferFailedException</span><a href="AbstractWagonTest_getTransferFailedException_a0.html">AbstractWagonTest.getTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015690</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.timeOut</span><a href="AbstractWagonTest_timeOut_s.html">AbstractWagonTest.timeOut</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033824</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.interactive</span><a href="AbstractWagonTest_interactive_ej.html">AbstractWagonTest.interactive</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511094</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectConnectionException</span><a href="AbstractWagonTest_connectConnectionException_1x.html">AbstractWagonTest.connectConnectionException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015708</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerNewer</span><a href="AbstractWagonTest_getIfNewerNewer_5z.html">AbstractWagonTest.getIfNewerNewer</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033830</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.011</span>0,011</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileResourceDoesNotExistException</span><a href="AbstractWagonTest_getFileResourceDoesNotExistException_1h.html">AbstractWagonTest.getFileResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015712</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.simpleConstructor</span><a href="AbstractWagonTest_simpleConstructor_54.html">AbstractWagonTest.simpleConstructor</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501149</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExistsAuthorizationException</span><a href="AbstractWagonTest_resourceExistsAuthorizationException_dv.html">AbstractWagonTest.resourceExistsAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429623</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.005</span>0,005</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.removeSessionListener</span><a href="AbstractWagonTest_removeSessionListener_bs.html">AbstractWagonTest.removeSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511058</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryAuthenticationProxyInfo</span><a href="AbstractWagonTest_connectRepositoryAuthenticationProxyInfo_2j.html">AbstractWagonTest.connectRepositoryAuthenticationProxyInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429652</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.supportsDirectoryCopy</span><a href="AbstractWagonTest_supportsDirectoryCopy_af.html">AbstractWagonTest.supportsDirectoryCopy</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511094</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryProxyInfo</span><a href="AbstractWagonTest_connectRepositoryProxyInfo_bc.html">AbstractWagonTest.connectRepositoryProxyInfo</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974159</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getTransferFailedException</span><a href="AbstractWagonTest_getTransferFailedException_25.html">AbstractWagonTest.getTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974137</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerResourceDoesNotExistException</span><a href="AbstractWagonTest_getIfNewerResourceDoesNotExistException_26.html">AbstractWagonTest.getIfNewerResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429646</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.hasSessionListener</span><a href="AbstractWagonTest_hasSessionListener_90.html">AbstractWagonTest.hasSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033823</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getAuthorizationException</span><a href="AbstractWagonTest_getAuthorizationException_3n.html">AbstractWagonTest.getAuthorizationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511088</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.disconnect</span><a href="AbstractWagonTest_disconnect_3p.html">AbstractWagonTest.disconnect</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511073</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.addSessionListener</span><a href="AbstractWagonTest_addSessionListener_e0.html">AbstractWagonTest.addSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511062</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileList</span><a href="AbstractWagonTest_getFileList_fd.html">AbstractWagonTest.getFileList</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429656</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExists</span><a href="AbstractWagonTest_resourceExists_2z.html">AbstractWagonTest.resourceExists</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033859</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.hasSessionListener</span><a href="AbstractWagonTest_hasSessionListener_bd.html">AbstractWagonTest.hasSessionListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501152</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.supportsDirectoryCopy</span><a href="AbstractWagonTest_supportsDirectoryCopy_6d.html">AbstractWagonTest.supportsDirectoryCopy</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763033894</span>29 out 14:43:53</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.openConnection</span><a href="AbstractWagonTest_openConnection_9f.html">AbstractWagonTest.openConnection</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429590</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.disconnect</span><a href="AbstractWagonTest_disconnect_3.html">AbstractWagonTest.disconnect</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429638</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.addTransferListener</span><a href="AbstractWagonTest_addTransferListener_2e.html">AbstractWagonTest.addTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015692</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.hasTransferListener</span><a href="AbstractWagonTest_hasTransferListener_46.html">AbstractWagonTest.hasTransferListener</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015695</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.get</span><a href="AbstractWagonTest_get_e8.html">AbstractWagonTest.get</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974147</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getFileList</span><a href="AbstractWagonTest_getFileList_40.html">AbstractWagonTest.getFileList</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477762974169</span>29 out 14:42:54</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectAuthenticationException</span><a href="AbstractWagonTest_connectAuthenticationException_78.html">AbstractWagonTest.connectAuthenticationException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501185</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.getIfNewerResourceDoesNotExistException</span><a href="AbstractWagonTest_getIfNewerResourceDoesNotExistException_cw.html">AbstractWagonTest.getIfNewerResourceDoesNotExistException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671511080</span>28 out 13:18:31</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.readTimeOut</span><a href="AbstractWagonTest_readTimeOut_eq.html">AbstractWagonTest.readTimeOut</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015660</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.simpleConstructor</span><a href="AbstractWagonTest_simpleConstructor_bo.html">AbstractWagonTest.simpleConstructor</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015657</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.supportsDirectoryCopy</span><a href="AbstractWagonTest_supportsDirectoryCopy_95.html">AbstractWagonTest.supportsDirectoryCopy</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501210</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.disconnectConnectionException</span><a href="AbstractWagonTest_disconnectConnectionException_x.html">AbstractWagonTest.disconnectConnectionException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015688</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.connectRepositoryProxyInfoProvider</span><a href="AbstractWagonTest_connectRepositoryProxyInfoProvider_ce.html">AbstractWagonTest.connectRepositoryProxyInfoProvider</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671429649</span>28 out 13:17:09</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.interactive</span><a href="AbstractWagonTest_interactive_79.html">AbstractWagonTest.interactive</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477671501211</span>28 out 13:18:21</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">AbstractWagonTest.resourceExistsTransferFailedException</span><a href="AbstractWagonTest_resourceExistsTransferFailedException_4r.html">AbstractWagonTest.resourceExistsTransferFailedException</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1477763015705</span>29 out 14:43:35</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0,001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+
+    </tbody>
+</table>
+
+    </div> <!-- tabs-pane -->
+</div> <!-- aui-tabs horizontal-tabs -->
+
+                        </div> <!-- class="aui-page-panel-content-clover" -->
+                    <footer id="footer" role="contentinfo">
+    <section class="footer-body">
+        <ul>
+            <li>
+                Report generated by <a target="_new" href="http://www.atlassian.com/software/clover">Atlassian Clover</a> v 4.1.1
+                on Sáb out 29 2016 14:44:01 BRT using coverage data from Sáb out 29 2016 14:43:53 BRT.
+            </li>
+        </ul>
+        <ul>
+            <li>Clover Evaluation License registered to Clover Maven Plugin. You have 24 day(s) before your license expires.</li>
+        </ul>
+        <div id="footer-logo">
+            <a target="_blank" href="http://www.atlassian.com/">
+                Atlassian
+            </a>
+        </div>
+    </section>
+</footer>                </section> <!-- class="aui-page-panel-content" -->
+            </div> <!-- class="aui-page-panel-inner" -->
+        </div> <!-- class="aui-page-panel" -->
+    </div> <!-- id="page" -->
+</body>
+</html>
