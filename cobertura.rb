@@ -10,7 +10,7 @@ coverage = []
 file_paths = []
 
 Find.find('cobertura/') do |path|
-  file_paths << path if path =~ /.*\/pkg-summary\.html$/
+  file_paths << path if path =~ /.*\/testsrc-pkg-summary\.html$/
 end
 
 # pp file_paths
@@ -41,7 +41,7 @@ file_paths.each do |html_files|
   end
 
   project_name = html_files.split("/")[1]
-  path = html_files.gsub("/pkg-summary.html", "")
+  path = html_files.gsub("/testsrc-pkg-summary.html", "")
   puts path
 
   # extrair nome do método e cobertura
