@@ -9,20 +9,25 @@ file = ""
 
 file_paths = []
 
-Find.find('tempo/') do |path|
-  file_paths << path if path =~ /.*\.xml$/
+# Find.find('tempo/') do |path|
+Dir.glob('/home/guilherme/spring-projects/maven/*') do |project_dir|
+
+  Find.find("#{project_dir}/") do |path|
+    # file_paths << path if path =~ /.(TEST-)*\.xml$/
+    file_paths << path if path.include?('.xml') && path.include?('TEST-')
+  end
 end
 
-projects = []
 # Dir.glob("tempo/*/*.xml") do |xml_files|
 file_paths.each do |xml_files|
-  project_name = xml_files.split("/")[1]
+  project_name = xml_files.split("/")[5]
 
   File.open("#{xml_files}", 'r') do |xml_file|
     while line = xml_file.gets
       if line.include? "testcase"
-        file << line
-        # projects << project_name
+        str = line.gsub("time=", " project=\"#{project_name}\" time=")
+        puts str
+        file << str
       end
     end
   end
@@ -39,8 +44,8 @@ xml = Nokogiri::XML(file)
 # gerar planilha com os dados
 Axlsx::Package.new do |p|
   p.workbook.add_worksheet(:name => "testcases") do |sheet|
-    sheet.add_row %w{TESTCASE CLASS TIME}
-    xml.child.elements.each_with_index { |e,i| sheet.add_row([ e.attributes["name"].value, e.attributes["classname"].value, e.attributes["time"].value]) }
+    sheet.add_row %w{PROJECT TESTCASE CLASS TIME}
+    xml.child.elements.each_with_index { |e,i| sheet.add_row([ e.attributes["project"].value, e.attributes["name"].value, e.attributes["classname"].value, e.attributes["time"].value]) }
   end
   p.serialize('tempo.xlsx')
 end

@@ -9,7 +9,8 @@ coverage = []
 
 file_paths = []
 
-Find.find('cobertura/') do |path|
+# Find.find('cobertura/') do |path|
+Find.find('/home/guilherme/spring-projects/maven/') do |path|
   file_paths << path if path =~ /.*\/testsrc-pkg-summary\.html$/
 end
 
