@@ -6,15 +6,12 @@ require 'pp'
 require 'find'
 
 coverage = []
-
 file_paths = []
 
 # Find.find('cobertura/') do |path|
 Find.find('/home/guilherme/spring-projects/maven/') do |path|
   file_paths << path if path =~ /.*\/testsrc-pkg-summary\.html$/
 end
-
-# pp file_paths
 
 # ler arquivos html
 file_paths.each do |html_files|
@@ -41,7 +38,7 @@ file_paths.each do |html_files|
     class_name
   end
 
-  project_name = html_files.split("/")[1]
+  project_name = html_files.split("/")[5]
   path = html_files.gsub("/testsrc-pkg-summary.html", "")
   puts path
 
@@ -76,9 +73,7 @@ file_paths.each do |html_files|
       coverage << {project: project_name, class: c[:class_name], method_name: e[:method_name], coverage: e[:coverage]}
     end
   end
-
 end
-
 
 # gerar planilha com os dados
 Axlsx::Package.new do |p|

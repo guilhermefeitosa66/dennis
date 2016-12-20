@@ -11,7 +11,6 @@ file_paths = []
 
 # Find.find('tempo/') do |path|
 Dir.glob('/home/guilherme/spring-projects/maven/*') do |project_dir|
-
   Find.find("#{project_dir}/") do |path|
     # file_paths << path if path =~ /.(TEST-)*\.xml$/
     file_paths << path if path.include?('.xml') && path.include?('TEST-')
