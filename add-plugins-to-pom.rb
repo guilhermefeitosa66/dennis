@@ -24,11 +24,19 @@ pom_files.each do |path|
   xml = Nokogiri::XML(file)
   node = nil
 
-  xml.xpath('.//*').each do |n|
-    node = n if n.name == "plugins"
+  # xml.xpath('.//*').each do |n|
+  #   node = n if n.name == "plugins"
+  # end
+
+  xml.xpath('.//*').each {|n| @build = n if n.name == "build"}
+
+  if @build.nil?
+    next
+  else
+    @build.children.each {|n| @plugins = n if n.name == "plugins" }
   end
 
-  next if node.nil?
+  # next if node.nil?
 
   surefire = 
   '<plugin>
@@ -55,9 +63,9 @@ pom_files.each do |path|
     <version>4.1.1</version>
   </plugin>'
 
-  node.first_element_child.before(surefire) unless xml.to_s.include? "maven-surefire-plugin"
-  node.first_element_child.before(sonar)    unless xml.to_s.include? "sonar-maven-plugin"
-  node.first_element_child.before(clover)   unless xml.to_s.include? "clover-maven-plugin"
+  @plugins.first_element_child.before(surefire) unless @plugins.to_s.include? "maven-surefire-plugin"
+  @plugins.first_element_child.before(sonar)    unless @plugins.to_s.include? "sonar-maven-plugin"
+  @plugins.first_element_child.before(clover)   unless @plugins.to_s.include? "clover-maven-plugin"
 
   # cria novo arquivo xml alterado
   File.open("#{path}", 'w') do |new_file|

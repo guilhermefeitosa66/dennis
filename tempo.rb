@@ -11,6 +11,8 @@ file_paths = []
 
 # Find.find('tempo/') do |path|
 Dir.glob('/home/guilherme/spring-projects/maven/*') do |project_dir|
+  puts project_dir
+  
   Find.find("#{project_dir}/") do |path|
     # file_paths << path if path =~ /.(TEST-)*\.xml$/
     file_paths << path if path.include?('.xml') && path.include?('TEST-')
@@ -25,7 +27,6 @@ file_paths.each do |xml_files|
     while line = xml_file.gets
       if line.include? "testcase"
         str = line.gsub("time=", " project=\"#{project_name}\" time=")
-        puts str
         file << str
       end
     end

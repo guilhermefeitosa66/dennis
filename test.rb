@@ -25,8 +25,14 @@ end
 xml = Nokogiri::XML(file)
 node = nil
 
-xml.xpath('.//*').each do |n|
-  node = n if n.name == "plugins"
+# xml.xpath('.//*').each do |n|
+#   node = n if n.name == "plugins"
+# end
+
+xml.xpath('.//*').each {|n| @build = n if n.name == "build"}
+
+if !@build.nil?
+  @build.children.each {|n| @plugins = n if n.name == "plugins" }
 end
 
 plugins = 
