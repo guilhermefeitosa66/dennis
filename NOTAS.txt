@@ -1,0 +1,2 @@
+Plugin para tempo de execução: surefire-report
+Plugin para complexidade ciclomática: javancss-maven-plugin
