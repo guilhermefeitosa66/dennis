@@ -1,2 +1,56 @@
 Plugin para tempo de execução: surefire-report
 Plugin para complexidade ciclomática: javancss-maven-plugin
+
+  <reporting>
+    <plugins>
+      <!-- COMPLEXIDADE CICLOMÁTICA -->
+      <plugin>      
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>javancss-maven-plugin</artifactId>
+        <version>2.1</version>
+      </plugin>
+
+      <!-- COBERTURA -->
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.7.8</version>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <!-- select non-aggregate reports -->
+              <report>report</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+
+
+      <!-- TEMPO -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.16</version>
+        <configuration>
+          <formats>
+            <format>html</format>
+            <format>xml</format>
+          </formats>
+        </configuration>
+      </plugin>
+
+    </plugins>
+  </reporting>
+
+
+  JACOCO REPORT
+
+the Cxty value is the TOTAL cyclomatic complexity whereas the Missed column next to it, is the missed number of complexity paths. I think this number reflects on the number of bytecode instructions as opposed to the number of java instructions.
+
+You cant calculate the complexity just by looking at the total number of branches and the total number of missed branches since the complexity measurement depends on the number of instructions aswell as the number of branches.
+
+Adding a branch to an sequence of instructions would result in the complexity incrementing by one as there is an added instruction + 2 added pathways (true and false). However adding a non-branch instruction to that sequence of instructions would not affect the complexity since there is no added extended path to take.
+
+Using java bytecode instead of java code would not make a difference to the metric, assuming that one if statement would be converted to one branch statement.
+
+The McCabe1996 link in the jacoco documentation gives some more indepth information with examples.
