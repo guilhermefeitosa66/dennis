@@ -22,34 +22,35 @@ require 'axlsx' # gem install axlsx
 
 # pp lines.first
 
-file = ""
 file_paths = []
+objects = []
 
 ## Ler todos os arquivos jacoco.xml
 Find.find("/home/guilherme/spring-projects/maven/") do |path|
-  file_paths << path if path.include?('jacoco.xml')
+  file_paths << path if path.include?('jacoco.xml')# && path.include?('greenhouse')
 end
 
-# file_paths.each do |xml_files|
-#   project_name = xml_files.split("/")[5]
+file_paths.each do |xml_file|
+  file = ""
+  project_name = xml_files.split("/")[5]
 
-#   File.open("#{xml_files}", 'r') do |xml_file|
-#     while line = xml_file.gets
-#       if line.include? "testcase"
-#         str = line.gsub("time=", " project=\"#{project_name}\" time=")
-#         file << str
-#       end
-#     end
-#   end
+  File.open("#{xml_file}", 'r') do |xml|
+    while line = xml.gets
+      file << line
+    end
+  end
+
+  xml = Nokogiri::XML(file)
+  node = nil
+end
+
+# # gerar planilha com os dados
+# Axlsx::Package.new do |p|
+#  p.workbook.add_worksheet(:name => "cobertura") do |sheet|
+#    sheet.add_row %w{PROJECT PACKAGE CLASS COVERAGE}
+#    lines.each_with_index { |e,i| sheet.add_row([ e.attributes["project"].value, e.attributes["name"].value, e.attributes["classname"].value, e.attributes["time"].value]) }
+#  end
+#  p.serialize('cobertura.xlsx')
 # end
-
-# gerar planilha com os dados
-Axlsx::Package.new do |p|
- p.workbook.add_worksheet(:name => "cobertura") do |sheet|
-   sheet.add_row %w{PROJECT PACKAGE CLASS COVERAGE}
-   lines.each_with_index { |e,i| sheet.add_row([ e.attributes["project"].value, e.attributes["name"].value, e.attributes["classname"].value, e.attributes["time"].value]) }
- end
- p.serialize('cobertura.xlsx')
-end
 
 puts "done!"
