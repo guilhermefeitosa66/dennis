@@ -1,0 +1,664 @@
+16:45:12  INFO # ----------------------------------------- #
+16:45:12  INFO #          Smelly Cat - Spring MVC          #
+16:45:12  INFO #  www.github.com/mauricioaniche/smellycat  #
+16:45:12  INFO # ----------------------------------------- #
+16:45:12  INFO Running CK metrics
+16:45:13  INFO Found 216 java files
+16:45:13  INFO Max partition size: 300, total partitions=1
+16:45:13  INFO Next partition
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/jms/src/main/java/siia/jms/JmsTemplateDemo.java, className=siia.jms.JmsTemplateDemo, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=4, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/jms/src/main/java/siia/jms/Exclaimer.java, className=siia.jms.Exclaimer, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/jms/src/main/java/siia/jms/DirectJmsDemo.java, className=siia.jms.DirectJmsDemo, type=class, dit=1, noc=0, wmc=4, cbo=9, lcom=0, rfc=11, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/jms/src/main/java/siia/jms/MessageListenerContainerDemo.java, className=siia.jms.MessageListenerContainerDemo, type=class, dit=1, noc=0, wmc=5, cbo=7, lcom=1, rfc=9, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/jms/src/main/java/siia/jms/Greeter.java, className=siia.jms.Greeter, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/jms/src/main/java/siia/jms/ChannelAdapterDemo.java, className=siia.jms.ChannelAdapterDemo, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=4, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/jms/src/main/java/siia/jms/GatewayDemo.java, className=siia.jms.GatewayDemo, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=4, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/jms/src/main/java/siia/jms/MessageDrivenPojoDemo.java, className=siia.jms.MessageDrivenPojoDemo, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=2, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/FlightDelayEvent.java, className=siia.business.FlightDelayEvent, type=class, dit=1, noc=0, wmc=2, cbo=1, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/FlightStatusNotificationPublisher.java, className=siia.business.FlightStatusNotificationPublisher, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/FlightScheduler.java, className=siia.business.FlightScheduler, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/Equipment.java, className=siia.business.Equipment, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/Flight.java, className=siia.business.Flight, type=class, dit=1, noc=0, wmc=15, cbo=4, lcom=87, rfc=0, nom=15, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/Passenger.java, className=siia.business.Passenger, type=class, dit=1, noc=0, wmc=4, cbo=1, lcom=2, rfc=0, nom=4, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/FlightStatusEvent.java, className=siia.business.FlightStatusEvent, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/FlightStatus.java, className=siia.business.FlightStatus, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/NotificationDemo.java, className=siia.business.NotificationDemo, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=2, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/SimpleFlightStatusService.java, className=siia.business.SimpleFlightStatusService, type=class, dit=1, noc=0, wmc=1, cbo=6, lcom=0, rfc=0, nom=1, specific={role=5}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/FrequentFlyerService.java, className=siia.business.FrequentFlyerService, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/Airport.java, className=siia.business.Airport, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/PassengerProfileEnricher.java, className=siia.business.PassengerProfileEnricher, type=class, dit=1, noc=0, wmc=6, cbo=5, lcom=0, rfc=3, nom=2, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/Crew.java, className=siia.business.Crew, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/EmailHeaderEnricher.java, className=siia.business.EmailHeaderEnricher, type=class, dit=1, noc=0, wmc=5, cbo=6, lcom=0, rfc=6, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/FlightEventTransformer.java, className=siia.business.FlightEventTransformer, type=class, dit=1, noc=0, wmc=2, cbo=5, lcom=0, rfc=11, nom=2, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/Profile.java, className=siia.business.Profile, type=class, dit=1, noc=0, wmc=2, cbo=0, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/FlightStatusService.java, className=siia.business.FlightStatusService, type=interface, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/FlightDelayEmailGenerator.java, className=siia.business.FlightDelayEmailGenerator, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=5}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/main/java/siia/business/Seat.java, className=siia.business.Seat, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/test/java/siia/business/ExpressionBasedHeaderEnricherTests.java, className=siia.business.ExpressionBasedHeaderEnricherTests, type=class, dit=1, noc=0, wmc=1, cbo=9, lcom=0, rfc=9, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/test/java/siia/business/StubFlightScheduler.java, className=siia.business.StubFlightScheduler, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/test/java/siia/business/StubFrequentFlyerService.java, className=siia.business.StubFrequentFlyerService, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/test/java/siia/business/FlightStatusPublisherTests.java, className=siia.business.FlightStatusPublisherTests, type=class, dit=1, noc=0, wmc=1, cbo=9, lcom=0, rfc=7, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/test/java/siia/business/StubMailSender.java, className=siia.business.StubMailSender, type=class, dit=1, noc=0, wmc=16, cbo=5, lcom=1, rfc=4, nom=10, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/test/java/siia/business/ChainTests.java, className=siia.business.ChainTests, type=class, dit=1, noc=0, wmc=1, cbo=9, lcom=0, rfc=7, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/test/java/siia/business/FlightDelayTransformerIntegrationTests.java, className=siia.business.FlightDelayTransformerIntegrationTests, type=class, dit=1, noc=0, wmc=1, cbo=8, lcom=0, rfc=11, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/test/java/siia/business/PassengerProfileEnricherTest.java, className=siia.business.PassengerProfileEnricherTest, type=class, dit=1, noc=0, wmc=2, cbo=4, lcom=1, rfc=5, nom=2, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/business/src/test/java/siia/business/EmailHeaderEnricherTests.java, className=siia.business.EmailHeaderEnricherTests, type=class, dit=1, noc=0, wmc=1, cbo=9, lcom=0, rfc=9, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/main/java/siia/channels/CustomerPriorityComparator.java, className=siia.channels.CustomerPriorityComparator, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=2, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/main/java/siia/channels/StubEmailConfirmationService.java, className=siia.channels.StubEmailConfirmationService, type=class, dit=1, noc=0, wmc=3, cbo=7, lcom=1, rfc=11, nom=3, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/main/java/siia/channels/SeatConfirmation.java, className=siia.channels.SeatConfirmation, type=class, dit=1, noc=0, wmc=3, cbo=2, lcom=0, rfc=0, nom=3, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/main/java/siia/channels/Booking.java, className=siia.channels.Booking, type=class, dit=1, noc=0, wmc=5, cbo=0, lcom=6, rfc=0, nom=5, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/main/java/siia/channels/ChargedBooking.java, className=siia.channels.ChargedBooking, type=class, dit=1, noc=0, wmc=3, cbo=2, lcom=0, rfc=0, nom=3, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/main/java/siia/channels/Email.java, className=siia.channels.Email, type=class, dit=1, noc=0, wmc=5, cbo=0, lcom=0, rfc=0, nom=5, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/main/java/siia/channels/ChannelAuditor.java, className=siia.channels.ChannelAuditor, type=class, dit=2, noc=0, wmc=2, cbo=6, lcom=0, rfc=2, nom=2, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/main/java/siia/channels/AuditRecord.java, className=siia.channels.AuditRecord, type=class, dit=1, noc=0, wmc=2, cbo=0, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/main/java/siia/channels/SeatAvailabilityService.java, className=siia.channels.SeatAvailabilityService, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/main/java/siia/channels/AuditService.java, className=siia.channels.AuditService, type=class, dit=1, noc=0, wmc=2, cbo=1, lcom=0, rfc=1, nom=2, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/main/java/siia/channels/BillForBookingService.java, className=siia.channels.BillForBookingService, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/main/java/siia/channels/Seat.java, className=siia.channels.Seat, type=class, dit=1, noc=0, wmc=2, cbo=0, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/test/java/siia/channels/ChannelsBufferedTest.java, className=siia.channels.ChannelsBufferedTest, type=class, dit=1, noc=0, wmc=1, cbo=9, lcom=0, rfc=10, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/test/java/siia/channels/ChannelSelectorTest.java, className=siia.channels.ChannelSelectorTest, type=class, dit=1, noc=0, wmc=3, cbo=10, lcom=0, rfc=15, nom=2, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/test/java/siia/channels/AllChannelsDirectTest.java, className=siia.channels.AllChannelsDirectTest, type=class, dit=1, noc=0, wmc=1, cbo=9, lcom=0, rfc=10, nom=1, specific={role=9999}]
+16:45:16  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/test/java/siia/channels/ChannelsBridgeTest.java, className=siia.channels.ChannelsBridgeTest, type=class, dit=1, noc=0, wmc=1, cbo=9, lcom=0, rfc=10, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/test/java/siia/channels/ChannelsPriorityTest.java, className=siia.channels.ChannelsPriorityTest, type=class, dit=1, noc=0, wmc=1, cbo=10, lcom=0, rfc=10, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/messages-channels/src/test/java/siia/channels/ChannelInterceptorTest.java, className=siia.channels.ChannelInterceptorTest, type=class, dit=1, noc=0, wmc=1, cbo=12, lcom=0, rfc=17, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/car/CarType.java, className=siia.booking.domain.car.CarType, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/car/CarCriteria.java, className=siia.booking.domain.car.CarCriteria, type=class, dit=1, noc=0, wmc=2, cbo=1, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/car/CarRentalBooking.java, className=siia.booking.domain.car.CarRentalBooking, type=class, dit=1, noc=0, wmc=5, cbo=2, lcom=2, rfc=0, nom=5, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/car/CarRentalQuote.java, className=siia.booking.domain.car.CarRentalQuote, type=class, dit=1, noc=0, wmc=3, cbo=2, lcom=0, rfc=0, nom=3, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/car/CarRental.java, className=siia.booking.domain.car.CarRental, type=class, dit=1, noc=0, wmc=11, cbo=1, lcom=25, rfc=0, nom=11, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/flight/FlightSchedule.java, className=siia.booking.domain.flight.FlightSchedule, type=class, dit=1, noc=0, wmc=4, cbo=2, lcom=0, rfc=3, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/flight/Flight.java, className=siia.booking.domain.flight.Flight, type=class, dit=1, noc=0, wmc=6, cbo=2, lcom=5, rfc=0, nom=6, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/flight/FlightBooking.java, className=siia.booking.domain.flight.FlightBooking, type=class, dit=1, noc=0, wmc=4, cbo=2, lcom=0, rfc=0, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/flight/FlightQuote.java, className=siia.booking.domain.flight.FlightQuote, type=class, dit=1, noc=0, wmc=3, cbo=2, lcom=0, rfc=0, nom=3, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/flight/FlightSeatClass.java, className=siia.booking.domain.flight.FlightSeatClass, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/flight/FlightCriteria.java, className=siia.booking.domain.flight.FlightCriteria, type=class, dit=1, noc=0, wmc=4, cbo=1, lcom=2, rfc=0, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/cancellation/CancellationsService.java, className=siia.booking.domain.cancellation.CancellationsService, type=interface, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/cancellation/CancellationConfirmation.java, className=siia.booking.domain.cancellation.CancellationConfirmation, type=class, dit=1, noc=0, wmc=4, cbo=0, lcom=2, rfc=0, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/cancellation/StubCancellationsService.java, className=siia.booking.domain.cancellation.StubCancellationsService, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/cancellation/CancellationRequest.java, className=siia.booking.domain.cancellation.CancellationRequest, type=class, dit=1, noc=0, wmc=4, cbo=1, lcom=4, rfc=0, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/trip/TripRepository.java, className=siia.booking.domain.trip.TripRepository, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/trip/Leg.java, className=siia.booking.domain.trip.Leg, type=class, dit=1, noc=0, wmc=25, cbo=4, lcom=18, rfc=12, nom=9, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/trip/BookedTrip.java, className=siia.booking.domain.trip.BookedTrip, type=class, dit=1, noc=0, wmc=2, cbo=2, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/trip/TripQuoteRequest.java, className=siia.booking.domain.trip.TripQuoteRequest, type=class, dit=1, noc=0, wmc=4, cbo=1, lcom=0, rfc=0, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/trip/LegQuoteCommand.java, className=siia.booking.domain.trip.LegQuoteCommand, type=class, dit=1, noc=0, wmc=10, cbo=5, lcom=33, rfc=0, nom=10, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/trip/CreateTripCommand.java, className=siia.booking.domain.trip.CreateTripCommand, type=class, dit=1, noc=0, wmc=2, cbo=1, lcom=0, rfc=1, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/trip/Trip.java, className=siia.booking.domain.trip.Trip, type=class, dit=1, noc=0, wmc=2, cbo=1, lcom=0, rfc=1, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/trip/BookedLeg.java, className=siia.booking.domain.trip.BookedLeg, type=class, dit=1, noc=0, wmc=12, cbo=4, lcom=36, rfc=0, nom=12, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/user/User.java, className=siia.booking.domain.user.User, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/FinancialAmount.java, className=siia.booking.domain.FinancialAmount, type=class, dit=1, noc=0, wmc=12, cbo=1, lcom=24, rfc=6, nom=8, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/notifications/TripNotification.java, className=siia.booking.domain.notifications.TripNotification, type=class, dit=1, noc=0, wmc=3, cbo=1, lcom=0, rfc=0, nom=3, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/notifications/SmsNotifiable.java, className=siia.booking.domain.notifications.SmsNotifiable, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/notifications/Priority.java, className=siia.booking.domain.notifications.Priority, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/notifications/Notifiable.java, className=siia.booking.domain.notifications.Notifiable, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/notifications/FlightNotification.java, className=siia.booking.domain.notifications.FlightNotification, type=class, dit=1, noc=0, wmc=6, cbo=3, lcom=5, rfc=1, nom=6, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/Location.java, className=siia.booking.domain.Location, type=class, dit=1, noc=0, wmc=9, cbo=2, lcom=17, rfc=7, nom=7, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/Command.java, className=siia.booking.domain.Command, type=interface, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/binding/JodaDateTimeAdapter.java, className=siia.booking.domain.binding.JodaDateTimeAdapter, type=class, dit=2, noc=0, wmc=2, cbo=1, lcom=1, rfc=6, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/hotel/HotelCriteria.java, className=siia.booking.domain.hotel.HotelCriteria, type=class, dit=1, noc=0, wmc=4, cbo=1, lcom=2, rfc=0, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/hotel/Hotel.java, className=siia.booking.domain.hotel.Hotel, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/hotel/RoomType.java, className=siia.booking.domain.hotel.RoomType, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/hotel/HotelQuote.java, className=siia.booking.domain.hotel.HotelQuote, type=class, dit=1, noc=0, wmc=5, cbo=2, lcom=2, rfc=0, nom=5, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/hotel/HotelBooking.java, className=siia.booking.domain.hotel.HotelBooking, type=class, dit=1, noc=0, wmc=9, cbo=2, lcom=20, rfc=0, nom=9, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/payment/Invoice.java, className=siia.booking.domain.payment.Invoice, type=class, dit=2, noc=0, wmc=0, cbo=1, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/payment/PaypalPayment.java, className=siia.booking.domain.payment.PaypalPayment, type=class, dit=2, noc=0, wmc=0, cbo=1, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/payment/PaymentSettlement.java, className=siia.booking.domain.payment.PaymentSettlement, type=class, dit=1, noc=0, wmc=2, cbo=1, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/payment/PaymentManager.java, className=siia.booking.domain.payment.PaymentManager, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=3, rfc=0, nom=3, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/payment/CreditCardPayment.java, className=siia.booking.domain.payment.CreditCardPayment, type=class, dit=2, noc=0, wmc=8, cbo=2, lcom=20, rfc=0, nom=8, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/main/java/siia/booking/domain/payment/CreditCardType.java, className=siia.booking.domain.payment.CreditCardType, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/test/java/siia/booking/domain/trip/LegMarshallingTest.java, className=siia.booking.domain.trip.LegMarshallingTest, type=class, dit=1, noc=0, wmc=2, cbo=4, lcom=0, rfc=6, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/domain/src/test/java/siia/booking/domain/trip/LegQuoteMarshallingTest.java, className=siia.booking.domain.trip.LegQuoteMarshallingTest, type=class, dit=1, noc=0, wmc=3, cbo=12, lcom=0, rfc=15, nom=3, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/main/java/siia/booking/integration/cancellation/CancellationsGateway.java, className=siia.booking.integration.cancellation.CancellationsGateway, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/main/java/siia/booking/integration/cancellation/CancellationRequestFilter.java, className=siia.booking.integration.cancellation.CancellationRequestFilter, type=class, dit=1, noc=0, wmc=2, cbo=2, lcom=0, rfc=3, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/main/java/siia/booking/integration/purchases/LegQuoteAggregator.java, className=siia.booking.integration.purchases.LegQuoteAggregator, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/main/java/siia/booking/integration/notifications/RelatedTripsHeaderEnricher.java, className=siia.booking.integration.notifications.RelatedTripsHeaderEnricher, type=class, dit=1, noc=0, wmc=2, cbo=4, lcom=0, rfc=3, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/main/java/siia/booking/integration/notifications/FlightToTripNotificationsSplitter.java, className=siia.booking.integration.notifications.FlightToTripNotificationsSplitter, type=class, dit=1, noc=0, wmc=2, cbo=5, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/main/java/siia/booking/integration/notifications/NotificationsRouter.java, className=siia.booking.integration.notifications.NotificationsRouter, type=class, dit=1, noc=0, wmc=7, cbo=1, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/main/java/siia/booking/integration/routing/PaymentSettlementRouter.java, className=siia.booking.integration.routing.PaymentSettlementRouter, type=class, dit=1, noc=0, wmc=7, cbo=4, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/test/java/siia/booking/integration/FlightNotificationsTest.java, className=siia.booking.integration.FlightNotificationsTest, type=class, dit=1, noc=0, wmc=5, cbo=17, lcom=6, rfc=24, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/test/java/siia/booking/integration/StubMailSender.java, className=siia.booking.integration.StubMailSender, type=class, dit=1, noc=0, wmc=16, cbo=5, lcom=1, rfc=4, nom=10, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/test/java/siia/booking/integration/LegQuoteIntegrationTest.java, className=siia.booking.integration.LegQuoteIntegrationTest, type=class, dit=1, noc=0, wmc=3, cbo=21, lcom=1, rfc=20, nom=3, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/test/java/siia/booking/integration/notifications/FlightToTripNotificationsSplitterTest.java, className=siia.booking.integration.notifications.FlightToTripNotificationsSplitterTest, type=class, dit=1, noc=0, wmc=2, cbo=5, lcom=0, rfc=7, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/test/java/siia/booking/integration/CancellationsWithExceptionTest.java, className=siia.booking.integration.CancellationsWithExceptionTest, type=class, dit=1, noc=0, wmc=2, cbo=10, lcom=0, rfc=10, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/test/java/siia/booking/integration/PaymentRoutingTest.java, className=siia.booking.integration.PaymentRoutingTest, type=class, dit=1, noc=0, wmc=2, cbo=10, lcom=0, rfc=9, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/test/java/siia/booking/integration/CancellationsTest.java, className=siia.booking.integration.CancellationsTest, type=class, dit=1, noc=0, wmc=2, cbo=10, lcom=0, rfc=12, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/test/java/siia/booking/integration/CancellationsWithNotificationTest.java, className=siia.booking.integration.CancellationsWithNotificationTest, type=class, dit=1, noc=0, wmc=2, cbo=11, lcom=0, rfc=13, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/test/java/siia/booking/integration/BookingHeaderTests.java, className=siia.booking.integration.BookingHeaderTests, type=class, dit=1, noc=0, wmc=34, cbo=11, lcom=26, rfc=23, nom=12, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/test/java/siia/booking/integration/WeatherTest.java, className=siia.booking.integration.WeatherTest, type=class, dit=1, noc=0, wmc=2, cbo=9, lcom=0, rfc=5, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/test/java/siia/booking/integration/TripCommandsTest.java, className=siia.booking.integration.TripCommandsTest, type=class, dit=1, noc=0, wmc=4, cbo=13, lcom=2, rfc=21, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/src/test/java/siia/booking/integration/FlightNotificationsSpelTest.java, className=siia.booking.integration.FlightNotificationsSpelTest, type=class, dit=1, noc=0, wmc=5, cbo=17, lcom=6, rfc=24, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/monitoring/src/main/java/siia/monitoring/wiretap/WireTapDemo.java, className=siia.monitoring.wiretap.WireTapDemo, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=4, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/monitoring/src/main/java/siia/monitoring/wiretap/DebitService.java, className=siia.monitoring.wiretap.DebitService, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/monitoring/src/main/java/siia/monitoring/wiretap/Debit.java, className=siia.monitoring.wiretap.Debit, type=class, dit=1, noc=0, wmc=4, cbo=0, lcom=0, rfc=0, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/monitoring/src/main/java/siia/monitoring/jmx/JmxDemo.java, className=siia.monitoring.jmx.JmxDemo, type=class, dit=1, noc=0, wmc=2, cbo=2, lcom=0, rfc=5, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/monitoring/src/main/java/siia/monitoring/history/HistoryDemo2.java, className=siia.monitoring.history.HistoryDemo2, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/monitoring/src/main/java/siia/monitoring/history/HistoryDemo1.java, className=siia.monitoring.history.HistoryDemo1, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/monitoring/src/main/java/siia/monitoring/controlbus/NumberHolder.java, className=siia.monitoring.controlbus.NumberHolder, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=0, rfc=3, nom=3, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/monitoring/src/main/java/siia/monitoring/controlbus/FilePoller.java, className=siia.monitoring.controlbus.FilePoller, type=class, dit=1, noc=0, wmc=3, cbo=1, lcom=0, rfc=0, nom=3, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/monitoring/src/main/java/siia/monitoring/controlbus/GroovyControlBusDemo.java, className=siia.monitoring.controlbus.GroovyControlBusDemo, type=class, dit=1, noc=0, wmc=1, cbo=7, lcom=0, rfc=9, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/monitoring/src/main/java/siia/monitoring/controlbus/ControlBusDemo.java, className=siia.monitoring.controlbus.ControlBusDemo, type=class, dit=1, noc=0, wmc=1, cbo=7, lcom=0, rfc=9, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/hello-world/src/main/java/siia/helloworld/channel/HelloService.java, className=siia.helloworld.channel.HelloService, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/hello-world/src/main/java/siia/helloworld/channel/HelloWorldExample.java, className=siia.helloworld.channel.HelloWorldExample, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=4, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/hello-world/src/main/java/siia/helloworld/channel/MyHelloService.java, className=siia.helloworld.channel.MyHelloService, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/hello-world/src/main/java/siia/helloworld/gateway/HelloService.java, className=siia.helloworld.gateway.HelloService, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/hello-world/src/main/java/siia/helloworld/gateway/HelloWorldExample.java, className=siia.helloworld.gateway.HelloWorldExample, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/hello-world/src/main/java/siia/helloworld/gateway/MyHelloService.java, className=siia.helloworld.gateway.MyHelloService, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/trip-diary/src/main/java/com/manning/siia/trip/diary/RefuseWrittenByThisProcess.java, className=com.manning.siia.trip.diary.RefuseWrittenByThisProcess, type=class, dit=2, noc=0, wmc=2, cbo=2, lcom=0, rfc=2, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/trip-diary/src/main/java/com/manning/siia/trip/diary/ChangeFileNameGenerator.java, className=com.manning.siia.trip.diary.ChangeFileNameGenerator, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=2, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/trip-diary/src/main/java/com/manning/siia/trip/diary/TextChange.java, className=com.manning.siia.trip.diary.TextChange, type=interface, dit=1, noc=0, wmc=2, cbo=0, lcom=1, rfc=0, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/trip-diary/src/main/java/com/manning/siia/trip/diary/EditableText.java, className=com.manning.siia.trip.diary.EditableText, type=class, dit=1, noc=0, wmc=8, cbo=1, lcom=0, rfc=5, nom=6, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/trip-diary/src/main/java/com/manning/siia/trip/diary/TextChanges.java, className=com.manning.siia.trip.diary.TextChanges, type=class, dit=3, noc=0, wmc=8, cbo=4, lcom=0, rfc=6, nom=8, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/trip-diary/src/test/java/com/manning/siia/trip/diary/ExchangerIntegrationTest.java, className=com.manning.siia.trip.diary.ExchangerIntegrationTest, type=class, dit=1, noc=0, wmc=4, cbo=11, lcom=2, rfc=16, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/trip-diary/src/test/java/com/manning/siia/trip/diary/ChangeFileNameGeneratorTest.java, className=com.manning.siia.trip.diary.ChangeFileNameGeneratorTest, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=0, rfc=8, nom=3, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/trip-diary/src/test/java/com/manning/siia/trip/diary/EditableTextTest.java, className=com.manning.siia.trip.diary.EditableTextTest, type=class, dit=1, noc=0, wmc=6, cbo=4, lcom=0, rfc=9, nom=6, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/Cupboard.java, className=com.manning.siia.kitchen.Cupboard, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/domain/Ingredient.java, className=com.manning.siia.kitchen.domain.Ingredient, type=class, dit=1, noc=0, wmc=10, cbo=6, lcom=0, rfc=1, nom=10, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/domain/AmountConverter.java, className=com.manning.siia.kitchen.domain.AmountConverter, type=class, dit=1, noc=0, wmc=9, cbo=6, lcom=3, rfc=12, nom=3, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/domain/Recipe.java, className=com.manning.siia.kitchen.domain.Recipe, type=class, dit=1, noc=0, wmc=15, cbo=7, lcom=42, rfc=8, nom=10, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/domain/Meal.java, className=com.manning.siia.kitchen.domain.Meal, type=class, dit=1, noc=0, wmc=4, cbo=2, lcom=0, rfc=4, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/domain/Product.java, className=com.manning.siia.kitchen.domain.Product, type=class, dit=1, noc=0, wmc=4, cbo=2, lcom=0, rfc=3, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/domain/GroceryBag.java, className=com.manning.siia.kitchen.domain.GroceryBag, type=class, dit=1, noc=0, wmc=3, cbo=1, lcom=0, rfc=2, nom=3, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/domain/ShoppingList.java, className=com.manning.siia.kitchen.domain.ShoppingList, type=class, dit=1, noc=0, wmc=5, cbo=2, lcom=0, rfc=2, nom=5, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/domain/Vegetable.java, className=com.manning.siia.kitchen.domain.Vegetable, type=class, dit=2, noc=0, wmc=2, cbo=3, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/domain/Meat.java, className=com.manning.siia.kitchen.domain.Meat, type=class, dit=2, noc=0, wmc=2, cbo=3, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/domain/Grocery.java, className=com.manning.siia.kitchen.domain.Grocery, type=class, dit=2, noc=0, wmc=2, cbo=3, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/domain/Amount.java, className=com.manning.siia.kitchen.domain.Amount, type=class, dit=1, noc=0, wmc=14, cbo=2, lcom=0, rfc=4, nom=6, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/Cook.java, className=com.manning.siia.kitchen.Cook, type=class, dit=1, noc=0, wmc=6, cbo=10, lcom=10, rfc=7, nom=4, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/shop/GreenGrocer.java, className=com.manning.siia.kitchen.shop.GreenGrocer, type=class, dit=1, noc=0, wmc=3, cbo=5, lcom=1, rfc=5, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/shop/Supermarket.java, className=com.manning.siia.kitchen.shop.Supermarket, type=class, dit=1, noc=0, wmc=3, cbo=5, lcom=1, rfc=5, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/shop/Butcher.java, className=com.manning.siia.kitchen.shop.Butcher, type=class, dit=1, noc=0, wmc=3, cbo=5, lcom=1, rfc=5, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/main/java/com/manning/siia/kitchen/ShoppingListWriter.java, className=com.manning.siia.kitchen.ShoppingListWriter, type=class, dit=1, noc=0, wmc=3, cbo=5, lcom=1, rfc=3, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/test/java/com/manning/siia/kitchen/ShoppingTest.java, className=com.manning.siia.kitchen.ShoppingTest, type=class, dit=1, noc=0, wmc=5, cbo=11, lcom=1, rfc=17, nom=2, specific={role=9999}]
+16:45:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/test/java/com/manning/siia/kitchen/TimedPollableChannel.java, className=com.manning.siia.kitchen.TimedPollableChannel, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=0, rfc=5, nom=3, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/test/java/com/manning/siia/kitchen/EndToEndIntegrationTest.java, className=com.manning.siia.kitchen.EndToEndIntegrationTest, type=class, dit=1, noc=0, wmc=1, cbo=9, lcom=0, rfc=12, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/test/java/com/manning/siia/kitchen/domain/RecipeTest.java, className=com.manning.siia.kitchen.domain.RecipeTest, type=class, dit=1, noc=0, wmc=2, cbo=4, lcom=0, rfc=10, nom=2, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/test/java/com/manning/siia/kitchen/domain/MealTest.java, className=com.manning.siia.kitchen.domain.MealTest, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=9, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/test/java/com/manning/siia/kitchen/domain/RecipeObjectMother.java, className=com.manning.siia.kitchen.domain.RecipeObjectMother, type=class, dit=1, noc=0, wmc=2, cbo=2, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/test/java/com/manning/siia/kitchen/domain/DomainTest.java, className=com.manning.siia.kitchen.domain.DomainTest, type=class, dit=1, noc=0, wmc=3, cbo=6, lcom=0, rfc=13, nom=3, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/test/java/com/manning/siia/kitchen/KitchenTest.java, className=com.manning.siia.kitchen.KitchenTest, type=class, dit=1, noc=0, wmc=1, cbo=10, lcom=0, rfc=12, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/test/java/com/manning/siia/kitchen/CookTest.java, className=com.manning.siia.kitchen.CookTest, type=class, dit=1, noc=0, wmc=3, cbo=10, lcom=0, rfc=13, nom=3, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/test/java/com/manning/siia/kitchen/RecipeReadingTest.java, className=com.manning.siia.kitchen.RecipeReadingTest, type=class, dit=1, noc=0, wmc=1, cbo=7, lcom=0, rfc=10, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/home-cooking/src/test/java/com/manning/siia/kitchen/RecipeSplitterTest.java, className=com.manning.siia.kitchen.RecipeSplitterTest, type=class, dit=1, noc=0, wmc=2, cbo=9, lcom=1, rfc=15, nom=2, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/webapp/src/main/java/com/manning/siia/TripQuoteRequestProcessor.java, className=com.manning.siia.TripQuoteRequestProcessor, type=class, dit=1, noc=0, wmc=3, cbo=5, lcom=0, rfc=6, nom=3, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/webapp/src/main/java/com/manning/siia/OkResponse.java, className=com.manning.siia.OkResponse, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/webapp/src/test/java/com/manning/siia/soap/SoapTripTestClient.java, className=com.manning.siia.soap.SoapTripTestClient, type=class, dit=1, noc=0, wmc=2, cbo=7, lcom=1, rfc=5, nom=2, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/fundamentals/src/main/java/siia/fundamentals/MealPreferenceRequestTransformer.java, className=siia.fundamentals.MealPreferenceRequestTransformer, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/fundamentals/src/main/java/siia/fundamentals/MealPreference.java, className=siia.fundamentals.MealPreference, type=class, dit=1, noc=0, wmc=4, cbo=0, lcom=0, rfc=0, nom=4, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/fundamentals/src/main/java/siia/fundamentals/SimpleBookingDao.java, className=siia.fundamentals.SimpleBookingDao, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/fundamentals/src/main/java/siia/fundamentals/BookingDao.java, className=siia.fundamentals.BookingDao, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/fundamentals/src/main/java/siia/fundamentals/Booking.java, className=siia.fundamentals.Booking, type=class, dit=1, noc=0, wmc=2, cbo=0, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/fundamentals/src/main/java/siia/fundamentals/BookingReportingService.java, className=siia.fundamentals.BookingReportingService, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/fundamentals/src/main/java/siia/fundamentals/BookingServiceWithInjection.java, className=siia.fundamentals.BookingServiceWithInjection, type=class, dit=1, noc=0, wmc=3, cbo=6, lcom=1, rfc=5, nom=3, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/fundamentals/src/main/java/siia/fundamentals/BookingServiceWithStrongCoupling.java, className=siia.fundamentals.BookingServiceWithStrongCoupling, type=class, dit=1, noc=0, wmc=3, cbo=7, lcom=1, rfc=7, nom=3, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/fundamentals/src/main/java/siia/fundamentals/BookingService.java, className=siia.fundamentals.BookingService, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=4, nom=2, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/fundamentals/src/test/java/siia/fundamentals/RunBookingServiceTest.java, className=siia.fundamentals.RunBookingServiceTest, type=class, dit=1, noc=0, wmc=1, cbo=6, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/main/java/com/manning/siia/pipeline/SupplyInput.java, className=com.manning.siia.pipeline.SupplyInput, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/main/java/com/manning/siia/pipeline/Counter.java, className=com.manning.siia.pipeline.Counter, type=class, dit=1, noc=0, wmc=3, cbo=2, lcom=0, rfc=4, nom=3, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/main/java/com/manning/siia/pipeline/PaintShop.java, className=com.manning.siia.pipeline.PaintShop, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=2, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/main/java/com/manning/siia/pipeline/AssembledCar.java, className=com.manning.siia.pipeline.AssembledCar, type=class, dit=1, noc=0, wmc=2, cbo=0, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/main/java/com/manning/siia/pipeline/FinishedCar.java, className=com.manning.siia.pipeline.FinishedCar, type=class, dit=1, noc=0, wmc=2, cbo=0, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/main/java/com/manning/siia/pipeline/PieceKit.java, className=com.manning.siia.pipeline.PieceKit, type=class, dit=1, noc=0, wmc=2, cbo=0, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/main/java/com/manning/siia/pipeline/AssemblyLine.java, className=com.manning.siia.pipeline.AssemblyLine, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=2, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/test/java/com/manning/siia/pipeline/PaintShopDirectTests.java, className=com.manning.siia.pipeline.PaintShopDirectTests, type=class, dit=1, noc=0, wmc=2, cbo=7, lcom=0, rfc=4, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/test/java/com/manning/siia/pipeline/PaintShopConcurrentTests.java, className=com.manning.siia.pipeline.PaintShopConcurrentTests, type=class, dit=1, noc=0, wmc=2, cbo=7, lcom=0, rfc=4, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/test/java/siia/concurrency/CronPollerTests.java, className=siia.concurrency.CronPollerTests, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/test/java/siia/concurrency/AdvancedPollerTests.java, className=siia.concurrency.AdvancedPollerTests, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/test/java/siia/concurrency/StubService.java, className=siia.concurrency.StubService, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/test/java/siia/concurrency/StubFilter.java, className=siia.concurrency.StubFilter, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/test/java/siia/concurrency/PollerDefaultAndCustomTest.java, className=siia.concurrency.PollerDefaultAndCustomTest, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/concurrency/src/test/java/siia/concurrency/StubComparator.java, className=siia.concurrency.StubComparator, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/twitter/src/main/java/siia/twitter/SearchToLog.java, className=siia.twitter.SearchToLog, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/twitter/src/main/java/siia/twitter/SearchResultAnalzyer.java, className=siia.twitter.SearchResultAnalzyer, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/twitter/src/main/java/siia/twitter/SearchAnalysis.java, className=siia.twitter.SearchAnalysis, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/twitter/src/main/java/siia/twitter/TimelineToLog.java, className=siia.twitter.TimelineToLog, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/batch/src/main/java/com/manning/siia/batch/Notification.java, className=com.manning.siia.batch.Notification, type=class, dit=1, noc=0, wmc=5, cbo=0, lcom=0, rfc=0, nom=5, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/batch/src/main/java/com/manning/siia/batch/Payment.java, className=com.manning.siia.batch.Payment, type=class, dit=1, noc=0, wmc=8, cbo=0, lcom=20, rfc=0, nom=8, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/batch/src/main/java/com/manning/siia/batch/ExecutionsToMailTransformer.java, className=com.manning.siia.batch.ExecutionsToMailTransformer, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=5, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/batch/src/main/java/com/manning/siia/batch/StubJavaMailSender.java, className=com.manning.siia.batch.StubJavaMailSender, type=class, dit=1, noc=0, wmc=12, cbo=4, lcom=36, rfc=4, nom=12, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/batch/src/main/java/com/manning/siia/batch/PaymentFieldSetMapper.java, className=com.manning.siia.batch.PaymentFieldSetMapper, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=7, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/batch/src/main/java/com/manning/siia/batch/FileMessageToJobRequest.java, className=com.manning.siia.batch.FileMessageToJobRequest, type=class, dit=1, noc=0, wmc=3, cbo=6, lcom=0, rfc=4, nom=3, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/batch/src/main/java/com/manning/siia/batch/JobRestart.java, className=com.manning.siia.batch.JobRestart, type=class, dit=1, noc=0, wmc=1, cbo=5, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/batch/src/main/java/com/manning/siia/batch/JobExecutionsRouter.java, className=com.manning.siia.batch.JobExecutionsRouter, type=class, dit=1, noc=0, wmc=3, cbo=2, lcom=0, rfc=2, nom=1, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/batch/src/main/java/com/manning/siia/batch/PaymentWriter.java, className=com.manning.siia.batch.PaymentWriter, type=class, dit=1, noc=0, wmc=3, cbo=5, lcom=0, rfc=10, nom=2, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/batch/src/main/java/com/manning/siia/batch/PaymentChunkListener.java, className=com.manning.siia.batch.PaymentChunkListener, type=class, dit=2, noc=0, wmc=2, cbo=5, lcom=1, rfc=4, nom=2, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/batch/src/main/java/com/manning/siia/batch/Account.java, className=com.manning.siia.batch.Account, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:18  INFO CKNumber [file=/home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/batch/src/test/java/com/manning/siia/batch/BatchTest.java, className=com.manning.siia.batch.BatchTest, type=class, dit=1, noc=0, wmc=1, cbo=10, lcom=0, rfc=5, nom=1, specific={role=9999}]
+16:45:18  INFO Finished parsing
+16:45:18  INFO Looking for smells
+16:45:18  INFO Starting the parse engine
+16:45:18  INFO Found 216 java files. We divided into 1 partitions
+16:45:18  INFO Identifying roles...
+16:45:19  INFO -- siia.jms.JmsTemplateDemo is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.jms.Exclaimer is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.jms.DirectJmsDemo is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.jms.MessageListenerContainerDemo is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.jms.Greeter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.jms.ChannelAdapterDemo is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.jms.GatewayDemo is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.jms.MessageDrivenPojoDemo is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.FlightDelayEvent is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.FlightStatusNotificationPublisher is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:19  INFO -- siia.business.FlightScheduler is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:19  INFO -- siia.business.Equipment is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.Flight is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.Passenger is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.FlightStatusEvent is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.FlightStatus is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.NotificationDemo is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.SimpleFlightStatusService is a ArchitecturalRole [role=component, id=5] (class)
+16:45:19  INFO -- siia.business.FrequentFlyerService is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:19  INFO -- siia.business.Airport is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.PassengerProfileEnricher is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.Crew is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.EmailHeaderEnricher is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.FlightEventTransformer is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.Profile is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.FlightStatusService is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:19  INFO -- siia.business.FlightDelayEmailGenerator is a ArchitecturalRole [role=component, id=5] (class)
+16:45:19  INFO -- siia.business.Seat is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.ExpressionBasedHeaderEnricherTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.StubFlightScheduler is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.StubFrequentFlyerService is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.FlightStatusPublisherTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.StubMailSender is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.ChainTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.FlightDelayTransformerIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.PassengerProfileEnricherTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.business.EmailHeaderEnricherTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.CustomerPriorityComparator is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.StubEmailConfirmationService is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.SeatConfirmation is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.Booking is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.ChargedBooking is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.Email is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.ChannelAuditor is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.AuditRecord is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.SeatAvailabilityService is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.AuditService is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.BillForBookingService is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.Seat is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.ChannelsBufferedTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.ChannelSelectorTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.AllChannelsDirectTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.ChannelsBridgeTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.ChannelsPriorityTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.channels.ChannelInterceptorTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.car.CarType is a ArchitecturalRole [role=other, id=9999] (enum)
+16:45:19  INFO -- siia.booking.domain.car.CarCriteria is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.car.CarRentalBooking is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.car.CarRentalQuote is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.car.CarRental is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.flight.FlightSchedule is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.flight.Flight is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.flight.FlightBooking is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.flight.FlightQuote is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.flight.FlightSeatClass is a ArchitecturalRole [role=other, id=9999] (enum)
+16:45:19  INFO -- siia.booking.domain.flight.FlightCriteria is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.cancellation.CancellationsService is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:19  INFO -- siia.booking.domain.cancellation.CancellationConfirmation is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.cancellation.StubCancellationsService is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.cancellation.CancellationRequest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.trip.TripRepository is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.trip.Leg is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.trip.BookedTrip is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.trip.TripQuoteRequest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.trip.LegQuoteCommand is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.trip.CreateTripCommand is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.trip.Trip is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.trip.BookedLeg is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.user.User is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.FinancialAmount is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.notifications.TripNotification is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.notifications.SmsNotifiable is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.notifications.Priority is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.notifications.Notifiable is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:19  INFO -- siia.booking.domain.notifications.FlightNotification is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.Location is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.Command is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:19  INFO -- siia.booking.domain.binding.JodaDateTimeAdapter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.hotel.HotelCriteria is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.hotel.Hotel is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.hotel.RoomType is a ArchitecturalRole [role=other, id=9999] (enum)
+16:45:19  INFO -- siia.booking.domain.hotel.HotelQuote is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.hotel.HotelBooking is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.payment.Invoice is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.payment.PaypalPayment is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.payment.PaymentSettlement is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.payment.PaymentManager is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.payment.CreditCardPayment is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.payment.CreditCardType is a ArchitecturalRole [role=other, id=9999] (enum)
+16:45:19  INFO -- siia.booking.domain.trip.LegMarshallingTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.domain.trip.LegQuoteMarshallingTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.cancellation.CancellationsGateway is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:19  INFO -- siia.booking.integration.cancellation.CancellationRequestFilter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.purchases.LegQuoteAggregator is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.notifications.RelatedTripsHeaderEnricher is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.notifications.FlightToTripNotificationsSplitter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.notifications.NotificationsRouter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.routing.PaymentSettlementRouter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.FlightNotificationsTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.StubMailSender is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.LegQuoteIntegrationTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.notifications.FlightToTripNotificationsSplitterTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.CancellationsWithExceptionTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.PaymentRoutingTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.CancellationsTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.CancellationsWithNotificationTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.BookingHeaderTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.WeatherTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.TripCommandsTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.booking.integration.FlightNotificationsSpelTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.monitoring.wiretap.WireTapDemo is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.monitoring.wiretap.DebitService is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.monitoring.wiretap.Debit is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.monitoring.jmx.JmxDemo is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.monitoring.history.HistoryDemo2 is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.monitoring.history.HistoryDemo1 is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.monitoring.controlbus.NumberHolder is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.monitoring.controlbus.FilePoller is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.monitoring.controlbus.GroovyControlBusDemo is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.monitoring.controlbus.ControlBusDemo is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.helloworld.channel.HelloService is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:19  INFO -- siia.helloworld.channel.HelloWorldExample is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.helloworld.channel.MyHelloService is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.helloworld.gateway.HelloService is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:19  INFO -- siia.helloworld.gateway.HelloWorldExample is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- siia.helloworld.gateway.MyHelloService is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.trip.diary.RefuseWrittenByThisProcess is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.trip.diary.ChangeFileNameGenerator is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.trip.diary.TextChange is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:19  INFO -- com.manning.siia.trip.diary.EditableText is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.trip.diary.TextChanges is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.trip.diary.ExchangerIntegrationTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.trip.diary.ChangeFileNameGeneratorTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.trip.diary.EditableTextTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.Cupboard is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.Ingredient is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.AmountConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.Recipe is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.Meal is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.Product is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.GroceryBag is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.ShoppingList is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.Vegetable is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.Meat is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.Grocery is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.Amount is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.Cook is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.shop.GreenGrocer is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.shop.Supermarket is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.shop.Butcher is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.ShoppingListWriter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.ShoppingTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.TimedPollableChannel is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.EndToEndIntegrationTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.RecipeTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.MealTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.RecipeObjectMother is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.domain.DomainTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.KitchenTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.CookTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.RecipeReadingTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:19  INFO -- com.manning.siia.kitchen.RecipeSplitterTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.TripQuoteRequestProcessor is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.OkResponse is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.soap.SoapTripTestClient is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.fundamentals.MealPreferenceRequestTransformer is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.fundamentals.MealPreference is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.fundamentals.SimpleBookingDao is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.fundamentals.BookingDao is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:20  INFO -- siia.fundamentals.Booking is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.fundamentals.BookingReportingService is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.fundamentals.BookingServiceWithInjection is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.fundamentals.BookingServiceWithStrongCoupling is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.fundamentals.BookingService is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.fundamentals.RunBookingServiceTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.pipeline.SupplyInput is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:20  INFO -- com.manning.siia.pipeline.Counter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.pipeline.PaintShop is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.pipeline.AssembledCar is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.pipeline.FinishedCar is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.pipeline.PieceKit is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.pipeline.AssemblyLine is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.pipeline.PaintShopDirectTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.pipeline.PaintShopConcurrentTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.concurrency.CronPollerTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.concurrency.AdvancedPollerTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.concurrency.StubService is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.concurrency.StubFilter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.concurrency.PollerDefaultAndCustomTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.concurrency.StubComparator is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.twitter.SearchToLog is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.twitter.SearchResultAnalzyer is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.twitter.SearchAnalysis is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- siia.twitter.TimelineToLog is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.batch.Notification is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.batch.Payment is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.batch.ExecutionsToMailTransformer is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.batch.StubJavaMailSender is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.batch.PaymentFieldSetMapper is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.batch.FileMessageToJobRequest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.batch.JobRestart is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.batch.JobExecutionsRouter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.batch.PaymentWriter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.batch.PaymentChunkListener is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.batch.Account is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO -- com.manning.siia.batch.BatchTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:20  INFO Identifying smells...
+16:45:20  INFO Analysing class siia.jms.JmsTemplateDemo
+16:45:20  INFO Analysing class siia.jms.Exclaimer
+16:45:20  INFO Analysing class siia.jms.DirectJmsDemo
+16:45:20  INFO Analysing class siia.jms.MessageListenerContainerDemo
+16:45:20  INFO Analysing class siia.jms.Greeter
+16:45:20  INFO Analysing class siia.jms.ChannelAdapterDemo
+16:45:20  INFO Analysing class siia.jms.GatewayDemo
+16:45:20  INFO Analysing class siia.jms.MessageDrivenPojoDemo
+16:45:20  INFO Analysing class siia.business.FlightDelayEvent
+16:45:20  INFO Analysing class siia.business.FlightStatusNotificationPublisher
+16:45:20  INFO Analysing class siia.business.FlightScheduler
+16:45:20  INFO Analysing class siia.business.Equipment
+16:45:20  INFO Analysing class siia.business.Flight
+16:45:20  INFO Analysing class siia.business.Passenger
+16:45:20  INFO Analysing class siia.business.FlightStatusEvent
+16:45:20  INFO Analysing class siia.business.FlightStatus
+16:45:20  INFO Analysing class siia.business.NotificationDemo
+16:45:20  INFO Analysing class siia.business.SimpleFlightStatusService
+16:45:20  INFO Analysing class siia.business.FrequentFlyerService
+16:45:20  INFO Analysing class siia.business.Airport
+16:45:20  INFO Analysing class siia.business.PassengerProfileEnricher
+16:45:20  INFO Analysing class siia.business.Crew
+16:45:20  INFO Analysing class siia.business.EmailHeaderEnricher
+16:45:20  INFO Analysing class siia.business.FlightEventTransformer
+16:45:20  INFO Analysing class siia.business.Profile
+16:45:20  INFO Analysing class siia.business.FlightStatusService
+16:45:20  INFO Analysing class siia.business.FlightDelayEmailGenerator
+16:45:20  INFO Analysing class siia.business.Seat
+16:45:20  INFO Analysing class siia.business.ExpressionBasedHeaderEnricherTests
+16:45:20  INFO Analysing class siia.business.StubFlightScheduler
+16:45:20  INFO Analysing class siia.business.StubFrequentFlyerService
+16:45:20  INFO Analysing class siia.business.FlightStatusPublisherTests
+16:45:20  INFO Analysing class siia.business.StubMailSender
+16:45:20  INFO Analysing class siia.business.ChainTests
+16:45:21  INFO Analysing class siia.business.FlightDelayTransformerIntegrationTests
+16:45:21  INFO Analysing class siia.business.PassengerProfileEnricherTest
+16:45:21  INFO Analysing class siia.business.EmailHeaderEnricherTests
+16:45:21  INFO Analysing class siia.channels.CustomerPriorityComparator
+16:45:21  INFO Analysing class siia.channels.StubEmailConfirmationService
+16:45:21  INFO Analysing class siia.channels.SeatConfirmation
+16:45:21  INFO Analysing class siia.channels.Booking
+16:45:21  INFO Analysing class siia.channels.ChargedBooking
+16:45:21  INFO Analysing class siia.channels.Email
+16:45:21  INFO Analysing class siia.channels.ChannelAuditor
+16:45:21  INFO Analysing class siia.channels.AuditRecord
+16:45:21  INFO Analysing class siia.channels.SeatAvailabilityService
+16:45:21  INFO Analysing class siia.channels.AuditService
+16:45:21  INFO Analysing class siia.channels.BillForBookingService
+16:45:21  INFO Analysing class siia.channels.Seat
+16:45:21  INFO Analysing class siia.channels.ChannelsBufferedTest
+16:45:21  INFO Analysing class siia.channels.ChannelSelectorTest
+16:45:21  INFO Analysing class siia.channels.AllChannelsDirectTest
+16:45:21  INFO Analysing class siia.channels.ChannelsBridgeTest
+16:45:21  INFO Analysing class siia.channels.ChannelsPriorityTest
+16:45:21  INFO Analysing class siia.channels.ChannelInterceptorTest
+16:45:21  INFO Analysing class siia.booking.domain.car.CarType
+16:45:21  INFO Analysing class siia.booking.domain.car.CarCriteria
+16:45:21  INFO Analysing class siia.booking.domain.car.CarRentalBooking
+16:45:21  INFO Analysing class siia.booking.domain.car.CarRentalQuote
+16:45:21  INFO Analysing class siia.booking.domain.car.CarRental
+16:45:21  INFO Analysing class siia.booking.domain.flight.FlightSchedule
+16:45:21  INFO Analysing class siia.booking.domain.flight.Flight
+16:45:21  INFO Analysing class siia.booking.domain.flight.FlightBooking
+16:45:21  INFO Analysing class siia.booking.domain.flight.FlightQuote
+16:45:21  INFO Analysing class siia.booking.domain.flight.FlightSeatClass
+16:45:21  INFO Analysing class siia.booking.domain.flight.FlightCriteria
+16:45:21  INFO Analysing class siia.booking.domain.cancellation.CancellationsService
+16:45:21  INFO Analysing class siia.booking.domain.cancellation.CancellationConfirmation
+16:45:21  INFO Analysing class siia.booking.domain.cancellation.StubCancellationsService
+16:45:21  INFO Analysing class siia.booking.domain.cancellation.CancellationRequest
+16:45:21  INFO Analysing class siia.booking.domain.trip.TripRepository
+16:45:21  INFO Analysing class siia.booking.domain.trip.Leg
+16:45:21  INFO Analysing class siia.booking.domain.trip.BookedTrip
+16:45:21  INFO Analysing class siia.booking.domain.trip.TripQuoteRequest
+16:45:21  INFO Analysing class siia.booking.domain.trip.LegQuoteCommand
+16:45:21  INFO Analysing class siia.booking.domain.trip.CreateTripCommand
+16:45:21  INFO Analysing class siia.booking.domain.trip.Trip
+16:45:21  INFO Analysing class siia.booking.domain.trip.BookedLeg
+16:45:21  INFO Analysing class siia.booking.domain.user.User
+16:45:21  INFO Analysing class siia.booking.domain.FinancialAmount
+16:45:21  INFO Analysing class siia.booking.domain.notifications.TripNotification
+16:45:21  INFO Analysing class siia.booking.domain.notifications.SmsNotifiable
+16:45:21  INFO Analysing class siia.booking.domain.notifications.Priority
+16:45:21  INFO Analysing class siia.booking.domain.notifications.Notifiable
+16:45:21  INFO Analysing class siia.booking.domain.notifications.FlightNotification
+16:45:21  INFO Analysing class siia.booking.domain.Location
+16:45:21  INFO Analysing class siia.booking.domain.Command
+16:45:21  INFO Analysing class siia.booking.domain.binding.JodaDateTimeAdapter
+16:45:21  INFO Analysing class siia.booking.domain.hotel.HotelCriteria
+16:45:21  INFO Analysing class siia.booking.domain.hotel.Hotel
+16:45:21  INFO Analysing class siia.booking.domain.hotel.RoomType
+16:45:21  INFO Analysing class siia.booking.domain.hotel.HotelQuote
+16:45:21  INFO Analysing class siia.booking.domain.hotel.HotelBooking
+16:45:21  INFO Analysing class siia.booking.domain.payment.Invoice
+16:45:21  INFO Analysing class siia.booking.domain.payment.PaypalPayment
+16:45:21  INFO Analysing class siia.booking.domain.payment.PaymentSettlement
+16:45:21  INFO Analysing class siia.booking.domain.payment.PaymentManager
+16:45:21  INFO Analysing class siia.booking.domain.payment.CreditCardPayment
+16:45:21  INFO Analysing class siia.booking.domain.payment.CreditCardType
+16:45:21  INFO Analysing class siia.booking.domain.trip.LegMarshallingTest
+16:45:21  INFO Analysing class siia.booking.domain.trip.LegQuoteMarshallingTest
+16:45:21  INFO Analysing class siia.booking.integration.cancellation.CancellationsGateway
+16:45:21  INFO Analysing class siia.booking.integration.cancellation.CancellationRequestFilter
+16:45:21  INFO Analysing class siia.booking.integration.purchases.LegQuoteAggregator
+16:45:21  INFO Analysing class siia.booking.integration.notifications.RelatedTripsHeaderEnricher
+16:45:21  INFO Analysing class siia.booking.integration.notifications.FlightToTripNotificationsSplitter
+16:45:21  INFO Analysing class siia.booking.integration.notifications.NotificationsRouter
+16:45:21  INFO Analysing class siia.booking.integration.routing.PaymentSettlementRouter
+16:45:21  INFO Analysing class siia.booking.integration.FlightNotificationsTest
+16:45:21  INFO Analysing class siia.booking.integration.StubMailSender
+16:45:21  INFO Analysing class siia.booking.integration.LegQuoteIntegrationTest
+16:45:21  INFO Analysing class siia.booking.integration.notifications.FlightToTripNotificationsSplitterTest
+16:45:21  INFO Analysing class siia.booking.integration.CancellationsWithExceptionTest
+16:45:21  INFO Analysing class siia.booking.integration.PaymentRoutingTest
+16:45:21  INFO Analysing class siia.booking.integration.CancellationsTest
+16:45:21  INFO Analysing class siia.booking.integration.CancellationsWithNotificationTest
+16:45:21  INFO Analysing class siia.booking.integration.BookingHeaderTests
+16:45:21  INFO Analysing class siia.booking.integration.WeatherTest
+16:45:21  INFO Analysing class siia.booking.integration.TripCommandsTest
+16:45:21  INFO Analysing class siia.booking.integration.FlightNotificationsSpelTest
+16:45:21  INFO Analysing class siia.monitoring.wiretap.WireTapDemo
+16:45:21  INFO Analysing class siia.monitoring.wiretap.DebitService
+16:45:21  INFO Analysing class siia.monitoring.wiretap.Debit
+16:45:21  INFO Analysing class siia.monitoring.jmx.JmxDemo
+16:45:21  INFO Analysing class siia.monitoring.history.HistoryDemo2
+16:45:21  INFO Analysing class siia.monitoring.history.HistoryDemo1
+16:45:21  INFO Analysing class siia.monitoring.controlbus.NumberHolder
+16:45:21  INFO Analysing class siia.monitoring.controlbus.FilePoller
+16:45:21  INFO Analysing class siia.monitoring.controlbus.GroovyControlBusDemo
+16:45:21  INFO Analysing class siia.monitoring.controlbus.ControlBusDemo
+16:45:21  INFO Analysing class siia.helloworld.channel.HelloService
+16:45:21  INFO Analysing class siia.helloworld.channel.HelloWorldExample
+16:45:21  INFO Analysing class siia.helloworld.channel.MyHelloService
+16:45:21  INFO Analysing class siia.helloworld.gateway.HelloService
+16:45:21  INFO Analysing class siia.helloworld.gateway.HelloWorldExample
+16:45:21  INFO Analysing class siia.helloworld.gateway.MyHelloService
+16:45:21  INFO Analysing class com.manning.siia.trip.diary.RefuseWrittenByThisProcess
+16:45:21  INFO Analysing class com.manning.siia.trip.diary.ChangeFileNameGenerator
+16:45:21  INFO Analysing class com.manning.siia.trip.diary.TextChange
+16:45:21  INFO Analysing class com.manning.siia.trip.diary.EditableText
+16:45:21  INFO Analysing class com.manning.siia.trip.diary.TextChanges
+16:45:21  INFO Analysing class com.manning.siia.trip.diary.ExchangerIntegrationTest
+16:45:21  INFO Analysing class com.manning.siia.trip.diary.ChangeFileNameGeneratorTest
+16:45:21  INFO Analysing class com.manning.siia.trip.diary.EditableTextTest
+16:45:21  INFO Analysing class com.manning.siia.kitchen.Cupboard
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.Ingredient
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.AmountConverter
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.Recipe
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.Meal
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.Product
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.GroceryBag
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.ShoppingList
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.Vegetable
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.Meat
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.Grocery
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.Amount
+16:45:21  INFO Analysing class com.manning.siia.kitchen.Cook
+16:45:21  INFO Analysing class com.manning.siia.kitchen.shop.GreenGrocer
+16:45:21  INFO Analysing class com.manning.siia.kitchen.shop.Supermarket
+16:45:21  INFO Analysing class com.manning.siia.kitchen.shop.Butcher
+16:45:21  INFO Analysing class com.manning.siia.kitchen.ShoppingListWriter
+16:45:21  INFO Analysing class com.manning.siia.kitchen.ShoppingTest
+16:45:21  INFO Analysing class com.manning.siia.kitchen.TimedPollableChannel
+16:45:21  INFO Analysing class com.manning.siia.kitchen.EndToEndIntegrationTest
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.RecipeTest
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.MealTest
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.RecipeObjectMother
+16:45:21  INFO Analysing class com.manning.siia.kitchen.domain.DomainTest
+16:45:21  INFO Analysing class com.manning.siia.kitchen.KitchenTest
+16:45:21  INFO Analysing class com.manning.siia.kitchen.CookTest
+16:45:21  INFO Analysing class com.manning.siia.kitchen.RecipeReadingTest
+16:45:21  INFO Analysing class com.manning.siia.kitchen.RecipeSplitterTest
+16:45:21  INFO Analysing class com.manning.siia.TripQuoteRequestProcessor
+16:45:21  INFO Analysing class com.manning.siia.OkResponse
+16:45:21  INFO Analysing class com.manning.siia.soap.SoapTripTestClient
+16:45:21  INFO Analysing class siia.fundamentals.MealPreferenceRequestTransformer
+16:45:21  INFO Analysing class siia.fundamentals.MealPreference
+16:45:21  INFO Analysing class siia.fundamentals.SimpleBookingDao
+16:45:21  INFO Analysing class siia.fundamentals.BookingDao
+16:45:21  INFO Analysing class siia.fundamentals.Booking
+16:45:21  INFO Analysing class siia.fundamentals.BookingReportingService
+16:45:21  INFO Analysing class siia.fundamentals.BookingServiceWithInjection
+16:45:21  INFO Analysing class siia.fundamentals.BookingServiceWithStrongCoupling
+16:45:21  INFO Analysing class siia.fundamentals.BookingService
+16:45:22  INFO Analysing class siia.fundamentals.RunBookingServiceTest
+16:45:22  INFO Analysing class com.manning.siia.pipeline.SupplyInput
+16:45:22  INFO Analysing class com.manning.siia.pipeline.Counter
+16:45:22  INFO Analysing class com.manning.siia.pipeline.PaintShop
+16:45:22  INFO Analysing class com.manning.siia.pipeline.AssembledCar
+16:45:22  INFO Analysing class com.manning.siia.pipeline.FinishedCar
+16:45:22  INFO Analysing class com.manning.siia.pipeline.PieceKit
+16:45:22  INFO Analysing class com.manning.siia.pipeline.AssemblyLine
+16:45:22  INFO Analysing class com.manning.siia.pipeline.PaintShopDirectTests
+16:45:22  INFO Analysing class com.manning.siia.pipeline.PaintShopConcurrentTests
+16:45:22  INFO Analysing class siia.concurrency.CronPollerTests
+16:45:22  INFO Analysing class siia.concurrency.AdvancedPollerTests
+16:45:22  INFO Analysing class siia.concurrency.StubService
+16:45:22  INFO Analysing class siia.concurrency.StubFilter
+16:45:22  INFO Analysing class siia.concurrency.PollerDefaultAndCustomTest
+16:45:22  INFO Analysing class siia.concurrency.StubComparator
+16:45:22  INFO Analysing class siia.twitter.SearchToLog
+16:45:22  INFO Analysing class siia.twitter.SearchResultAnalzyer
+16:45:22  INFO Analysing class siia.twitter.SearchAnalysis
+16:45:22  INFO Analysing class siia.twitter.TimelineToLog
+16:45:22  INFO Analysing class com.manning.siia.batch.Notification
+16:45:22  INFO Analysing class com.manning.siia.batch.Payment
+16:45:22  INFO Analysing class com.manning.siia.batch.ExecutionsToMailTransformer
+16:45:22  INFO Analysing class com.manning.siia.batch.StubJavaMailSender
+16:45:22  INFO Analysing class com.manning.siia.batch.PaymentFieldSetMapper
+16:45:22  INFO Analysing class com.manning.siia.batch.FileMessageToJobRequest
+16:45:22  INFO Analysing class com.manning.siia.batch.JobRestart
+16:45:22  INFO Analysing class com.manning.siia.batch.JobExecutionsRouter
+16:45:22  INFO Analysing class com.manning.siia.batch.PaymentWriter
+16:45:22  INFO Analysing class com.manning.siia.batch.PaymentChunkListener
+16:45:22  INFO Analysing class com.manning.siia.batch.Account
+16:45:22  INFO Analysing class com.manning.siia.batch.BatchTest
+16:45:22  INFO Generating output
+16:45:22  INFO That's it! It only took 9 seconds

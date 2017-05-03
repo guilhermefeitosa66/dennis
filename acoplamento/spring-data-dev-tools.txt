@@ -1,0 +1,434 @@
+17:14:02  INFO # ----------------------------------------- #
+17:14:02  INFO #          Smelly Cat - Spring MVC          #
+17:14:02  INFO #  www.github.com/mauricioaniche/smellycat  #
+17:14:02  INFO # ----------------------------------------- #
+17:14:02  INFO Running CK metrics
+17:14:02  INFO Found 135 java files
+17:14:02  INFO Max partition size: 300, total partitions=1
+17:14:02  INFO Next partition
+17:14:05  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/utils/StreamUtils.java, className=org.springframework.data.release.utils.StreamUtils, type=interface, dit=1, noc=0, wmc=3, cbo=3, lcom=1, rfc=1, nom=2, specific={role=9999}]
+17:14:05  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/utils/HttpBasicCredentials.java, className=org.springframework.data.release.utils.HttpBasicCredentials, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=4, nom=1, specific={role=9999}]
+17:14:05  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/utils/ExecutionUtils.java, className=org.springframework.data.release.utils.ExecutionUtils, type=class, dit=1, noc=0, wmc=5, cbo=6, lcom=6, rfc=21, nom=4, specific={role=9999}]
+17:14:05  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/utils/Logger.java, className=org.springframework.data.release.utils.Logger, type=class, dit=1, noc=0, wmc=5, cbo=5, lcom=10, rfc=11, nom=5, specific={role=5}]
+17:14:05  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/misc/ReleaseOperations.java, className=org.springframework.data.release.misc.ReleaseOperations, type=class, dit=1, noc=0, wmc=12, cbo=12, lcom=0, rfc=18, nom=2, specific={role=5}]
+17:14:05  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/git/GitCommands.java, className=org.springframework.data.release.git.GitCommands, type=class, dit=2, noc=0, wmc=12, cbo=15, lcom=0, rfc=36, nom=10, specific={role=5}]
+17:14:05  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/git/Commit.java, className=org.springframework.data.release.git.Commit, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=6, nom=1, specific={role=9999}]
+17:14:05  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/git/GitProject.java, className=org.springframework.data.release.git.GitProject, type=class, dit=1, noc=0, wmc=3, cbo=5, lcom=1, rfc=5, nom=3, specific={role=9999}]
+17:14:05  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/git/Branches.java, className=org.springframework.data.release.git.Branches, type=class, dit=1, noc=0, wmc=3, cbo=2, lcom=0, rfc=6, nom=3, specific={role=9999}]
+17:14:05  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/git/TicketBranches.java, className=org.springframework.data.release.git.TicketBranches, type=class, dit=1, noc=0, wmc=5, cbo=7, lcom=0, rfc=16, nom=4, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/git/BackportTargets.java, className=org.springframework.data.release.git.BackportTargets, type=class, dit=1, noc=0, wmc=3, cbo=6, lcom=0, rfc=17, nom=2, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/git/GitOperations.java, className=org.springframework.data.release.git.GitOperations, type=class, dit=1, noc=0, wmc=61, cbo=41, lcom=519, rfc=153, nom=39, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/git/VersionTags.java, className=org.springframework.data.release.git.VersionTags, type=class, dit=1, noc=0, wmc=5, cbo=6, lcom=0, rfc=12, nom=5, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/git/Tag.java, className=org.springframework.data.release.git.Tag, type=class, dit=1, noc=0, wmc=11, cbo=4, lcom=9, rfc=15, nom=7, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/git/GitProperties.java, className=org.springframework.data.release.git.GitProperties, type=class, dit=1, noc=0, wmc=3, cbo=7, lcom=0, rfc=1, nom=3, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/git/Branch.java, className=org.springframework.data.release.git.Branch, type=class, dit=1, noc=0, wmc=11, cbo=7, lcom=14, rfc=14, nom=8, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/git/GitServer.java, className=org.springframework.data.release.git.GitServer, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/announcement/AnnouncementOperations.java, className=org.springframework.data.release.announcement.AnnouncementOperations, type=class, dit=1, noc=0, wmc=2, cbo=5, lcom=1, rfc=14, nom=2, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/announcement/AnnouncementCommands.java, className=org.springframework.data.release.announcement.AnnouncementCommands, type=class, dit=2, noc=0, wmc=1, cbo=8, lcom=0, rfc=2, nom=1, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/cli/SpringDataReleaseCliBannerProvider.java, className=org.springframework.data.release.cli.SpringDataReleaseCliBannerProvider, type=class, dit=1, noc=0, wmc=4, cbo=3, lcom=6, rfc=5, nom=4, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/cli/ReleaseCommands.java, className=org.springframework.data.release.cli.ReleaseCommands, type=class, dit=2, noc=0, wmc=10, cbo=17, lcom=0, rfc=36, nom=6, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/cli/ModelCommands.java, className=org.springframework.data.release.cli.ModelCommands, type=class, dit=2, noc=0, wmc=2, cbo=5, lcom=0, rfc=5, nom=1, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/cli/TrainConverter.java, className=org.springframework.data.release.cli.TrainConverter, type=class, dit=1, noc=0, wmc=4, cbo=6, lcom=3, rfc=3, nom=3, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/cli/StaticResources.java, className=org.springframework.data.release.cli.StaticResources, type=class, dit=1, noc=0, wmc=4, cbo=5, lcom=0, rfc=6, nom=4, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/cli/TrainIterationConverter.java, className=org.springframework.data.release.cli.TrainIterationConverter, type=class, dit=1, noc=0, wmc=5, cbo=8, lcom=3, rfc=8, nom=3, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/cli/SpringDataReleaseCliPromptProvider.java, className=org.springframework.data.release.cli.SpringDataReleaseCliPromptProvider, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=1, rfc=0, nom=2, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/Ticket.java, className=org.springframework.data.release.issues.Ticket, type=class, dit=1, noc=0, wmc=4, cbo=4, lcom=4, rfc=7, nom=4, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/Changelog.java, className=org.springframework.data.release.issues.Changelog, type=class, dit=1, noc=0, wmc=5, cbo=6, lcom=0, rfc=12, nom=1, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/IssueTracker.java, className=org.springframework.data.release.issues.IssueTracker, type=interface, dit=1, noc=0, wmc=11, cbo=8, lcom=55, rfc=0, nom=11, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/Tickets.java, className=org.springframework.data.release.issues.Tickets, type=class, dit=1, noc=0, wmc=14, cbo=8, lcom=71, rfc=22, nom=9, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/IssueTrackerCommands.java, className=org.springframework.data.release.issues.IssueTrackerCommands, type=class, dit=2, noc=0, wmc=13, cbo=14, lcom=49, rfc=34, nom=11, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/TicketStatus.java, className=org.springframework.data.release.issues.TicketStatus, type=interface, dit=1, noc=0, wmc=2, cbo=0, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/CreatedJiraIssue.java, className=org.springframework.data.release.issues.jira.CreatedJiraIssue, type=class, dit=1, noc=0, wmc=0, cbo=1, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/JiraIssue.java, className=org.springframework.data.release.issues.jira.JiraIssue, type=class, dit=1, noc=0, wmc=17, cbo=16, lcom=118, rfc=31, nom=17, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/Jira.java, className=org.springframework.data.release.issues.jira.Jira, type=class, dit=1, noc=0, wmc=46, cbo=37, lcom=193, rfc=111, nom=27, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/Credentials.java, className=org.springframework.data.release.issues.jira.Credentials, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=3, nom=1, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/JiraIssues.java, className=org.springframework.data.release.issues.jira.JiraIssues, type=class, dit=1, noc=0, wmc=4, cbo=4, lcom=0, rfc=3, nom=4, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/JiraProperties.java, className=org.springframework.data.release.issues.jira.JiraProperties, type=class, dit=1, noc=0, wmc=2, cbo=5, lcom=0, rfc=1, nom=2, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/JiraConnector.java, className=org.springframework.data.release.issues.jira.JiraConnector, type=interface, dit=1, noc=0, wmc=2, cbo=4, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/JiraReleaseVersions.java, className=org.springframework.data.release.issues.jira.JiraReleaseVersions, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=0, rfc=2, nom=3, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/JiraTicketStatus.java, className=org.springframework.data.release.issues.jira.JiraTicketStatus, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=1, rfc=1, nom=2, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/JiraComponent.java, className=org.springframework.data.release.issues.jira.JiraComponent, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/JiraComponents.java, className=org.springframework.data.release.issues.jira.JiraComponents, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=5, nom=2, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/JiraReleaseVersion.java, className=org.springframework.data.release.issues.jira.JiraReleaseVersion, type=class, dit=1, noc=0, wmc=4, cbo=5, lcom=6, rfc=7, nom=4, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/JiraVersion.java, className=org.springframework.data.release.issues.jira.JiraVersion, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=1, rfc=5, nom=3, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/jira/JqlQuery.java, className=org.springframework.data.release.issues.jira.JqlQuery, type=class, dit=1, noc=0, wmc=6, cbo=4, lcom=7, rfc=9, nom=6, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/github/GitHubMilestone.java, className=org.springframework.data.release.issues.github.GithubMilestone, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=1, rfc=7, nom=3, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/github/GitHubProperties.java, className=org.springframework.data.release.issues.github.GitHubProperties, type=class, dit=1, noc=0, wmc=3, cbo=7, lcom=1, rfc=3, nom=3, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/github/GithubTicketStatus.java, className=org.springframework.data.release.issues.github.GithubTicketStatus, type=class, dit=1, noc=0, wmc=2, cbo=5, lcom=0, rfc=1, nom=2, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/github/GitHub.java, className=org.springframework.data.release.issues.github.GitHub, type=class, dit=1, noc=0, wmc=36, cbo=28, lcom=139, rfc=62, nom=22, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/github/GitHubIssue.java, className=org.springframework.data.release.issues.github.GitHubIssue, type=class, dit=1, noc=0, wmc=5, cbo=5, lcom=0, rfc=3, nom=4, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/issues/IssueTrackerConfiguration.java, className=org.springframework.data.release.issues.IssueTrackerConfiguration, type=class, dit=2, noc=0, wmc=9, cbo=20, lcom=13, rfc=11, nom=5, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/TimedCommand.java, className=org.springframework.data.release.TimedCommand, type=class, dit=1, noc=0, wmc=4, cbo=5, lcom=4, rfc=6, nom=4, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/deployment/DefaultDeploymentInformation.java, className=org.springframework.data.release.deployment.DefaultDeploymentInformation, type=class, dit=1, noc=0, wmc=6, cbo=7, lcom=0, rfc=18, nom=5, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/deployment/DeploymentOperations.java, className=org.springframework.data.release.deployment.DeploymentOperations, type=class, dit=1, noc=0, wmc=2, cbo=4, lcom=0, rfc=3, nom=2, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/deployment/ArtifactoryCommands.java, className=org.springframework.data.release.deployment.ArtifactoryCommands, type=class, dit=2, noc=0, wmc=1, cbo=6, lcom=0, rfc=1, nom=1, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/deployment/DeploymentInformation.java, className=org.springframework.data.release.deployment.DeploymentInformation, type=interface, dit=1, noc=0, wmc=6, cbo=1, lcom=15, rfc=0, nom=6, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/deployment/Errors.java, className=org.springframework.data.release.deployment.Errors, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=0, rfc=1, nom=3, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/deployment/ArtifactoryClient.java, className=org.springframework.data.release.deployment.ArtifactoryClient, type=class, dit=1, noc=0, wmc=9, cbo=9, lcom=0, rfc=24, nom=5, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/deployment/DeploymentConfiguration.java, className=org.springframework.data.release.deployment.DeploymentConfiguration, type=class, dit=1, noc=0, wmc=3, cbo=16, lcom=0, rfc=9, nom=3, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/deployment/DeploymentProperties.java, className=org.springframework.data.release.deployment.DeploymentProperties, type=class, dit=1, noc=0, wmc=6, cbo=7, lcom=1, rfc=8, nom=6, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/Application.java, className=org.springframework.data.release.Application, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=5, nom=1, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/Streamable.java, className=org.springframework.data.release.Streamable, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=2, nom=1, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/io/WorkspaceCommands.java, className=org.springframework.data.release.io.WorkspaceCommands, type=class, dit=2, noc=0, wmc=1, cbo=8, lcom=0, rfc=1, nom=1, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/io/OsOperations.java, className=org.springframework.data.release.io.OsOperations, type=interface, dit=1, noc=0, wmc=5, cbo=2, lcom=10, rfc=0, nom=5, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/io/CommonsExecOsCommandOperations.java, className=org.springframework.data.release.io.CommonsExecOsCommandOperations, type=class, dit=1, noc=0, wmc=16, cbo=14, lcom=8, rfc=27, nom=9, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/io/IoProperties.java, className=org.springframework.data.release.io.IoProperties, type=class, dit=1, noc=0, wmc=2, cbo=4, lcom=0, rfc=4, nom=2, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/io/Workspace.java, className=org.springframework.data.release.io.Workspace, type=class, dit=1, noc=0, wmc=29, cbo=11, lcom=120, rfc=30, nom=12, specific={role=5}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/io/CommandResult.java, className=org.springframework.data.release.io.CommandResult, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/Train.java, className=org.springframework.data.release.model.Train, type=class, dit=1, noc=0, wmc=19, cbo=16, lcom=3, rfc=51, nom=18, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/Transition.java, className=org.springframework.data.release.model.Transition, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/ArtifactCoordinates.java, className=org.springframework.data.release.model.ArtifactCoordinates, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=0, rfc=7, nom=3, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/ModuleIteration.java, className=org.springframework.data.release.model.ModuleIteration, type=class, dit=1, noc=0, wmc=15, cbo=11, lcom=0, rfc=24, nom=10, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/ReleaseTrains.java, className=org.springframework.data.release.model.ReleaseTrains, type=class, dit=1, noc=0, wmc=12, cbo=7, lcom=6, rfc=10, nom=4, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/Version.java, className=org.springframework.data.release.model.Version, type=class, dit=1, noc=0, wmc=39, cbo=2, lcom=46, rfc=12, nom=17, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/ArtifactVersion.java, className=org.springframework.data.release.model.ArtifactVersion, type=class, dit=1, noc=0, wmc=25, cbo=5, lcom=0, rfc=24, nom=13, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/Projects.java, className=org.springframework.data.release.model.Projects, type=class, dit=1, noc=0, wmc=4, cbo=4, lcom=1, rfc=30, nom=2, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/Modules.java, className=org.springframework.data.release.model.Modules, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=0, rfc=1, nom=3, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/ProjectKey.java, className=org.springframework.data.release.model.ProjectKey, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/TrainIteration.java, className=org.springframework.data.release.model.TrainIteration, type=class, dit=1, noc=0, wmc=8, cbo=7, lcom=0, rfc=11, nom=8, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/Iteration.java, className=org.springframework.data.release.model.Iteration, type=class, dit=1, noc=0, wmc=8, cbo=3, lcom=11, rfc=6, nom=7, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/ArtifactCoordinate.java, className=org.springframework.data.release.model.ArtifactCoordinate, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/Module.java, className=org.springframework.data.release.model.Module, type=class, dit=1, noc=0, wmc=10, cbo=7, lcom=0, rfc=12, nom=8, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/Phase.java, className=org.springframework.data.release.model.Phase, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/Project.java, className=org.springframework.data.release.model.Project, type=class, dit=1, noc=0, wmc=13, cbo=10, lcom=4, rfc=11, nom=12, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/Release.java, className=org.springframework.data.release.model.Release, type=class, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/Tracker.java, className=org.springframework.data.release.model.Tracker, type=enum, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/VersionAware.java, className=org.springframework.data.release.model.VersionAware, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/model/IterationVersion.java, className=org.springframework.data.release.model.IterationVersion, type=interface, dit=1, noc=0, wmc=2, cbo=2, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/MavenRuntime.java, className=org.springframework.data.release.build.MavenRuntime, type=class, dit=1, noc=0, wmc=8, cbo=11, lcom=1, rfc=26, nom=3, specific={role=5}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/BuildOperations.java, className=org.springframework.data.release.build.BuildOperations, type=class, dit=1, noc=0, wmc=12, cbo=14, lcom=66, rfc=23, nom=12, specific={role=5}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/PomUpdater.java, className=org.springframework.data.release.build.PomUpdater, type=class, dit=1, noc=0, wmc=9, cbo=8, lcom=0, rfc=24, nom=5, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/Pom.java, className=org.springframework.data.release.build.Pom, type=interface, dit=1, noc=0, wmc=18, cbo=7, lcom=153, rfc=6, nom=18, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/UpdateInformation.java, className=org.springframework.data.release.build.UpdateInformation, type=class, dit=1, noc=0, wmc=14, cbo=9, lcom=0, rfc=10, nom=4, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/BuildCommands.java, className=org.springframework.data.release.build.BuildCommands, type=class, dit=2, noc=0, wmc=4, cbo=14, lcom=0, rfc=15, nom=2, specific={role=5}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/Repository.java, className=org.springframework.data.release.build.Repository, type=class, dit=1, noc=0, wmc=5, cbo=2, lcom=0, rfc=3, nom=3, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/MavenArtifact.java, className=org.springframework.data.release.build.MavenArtifact, type=class, dit=1, noc=0, wmc=5, cbo=7, lcom=0, rfc=14, nom=4, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/BuildConfiguration.java, className=org.springframework.data.release.build.BuildConfiguration, type=class, dit=1, noc=0, wmc=2, cbo=8, lcom=1, rfc=3, nom=2, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/MavenProperties.java, className=org.springframework.data.release.build.MavenProperties, type=class, dit=1, noc=0, wmc=8, cbo=4, lcom=1, rfc=11, nom=2, specific={role=5}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/BuildSystem.java, className=org.springframework.data.release.build.BuildSystem, type=interface, dit=1, noc=0, wmc=6, cbo=6, lcom=15, rfc=0, nom=6, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/MavenBuildSystem.java, className=org.springframework.data.release.build.MavenBuildSystem, type=class, dit=1, noc=0, wmc=40, cbo=25, lcom=24, rfc=60, nom=16, specific={role=5}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/ParentPom.java, className=org.springframework.data.release.build.ParentPom, type=interface, dit=1, noc=0, wmc=2, cbo=4, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/build/GroupId.java, className=org.springframework.data.release.build.GroupId, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/BootShim.java, className=org.springframework.data.release.BootShim, type=class, dit=1, noc=0, wmc=23, cbo=15, lcom=5, rfc=23, nom=7, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/CustomShellComponent.java, className=org.springframework.data.release.CustomShellComponent, type=class, dit=2, noc=0, wmc=14, cbo=4, lcom=11, rfc=15, nom=6, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/git/BackportTargetsUnitTests.java, className=org.springframework.data.release.git.BackportTargetsUnitTests, type=class, dit=1, noc=0, wmc=3, cbo=8, lcom=1, rfc=9, nom=3, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/git/BranchUnitTests.java, className=org.springframework.data.release.git.BranchUnitTests, type=class, dit=1, noc=0, wmc=3, cbo=5, lcom=3, rfc=7, nom=3, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/git/GitOperationsIntegrationTests.java, className=org.springframework.data.release.git.GitOperationsIntegrationTests, type=class, dit=2, noc=0, wmc=5, cbo=6, lcom=0, rfc=8, nom=5, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/git/GitProjectUnitTests.java, className=org.springframework.data.release.git.GitProjectUnitTests, type=class, dit=1, noc=0, wmc=1, cbo=6, lcom=0, rfc=7, nom=1, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/git/GitPropertiesIntegrationTests.java, className=org.springframework.data.release.git.GitPropertiesIntegrationTests, type=class, dit=2, noc=0, wmc=1, cbo=4, lcom=0, rfc=5, nom=1, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/cli/ReleaseCommandsIntegrationTests.java, className=org.springframework.data.release.cli.ReleaseCommandsIntegrationTests, type=class, dit=2, noc=0, wmc=1, cbo=6, lcom=0, rfc=4, nom=1, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/ArtifactUnitTests.java, className=org.springframework.data.release.ArtifactUnitTests, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=7, nom=1, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/issues/jira/JiraVersionUnitTests.java, className=org.springframework.data.release.issues.jira.JiraVersionUnitTests, type=class, dit=1, noc=0, wmc=5, cbo=4, lcom=10, rfc=6, nom=5, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/issues/jira/TicketsUnitTests.java, className=org.springframework.data.release.issues.jira.TicketsUnitTests, type=class, dit=1, noc=0, wmc=6, cbo=6, lcom=15, rfc=12, nom=6, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/issues/jira/JiraComponentsUnitTests.java, className=org.springframework.data.release.issues.jira.JiraComponentsUnitTests, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=3, rfc=7, nom=3, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/issues/jira/JiraConnectorIntegrationTests.java, className=org.springframework.data.release.issues.jira.JiraConnectorIntegrationTests, type=class, dit=2, noc=0, wmc=20, cbo=17, lcom=0, rfc=51, nom=20, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/issues/github/GitHubIssueTrackerIntegrationTests.java, className=org.springframework.data.release.issues.github.GitHubIssueTrackerIntegrationTests, type=class, dit=2, noc=0, wmc=17, cbo=15, lcom=0, rfc=43, nom=17, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/issues/github/GithubMilestoneUnitTests.java, className=org.springframework.data.release.issues.github.GithubMilestoneUnitTests, type=class, dit=1, noc=0, wmc=5, cbo=4, lcom=10, rfc=6, nom=5, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/deployment/DeploymentOperationsIntegrationTests.java, className=org.springframework.data.release.deployment.DeploymentOperationsIntegrationTests, type=class, dit=2, noc=0, wmc=1, cbo=12, lcom=0, rfc=6, nom=1, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/deployment/DeploymentInformationIntegrationTests.java, className=org.springframework.data.release.deployment.DeploymentInformationIntegrationTests, type=class, dit=2, noc=0, wmc=1, cbo=8, lcom=0, rfc=10, nom=1, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/AbstractIntegrationTests.java, className=org.springframework.data.release.AbstractIntegrationTests, type=class, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/io/IoPropertiesIntegrationTests.java, className=org.springframework.data.release.io.IoPropertiesIntegrationTests, type=class, dit=2, noc=0, wmc=1, cbo=4, lcom=0, rfc=4, nom=1, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/model/IterationUnitTests.java, className=org.springframework.data.release.model.IterationUnitTests, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/model/TrainsUnitTest.java, className=org.springframework.data.release.model.TrainsUnitTest, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=1, rfc=6, nom=2, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/model/SimpleIterationVersion.java, className=org.springframework.data.release.model.SimpleIterationVersion, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/model/ProjectUnitTests.java, className=org.springframework.data.release.model.ProjectUnitTests, type=class, dit=1, noc=0, wmc=3, cbo=2, lcom=3, rfc=9, nom=3, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/model/TestReleaseTrains.java, className=org.springframework.data.release.model.TestReleaseTrains, type=class, dit=1, noc=0, wmc=0, cbo=2, lcom=0, rfc=1, nom=0, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/model/ModuleIterationUnitTests.java, className=org.springframework.data.release.model.ModuleIterationUnitTests, type=class, dit=1, noc=0, wmc=2, cbo=4, lcom=1, rfc=6, nom=2, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/model/ArtifactVersionUnitTests.java, className=org.springframework.data.release.model.ArtifactVersionUnitTests, type=class, dit=1, noc=0, wmc=11, cbo=5, lcom=55, rfc=14, nom=11, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/model/TrackerTest.java, className=org.springframework.data.release.model.TrackerTest, type=class, dit=1, noc=0, wmc=3, cbo=1, lcom=3, rfc=8, nom=3, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/build/MavenPropertiesUnitTests.java, className=org.springframework.data.release.build.MavenPropertiesUnitTests, type=class, dit=1, noc=0, wmc=4, cbo=3, lcom=0, rfc=5, nom=4, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/build/UpdateInformationUnitTests.java, className=org.springframework.data.release.build.UpdateInformationUnitTests, type=class, dit=1, noc=0, wmc=6, cbo=5, lcom=3, rfc=10, nom=6, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/build/MavenIntegrationTests.java, className=org.springframework.data.release.build.MavenIntegrationTests, type=class, dit=2, noc=0, wmc=3, cbo=18, lcom=1, rfc=15, nom=3, specific={role=9999}]
+17:14:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/test/java/org/springframework/data/release/ApplicationTests.java, className=org.springframework.data.release.ApplicationTests, type=class, dit=2, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:07  INFO Finished parsing
+17:14:07  INFO Looking for smells
+17:14:07  INFO Starting the parse engine
+17:14:07  INFO Found 135 java files. We divided into 1 partitions
+17:14:07  INFO Identifying roles...
+17:14:07  INFO -- org.springframework.data.release.utils.StreamUtils is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:07  INFO -- org.springframework.data.release.utils.HttpBasicCredentials is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.utils.ExecutionUtils is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.utils.Logger is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.misc.ReleaseOperations is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.git.GitCommands is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.git.Commit is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.git.GitProject is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.git.Branches is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.git.TicketBranches is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.git.BackportTargets is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.git.GitOperations is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.git.VersionTags is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.git.Tag is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.git.GitProperties is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.git.Branch is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.git.GitServer is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.announcement.AnnouncementOperations is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.announcement.AnnouncementCommands is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.cli.SpringDataReleaseCliBannerProvider is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.cli.ReleaseCommands is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.cli.ModelCommands is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.cli.TrainConverter is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.cli.StaticResources is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.cli.TrainIterationConverter is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.cli.SpringDataReleaseCliPromptProvider is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.Ticket is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.Changelog is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.IssueTracker is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:07  INFO -- org.springframework.data.release.issues.Tickets is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.IssueTrackerCommands is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.TicketStatus is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.CreatedJiraIssue is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JiraIssue is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.Jira is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.Credentials is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JiraIssues is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JiraProperties is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JiraConnector is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JiraReleaseVersions is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JiraTicketStatus is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JiraComponent is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JiraComponents is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JiraReleaseVersion is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JiraVersion is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JqlQuery is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.github.GithubMilestone is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.github.GitHubProperties is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.github.GithubTicketStatus is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.github.GitHub is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.github.GitHubIssue is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.IssueTrackerConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.TimedCommand is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.deployment.DefaultDeploymentInformation is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.deployment.DeploymentOperations is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.deployment.ArtifactoryCommands is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.deployment.DeploymentInformation is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:07  INFO -- org.springframework.data.release.deployment.Errors is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.deployment.ArtifactoryClient is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.deployment.DeploymentConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.deployment.DeploymentProperties is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.Application is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.Streamable is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:07  INFO -- org.springframework.data.release.io.WorkspaceCommands is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.io.OsOperations is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:07  INFO -- org.springframework.data.release.io.CommonsExecOsCommandOperations is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.io.IoProperties is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.io.Workspace is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.io.CommandResult is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.Train is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.Transition is a ArchitecturalRole [role=other, id=9999] (enum)
+17:14:07  INFO -- org.springframework.data.release.model.ArtifactCoordinates is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.ModuleIteration is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.ReleaseTrains is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.Version is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.ArtifactVersion is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.Projects is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.Modules is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.ProjectKey is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.TrainIteration is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.Iteration is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.ArtifactCoordinate is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.Module is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.Phase is a ArchitecturalRole [role=other, id=9999] (enum)
+17:14:07  INFO -- org.springframework.data.release.model.Project is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.Release is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.Tracker is a ArchitecturalRole [role=other, id=9999] (enum)
+17:14:07  INFO -- org.springframework.data.release.model.VersionAware is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:07  INFO -- org.springframework.data.release.model.IterationVersion is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:07  INFO -- org.springframework.data.release.build.MavenRuntime is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.build.BuildOperations is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.build.PomUpdater is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.build.Pom is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:07  INFO -- org.springframework.data.release.build.UpdateInformation is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.build.BuildCommands is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.build.Repository is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.build.MavenArtifact is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.build.BuildConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.build.MavenProperties is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.build.BuildSystem is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:07  INFO -- org.springframework.data.release.build.MavenBuildSystem is a ArchitecturalRole [role=component, id=5] (class)
+17:14:07  INFO -- org.springframework.data.release.build.ParentPom is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:07  INFO -- org.springframework.data.release.build.GroupId is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.BootShim is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.CustomShellComponent is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.git.BackportTargetsUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.git.BranchUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.git.GitOperationsIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.git.GitProjectUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.git.GitPropertiesIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.cli.ReleaseCommandsIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.ArtifactUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JiraVersionUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.TicketsUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JiraComponentsUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.jira.JiraConnectorIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.github.GitHubIssueTrackerIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.issues.github.GithubMilestoneUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.deployment.DeploymentOperationsIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.deployment.DeploymentInformationIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.AbstractIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.io.IoPropertiesIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.IterationUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.TrainsUnitTest is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.SimpleIterationVersion is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.ProjectUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.TestReleaseTrains is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.ModuleIterationUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.ArtifactVersionUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.model.TrackerTest is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.build.MavenPropertiesUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.build.UpdateInformationUnitTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.build.MavenIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO -- org.springframework.data.release.ApplicationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:07  INFO Identifying smells...
+17:14:08 ERROR error in /home/guilherme/spring-projects/maven/spring-data-dev-tools/release-tools/src/main/java/org/springframework/data/release/CliComponent.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:08  INFO Analysing class org.springframework.data.release.utils.StreamUtils
+17:14:08  INFO Analysing class org.springframework.data.release.utils.HttpBasicCredentials
+17:14:08  INFO Analysing class org.springframework.data.release.utils.ExecutionUtils
+17:14:08  INFO Analysing class org.springframework.data.release.utils.Logger
+17:14:08  INFO Analysing class org.springframework.data.release.misc.ReleaseOperations
+17:14:08  INFO Analysing class org.springframework.data.release.git.GitCommands
+17:14:08  INFO Analysing class org.springframework.data.release.git.Commit
+17:14:08  INFO Analysing class org.springframework.data.release.git.GitProject
+17:14:08  INFO Analysing class org.springframework.data.release.git.Branches
+17:14:08  INFO Analysing class org.springframework.data.release.git.TicketBranches
+17:14:08  INFO Analysing class org.springframework.data.release.git.BackportTargets
+17:14:08  INFO Analysing class org.springframework.data.release.git.GitOperations
+17:14:08  INFO Analysing class org.springframework.data.release.git.VersionTags
+17:14:08  INFO Analysing class org.springframework.data.release.git.Tag
+17:14:08  INFO Analysing class org.springframework.data.release.git.GitProperties
+17:14:08  INFO Analysing class org.springframework.data.release.git.Branch
+17:14:08  INFO Analysing class org.springframework.data.release.git.GitServer
+17:14:08  INFO Analysing class org.springframework.data.release.announcement.AnnouncementOperations
+17:14:08  INFO Analysing class org.springframework.data.release.announcement.AnnouncementCommands
+17:14:08  INFO Analysing class org.springframework.data.release.cli.SpringDataReleaseCliBannerProvider
+17:14:08  INFO Analysing class org.springframework.data.release.cli.ReleaseCommands
+17:14:08  INFO Analysing class org.springframework.data.release.cli.ModelCommands
+17:14:08  INFO Analysing class org.springframework.data.release.cli.TrainConverter
+17:14:08  INFO Analysing class org.springframework.data.release.cli.StaticResources
+17:14:08  INFO Analysing class org.springframework.data.release.cli.TrainIterationConverter
+17:14:08  INFO Analysing class org.springframework.data.release.cli.SpringDataReleaseCliPromptProvider
+17:14:08  INFO Analysing class org.springframework.data.release.issues.Ticket
+17:14:08  INFO Analysing class org.springframework.data.release.issues.Changelog
+17:14:08  INFO Analysing class org.springframework.data.release.issues.IssueTracker
+17:14:08  INFO Analysing class org.springframework.data.release.issues.Tickets
+17:14:08  INFO Analysing class org.springframework.data.release.issues.IssueTrackerCommands
+17:14:08  INFO Analysing class org.springframework.data.release.issues.TicketStatus
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.CreatedJiraIssue
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JiraIssue
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.Jira
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.Credentials
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JiraIssues
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JiraProperties
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JiraConnector
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JiraReleaseVersions
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JiraTicketStatus
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JiraComponent
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JiraComponents
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JiraReleaseVersion
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JiraVersion
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JqlQuery
+17:14:08  INFO Analysing class org.springframework.data.release.issues.github.GithubMilestone
+17:14:08  INFO Analysing class org.springframework.data.release.issues.github.GitHubProperties
+17:14:08  INFO Analysing class org.springframework.data.release.issues.github.GithubTicketStatus
+17:14:08  INFO Analysing class org.springframework.data.release.issues.github.GitHub
+17:14:08  INFO Analysing class org.springframework.data.release.issues.github.GitHubIssue
+17:14:08  INFO Analysing class org.springframework.data.release.issues.IssueTrackerConfiguration
+17:14:08  INFO Analysing class org.springframework.data.release.TimedCommand
+17:14:08  INFO Analysing class org.springframework.data.release.deployment.DefaultDeploymentInformation
+17:14:08  INFO Analysing class org.springframework.data.release.deployment.DeploymentOperations
+17:14:08  INFO Analysing class org.springframework.data.release.deployment.ArtifactoryCommands
+17:14:08  INFO Analysing class org.springframework.data.release.deployment.DeploymentInformation
+17:14:08  INFO Analysing class org.springframework.data.release.deployment.Errors
+17:14:08  INFO Analysing class org.springframework.data.release.deployment.ArtifactoryClient
+17:14:08  INFO Analysing class org.springframework.data.release.deployment.DeploymentConfiguration
+17:14:08  INFO Analysing class org.springframework.data.release.deployment.DeploymentProperties
+17:14:08  INFO Analysing class org.springframework.data.release.Application
+17:14:08  INFO Analysing class org.springframework.data.release.Streamable
+17:14:08  INFO Analysing class org.springframework.data.release.io.WorkspaceCommands
+17:14:08  INFO Analysing class org.springframework.data.release.io.OsOperations
+17:14:08  INFO Analysing class org.springframework.data.release.io.CommonsExecOsCommandOperations
+17:14:08  INFO Analysing class org.springframework.data.release.io.IoProperties
+17:14:08  INFO Analysing class org.springframework.data.release.io.Workspace
+17:14:08  INFO Analysing class org.springframework.data.release.io.CommandResult
+17:14:08  INFO Analysing class org.springframework.data.release.model.Train
+17:14:08  INFO Analysing class org.springframework.data.release.model.Transition
+17:14:08  INFO Analysing class org.springframework.data.release.model.ArtifactCoordinates
+17:14:08  INFO Analysing class org.springframework.data.release.model.ModuleIteration
+17:14:08  INFO Analysing class org.springframework.data.release.model.ReleaseTrains
+17:14:08  INFO Analysing class org.springframework.data.release.model.Version
+17:14:08  INFO Analysing class org.springframework.data.release.model.ArtifactVersion
+17:14:08  INFO Analysing class org.springframework.data.release.model.Projects
+17:14:08  INFO Analysing class org.springframework.data.release.model.Modules
+17:14:08  INFO Analysing class org.springframework.data.release.model.ProjectKey
+17:14:08  INFO Analysing class org.springframework.data.release.model.TrainIteration
+17:14:08  INFO Analysing class org.springframework.data.release.model.Iteration
+17:14:08  INFO Analysing class org.springframework.data.release.model.ArtifactCoordinate
+17:14:08  INFO Analysing class org.springframework.data.release.model.Module
+17:14:08  INFO Analysing class org.springframework.data.release.model.Phase
+17:14:08  INFO Analysing class org.springframework.data.release.model.Project
+17:14:08  INFO Analysing class org.springframework.data.release.model.Release
+17:14:08  INFO Analysing class org.springframework.data.release.model.Tracker
+17:14:08  INFO Analysing class org.springframework.data.release.model.VersionAware
+17:14:08  INFO Analysing class org.springframework.data.release.model.IterationVersion
+17:14:08  INFO Analysing class org.springframework.data.release.build.MavenRuntime
+17:14:08  INFO Analysing class org.springframework.data.release.build.BuildOperations
+17:14:08  INFO Analysing class org.springframework.data.release.build.PomUpdater
+17:14:08  INFO Analysing class org.springframework.data.release.build.Pom
+17:14:08  INFO Analysing class org.springframework.data.release.build.UpdateInformation
+17:14:08  INFO Analysing class org.springframework.data.release.build.BuildCommands
+17:14:08  INFO Analysing class org.springframework.data.release.build.Repository
+17:14:08  INFO Analysing class org.springframework.data.release.build.MavenArtifact
+17:14:08  INFO Analysing class org.springframework.data.release.build.BuildConfiguration
+17:14:08  INFO Analysing class org.springframework.data.release.build.MavenProperties
+17:14:08  INFO Analysing class org.springframework.data.release.build.BuildSystem
+17:14:08  INFO Analysing class org.springframework.data.release.build.MavenBuildSystem
+17:14:08  INFO Analysing class org.springframework.data.release.build.ParentPom
+17:14:08  INFO Analysing class org.springframework.data.release.build.GroupId
+17:14:08  INFO Analysing class org.springframework.data.release.BootShim
+17:14:08  INFO Analysing class org.springframework.data.release.CustomShellComponent
+17:14:08  INFO Analysing class org.springframework.data.release.git.BackportTargetsUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.git.BranchUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.git.GitOperationsIntegrationTests
+17:14:08  INFO Analysing class org.springframework.data.release.git.GitProjectUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.git.GitPropertiesIntegrationTests
+17:14:08  INFO Analysing class org.springframework.data.release.cli.ReleaseCommandsIntegrationTests
+17:14:08  INFO Analysing class org.springframework.data.release.ArtifactUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JiraVersionUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.TicketsUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JiraComponentsUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.issues.jira.JiraConnectorIntegrationTests
+17:14:08  INFO Analysing class org.springframework.data.release.issues.github.GitHubIssueTrackerIntegrationTests
+17:14:08  INFO Analysing class org.springframework.data.release.issues.github.GithubMilestoneUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.deployment.DeploymentOperationsIntegrationTests
+17:14:08  INFO Analysing class org.springframework.data.release.deployment.DeploymentInformationIntegrationTests
+17:14:08  INFO Analysing class org.springframework.data.release.AbstractIntegrationTests
+17:14:08  INFO Analysing class org.springframework.data.release.io.IoPropertiesIntegrationTests
+17:14:08  INFO Analysing class org.springframework.data.release.model.IterationUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.model.TrainsUnitTest
+17:14:08  INFO Analysing class org.springframework.data.release.model.SimpleIterationVersion
+17:14:08  INFO Analysing class org.springframework.data.release.model.ProjectUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.model.TestReleaseTrains
+17:14:08  INFO Analysing class org.springframework.data.release.model.ModuleIterationUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.model.ArtifactVersionUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.model.TrackerTest
+17:14:08  INFO Analysing class org.springframework.data.release.build.MavenPropertiesUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.build.UpdateInformationUnitTests
+17:14:08  INFO Analysing class org.springframework.data.release.build.MavenIntegrationTests
+17:14:08  INFO Analysing class org.springframework.data.release.ApplicationTests
+17:14:08  INFO Generating output
+17:14:08  INFO That's it! It only took 6 seconds

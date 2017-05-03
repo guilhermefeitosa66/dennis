@@ -1,0 +1,15 @@
+17:15:59  INFO # ----------------------------------------- #
+17:15:59  INFO #          Smelly Cat - Spring MVC          #
+17:15:59  INFO #  www.github.com/mauricioaniche/smellycat  #
+17:15:59  INFO # ----------------------------------------- #
+17:15:59  INFO Running CK metrics
+17:16:00  INFO Found 0 java files
+17:16:00  INFO Max partition size: 300, total partitions=0
+17:16:00  INFO Finished parsing
+17:16:00  INFO Looking for smells
+17:16:00  INFO Starting the parse engine
+17:16:00  INFO Found 0 java files. We divided into 0 partitions
+17:16:00  INFO Identifying roles...
+17:16:00  INFO Identifying smells...
+17:16:00  INFO Generating output
+17:16:00  INFO That's it! It only took 1 seconds

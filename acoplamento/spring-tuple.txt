@@ -1,0 +1,223 @@
+17:15:03  INFO # ----------------------------------------- #
+17:15:03  INFO #          Smelly Cat - Spring MVC          #
+17:15:03  INFO #  www.github.com/mauricioaniche/smellycat  #
+17:15:03  INFO # ----------------------------------------- #
+17:15:03  INFO Running CK metrics
+17:15:04  INFO Found 43 java files
+17:15:04  INFO Max partition size: 300, total partitions=1
+17:15:04  INFO Next partition
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-batch-tuple/src/main/java/org/springframework/batch/tuple/TupleFieldExtractor.java, className=org.springframework.batch.tuple.TupleFieldExtractor, type=class, dit=1, noc=0, wmc=6, cbo=3, lcom=0, rfc=6, nom=2, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-batch-tuple/src/main/java/org/springframework/batch/tuple/TupleFieldSetMapper.java, className=org.springframework.batch.tuple.TupleFieldSetMapper, type=class, dit=1, noc=0, wmc=33, cbo=8, lcom=2, rfc=21, nom=4, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-batch-tuple/src/main/java/org/springframework/batch/tuple/TupleSqlParameterSource.java, className=org.springframework.batch.tuple.TupleSqlParameterSource, type=class, dit=2, noc=0, wmc=3, cbo=2, lcom=0, rfc=3, nom=3, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-batch-tuple/src/main/java/org/springframework/batch/tuple/FieldSetType.java, className=org.springframework.batch.tuple.FieldSetType, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-batch-tuple/src/main/java/org/springframework/batch/tuple/TupleRowMapper.java, className=org.springframework.batch.tuple.TupleRowMapper, type=class, dit=1, noc=0, wmc=2, cbo=4, lcom=0, rfc=7, nom=1, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-batch-tuple/src/main/java/org/springframework/batch/tuple/TupleSqlParameterSourceProvider.java, className=org.springframework.batch.tuple.TupleSqlParameterSourceProvider, type=class, dit=1, noc=0, wmc=1, cbo=5, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-batch-tuple/src/test/java/org/springframework/batch/tuple/TupleFieldExtractorTests.java, className=org.springframework.xd.tuple.batch.TupleFieldExtractorTests, type=class, dit=1, noc=0, wmc=6, cbo=6, lcom=0, rfc=10, nom=4, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-integration-tuple/src/main/java/org/springframework/integration/tuple/MapToTupleTransformer.java, className=org.springframework.integration.tuple.MapToTupleTransformer, type=class, dit=2, noc=0, wmc=2, cbo=3, lcom=0, rfc=8, nom=1, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-integration-tuple/src/main/java/org/springframework/integration/tuple/TupleKryoRegistrar.java, className=org.springframework.integration.tuple.TupleKryoRegistrar, type=class, dit=2, noc=0, wmc=1, cbo=4, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-integration-tuple/src/main/java/org/springframework/integration/tuple/JsonToTupleTransformer.java, className=org.springframework.integration.tuple.JsonToTupleTransformer, type=class, dit=2, noc=0, wmc=3, cbo=5, lcom=0, rfc=11, nom=2, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-integration-tuple/src/test/java/org/springframework/integration/tuple/MapToTupleTransformerTests.java, className=org.springframework.tuple.integration.MapToTupleTransformerTests, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=7, nom=1, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-integration-tuple/src/test/java/org/springframework/integration/tuple/JsonToTupleTransformerTests.java, className=org.springframework.integration.tuple.JsonToTupleTransformerTests, type=class, dit=1, noc=0, wmc=4, cbo=3, lcom=6, rfc=10, nom=4, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-integration-tuple/src/test/java/org/springframework/integration/tuple/TupleCodecTests.java, className=org.springframework.integration.tuple.TupleCodecTests, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=0, rfc=12, nom=3, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/TupleBuilder.java, className=org.springframework.tuple.TupleBuilder, type=class, dit=1, noc=0, wmc=29, cbo=8, lcom=180, rfc=23, nom=21, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/DefaultMutableTuple.java, className=org.springframework.tuple.DefaultMutableTuple, type=class, dit=2, noc=0, wmc=7, cbo=3, lcom=3, rfc=6, nom=3, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/MutableTuple.java, className=org.springframework.tuple.MutableTuple, type=interface, dit=1, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/JsonStringToTupleConverter.java, className=org.springframework.tuple.JsonStringToTupleConverter, type=class, dit=1, noc=0, wmc=26, cbo=7, lcom=0, rfc=24, nom=3, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/StringToDateConverter.java, className=org.springframework.tuple.StringToDateConverter, type=class, dit=1, noc=0, wmc=7, cbo=2, lcom=0, rfc=5, nom=4, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/TupleToJsonStringConverter.java, className=org.springframework.tuple.TupleToJsonStringConverter, type=class, dit=1, noc=0, wmc=19, cbo=10, lcom=0, rfc=19, nom=4, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/LocaleAwareStringToNumberConverterFactory.java, className=org.springframework.tuple.LocaleAwareStringToNumberConverterFactory, type=class, dit=1, noc=0, wmc=4, cbo=6, lcom=0, rfc=1, nom=4, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/Tuple.java, className=org.springframework.tuple.Tuple, type=interface, dit=1, noc=0, wmc=59, cbo=2, lcom=1711, rfc=0, nom=59, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/JsonNodeToTupleConverter.java, className=org.springframework.tuple.JsonNodeToTupleConverter, type=class, dit=1, noc=0, wmc=27, cbo=6, lcom=1, rfc=23, nom=2, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/TupleJsonMarshaller.java, className=org.springframework.tuple.TupleJsonMarshaller, type=class, dit=2, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:15:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/kryo/DefaultTupleSerializer.java, className=org.springframework.tuple.kryo.DefaultTupleSerializer, type=class, dit=2, noc=0, wmc=4, cbo=6, lcom=1, rfc=10, nom=2, specific={role=9999}]
+17:15:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/spel/TuplePropertyAccessor.java, className=org.springframework.tuple.spel.TuplePropertyAccessor, type=class, dit=2, noc=0, wmc=21, cbo=7, lcom=22, rfc=8, nom=8, specific={role=9999}]
+17:15:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/DefaultTupleConversionService.java, className=org.springframework.tuple.DefaultTupleConversionService, type=class, dit=2, noc=0, wmc=1, cbo=1, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:15:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/JsonBytesToTupleConverter.java, className=org.springframework.tuple.JsonBytesToTupleConverter, type=class, dit=1, noc=0, wmc=5, cbo=8, lcom=0, rfc=4, nom=2, specific={role=9999}]
+17:15:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/processor/TupleProcessor.java, className=org.springframework.tuple.processor.TupleProcessor, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:15:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/DefaultTuple.java, className=org.springframework.tuple.DefaultTuple, type=class, dit=1, noc=0, wmc=148, cbo=11, lcom=1539, rfc=77, nom=70, specific={role=9999}]
+17:15:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/TupleStringMarshaller.java, className=org.springframework.tuple.TupleStringMarshaller, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=0, rfc=1, nom=3, specific={role=9999}]
+17:15:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/test/java/org/springframework/tuple/JsonBytesToTupleConverterTests.java, className=org.springframework.tuple.JsonBytesToTupleConverterTests, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=4, nom=1, specific={role=9999}]
+17:15:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/test/java/org/springframework/tuple/DefaultTupleTests.java, className=org.springframework.tuple.DefaultTupleTests, type=class, dit=1, noc=0, wmc=32, cbo=5, lcom=476, rfc=86, nom=32, specific={role=9999}]
+17:15:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/test/java/org/springframework/tuple/SpringToDateConverterTests.java, className=org.springframework.tuple.SpringToDateConverterTests, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=3, nom=1, specific={role=9999}]
+17:15:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/test/java/org/springframework/tuple/AbstractTupleMarshallerTests.java, className=org.springframework.tuple.AbstractTupleMarshallerTests, type=class, dit=1, noc=0, wmc=8, cbo=7, lcom=2, rfc=24, nom=8, specific={role=9999}]
+17:15:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/test/java/org/springframework/tuple/spel/TuplePropertyAccessorTests.java, className=org.springframework.tuple.spel.TuplePropertyAccessorTests, type=class, dit=1, noc=0, wmc=18, cbo=6, lcom=147, rfc=14, nom=18, specific={role=9999}]
+17:15:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/test/java/org/springframework/tuple/TupleJsonMarshallerTests.java, className=org.springframework.tuple.TupleJsonMarshallerTests, type=class, dit=2, noc=0, wmc=3, cbo=7, lcom=3, rfc=14, nom=3, specific={role=9999}]
+17:15:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/test/java/org/springframework/tuple/DefaultTupleTestForBatch.java, className=org.springframework.tuple.DefaultTupleTestForBatch, type=class, dit=1, noc=0, wmc=57, cbo=4, lcom=0, rfc=66, nom=43, specific={role=9999}]
+17:15:07  INFO Finished parsing
+17:15:07  INFO Looking for smells
+17:15:07  INFO Starting the parse engine
+17:15:07  INFO Found 43 java files. We divided into 1 partitions
+17:15:07  INFO Identifying roles...
+17:15:07  INFO -- org.springframework.batch.tuple.TupleFieldExtractor is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.batch.tuple.TupleFieldSetMapper is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.batch.tuple.TupleSqlParameterSource is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.batch.tuple.FieldSetType is a ArchitecturalRole [role=other, id=9999] (enum)
+17:15:07  INFO -- org.springframework.batch.tuple.TupleRowMapper is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.batch.tuple.TupleSqlParameterSourceProvider is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.xd.tuple.batch.TupleFieldExtractorTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.integration.tuple.MapToTupleTransformer is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.integration.tuple.TupleKryoRegistrar is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.integration.tuple.JsonToTupleTransformer is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.integration.MapToTupleTransformerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.integration.tuple.JsonToTupleTransformerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.integration.tuple.TupleCodecTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.TupleBuilder is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.DefaultMutableTuple is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.MutableTuple is a ArchitecturalRole [role=other, id=9999] (interface)
+17:15:07  INFO -- org.springframework.tuple.JsonStringToTupleConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.StringToDateConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.TupleToJsonStringConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.LocaleAwareStringToNumberConverterFactory is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.Tuple is a ArchitecturalRole [role=other, id=9999] (interface)
+17:15:07  INFO -- org.springframework.tuple.JsonNodeToTupleConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.TupleJsonMarshaller is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.kryo.DefaultTupleSerializer is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.spel.TuplePropertyAccessor is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.DefaultTupleConversionService is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.JsonBytesToTupleConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.processor.TupleProcessor is a ArchitecturalRole [role=other, id=9999] (interface)
+17:15:07  INFO -- org.springframework.tuple.DefaultTuple is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.TupleStringMarshaller is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.JsonBytesToTupleConverterTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.DefaultTupleTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.SpringToDateConverterTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.AbstractTupleMarshallerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.spel.TuplePropertyAccessorTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.TupleJsonMarshallerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO -- org.springframework.tuple.DefaultTupleTestForBatch is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:07  INFO Identifying smells...
+17:15:08  INFO Analysing class org.springframework.batch.tuple.TupleFieldExtractor
+17:15:08  INFO Analysing class org.springframework.batch.tuple.TupleFieldSetMapper
+17:15:08 ERROR error in /home/guilherme/spring-projects/maven/spring-tuple/spring-batch-tuple/src/main/java/org/springframework/batch/tuple/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:15:08  INFO Analysing class org.springframework.batch.tuple.TupleSqlParameterSource
+17:15:08  INFO Analysing class org.springframework.batch.tuple.FieldSetType
+17:15:08  INFO Analysing class org.springframework.batch.tuple.TupleRowMapper
+17:15:08  INFO Analysing class org.springframework.batch.tuple.TupleSqlParameterSourceProvider
+17:15:08  INFO Analysing class org.springframework.xd.tuple.batch.TupleFieldExtractorTests
+17:15:08 ERROR error in /home/guilherme/spring-projects/maven/spring-tuple/spring-integration-tuple/src/main/java/org/springframework/integration/tuple/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:15:08  INFO Analysing class org.springframework.integration.tuple.MapToTupleTransformer
+17:15:08  INFO Analysing class org.springframework.integration.tuple.TupleKryoRegistrar
+17:15:08  INFO Analysing class org.springframework.integration.tuple.JsonToTupleTransformer
+17:15:08  INFO Analysing class org.springframework.tuple.integration.MapToTupleTransformerTests
+17:15:08  INFO Analysing class org.springframework.integration.tuple.JsonToTupleTransformerTests
+17:15:08  INFO Analysing class org.springframework.integration.tuple.TupleCodecTests
+17:15:08  INFO Analysing class org.springframework.tuple.TupleBuilder
+17:15:08 ERROR error in /home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:15:08  INFO Analysing class org.springframework.tuple.DefaultMutableTuple
+17:15:08  INFO Analysing class org.springframework.tuple.MutableTuple
+17:15:08  INFO Analysing class org.springframework.tuple.JsonStringToTupleConverter
+17:15:08  INFO Analysing class org.springframework.tuple.StringToDateConverter
+17:15:08  INFO Analysing class org.springframework.tuple.TupleToJsonStringConverter
+17:15:08  INFO Analysing class org.springframework.tuple.LocaleAwareStringToNumberConverterFactory
+17:15:08  INFO Analysing class org.springframework.tuple.Tuple
+17:15:08  INFO Analysing class org.springframework.tuple.JsonNodeToTupleConverter
+17:15:08  INFO Analysing class org.springframework.tuple.TupleJsonMarshaller
+17:15:08 ERROR error in /home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/kryo/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:15:08  INFO Analysing class org.springframework.tuple.kryo.DefaultTupleSerializer
+17:15:08 ERROR error in /home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/spel/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:15:08  INFO Analysing class org.springframework.tuple.spel.TuplePropertyAccessor
+17:15:08  INFO Analysing class org.springframework.tuple.DefaultTupleConversionService
+17:15:08  INFO Analysing class org.springframework.tuple.JsonBytesToTupleConverter
+17:15:08 ERROR error in /home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/java/org/springframework/tuple/processor/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:15:08  INFO Analysing class org.springframework.tuple.processor.TupleProcessor
+17:15:08  INFO Analysing class org.springframework.tuple.DefaultTuple
+17:15:08  INFO Analysing class org.springframework.tuple.TupleStringMarshaller
+17:15:08  INFO Analysing class org.springframework.tuple.JsonBytesToTupleConverterTests
+17:15:08  INFO Analysing class org.springframework.tuple.DefaultTupleTests
+17:15:08  INFO Analysing class org.springframework.tuple.SpringToDateConverterTests
+17:15:08  INFO Analysing class org.springframework.tuple.AbstractTupleMarshallerTests
+17:15:08  INFO Analysing class org.springframework.tuple.spel.TuplePropertyAccessorTests
+17:15:08  INFO Analysing class org.springframework.tuple.TupleJsonMarshallerTests
+17:15:08  INFO Analysing class org.springframework.tuple.DefaultTupleTestForBatch
+17:15:08  INFO Generating output
+17:15:08  INFO That's it! It only took 4 seconds

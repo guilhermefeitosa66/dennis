@@ -1,0 +1,25 @@
+16:50:01  INFO # ----------------------------------------- #
+16:50:01  INFO #          Smelly Cat - Spring MVC          #
+16:50:01  INFO #  www.github.com/mauricioaniche/smellycat  #
+16:50:01  INFO # ----------------------------------------- #
+16:50:01  INFO Running CK metrics
+16:50:02  INFO Found 3 java files
+16:50:02  INFO Max partition size: 300, total partitions=1
+16:50:02  INFO Next partition
+16:50:04  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-roo-wrapping/felix-http-jetty/src/main/java/org/apache/felix/http/base/internal/logger/LogServiceLogger.java, className=org.apache.felix.http.base.internal.logger.LogServiceLogger, type=class, dit=2, noc=0, wmc=9, cbo=6, lcom=0, rfc=7, nom=3, specific={role=9999}]
+16:50:05  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-roo-wrapping/felix-http-jetty/src/main/java/org/apache/felix/http/base/internal/logger/JDK14Logger.java, className=org.apache.felix.http.base.internal.logger.JDK14Logger, type=class, dit=2, noc=0, wmc=14, cbo=3, lcom=0, rfc=7, nom=2, specific={role=9999}]
+16:50:05  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-roo-wrapping/felix-framework/src/main/java/org/apache/felix/resolver/ResolverImpl.java, className=org.apache.felix.resolver.ResolverImpl, type=class, dit=2, noc=0, wmc=498, cbo=37, lcom=1927, rfc=158, nom=56, specific={role=9999}]
+16:50:05  INFO Finished parsing
+16:50:05  INFO Looking for smells
+16:50:05  INFO Starting the parse engine
+16:50:05  INFO Found 3 java files. We divided into 1 partitions
+16:50:05  INFO Identifying roles...
+16:50:05  INFO -- org.apache.felix.http.base.internal.logger.LogServiceLogger is a ArchitecturalRole [role=other, id=9999] (class)
+16:50:05  INFO -- org.apache.felix.http.base.internal.logger.JDK14Logger is a ArchitecturalRole [role=other, id=9999] (class)
+16:50:06  INFO -- org.apache.felix.resolver.ResolverImpl is a ArchitecturalRole [role=other, id=9999] (class)
+16:50:06  INFO Identifying smells...
+16:50:06  INFO Analysing class org.apache.felix.http.base.internal.logger.LogServiceLogger
+16:50:06  INFO Analysing class org.apache.felix.http.base.internal.logger.JDK14Logger
+16:50:06  INFO Analysing class org.apache.felix.resolver.ResolverImpl
+16:50:06  INFO Generating output
+16:50:06  INFO That's it! It only took 4 seconds

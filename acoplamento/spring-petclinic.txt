@@ -1,0 +1,488 @@
+17:17:17  INFO # ----------------------------------------- #
+17:17:17  INFO #          Smelly Cat - Spring MVC          #
+17:17:17  INFO #  www.github.com/mauricioaniche/smellycat  #
+17:17:17  INFO # ----------------------------------------- #
+17:17:17  INFO Running CK metrics
+17:17:18  INFO Found 68 java files
+17:17:18  INFO Max partition size: 300, total partitions=1
+17:17:18  INFO Next partition
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/web/VetController.java, className=org.springframework.samples.petclinic.web.VetController, type=class, dit=1, noc=0, wmc=3, cbo=6, lcom=0, rfc=4, nom=3, specific={role=1}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/web/VisitController.java, className=org.springframework.samples.petclinic.web.VisitController, type=class, dit=1, noc=0, wmc=8, cbo=12, lcom=3, rfc=7, nom=6, specific={role=1}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java, className=org.springframework.samples.petclinic.web.OwnerController, type=class, dit=1, noc=0, wmc=19, cbo=13, lcom=0, rfc=17, nom=9, specific={role=1}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/web/PetValidator.java, className=org.springframework.samples.petclinic.web.PetValidator, type=class, dit=1, noc=0, wmc=8, cbo=3, lcom=1, rfc=7, nom=2, specific={role=9999}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java, className=org.springframework.samples.petclinic.web.PetTypeFormatter, type=class, dit=1, noc=0, wmc=6, cbo=5, lcom=1, rfc=3, nom=3, specific={role=9999}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/web/PetController.java, className=org.springframework.samples.petclinic.web.PetController, type=class, dit=1, noc=0, wmc=15, cbo=14, lcom=0, rfc=14, nom=9, specific={role=1}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/web/CrashController.java, className=org.springframework.samples.petclinic.web.CrashController, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=1}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/PetclinicInitializer.java, className=org.springframework.samples.petclinic.PetclinicInitializer, type=class, dit=2, noc=0, wmc=7, cbo=13, lcom=19, rfc=10, nom=7, specific={role=9999}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/service/ClinicService.java, className=org.springframework.samples.petclinic.service.ClinicService, type=interface, dit=1, noc=0, wmc=9, cbo=5, lcom=36, rfc=0, nom=9, specific={role=9999}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java, className=org.springframework.samples.petclinic.service.ClinicServiceImpl, type=class, dit=1, noc=0, wmc=10, cbo=14, lcom=13, rfc=9, nom=10, specific={role=2}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java, className=org.springframework.samples.petclinic.model.BaseEntity, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=0, rfc=0, nom=3, specific={role=9999}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Specialty.java, className=org.springframework.samples.petclinic.model.Specialty, type=class, dit=3, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=3}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Vet.java, className=org.springframework.samples.petclinic.model.Vet, type=class, dit=3, noc=0, wmc=7, cbo=7, lcom=8, rfc=5, nom=5, specific={role=3}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Pet.java, className=org.springframework.samples.petclinic.model.Pet, type=class, dit=3, noc=0, wmc=12, cbo=13, lcom=37, rfc=5, nom=10, specific={role=3}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java, className=org.springframework.samples.petclinic.model.NamedEntity, type=class, dit=2, noc=0, wmc=3, cbo=3, lcom=1, rfc=1, nom=3, specific={role=9999}]
+17:17:20  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/PetType.java, className=org.springframework.samples.petclinic.model.PetType, type=class, dit=3, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=3}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Owner.java, className=org.springframework.samples.petclinic.model.Owner, type=class, dit=3, noc=0, wmc=20, cbo=10, lcom=58, rfc=15, nom=13, specific={role=3}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Visit.java, className=org.springframework.samples.petclinic.model.Visit, type=class, dit=2, noc=0, wmc=7, cbo=10, lcom=11, rfc=0, nom=7, specific={role=3}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Vets.java, className=org.springframework.samples.petclinic.model.Vets, type=class, dit=1, noc=0, wmc=3, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Person.java, className=org.springframework.samples.petclinic.model.Person, type=class, dit=2, noc=0, wmc=4, cbo=4, lcom=2, rfc=0, nom=4, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/VetRepository.java, className=org.springframework.samples.petclinic.repository.VetRepository, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java, className=org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl, type=class, dit=1, noc=0, wmc=4, cbo=6, lcom=0, rfc=6, nom=2, specific={role=4}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java, className=org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl, type=class, dit=1, noc=0, wmc=5, cbo=6, lcom=0, rfc=7, nom=3, specific={role=4}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java, className=org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl, type=class, dit=1, noc=0, wmc=1, cbo=5, lcom=0, rfc=2, nom=1, specific={role=4}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java, className=org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl, type=class, dit=1, noc=0, wmc=5, cbo=6, lcom=0, rfc=6, nom=3, specific={role=4}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/PetRepository.java, className=org.springframework.samples.petclinic.repository.PetRepository, type=interface, dit=1, noc=0, wmc=3, cbo=2, lcom=3, rfc=0, nom=3, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/OwnerRepository.java, className=org.springframework.samples.petclinic.repository.OwnerRepository, type=interface, dit=1, noc=0, wmc=3, cbo=1, lcom=3, rfc=0, nom=3, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.java, className=org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=7, nom=1, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java, className=org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl, type=class, dit=1, noc=0, wmc=5, cbo=7, lcom=1, rfc=8, nom=2, specific={role=4}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java, className=org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl, type=class, dit=1, noc=0, wmc=8, cbo=12, lcom=0, rfc=21, nom=5, specific={role=4}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java, className=org.springframework.samples.petclinic.repository.jdbc.JdbcPet, type=class, dit=4, noc=0, wmc=4, cbo=1, lcom=2, rfc=0, nom=4, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java, className=org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl, type=class, dit=1, noc=0, wmc=12, cbo=11, lcom=0, rfc=19, nom=7, specific={role=4}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetVisitExtractor.java, className=org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor, type=class, dit=2, noc=0, wmc=6, cbo=5, lcom=6, rfc=3, nom=4, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java, className=org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl, type=class, dit=1, noc=0, wmc=7, cbo=9, lcom=2, rfc=16, nom=4, specific={role=4}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java, className=org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=9, nom=1, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/VisitRepository.java, className=org.springframework.samples.petclinic.repository.VisitRepository, type=interface, dit=1, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVisitRepository.java, className=org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataPetRepository.java, className=org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository, type=interface, dit=1, noc=0, wmc=1, cbo=5, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVetRepository.java, className=org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataOwnerRepository.java, className=org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository, type=interface, dit=1, noc=0, wmc=2, cbo=6, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java, className=org.springframework.samples.petclinic.util.EntityUtils, type=class, dit=1, noc=0, wmc=4, cbo=2, lcom=0, rfc=2, nom=1, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java, className=org.springframework.samples.petclinic.util.CallMonitoringAspect, type=class, dit=1, noc=0, wmc=10, cbo=7, lcom=0, rfc=5, nom=6, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/test/java/org/springframework/samples/petclinic/web/OwnerControllerTests.java, className=org.springframework.samples.petclinic.web.OwnerControllerTests, type=class, dit=1, noc=0, wmc=12, cbo=10, lcom=0, rfc=35, nom=12, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/test/java/org/springframework/samples/petclinic/web/VisitControllerTests.java, className=org.springframework.samples.petclinic.web.VisitControllerTests, type=class, dit=1, noc=0, wmc=5, cbo=9, lcom=0, rfc=18, nom=5, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/test/java/org/springframework/samples/petclinic/web/CrashControllerTests.java, className=org.springframework.samples.petclinic.web.CrashControllerTests, type=class, dit=1, noc=0, wmc=2, cbo=9, lcom=0, rfc=13, nom=2, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/test/java/org/springframework/samples/petclinic/web/PetControllerTests.java, className=org.springframework.samples.petclinic.web.PetControllerTests, type=class, dit=1, noc=0, wmc=7, cbo=11, lcom=0, rfc=28, nom=7, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/test/java/org/springframework/samples/petclinic/web/PetTypeFormatterTests.java, className=org.springframework.samples.petclinic.web.PetTypeFormatterTests, type=class, dit=1, noc=0, wmc=7, cbo=7, lcom=0, rfc=10, nom=5, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/test/java/org/springframework/samples/petclinic/web/VetControllerTests.java, className=org.springframework.samples.petclinic.web.VetControllerTests, type=class, dit=1, noc=0, wmc=4, cbo=12, lcom=0, rfc=27, nom=4, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceSpringDataJpaTests.java, className=org.springframework.samples.petclinic.service.ClinicServiceSpringDataJpaTests, type=class, dit=2, noc=0, wmc=0, cbo=4, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java, className=org.springframework.samples.petclinic.service.AbstractClinicServiceTests, type=class, dit=1, noc=0, wmc=11, cbo=9, lcom=0, rfc=49, nom=11, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJpaTests.java, className=org.springframework.samples.petclinic.service.ClinicServiceJpaTests, type=class, dit=2, noc=0, wmc=0, cbo=4, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJdbcTests.java, className=org.springframework.samples.petclinic.service.ClinicServiceJdbcTests, type=class, dit=2, noc=0, wmc=0, cbo=4, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:17:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-petclinic/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java, className=org.springframework.samples.petclinic.model.ValidatorTests, type=class, dit=1, noc=0, wmc=2, cbo=8, lcom=1, rfc=14, nom=2, specific={role=9999}]
+17:17:21  INFO Finished parsing
+17:17:21  INFO Looking for smells
+17:17:21  INFO Starting the parse engine
+17:17:21  INFO Found 68 java files. We divided into 1 partitions
+17:17:21  INFO Identifying roles...
+17:17:21  INFO -- org.springframework.samples.petclinic.web.VetController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.web.VisitController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.web.OwnerController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.web.PetValidator is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.web.PetTypeFormatter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.web.PetController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.web.CrashController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.PetclinicInitializer is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.service.ClinicService is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:21  INFO -- org.springframework.samples.petclinic.service.ClinicServiceImpl is a ArchitecturalRole [role=service, id=2] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.model.BaseEntity is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.model.Specialty is a ArchitecturalRole [role=entity, id=3] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.model.Vet is a ArchitecturalRole [role=entity, id=3] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.model.Pet is a ArchitecturalRole [role=entity, id=3] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.model.NamedEntity is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.model.PetType is a ArchitecturalRole [role=entity, id=3] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.model.Owner is a ArchitecturalRole [role=entity, id=3] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.model.Visit is a ArchitecturalRole [role=entity, id=3] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.model.Vets is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.model.Person is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.VetRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl is a ArchitecturalRole [role=repository, id=4] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl is a ArchitecturalRole [role=repository, id=4] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl is a ArchitecturalRole [role=repository, id=4] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl is a ArchitecturalRole [role=repository, id=4] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.PetRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.OwnerRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl is a ArchitecturalRole [role=repository, id=4] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl is a ArchitecturalRole [role=repository, id=4] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.jdbc.JdbcPet is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl is a ArchitecturalRole [role=repository, id=4] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl is a ArchitecturalRole [role=repository, id=4] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.VisitRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:21  INFO -- org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:21  INFO -- org.springframework.samples.petclinic.util.EntityUtils is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.util.CallMonitoringAspect is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.web.OwnerControllerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:21  INFO -- org.springframework.samples.petclinic.web.VisitControllerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:22  INFO -- org.springframework.samples.petclinic.web.CrashControllerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:22  INFO -- org.springframework.samples.petclinic.web.PetControllerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:22  INFO -- org.springframework.samples.petclinic.web.PetTypeFormatterTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:22  INFO -- org.springframework.samples.petclinic.web.VetControllerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:22  INFO -- org.springframework.samples.petclinic.service.ClinicServiceSpringDataJpaTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:22  INFO -- org.springframework.samples.petclinic.service.AbstractClinicServiceTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:22  INFO -- org.springframework.samples.petclinic.service.ClinicServiceJpaTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:22  INFO -- org.springframework.samples.petclinic.service.ClinicServiceJdbcTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:22  INFO -- org.springframework.samples.petclinic.model.ValidatorTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/service/ClinicServiceSpringDataJpaTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/service/ClinicServiceJpaTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/service/ClinicServiceJdbcTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22  INFO Identifying smells...
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.web.VetController
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/web/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.web.VisitController
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.web.OwnerController
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.web.PetValidator
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.web.PetTypeFormatter
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.web.PetController
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.web.CrashController
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.PetclinicInitializer
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.service.ClinicService
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.service.ClinicServiceImpl
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.model.BaseEntity
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.model.Specialty
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.model.Vet
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.model.Pet
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.model.NamedEntity
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.model.PetType
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.model.Owner
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.model.Visit
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.model.Vets
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.model.Person
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.VetRepository
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jpa/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl
+17:17:22  INFO -- SMELL DETECTED!
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.PetRepository
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.OwnerRepository
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/src/main/java/org/springframework/samples/petclinic/repository/jdbc/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl
+17:17:22  INFO -- SMELL DETECTED!
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl
+17:17:22  INFO -- SMELL DETECTED!
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.jdbc.JdbcPet
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl
+17:17:22  INFO -- SMELL DETECTED!
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.VisitRepository
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.util.EntityUtils
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.util.CallMonitoringAspect
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.web.OwnerControllerTests
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.web.VisitControllerTests
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.web.CrashControllerTests
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.web.PetControllerTests
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.web.PetTypeFormatterTests
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.web.VetControllerTests
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.service.ClinicServiceSpringDataJpaTests
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.service.AbstractClinicServiceTests
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.service.ClinicServiceJpaTests
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.service.ClinicServiceJdbcTests
+17:17:22  INFO Analysing class org.springframework.samples.petclinic.model.ValidatorTests
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/web/OwnerControllerTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/web/VisitControllerTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/web/CrashControllerTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/web/PetControllerTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/web/PetTypeFormatterTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/web/VetControllerTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/service/ClinicServiceSpringDataJpaTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/service/ClinicServiceJpaTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/service/ClinicServiceJdbcTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22 ERROR error in /home/guilherme/spring-projects/maven/spring-petclinic/target/test-classes/org/springframework/samples/petclinic/model/ValidatorTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:22  INFO Generating output
+17:17:22  INFO That's it! It only took 4 seconds

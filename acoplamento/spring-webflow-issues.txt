@@ -1,0 +1,936 @@
+16:45:27  INFO # ----------------------------------------- #
+16:45:27  INFO #          Smelly Cat - Spring MVC          #
+16:45:27  INFO #  www.github.com/mauricioaniche/smellycat  #
+16:45:27  INFO # ----------------------------------------- #
+16:45:27  INFO Running CK metrics
+16:45:28  INFO Found 66 java files
+16:45:28  INFO Max partition size: 300, total partitions=1
+16:45:28  INFO Next partition
+16:45:31  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-0000-jsf12/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java, className=org.springframework.webflow.issues.MyFlowExecutionTests, type=class, dit=2, noc=0, wmc=4, cbo=6, lcom=6, rfc=9, nom=4, specific={role=9999}]
+16:45:31  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1544/src/main/java/com/sun/faces/application/resource/ResourceImpl.java, className=com.sun.faces.application.resource.ResourceImpl, type=class, dit=2, noc=0, wmc=65, cbo=9, lcom=8, rfc=64, nom=13, specific={role=9999}]
+16:45:31  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1631/src/main/java/org/springframework/samples/webflow/ajax/DateBean.java, className=org.springframework.samples.webflow.ajax.DateBean, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:45:31  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1631/src/main/java/org/springframework/samples/webflow/jsf/FacesHelper.java, className=org.springframework.samples.webflow.jsf.FacesHelper, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=3, nom=1, specific={role=5}]
+16:45:31  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1631/src/main/java/org/springframework/samples/webflow/jsf/MyOutputLabel.java, className=org.springframework.samples.webflow.jsf.MyOutputLabel, type=class, dit=2, noc=0, wmc=8, cbo=7, lcom=6, rfc=12, nom=4, specific={role=5}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1482/src/main/java/org/springframework/webflow/issues/FileUploadBean.java, className=org.springframework.webflow.issues.FileUploadBean, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=8, nom=1, specific={role=9999}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1482/src/test/java/org/springframework/webflow/issues/PhonebookFlowExecutionTests.java, className=org.springframework.webflow.issues.PhonebookFlowExecutionTests, type=class, dit=2, noc=0, wmc=4, cbo=6, lcom=6, rfc=9, nom=4, specific={role=9999}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1566/src/main/java/foo/bar/HighLevelBean.java, className=foo.bar.HighLevelBean, type=class, dit=1, noc=0, wmc=3, cbo=1, lcom=0, rfc=1, nom=3, specific={role=9999}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1566/src/main/java/foo/bar/CustomMvcViewFactoryCreator.java, className=foo.bar.CustomMvcViewFactoryCreator, type=class, dit=2, noc=0, wmc=1, cbo=9, lcom=0, rfc=2, nom=1, specific={role=9999}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1566/src/main/java/foo/bar/ElementBean.java, className=foo.bar.ElementBean, type=class, dit=1, noc=0, wmc=4, cbo=0, lcom=2, rfc=0, nom=4, specific={role=9999}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/booking-faces/src/main/java/org/springframework/webflow/samples/booking/User.java, className=org.springframework.webflow.samples.booking.User, type=class, dit=1, noc=0, wmc=9, cbo=3, lcom=12, rfc=0, nom=9, specific={role=3}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/booking-faces/src/main/java/org/springframework/webflow/samples/booking/Hotel.java, className=org.springframework.webflow.samples.booking.Hotel, type=class, dit=1, noc=0, wmc=18, cbo=6, lcom=121, rfc=0, nom=18, specific={role=3}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/booking-faces/src/main/java/org/springframework/webflow/samples/booking/Booking.java, className=org.springframework.webflow.samples.booking.Booking, type=class, dit=1, noc=0, wmc=39, cbo=16, lcom=418, rfc=22, nom=32, specific={role=3}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/booking-faces/src/main/java/org/springframework/webflow/samples/booking/BookingService.java, className=org.springframework.webflow.samples.booking.BookingService, type=interface, dit=1, noc=0, wmc=7, cbo=3, lcom=21, rfc=0, nom=7, specific={role=9999}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/booking-faces/src/main/java/org/springframework/webflow/samples/booking/SearchCriteria.java, className=org.springframework.webflow.samples.booking.SearchCriteria, type=class, dit=1, noc=0, wmc=8, cbo=4, lcom=18, rfc=0, nom=8, specific={role=9999}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/booking-faces/src/main/java/org/springframework/webflow/samples/booking/ReferenceData.java, className=org.springframework.webflow.samples.booking.ReferenceData, type=class, dit=1, noc=0, wmc=15, cbo=2, lcom=10, rfc=1, nom=5, specific={role=2}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/booking-faces/src/main/java/org/springframework/webflow/samples/booking/JpaBookingService.java, className=org.springframework.webflow.samples.booking.JpaBookingService, type=class, dit=1, noc=0, wmc=18, cbo=11, lcom=0, rfc=18, nom=10, specific={role=4}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/booking-faces/src/main/java/org/springframework/webflow/samples/booking/Amenity.java, className=org.springframework.webflow.samples.booking.Amenity, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/booking-faces/src/main/java/org/springframework/webflow/samples/booking/HotelLazyDataModel.java, className=org.springframework.webflow.samples.booking.HotelLazyDataModel, type=class, dit=2, noc=0, wmc=5, cbo=5, lcom=2, rfc=3, nom=5, specific={role=9999}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/booking-faces/src/main/java/org/components/Label.java, className=org.components.Label, type=class, dit=2, noc=0, wmc=7, cbo=7, lcom=1, rfc=10, nom=7, specific={role=9999}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/booking-faces/src/test/java/org/springframework/webflow/samples/booking/MainFlowExecutionTests.java, className=org.springframework.webflow.samples.booking.MainFlowExecutionTests, type=class, dit=2, noc=0, wmc=8, cbo=15, lcom=22, rfc=39, nom=7, specific={role=9999}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/booking-faces/src/test/java/org/springframework/webflow/samples/booking/BookingFlowExecutionTests.java, className=org.springframework.webflow.samples.booking.BookingFlowExecutionTests, type=class, dit=2, noc=0, wmc=7, cbo=10, lcom=15, rfc=26, nom=7, specific={role=9999}]
+16:45:32  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1516/src/main/java/PhoneModel.java, className=PhoneModel, type=class, dit=1, noc=0, wmc=4, cbo=2, lcom=2, rfc=0, nom=4, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1639/src/main/java/cz/csob/poc/jsf/usercreate/UserCreateBean.java, className=cz.csob.poc.jsf.usercreate.UserCreateBean, type=class, dit=1, noc=0, wmc=20, cbo=12, lcom=7, rfc=16, nom=7, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1639/src/main/java/cz/csob/poc/jsf/userlist/UserListBean.java, className=cz.csob.poc.jsf.userlist.UserListBean, type=class, dit=1, noc=0, wmc=9, cbo=6, lcom=30, rfc=11, nom=9, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1639/src/main/java/cz/csob/poc/jsf/service/IClientService.java, className=cz.csob.poc.jsf.service.IClientService, type=interface, dit=1, noc=0, wmc=3, cbo=1, lcom=3, rfc=0, nom=3, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1639/src/main/java/cz/csob/poc/jsf/service/ClientService.java, className=cz.csob.poc.jsf.service.ClientService, type=class, dit=1, noc=0, wmc=14, cbo=6, lcom=0, rfc=11, nom=5, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1639/src/main/java/cz/csob/poc/jsf/model/Client.java, className=cz.csob.poc.jsf.model.Client, type=class, dit=1, noc=0, wmc=31, cbo=4, lcom=204, rfc=16, nom=25, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1639/src/main/java/cz/csob/poc/jsf/model/converters/form/BirthNumberConverter.java, className=cz.csob.poc.jsf.model.converters.form.BirthNumberConverter, type=class, dit=1, noc=0, wmc=8, cbo=7, lcom=3, rfc=5, nom=3, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1639/src/main/java/cz/csob/poc/jsf/model/User.java, className=cz.csob.poc.jsf.model.User, type=class, dit=1, noc=0, wmc=18, cbo=0, lcom=135, rfc=0, nom=18, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1639/src/main/java/cz/csob/poc/jsf/model/BirthNumber.java, className=cz.csob.poc.jsf.model.BirthNumber, type=class, dit=1, noc=0, wmc=22, cbo=4, lcom=38, rfc=10, nom=16, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1639/src/main/java/cz/csob/poc/jsf/model/validators/BirthNumberValidator.java, className=cz.csob.poc.jsf.model.validators.BirthNumberValidator, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1639/src/main/java/cz/csob/poc/jsf/model/Gender.java, className=cz.csob.poc.jsf.model.Gender, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1639/src/main/java/cz/csob/poc/jsf/components/UserDetailPanelComponent.java, className=cz.csob.poc.jsf.components.UserDetailPanelComponent, type=class, dit=2, noc=0, wmc=10, cbo=5, lcom=6, rfc=8, nom=8, specific={role=5}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1639/src/main/java/cz/csob/poc/jsf/components/birthNumber/BirthNumberInputComponent.java, className=cz.csob.poc.jsf.components.birthNumber.BirthNumberInputComponent, type=class, dit=2, noc=0, wmc=14, cbo=8, lcom=6, rfc=11, nom=8, specific={role=5}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1501/src/main/java/org/springframework/webflow/issues/MainEntityController.java, className=org.springframework.webflow.issues.MainEntityController, type=class, dit=1, noc=0, wmc=2, cbo=6, lcom=0, rfc=9, nom=1, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1506/src/main/java/swf1506/MyListener.java, className=swf1506.MyListener, type=class, dit=1, noc=0, wmc=19, cbo=17, lcom=171, rfc=2, nom=19, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1495/src/main/java/org/springframework/webflow/issues/MyType.java, className=org.springframework.webflow.issues.MyType, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1495/src/main/java/org/springframework/webflow/issues/MyModel.java, className=org.springframework.webflow.issues.MyModel, type=class, dit=1, noc=0, wmc=4, cbo=1, lcom=2, rfc=0, nom=4, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1525/src/main/java/org/springframework/webflow/issues/form/HouseForm.java, className=org.springframework.webflow.issues.form.HouseForm, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1525/src/main/java/org/springframework/webflow/issues/entity/Window.java, className=org.springframework.webflow.issues.entity.Window, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=0, nom=2, specific={role=3}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1525/src/main/java/org/springframework/webflow/issues/entity/House.java, className=org.springframework.webflow.issues.entity.House, type=class, dit=1, noc=0, wmc=4, cbo=5, lcom=2, rfc=0, nom=4, specific={role=3}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1525/src/main/java/org/springframework/webflow/issues/service/HouseService.java, className=org.springframework.webflow.issues.service.HouseService, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1525/src/main/java/org/springframework/webflow/issues/service/HouseServiceImpl.java, className=org.springframework.webflow.issues.service.HouseServiceImpl, type=class, dit=1, noc=0, wmc=2, cbo=7, lcom=0, rfc=1, nom=2, specific={role=4}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1572/src/main/java/net/gv/evaluate/expression/EvaluateExpressionAction.java, className=net.gv.evaluate.expression.EvaluateExpressionAction, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=1, nom=1, specific={role=5}]
+16:45:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1572/src/main/java/net/gv/test/NullClass.java, className=net.gv.test.NullClass, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:45:33  INFO Finished parsing
+16:45:33  INFO Looking for smells
+16:45:33  INFO Starting the parse engine
+16:45:33  INFO Found 66 java files. We divided into 1 partitions
+16:45:33  INFO Identifying roles...
+16:45:34  INFO -- org.springframework.webflow.issues.MyFlowExecutionTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:34  INFO -- com.sun.faces.application.resource.ResourceImpl is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:34 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1544/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:34  INFO -- org.springframework.samples.webflow.ajax.DateBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:34  INFO -- org.springframework.samples.webflow.jsf.FacesHelper is a ArchitecturalRole [role=component, id=5] (class)
+16:45:34  INFO -- org.springframework.samples.webflow.jsf.MyOutputLabel is a ArchitecturalRole [role=component, id=5] (class)
+16:45:34 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1483/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:34 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1662/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:34 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-0000-richfaces/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:34  INFO -- org.springframework.webflow.issues.FileUploadBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:34  INFO -- org.springframework.webflow.issues.PhonebookFlowExecutionTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:34 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-0000-jsf/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:34 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1577/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:34  INFO -- foo.bar.HighLevelBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:34  INFO -- foo.bar.CustomMvcViewFactoryCreator is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:34  INFO -- foo.bar.ElementBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:34 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1566/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:34  INFO -- org.springframework.webflow.samples.booking.User is a ArchitecturalRole [role=entity, id=3] (class)
+16:45:35  INFO -- org.springframework.webflow.samples.booking.Hotel is a ArchitecturalRole [role=entity, id=3] (class)
+16:45:35  INFO -- org.springframework.webflow.samples.booking.Booking is a ArchitecturalRole [role=entity, id=3] (class)
+16:45:35  INFO -- org.springframework.webflow.samples.booking.BookingService is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:35  INFO -- org.springframework.webflow.samples.booking.SearchCriteria is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35  INFO -- org.springframework.webflow.samples.booking.ReferenceData is a ArchitecturalRole [role=service, id=2] (class)
+16:45:35  INFO -- org.springframework.webflow.samples.booking.JpaBookingService is a ArchitecturalRole [role=repository, id=4] (class)
+16:45:35  INFO -- org.springframework.webflow.samples.booking.Amenity is a ArchitecturalRole [role=other, id=9999] (enum)
+16:45:35  INFO -- org.springframework.webflow.samples.booking.HotelLazyDataModel is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35  INFO -- org.components.Label is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35  INFO -- org.springframework.webflow.samples.booking.MainFlowExecutionTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35  INFO -- org.springframework.webflow.samples.booking.BookingFlowExecutionTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/tmpCheck/src/main/java/org/components/Label.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:35  INFO -- PhoneModel is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1516/src/test/java/org/springframework/webflow/issues/PhonebookFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:35 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-0000/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:35 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1630/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:35  INFO -- cz.csob.poc.jsf.usercreate.UserCreateBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35  INFO -- cz.csob.poc.jsf.userlist.UserListBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35  INFO -- cz.csob.poc.jsf.service.IClientService is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:35  INFO -- cz.csob.poc.jsf.service.ClientService is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35  INFO -- cz.csob.poc.jsf.model.Client is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35  INFO -- cz.csob.poc.jsf.model.converters.form.BirthNumberConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35  INFO -- cz.csob.poc.jsf.model.User is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35  INFO -- cz.csob.poc.jsf.model.BirthNumber is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35  INFO -- cz.csob.poc.jsf.model.validators.BirthNumberValidator is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35  INFO -- cz.csob.poc.jsf.model.Gender is a ArchitecturalRole [role=other, id=9999] (enum)
+16:45:35  INFO -- cz.csob.poc.jsf.components.UserDetailPanelComponent is a ArchitecturalRole [role=component, id=5] (class)
+16:45:35  INFO -- cz.csob.poc.jsf.components.birthNumber.BirthNumberInputComponent is a ArchitecturalRole [role=component, id=5] (class)
+16:45:35  INFO -- org.springframework.webflow.issues.MainEntityController is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1501/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:35  INFO -- swf1506.MyListener is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1506/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:35 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1529/src/main/java/org/springframework/webflow/issues/FileUploadBean.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getInterfaces(ClassInfoVisitor.java:39)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:30)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:35 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1529/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:35 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1468/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:35  INFO -- org.springframework.webflow.issues.MyType is a ArchitecturalRole [role=other, id=9999] (enum)
+16:45:35  INFO -- org.springframework.webflow.issues.MyModel is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:35 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1495/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:35  INFO -- org.springframework.webflow.issues.form.HouseForm is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:36  INFO -- org.springframework.webflow.issues.entity.Window is a ArchitecturalRole [role=entity, id=3] (class)
+16:45:36  INFO -- org.springframework.webflow.issues.entity.House is a ArchitecturalRole [role=entity, id=3] (class)
+16:45:36  INFO -- org.springframework.webflow.issues.service.HouseService is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:36  INFO -- org.springframework.webflow.issues.service.HouseServiceImpl is a ArchitecturalRole [role=repository, id=4] (class)
+16:45:36 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1525/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:36  INFO -- net.gv.evaluate.expression.EvaluateExpressionAction is a ArchitecturalRole [role=component, id=5] (class)
+16:45:36  INFO -- net.gv.test.NullClass is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:36 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-0000-primefaces/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:36 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1496/src/test/java/org/springframework/webflow/issues/PhonebookFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:36  INFO Identifying smells...
+16:45:36  INFO Analysing class org.springframework.webflow.issues.MyFlowExecutionTests
+16:45:36  INFO Analysing class com.sun.faces.application.resource.ResourceImpl
+16:45:36 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1544/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:36  INFO Analysing class org.springframework.samples.webflow.ajax.DateBean
+16:45:36  INFO Analysing class org.springframework.samples.webflow.jsf.FacesHelper
+16:45:36  INFO Analysing class org.springframework.samples.webflow.jsf.MyOutputLabel
+16:45:36 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1483/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:36 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1662/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:36 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-0000-richfaces/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:36  INFO Analysing class org.springframework.webflow.issues.FileUploadBean
+16:45:36  INFO Analysing class org.springframework.webflow.issues.PhonebookFlowExecutionTests
+16:45:36 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-0000-jsf/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:36 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1577/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:36  INFO Analysing class foo.bar.HighLevelBean
+16:45:37  INFO Analysing class foo.bar.CustomMvcViewFactoryCreator
+16:45:37  INFO Analysing class foo.bar.ElementBean
+16:45:37 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1566/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:37  INFO Analysing class org.springframework.webflow.samples.booking.User
+16:45:37  INFO Analysing class org.springframework.webflow.samples.booking.Hotel
+16:45:37  INFO Analysing class org.springframework.webflow.samples.booking.Booking
+16:45:37  INFO Analysing class org.springframework.webflow.samples.booking.BookingService
+16:45:37  INFO Analysing class org.springframework.webflow.samples.booking.SearchCriteria
+16:45:37  INFO Analysing class org.springframework.webflow.samples.booking.ReferenceData
+16:45:37  INFO Analysing class org.springframework.webflow.samples.booking.JpaBookingService
+16:45:37  INFO -- SMELL DETECTED!
+16:45:37  INFO Analysing class org.springframework.webflow.samples.booking.Amenity
+16:45:37  INFO Analysing class org.springframework.webflow.samples.booking.HotelLazyDataModel
+16:45:37  INFO Analysing class org.components.Label
+16:45:37  INFO Analysing class org.springframework.webflow.samples.booking.MainFlowExecutionTests
+16:45:37  INFO Analysing class org.springframework.webflow.samples.booking.BookingFlowExecutionTests
+16:45:37 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1500/tmpCheck/src/main/java/org/components/Label.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:37  INFO Analysing class PhoneModel
+16:45:37 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1516/src/test/java/org/springframework/webflow/issues/PhonebookFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:37 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-0000/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:37 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1630/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:37  INFO Analysing class cz.csob.poc.jsf.usercreate.UserCreateBean
+16:45:37  INFO Analysing class cz.csob.poc.jsf.userlist.UserListBean
+16:45:37  INFO Analysing class cz.csob.poc.jsf.service.IClientService
+16:45:37  INFO Analysing class cz.csob.poc.jsf.service.ClientService
+16:45:37  INFO Analysing class cz.csob.poc.jsf.model.Client
+16:45:37  INFO Analysing class cz.csob.poc.jsf.model.converters.form.BirthNumberConverter
+16:45:37  INFO Analysing class cz.csob.poc.jsf.model.User
+16:45:37  INFO Analysing class cz.csob.poc.jsf.model.BirthNumber
+16:45:37  INFO Analysing class cz.csob.poc.jsf.model.validators.BirthNumberValidator
+16:45:37  INFO Analysing class cz.csob.poc.jsf.model.Gender
+16:45:37  INFO Analysing class cz.csob.poc.jsf.components.UserDetailPanelComponent
+16:45:37  INFO Analysing class cz.csob.poc.jsf.components.birthNumber.BirthNumberInputComponent
+16:45:38  INFO Analysing class org.springframework.webflow.issues.MainEntityController
+16:45:38 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1501/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:38  INFO Analysing class swf1506.MyListener
+16:45:38 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1506/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:38 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1529/src/main/java/org/springframework/webflow/issues/FileUploadBean.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:38 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1529/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:38 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1468/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:38  INFO Analysing class org.springframework.webflow.issues.MyType
+16:45:38  INFO Analysing class org.springframework.webflow.issues.MyModel
+16:45:38 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1495/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:38  INFO Analysing class org.springframework.webflow.issues.form.HouseForm
+16:45:38  INFO Analysing class org.springframework.webflow.issues.entity.Window
+16:45:38  INFO Analysing class org.springframework.webflow.issues.entity.House
+16:45:38  INFO Analysing class org.springframework.webflow.issues.service.HouseService
+16:45:38  INFO Analysing class org.springframework.webflow.issues.service.HouseServiceImpl
+16:45:38  INFO -- SMELL DETECTED!
+16:45:38 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1525/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:38  INFO Analysing class net.gv.evaluate.expression.EvaluateExpressionAction
+16:45:38  INFO Analysing class net.gv.test.NullClass
+16:45:38 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-0000-primefaces/src/test/java/org/springframework/webflow/issues/MyFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:38 ERROR error in /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1496/src/test/java/org/springframework/webflow/issues/PhonebookFlowExecutionTests.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:45:38  INFO Generating output
+16:45:38  INFO That's it! It only took 10 seconds

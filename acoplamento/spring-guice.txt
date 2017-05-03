@@ -1,0 +1,108 @@
+17:13:18  INFO # ----------------------------------------- #
+17:13:18  INFO #          Smelly Cat - Spring MVC          #
+17:13:18  INFO #  www.github.com/mauricioaniche/smellycat  #
+17:13:18  INFO # ----------------------------------------- #
+17:13:18  INFO Running CK metrics
+17:13:18  INFO Found 22 java files
+17:13:18  INFO Max partition size: 300, total partitions=1
+17:13:18  INFO Next partition
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/main/java/org/springframework/guice/injector/GuiceAutowireCandidateResolver.java, className=org.springframework.guice.injector.GuiceAutowireCandidateResolver, type=class, dit=1, noc=0, wmc=3, cbo=5, lcom=3, rfc=1, nom=3, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/main/java/org/springframework/guice/injector/SpringInjector.java, className=org.springframework.guice.injector.SpringInjector, type=class, dit=1, noc=0, wmc=33, cbo=25, lcom=223, rfc=19, nom=20, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/main/java/org/springframework/guice/injector/CompositeAutowireCandidateResolver.java, className=org.springframework.guice.injector.CompositeAutowireCandidateResolver, type=class, dit=1, noc=0, wmc=13, cbo=4, lcom=0, rfc=3, nom=4, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/main/java/org/springframework/guice/module/BindingTypeMatcher.java, className=org.springframework.guice.module.BindingTypeMatcher, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/main/java/org/springframework/guice/module/SpringModule.java, className=org.springframework.guice.module.SpringModule, type=class, dit=1, noc=0, wmc=34, cbo=11, lcom=0, rfc=26, nom=8, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/main/java/org/springframework/guice/module/GuiceModuleMetadata.java, className=org.springframework.guice.module.GuiceModuleMetadata, type=class, dit=1, noc=0, wmc=50, cbo=5, lcom=33, rfc=16, nom=10, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/main/java/org/springframework/guice/annotation/ModuleRegistryConfiguration.java, className=org.springframework.guice.annotation.ModuleRegistryConfiguration, type=class, dit=1, noc=0, wmc=13, cbo=19, lcom=13, rfc=28, nom=6, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/main/java/org/springframework/guice/annotation/GuiceFactoryBean.java, className=org.springframework.guice.annotation.GuiceFactoryBean, type=class, dit=1, noc=0, wmc=4, cbo=5, lcom=2, rfc=1, nom=4, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/main/java/org/springframework/guice/annotation/GuiceModuleRegistrar.java, className=org.springframework.guice.annotation.GuiceModuleRegistrar, type=class, dit=1, noc=0, wmc=29, cbo=14, lcom=92, rfc=36, nom=16, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/test/java/org/springframework/guice/injector/SpringWiringTests.java, className=org.springframework.guice.injector.SpringWiringTests, type=class, dit=2, noc=0, wmc=4, cbo=9, lcom=6, rfc=2, nom=4, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/test/java/org/springframework/guice/AbstractCompleteWiringTests.java, className=org.springframework.guice.AbstractCompleteWiringTests, type=class, dit=1, noc=0, wmc=15, cbo=9, lcom=7, rfc=10, nom=15, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/test/java/org/springframework/guice/GuiceWiringTests.java, className=org.springframework.guice.GuiceWiringTests, type=class, dit=3, noc=0, wmc=2, cbo=4, lcom=1, rfc=6, nom=2, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/test/java/org/springframework/guice/module/SpringModuleMetadataTests.java, className=org.springframework.guice.module.SpringModuleMetadataTests, type=class, dit=1, noc=0, wmc=12, cbo=13, lcom=60, rfc=12, nom=12, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/test/java/org/springframework/guice/module/SpringModuleWiringTests.java, className=org.springframework.guice.module.SpringModuleWiringTests, type=class, dit=2, noc=0, wmc=5, cbo=12, lcom=10, rfc=5, nom=5, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/test/java/org/springframework/guice/NativeGuiceTests.java, className=org.springframework.guice.NativeGuiceTests, type=class, dit=2, noc=0, wmc=2, cbo=6, lcom=1, rfc=7, nom=2, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/test/java/org/springframework/guice/annotation/ModuleBeanWiringTests.java, className=org.springframework.guice.annotation.ModuleBeanWiringTests, type=class, dit=3, noc=0, wmc=7, cbo=18, lcom=7, rfc=6, nom=7, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/test/java/org/springframework/guice/annotation/GuiceModuleAnnotationTests.java, className=org.springframework.guice.annotation.GuiceModuleAnnotationTests, type=class, dit=1, noc=0, wmc=8, cbo=13, lcom=28, rfc=10, nom=8, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/test/java/org/springframework/guice/annotation/EnableGuiceModulesTests.java, className=org.springframework.guice.annotation.EnableGuiceModulesTests, type=class, dit=1, noc=0, wmc=4, cbo=13, lcom=4, rfc=4, nom=4, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/test/java/org/springframework/guice/annotation/ModuleNamedBeanWiringTests.java, className=org.springframework.guice.annotation.ModuleNamedBeanWiringTests, type=class, dit=3, noc=0, wmc=8, cbo=18, lcom=14, rfc=6, nom=8, specific={role=9999}]
+17:13:21  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-guice/src/test/java/org/springframework/guice/SimpleWiringTests.java, className=org.springframework.guice.SimpleWiringTests, type=class, dit=2, noc=0, wmc=5, cbo=6, lcom=10, rfc=9, nom=5, specific={role=9999}]
+17:13:21  INFO Finished parsing
+17:13:21  INFO Looking for smells
+17:13:21  INFO Starting the parse engine
+17:13:21  INFO Found 22 java files. We divided into 1 partitions
+17:13:21  INFO Identifying roles...
+17:13:21  INFO -- org.springframework.guice.injector.GuiceAutowireCandidateResolver is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.injector.SpringInjector is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.injector.CompositeAutowireCandidateResolver is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.module.BindingTypeMatcher is a ArchitecturalRole [role=other, id=9999] (interface)
+17:13:21  INFO -- org.springframework.guice.module.SpringModule is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.module.GuiceModuleMetadata is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.annotation.ModuleRegistryConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.annotation.GuiceFactoryBean is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.annotation.GuiceModuleRegistrar is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.injector.SpringWiringTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.AbstractCompleteWiringTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.GuiceWiringTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.module.SpringModuleMetadataTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.module.SpringModuleWiringTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.NativeGuiceTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.annotation.ModuleBeanWiringTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.annotation.GuiceModuleAnnotationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.annotation.EnableGuiceModulesTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.annotation.ModuleNamedBeanWiringTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO -- org.springframework.guice.SimpleWiringTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:21  INFO Identifying smells...
+17:13:21  INFO Analysing class org.springframework.guice.injector.GuiceAutowireCandidateResolver
+17:13:21  INFO Analysing class org.springframework.guice.injector.SpringInjector
+17:13:21  INFO Analysing class org.springframework.guice.injector.CompositeAutowireCandidateResolver
+17:13:21  INFO Analysing class org.springframework.guice.module.BindingTypeMatcher
+17:13:21  INFO Analysing class org.springframework.guice.module.SpringModule
+17:13:22  INFO Analysing class org.springframework.guice.module.GuiceModuleMetadata
+17:13:22  INFO Analysing class org.springframework.guice.annotation.ModuleRegistryConfiguration
+17:13:22 ERROR error in /home/guilherme/spring-projects/maven/spring-guice/src/main/java/org/springframework/guice/annotation/EnableGuiceModules.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:13:22  INFO Analysing class org.springframework.guice.annotation.GuiceFactoryBean
+17:13:22  INFO Analysing class org.springframework.guice.annotation.GuiceModuleRegistrar
+17:13:22 ERROR error in /home/guilherme/spring-projects/maven/spring-guice/src/main/java/org/springframework/guice/annotation/GuiceModule.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:13:22  INFO Analysing class org.springframework.guice.injector.SpringWiringTests
+17:13:22  INFO Analysing class org.springframework.guice.AbstractCompleteWiringTests
+17:13:22  INFO Analysing class org.springframework.guice.GuiceWiringTests
+17:13:22  INFO Analysing class org.springframework.guice.module.SpringModuleMetadataTests
+17:13:22  INFO Analysing class org.springframework.guice.module.SpringModuleWiringTests
+17:13:22  INFO Analysing class org.springframework.guice.NativeGuiceTests
+17:13:22  INFO Analysing class org.springframework.guice.annotation.ModuleBeanWiringTests
+17:13:22  INFO Analysing class org.springframework.guice.annotation.GuiceModuleAnnotationTests
+17:13:22  INFO Analysing class org.springframework.guice.annotation.EnableGuiceModulesTests
+17:13:22  INFO Analysing class org.springframework.guice.annotation.ModuleNamedBeanWiringTests
+17:13:22  INFO Analysing class org.springframework.guice.SimpleWiringTests
+17:13:22  INFO Generating output
+17:13:22  INFO That's it! It only took 4 seconds

@@ -1,0 +1,76 @@
+16:45:38  INFO # ----------------------------------------- #
+16:45:38  INFO #          Smelly Cat - Spring MVC          #
+16:45:38  INFO #  www.github.com/mauricioaniche/smellycat  #
+16:45:38  INFO # ----------------------------------------- #
+16:45:38  INFO Running CK metrics
+16:45:38  INFO Found 20 java files
+16:45:38  INFO Max partition size: 300, total partitions=1
+16:45:38  INFO Next partition
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/datasource/ThreadlocalDatabaseSwitchingDataSource.java, className=org.springframework.tenancy.datasource.ThreadlocalDatabaseSwitchingDataSource, type=class, dit=2, noc=0, wmc=3, cbo=1, lcom=0, rfc=2, nom=3, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/datasource/AbstractDatabaseSwitchingDataSource.java, className=org.springframework.tenancy.datasource.AbstractDatabaseSwitchingDataSource, type=class, dit=1, noc=0, wmc=19, cbo=2, lcom=0, rfc=17, nom=14, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/datasource/TenantAwareDataSource.java, className=org.springframework.tenancy.datasource.TenantAwareDataSource, type=class, dit=2, noc=0, wmc=4, cbo=3, lcom=1, rfc=5, nom=2, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/web/HeaderTenantIdentificationStrategy.java, className=org.springframework.tenancy.web.HeaderTenantIdentificationStrategy, type=class, dit=1, noc=0, wmc=2, cbo=2, lcom=0, rfc=1, nom=2, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/web/UrlTenantIdentifcationStrategy.java, className=org.springframework.tenancy.web.UrlTenantIdentifcationStrategy, type=class, dit=1, noc=0, wmc=4, cbo=4, lcom=0, rfc=5, nom=2, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/web/TenancyContextIntegrationFilter.java, className=org.springframework.tenancy.web.TenancyContextIntegrationFilter, type=class, dit=2, noc=0, wmc=8, cbo=11, lcom=6, rfc=9, nom=5, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/web/TenantIdentificationStrategy.java, className=org.springframework.tenancy.web.TenantIdentificationStrategy, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/provider/DefaultTenantProvider.java, className=org.springframework.tenancy.provider.DefaultTenantProvider, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/provider/TenantProvider.java, className=org.springframework.tenancy.provider.TenantProvider, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/provider/DefaultTenant.java, className=org.springframework.tenancy.provider.DefaultTenant, type=class, dit=1, noc=0, wmc=15, cbo=2, lcom=0, rfc=2, nom=9, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/concurrent/TenancyCallable.java, className=org.springframework.tenancy.concurrent.TenancyCallable, type=class, dit=1, noc=0, wmc=4, cbo=4, lcom=4, rfc=5, nom=4, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/context/TenancyContextHolderStrategy.java, className=org.springframework.tenancy.context.TenancyContextHolderStrategy, type=interface, dit=1, noc=0, wmc=4, cbo=1, lcom=6, rfc=0, nom=4, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/context/TenancyContext.java, className=org.springframework.tenancy.context.TenancyContext, type=interface, dit=1, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/context/DefaultTenancyContext.java, className=org.springframework.tenancy.context.DefaultTenancyContext, type=class, dit=1, noc=0, wmc=18, cbo=3, lcom=0, rfc=3, nom=5, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/context/ThreadLocalTenancyContextHolderStrategy.java, className=org.springframework.tenancy.context.ThreadLocalTenancyContextHolderStrategy, type=class, dit=1, noc=0, wmc=6, cbo=3, lcom=0, rfc=4, nom=4, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/context/TenancyContextHolder.java, className=org.springframework.tenancy.context.TenancyContextHolder, type=class, dit=1, noc=0, wmc=8, cbo=2, lcom=0, rfc=4, nom=6, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/core/Tenant.java, className=org.springframework.tenancy.core.Tenant, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/test/java/org/springframework/tenancy/datasource/DomainObject.java, className=org.springframework.tenancy.datasource.DomainObject, type=class, dit=1, noc=0, wmc=16, cbo=5, lcom=1, rfc=3, nom=6, specific={role=3}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/test/java/org/springframework/tenancy/datasource/DatabaseSwitchingDataSourceTest.java, className=org.springframework.tenancy.datasource.DatabaseSwitchingDataSourceTest, type=class, dit=1, noc=0, wmc=9, cbo=16, lcom=1, rfc=16, nom=5, specific={role=9999}]
+16:45:41  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-tenancy/src/test/java/org/springframework/tenancy/tests/TenancySerializationTest.java, className=org.springframework.tenancy.tests.TenancySerializationTest, type=class, dit=1, noc=0, wmc=4, cbo=3, lcom=3, rfc=10, nom=3, specific={role=9999}]
+16:45:41  INFO Finished parsing
+16:45:41  INFO Looking for smells
+16:45:41  INFO Starting the parse engine
+16:45:41  INFO Found 20 java files. We divided into 1 partitions
+16:45:41  INFO Identifying roles...
+16:45:41  INFO -- org.springframework.tenancy.datasource.ThreadlocalDatabaseSwitchingDataSource is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO -- org.springframework.tenancy.datasource.AbstractDatabaseSwitchingDataSource is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO -- org.springframework.tenancy.datasource.TenantAwareDataSource is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO -- org.springframework.tenancy.web.HeaderTenantIdentificationStrategy is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO -- org.springframework.tenancy.web.UrlTenantIdentifcationStrategy is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO -- org.springframework.tenancy.web.TenancyContextIntegrationFilter is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO -- org.springframework.tenancy.web.TenantIdentificationStrategy is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:41  INFO -- org.springframework.tenancy.provider.DefaultTenantProvider is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO -- org.springframework.tenancy.provider.TenantProvider is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:41  INFO -- org.springframework.tenancy.provider.DefaultTenant is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO -- org.springframework.tenancy.concurrent.TenancyCallable is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO -- org.springframework.tenancy.context.TenancyContextHolderStrategy is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:41  INFO -- org.springframework.tenancy.context.TenancyContext is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:41  INFO -- org.springframework.tenancy.context.DefaultTenancyContext is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO -- org.springframework.tenancy.context.ThreadLocalTenancyContextHolderStrategy is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO -- org.springframework.tenancy.context.TenancyContextHolder is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO -- org.springframework.tenancy.core.Tenant is a ArchitecturalRole [role=other, id=9999] (interface)
+16:45:41  INFO -- org.springframework.tenancy.datasource.DomainObject is a ArchitecturalRole [role=entity, id=3] (class)
+16:45:41  INFO -- org.springframework.tenancy.datasource.DatabaseSwitchingDataSourceTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO -- org.springframework.tenancy.tests.TenancySerializationTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:45:41  INFO Identifying smells...
+16:45:41  INFO Analysing class org.springframework.tenancy.datasource.ThreadlocalDatabaseSwitchingDataSource
+16:45:41  INFO Analysing class org.springframework.tenancy.datasource.AbstractDatabaseSwitchingDataSource
+16:45:41  INFO Analysing class org.springframework.tenancy.datasource.TenantAwareDataSource
+16:45:41  INFO Analysing class org.springframework.tenancy.web.HeaderTenantIdentificationStrategy
+16:45:41  INFO Analysing class org.springframework.tenancy.web.UrlTenantIdentifcationStrategy
+16:45:41  INFO Analysing class org.springframework.tenancy.web.TenancyContextIntegrationFilter
+16:45:41  INFO Analysing class org.springframework.tenancy.web.TenantIdentificationStrategy
+16:45:41  INFO Analysing class org.springframework.tenancy.provider.DefaultTenantProvider
+16:45:41  INFO Analysing class org.springframework.tenancy.provider.TenantProvider
+16:45:41  INFO Analysing class org.springframework.tenancy.provider.DefaultTenant
+16:45:41  INFO Analysing class org.springframework.tenancy.concurrent.TenancyCallable
+16:45:41  INFO Analysing class org.springframework.tenancy.context.TenancyContextHolderStrategy
+16:45:41  INFO Analysing class org.springframework.tenancy.context.TenancyContext
+16:45:41  INFO Analysing class org.springframework.tenancy.context.DefaultTenancyContext
+16:45:41  INFO Analysing class org.springframework.tenancy.context.ThreadLocalTenancyContextHolderStrategy
+16:45:41  INFO Analysing class org.springframework.tenancy.context.TenancyContextHolder
+16:45:41  INFO Analysing class org.springframework.tenancy.core.Tenant
+16:45:41  INFO Analysing class org.springframework.tenancy.datasource.DomainObject
+16:45:41  INFO Analysing class org.springframework.tenancy.datasource.DatabaseSwitchingDataSourceTest
+16:45:41  INFO Analysing class org.springframework.tenancy.tests.TenancySerializationTest
+16:45:41  INFO Generating output
+16:45:41  INFO That's it! It only took 3 seconds

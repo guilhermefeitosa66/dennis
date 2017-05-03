@@ -1,0 +1,726 @@
+16:43:55  INFO # ----------------------------------------- #
+16:43:55  INFO #          Smelly Cat - Spring MVC          #
+16:43:55  INFO #  www.github.com/mauricioaniche/smellycat  #
+16:43:55  INFO # ----------------------------------------- #
+16:43:55  INFO Running CK metrics
+16:43:55  INFO Found 205 java files
+16:43:55  INFO Max partition size: 300, total partitions=1
+16:43:55  INFO Next partition
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/mapping/Neo4jMappingContext.java, className=org.springframework.data.neo4j.mapping.Neo4jMappingContext, type=class, dit=2, noc=0, wmc=24, cbo=13, lcom=0, rfc=28, nom=5, specific={role=9999}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/mapping/Neo4jPersistentProperty.java, className=org.springframework.data.neo4j.mapping.Neo4jPersistentProperty, type=class, dit=2, noc=0, wmc=14, cbo=10, lcom=1, rfc=19, nom=7, specific={role=9999}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/mapping/Neo4jPersistentEntity.java, className=org.springframework.data.neo4j.mapping.Neo4jPersistentEntity, type=class, dit=2, noc=0, wmc=4, cbo=9, lcom=0, rfc=3, nom=4, specific={role=9999}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/web/support/OpenSessionInViewInterceptor.java, className=org.springframework.data.neo4j.web.support.OpenSessionInViewInterceptor, type=class, dit=1, noc=0, wmc=29, cbo=12, lcom=37, rfc=23, nom=10, specific={role=9999}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/web/support/OpenSessionInViewFilter.java, className=org.springframework.data.neo4j.web.support.OpenSessionInViewFilter, type=class, dit=2, noc=0, wmc=25, cbo=13, lcom=24, rfc=25, nom=9, specific={role=9999}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/web/support/AsyncRequestInterceptor.java, className=org.springframework.data.neo4j.web.support.AsyncRequestInterceptor, type=class, dit=2, noc=0, wmc=14, cbo=9, lcom=48, rfc=6, nom=12, specific={role=9999}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/template/Neo4jOperations.java, className=org.springframework.data.neo4j.template.Neo4jOperations, type=interface, dit=1, noc=0, wmc=31, cbo=8, lcom=465, rfc=0, nom=31, specific={role=4}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/template/Neo4jTemplate.java, className=org.springframework.data.neo4j.template.Neo4jTemplate, type=class, dit=1, noc=0, wmc=76, cbo=23, lcom=2272, rfc=39, nom=39, specific={role=9999}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/template/Neo4jCallback.java, className=org.springframework.data.neo4j.template.Neo4jCallback, type=interface, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/support/Neo4jRepositoryFactory.java, className=org.springframework.data.neo4j.repository.support.Neo4jRepositoryFactory, type=class, dit=2, noc=0, wmc=6, cbo=12, lcom=9, rfc=3, nom=6, specific={role=9999}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/support/SimpleGraphRepository.java, className=org.springframework.data.neo4j.repository.support.SimpleGraphRepository, type=class, dit=1, noc=0, wmc=36, cbo=13, lcom=13, rfc=26, nom=26, specific={role=4}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/support/SessionBeanDefinitionRegistrarPostProcessor.java, className=org.springframework.data.neo4j.repository.support.SessionBeanDefinitionRegistrarPostProcessor, type=class, dit=1, noc=0, wmc=8, cbo=11, lcom=3, rfc=18, nom=7, specific={role=9999}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/support/Neo4jRepositoryFactoryBean.java, className=org.springframework.data.neo4j.repository.support.Neo4jRepositoryFactoryBean, type=class, dit=2, noc=0, wmc=5, cbo=10, lcom=0, rfc=2, nom=5, specific={role=9999}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/support/GraphEntityInformation.java, className=org.springframework.data.neo4j.repository.support.GraphEntityInformation, type=class, dit=2, noc=0, wmc=3, cbo=3, lcom=3, rfc=0, nom=3, specific={role=9999}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/config/Neo4jRepositoryConfigurationExtension.java, className=org.springframework.data.neo4j.repository.config.Neo4jRepositoryConfigurationExtension, type=class, dit=2, noc=0, wmc=12, cbo=7, lcom=34, rfc=10, nom=9, specific={role=9999}]
+16:43:58  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/config/Neo4jRepositoriesRegistrar.java, className=org.springframework.data.neo4j.repository.config.Neo4jRepositoriesRegistrar, type=class, dit=2, noc=0, wmc=2, cbo=3, lcom=1, rfc=0, nom=2, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/config/Neo4jMappingContextFactoryBean.java, className=org.springframework.data.neo4j.repository.config.Neo4jMappingContextFactoryBean, type=class, dit=2, noc=0, wmc=3, cbo=7, lcom=1, rfc=3, nom=3, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/config/Neo4jRepositoryNameSpaceHandler.java, className=org.springframework.data.neo4j.repository.config.Neo4jRepositoryNameSpaceHandler, type=class, dit=2, noc=0, wmc=1, cbo=3, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/GraphRepository.java, className=org.springframework.data.neo4j.repository.GraphRepository, type=interface, dit=1, noc=0, wmc=13, cbo=8, lcom=78, rfc=0, nom=13, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/query/GraphRepositoryQuery.java, className=org.springframework.data.neo4j.repository.query.GraphRepositoryQuery, type=class, dit=1, noc=0, wmc=56, cbo=14, lcom=11, rfc=60, nom=14, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/query/GraphQueryMethod.java, className=org.springframework.data.neo4j.repository.query.GraphQueryMethod, type=class, dit=2, noc=0, wmc=36, cbo=10, lcom=24, rfc=20, nom=12, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/query/GraphQueryLookupStrategy.java, className=org.springframework.data.neo4j.repository.query.GraphQueryLookupStrategy, type=class, dit=1, noc=0, wmc=2, cbo=6, lcom=0, rfc=1, nom=2, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/query/derived/CypherFinderQuery.java, className=org.springframework.data.neo4j.repository.query.derived.CypherFinderQuery, type=class, dit=1, noc=0, wmc=14, cbo=7, lcom=4, rfc=19, nom=5, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/query/derived/DerivedQueryBuilder.java, className=org.springframework.data.neo4j.repository.query.derived.DerivedQueryBuilder, type=class, dit=1, noc=0, wmc=4, cbo=4, lcom=0, rfc=2, nom=4, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/query/derived/DerivedGraphRepositoryQuery.java, className=org.springframework.data.neo4j.repository.query.derived.DerivedGraphRepositoryQuery, type=class, dit=1, noc=0, wmc=67, cbo=29, lcom=14, rfc=53, nom=12, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/query/derived/DerivedQueryDefinition.java, className=org.springframework.data.neo4j.repository.query.derived.DerivedQueryDefinition, type=interface, dit=1, noc=0, wmc=3, cbo=3, lcom=3, rfc=0, nom=3, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/query/derived/DerivedQueryCreator.java, className=org.springframework.data.neo4j.repository.query.derived.DerivedQueryCreator, type=class, dit=2, noc=0, wmc=5, cbo=8, lcom=8, rfc=3, nom=5, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/query/derived/CypherFilter.java, className=org.springframework.data.neo4j.repository.query.derived.CypherFilter, type=class, dit=1, noc=0, wmc=21, cbo=5, lcom=117, rfc=9, nom=19, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/query/QueryResultProxy.java, className=org.springframework.data.neo4j.repository.query.QueryResultProxy, type=class, dit=1, noc=0, wmc=9, cbo=2, lcom=1, rfc=21, nom=3, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/query/QueryResultGraphRepositoryQuery.java, className=org.springframework.data.neo4j.repository.query.QueryResultGraphRepositoryQuery, type=class, dit=2, noc=0, wmc=21, cbo=13, lcom=21, rfc=26, nom=6, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/cdi/Neo4jCdiRepositoryExtension.java, className=org.springframework.data.neo4j.repository.cdi.Neo4jCdiRepositoryExtension, type=class, dit=2, noc=0, wmc=14, cbo=14, lcom=0, rfc=21, nom=4, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/cdi/Neo4jCdiRepositoryBean.java, className=org.springframework.data.neo4j.repository.cdi.Neo4jCdiRepositoryBean, type=class, dit=2, noc=0, wmc=2, cbo=12, lcom=0, rfc=2, nom=2, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/transaction/Neo4jTransactionManager.java, className=org.springframework.data.neo4j.transaction.Neo4jTransactionManager, type=class, dit=2, noc=0, wmc=76, cbo=20, lcom=228, rfc=44, nom=25, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/transaction/SharedSessionCreator.java, className=org.springframework.data.neo4j.transaction.SharedSessionCreator, type=class, dit=1, noc=0, wmc=21, cbo=4, lcom=0, rfc=22, nom=3, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/transaction/SessionHolder.java, className=org.springframework.data.neo4j.transaction.SessionHolder, type=class, dit=2, noc=0, wmc=5, cbo=2, lcom=2, rfc=1, nom=5, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/transaction/SessionFactoryUtils.java, className=org.springframework.data.neo4j.transaction.SessionFactoryUtils, type=class, dit=2, noc=0, wmc=26, cbo=15, lcom=22, rfc=14, nom=8, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/util/IterableUtils.java, className=org.springframework.data.neo4j.util.IterableUtils, type=class, dit=1, noc=0, wmc=37, cbo=2, lcom=91, rfc=12, nom=14, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/conversion/PointConverter.java, className=org.springframework.data.neo4j.conversion.PointConverter, type=class, dit=1, noc=0, wmc=6, cbo=4, lcom=1, rfc=4, nom=2, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/conversion/MetaDataDrivenConversionService.java, className=org.springframework.data.neo4j.conversion.MetaDataDrivenConversionService, type=class, dit=2, noc=0, wmc=22, cbo=9, lcom=10, rfc=17, nom=3, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/web/domain/Cinema.java, className=org.springframework.data.neo4j.web.domain.Cinema, type=class, dit=1, noc=0, wmc=4, cbo=3, lcom=4, rfc=1, nom=4, specific={role=3}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/web/domain/User.java, className=org.springframework.data.neo4j.web.domain.User, type=class, dit=1, noc=0, wmc=9, cbo=3, lcom=26, rfc=3, nom=9, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/web/domain/Genre.java, className=org.springframework.data.neo4j.web.domain.Genre, type=class, dit=1, noc=0, wmc=5, cbo=0, lcom=4, rfc=0, nom=5, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/web/support/OpenSessionInViewTests.java, className=org.springframework.data.neo4j.web.support.OpenSessionInViewTests, type=class, dit=2, noc=0, wmc=17, cbo=26, lcom=0, rfc=52, nom=8, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/web/service/UserService.java, className=org.springframework.data.neo4j.web.service.UserService, type=interface, dit=1, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/web/service/UserServiceImpl.java, className=org.springframework.data.neo4j.web.service.UserServiceImpl, type=class, dit=1, noc=0, wmc=10, cbo=6, lcom=10, rfc=12, nom=4, specific={role=2}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/web/controller/UserController.java, className=org.springframework.data.neo4j.web.controller.UserController, type=class, dit=1, noc=0, wmc=9, cbo=9, lcom=0, rfc=9, nom=2, specific={role=1}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/web/context/WebAppContext.java, className=org.springframework.data.neo4j.web.context.WebAppContext, type=class, dit=2, noc=0, wmc=4, cbo=13, lcom=6, rfc=4, nom=4, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/web/WebIntegrationIT.java, className=org.springframework.data.neo4j.web.WebIntegrationIT, type=class, dit=2, noc=0, wmc=15, cbo=17, lcom=1, rfc=22, nom=9, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/web/repo/UserRepository.java, className=org.springframework.data.neo4j.web.repo.UserRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=4}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/web/repo/GenreRepository.java, className=org.springframework.data.neo4j.web.repo.GenreRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=4}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/domain/sample/Address.java, className=org.springframework.data.neo4j.domain.sample.Address, type=class, dit=1, noc=0, wmc=6, cbo=0, lcom=7, rfc=0, nom=6, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/domain/sample/User.java, className=org.springframework.data.neo4j.domain.sample.User, type=class, dit=1, noc=0, wmc=39, cbo=8, lcom=460, rfc=12, nom=33, specific={role=3}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/domain/sample/SampleEntity.java, className=org.springframework.data.neo4j.domain.sample.SampleEntity, type=class, dit=1, noc=0, wmc=3, cbo=2, lcom=3, rfc=1, nom=3, specific={role=3}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/domain/sample/Role.java, className=org.springframework.data.neo4j.domain.sample.Role, type=class, dit=1, noc=0, wmc=6, cbo=2, lcom=7, rfc=0, nom=6, specific={role=3}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/domain/sample/SpecialUser.java, className=org.springframework.data.neo4j.domain.sample.SpecialUser, type=class, dit=2, noc=0, wmc=0, cbo=1, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/template/TestNeo4jEventListener.java, className=org.springframework.data.neo4j.template.TestNeo4jEventListener, type=class, dit=1, noc=0, wmc=3, cbo=2, lcom=0, rfc=0, nom=3, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/template/Neo4jTemplateIT.java, className=org.springframework.data.neo4j.template.Neo4jTemplateIT, type=class, dit=2, noc=0, wmc=36, cbo=25, lcom=0, rfc=113, nom=30, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/template/context/DataManipulationEventConfiguration.java, className=org.springframework.data.neo4j.template.context.DataManipulationEventConfiguration, type=class, dit=1, noc=0, wmc=6, cbo=14, lcom=15, rfc=3, nom=5, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/template/context/Neo4jTemplateConfiguration.java, className=org.springframework.data.neo4j.template.context.Neo4jTemplateConfiguration, type=class, dit=1, noc=0, wmc=3, cbo=9, lcom=3, rfc=1, nom=3, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/template/TemplateApplicationEventIT.java, className=org.springframework.data.neo4j.template.TemplateApplicationEventIT, type=class, dit=2, noc=0, wmc=1, cbo=9, lcom=0, rfc=17, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/template/ExceptionTranslationIT.java, className=org.springframework.data.neo4j.template.ExceptionTranslationIT, type=class, dit=2, noc=0, wmc=2, cbo=8, lcom=0, rfc=2, nom=2, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/PensionRepository.java, className=org.springframework.data.neo4j.integration.conversion.PensionRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=4}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/SpringNumberToMonetaryAmountConverter.java, className=org.springframework.data.neo4j.integration.conversion.SpringNumberToMonetaryAmountConverter, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/domain/PensionPlan.java, className=org.springframework.data.neo4j.integration.conversion.domain.PensionPlan, type=class, dit=1, noc=0, wmc=7, cbo=5, lcom=15, rfc=0, nom=7, specific={role=3}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/domain/MonetaryAmount.java, className=org.springframework.data.neo4j.integration.conversion.domain.MonetaryAmount, type=class, dit=1, noc=0, wmc=12, cbo=1, lcom=0, rfc=0, nom=5, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/domain/JavaElement.java, className=org.springframework.data.neo4j.integration.conversion.domain.JavaElement, type=class, dit=1, noc=0, wmc=6, cbo=3, lcom=9, rfc=0, nom=6, specific={role=3}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/domain/SiteMember.java, className=org.springframework.data.neo4j.integration.conversion.domain.SiteMember, type=class, dit=1, noc=0, wmc=6, cbo=4, lcom=9, rfc=0, nom=6, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/ConversionServiceIT.java, className=org.springframework.data.neo4j.integration.conversion.ConversionServiceIT, type=class, dit=2, noc=0, wmc=12, cbo=24, lcom=0, rfc=47, nom=11, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/SpringByteArrayToIntegerConverter.java, className=org.springframework.data.neo4j.integration.conversion.SpringByteArrayToIntegerConverter, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/SpringMonetaryAmountToLongConverter.java, className=org.springframework.data.neo4j.integration.conversion.SpringMonetaryAmountToLongConverter, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/SpringIntegerToMonetaryAmountConverter.java, className=org.springframework.data.neo4j.integration.conversion.SpringIntegerToMonetaryAmountConverter, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/SpringLongToMonetaryAmountConverter.java, className=org.springframework.data.neo4j.integration.conversion.SpringLongToMonetaryAmountConverter, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/ConversionServicePersistenceContext.java, className=org.springframework.data.neo4j.integration.conversion.ConversionServicePersistenceContext, type=class, dit=1, noc=0, wmc=3, cbo=9, lcom=3, rfc=2, nom=3, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/SpringMonetaryAmountToNumberConverter.java, className=org.springframework.data.neo4j.integration.conversion.SpringMonetaryAmountToNumberConverter, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/SpringBooleanToBigIntegerConverter.java, className=org.springframework.data.neo4j.integration.conversion.SpringBooleanToBigIntegerConverter, type=class, dit=1, noc=0, wmc=3, cbo=2, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/SpringMonetaryAmountToIntegerConverter.java, className=org.springframework.data.neo4j.integration.conversion.SpringMonetaryAmountToIntegerConverter, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/SpringBigIntegerToBooleanConverter.java, className=org.springframework.data.neo4j.integration.conversion.SpringBigIntegerToBooleanConverter, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/SpringMonetaryAmountToNumberConverterFactory.java, className=org.springframework.data.neo4j.integration.conversion.SpringMonetaryAmountToNumberConverterFactory, type=class, dit=1, noc=0, wmc=2, cbo=9, lcom=1, rfc=3, nom=2, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/JavaElementRepository.java, className=org.springframework.data.neo4j.integration.conversion.JavaElementRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=4}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/SpringIntegerToByteArrayConverter.java, className=org.springframework.data.neo4j.integration.conversion.SpringIntegerToByteArrayConverter, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/integration/conversion/SiteMemberRepository.java, className=org.springframework.data.neo4j.integration.conversion.SiteMemberRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=4}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repositories/domain/User.java, className=org.springframework.data.neo4j.repositories.domain.User, type=class, dit=1, noc=0, wmc=4, cbo=0, lcom=0, rfc=0, nom=4, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repositories/domain/Movie.java, className=org.springframework.data.neo4j.repositories.domain.Movie, type=class, dit=1, noc=0, wmc=3, cbo=0, lcom=1, rfc=0, nom=3, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repositories/support/GraphRepositoryFactoryIT.java, className=org.springframework.data.neo4j.repositories.support.GraphRepositoryFactoryIT, type=class, dit=3, noc=0, wmc=6, cbo=14, lcom=1, rfc=8, nom=6, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repositories/ProgrammaticRepositoryIT.java, className=org.springframework.data.neo4j.repositories.ProgrammaticRepositoryIT, type=class, dit=2, noc=0, wmc=5, cbo=17, lcom=0, rfc=13, nom=4, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repositories/context/RepositoriesTestContext.java, className=org.springframework.data.neo4j.repositories.context.RepositoriesTestContext, type=class, dit=1, noc=0, wmc=2, cbo=7, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repositories/RepoScanningIT.java, className=org.springframework.data.neo4j.repositories.RepoScanningIT, type=class, dit=2, noc=0, wmc=3, cbo=11, lcom=0, rfc=4, nom=3, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repositories/RepositoryDefinitionIT.java, className=org.springframework.data.neo4j.repositories.RepositoryDefinitionIT, type=class, dit=2, noc=0, wmc=4, cbo=13, lcom=0, rfc=7, nom=3, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repositories/repo/PersistenceContextInTheSamePackage.java, className=org.springframework.data.neo4j.repositories.repo.PersistenceContextInTheSamePackage, type=class, dit=1, noc=0, wmc=2, cbo=7, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repositories/repo/UserRepository.java, className=org.springframework.data.neo4j.repositories.repo.UserRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=4}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repositories/repo/MovieRepository.java, className=org.springframework.data.neo4j.repositories.repo.MovieRepository, type=interface, dit=1, noc=0, wmc=2, cbo=3, lcom=1, rfc=0, nom=2, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/events/PostDeleteEvent.java, className=org.springframework.data.neo4j.events.PostDeleteEvent, type=class, dit=2, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/events/PostSaveEvent.java, className=org.springframework.data.neo4j.events.PostSaveEvent, type=class, dit=2, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/events/EventPublisher.java, className=org.springframework.data.neo4j.events.EventPublisher, type=class, dit=2, noc=0, wmc=4, cbo=5, lcom=0, rfc=1, nom=4, specific={role=5}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/events/ModificationEvent.java, className=org.springframework.data.neo4j.events.ModificationEvent, type=class, dit=1, noc=0, wmc=2, cbo=1, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/events/Neo4jModificationEventListener.java, className=org.springframework.data.neo4j.events.Neo4jModificationEventListener, type=class, dit=1, noc=0, wmc=12, cbo=6, lcom=50, rfc=0, nom=12, specific={role=5}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/events/PreSaveEvent.java, className=org.springframework.data.neo4j.events.PreSaveEvent, type=class, dit=2, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/events/PreDeleteEvent.java, className=org.springframework.data.neo4j.events.PreDeleteEvent, type=class, dit=2, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/support/SessionBeanDefinitionRegistrarPostProcessorTest.java, className=org.springframework.data.neo4j.repository.support.SessionBeanDefinitionRegistrarPostProcessorTest, type=class, dit=1, noc=0, wmc=5, cbo=14, lcom=6, rfc=4, nom=5, specific={role=5}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/support/TransactionalRepositoryIT.java, className=org.springframework.data.neo4j.repository.support.TransactionalRepositoryIT, type=class, dit=2, noc=0, wmc=16, cbo=19, lcom=32, rfc=18, nom=16, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/support/DefaultTransactionDisablingIntegrationIT.java, className=org.springframework.data.neo4j.repository.support.DefaultTransactionDisablingIntegrationIT, type=class, dit=2, noc=0, wmc=5, cbo=15, lcom=4, rfc=13, nom=5, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/support/Neo4jRepositoryFactoryBeanTests.java, className=org.springframework.data.neo4j.repository.support.Neo4jRepositoryFactoryBeanTests, type=class, dit=3, noc=0, wmc=6, cbo=20, lcom=0, rfc=15, nom=6, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/Neo4jRepositoryIT.java, className=org.springframework.data.neo4j.repository.Neo4jRepositoryIT, type=class, dit=2, noc=0, wmc=4, cbo=17, lcom=4, rfc=11, nom=4, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/config/RepositoriesJavaConfigTests.java, className=org.springframework.data.neo4j.repository.config.RepositoriesJavaConfigTests, type=class, dit=1, noc=0, wmc=4, cbo=11, lcom=4, rfc=4, nom=4, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/config/Neo4jRepositoriesRegistrarTests.java, className=org.springframework.data.neo4j.repository.config.Neo4jRepositoriesRegistrarTests, type=class, dit=1, noc=0, wmc=2, cbo=6, lcom=0, rfc=7, nom=2, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/config/Neo4jRepositoryConfigurationExtensionTests.java, className=org.springframework.data.neo4j.repository.config.Neo4jRepositoryConfigurationExtensionTests, type=class, dit=1, noc=0, wmc=5, cbo=17, lcom=8, rfc=26, nom=5, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/sample/UserRepository.java, className=org.springframework.data.neo4j.repository.sample.UserRepository, type=interface, dit=1, noc=0, wmc=5, cbo=4, lcom=10, rfc=0, nom=5, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/cdi/QualifiedPersonRepository.java, className=org.springframework.data.neo4j.repository.cdi.QualifiedPersonRepository, type=interface, dit=1, noc=0, wmc=0, cbo=4, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/cdi/CdiExtensionIT.java, className=org.springframework.data.neo4j.repository.cdi.CdiExtensionIT, type=class, dit=2, noc=0, wmc=5, cbo=9, lcom=0, rfc=20, nom=5, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/cdi/Neo4jRepositoryExtensionTest.java, className=org.springframework.data.neo4j.repository.cdi.Neo4jRepositoryExtensionTest, type=class, dit=1, noc=0, wmc=4, cbo=9, lcom=4, rfc=15, nom=4, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/cdi/Neo4jCdiProducer.java, className=org.springframework.data.neo4j.repository.cdi.Neo4jCdiProducer, type=class, dit=1, noc=0, wmc=2, cbo=6, lcom=1, rfc=4, nom=2, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/cdi/RepositoryClient.java, className=org.springframework.data.neo4j.repository.cdi.RepositoryClient, type=class, dit=1, noc=0, wmc=0, cbo=6, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/cdi/SamplePersonRepositoryImpl.java, className=org.springframework.data.neo4j.repository.cdi.SamplePersonRepositoryImpl, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/cdi/SamplePersonRepository.java, className=org.springframework.data.neo4j.repository.cdi.SamplePersonRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/cdi/SamplePersonRepositoryCustom.java, className=org.springframework.data.neo4j.repository.cdi.SamplePersonRepositoryCustom, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/cdi/CdiPersonRepository.java, className=org.springframework.data.neo4j.repository.cdi.CdiPersonRepository, type=interface, dit=1, noc=0, wmc=3, cbo=3, lcom=3, rfc=0, nom=3, specific={role=9999}]
+16:43:59  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/transactions/TransactionIntegrationIT.java, className=org.springframework.data.neo4j.transactions.TransactionIntegrationIT, type=class, dit=4, noc=0, wmc=7, cbo=13, lcom=17, rfc=6, nom=6, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/transactions/domain/User.java, className=org.springframework.data.neo4j.transactions.domain.User, type=class, dit=1, noc=0, wmc=7, cbo=1, lcom=13, rfc=0, nom=7, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/transactions/ApplicationConfig.java, className=org.springframework.data.neo4j.transactions.ApplicationConfig, type=class, dit=1, noc=0, wmc=2, cbo=8, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/transactions/service/WrapperService.java, className=org.springframework.data.neo4j.transactions.service.WrapperService, type=class, dit=1, noc=0, wmc=6, cbo=4, lcom=0, rfc=4, nom=6, specific={role=5}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/transactions/service/ServiceA.java, className=org.springframework.data.neo4j.transactions.service.ServiceA, type=class, dit=1, noc=0, wmc=2, cbo=7, lcom=1, rfc=3, nom=2, specific={role=5}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/transactions/service/BusinessService.java, className=org.springframework.data.neo4j.transactions.service.BusinessService, type=class, dit=1, noc=0, wmc=5, cbo=4, lcom=8, rfc=2, nom=5, specific={role=5}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/transactions/service/ServiceB.java, className=org.springframework.data.neo4j.transactions.service.ServiceB, type=class, dit=1, noc=0, wmc=4, cbo=6, lcom=1, rfc=5, nom=2, specific={role=5}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/transactions/ExtendedTransactionsIT.java, className=org.springframework.data.neo4j.transactions.ExtendedTransactionsIT, type=class, dit=2, noc=0, wmc=14, cbo=10, lcom=0, rfc=16, nom=7, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/transactions/repo/UserRepository.java, className=org.springframework.data.neo4j.transactions.repo.UserRepository, type=interface, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=0, nom=1, specific={role=4}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/galaxy/domain/World.java, className=org.springframework.data.neo4j.examples.galaxy.domain.World, type=class, dit=1, noc=0, wmc=31, cbo=2, lcom=64, rfc=9, nom=16, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/galaxy/service/GalaxyService.java, className=org.springframework.data.neo4j.examples.galaxy.service.GalaxyService, type=class, dit=1, noc=0, wmc=19, cbo=13, lcom=0, rfc=16, nom=17, specific={role=2}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/galaxy/context/GalaxyContext.java, className=org.springframework.data.neo4j.examples.galaxy.context.GalaxyContext, type=class, dit=1, noc=0, wmc=2, cbo=9, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/galaxy/GalaxyServiceIT.java, className=org.springframework.data.neo4j.examples.galaxy.GalaxyServiceIT, type=class, dit=2, noc=0, wmc=38, cbo=13, lcom=0, rfc=39, nom=18, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/galaxy/repo/WorldRepository.java, className=org.springframework.data.neo4j.examples.galaxy.repo.WorldRepository, type=interface, dit=1, noc=0, wmc=3, cbo=5, lcom=3, rfc=0, nom=3, specific={role=4}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/jsr303/domain/Adult.java, className=org.springframework.data.neo4j.examples.jsr303.domain.Adult, type=class, dit=1, noc=0, wmc=6, cbo=1, lcom=3, rfc=0, nom=6, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/jsr303/WebConfiguration.java, className=org.springframework.data.neo4j.examples.jsr303.WebConfiguration, type=class, dit=2, noc=0, wmc=1, cbo=6, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/jsr303/service/AdultService.java, className=org.springframework.data.neo4j.examples.jsr303.service.AdultService, type=class, dit=1, noc=0, wmc=1, cbo=5, lcom=0, rfc=1, nom=1, specific={role=2}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/jsr303/controller/AdultController.java, className=org.springframework.data.neo4j.examples.jsr303.controller.AdultController, type=class, dit=1, noc=0, wmc=4, cbo=12, lcom=1, rfc=2, nom=2, specific={role=1}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/jsr303/JSR303IT.java, className=org.springframework.data.neo4j.examples.jsr303.JSR303IT, type=class, dit=2, noc=0, wmc=3, cbo=12, lcom=0, rfc=11, nom=3, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/jsr303/repo/AdultRepository.java, className=org.springframework.data.neo4j.examples.jsr303.repo.AdultRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=4}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/jsr303/JSR303Context.java, className=org.springframework.data.neo4j.examples.jsr303.JSR303Context, type=class, dit=1, noc=0, wmc=2, cbo=8, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/AbstractAnnotatedEntity.java, className=org.springframework.data.neo4j.examples.movies.domain.AbstractAnnotatedEntity, type=class, dit=1, noc=0, wmc=0, cbo=2, lcom=0, rfc=0, nom=0, specific={role=3}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/Cinema.java, className=org.springframework.data.neo4j.examples.movies.domain.Cinema, type=class, dit=1, noc=0, wmc=20, cbo=6, lcom=59, rfc=4, nom=14, specific={role=3}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/User.java, className=org.springframework.data.neo4j.examples.movies.domain.User, type=class, dit=2, noc=0, wmc=12, cbo=6, lcom=56, rfc=6, nom=12, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/TempMovie.java, className=org.springframework.data.neo4j.examples.movies.domain.TempMovie, type=class, dit=2, noc=0, wmc=5, cbo=4, lcom=6, rfc=1, nom=5, specific={role=3}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/queryresult/CinemaQueryResult.java, className=org.springframework.data.neo4j.examples.movies.domain.queryresult.CinemaQueryResult, type=class, dit=1, noc=0, wmc=5, cbo=1, lcom=6, rfc=0, nom=5, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/queryresult/UserQueryResultInterface.java, className=org.springframework.data.neo4j.examples.movies.domain.queryresult.UserQueryResultInterface, type=interface, dit=1, noc=0, wmc=3, cbo=3, lcom=3, rfc=0, nom=3, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/queryresult/UserQueryResult.java, className=org.springframework.data.neo4j.examples.movies.domain.queryresult.UserQueryResult, type=class, dit=1, noc=0, wmc=27, cbo=3, lcom=30, rfc=4, nom=12, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/queryresult/Gender.java, className=org.springframework.data.neo4j.examples.movies.domain.queryresult.Gender, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/queryresult/RichUserQueryResult.java, className=org.springframework.data.neo4j.examples.movies.domain.queryresult.RichUserQueryResult, type=class, dit=1, noc=0, wmc=4, cbo=2, lcom=6, rfc=0, nom=4, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/queryresult/CinemaQueryResultInterface.java, className=org.springframework.data.neo4j.examples.movies.domain.queryresult.CinemaQueryResultInterface, type=interface, dit=1, noc=0, wmc=4, cbo=1, lcom=6, rfc=0, nom=4, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/queryresult/EntityWrappingQueryResult.java, className=org.springframework.data.neo4j.examples.movies.domain.queryresult.EntityWrappingQueryResult, type=class, dit=1, noc=0, wmc=7, cbo=4, lcom=21, rfc=0, nom=7, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/queryresult/CinemaQueryResultInterfaceImpl.java, className=org.springframework.data.neo4j.examples.movies.domain.queryresult.CinemaQueryResultInterfaceImpl, type=class, dit=1, noc=0, wmc=5, cbo=1, lcom=6, rfc=0, nom=5, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/Actor.java, className=org.springframework.data.neo4j.examples.movies.domain.Actor, type=class, dit=1, noc=0, wmc=6, cbo=1, lcom=3, rfc=0, nom=6, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/Genre.java, className=org.springframework.data.neo4j.examples.movies.domain.Genre, type=class, dit=1, noc=0, wmc=5, cbo=0, lcom=4, rfc=0, nom=5, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/ReleasedMovie.java, className=org.springframework.data.neo4j.examples.movies.domain.ReleasedMovie, type=class, dit=2, noc=0, wmc=5, cbo=3, lcom=4, rfc=0, nom=5, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/AbstractEntity.java, className=org.springframework.data.neo4j.examples.movies.domain.AbstractEntity, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/Person.java, className=org.springframework.data.neo4j.examples.movies.domain.Person, type=class, dit=1, noc=0, wmc=11, cbo=1, lcom=0, rfc=3, nom=5, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/Rating.java, className=org.springframework.data.neo4j.examples.movies.domain.Rating, type=class, dit=1, noc=0, wmc=16, cbo=6, lcom=59, rfc=4, nom=14, specific={role=3}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/Director.java, className=org.springframework.data.neo4j.examples.movies.domain.Director, type=class, dit=2, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/domain/Movie.java, className=org.springframework.data.neo4j.examples.movies.domain.Movie, type=class, dit=2, noc=0, wmc=7, cbo=2, lcom=15, rfc=0, nom=7, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/service/UserService.java, className=org.springframework.data.neo4j.examples.movies.service.UserService, type=interface, dit=1, noc=0, wmc=4, cbo=2, lcom=6, rfc=0, nom=4, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/service/UserServiceImpl.java, className=org.springframework.data.neo4j.examples.movies.service.UserServiceImpl, type=class, dit=1, noc=0, wmc=4, cbo=9, lcom=0, rfc=5, nom=4, specific={role=2}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/context/MoviesContext.java, className=org.springframework.data.neo4j.examples.movies.context.MoviesContext, type=class, dit=1, noc=0, wmc=2, cbo=8, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/MoviesIntegrationIT.java, className=org.springframework.data.neo4j.examples.movies.MoviesIntegrationIT, type=class, dit=4, noc=0, wmc=54, cbo=31, lcom=195, rfc=84, nom=37, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/repo/PersonRepository.java, className=org.springframework.data.neo4j.examples.movies.repo.PersonRepository, type=interface, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/repo/ActorRepository.java, className=org.springframework.data.neo4j.examples.movies.repo.ActorRepository, type=interface, dit=1, noc=0, wmc=0, cbo=2, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/repo/DirectorRepository.java, className=org.springframework.data.neo4j.examples.movies.repo.DirectorRepository, type=interface, dit=1, noc=0, wmc=0, cbo=2, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/repo/UnmanagedUserPojo.java, className=org.springframework.data.neo4j.examples.movies.repo.UnmanagedUserPojo, type=class, dit=1, noc=0, wmc=2, cbo=1, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/repo/AbstractAnnotatedEntityRepository.java, className=org.springframework.data.neo4j.examples.movies.repo.AbstractAnnotatedEntityRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=4}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/repo/CinemaRepository.java, className=org.springframework.data.neo4j.examples.movies.repo.CinemaRepository, type=interface, dit=1, noc=0, wmc=32, cbo=15, lcom=496, rfc=0, nom=32, specific={role=4}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/repo/RatingRepository.java, className=org.springframework.data.neo4j.examples.movies.repo.RatingRepository, type=interface, dit=1, noc=0, wmc=13, cbo=2, lcom=78, rfc=0, nom=13, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/repo/UserRepository.java, className=org.springframework.data.neo4j.examples.movies.repo.UserRepository, type=interface, dit=1, noc=0, wmc=31, cbo=15, lcom=465, rfc=0, nom=31, specific={role=4}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/repo/GenreRepository.java, className=org.springframework.data.neo4j.examples.movies.repo.GenreRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=4}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/repo/TempMovieRepository.java, className=org.springframework.data.neo4j.examples.movies.repo.TempMovieRepository, type=interface, dit=1, noc=0, wmc=0, cbo=2, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/movies/repo/AbstractEntityRepository.java, className=org.springframework.data.neo4j.examples.movies.repo.AbstractEntityRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=4}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/friends/domain/Person.java, className=org.springframework.data.neo4j.examples.friends.domain.Person, type=class, dit=1, noc=0, wmc=10, cbo=5, lcom=33, rfc=1, nom=10, specific={role=3}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/friends/domain/Friendship.java, className=org.springframework.data.neo4j.examples.friends.domain.Friendship, type=class, dit=1, noc=0, wmc=10, cbo=5, lcom=29, rfc=0, nom=10, specific={role=3}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/friends/context/FriendContext.java, className=org.springframework.data.neo4j.examples.friends.context.FriendContext, type=class, dit=1, noc=0, wmc=2, cbo=8, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/friends/FriendService.java, className=org.springframework.data.neo4j.examples.friends.FriendService, type=class, dit=1, noc=0, wmc=1, cbo=6, lcom=0, rfc=7, nom=1, specific={role=2}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/friends/repo/FriendshipRepository.java, className=org.springframework.data.neo4j.examples.friends.repo.FriendshipRepository, type=interface, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/friends/FriendIT.java, className=org.springframework.data.neo4j.examples.friends.FriendIT, type=class, dit=2, noc=0, wmc=4, cbo=14, lcom=2, rfc=20, nom=4, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/restaurants/RestaurantIT.java, className=org.springframework.data.neo4j.examples.restaurants.RestaurantIT, type=class, dit=2, noc=0, wmc=3, cbo=12, lcom=0, rfc=14, nom=3, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/restaurants/domain/Restaurant.java, className=org.springframework.data.neo4j.examples.restaurants.domain.Restaurant, type=class, dit=1, noc=0, wmc=8, cbo=3, lcom=10, rfc=0, nom=8, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/restaurants/context/RestaurantContext.java, className=org.springframework.data.neo4j.examples.restaurants.context.RestaurantContext, type=class, dit=1, noc=0, wmc=2, cbo=8, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/examples/restaurants/repo/RestaurantRepository.java, className=org.springframework.data.neo4j.examples.restaurants.repo.RestaurantRepository, type=interface, dit=1, noc=0, wmc=2, cbo=4, lcom=1, rfc=0, nom=2, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/transaction/SessionFactoryUtilsTests.java, className=org.springframework.data.neo4j.transaction.SessionFactoryUtilsTests, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/transaction/SharedSessionCreatorTests.java, className=org.springframework.data.neo4j.transaction.SharedSessionCreatorTests, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=3, rfc=7, nom=3, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/transaction/TransactionalEventListenerTests.java, className=org.springframework.data.neo4j.transaction.TransactionalEventListenerTests, type=class, dit=10, noc=0, wmc=78, cbo=29, lcom=1853, rfc=37, nom=48, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/transaction/Neo4jTransactionManagerTests.java, className=org.springframework.data.neo4j.transaction.Neo4jTransactionManagerTests, type=class, dit=1, noc=0, wmc=20, cbo=14, lcom=0, rfc=31, nom=8, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/extensions/CustomPersistenceContext.java, className=org.springframework.data.neo4j.extensions.CustomPersistenceContext, type=class, dit=1, noc=0, wmc=2, cbo=7, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/extensions/domain/User.java, className=org.springframework.data.neo4j.extensions.domain.User, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/extensions/CustomGraphRepositoryImpl.java, className=org.springframework.data.neo4j.extensions.CustomGraphRepositoryImpl, type=class, dit=2, noc=0, wmc=2, cbo=5, lcom=1, rfc=0, nom=2, specific={role=4}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/extensions/UserRepository.java, className=org.springframework.data.neo4j.extensions.UserRepository, type=interface, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=4}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/extensions/CustomGraphRepositoryIT.java, className=org.springframework.data.neo4j.extensions.CustomGraphRepositoryIT, type=class, dit=2, noc=0, wmc=1, cbo=6, lcom=0, rfc=2, nom=1, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/extensions/CustomGraphRepository.java, className=org.springframework.data.neo4j.extensions.CustomGraphRepository, type=interface, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/util/IterableUtilsIT.java, className=org.springframework.data.neo4j.util.IterableUtilsIT, type=class, dit=2, noc=0, wmc=19, cbo=5, lcom=134, rfc=28, nom=17, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/queries/QueryIntegrationIT.java, className=org.springframework.data.neo4j.queries.QueryIntegrationIT, type=class, dit=2, noc=0, wmc=66, cbo=21, lcom=161, rfc=74, nom=27, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/queries/PagedQueryIT.java, className=org.springframework.data.neo4j.queries.PagedQueryIT, type=class, dit=2, noc=0, wmc=25, cbo=22, lcom=0, rfc=33, nom=22, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/queries/DerivedRelationshipEntityQueryIT.java, className=org.springframework.data.neo4j.queries.DerivedRelationshipEntityQueryIT, type=class, dit=2, noc=0, wmc=24, cbo=19, lcom=42, rfc=32, nom=16, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/queries/DerivedQueryIT.java, className=org.springframework.data.neo4j.queries.DerivedQueryIT, type=class, dit=2, noc=0, wmc=47, cbo=27, lcom=399, rfc=87, nom=33, specific={role=9999}]
+16:44:00  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/queries/QueryReturnTypesIT.java, className=org.springframework.data.neo4j.queries.QueryReturnTypesIT, type=class, dit=2, noc=0, wmc=4, cbo=11, lcom=0, rfc=14, nom=3, specific={role=9999}]
+16:44:00  INFO Finished parsing
+16:44:00  INFO Looking for smells
+16:44:00  INFO Starting the parse engine
+16:44:00  INFO Found 205 java files. We divided into 1 partitions
+16:44:00  INFO Identifying roles...
+16:44:01  INFO -- org.springframework.data.neo4j.mapping.Neo4jMappingContext is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.mapping.Neo4jPersistentProperty is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.mapping.Neo4jPersistentEntity is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.web.support.OpenSessionInViewInterceptor is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.web.support.OpenSessionInViewFilter is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.web.support.AsyncRequestInterceptor is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.template.Neo4jOperations is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:01  INFO -- org.springframework.data.neo4j.template.Neo4jTemplate is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.template.Neo4jCallback is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.support.Neo4jRepositoryFactory is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.support.SimpleGraphRepository is a ArchitecturalRole [role=repository, id=4] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.support.SessionBeanDefinitionRegistrarPostProcessor is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.support.Neo4jRepositoryFactoryBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.support.GraphEntityInformation is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.config.Neo4jRepositoryConfigurationExtension is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.config.Neo4jRepositoriesRegistrar is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.config.Neo4jMappingContextFactoryBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.config.Neo4jRepositoryNameSpaceHandler is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.GraphRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.query.GraphRepositoryQuery is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.query.GraphQueryMethod is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.query.GraphQueryLookupStrategy is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.query.derived.CypherFinderQuery is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.query.derived.DerivedQueryBuilder is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.query.derived.DerivedGraphRepositoryQuery is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.query.derived.DerivedQueryDefinition is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.query.derived.DerivedQueryCreator is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.query.derived.CypherFilter is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.query.QueryResultProxy is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.query.QueryResultGraphRepositoryQuery is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.cdi.Neo4jCdiRepositoryExtension is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repository.cdi.Neo4jCdiRepositoryBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.transaction.Neo4jTransactionManager is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.transaction.SharedSessionCreator is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.transaction.SessionHolder is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.transaction.SessionFactoryUtils is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.util.IterableUtils is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.conversion.PointConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.conversion.MetaDataDrivenConversionService is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.web.domain.Cinema is a ArchitecturalRole [role=entity, id=3] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.web.domain.User is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.web.domain.Genre is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.web.support.OpenSessionInViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.web.service.UserService is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:01  INFO -- org.springframework.data.neo4j.web.service.UserServiceImpl is a ArchitecturalRole [role=service, id=2] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.web.controller.UserController is a ArchitecturalRole [role=controller, id=1] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.web.context.WebAppContext is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.web.WebIntegrationIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.web.repo.UserRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:01  INFO -- org.springframework.data.neo4j.web.repo.GenreRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:01  INFO -- org.springframework.data.neo4j.domain.sample.Address is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.domain.sample.User is a ArchitecturalRole [role=entity, id=3] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.domain.sample.SampleEntity is a ArchitecturalRole [role=entity, id=3] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.domain.sample.Role is a ArchitecturalRole [role=entity, id=3] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.domain.sample.SpecialUser is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.template.TestNeo4jEventListener is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.template.Neo4jTemplateIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.template.context.DataManipulationEventConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.template.context.Neo4jTemplateConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.template.TemplateApplicationEventIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.template.ExceptionTranslationIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.PensionRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.SpringNumberToMonetaryAmountConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.domain.PensionPlan is a ArchitecturalRole [role=entity, id=3] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.domain.MonetaryAmount is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.domain.JavaElement is a ArchitecturalRole [role=entity, id=3] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.domain.SiteMember is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.ConversionServiceIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.SpringByteArrayToIntegerConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.SpringMonetaryAmountToLongConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.SpringIntegerToMonetaryAmountConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.SpringLongToMonetaryAmountConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.ConversionServicePersistenceContext is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.SpringMonetaryAmountToNumberConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.SpringBooleanToBigIntegerConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.SpringMonetaryAmountToIntegerConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.SpringBigIntegerToBooleanConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.SpringMonetaryAmountToNumberConverterFactory is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.JavaElementRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.SpringIntegerToByteArrayConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.integration.conversion.SiteMemberRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:01  INFO -- org.springframework.data.neo4j.repositories.domain.User is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repositories.domain.Movie is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repositories.support.GraphRepositoryFactoryIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repositories.ProgrammaticRepositoryIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repositories.context.RepositoriesTestContext is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repositories.RepoScanningIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repositories.RepositoryDefinitionIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repositories.repo.PersistenceContextInTheSamePackage is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.repositories.repo.UserRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:01  INFO -- org.springframework.data.neo4j.repositories.repo.MovieRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:01  INFO -- org.springframework.data.neo4j.events.PostDeleteEvent is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.events.PostSaveEvent is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.events.EventPublisher is a ArchitecturalRole [role=component, id=5] (class)
+16:44:01  INFO -- org.springframework.data.neo4j.events.ModificationEvent is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.events.Neo4jModificationEventListener is a ArchitecturalRole [role=component, id=5] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.events.PreSaveEvent is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.events.PreDeleteEvent is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.support.SessionBeanDefinitionRegistrarPostProcessorTest is a ArchitecturalRole [role=component, id=5] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.support.TransactionalRepositoryIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.support.DefaultTransactionDisablingIntegrationIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.support.Neo4jRepositoryFactoryBeanTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.Neo4jRepositoryIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.config.RepositoriesJavaConfigTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.config.Neo4jRepositoriesRegistrarTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.config.Neo4jRepositoryConfigurationExtensionTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.sample.UserRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.cdi.QualifiedPersonRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.cdi.CdiExtensionIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.cdi.Neo4jRepositoryExtensionTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.cdi.Neo4jCdiProducer is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.cdi.RepositoryClient is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.cdi.SamplePersonRepositoryImpl is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.cdi.SamplePersonRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.cdi.SamplePersonRepositoryCustom is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.repository.cdi.CdiPersonRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.transactions.TransactionIntegrationIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.transactions.domain.User is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.transactions.ApplicationConfig is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.transactions.service.WrapperService is a ArchitecturalRole [role=component, id=5] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.transactions.service.ServiceA is a ArchitecturalRole [role=component, id=5] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.transactions.service.BusinessService is a ArchitecturalRole [role=component, id=5] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.transactions.service.ServiceB is a ArchitecturalRole [role=component, id=5] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.transactions.ExtendedTransactionsIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.transactions.repo.UserRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.galaxy.domain.World is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.galaxy.service.GalaxyService is a ArchitecturalRole [role=service, id=2] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.galaxy.context.GalaxyContext is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.galaxy.GalaxyServiceIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.galaxy.repo.WorldRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.jsr303.domain.Adult is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.jsr303.WebConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.jsr303.service.AdultService is a ArchitecturalRole [role=service, id=2] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.jsr303.controller.AdultController is a ArchitecturalRole [role=controller, id=1] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.jsr303.JSR303IT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.jsr303.repo.AdultRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.jsr303.JSR303Context is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.AbstractAnnotatedEntity is a ArchitecturalRole [role=entity, id=3] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.Cinema is a ArchitecturalRole [role=entity, id=3] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.User is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.TempMovie is a ArchitecturalRole [role=entity, id=3] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.queryresult.CinemaQueryResult is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.queryresult.UserQueryResultInterface is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.queryresult.UserQueryResult is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.queryresult.Gender is a ArchitecturalRole [role=other, id=9999] (enum)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.queryresult.RichUserQueryResult is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.queryresult.CinemaQueryResultInterface is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.queryresult.EntityWrappingQueryResult is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.queryresult.CinemaQueryResultInterfaceImpl is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.Actor is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.Genre is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.ReleasedMovie is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.AbstractEntity is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.Person is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.Rating is a ArchitecturalRole [role=entity, id=3] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.Director is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.domain.Movie is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.service.UserService is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.service.UserServiceImpl is a ArchitecturalRole [role=service, id=2] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.context.MoviesContext is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.MoviesIntegrationIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.repo.PersonRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.repo.ActorRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.repo.DirectorRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.repo.UnmanagedUserPojo is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.repo.AbstractAnnotatedEntityRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.repo.CinemaRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.repo.RatingRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.repo.UserRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.repo.GenreRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.repo.TempMovieRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.movies.repo.AbstractEntityRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.friends.domain.Person is a ArchitecturalRole [role=entity, id=3] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.friends.domain.Friendship is a ArchitecturalRole [role=entity, id=3] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.friends.context.FriendContext is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.friends.FriendService is a ArchitecturalRole [role=service, id=2] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.friends.repo.FriendshipRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.friends.FriendIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.restaurants.RestaurantIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.restaurants.domain.Restaurant is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.restaurants.context.RestaurantContext is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.examples.restaurants.repo.RestaurantRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.transaction.SessionFactoryUtilsTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.transaction.SharedSessionCreatorTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.transaction.TransactionalEventListenerTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.transaction.Neo4jTransactionManagerTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.extensions.CustomPersistenceContext is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.extensions.domain.User is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.extensions.CustomGraphRepositoryImpl is a ArchitecturalRole [role=repository, id=4] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.extensions.UserRepository is a ArchitecturalRole [role=repository, id=4] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.extensions.CustomGraphRepositoryIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.extensions.CustomGraphRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+16:44:02  INFO -- org.springframework.data.neo4j.util.IterableUtilsIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.queries.QueryIntegrationIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.queries.PagedQueryIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.queries.DerivedRelationshipEntityQueryIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.queries.DerivedQueryIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO -- org.springframework.data.neo4j.queries.QueryReturnTypesIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:44:02  INFO Identifying smells...
+16:44:03  INFO Analysing class org.springframework.data.neo4j.mapping.Neo4jMappingContext
+16:44:03  INFO Analysing class org.springframework.data.neo4j.mapping.Neo4jPersistentProperty
+16:44:03  INFO Analysing class org.springframework.data.neo4j.mapping.Neo4jPersistentEntity
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.support.OpenSessionInViewInterceptor
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.support.OpenSessionInViewFilter
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.support.AsyncRequestInterceptor
+16:44:03  INFO Analysing class org.springframework.data.neo4j.template.Neo4jOperations
+16:44:03  INFO Analysing class org.springframework.data.neo4j.template.Neo4jTemplate
+16:44:03  INFO Analysing class org.springframework.data.neo4j.template.Neo4jCallback
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.support.Neo4jRepositoryFactory
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.support.SimpleGraphRepository
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.support.SessionBeanDefinitionRegistrarPostProcessor
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.support.Neo4jRepositoryFactoryBean
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.support.GraphEntityInformation
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.config.Neo4jRepositoryConfigurationExtension
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.config.Neo4jRepositoriesRegistrar
+16:44:03 ERROR error in /home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/config/EnableNeo4jRepositories.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.config.Neo4jMappingContextFactoryBean
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.config.Neo4jRepositoryNameSpaceHandler
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.GraphRepository
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.query.GraphRepositoryQuery
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.query.GraphQueryMethod
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.query.GraphQueryLookupStrategy
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.query.derived.CypherFinderQuery
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.query.derived.DerivedQueryBuilder
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.query.derived.DerivedGraphRepositoryQuery
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.query.derived.DerivedQueryDefinition
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.query.derived.DerivedQueryCreator
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.query.derived.CypherFilter
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.query.QueryResultProxy
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.query.QueryResultGraphRepositoryQuery
+16:44:03 ERROR error in /home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/repository/cdi/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.cdi.Neo4jCdiRepositoryExtension
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repository.cdi.Neo4jCdiRepositoryBean
+16:44:03 ERROR error in /home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/annotation/Depth.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:44:03 ERROR error in /home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/annotation/Query.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:44:03 ERROR error in /home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/annotation/QueryResult.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:44:03  INFO Analysing class org.springframework.data.neo4j.transaction.Neo4jTransactionManager
+16:44:03  INFO Analysing class org.springframework.data.neo4j.transaction.SharedSessionCreator
+16:44:03  INFO Analysing class org.springframework.data.neo4j.transaction.SessionHolder
+16:44:03  INFO Analysing class org.springframework.data.neo4j.transaction.SessionFactoryUtils
+16:44:03  INFO Analysing class org.springframework.data.neo4j.util.IterableUtils
+16:44:03  INFO Analysing class org.springframework.data.neo4j.conversion.PointConverter
+16:44:03  INFO Analysing class org.springframework.data.neo4j.conversion.MetaDataDrivenConversionService
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.domain.Cinema
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.domain.User
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.domain.Genre
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.support.OpenSessionInViewTests
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.service.UserService
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.service.UserServiceImpl
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.controller.UserController
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.context.WebAppContext
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.WebIntegrationIT
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.repo.UserRepository
+16:44:03  INFO Analysing class org.springframework.data.neo4j.web.repo.GenreRepository
+16:44:03  INFO Analysing class org.springframework.data.neo4j.domain.sample.Address
+16:44:03  INFO Analysing class org.springframework.data.neo4j.domain.sample.User
+16:44:03  INFO Analysing class org.springframework.data.neo4j.domain.sample.SampleEntity
+16:44:03  INFO Analysing class org.springframework.data.neo4j.domain.sample.Role
+16:44:03  INFO Analysing class org.springframework.data.neo4j.domain.sample.SpecialUser
+16:44:03  INFO Analysing class org.springframework.data.neo4j.template.TestNeo4jEventListener
+16:44:03  INFO Analysing class org.springframework.data.neo4j.template.Neo4jTemplateIT
+16:44:03  INFO Analysing class org.springframework.data.neo4j.template.context.DataManipulationEventConfiguration
+16:44:03  INFO Analysing class org.springframework.data.neo4j.template.context.Neo4jTemplateConfiguration
+16:44:03  INFO Analysing class org.springframework.data.neo4j.template.TemplateApplicationEventIT
+16:44:03  INFO Analysing class org.springframework.data.neo4j.template.ExceptionTranslationIT
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.PensionRepository
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.SpringNumberToMonetaryAmountConverter
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.domain.PensionPlan
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.domain.MonetaryAmount
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.domain.JavaElement
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.domain.SiteMember
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.ConversionServiceIT
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.SpringByteArrayToIntegerConverter
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.SpringMonetaryAmountToLongConverter
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.SpringIntegerToMonetaryAmountConverter
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.SpringLongToMonetaryAmountConverter
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.ConversionServicePersistenceContext
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.SpringMonetaryAmountToNumberConverter
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.SpringBooleanToBigIntegerConverter
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.SpringMonetaryAmountToIntegerConverter
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.SpringBigIntegerToBooleanConverter
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.SpringMonetaryAmountToNumberConverterFactory
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.JavaElementRepository
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.SpringIntegerToByteArrayConverter
+16:44:03  INFO Analysing class org.springframework.data.neo4j.integration.conversion.SiteMemberRepository
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repositories.domain.User
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repositories.domain.Movie
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repositories.support.GraphRepositoryFactoryIT
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repositories.ProgrammaticRepositoryIT
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repositories.context.RepositoriesTestContext
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repositories.RepoScanningIT
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repositories.RepositoryDefinitionIT
+16:44:03  INFO Analysing class org.springframework.data.neo4j.repositories.repo.PersistenceContextInTheSamePackage
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repositories.repo.UserRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repositories.repo.MovieRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.events.PostDeleteEvent
+16:44:04  INFO Analysing class org.springframework.data.neo4j.events.PostSaveEvent
+16:44:04  INFO Analysing class org.springframework.data.neo4j.events.EventPublisher
+16:44:04  INFO Analysing class org.springframework.data.neo4j.events.ModificationEvent
+16:44:04  INFO Analysing class org.springframework.data.neo4j.events.Neo4jModificationEventListener
+16:44:04  INFO Analysing class org.springframework.data.neo4j.events.PreSaveEvent
+16:44:04  INFO Analysing class org.springframework.data.neo4j.events.PreDeleteEvent
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.support.SessionBeanDefinitionRegistrarPostProcessorTest
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.support.TransactionalRepositoryIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.support.DefaultTransactionDisablingIntegrationIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.support.Neo4jRepositoryFactoryBeanTests
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.Neo4jRepositoryIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.config.RepositoriesJavaConfigTests
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.config.Neo4jRepositoriesRegistrarTests
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.config.Neo4jRepositoryConfigurationExtensionTests
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.sample.UserRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.cdi.QualifiedPersonRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.cdi.CdiExtensionIT
+16:44:04 ERROR error in /home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/cdi/PersonDB.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.cdi.Neo4jRepositoryExtensionTest
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.cdi.Neo4jCdiProducer
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.cdi.RepositoryClient
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.cdi.SamplePersonRepositoryImpl
+16:44:04 ERROR error in /home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/src/test/java/org/springframework/data/neo4j/repository/cdi/OtherQualifier.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.cdi.SamplePersonRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.cdi.SamplePersonRepositoryCustom
+16:44:04  INFO Analysing class org.springframework.data.neo4j.repository.cdi.CdiPersonRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.transactions.TransactionIntegrationIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.transactions.domain.User
+16:44:04  INFO Analysing class org.springframework.data.neo4j.transactions.ApplicationConfig
+16:44:04  INFO Analysing class org.springframework.data.neo4j.transactions.service.WrapperService
+16:44:04  INFO Analysing class org.springframework.data.neo4j.transactions.service.ServiceA
+16:44:04  INFO Analysing class org.springframework.data.neo4j.transactions.service.BusinessService
+16:44:04  INFO Analysing class org.springframework.data.neo4j.transactions.service.ServiceB
+16:44:04  INFO Analysing class org.springframework.data.neo4j.transactions.ExtendedTransactionsIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.transactions.repo.UserRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.galaxy.domain.World
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.galaxy.service.GalaxyService
+16:44:04  INFO -- SMELL DETECTED!
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.galaxy.context.GalaxyContext
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.galaxy.GalaxyServiceIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.galaxy.repo.WorldRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.jsr303.domain.Adult
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.jsr303.WebConfiguration
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.jsr303.service.AdultService
+16:44:04  INFO -- SMELL DETECTED!
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.jsr303.controller.AdultController
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.jsr303.JSR303IT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.jsr303.repo.AdultRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.jsr303.JSR303Context
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.AbstractAnnotatedEntity
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.Cinema
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.User
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.TempMovie
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.queryresult.CinemaQueryResult
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.queryresult.UserQueryResultInterface
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.queryresult.UserQueryResult
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.queryresult.Gender
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.queryresult.RichUserQueryResult
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.queryresult.CinemaQueryResultInterface
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.queryresult.EntityWrappingQueryResult
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.queryresult.CinemaQueryResultInterfaceImpl
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.Actor
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.Genre
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.ReleasedMovie
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.AbstractEntity
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.Person
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.Rating
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.Director
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.domain.Movie
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.service.UserService
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.service.UserServiceImpl
+16:44:04  INFO -- SMELL DETECTED!
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.context.MoviesContext
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.MoviesIntegrationIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.repo.PersonRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.repo.ActorRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.repo.DirectorRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.repo.UnmanagedUserPojo
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.repo.AbstractAnnotatedEntityRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.repo.CinemaRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.repo.RatingRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.repo.UserRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.repo.GenreRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.repo.TempMovieRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.movies.repo.AbstractEntityRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.friends.domain.Person
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.friends.domain.Friendship
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.friends.context.FriendContext
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.friends.FriendService
+16:44:04  INFO -- SMELL DETECTED!
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.friends.repo.FriendshipRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.friends.FriendIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.restaurants.RestaurantIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.restaurants.domain.Restaurant
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.restaurants.context.RestaurantContext
+16:44:04  INFO Analysing class org.springframework.data.neo4j.examples.restaurants.repo.RestaurantRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.transaction.SessionFactoryUtilsTests
+16:44:04  INFO Analysing class org.springframework.data.neo4j.transaction.SharedSessionCreatorTests
+16:44:04  INFO Analysing class org.springframework.data.neo4j.transaction.TransactionalEventListenerTests
+16:44:04  INFO Analysing class org.springframework.data.neo4j.transaction.Neo4jTransactionManagerTests
+16:44:04  INFO Analysing class org.springframework.data.neo4j.extensions.CustomPersistenceContext
+16:44:04  INFO Analysing class org.springframework.data.neo4j.extensions.domain.User
+16:44:04  INFO Analysing class org.springframework.data.neo4j.extensions.CustomGraphRepositoryImpl
+16:44:04  INFO Analysing class org.springframework.data.neo4j.extensions.UserRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.extensions.CustomGraphRepositoryIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.extensions.CustomGraphRepository
+16:44:04  INFO Analysing class org.springframework.data.neo4j.util.IterableUtilsIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.queries.QueryIntegrationIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.queries.PagedQueryIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.queries.DerivedRelationshipEntityQueryIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.queries.DerivedQueryIT
+16:44:04  INFO Analysing class org.springframework.data.neo4j.queries.QueryReturnTypesIT
+16:44:04  INFO Generating output
+16:44:04  INFO That's it! It only took 9 seconds

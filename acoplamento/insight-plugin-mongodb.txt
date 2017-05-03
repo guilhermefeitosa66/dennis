@@ -1,0 +1,43 @@
+16:48:43  INFO # ----------------------------------------- #
+16:48:43  INFO #          Smelly Cat - Spring MVC          #
+16:48:43  INFO #  www.github.com/mauricioaniche/smellycat  #
+16:48:43  INFO # ----------------------------------------- #
+16:48:43  INFO Running CK metrics
+16:48:43  INFO Found 9 java files
+16:48:43  INFO Max partition size: 300, total partitions=1
+16:48:43  INFO Next partition
+16:48:45  INFO CKNumber [file=/home/guilherme/spring-projects/maven/insight-plugin-mongodb/src/main/java/com/springsource/insight/plugin/mongodb/MongoArgumentUtils.java, className=com.springsource.insight.plugin.mongodb.MongoArgumentUtils, type=class, dit=1, noc=0, wmc=25, cbo=8, lcom=52, rfc=17, nom=12, specific={role=9999}]
+16:48:45  INFO CKNumber [file=/home/guilherme/spring-projects/maven/insight-plugin-mongodb/src/test/java/com/springsource/insight/plugin/mongodb/MongoCursorOperationCollectionAspectTest.java, className=com.springsource.insight.plugin.mongodb.MongoCursorOperationCollectionAspectTest, type=class, dit=2, noc=0, wmc=10, cbo=10, lcom=45, rfc=21, nom=10, specific={role=9999}]
+16:48:45  INFO CKNumber [file=/home/guilherme/spring-projects/maven/insight-plugin-mongodb/src/test/java/com/springsource/insight/plugin/mongodb/DBDummy.java, className=com.springsource.insight.plugin.mongodb.DBDummy, type=class, dit=2, noc=0, wmc=8, cbo=6, lcom=28, rfc=0, nom=8, specific={role=9999}]
+16:48:45  INFO CKNumber [file=/home/guilherme/spring-projects/maven/insight-plugin-mongodb/src/test/java/com/springsource/insight/plugin/mongodb/OperationFTLTest.java, className=com.springsource.insight.plugin.mongodb.OperationFTLTest, type=class, dit=2, noc=0, wmc=2, cbo=11, lcom=1, rfc=22, nom=2, specific={role=9999}]
+16:48:45  INFO CKNumber [file=/home/guilherme/spring-projects/maven/insight-plugin-mongodb/src/test/java/com/springsource/insight/plugin/mongodb/MongoDbOperationCollectionAspectTest.java, className=com.springsource.insight.plugin.mongodb.MongoDbOperationCollectionAspectTest, type=class, dit=2, noc=0, wmc=2, cbo=7, lcom=1, rfc=10, nom=2, specific={role=9999}]
+16:48:45  INFO CKNumber [file=/home/guilherme/spring-projects/maven/insight-plugin-mongodb/src/test/java/com/springsource/insight/plugin/mongodb/MongoArgumentUtilsTest.java, className=com.springsource.insight.plugin.mongodb.MongoArgumentUtilsTest, type=class, dit=1, noc=0, wmc=15, cbo=1, lcom=105, rfc=4, nom=15, specific={role=9999}]
+16:48:45  INFO CKNumber [file=/home/guilherme/spring-projects/maven/insight-plugin-mongodb/src/test/java/com/springsource/insight/plugin/mongodb/MongoCollectionOperationCollectionAspectTest.java, className=com.springsource.insight.plugin.mongodb.MongoCollectionOperationCollectionAspectTest, type=class, dit=2, noc=0, wmc=14, cbo=13, lcom=91, rfc=19, nom=14, specific={role=9999}]
+16:48:45  INFO CKNumber [file=/home/guilherme/spring-projects/maven/insight-plugin-mongodb/src/test/java/com/springsource/insight/plugin/mongodb/DBCursorDummy.java, className=com.springsource.insight.plugin.mongodb.DBCursorDummy, type=class, dit=2, noc=0, wmc=8, cbo=4, lcom=28, rfc=0, nom=8, specific={role=9999}]
+16:48:45  INFO CKNumber [file=/home/guilherme/spring-projects/maven/insight-plugin-mongodb/src/test/java/com/mongodb/DBCollectionDummy.java, className=com.mongodb.DBCollectionDummy, type=class, dit=2, noc=0, wmc=14, cbo=8, lcom=91, rfc=0, nom=14, specific={role=9999}]
+16:48:45  INFO Finished parsing
+16:48:45  INFO Looking for smells
+16:48:45  INFO Starting the parse engine
+16:48:45  INFO Found 9 java files. We divided into 1 partitions
+16:48:45  INFO Identifying roles...
+16:48:45  INFO -- com.springsource.insight.plugin.mongodb.MongoArgumentUtils is a ArchitecturalRole [role=other, id=9999] (class)
+16:48:45  INFO -- com.springsource.insight.plugin.mongodb.MongoCursorOperationCollectionAspectTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:48:45  INFO -- com.springsource.insight.plugin.mongodb.DBDummy is a ArchitecturalRole [role=other, id=9999] (class)
+16:48:46  INFO -- com.springsource.insight.plugin.mongodb.OperationFTLTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:48:46  INFO -- com.springsource.insight.plugin.mongodb.MongoDbOperationCollectionAspectTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:48:46  INFO -- com.springsource.insight.plugin.mongodb.MongoArgumentUtilsTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:48:46  INFO -- com.springsource.insight.plugin.mongodb.MongoCollectionOperationCollectionAspectTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:48:46  INFO -- com.springsource.insight.plugin.mongodb.DBCursorDummy is a ArchitecturalRole [role=other, id=9999] (class)
+16:48:46  INFO -- com.mongodb.DBCollectionDummy is a ArchitecturalRole [role=other, id=9999] (class)
+16:48:46  INFO Identifying smells...
+16:48:46  INFO Analysing class com.springsource.insight.plugin.mongodb.MongoArgumentUtils
+16:48:46  INFO Analysing class com.springsource.insight.plugin.mongodb.MongoCursorOperationCollectionAspectTest
+16:48:46  INFO Analysing class com.springsource.insight.plugin.mongodb.DBDummy
+16:48:46  INFO Analysing class com.springsource.insight.plugin.mongodb.OperationFTLTest
+16:48:46  INFO Analysing class com.springsource.insight.plugin.mongodb.MongoDbOperationCollectionAspectTest
+16:48:46  INFO Analysing class com.springsource.insight.plugin.mongodb.MongoArgumentUtilsTest
+16:48:46  INFO Analysing class com.springsource.insight.plugin.mongodb.MongoCollectionOperationCollectionAspectTest
+16:48:46  INFO Analysing class com.springsource.insight.plugin.mongodb.DBCursorDummy
+16:48:46  INFO Analysing class com.mongodb.DBCollectionDummy
+16:48:46  INFO Generating output
+16:48:46  INFO That's it! It only took 3 seconds

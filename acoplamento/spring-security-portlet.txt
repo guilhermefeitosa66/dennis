@@ -1,0 +1,43 @@
+17:15:48  INFO # ----------------------------------------- #
+17:15:48  INFO #          Smelly Cat - Spring MVC          #
+17:15:48  INFO #  www.github.com/mauricioaniche/smellycat  #
+17:15:48  INFO # ----------------------------------------- #
+17:15:48  INFO Running CK metrics
+17:15:48  INFO Found 9 java files
+17:15:48  INFO Max partition size: 300, total partitions=1
+17:15:48  INFO Next partition
+17:15:51  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-security-portlet/spring-security-portlet/src/main/java/org/springframework/security/extensions/portlet/PortletPreAuthenticatedAuthenticationDetailsSource.java, className=org.springframework.security.extensions.portlet.PortletPreAuthenticatedAuthenticationDetailsSource, type=class, dit=2, noc=0, wmc=5, cbo=2, lcom=1, rfc=4, nom=2, specific={role=9999}]
+17:15:51  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-security-portlet/spring-security-portlet/src/main/java/org/springframework/security/extensions/portlet/PortletAuthenticationDetails.java, className=org.springframework.security.extensions.portlet.PortletAuthenticationDetails, type=class, dit=1, noc=0, wmc=4, cbo=2, lcom=0, rfc=3, nom=3, specific={role=9999}]
+17:15:51  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-security-portlet/spring-security-portlet/src/main/java/org/springframework/security/extensions/portlet/PortletPreAuthenticatedAuthenticationDetails.java, className=org.springframework.security.extensions.portlet.PortletPreAuthenticatedAuthenticationDetails, type=class, dit=2, noc=0, wmc=4, cbo=4, lcom=0, rfc=5, nom=4, specific={role=9999}]
+17:15:51  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-security-portlet/spring-security-portlet/src/main/java/org/springframework/security/extensions/portlet/PortletSessionContextIntegrationInterceptor.java, className=org.springframework.security.extensions.portlet.PortletSessionContextIntegrationInterceptor, type=class, dit=1, noc=0, wmc=77, cbo=19, lcom=279, rfc=31, nom=26, specific={role=9999}]
+17:15:51  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-security-portlet/spring-security-portlet/src/main/java/org/springframework/security/extensions/portlet/PortletProcessingInterceptor.java, className=org.springframework.security.extensions.portlet.PortletProcessingInterceptor, type=class, dit=1, noc=0, wmc=49, cbo=23, lcom=213, rfc=31, nom=22, specific={role=9999}]
+17:15:51  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-security-portlet/spring-security-portlet/src/test/java/org/springframework/security/extensions/portlet/PortletTestUtils.java, className=org.springframework.security.extensions.portlet.PortletTestUtils, type=class, dit=1, noc=0, wmc=10, cbo=14, lcom=39, rfc=13, nom=10, specific={role=9999}]
+17:15:51  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-security-portlet/spring-security-portlet/src/test/java/org/springframework/security/extensions/portlet/PortletProcessingInterceptorTests.java, className=org.springframework.security.extensions.portlet.PortletProcessingInterceptorTests, type=class, dit=1, noc=0, wmc=17, cbo=21, lcom=55, rfc=37, nom=11, specific={role=9999}]
+17:15:51  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-security-portlet/spring-security-portlet/src/test/java/org/springframework/security/extensions/portlet/PortletSessionContextIntegrationInterceptorTests.java, className=org.springframework.security.extensions.portlet.PortletSessionContextIntegrationInterceptorTests, type=class, dit=2, noc=0, wmc=13, cbo=14, lcom=66, rfc=28, nom=12, specific={role=9999}]
+17:15:51  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-security-portlet/spring-security-portlet-sample/src/main/java/org/springframework/web/portlet/sample/SecurityContextPortlet.java, className=org.springframework.web.portlet.sample.SecurityContextPortlet, type=class, dit=2, noc=0, wmc=3, cbo=4, lcom=0, rfc=10, nom=1, specific={role=9999}]
+17:15:51  INFO Finished parsing
+17:15:51  INFO Looking for smells
+17:15:51  INFO Starting the parse engine
+17:15:51  INFO Found 9 java files. We divided into 1 partitions
+17:15:51  INFO Identifying roles...
+17:15:51  INFO -- org.springframework.security.extensions.portlet.PortletPreAuthenticatedAuthenticationDetailsSource is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:51  INFO -- org.springframework.security.extensions.portlet.PortletAuthenticationDetails is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:51  INFO -- org.springframework.security.extensions.portlet.PortletPreAuthenticatedAuthenticationDetails is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:51  INFO -- org.springframework.security.extensions.portlet.PortletSessionContextIntegrationInterceptor is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:51  INFO -- org.springframework.security.extensions.portlet.PortletProcessingInterceptor is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:51  INFO -- org.springframework.security.extensions.portlet.PortletTestUtils is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:51  INFO -- org.springframework.security.extensions.portlet.PortletProcessingInterceptorTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:51  INFO -- org.springframework.security.extensions.portlet.PortletSessionContextIntegrationInterceptorTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:51  INFO -- org.springframework.web.portlet.sample.SecurityContextPortlet is a ArchitecturalRole [role=other, id=9999] (class)
+17:15:51  INFO Identifying smells...
+17:15:52  INFO Analysing class org.springframework.security.extensions.portlet.PortletPreAuthenticatedAuthenticationDetailsSource
+17:15:52  INFO Analysing class org.springframework.security.extensions.portlet.PortletAuthenticationDetails
+17:15:52  INFO Analysing class org.springframework.security.extensions.portlet.PortletPreAuthenticatedAuthenticationDetails
+17:15:52  INFO Analysing class org.springframework.security.extensions.portlet.PortletSessionContextIntegrationInterceptor
+17:15:52  INFO Analysing class org.springframework.security.extensions.portlet.PortletProcessingInterceptor
+17:15:52  INFO Analysing class org.springframework.security.extensions.portlet.PortletTestUtils
+17:15:52  INFO Analysing class org.springframework.security.extensions.portlet.PortletProcessingInterceptorTests
+17:15:52  INFO Analysing class org.springframework.security.extensions.portlet.PortletSessionContextIntegrationInterceptorTests
+17:15:52  INFO Analysing class org.springframework.web.portlet.sample.SecurityContextPortlet
+17:15:52  INFO Generating output
+17:15:52  INFO That's it! It only took 3 seconds

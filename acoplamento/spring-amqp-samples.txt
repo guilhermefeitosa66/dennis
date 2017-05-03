@@ -1,0 +1,220 @@
+16:43:33  INFO # ----------------------------------------- #
+16:43:33  INFO #          Smelly Cat - Spring MVC          #
+16:43:33  INFO #  www.github.com/mauricioaniche/smellycat  #
+16:43:33  INFO # ----------------------------------------- #
+16:43:33  INFO Running CK metrics
+16:43:47  INFO Found 68 java files
+16:43:47  INFO Max partition size: 300, total partitions=1
+16:43:47  INFO Next partition
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/log4j2/src/main/java/org/springframework/amqp/samples/log4j2/SpringBootAmqpAppenderApplication.java, className=org.springframework.amqp.samples.log4j2.SpringBootAmqpAppenderApplication, type=class, dit=1, noc=0, wmc=3, cbo=9, lcom=3, rfc=6, nom=3, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/helloworld/src/main/java/org/springframework/amqp/helloworld/BrokerConfigurationApplication.java, className=org.springframework.amqp.helloworld.BrokerConfigurationApplication, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=2, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/helloworld/src/main/java/org/springframework/amqp/helloworld/Producer.java, className=org.springframework.amqp.helloworld.Producer, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/helloworld/src/main/java/org/springframework/amqp/helloworld/async/ConsumerConfiguration.java, className=org.springframework.amqp.helloworld.async.ConsumerConfiguration, type=class, dit=2, noc=0, wmc=1, cbo=5, lcom=0, rfc=4, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/helloworld/src/main/java/org/springframework/amqp/helloworld/async/Producer.java, className=org.springframework.amqp.helloworld.async.Producer, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/helloworld/src/main/java/org/springframework/amqp/helloworld/async/ProducerConfiguration.java, className=org.springframework.amqp.helloworld.async.ProducerConfiguration, type=class, dit=1, noc=0, wmc=5, cbo=12, lcom=8, rfc=6, nom=5, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/helloworld/src/main/java/org/springframework/amqp/helloworld/async/HelloWorldHandler.java, className=org.springframework.amqp.helloworld.async.HelloWorldHandler, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/helloworld/src/main/java/org/springframework/amqp/helloworld/async/Consumer.java, className=org.springframework.amqp.helloworld.async.Consumer, type=class, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/helloworld/src/main/java/org/springframework/amqp/helloworld/HelloWorldConfiguration.java, className=org.springframework.amqp.helloworld.HelloWorldConfiguration, type=class, dit=1, noc=0, wmc=4, cbo=10, lcom=4, rfc=5, nom=4, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/helloworld/src/main/java/org/springframework/amqp/helloworld/Consumer.java, className=org.springframework.amqp.helloworld.Consumer, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/log4j/src/main/java/org/springframework/amqp/rabbit/log4j/web/controller/AppServiceController.java, className=org.springframework.amqp.rabbit.log4j.web.controller.AppServiceController, type=class, dit=1, noc=0, wmc=34, cbo=7, lcom=0, rfc=11, nom=9, specific={role=1}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/log4j/src/main/java/org/springframework/amqp/rabbit/log4j/web/controller/LogsController.java, className=org.springframework.amqp.rabbit.log4j.web.controller.LogsController, type=class, dit=1, noc=0, wmc=10, cbo=14, lcom=0, rfc=12, nom=4, specific={role=1}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/log4j/src/main/java/org/springframework/amqp/rabbit/log4j/service/AbstractService.java, className=org.springframework.amqp.rabbit.log4j.service.AbstractService, type=class, dit=1, noc=0, wmc=4, cbo=1, lcom=0, rfc=6, nom=4, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/log4j/src/main/java/org/springframework/amqp/rabbit/log4j/service/ServiceA.java, className=org.springframework.amqp.rabbit.log4j.service.ServiceA, type=class, dit=2, noc=0, wmc=0, cbo=1, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/log4j/src/main/java/org/springframework/amqp/rabbit/log4j/service/ServiceB.java, className=org.springframework.amqp.rabbit.log4j.service.ServiceB, type=class, dit=2, noc=0, wmc=0, cbo=1, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/log4j/src/main/java/org/springframework/amqp/rabbit/log4j/config/server/RabbitServerConfiguration.java, className=org.springframework.amqp.rabbit.log4j.config.server.PropertyPlaceholderConfiguration, type=class, dit=1, noc=0, wmc=8, cbo=18, lcom=26, rfc=17, nom=8, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/log4j/src/main/java/org/springframework/amqp/rabbit/log4j/listener/AmqpLogMessage.java, className=org.springframework.amqp.rabbit.log4j.listener.AmqpLogMessage, type=class, dit=1, noc=0, wmc=8, cbo=0, lcom=6, rfc=2, nom=8, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/log4j/src/main/java/org/springframework/amqp/rabbit/log4j/listener/AmqpLogMessageConverter.java, className=org.springframework.amqp.rabbit.log4j.listener.AmqpLogMessageConverter, type=class, dit=2, noc=0, wmc=10, cbo=7, lcom=1, rfc=11, nom=2, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/log4j/src/main/java/org/springframework/amqp/rabbit/log4j/listener/AmqpLogMessageListener.java, className=org.springframework.amqp.rabbit.log4j.listener.AmqpLogMessageListener, type=class, dit=1, noc=0, wmc=6, cbo=1, lcom=1, rfc=8, nom=3, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/log4j/src/test/java/org/springframework/amqp/rabbit/log4j/web/controller/IntegrationTest.java, className=org.springframework.amqp.rabbit.log4j.web.controller.IntegrationTest, type=class, dit=1, noc=0, wmc=9, cbo=10, lcom=4, rfc=14, nom=5, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/log4j/src/test/java/org/springframework/amqp/rabbit/log4j/web/controller/AnnotationConfigContextLoader.java, className=org.springframework.amqp.rabbit.log4j.web.controller.AnnotationConfigContextLoader, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=1, rfc=0, nom=2, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/web/QuoteController.java, className=org.springframework.amqp.rabbit.stocks.web.QuoteController, type=class, dit=1, noc=0, wmc=20, cbo=10, lcom=13, rfc=30, nom=7, specific={role=1}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/gateway/MarketDataGateway.java, className=org.springframework.amqp.rabbit.stocks.gateway.MarketDataGateway, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/gateway/RabbitStockServiceGateway.java, className=org.springframework.amqp.rabbit.stocks.gateway.RabbitStockServiceGateway, type=class, dit=2, noc=0, wmc=4, cbo=5, lcom=1, rfc=8, nom=2, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/gateway/StockServiceGateway.java, className=org.springframework.amqp.rabbit.stocks.gateway.StockServiceGateway, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/gateway/RabbitMarketDataGateway.java, className=org.springframework.amqp.rabbit.stocks.gateway.RabbitMarketDataGateway, type=class, dit=3, noc=0, wmc=5, cbo=7, lcom=2, rfc=16, nom=5, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/domain/Stock.java, className=org.springframework.amqp.rabbit.stocks.domain.Stock, type=class, dit=1, noc=0, wmc=7, cbo=1, lcom=0, rfc=0, nom=7, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/domain/StockExchange.java, className=org.springframework.amqp.rabbit.stocks.domain.StockExchange, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/domain/TradeResponse.java, className=org.springframework.amqp.rabbit.stocks.domain.TradeResponse, type=class, dit=1, noc=0, wmc=21, cbo=0, lcom=154, rfc=1, nom=21, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/domain/Quote.java, className=org.springframework.amqp.rabbit.stocks.domain.Quote, type=class, dit=1, noc=0, wmc=11, cbo=1, lcom=9, rfc=4, nom=11, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/domain/TradeRequest.java, className=org.springframework.amqp.rabbit.stocks.domain.TradeRequest, type=class, dit=1, noc=0, wmc=18, cbo=0, lcom=135, rfc=2, nom=18, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/handler/ServerHandler.java, className=org.springframework.amqp.rabbit.stocks.handler.ServerHandler, type=class, dit=1, noc=0, wmc=4, cbo=5, lcom=0, rfc=7, nom=2, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/handler/ClientHandler.java, className=org.springframework.amqp.rabbit.stocks.handler.ClientHandler, type=class, dit=1, noc=0, wmc=4, cbo=5, lcom=0, rfc=7, nom=4, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/ui/StockPanel.java, className=org.springframework.amqp.rabbit.stocks.ui.StockPanel, type=class, dit=5, noc=0, wmc=11, cbo=9, lcom=31, rfc=30, nom=5, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/ui/StockController.java, className=org.springframework.amqp.rabbit.stocks.ui.StockController, type=class, dit=1, noc=0, wmc=9, cbo=5, lcom=3, rfc=12, nom=7, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/service/TradingService.java, className=org.springframework.amqp.rabbit.stocks.service.TradingService, type=interface, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/service/stubs/CreditCheckServiceStub.java, className=org.springframework.amqp.rabbit.stocks.service.stubs.CreditCheckServiceStub, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/service/stubs/ExecutionVenueServiceStub.java, className=org.springframework.amqp.rabbit.stocks.service.stubs.ExecutionVenueServiceStub, type=class, dit=1, noc=0, wmc=6, cbo=4, lcom=3, rfc=25, nom=3, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/service/stubs/TradingServiceStub.java, className=org.springframework.amqp.rabbit.stocks.service.stubs.TradingServiceStub, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/service/CreditCheckService.java, className=org.springframework.amqp.rabbit.stocks.service.CreditCheckService, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/service/ExecutionVenueService.java, className=org.springframework.amqp.rabbit.stocks.service.ExecutionVenueService, type=interface, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/config/server/RabbitServerConfiguration.java, className=org.springframework.amqp.rabbit.stocks.config.server.RabbitServerConfiguration, type=class, dit=2, noc=0, wmc=2, cbo=5, lcom=1, rfc=1, nom=2, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/config/RoutingKey.java, className=org.springframework.amqp.rabbit.stocks.config.RoutingKey, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/config/client/RabbitClientConfiguration.java, className=org.springframework.amqp.rabbit.stocks.config.client.RabbitClientConfiguration, type=class, dit=2, noc=0, wmc=8, cbo=17, lcom=28, rfc=17, nom=8, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/main/java/org/springframework/amqp/rabbit/stocks/config/AbstractStockAppRabbitConfiguration.java, className=org.springframework.amqp.rabbit.stocks.config.AbstractStockAppRabbitConfiguration, type=class, dit=1, noc=0, wmc=6, cbo=14, lcom=15, rfc=7, nom=6, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/test/java/org/springframework/amqp/rabbit/stocks/Client.java, className=org.springframework.amqp.rabbit.stocks.Client, type=class, dit=1, noc=0, wmc=5, cbo=4, lcom=1, rfc=7, nom=3, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/test/java/org/springframework/amqp/rabbit/stocks/web/ServletConfigurationTests.java, className=org.springframework.amqp.rabbit.stocks.web.ServletConfigurationTests, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/stocks/src/test/java/org/springframework/amqp/rabbit/stocks/Server.java, className=org.springframework.amqp.rabbit.stocks.Server, type=class, dit=1, noc=0, wmc=5, cbo=3, lcom=1, rfc=2, nom=3, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut3/Tut3Sender.java, className=org.springframework.amqp.tutorials.tut3.Tut3Sender, type=class, dit=1, noc=0, wmc=4, cbo=4, lcom=0, rfc=7, nom=1, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut3/Tut3Config.java, className=org.springframework.amqp.tutorials.tut3.Tut3Config, type=class, dit=1, noc=0, wmc=7, cbo=9, lcom=21, rfc=2, nom=7, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut3/Tut3Receiver.java, className=org.springframework.amqp.tutorials.tut3.Tut3Receiver, type=class, dit=1, noc=0, wmc=7, cbo=3, lcom=6, rfc=9, nom=4, specific={role=9999}]
+16:43:52  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut4/Tut4Config.java, className=org.springframework.amqp.tutorials.tut4.Tut4Config, type=class, dit=1, noc=0, wmc=9, cbo=9, lcom=36, rfc=3, nom=9, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut4/Tut4Sender.java, className=org.springframework.amqp.tutorials.tut4.Tut4Sender, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=0, rfc=7, nom=1, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut4/Tut4Receiver.java, className=org.springframework.amqp.tutorials.tut4.Tut4Receiver, type=class, dit=1, noc=0, wmc=7, cbo=3, lcom=6, rfc=9, nom=4, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/RabbitMQTutorialsRunner.java, className=org.springframework.amqp.tutorials.RabbitMQTutorialsRunner, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut2/Tut2Receiver.java, className=org.springframework.amqp.tutorials.tut2.Tut2Receiver, type=class, dit=1, noc=0, wmc=6, cbo=4, lcom=1, rfc=8, nom=3, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut2/Tut2Sender.java, className=org.springframework.amqp.tutorials.tut2.Tut2Sender, type=class, dit=1, noc=0, wmc=4, cbo=4, lcom=0, rfc=7, nom=1, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut2/Tut2Config.java, className=org.springframework.amqp.tutorials.tut2.Tut2Config, type=class, dit=1, noc=0, wmc=4, cbo=6, lcom=6, rfc=0, nom=4, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut5/Tut5Sender.java, className=org.springframework.amqp.tutorials.tut5.Tut5Sender, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=0, rfc=7, nom=1, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut5/Tut5Receiver.java, className=org.springframework.amqp.tutorials.tut5.Tut5Receiver, type=class, dit=1, noc=0, wmc=7, cbo=3, lcom=6, rfc=9, nom=4, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut5/Tut5Config.java, className=org.springframework.amqp.tutorials.tut5.Tut5Config, type=class, dit=1, noc=0, wmc=8, cbo=9, lcom=28, rfc=3, nom=8, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/RabbitMQTutorialsApplication.java, className=org.springframework.amqp.tutorials.RabbitMQTutorialsApplication, type=class, dit=1, noc=0, wmc=4, cbo=7, lcom=6, rfc=2, nom=3, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut1/Tut1Sender.java, className=org.springframework.amqp.tutorials.tut1.Tut1Sender, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut1/Tut1Config.java, className=org.springframework.amqp.tutorials.tut1.Tut1Config, type=class, dit=1, noc=0, wmc=3, cbo=6, lcom=3, rfc=0, nom=3, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut1/Tut1Receiver.java, className=org.springframework.amqp.tutorials.tut1.Tut1Receiver, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut6/Tut6Config.java, className=org.springframework.amqp.tutorials.tut6.Tut6Config, type=class, dit=1, noc=0, wmc=6, cbo=8, lcom=15, rfc=3, nom=6, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut6/Tut6Client.java, className=org.springframework.amqp.tutorials.tut6.Tut6Client, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:43:53  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-amqp-samples/rabbitmq-tutorials/src/main/java/org/springframework/amqp/tutorials/tut6/Tut6Server.java, className=org.springframework.amqp.tutorials.tut6.Tut6Server, type=class, dit=1, noc=0, wmc=4, cbo=1, lcom=1, rfc=2, nom=2, specific={role=9999}]
+16:43:53  INFO Finished parsing
+16:43:53  INFO Looking for smells
+16:43:53  INFO Starting the parse engine
+16:43:53  INFO Found 68 java files. We divided into 1 partitions
+16:43:53  INFO Identifying roles...
+16:43:53  INFO -- org.springframework.amqp.samples.log4j2.SpringBootAmqpAppenderApplication is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.helloworld.BrokerConfigurationApplication is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.helloworld.Producer is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.helloworld.async.ConsumerConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.helloworld.async.Producer is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.helloworld.async.ProducerConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.helloworld.async.HelloWorldHandler is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.helloworld.async.Consumer is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.helloworld.HelloWorldConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.helloworld.Consumer is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.log4j.web.controller.AppServiceController is a ArchitecturalRole [role=controller, id=1] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.log4j.web.controller.LogsController is a ArchitecturalRole [role=controller, id=1] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.log4j.service.AbstractService is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.log4j.service.ServiceA is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.log4j.service.ServiceB is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.log4j.config.server.PropertyPlaceholderConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.log4j.listener.AmqpLogMessage is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.log4j.listener.AmqpLogMessageConverter is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.log4j.listener.AmqpLogMessageListener is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.log4j.web.controller.IntegrationTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.log4j.web.controller.AnnotationConfigContextLoader is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.web.QuoteController is a ArchitecturalRole [role=controller, id=1] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.gateway.MarketDataGateway is a ArchitecturalRole [role=other, id=9999] (interface)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.gateway.RabbitStockServiceGateway is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.gateway.StockServiceGateway is a ArchitecturalRole [role=other, id=9999] (interface)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.gateway.RabbitMarketDataGateway is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.domain.Stock is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.domain.StockExchange is a ArchitecturalRole [role=other, id=9999] (enum)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.domain.TradeResponse is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.domain.Quote is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.domain.TradeRequest is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.handler.ServerHandler is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.handler.ClientHandler is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.ui.StockPanel is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.ui.StockController is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.service.TradingService is a ArchitecturalRole [role=other, id=9999] (interface)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.service.stubs.CreditCheckServiceStub is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.service.stubs.ExecutionVenueServiceStub is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.service.stubs.TradingServiceStub is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.service.CreditCheckService is a ArchitecturalRole [role=other, id=9999] (interface)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.service.ExecutionVenueService is a ArchitecturalRole [role=other, id=9999] (interface)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.config.server.RabbitServerConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.config.RoutingKey is a ArchitecturalRole [role=other, id=9999] (enum)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.config.client.RabbitClientConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.config.AbstractStockAppRabbitConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.Client is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.web.ServletConfigurationTests is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.rabbit.stocks.Server is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut3.Tut3Sender is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut3.Tut3Config is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut3.Tut3Receiver is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut4.Tut4Config is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut4.Tut4Sender is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut4.Tut4Receiver is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.RabbitMQTutorialsRunner is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut2.Tut2Receiver is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut2.Tut2Sender is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut2.Tut2Config is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut5.Tut5Sender is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut5.Tut5Receiver is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut5.Tut5Config is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.RabbitMQTutorialsApplication is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut1.Tut1Sender is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut1.Tut1Config is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut1.Tut1Receiver is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut6.Tut6Config is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut6.Tut6Client is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO -- org.springframework.amqp.tutorials.tut6.Tut6Server is a ArchitecturalRole [role=other, id=9999] (class)
+16:43:53  INFO Identifying smells...
+16:43:54  INFO Analysing class org.springframework.amqp.samples.log4j2.SpringBootAmqpAppenderApplication
+16:43:54  INFO Analysing class org.springframework.amqp.helloworld.BrokerConfigurationApplication
+16:43:54  INFO Analysing class org.springframework.amqp.helloworld.Producer
+16:43:54  INFO Analysing class org.springframework.amqp.helloworld.async.ConsumerConfiguration
+16:43:54  INFO Analysing class org.springframework.amqp.helloworld.async.Producer
+16:43:54  INFO Analysing class org.springframework.amqp.helloworld.async.ProducerConfiguration
+16:43:54  INFO Analysing class org.springframework.amqp.helloworld.async.HelloWorldHandler
+16:43:54  INFO Analysing class org.springframework.amqp.helloworld.async.Consumer
+16:43:54  INFO Analysing class org.springframework.amqp.helloworld.HelloWorldConfiguration
+16:43:54  INFO Analysing class org.springframework.amqp.helloworld.Consumer
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.log4j.web.controller.AppServiceController
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.log4j.web.controller.LogsController
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.log4j.service.AbstractService
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.log4j.service.ServiceA
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.log4j.service.ServiceB
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.log4j.config.server.PropertyPlaceholderConfiguration
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.log4j.listener.AmqpLogMessage
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.log4j.listener.AmqpLogMessageConverter
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.log4j.listener.AmqpLogMessageListener
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.log4j.web.controller.IntegrationTest
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.log4j.web.controller.AnnotationConfigContextLoader
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.web.QuoteController
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.gateway.MarketDataGateway
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.gateway.RabbitStockServiceGateway
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.gateway.StockServiceGateway
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.gateway.RabbitMarketDataGateway
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.domain.Stock
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.domain.StockExchange
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.domain.TradeResponse
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.domain.Quote
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.domain.TradeRequest
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.handler.ServerHandler
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.handler.ClientHandler
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.ui.StockPanel
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.ui.StockController
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.service.TradingService
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.service.stubs.CreditCheckServiceStub
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.service.stubs.ExecutionVenueServiceStub
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.service.stubs.TradingServiceStub
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.service.CreditCheckService
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.service.ExecutionVenueService
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.config.server.RabbitServerConfiguration
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.config.RoutingKey
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.config.client.RabbitClientConfiguration
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.config.AbstractStockAppRabbitConfiguration
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.Client
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.web.ServletConfigurationTests
+16:43:54  INFO Analysing class org.springframework.amqp.rabbit.stocks.Server
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut3.Tut3Sender
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut3.Tut3Config
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut3.Tut3Receiver
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut4.Tut4Config
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut4.Tut4Sender
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut4.Tut4Receiver
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.RabbitMQTutorialsRunner
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut2.Tut2Receiver
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut2.Tut2Sender
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut2.Tut2Config
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut5.Tut5Sender
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut5.Tut5Receiver
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut5.Tut5Config
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.RabbitMQTutorialsApplication
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut1.Tut1Sender
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut1.Tut1Config
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut1.Tut1Receiver
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut6.Tut6Config
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut6.Tut6Client
+16:43:54  INFO Analysing class org.springframework.amqp.tutorials.tut6.Tut6Server
+16:43:54  INFO Generating output
+16:43:54  INFO That's it! It only took 20 seconds

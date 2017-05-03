@@ -1,0 +1,487 @@
+14:50:59  INFO # ----------------------------------------- #
+14:50:59  INFO #          Smelly Cat - Spring MVC          #
+14:50:59  INFO #  www.github.com/mauricioaniche/smellycat  #
+14:50:59  INFO # ----------------------------------------- #
+14:50:59  INFO Running CK metrics
+14:50:59  INFO Found 131 java files
+14:50:59  INFO Max partition size: 300, total partitions=1
+14:50:59  INFO Next partition
+14:51:02  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/ClassifierAdapter.java, className=org.springframework.classify.ClassifierAdapter, type=class, dit=1, noc=0, wmc=10, cbo=4, lcom=3, rfc=7, nom=6, specific={role=9999}]
+14:51:02  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/Classifier.java, className=org.springframework.classify.Classifier, type=interface, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+14:51:02  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/PatternMatchingClassifier.java, className=org.springframework.classify.PatternMatchingClassifier, type=class, dit=1, noc=0, wmc=4, cbo=3, lcom=0, rfc=1, nom=4, specific={role=9999}]
+14:51:02  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/BinaryExceptionClassifier.java, className=org.springframework.classify.BinaryExceptionClassifier, type=class, dit=2, noc=0, wmc=17, cbo=1, lcom=19, rfc=8, nom=7, specific={role=9999}]
+14:51:02  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/SubclassClassifier.java, className=org.springframework.classify.SubclassClassifier, type=class, dit=1, noc=0, wmc=18, cbo=3, lcom=6, rfc=7, nom=9, specific={role=9999}]
+14:51:02  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/PatternMatcher.java, className=org.springframework.classify.PatternMatcher, type=class, dit=1, noc=0, wmc=57, cbo=2, lcom=4, rfc=8, nom=3, specific={role=9999}]
+14:51:02  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/ClassifierSupport.java, className=org.springframework.classify.ClassifierSupport, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=0, nom=2, specific={role=9999}]
+14:51:02  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/BackToBackPatternClassifier.java, className=org.springframework.classify.BackToBackPatternClassifier, type=class, dit=1, noc=0, wmc=5, cbo=7, lcom=0, rfc=2, nom=5, specific={role=9999}]
+14:51:02  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/util/MethodInvokerUtils.java, className=org.springframework.classify.util.MethodInvokerUtils, type=class, dit=1, noc=0, wmc=35, cbo=4, lcom=36, rfc=27, nom=6, specific={role=9999}]
+14:51:02  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/util/SimpleMethodInvoker.java, className=org.springframework.classify.util.SimpleMethodInvoker, type=class, dit=1, noc=0, wmc=22, cbo=3, lcom=0, rfc=17, nom=6, specific={role=9999}]
+14:51:02  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/util/MethodInvoker.java, className=org.springframework.classify.util.MethodInvoker, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/util/AnnotationMethodResolver.java, className=org.springframework.classify.util.AnnotationMethodResolver, type=class, dit=1, noc=0, wmc=8, cbo=1, lcom=4, rfc=14, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/util/MethodResolver.java, className=org.springframework.classify.util.MethodResolver, type=interface, dit=1, noc=0, wmc=2, cbo=0, lcom=1, rfc=0, nom=2, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/RetryOperations.java, className=org.springframework.retry.RetryOperations, type=interface, dit=1, noc=0, wmc=4, cbo=5, lcom=6, rfc=0, nom=4, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/interceptor/NewMethodArgumentsIdentifier.java, className=org.springframework.retry.interceptor.NewMethodArgumentsIdentifier, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/interceptor/MethodInvocationRecoverer.java, className=org.springframework.retry.interceptor.MethodInvocationRecoverer, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/interceptor/StatefulRetryOperationsInterceptor.java, className=org.springframework.retry.interceptor.StatefulRetryOperationsInterceptor, type=class, dit=1, noc=0, wmc=30, cbo=16, lcom=28, rfc=22, nom=13, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/interceptor/FixedKeyGenerator.java, className=org.springframework.retry.interceptor.FixedKeyGenerator, type=class, dit=1, noc=0, wmc=2, cbo=1, lcom=0, rfc=0, nom=2, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/interceptor/Retryable.java, className=org.springframework.retry.interceptor.Retryable, type=interface, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/interceptor/RetryOperationsInterceptor.java, className=org.springframework.retry.interceptor.RetryOperationsInterceptor, type=class, dit=1, noc=0, wmc=16, cbo=10, lcom=1, rfc=14, nom=6, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/interceptor/RetryInterceptorBuilder.java, className=org.springframework.retry.interceptor.RetryInterceptorBuilder, type=class, dit=4, noc=0, wmc=58, cbo=19, lcom=326, rfc=17, nom=32, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/interceptor/MethodArgumentsKeyGenerator.java, className=org.springframework.retry.interceptor.MethodArgumentsKeyGenerator, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/ExhaustedRetryException.java, className=org.springframework.retry.ExhaustedRetryException, type=class, dit=3, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/support/DefaultRetryState.java, className=org.springframework.retry.support.DefaultRetryState, type=class, dit=1, noc=0, wmc=10, cbo=3, lcom=0, rfc=4, nom=8, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/support/RetrySynchronizationManager.java, className=org.springframework.retry.support.RetrySynchronizationManager, type=class, dit=1, noc=0, wmc=5, cbo=1, lcom=0, rfc=4, nom=4, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/support/RetrySimulation.java, className=org.springframework.retry.support.RetrySimulation, type=class, dit=1, noc=0, wmc=15, cbo=2, lcom=19, rfc=10, nom=10, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/support/RetryTemplate.java, className=org.springframework.retry.support.RetryTemplate, type=class, dit=1, noc=0, wmc=97, cbo=17, lcom=182, rfc=53, nom=25, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/support/RetrySimulator.java, className=org.springframework.retry.support.RetrySimulator, type=class, dit=3, noc=0, wmc=9, cbo=10, lcom=7, rfc=8, nom=6, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/RetryState.java, className=org.springframework.retry.RetryState, type=interface, dit=1, noc=0, wmc=3, cbo=0, lcom=3, rfc=0, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/RetryCallback.java, className=org.springframework.retry.RetryCallback, type=interface, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/RetryStatistics.java, className=org.springframework.retry.RetryStatistics, type=interface, dit=1, noc=0, wmc=6, cbo=0, lcom=15, rfc=0, nom=6, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/policy/RetryContextCache.java, className=org.springframework.retry.policy.RetryContextCache, type=interface, dit=1, noc=0, wmc=4, cbo=1, lcom=6, rfc=0, nom=4, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/policy/SoftReferenceMapRetryContextCache.java, className=org.springframework.retry.policy.SoftReferenceMapRetryContextCache, type=class, dit=1, noc=0, wmc=13, cbo=3, lcom=3, rfc=7, nom=7, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/policy/AlwaysRetryPolicy.java, className=org.springframework.retry.policy.AlwaysRetryPolicy, type=class, dit=2, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/policy/CircuitBreakerRetryPolicy.java, className=org.springframework.retry.policy.CircuitBreakerRetryPolicy, type=class, dit=3, noc=0, wmc=28, cbo=5, lcom=31, rfc=21, nom=14, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/policy/NeverRetryPolicy.java, className=org.springframework.retry.policy.NeverRetryPolicy, type=class, dit=3, noc=0, wmc=7, cbo=4, lcom=15, rfc=3, nom=7, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/policy/CompositeRetryPolicy.java, className=org.springframework.retry.policy.CompositeRetryPolicy, type=class, dit=3, noc=0, wmc=23, cbo=4, lcom=0, rfc=10, nom=7, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/policy/TimeoutRetryPolicy.java, className=org.springframework.retry.policy.TimeoutRetryPolicy, type=class, dit=3, noc=0, wmc=8, cbo=4, lcom=0, rfc=3, nom=8, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/policy/SimpleRetryPolicy.java, className=org.springframework.retry.policy.SimpleRetryPolicy, type=class, dit=3, noc=0, wmc=13, cbo=5, lcom=34, rfc=9, nom=13, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/policy/MapRetryContextCache.java, className=org.springframework.retry.policy.MapRetryContextCache, type=class, dit=1, noc=0, wmc=9, cbo=3, lcom=3, rfc=6, nom=7, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/policy/ExceptionClassifierRetryPolicy.java, className=org.springframework.retry.policy.ExceptionClassifierRetryPolicy, type=class, dit=3, noc=0, wmc=15, cbo=7, lcom=18, rfc=13, nom=12, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/policy/RetryCacheCapacityExceededException.java, className=org.springframework.retry.policy.RetryCacheCapacityExceededException, type=class, dit=3, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/RetryContext.java, className=org.springframework.retry.RetryContext, type=interface, dit=1, noc=0, wmc=5, cbo=2, lcom=10, rfc=0, nom=5, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/RetryListener.java, className=org.springframework.retry.RetryListener, type=interface, dit=1, noc=0, wmc=3, cbo=4, lcom=3, rfc=0, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/context/RetryContextSupport.java, className=org.springframework.retry.context.RetryContextSupport, type=class, dit=2, noc=0, wmc=10, cbo=2, lcom=10, rfc=1, nom=8, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/TerminatedRetryException.java, className=org.springframework.retry.TerminatedRetryException, type=class, dit=3, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/RetryPolicy.java, className=org.springframework.retry.RetryPolicy, type=interface, dit=1, noc=0, wmc=4, cbo=1, lcom=6, rfc=0, nom=4, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/annotation/AnnotationAwareRetryOperationsInterceptor.java, className=org.springframework.retry.annotation.AnnotationAwareRetryOperationsInterceptor, type=class, dit=1, noc=0, wmc=66, cbo=30, lcom=124, rfc=77, nom=16, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/annotation/RecoverAnnotationRecoveryHandler.java, className=org.springframework.retry.annotation.RecoverAnnotationRecoveryHandler, type=class, dit=1, noc=0, wmc=28, cbo=6, lcom=17, rfc=26, nom=9, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/annotation/RetryConfiguration.java, className=org.springframework.retry.annotation.RetryConfiguration, type=class, dit=4, noc=0, wmc=40, cbo=24, lcom=90, rfc=21, nom=16, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/RecoveryCallback.java, className=org.springframework.retry.RecoveryCallback, type=interface, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/stats/DefaultStatisticsRepository.java, className=org.springframework.retry.stats.DefaultStatisticsRepository, type=class, dit=1, noc=0, wmc=11, cbo=4, lcom=28, rfc=11, nom=9, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/stats/ExponentialAverageRetryStatistics.java, className=org.springframework.retry.stats.ExponentialAverageRetryStatistics, type=class, dit=3, noc=0, wmc=19, cbo=2, lcom=74, rfc=6, nom=17, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/stats/StatisticsListener.java, className=org.springframework.retry.stats.StatisticsListener, type=class, dit=2, noc=0, wmc=28, cbo=8, lcom=30, rfc=15, nom=9, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/stats/StatisticsRepository.java, className=org.springframework.retry.stats.StatisticsRepository, type=interface, dit=1, noc=0, wmc=7, cbo=1, lcom=21, rfc=0, nom=7, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/stats/RetryStatisticsFactory.java, className=org.springframework.retry.stats.RetryStatisticsFactory, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/stats/DefaultRetryStatistics.java, className=org.springframework.retry.stats.DefaultRetryStatistics, type=class, dit=2, noc=0, wmc=15, cbo=3, lcom=63, rfc=2, nom=15, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/stats/MutableRetryStatistics.java, className=org.springframework.retry.stats.MutableRetryStatistics, type=interface, dit=1, noc=0, wmc=5, cbo=2, lcom=10, rfc=0, nom=5, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/stats/DefaultRetryStatisticsFactory.java, className=org.springframework.retry.stats.DefaultRetryStatisticsFactory, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=1, nom=2, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/RetryException.java, className=org.springframework.retry.RetryException, type=class, dit=2, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/listener/RetryListenerSupport.java, className=org.springframework.retry.listener.RetryListenerSupport, type=class, dit=1, noc=0, wmc=3, cbo=5, lcom=3, rfc=0, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/backoff/ThreadWaitSleeper.java, className=org.springframework.retry.backoff.ThreadWaitSleeper, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=1, nom=1, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/backoff/ExponentialRandomBackOffPolicy.java, className=org.springframework.retry.backoff.ExponentialRandomBackOffPolicy, type=class, dit=3, noc=0, wmc=4, cbo=6, lcom=4, rfc=5, nom=4, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/backoff/UniformRandomBackOffPolicy.java, className=org.springframework.retry.backoff.UniformRandomBackOffPolicy, type=class, dit=2, noc=0, wmc=12, cbo=5, lcom=0, rfc=5, nom=8, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/backoff/Sleeper.java, className=org.springframework.retry.backoff.Sleeper, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/backoff/BackOffInterruptedException.java, className=org.springframework.retry.backoff.BackOffInterruptedException, type=class, dit=3, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/backoff/BackOffPolicy.java, className=org.springframework.retry.backoff.BackOffPolicy, type=interface, dit=1, noc=0, wmc=2, cbo=2, lcom=1, rfc=0, nom=2, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/backoff/SleepingBackOffPolicy.java, className=org.springframework.retry.backoff.SleepingBackOffPolicy, type=interface, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=0, nom=1, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/backoff/NoBackOffPolicy.java, className=org.springframework.retry.backoff.NoBackOffPolicy, type=class, dit=2, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/backoff/StatelessBackOffPolicy.java, className=org.springframework.retry.backoff.StatelessBackOffPolicy, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=3, rfc=1, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/backoff/BackOffContext.java, className=org.springframework.retry.backoff.BackOffContext, type=interface, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/backoff/ExponentialBackOffPolicy.java, className=org.springframework.retry.backoff.ExponentialBackOffPolicy, type=class, dit=1, noc=0, wmc=27, cbo=8, lcom=39, rfc=17, nom=19, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/backoff/FixedBackOffPolicy.java, className=org.springframework.retry.backoff.FixedBackOffPolicy, type=class, dit=2, noc=0, wmc=8, cbo=5, lcom=0, rfc=3, nom=6, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/backoff/ObjectWaitSleeper.java, className=org.springframework.retry.backoff.ObjectWaitSleeper, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=1, nom=1, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/classify/ClassifierSupportTests.java, className=org.springframework.classify.ClassifierSupportTests, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=1, rfc=3, nom=2, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/classify/ClassifierAdapterTests.java, className=org.springframework.classify.ClassifierAdapterTests, type=class, dit=1, noc=0, wmc=18, cbo=4, lcom=0, rfc=8, nom=7, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/classify/BackToBackPatternClassifierTests.java, className=org.springframework.classify.BackToBackPatternClassifierTests, type=class, dit=1, noc=0, wmc=5, cbo=5, lcom=0, rfc=6, nom=4, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/classify/PatternMatchingClassifierTests.java, className=org.springframework.classify.PatternMatchingClassifierTests, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=0, rfc=4, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/classify/BinaryExceptionClassifierTests.java, className=org.springframework.classify.BinaryExceptionClassifierTests, type=class, dit=8, noc=0, wmc=14, cbo=2, lcom=49, rfc=9, nom=14, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/classify/SubclassExceptionClassifierTests.java, className=org.springframework.classify.SubclassExceptionClassifierTests, type=class, dit=1, noc=0, wmc=9, cbo=2, lcom=0, rfc=7, nom=8, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/interceptor/RetryInterceptorBuilderTests.java, className=org.springframework.retry.interceptor.RetryInterceptorBuilderTests, type=class, dit=1, noc=0, wmc=15, cbo=10, lcom=78, rfc=26, nom=10, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/interceptor/RetryOperationsInterceptorTests.java, className=org.springframework.retry.interceptor.RetryOperationsInterceptorTests, type=class, dit=1, noc=0, wmc=29, cbo=19, lcom=50, rfc=29, nom=12, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/interceptor/StatefulRetryOperationsInterceptorTests.java, className=org.springframework.retry.interceptor.StatefulRetryOperationsInterceptorTests, type=class, dit=1, noc=0, wmc=33, cbo=22, lcom=0, rfc=35, nom=15, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/AnyThrowTests.java, className=org.springframework.retry.AnyThrowTests, type=class, dit=1, noc=0, wmc=5, cbo=4, lcom=4, rfc=4, nom=5, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/ExhaustedRetryExceptionTests.java, className=org.springframework.retry.ExhaustedRetryExceptionTests, type=class, dit=2, noc=0, wmc=3, cbo=2, lcom=3, rfc=0, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/support/RetrySimulationTests.java, className=org.springframework.retry.support.RetrySimulationTests, type=class, dit=1, noc=0, wmc=3, cbo=6, lcom=3, rfc=18, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/support/DefaultRetryStateTests.java, className=org.springframework.retry.support.DefaultRetryStateTests, type=class, dit=1, noc=0, wmc=6, cbo=3, lcom=15, rfc=6, nom=4, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/support/StatefulRecoveryRetryTests.java, className=org.springframework.retry.support.StatefulRecoveryRetryTests, type=class, dit=1, noc=0, wmc=32, cbo=16, lcom=0, rfc=30, nom=13, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/support/RetryTemplateTests.java, className=org.springframework.retry.support.RetryTemplateTests, type=class, dit=1, noc=0, wmc=49, cbo=17, lcom=475, rfc=35, nom=21, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/support/RetrySynchronizationManagerTests.java, className=org.springframework.retry.support.RetrySynchronizationManagerTests, type=class, dit=1, noc=0, wmc=8, cbo=6, lcom=21, rfc=10, nom=6, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/BackOffInterruptedExceptionTests.java, className=org.springframework.retry.BackOffInterruptedExceptionTests, type=class, dit=2, noc=0, wmc=3, cbo=2, lcom=3, rfc=0, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/policy/MockRetryPolicySupport.java, className=org.springframework.retry.policy.MockRetryPolicySupport, type=class, dit=3, noc=0, wmc=0, cbo=1, lcom=0, rfc=0, nom=0, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/policy/TimeoutRetryPolicyTests.java, className=org.springframework.retry.policy.TimeoutRetryPolicyTests, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=3, rfc=16, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/policy/StatefulRetryIntegrationTests.java, className=org.springframework.retry.policy.StatefulRetryIntegrationTests, type=class, dit=1, noc=0, wmc=15, cbo=13, lcom=19, rfc=21, nom=5, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/policy/SoftReferenceMapRetryContextCacheTests.java, className=org.springframework.retry.policy.SoftReferenceMapRetryContextCacheTests, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=0, rfc=8, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/policy/CircuitBreakerRetryTemplateTests.java, className=org.springframework.retry.policy.CircuitBreakerRetryTemplateTests, type=class, dit=1, noc=0, wmc=17, cbo=12, lcom=0, rfc=16, nom=10, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/policy/NeverRetryPolicyTests.java, className=org.springframework.retry.policy.NeverRetryPolicyTests, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=3, rfc=14, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/policy/FatalExceptionRetryPolicyTests.java, className=org.springframework.retry.policy.FatalExceptionRetryPolicyTests, type=class, dit=1, noc=0, wmc=8, cbo=9, lcom=9, rfc=7, nom=4, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/policy/CompositeRetryPolicyTests.java, className=org.springframework.retry.policy.CompositeRetryPolicyTests, type=class, dit=1, noc=0, wmc=18, cbo=4, lcom=130, rfc=20, nom=9, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/policy/SimpleRetryPolicyTests.java, className=org.springframework.retry.policy.SimpleRetryPolicyTests, type=class, dit=1, noc=0, wmc=8, cbo=3, lcom=28, rfc=16, nom=8, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/policy/AlwaysRetryPolicyTests.java, className=org.springframework.retry.policy.AlwaysRetryPolicyTests, type=class, dit=1, noc=0, wmc=3, cbo=3, lcom=3, rfc=13, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/policy/ExceptionClassifierRetryPolicyTests.java, className=org.springframework.retry.policy.ExceptionClassifierRetryPolicyTests, type=class, dit=1, noc=0, wmc=13, cbo=8, lcom=0, rfc=17, nom=8, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/policy/MapRetryContextCacheTests.java, className=org.springframework.retry.policy.MapRetryContextCacheTests, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=0, rfc=8, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/ResourcelessTransactionManager.java, className=org.springframework.retry.ResourcelessTransactionManager, type=class, dit=2, noc=0, wmc=14, cbo=4, lcom=33, rfc=12, nom=10, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/annotation/RecoverAnnotationRecoveryHandlerTests.java, className=org.springframework.retry.annotation.RecoverAnnotationRecoveryHandlerTests, type=class, dit=1, noc=0, wmc=20, cbo=8, lcom=184, rfc=9, nom=20, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/annotation/EnableRetryTests.java, className=org.springframework.retry.annotation.EnableRetryTests, type=class, dit=1, noc=0, wmc=67, cbo=22, lcom=649, rfc=32, nom=45, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/annotation/CircuitBreakerTests.java, className=org.springframework.retry.annotation.CircuitBreakerTests, type=class, dit=1, noc=0, wmc=11, cbo=8, lcom=0, rfc=12, nom=5, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/annotation/EnableRetryWithBackoffTests.java, className=org.springframework.retry.annotation.EnableRetryWithBackoffTests, type=class, dit=1, noc=0, wmc=27, cbo=14, lcom=93, rfc=17, nom=19, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/annotation/EnableRetryWithListenersTests.java, className=org.springframework.retry.annotation.EnableRetryWithListenersTests, type=class, dit=1, noc=0, wmc=8, cbo=14, lcom=3, rfc=4, nom=5, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/annotation/ProxyApplicationTests.java, className=org.springframework.retry.annotation.ProxyApplicationTests, type=class, dit=1, noc=0, wmc=9, cbo=8, lcom=10, rfc=16, nom=5, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/stats/CircuitBreakerInterceptorStatisticsTests.java, className=org.springframework.retry.stats.CircuitBreakerInterceptorStatisticsTests, type=class, dit=1, noc=0, wmc=17, cbo=15, lcom=19, rfc=13, nom=11, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/stats/CircuitBreakerStatisticsTests.java, className=org.springframework.retry.stats.CircuitBreakerStatisticsTests, type=class, dit=1, noc=0, wmc=12, cbo=14, lcom=2, rfc=15, nom=7, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/stats/StatisticsListenerTests.java, className=org.springframework.retry.stats.StatisticsListenerTests, type=class, dit=1, noc=0, wmc=25, cbo=14, lcom=0, rfc=16, nom=8, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/stats/ExponentialAverageRetryStatisticsTests.java, className=org.springframework.retry.stats.ExponentialAverageRetryStatisticsTests, type=class, dit=1, noc=0, wmc=8, cbo=2, lcom=0, rfc=28, nom=8, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/listener/RetryListenerSupportTests.java, className=org.springframework.retry.listener.RetryListenerSupportTests, type=class, dit=1, noc=0, wmc=5, cbo=4, lcom=3, rfc=5, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/listener/RetryListenerTests.java, className=org.springframework.retry.listener.RetryListenerTests, type=class, dit=1, noc=0, wmc=22, cbo=10, lcom=0, rfc=11, nom=5, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/TerminatedRetryExceptionTests.java, className=org.springframework.retry.TerminatedRetryExceptionTests, type=class, dit=2, noc=0, wmc=3, cbo=2, lcom=3, rfc=0, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/AbstractExceptionTests.java, className=org.springframework.retry.AbstractExceptionTests, type=class, dit=1, noc=0, wmc=4, cbo=1, lcom=6, rfc=5, nom=4, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/backoff/ThreadWaitSleeperTests.java, className=org.springframework.retry.backoff.ThreadWaitSleeperTests, type=class, dit=1, noc=0, wmc=2, cbo=2, lcom=1, rfc=4, nom=2, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/backoff/ExponentialRandomBackOffPolicyTests.java, className=org.springframework.retry.backoff.ExponentialRandomBackOffPolicyTests, type=class, dit=1, noc=0, wmc=5, cbo=5, lcom=0, rfc=20, nom=4, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/backoff/FixedBackOffPolicyTests.java, className=org.springframework.retry.backoff.FixedBackOffPolicyTests, type=class, dit=1, noc=0, wmc=4, cbo=5, lcom=0, rfc=6, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/backoff/DummySleeper.java, className=org.springframework.retry.backoff.DummySleeper, type=class, dit=1, noc=0, wmc=4, cbo=2, lcom=0, rfc=8, nom=3, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/backoff/ExponentialBackOffPolicyTests.java, className=org.springframework.retry.backoff.ExponentialBackOffPolicyTests, type=class, dit=1, noc=0, wmc=7, cbo=6, lcom=9, rfc=11, nom=6, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/util/test/TestUtils.java, className=org.springframework.retry.util.test.TestUtils, type=class, dit=1, noc=0, wmc=9, cbo=3, lcom=1, rfc=5, nom=2, specific={role=9999}]
+14:51:03  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-retry/src/test/java/org/springframework/retry/RetryExceptionTests.java, className=org.springframework.retry.RetryExceptionTests, type=class, dit=2, noc=0, wmc=3, cbo=2, lcom=3, rfc=0, nom=3, specific={role=9999}]
+14:51:03  INFO Finished parsing
+14:51:03  INFO Looking for smells
+14:51:03  INFO Starting the parse engine
+14:51:03  INFO Found 131 java files. We divided into 1 partitions
+14:51:03  INFO Identifying roles...
+14:51:04  INFO -- org.springframework.classify.ClassifierAdapter is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.Classifier is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.classify.PatternMatchingClassifier is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.BinaryExceptionClassifier is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.SubclassClassifier is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.PatternMatcher is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.ClassifierSupport is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.BackToBackPatternClassifier is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.util.MethodInvokerUtils is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.util.SimpleMethodInvoker is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.util.MethodInvoker is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.classify.util.AnnotationMethodResolver is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.util.MethodResolver is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.RetryOperations is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.interceptor.NewMethodArgumentsIdentifier is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.interceptor.MethodInvocationRecoverer is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.interceptor.StatefulRetryOperationsInterceptor is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.interceptor.FixedKeyGenerator is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.interceptor.Retryable is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.interceptor.RetryOperationsInterceptor is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.interceptor.RetryInterceptorBuilder is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.interceptor.MethodArgumentsKeyGenerator is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.ExhaustedRetryException is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.support.DefaultRetryState is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.support.RetrySynchronizationManager is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.support.RetrySimulation is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.support.RetryTemplate is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.support.RetrySimulator is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.RetryState is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.RetryCallback is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.RetryStatistics is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.policy.RetryContextCache is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.policy.SoftReferenceMapRetryContextCache is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.AlwaysRetryPolicy is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.CircuitBreakerRetryPolicy is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.NeverRetryPolicy is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.CompositeRetryPolicy is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.TimeoutRetryPolicy is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.SimpleRetryPolicy is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.MapRetryContextCache is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.ExceptionClassifierRetryPolicy is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.RetryCacheCapacityExceededException is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.RetryContext is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.RetryListener is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.context.RetryContextSupport is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.TerminatedRetryException is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.RetryPolicy is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.annotation.AnnotationAwareRetryOperationsInterceptor is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.annotation.RecoverAnnotationRecoveryHandler is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.annotation.RetryConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.RecoveryCallback is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.stats.DefaultStatisticsRepository is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.stats.ExponentialAverageRetryStatistics is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.stats.StatisticsListener is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.stats.StatisticsRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.stats.RetryStatisticsFactory is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.stats.DefaultRetryStatistics is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.stats.MutableRetryStatistics is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.stats.DefaultRetryStatisticsFactory is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.RetryException is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.listener.RetryListenerSupport is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.ThreadWaitSleeper is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.ExponentialRandomBackOffPolicy is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.UniformRandomBackOffPolicy is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.Sleeper is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.backoff.BackOffInterruptedException is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.BackOffPolicy is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.backoff.SleepingBackOffPolicy is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.backoff.NoBackOffPolicy is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.StatelessBackOffPolicy is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.BackOffContext is a ArchitecturalRole [role=other, id=9999] (interface)
+14:51:04  INFO -- org.springframework.retry.backoff.ExponentialBackOffPolicy is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.FixedBackOffPolicy is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.ObjectWaitSleeper is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.ClassifierSupportTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.ClassifierAdapterTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.BackToBackPatternClassifierTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.PatternMatchingClassifierTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.BinaryExceptionClassifierTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.classify.SubclassExceptionClassifierTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.interceptor.RetryInterceptorBuilderTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.interceptor.RetryOperationsInterceptorTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.interceptor.StatefulRetryOperationsInterceptorTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.AnyThrowTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.ExhaustedRetryExceptionTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.support.RetrySimulationTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.support.DefaultRetryStateTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.support.StatefulRecoveryRetryTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.support.RetryTemplateTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.support.RetrySynchronizationManagerTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.BackOffInterruptedExceptionTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.MockRetryPolicySupport is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.TimeoutRetryPolicyTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.StatefulRetryIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.SoftReferenceMapRetryContextCacheTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.CircuitBreakerRetryTemplateTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.NeverRetryPolicyTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.FatalExceptionRetryPolicyTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.CompositeRetryPolicyTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.SimpleRetryPolicyTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.AlwaysRetryPolicyTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.ExceptionClassifierRetryPolicyTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.policy.MapRetryContextCacheTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.ResourcelessTransactionManager is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.annotation.RecoverAnnotationRecoveryHandlerTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.annotation.EnableRetryTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.annotation.CircuitBreakerTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.annotation.EnableRetryWithBackoffTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.annotation.EnableRetryWithListenersTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.annotation.ProxyApplicationTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.stats.CircuitBreakerInterceptorStatisticsTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.stats.CircuitBreakerStatisticsTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.stats.StatisticsListenerTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.stats.ExponentialAverageRetryStatisticsTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.listener.RetryListenerSupportTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.listener.RetryListenerTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.TerminatedRetryExceptionTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.AbstractExceptionTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.ThreadWaitSleeperTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.ExponentialRandomBackOffPolicyTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.FixedBackOffPolicyTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.DummySleeper is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.backoff.ExponentialBackOffPolicyTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.util.test.TestUtils is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO -- org.springframework.retry.RetryExceptionTests is a ArchitecturalRole [role=other, id=9999] (class)
+14:51:04  INFO Identifying smells...
+14:51:04  INFO Analysing class org.springframework.classify.ClassifierAdapter
+14:51:04  INFO Analysing class org.springframework.classify.Classifier
+14:51:04  INFO Analysing class org.springframework.classify.PatternMatchingClassifier
+14:51:04  INFO Analysing class org.springframework.classify.BinaryExceptionClassifier
+14:51:04  INFO Analysing class org.springframework.classify.SubclassClassifier
+14:51:04 ERROR error in /home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/classify/annotation/Classifier.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+14:51:04  INFO Analysing class org.springframework.classify.PatternMatcher
+14:51:04  INFO Analysing class org.springframework.classify.ClassifierSupport
+14:51:04  INFO Analysing class org.springframework.classify.BackToBackPatternClassifier
+14:51:04  INFO Analysing class org.springframework.classify.util.MethodInvokerUtils
+14:51:04  INFO Analysing class org.springframework.classify.util.SimpleMethodInvoker
+14:51:04  INFO Analysing class org.springframework.classify.util.MethodInvoker
+14:51:04  INFO Analysing class org.springframework.classify.util.AnnotationMethodResolver
+14:51:04  INFO Analysing class org.springframework.classify.util.MethodResolver
+14:51:04  INFO Analysing class org.springframework.retry.RetryOperations
+14:51:04  INFO Analysing class org.springframework.retry.interceptor.NewMethodArgumentsIdentifier
+14:51:04  INFO Analysing class org.springframework.retry.interceptor.MethodInvocationRecoverer
+14:51:04  INFO Analysing class org.springframework.retry.interceptor.StatefulRetryOperationsInterceptor
+14:51:04  INFO Analysing class org.springframework.retry.interceptor.FixedKeyGenerator
+14:51:04  INFO Analysing class org.springframework.retry.interceptor.Retryable
+14:51:04  INFO Analysing class org.springframework.retry.interceptor.RetryOperationsInterceptor
+14:51:04  INFO Analysing class org.springframework.retry.interceptor.RetryInterceptorBuilder
+14:51:04  INFO Analysing class org.springframework.retry.interceptor.MethodArgumentsKeyGenerator
+14:51:04  INFO Analysing class org.springframework.retry.ExhaustedRetryException
+14:51:04  INFO Analysing class org.springframework.retry.support.DefaultRetryState
+14:51:04  INFO Analysing class org.springframework.retry.support.RetrySynchronizationManager
+14:51:04  INFO Analysing class org.springframework.retry.support.RetrySimulation
+14:51:04  INFO Analysing class org.springframework.retry.support.RetryTemplate
+14:51:04  INFO Analysing class org.springframework.retry.support.RetrySimulator
+14:51:04  INFO Analysing class org.springframework.retry.RetryState
+14:51:04  INFO Analysing class org.springframework.retry.RetryCallback
+14:51:04  INFO Analysing class org.springframework.retry.RetryStatistics
+14:51:04  INFO Analysing class org.springframework.retry.policy.RetryContextCache
+14:51:04  INFO Analysing class org.springframework.retry.policy.SoftReferenceMapRetryContextCache
+14:51:04  INFO Analysing class org.springframework.retry.policy.AlwaysRetryPolicy
+14:51:04  INFO Analysing class org.springframework.retry.policy.CircuitBreakerRetryPolicy
+14:51:04  INFO Analysing class org.springframework.retry.policy.NeverRetryPolicy
+14:51:04  INFO Analysing class org.springframework.retry.policy.CompositeRetryPolicy
+14:51:04  INFO Analysing class org.springframework.retry.policy.TimeoutRetryPolicy
+14:51:04  INFO Analysing class org.springframework.retry.policy.SimpleRetryPolicy
+14:51:04  INFO Analysing class org.springframework.retry.policy.MapRetryContextCache
+14:51:04  INFO Analysing class org.springframework.retry.policy.ExceptionClassifierRetryPolicy
+14:51:04  INFO Analysing class org.springframework.retry.policy.RetryCacheCapacityExceededException
+14:51:04  INFO Analysing class org.springframework.retry.RetryContext
+14:51:04  INFO Analysing class org.springframework.retry.RetryListener
+14:51:04  INFO Analysing class org.springframework.retry.context.RetryContextSupport
+14:51:04  INFO Analysing class org.springframework.retry.TerminatedRetryException
+14:51:04  INFO Analysing class org.springframework.retry.RetryPolicy
+14:51:04  INFO Analysing class org.springframework.retry.annotation.AnnotationAwareRetryOperationsInterceptor
+14:51:04 ERROR error in /home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/annotation/Backoff.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+14:51:05  INFO Analysing class org.springframework.retry.annotation.RecoverAnnotationRecoveryHandler
+14:51:05  INFO Analysing class org.springframework.retry.annotation.RetryConfiguration
+14:51:05 ERROR error in /home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/annotation/Retryable.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+14:51:05 ERROR error in /home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/annotation/Recover.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+14:51:05 ERROR error in /home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/annotation/CircuitBreaker.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+14:51:05 ERROR error in /home/guilherme/spring-projects/maven/spring-retry/src/main/java/org/springframework/retry/annotation/EnableRetry.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+14:51:05  INFO Analysing class org.springframework.retry.RecoveryCallback
+14:51:05  INFO Analysing class org.springframework.retry.stats.DefaultStatisticsRepository
+14:51:05  INFO Analysing class org.springframework.retry.stats.ExponentialAverageRetryStatistics
+14:51:05  INFO Analysing class org.springframework.retry.stats.StatisticsListener
+14:51:05  INFO Analysing class org.springframework.retry.stats.StatisticsRepository
+14:51:05  INFO Analysing class org.springframework.retry.stats.RetryStatisticsFactory
+14:51:05  INFO Analysing class org.springframework.retry.stats.DefaultRetryStatistics
+14:51:05  INFO Analysing class org.springframework.retry.stats.MutableRetryStatistics
+14:51:05  INFO Analysing class org.springframework.retry.stats.DefaultRetryStatisticsFactory
+14:51:05  INFO Analysing class org.springframework.retry.RetryException
+14:51:05  INFO Analysing class org.springframework.retry.listener.RetryListenerSupport
+14:51:05  INFO Analysing class org.springframework.retry.backoff.ThreadWaitSleeper
+14:51:05  INFO Analysing class org.springframework.retry.backoff.ExponentialRandomBackOffPolicy
+14:51:05  INFO Analysing class org.springframework.retry.backoff.UniformRandomBackOffPolicy
+14:51:05  INFO Analysing class org.springframework.retry.backoff.Sleeper
+14:51:05  INFO Analysing class org.springframework.retry.backoff.BackOffInterruptedException
+14:51:05  INFO Analysing class org.springframework.retry.backoff.BackOffPolicy
+14:51:05  INFO Analysing class org.springframework.retry.backoff.SleepingBackOffPolicy
+14:51:05  INFO Analysing class org.springframework.retry.backoff.NoBackOffPolicy
+14:51:05  INFO Analysing class org.springframework.retry.backoff.StatelessBackOffPolicy
+14:51:05  INFO Analysing class org.springframework.retry.backoff.BackOffContext
+14:51:05  INFO Analysing class org.springframework.retry.backoff.ExponentialBackOffPolicy
+14:51:05  INFO Analysing class org.springframework.retry.backoff.FixedBackOffPolicy
+14:51:05  INFO Analysing class org.springframework.retry.backoff.ObjectWaitSleeper
+14:51:05  INFO Analysing class org.springframework.classify.ClassifierSupportTests
+14:51:05  INFO Analysing class org.springframework.classify.ClassifierAdapterTests
+14:51:05  INFO Analysing class org.springframework.classify.BackToBackPatternClassifierTests
+14:51:05  INFO Analysing class org.springframework.classify.PatternMatchingClassifierTests
+14:51:05  INFO Analysing class org.springframework.classify.BinaryExceptionClassifierTests
+14:51:05  INFO Analysing class org.springframework.classify.SubclassExceptionClassifierTests
+14:51:05  INFO Analysing class org.springframework.retry.interceptor.RetryInterceptorBuilderTests
+14:51:05  INFO Analysing class org.springframework.retry.interceptor.RetryOperationsInterceptorTests
+14:51:05  INFO Analysing class org.springframework.retry.interceptor.StatefulRetryOperationsInterceptorTests
+14:51:05  INFO Analysing class org.springframework.retry.AnyThrowTests
+14:51:05  INFO Analysing class org.springframework.retry.ExhaustedRetryExceptionTests
+14:51:05  INFO Analysing class org.springframework.retry.support.RetrySimulationTests
+14:51:05  INFO Analysing class org.springframework.retry.support.DefaultRetryStateTests
+14:51:05  INFO Analysing class org.springframework.retry.support.StatefulRecoveryRetryTests
+14:51:05  INFO Analysing class org.springframework.retry.support.RetryTemplateTests
+14:51:05  INFO Analysing class org.springframework.retry.support.RetrySynchronizationManagerTests
+14:51:05  INFO Analysing class org.springframework.retry.BackOffInterruptedExceptionTests
+14:51:05  INFO Analysing class org.springframework.retry.policy.MockRetryPolicySupport
+14:51:05  INFO Analysing class org.springframework.retry.policy.TimeoutRetryPolicyTests
+14:51:05  INFO Analysing class org.springframework.retry.policy.StatefulRetryIntegrationTests
+14:51:05  INFO Analysing class org.springframework.retry.policy.SoftReferenceMapRetryContextCacheTests
+14:51:05  INFO Analysing class org.springframework.retry.policy.CircuitBreakerRetryTemplateTests
+14:51:05  INFO Analysing class org.springframework.retry.policy.NeverRetryPolicyTests
+14:51:05  INFO Analysing class org.springframework.retry.policy.FatalExceptionRetryPolicyTests
+14:51:05  INFO Analysing class org.springframework.retry.policy.CompositeRetryPolicyTests
+14:51:05  INFO Analysing class org.springframework.retry.policy.SimpleRetryPolicyTests
+14:51:05  INFO Analysing class org.springframework.retry.policy.AlwaysRetryPolicyTests
+14:51:05  INFO Analysing class org.springframework.retry.policy.ExceptionClassifierRetryPolicyTests
+14:51:05  INFO Analysing class org.springframework.retry.policy.MapRetryContextCacheTests
+14:51:05  INFO Analysing class org.springframework.retry.ResourcelessTransactionManager
+14:51:05  INFO Analysing class org.springframework.retry.annotation.RecoverAnnotationRecoveryHandlerTests
+14:51:05  INFO Analysing class org.springframework.retry.annotation.EnableRetryTests
+14:51:05  INFO Analysing class org.springframework.retry.annotation.CircuitBreakerTests
+14:51:05  INFO Analysing class org.springframework.retry.annotation.EnableRetryWithBackoffTests
+14:51:05  INFO Analysing class org.springframework.retry.annotation.EnableRetryWithListenersTests
+14:51:05  INFO Analysing class org.springframework.retry.annotation.ProxyApplicationTests
+14:51:05  INFO Analysing class org.springframework.retry.stats.CircuitBreakerInterceptorStatisticsTests
+14:51:05  INFO Analysing class org.springframework.retry.stats.CircuitBreakerStatisticsTests
+14:51:05  INFO Analysing class org.springframework.retry.stats.StatisticsListenerTests
+14:51:05  INFO Analysing class org.springframework.retry.stats.ExponentialAverageRetryStatisticsTests
+14:51:05  INFO Analysing class org.springframework.retry.listener.RetryListenerSupportTests
+14:51:05  INFO Analysing class org.springframework.retry.listener.RetryListenerTests
+14:51:05  INFO Analysing class org.springframework.retry.TerminatedRetryExceptionTests
+14:51:05  INFO Analysing class org.springframework.retry.AbstractExceptionTests
+14:51:05  INFO Analysing class org.springframework.retry.backoff.ThreadWaitSleeperTests
+14:51:05  INFO Analysing class org.springframework.retry.backoff.ExponentialRandomBackOffPolicyTests
+14:51:05  INFO Analysing class org.springframework.retry.backoff.FixedBackOffPolicyTests
+14:51:05  INFO Analysing class org.springframework.retry.backoff.DummySleeper
+14:51:05  INFO Analysing class org.springframework.retry.backoff.ExponentialBackOffPolicyTests
+14:51:05  INFO Analysing class org.springframework.retry.util.test.TestUtils
+14:51:05  INFO Analysing class org.springframework.retry.RetryExceptionTests
+14:51:05  INFO Generating output
+14:51:05  INFO That's it! It only took 5 seconds

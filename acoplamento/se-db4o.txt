@@ -1,0 +1,208 @@
+16:49:32  INFO # ----------------------------------------- #
+16:49:32  INFO #          Smelly Cat - Spring MVC          #
+16:49:32  INFO #  www.github.com/mauricioaniche/smellycat  #
+16:49:32  INFO # ----------------------------------------- #
+16:49:32  INFO Running CK metrics
+16:49:32  INFO Found 64 java files
+16:49:32  INFO Max partition size: 300, total partitions=1
+16:49:32  INFO Next partition
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/Db4oTemplate.java, className=org.springextensions.db4o.Db4oTemplate, type=class, dit=2, noc=0, wmc=106, cbo=34, lcom=4083, rfc=55, nom=50, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/Db4oSystemException.java, className=org.springextensions.db4o.Db4oSystemException, type=class, dit=2, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/support/Db4oDaoSupport.java, className=org.springextensions.db4o.support.Db4oDaoSupport, type=class, dit=2, noc=0, wmc=8, cbo=4, lcom=0, rfc=4, nom=7, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/io/ResourceStorage.java, className=org.springextensions.db4o.io.ResourceStorage, type=class, dit=2, noc=0, wmc=5, cbo=9, lcom=0, rfc=8, nom=4, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/ObjectContainerFactoryBean.java, className=org.springextensions.db4o.ObjectContainerFactoryBean, type=class, dit=1, noc=0, wmc=30, cbo=7, lcom=62, rfc=14, nom=17, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/config/EnvironmentConfigurer.java, className=org.springextensions.db4o.config.EnvironmentConfigurer, type=class, dit=1, noc=0, wmc=4, cbo=1, lcom=0, rfc=1, nom=3, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/config/EmbeddedConfigurationFactoryBean.java, className=org.springextensions.db4o.config.EmbeddedConfigurationFactoryBean, type=class, dit=1, noc=0, wmc=17, cbo=5, lcom=3, rfc=5, nom=10, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/config/FileConfigurer.java, className=org.springextensions.db4o.config.FileConfigurer, type=class, dit=1, noc=0, wmc=21, cbo=4, lcom=0, rfc=13, nom=14, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/config/CommonConfigurer.java, className=org.springextensions.db4o.config.CommonConfigurer, type=class, dit=1, noc=0, wmc=42, cbo=11, lcom=0, rfc=30, nom=32, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/config/QueryConfigurer.java, className=org.springextensions.db4o.config.QueryConfigurer, type=class, dit=1, noc=0, wmc=5, cbo=2, lcom=0, rfc=1, nom=2, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/config/IdSystemConfigurer.java, className=org.springextensions.db4o.config.IdSystemConfigurer, type=class, dit=1, noc=0, wmc=7, cbo=3, lcom=0, rfc=5, nom=3, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/config/DiagnosticConfigurer.java, className=org.springextensions.db4o.config.DiagnosticConfigurer, type=class, dit=1, noc=0, wmc=4, cbo=2, lcom=0, rfc=1, nom=3, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/config/NetworkingConfigurer.java, className=org.springextensions.db4o.config.NetworkingConfigurer, type=class, dit=1, noc=0, wmc=7, cbo=4, lcom=0, rfc=6, nom=7, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/config/ServerConfigurationFactoryBean.java, className=org.springextensions.db4o.config.ServerConfigurationFactoryBean, type=class, dit=1, noc=0, wmc=21, cbo=6, lcom=0, rfc=7, nom=12, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/config/ClientConfigurationFactoryBean.java, className=org.springextensions.db4o.config.ClientConfigurationFactoryBean, type=class, dit=1, noc=0, wmc=19, cbo=4, lcom=0, rfc=9, nom=14, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/config/ObjectFieldConfigurer.java, className=org.springextensions.db4o.config.ObjectFieldConfigurer, type=class, dit=1, noc=0, wmc=7, cbo=2, lcom=0, rfc=6, nom=7, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/config/ObjectClassConfigurer.java, className=org.springextensions.db4o.config.ObjectClassConfigurer, type=class, dit=1, noc=0, wmc=17, cbo=3, lcom=0, rfc=15, nom=15, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/config/FreespaceConfigurer.java, className=org.springextensions.db4o.config.FreespaceConfigurer, type=class, dit=1, noc=0, wmc=6, cbo=3, lcom=0, rfc=4, nom=4, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/ObjectContainerHolder.java, className=org.springextensions.db4o.ObjectContainerHolder, type=class, dit=2, noc=0, wmc=2, cbo=2, lcom=0, rfc=0, nom=2, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/ObjectServerFactoryBean.java, className=org.springextensions.db4o.ObjectServerFactoryBean, type=class, dit=1, noc=0, wmc=18, cbo=3, lcom=25, rfc=17, nom=10, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/Db4oOperations.java, className=org.springextensions.db4o.Db4oOperations, type=interface, dit=1, noc=0, wmc=43, cbo=19, lcom=903, rfc=0, nom=43, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/Db4oCallback.java, className=org.springextensions.db4o.Db4oCallback, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/Db4oAccessor.java, className=org.springextensions.db4o.Db4oAccessor, type=class, dit=1, noc=0, wmc=6, cbo=3, lcom=0, rfc=1, nom=4, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/ObjectServerUtils.java, className=org.springextensions.db4o.ObjectServerUtils, type=class, dit=1, noc=0, wmc=11, cbo=7, lcom=1, rfc=3, nom=2, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/java/org/springextensions/db4o/Db4oTransactionManager.java, className=org.springextensions.db4o.Db4oTransactionManager, type=class, dit=2, noc=0, wmc=36, cbo=14, lcom=183, rfc=23, nom=22, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/Db4oTemplateTest.java, className=org.springextensions.db4o.Db4oTemplateTest, type=class, dit=1, noc=0, wmc=53, cbo=26, lcom=0, rfc=97, nom=48, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/example/NoopEmbeddedConfigurationItem.java, className=org.springextensions.db4o.example.NoopEmbeddedConfigurationItem, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=1, rfc=0, nom=2, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/example/NoopServerConfigurationItem.java, className=org.springextensions.db4o.example.NoopServerConfigurationItem, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=1, rfc=0, nom=2, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/example/PersonTypeHandlerPredicate.java, className=org.springextensions.db4o.example.PersonTypeHandlerPredicate, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=1, rfc=3, nom=2, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/example/NoopDiagnosticListener.java, className=org.springextensions.db4o.example.NoopDiagnosticListener, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/example/NoopFreespaceFiller.java, className=org.springextensions.db4o.example.NoopFreespaceFiller, type=class, dit=1, noc=0, wmc=2, cbo=2, lcom=1, rfc=0, nom=2, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/example/NoopMessageRecipient.java, className=org.springextensions.db4o.example.NoopMessageRecipient, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/example/NoopClientConfigurationItem.java, className=org.springextensions.db4o.example.NoopClientConfigurationItem, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=1, rfc=0, nom=2, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/example/Person.java, className=org.springextensions.db4o.example.Person, type=class, dit=1, noc=0, wmc=3, cbo=0, lcom=1, rfc=0, nom=3, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/support/Db4oDaoSupportTest.java, className=org.springextensions.db4o.support.Db4oDaoSupportTest, type=class, dit=1, noc=0, wmc=5, cbo=5, lcom=0, rfc=12, nom=4, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/ObjectContainerFactoryBeanTest.java, className=org.springextensions.db4o.ObjectContainerFactoryBeanTest, type=class, dit=1, noc=0, wmc=7, cbo=9, lcom=0, rfc=15, nom=6, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/io/ResourceStorageTest.java, className=org.springextensions.db4o.io.ResourceStorageTest, type=class, dit=1, noc=0, wmc=3, cbo=9, lcom=3, rfc=12, nom=3, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/config/QueryConfigurerTest.java, className=org.springextensions.db4o.config.QueryConfigurerTest, type=class, dit=1, noc=0, wmc=4, cbo=5, lcom=0, rfc=6, nom=4, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/config/ServerConfigurationFactoryBeanTest.java, className=org.springextensions.db4o.config.ServerConfigurationFactoryBeanTest, type=class, dit=1, noc=0, wmc=12, cbo=11, lcom=0, rfc=16, nom=12, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/config/EnvironmentConfigurerTest.java, className=org.springextensions.db4o.config.EnvironmentConfigurerTest, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=0, rfc=10, nom=3, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/config/CommonConfigurerTest.java, className=org.springextensions.db4o.config.CommonConfigurerTest, type=class, dit=1, noc=0, wmc=32, cbo=18, lcom=0, rfc=70, nom=32, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/config/ObjectClassConfigurerTest.java, className=org.springextensions.db4o.config.ObjectClassConfigurerTest, type=class, dit=1, noc=0, wmc=16, cbo=8, lcom=0, rfc=36, nom=16, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/config/NetworkingConfigurerTest.java, className=org.springextensions.db4o.config.NetworkingConfigurerTest, type=class, dit=1, noc=0, wmc=7, cbo=10, lcom=0, rfc=14, nom=7, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/config/IdSystemConfigurerTest.java, className=org.springextensions.db4o.config.IdSystemConfigurerTest, type=class, dit=1, noc=0, wmc=6, cbo=7, lcom=0, rfc=11, nom=6, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/config/ObjectFieldConfigurerTest.java, className=org.springextensions.db4o.config.ObjectFieldConfigurerTest, type=class, dit=1, noc=0, wmc=7, cbo=5, lcom=0, rfc=17, nom=7, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/config/FileConfigurerTest.java, className=org.springextensions.db4o.config.FileConfigurerTest, type=class, dit=1, noc=0, wmc=17, cbo=7, lcom=0, rfc=30, nom=17, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/config/EmbeddedConfigurationFactoryBeanTest.java, className=org.springextensions.db4o.config.EmbeddedConfigurationFactoryBeanTest, type=class, dit=1, noc=0, wmc=10, cbo=10, lcom=0, rfc=14, nom=10, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/config/ClientConfigurationFactoryBeanTest.java, className=org.springextensions.db4o.config.ClientConfigurationFactoryBeanTest, type=class, dit=1, noc=0, wmc=14, cbo=9, lcom=0, rfc=18, nom=14, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/config/DiagnosticConfigurerTest.java, className=org.springextensions.db4o.config.DiagnosticConfigurerTest, type=class, dit=1, noc=0, wmc=3, cbo=6, lcom=0, rfc=10, nom=3, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/config/FreespaceConfigurerTest.java, className=org.springextensions.db4o.config.FreespaceConfigurerTest, type=class, dit=1, noc=0, wmc=5, cbo=7, lcom=0, rfc=11, nom=5, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/Db4oTransactionManagerTest.java, className=org.springextensions.db4o.Db4oTransactionManagerTest, type=class, dit=1, noc=0, wmc=14, cbo=9, lcom=55, rfc=18, nom=4, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/ObjectContainerHolderTest.java, className=org.springextensions.db4o.ObjectContainerHolderTest, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=3, nom=1, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/java/org/springextensions/db4o/ObjectServerFactoryBeanTest.java, className=org.springextensions.db4o.ObjectServerFactoryBeanTest, type=class, dit=1, noc=0, wmc=6, cbo=8, lcom=0, rfc=13, nom=5, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-spring/src/test/java/org/springextensions/db4o/EmbeddedIT.java, className=org.springextensions.db4o.EmbeddedIT, type=class, dit=3, noc=0, wmc=1, cbo=3, lcom=0, rfc=2, nom=1, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-spring/src/test/java/org/springextensions/db4o/example/ResourceLoaderFactory.java, className=org.springextensions.db4o.example.ResourceLoaderFactory, type=class, dit=1, noc=0, wmc=3, cbo=2, lcom=1, rfc=0, nom=3, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-spring/src/test/java/org/springextensions/db4o/ObjectContainerIT.java, className=org.springextensions.db4o.ObjectContainerIT, type=class, dit=2, noc=0, wmc=0, cbo=4, lcom=0, rfc=0, nom=0, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-spring/src/test/java/org/springextensions/db4o/io/ResourceStorageIT.java, className=org.springextensions.db4o.io.ResourceStorageIT, type=class, dit=3, noc=0, wmc=3, cbo=5, lcom=3, rfc=6, nom=3, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-spring/src/test/java/org/springextensions/db4o/RemoteClientServerIT.java, className=org.springextensions.db4o.RemoteClientServerIT, type=class, dit=3, noc=0, wmc=1, cbo=3, lcom=0, rfc=2, nom=1, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-spring/src/test/java/org/springextensions/db4o/config/ClientConfigurationIT.java, className=org.springextensions.db4o.config.ClientConfigurationIT, type=class, dit=2, noc=0, wmc=1, cbo=5, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-spring/src/test/java/org/springextensions/db4o/config/EmbeddedConfigurationIT.java, className=org.springextensions.db4o.config.EmbeddedConfigurationIT, type=class, dit=2, noc=0, wmc=1, cbo=5, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-spring/src/test/java/org/springextensions/db4o/config/ServerConfigurationIT.java, className=org.springextensions.db4o.config.ServerConfigurationIT, type=class, dit=2, noc=0, wmc=1, cbo=5, lcom=0, rfc=1, nom=1, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-spring/src/test/java/org/springextensions/db4o/config/ObjectClassConfigurerIT.java, className=org.springextensions.db4o.config.ObjectClassConfigurerIT, type=class, dit=3, noc=0, wmc=1, cbo=4, lcom=0, rfc=2, nom=1, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-spring/src/test/java/org/springextensions/db4o/EmbeddedClientServerIT.java, className=org.springextensions.db4o.EmbeddedClientServerIT, type=class, dit=3, noc=0, wmc=1, cbo=3, lcom=0, rfc=2, nom=1, specific={role=9999}]
+16:49:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-osgi/src/test/java/org/springextensions/db4o/BlueprintIT.java, className=org.springextensions.db4o.BlueprintIT, type=class, dit=1, noc=0, wmc=3, cbo=8, lcom=3, rfc=5, nom=3, specific={role=9999}]
+16:49:35  INFO Finished parsing
+16:49:36  INFO Looking for smells
+16:49:36  INFO Starting the parse engine
+16:49:36  INFO Found 64 java files. We divided into 1 partitions
+16:49:36  INFO Identifying roles...
+16:49:36  INFO -- org.springextensions.db4o.Db4oTemplate is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.Db4oSystemException is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.support.Db4oDaoSupport is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.io.ResourceStorage is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.ObjectContainerFactoryBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.EnvironmentConfigurer is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.EmbeddedConfigurationFactoryBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.FileConfigurer is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.CommonConfigurer is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.QueryConfigurer is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.IdSystemConfigurer is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.DiagnosticConfigurer is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.NetworkingConfigurer is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.ServerConfigurationFactoryBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.ClientConfigurationFactoryBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.ObjectFieldConfigurer is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.ObjectClassConfigurer is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.FreespaceConfigurer is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.ObjectContainerHolder is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.ObjectServerFactoryBean is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.Db4oOperations is a ArchitecturalRole [role=other, id=9999] (interface)
+16:49:36  INFO -- org.springextensions.db4o.Db4oCallback is a ArchitecturalRole [role=other, id=9999] (interface)
+16:49:36  INFO -- org.springextensions.db4o.Db4oAccessor is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.ObjectServerUtils is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.Db4oTransactionManager is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.Db4oTemplateTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.example.NoopEmbeddedConfigurationItem is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.example.NoopServerConfigurationItem is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.example.PersonTypeHandlerPredicate is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.example.NoopDiagnosticListener is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.example.NoopFreespaceFiller is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.example.NoopMessageRecipient is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.example.NoopClientConfigurationItem is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.example.Person is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.support.Db4oDaoSupportTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.ObjectContainerFactoryBeanTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.io.ResourceStorageTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.QueryConfigurerTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.ServerConfigurationFactoryBeanTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.EnvironmentConfigurerTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.CommonConfigurerTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.ObjectClassConfigurerTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.NetworkingConfigurerTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.IdSystemConfigurerTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.ObjectFieldConfigurerTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.FileConfigurerTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.EmbeddedConfigurationFactoryBeanTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.ClientConfigurationFactoryBeanTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.DiagnosticConfigurerTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.FreespaceConfigurerTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.Db4oTransactionManagerTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.ObjectContainerHolderTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.ObjectServerFactoryBeanTest is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.EmbeddedIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.example.ResourceLoaderFactory is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.ObjectContainerIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.io.ResourceStorageIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.RemoteClientServerIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.ClientConfigurationIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.EmbeddedConfigurationIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.ServerConfigurationIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.config.ObjectClassConfigurerIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.EmbeddedClientServerIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO -- org.springextensions.db4o.BlueprintIT is a ArchitecturalRole [role=other, id=9999] (class)
+16:49:36  INFO Identifying smells...
+16:49:36  INFO Analysing class org.springextensions.db4o.Db4oTemplate
+16:49:36  INFO Analysing class org.springextensions.db4o.Db4oSystemException
+16:49:36  INFO Analysing class org.springextensions.db4o.support.Db4oDaoSupport
+16:49:36  INFO Analysing class org.springextensions.db4o.io.ResourceStorage
+16:49:36  INFO Analysing class org.springextensions.db4o.ObjectContainerFactoryBean
+16:49:36  INFO Analysing class org.springextensions.db4o.config.EnvironmentConfigurer
+16:49:36  INFO Analysing class org.springextensions.db4o.config.EmbeddedConfigurationFactoryBean
+16:49:36  INFO Analysing class org.springextensions.db4o.config.FileConfigurer
+16:49:36  INFO Analysing class org.springextensions.db4o.config.CommonConfigurer
+16:49:36  INFO Analysing class org.springextensions.db4o.config.QueryConfigurer
+16:49:36  INFO Analysing class org.springextensions.db4o.config.IdSystemConfigurer
+16:49:36  INFO Analysing class org.springextensions.db4o.config.DiagnosticConfigurer
+16:49:36  INFO Analysing class org.springextensions.db4o.config.NetworkingConfigurer
+16:49:36  INFO Analysing class org.springextensions.db4o.config.ServerConfigurationFactoryBean
+16:49:36  INFO Analysing class org.springextensions.db4o.config.ClientConfigurationFactoryBean
+16:49:36  INFO Analysing class org.springextensions.db4o.config.ObjectFieldConfigurer
+16:49:36  INFO Analysing class org.springextensions.db4o.config.ObjectClassConfigurer
+16:49:36  INFO Analysing class org.springextensions.db4o.config.FreespaceConfigurer
+16:49:36  INFO Analysing class org.springextensions.db4o.ObjectContainerHolder
+16:49:36  INFO Analysing class org.springextensions.db4o.ObjectServerFactoryBean
+16:49:36  INFO Analysing class org.springextensions.db4o.Db4oOperations
+16:49:36  INFO Analysing class org.springextensions.db4o.Db4oCallback
+16:49:36  INFO Analysing class org.springextensions.db4o.Db4oAccessor
+16:49:36  INFO Analysing class org.springextensions.db4o.ObjectServerUtils
+16:49:36  INFO Analysing class org.springextensions.db4o.Db4oTransactionManager
+16:49:36  INFO Analysing class org.springextensions.db4o.Db4oTemplateTest
+16:49:36  INFO Analysing class org.springextensions.db4o.example.NoopEmbeddedConfigurationItem
+16:49:36  INFO Analysing class org.springextensions.db4o.example.NoopServerConfigurationItem
+16:49:36  INFO Analysing class org.springextensions.db4o.example.PersonTypeHandlerPredicate
+16:49:36  INFO Analysing class org.springextensions.db4o.example.NoopDiagnosticListener
+16:49:36  INFO Analysing class org.springextensions.db4o.example.NoopFreespaceFiller
+16:49:36  INFO Analysing class org.springextensions.db4o.example.NoopMessageRecipient
+16:49:36  INFO Analysing class org.springextensions.db4o.example.NoopClientConfigurationItem
+16:49:36  INFO Analysing class org.springextensions.db4o.example.Person
+16:49:36  INFO Analysing class org.springextensions.db4o.support.Db4oDaoSupportTest
+16:49:36  INFO Analysing class org.springextensions.db4o.ObjectContainerFactoryBeanTest
+16:49:36  INFO Analysing class org.springextensions.db4o.io.ResourceStorageTest
+16:49:36  INFO Analysing class org.springextensions.db4o.config.QueryConfigurerTest
+16:49:36  INFO Analysing class org.springextensions.db4o.config.ServerConfigurationFactoryBeanTest
+16:49:36  INFO Analysing class org.springextensions.db4o.config.EnvironmentConfigurerTest
+16:49:36  INFO Analysing class org.springextensions.db4o.config.CommonConfigurerTest
+16:49:36  INFO Analysing class org.springextensions.db4o.config.ObjectClassConfigurerTest
+16:49:36  INFO Analysing class org.springextensions.db4o.config.NetworkingConfigurerTest
+16:49:36  INFO Analysing class org.springextensions.db4o.config.IdSystemConfigurerTest
+16:49:36  INFO Analysing class org.springextensions.db4o.config.ObjectFieldConfigurerTest
+16:49:36  INFO Analysing class org.springextensions.db4o.config.FileConfigurerTest
+16:49:36  INFO Analysing class org.springextensions.db4o.config.EmbeddedConfigurationFactoryBeanTest
+16:49:37  INFO Analysing class org.springextensions.db4o.config.ClientConfigurationFactoryBeanTest
+16:49:37  INFO Analysing class org.springextensions.db4o.config.DiagnosticConfigurerTest
+16:49:37  INFO Analysing class org.springextensions.db4o.config.FreespaceConfigurerTest
+16:49:37  INFO Analysing class org.springextensions.db4o.Db4oTransactionManagerTest
+16:49:37  INFO Analysing class org.springextensions.db4o.ObjectContainerHolderTest
+16:49:37  INFO Analysing class org.springextensions.db4o.ObjectServerFactoryBeanTest
+16:49:37  INFO Analysing class org.springextensions.db4o.EmbeddedIT
+16:49:37  INFO Analysing class org.springextensions.db4o.example.ResourceLoaderFactory
+16:49:37  INFO Analysing class org.springextensions.db4o.ObjectContainerIT
+16:49:37  INFO Analysing class org.springextensions.db4o.io.ResourceStorageIT
+16:49:37  INFO Analysing class org.springextensions.db4o.RemoteClientServerIT
+16:49:37  INFO Analysing class org.springextensions.db4o.config.ClientConfigurationIT
+16:49:37  INFO Analysing class org.springextensions.db4o.config.EmbeddedConfigurationIT
+16:49:37  INFO Analysing class org.springextensions.db4o.config.ServerConfigurationIT
+16:49:37  INFO Analysing class org.springextensions.db4o.config.ObjectClassConfigurerIT
+16:49:37  INFO Analysing class org.springextensions.db4o.EmbeddedClientServerIT
+16:49:37  INFO Analysing class org.springextensions.db4o.BlueprintIT
+16:49:37  INFO Generating output
+16:49:37  INFO That's it! It only took 4 seconds

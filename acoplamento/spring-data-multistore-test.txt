@@ -1,0 +1,37 @@
+17:13:22  INFO # ----------------------------------------- #
+17:13:22  INFO #          Smelly Cat - Spring MVC          #
+17:13:22  INFO #  www.github.com/mauricioaniche/smellycat  #
+17:13:22  INFO # ----------------------------------------- #
+17:13:22  INFO Running CK metrics
+17:13:22  INFO Found 7 java files
+17:13:22  INFO Max partition size: 300, total partitions=1
+17:13:22  INFO Next partition
+17:13:25  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-multistore-test/src/main/java/org/springframework/data/example/jpa/User.java, className=org.springframework.data.example.jpa.User, type=class, dit=1, noc=0, wmc=0, cbo=4, lcom=0, rfc=0, nom=0, specific={role=3}]
+17:13:25  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-multistore-test/src/main/java/org/springframework/data/example/jpa/UserRepository.java, className=org.springframework.data.example.jpa.UserRepository, type=interface, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:13:25  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-multistore-test/src/main/java/org/springframework/data/example/mongodb/PersonRepository.java, className=org.springframework.data.example.mongodb.PersonRepository, type=interface, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:13:25  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-multistore-test/src/main/java/org/springframework/data/example/mongodb/Person.java, className=org.springframework.data.example.mongodb.Person, type=class, dit=1, noc=0, wmc=0, cbo=2, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:13:25  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-multistore-test/src/main/java/org/springframework/data/example/neo4j/MovieRepository.java, className=org.springframework.data.example.neo4j.MovieRepository, type=interface, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:13:25  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-multistore-test/src/main/java/org/springframework/data/example/neo4j/Movie.java, className=org.springframework.data.example.neo4j.Movie, type=class, dit=1, noc=0, wmc=0, cbo=2, lcom=0, rfc=0, nom=0, specific={role=3}]
+17:13:25  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-multistore-test/src/test/java/org/springframework/data/example/ApplicationIntegrationTest.java, className=org.springframework.data.example.ApplicationIntegrationTest, type=class, dit=1, noc=0, wmc=3, cbo=12, lcom=3, rfc=13, nom=3, specific={role=9999}]
+17:13:25  INFO Finished parsing
+17:13:25  INFO Looking for smells
+17:13:25  INFO Starting the parse engine
+17:13:25  INFO Found 7 java files. We divided into 1 partitions
+17:13:25  INFO Identifying roles...
+17:13:25  INFO -- org.springframework.data.example.jpa.User is a ArchitecturalRole [role=entity, id=3] (class)
+17:13:25  INFO -- org.springframework.data.example.jpa.UserRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:13:25  INFO -- org.springframework.data.example.mongodb.PersonRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:13:25  INFO -- org.springframework.data.example.mongodb.Person is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:25  INFO -- org.springframework.data.example.neo4j.MovieRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:13:25  INFO -- org.springframework.data.example.neo4j.Movie is a ArchitecturalRole [role=entity, id=3] (class)
+17:13:25  INFO -- org.springframework.data.example.ApplicationIntegrationTest is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:25  INFO Identifying smells...
+17:13:25  INFO Analysing class org.springframework.data.example.jpa.User
+17:13:25  INFO Analysing class org.springframework.data.example.jpa.UserRepository
+17:13:25  INFO Analysing class org.springframework.data.example.mongodb.PersonRepository
+17:13:25  INFO Analysing class org.springframework.data.example.mongodb.Person
+17:13:25  INFO Analysing class org.springframework.data.example.neo4j.MovieRepository
+17:13:25  INFO Analysing class org.springframework.data.example.neo4j.Movie
+17:13:25  INFO Analysing class org.springframework.data.example.ApplicationIntegrationTest
+17:13:25  INFO Generating output
+17:13:25  INFO That's it! It only took 2 seconds

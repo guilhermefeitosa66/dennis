@@ -1,0 +1,55 @@
+17:13:14  INFO # ----------------------------------------- #
+17:13:14  INFO #          Smelly Cat - Spring MVC          #
+17:13:14  INFO #  www.github.com/mauricioaniche/smellycat  #
+17:13:14  INFO # ----------------------------------------- #
+17:13:14  INFO Running CK metrics
+17:13:14  INFO Found 13 java files
+17:13:14  INFO Max partition size: 300, total partitions=1
+17:13:14  INFO Next partition
+17:13:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-envers/src/main/java/org/springframework/data/envers/repository/support/EnversRevisionRepository.java, className=org.springframework.data.envers.repository.support.EnversRevisionRepository, type=interface, dit=1, noc=0, wmc=1, cbo=9, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:13:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-envers/src/main/java/org/springframework/data/envers/repository/support/EnversRevisionRepositoryImpl.java, className=org.springframework.data.envers.repository.support.EnversRevisionRepositoryImpl, type=class, dit=2, noc=0, wmc=22, cbo=28, lcom=0, rfc=36, nom=9, specific={role=9999}]
+17:13:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-envers/src/main/java/org/springframework/data/envers/repository/support/EnversRevisionRepositoryFactoryBean.java, className=org.springframework.data.envers.repository.support.EnversRevisionRepositoryFactoryBean, type=class, dit=3, noc=0, wmc=12, cbo=16, lcom=0, rfc=8, nom=6, specific={role=9999}]
+17:13:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-envers/src/main/java/org/springframework/data/envers/repository/support/DefaultRevisionMetadata.java, className=org.springframework.data.envers.repository.support.DefaultRevisionMetadata, type=class, dit=1, noc=0, wmc=4, cbo=5, lcom=0, rfc=3, nom=4, specific={role=9999}]
+17:13:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-envers/src/main/java/org/springframework/data/envers/repository/support/DefaultRevisionEntityInformation.java, className=org.springframework.data.envers.repository.support.DefaultRevisionEntityInformation, type=class, dit=1, noc=0, wmc=3, cbo=1, lcom=3, rfc=0, nom=3, specific={role=9999}]
+17:13:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-envers/src/main/java/org/springframework/data/envers/repository/support/ReflectionRevisionEntityInformation.java, className=org.springframework.data.envers.repository.support.ReflectionRevisionEntityInformation, type=class, dit=1, noc=0, wmc=4, cbo=2, lcom=2, rfc=3, nom=4, specific={role=9999}]
+17:13:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-envers/src/test/java/org/springframework/data/envers/sample/License.java, className=org.springframework.data.envers.sample.License, type=class, dit=2, noc=0, wmc=0, cbo=6, lcom=0, rfc=0, nom=0, specific={role=3}]
+17:13:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-envers/src/test/java/org/springframework/data/envers/sample/Country.java, className=org.springframework.data.envers.sample.Country, type=class, dit=2, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=3}]
+17:13:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-envers/src/test/java/org/springframework/data/envers/sample/AbstractEntity.java, className=org.springframework.data.envers.sample.AbstractEntity, type=class, dit=1, noc=0, wmc=5, cbo=4, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:13:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-envers/src/test/java/org/springframework/data/envers/sample/LicenseRepository.java, className=org.springframework.data.envers.sample.LicenseRepository, type=interface, dit=1, noc=0, wmc=0, cbo=4, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:13:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-envers/src/test/java/org/springframework/data/envers/sample/CountryRepository.java, className=org.springframework.data.envers.sample.CountryRepository, type=interface, dit=1, noc=0, wmc=0, cbo=4, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:13:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-envers/src/test/java/org/springframework/data/envers/repository/support/RepositoryIntegrationTests.java, className=org.springframework.data.envers.repository.support.RepositoryIntegrationTests, type=class, dit=1, noc=0, wmc=5, cbo=13, lcom=0, rfc=22, nom=5, specific={role=9999}]
+17:13:17  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-envers/src/test/java/org/springframework/data/envers/Config.java, className=org.springframework.data.envers.Config, type=class, dit=1, noc=0, wmc=4, cbo=9, lcom=6, rfc=14, nom=4, specific={role=9999}]
+17:13:17  INFO Finished parsing
+17:13:17  INFO Looking for smells
+17:13:17  INFO Starting the parse engine
+17:13:17  INFO Found 13 java files. We divided into 1 partitions
+17:13:17  INFO Identifying roles...
+17:13:17  INFO -- org.springframework.data.envers.repository.support.EnversRevisionRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:13:17  INFO -- org.springframework.data.envers.repository.support.EnversRevisionRepositoryImpl is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:17  INFO -- org.springframework.data.envers.repository.support.EnversRevisionRepositoryFactoryBean is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:17  INFO -- org.springframework.data.envers.repository.support.DefaultRevisionMetadata is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:17  INFO -- org.springframework.data.envers.repository.support.DefaultRevisionEntityInformation is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:17  INFO -- org.springframework.data.envers.repository.support.ReflectionRevisionEntityInformation is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:17  INFO -- org.springframework.data.envers.sample.License is a ArchitecturalRole [role=entity, id=3] (class)
+17:13:17  INFO -- org.springframework.data.envers.sample.Country is a ArchitecturalRole [role=entity, id=3] (class)
+17:13:17  INFO -- org.springframework.data.envers.sample.AbstractEntity is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:17  INFO -- org.springframework.data.envers.sample.LicenseRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:13:17  INFO -- org.springframework.data.envers.sample.CountryRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:13:17  INFO -- org.springframework.data.envers.repository.support.RepositoryIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:17  INFO -- org.springframework.data.envers.Config is a ArchitecturalRole [role=other, id=9999] (class)
+17:13:17  INFO Identifying smells...
+17:13:17  INFO Analysing class org.springframework.data.envers.repository.support.EnversRevisionRepository
+17:13:17  INFO Analysing class org.springframework.data.envers.repository.support.EnversRevisionRepositoryImpl
+17:13:17  INFO Analysing class org.springframework.data.envers.repository.support.EnversRevisionRepositoryFactoryBean
+17:13:17  INFO Analysing class org.springframework.data.envers.repository.support.DefaultRevisionMetadata
+17:13:17  INFO Analysing class org.springframework.data.envers.repository.support.DefaultRevisionEntityInformation
+17:13:17  INFO Analysing class org.springframework.data.envers.repository.support.ReflectionRevisionEntityInformation
+17:13:17  INFO Analysing class org.springframework.data.envers.sample.License
+17:13:17  INFO Analysing class org.springframework.data.envers.sample.Country
+17:13:17  INFO Analysing class org.springframework.data.envers.sample.AbstractEntity
+17:13:17  INFO Analysing class org.springframework.data.envers.sample.LicenseRepository
+17:13:17  INFO Analysing class org.springframework.data.envers.sample.CountryRepository
+17:13:17  INFO Analysing class org.springframework.data.envers.repository.support.RepositoryIntegrationTests
+17:13:17  INFO Analysing class org.springframework.data.envers.Config
+17:13:17  INFO Generating output
+17:13:17  INFO That's it! It only took 3 seconds

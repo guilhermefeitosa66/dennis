@@ -1,0 +1,623 @@
+17:14:29  INFO # ----------------------------------------- #
+17:14:29  INFO #          Smelly Cat - Spring MVC          #
+17:14:29  INFO #  www.github.com/mauricioaniche/smellycat  #
+17:14:29  INFO # ----------------------------------------- #
+17:14:29  INFO Running CK metrics
+17:14:30  INFO Found 135 java files
+17:14:30  INFO Max partition size: 300, total partitions=1
+17:14:30  INFO Next partition
+17:14:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-hello/src/main/java/org/springframework/data/mongodb/examples/hello/HelloMongo.java, className=org.springframework.data.mongodb.examples.hello.HelloMongo, type=class, dit=1, noc=0, wmc=3, cbo=5, lcom=0, rfc=8, nom=1, specific={role=4}]
+17:14:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-hello/src/main/java/org/springframework/data/mongodb/examples/hello/domain/Person.java, className=org.springframework.data.mongodb.examples.hello.domain.Person, type=class, dit=1, noc=0, wmc=12, cbo=3, lcom=26, rfc=1, nom=12, specific={role=9999}]
+17:14:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-hello/src/main/java/org/springframework/data/mongodb/examples/hello/domain/Account.java, className=org.springframework.data.mongodb.examples.hello.domain.Account, type=class, dit=1, noc=0, wmc=11, cbo=1, lcom=17, rfc=0, nom=11, specific={role=9999}]
+17:14:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-hello/src/main/java/org/springframework/data/mongodb/examples/hello/AppConfig.java, className=org.springframework.data.mongodb.examples.hello.AppConfig, type=class, dit=1, noc=0, wmc=3, cbo=9, lcom=3, rfc=1, nom=3, specific={role=9999}]
+17:14:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-hello/src/main/java/org/springframework/data/mongodb/examples/hello/App.java, className=org.springframework.data.mongodb.examples.hello.App, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=3, nom=1, specific={role=9999}]
+17:14:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-hello/src/test/java/org/springframework/data/mongodb/examples/hello/SimpleMongoTest.java, className=org.springframework.data.mongodb.examples.hello.SimpleMongoTest, type=class, dit=1, noc=0, wmc=14, cbo=10, lcom=0, rfc=32, nom=6, specific={role=9999}]
+17:14:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-customer-service-data/src/main/java/org/springframework/data/mongodb/examples/custsvc/domain/SurveyInfo.java, className=org.springframework.data.mongodb.examples.custsvc.domain.SurveyInfo, type=class, dit=1, noc=0, wmc=3, cbo=0, lcom=0, rfc=0, nom=3, specific={role=9999}]
+17:14:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-customer-service-data/src/main/java/org/springframework/data/mongodb/examples/custsvc/domain/Customer.java, className=org.springframework.data.mongodb.examples.custsvc.domain.Customer, type=class, dit=1, noc=0, wmc=7, cbo=5, lcom=15, rfc=0, nom=7, specific={role=3}]
+17:14:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-customer-service-data/src/main/java/org/springframework/data/mongodb/examples/custsvc/data/CustomerRepository.java, className=org.springframework.data.mongodb.examples.custsvc.data.CustomerRepository, type=interface, dit=1, noc=0, wmc=0, cbo=2, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:14:33  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-customer-service-data/src/test/java/org/springframework/data/mongodb/examples/custsvc/data/CustomerRepositoryTests.java, className=org.springframework.data.mongodb.examples.custsvc.data.CustomerRepositoryTests, type=class, dit=1, noc=0, wmc=7, cbo=9, lcom=0, rfc=18, nom=7, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/org/springframework/data/document/web/bind/annotation/support/HandlerMethodInvoker.java, className=org.springframework.data.document.web.bind.annotation.support.HandlerMethodInvoker, type=class, dit=1, noc=0, wmc=270, cbo=37, lcom=645, rfc=151, nom=38, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/org/springframework/data/document/web/servlet/ActionExecutingContext.java, className=org.springframework.data.document.web.servlet.ActionExecutingContext, type=class, dit=1, noc=0, wmc=9, cbo=4, lcom=0, rfc=3, nom=9, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/org/springframework/data/document/web/servlet/ActionExecutedContext.java, className=org.springframework.data.document.web.servlet.ActionExecutedContext, type=class, dit=2, noc=0, wmc=4, cbo=2, lcom=0, rfc=6, nom=4, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/org/springframework/data/document/web/servlet/ActionInterceptor.java, className=org.springframework.data.document.web.servlet.ActionInterceptor, type=interface, dit=1, noc=0, wmc=3, cbo=2, lcom=3, rfc=0, nom=3, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/org/springframework/data/document/analytics/MvcEvent.java, className=org.springframework.data.document.analytics.MvcEvent, type=class, dit=1, noc=0, wmc=14, cbo=1, lcom=77, rfc=0, nom=14, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/org/springframework/data/document/analytics/ControllerCounter.java, className=org.springframework.data.document.analytics.ControllerCounter, type=class, dit=1, noc=0, wmc=7, cbo=0, lcom=19, rfc=0, nom=7, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/org/springframework/data/document/analytics/Parameters.java, className=org.springframework.data.document.analytics.Parameters, type=class, dit=1, noc=0, wmc=6, cbo=0, lcom=9, rfc=0, nom=6, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/com/springone/myrestaurants/web/RestaurantController.java, className=com.springone.myrestaurants.web.RestaurantController, type=class, dit=2, noc=0, wmc=11, cbo=11, lcom=6, rfc=15, nom=4, specific={role=1}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/com/springone/myrestaurants/web/BaseApplicationController.java, className=com.springone.myrestaurants.web.BaseApplicationController, type=class, dit=1, noc=0, wmc=6, cbo=10, lcom=6, rfc=14, nom=3, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/com/springone/myrestaurants/web/ChartController.java, className=com.springone.myrestaurants.web.ChartController, type=class, dit=1, noc=0, wmc=21, cbo=18, lcom=28, rfc=42, nom=8, specific={role=1}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/com/springone/myrestaurants/web/SignUpController.java, className=com.springone.myrestaurants.web.SignUpController, type=class, dit=2, noc=0, wmc=18, cbo=17, lcom=66, rfc=21, nom=10, specific={role=1}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/com/springone/myrestaurants/web/DatastoreInterceptor.java, className=com.springone.myrestaurants.web.DatastoreInterceptor, type=class, dit=1, noc=0, wmc=23, cbo=13, lcom=13, rfc=34, nom=6, specific={role=5}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/com/springone/myrestaurants/domain/Restaurant.java, className=com.springone.myrestaurants.domain.Restaurant, type=class, dit=1, noc=0, wmc=13, cbo=5, lcom=54, rfc=9, nom=13, specific={role=3}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/com/springone/myrestaurants/domain/UserAccount.java, className=com.springone.myrestaurants.domain.UserAccount, type=class, dit=1, noc=0, wmc=16, cbo=10, lcom=91, rfc=11, nom=15, specific={role=3}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/com/springone/myrestaurants/dao/RestaurantDao.java, className=com.springone.myrestaurants.dao.RestaurantDao, type=class, dit=1, noc=0, wmc=6, cbo=5, lcom=0, rfc=7, nom=4, specific={role=4}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/com/springone/myrestaurants/dao/UserAccountDao.java, className=com.springone.myrestaurants.dao.UserAccountDao, type=class, dit=1, noc=0, wmc=10, cbo=7, lcom=0, rfc=9, nom=4, specific={role=4}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/com/springone/myrestaurants/config/HandlerAdapterConfiguration.java, className=com.springone.myrestaurants.config.HandlerAdapterConfiguration, type=class, dit=1, noc=0, wmc=4, cbo=16, lcom=6, rfc=10, nom=4, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/main/java/com/springone/myrestaurants/config/MongoConfiguration.java, className=com.springone.myrestaurants.config.MongoConfiguration, type=class, dit=1, noc=0, wmc=5, cbo=5, lcom=0, rfc=2, nom=1, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-myrestaurants-analytics/src/test/java/org/springframework/data/document/mongodb/analytics/MvcAnalyticsTest.java, className=org.springframework.data.document.mongodb.analytics.MvcAnalyticsTest, type=class, dit=1, noc=0, wmc=21, cbo=14, lcom=0, rfc=38, nom=12, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/gen/com/springsource/myrestaurants/R.java, className=com.springsource.myrestaurants.R, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/client/RestOperations.java, className=org.springframework.web.client.RestOperations, type=interface, dit=1, noc=0, wmc=33, cbo=7, lcom=528, rfc=0, nom=33, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/client/RestClientException.java, className=org.springframework.web.client.RestClientException, type=class, dit=5, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/client/ResponseExtractor.java, className=org.springframework.web.client.ResponseExtractor, type=interface, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/client/ResourceAccessException.java, className=org.springframework.web.client.ResourceAccessException, type=class, dit=6, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/client/HttpClientErrorException.java, className=org.springframework.web.client.HttpClientErrorException, type=class, dit=7, noc=0, wmc=2, cbo=2, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/client/DefaultResponseErrorHandler.java, className=org.springframework.web.client.DefaultResponseErrorHandler, type=class, dit=1, noc=0, wmc=5, cbo=6, lcom=3, rfc=4, nom=3, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/client/HttpServerErrorException.java, className=org.springframework.web.client.HttpServerErrorException, type=class, dit=7, noc=0, wmc=2, cbo=2, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/client/RestTemplate.java, className=org.springframework.web.client.RestTemplate, type=class, dit=4, noc=0, wmc=108, cbo=28, lcom=1216, rfc=66, nom=52, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/client/RequestCallback.java, className=org.springframework.web.client.RequestCallback, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/client/HttpMessageConverterExtractor.java, className=org.springframework.web.client.HttpMessageConverterExtractor, type=class, dit=1, noc=0, wmc=10, cbo=8, lcom=0, rfc=10, nom=3, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/client/ResponseErrorHandler.java, className=org.springframework.web.client.ResponseErrorHandler, type=interface, dit=1, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/client/HttpStatusCodeException.java, className=org.springframework.web.client.HttpStatusCodeException, type=class, dit=6, noc=0, wmc=4, cbo=2, lcom=0, rfc=3, nom=4, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/RestTemplateActivity.java, className=org.springframework.web.RestTemplateActivity, type=class, dit=2, noc=0, wmc=2, cbo=5, lcom=0, rfc=8, nom=1, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/util/UriUtils.java, className=org.springframework.web.util.UriUtils, type=class, dit=1, noc=0, wmc=47, cbo=1, lcom=105, rfc=32, nom=15, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/util/UriTemplate.java, className=org.springframework.web.util.UriTemplate, type=class, dit=1, noc=0, wmc=31, cbo=1, lcom=0, rfc=36, nom=12, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/HttpStatus.java, className=org.springframework.http.HttpStatus, type=enum, dit=1, noc=0, wmc=14, cbo=2, lcom=0, rfc=5, nom=8, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/HttpEntity.java, className=org.springframework.http.HttpEntity, type=class, dit=1, noc=0, wmc=9, cbo=4, lcom=3, rfc=2, nom=7, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/client/SimpleClientHttpRequestFactory.java, className=org.springframework.http.client.SimpleClientHttpRequestFactory, type=class, dit=1, noc=0, wmc=9, cbo=4, lcom=0, rfc=12, nom=4, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/client/ClientHttpRequestFactory.java, className=org.springframework.http.client.ClientHttpRequestFactory, type=interface, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/client/support/HttpAccessor.java, className=org.springframework.http.client.support.HttpAccessor, type=class, dit=1, noc=0, wmc=5, cbo=4, lcom=1, rfc=8, nom=3, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/client/ClientHttpResponse.java, className=org.springframework.http.client.ClientHttpResponse, type=interface, dit=1, noc=0, wmc=3, cbo=2, lcom=3, rfc=0, nom=3, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/client/AbstractClientHttpRequest.java, className=org.springframework.http.client.AbstractClientHttpRequest, type=class, dit=1, noc=0, wmc=6, cbo=4, lcom=0, rfc=5, nom=5, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/client/SimpleClientHttpResponse.java, className=org.springframework.http.client.SimpleClientHttpResponse, type=class, dit=1, noc=0, wmc=14, cbo=3, lcom=0, rfc=10, nom=6, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/client/ClientHttpRequest.java, className=org.springframework.http.client.ClientHttpRequest, type=interface, dit=1, noc=0, wmc=3, cbo=3, lcom=3, rfc=0, nom=3, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/client/SimpleClientHttpRequest.java, className=org.springframework.http.client.SimpleClientHttpRequest, type=class, dit=2, noc=0, wmc=9, cbo=6, lcom=0, rfc=12, nom=4, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/HttpOutputMessage.java, className=org.springframework.http.HttpOutputMessage, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/converter/HttpMessageConversionException.java, className=org.springframework.http.converter.HttpMessageConversionException, type=class, dit=5, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/converter/ResourceHttpMessageConverter.java, className=org.springframework.http.converter.ResourceHttpMessageConverter, type=class, dit=1, noc=0, wmc=13, cbo=8, lcom=21, rfc=18, nom=7, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/converter/ByteArrayHttpMessageConverter.java, className=org.springframework.http.converter.ByteArrayHttpMessageConverter, type=class, dit=2, noc=0, wmc=7, cbo=5, lcom=10, rfc=9, nom=5, specific={role=9999}]
+17:14:34  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/converter/HttpMessageNotWritableException.java, className=org.springframework.http.converter.HttpMessageNotWritableException, type=class, dit=6, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/converter/StringHttpMessageConverter.java, className=org.springframework.http.converter.StringHttpMessageConverter, type=class, dit=2, noc=0, wmc=14, cbo=5, lcom=11, rfc=16, nom=7, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/converter/AbstractHttpMessageConverter.java, className=org.springframework.http.converter.AbstractHttpMessageConverter, type=class, dit=1, noc=0, wmc=37, cbo=8, lcom=114, rfc=30, nom=16, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/converter/json/MappingJacksonHttpMessageConverter.java, className=org.springframework.http.converter.json.MappingJacksonHttpMessageConverter, type=class, dit=2, noc=0, wmc=19, cbo=12, lcom=23, rfc=24, nom=10, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/converter/HttpMessageConverter.java, className=org.springframework.http.converter.HttpMessageConverter, type=interface, dit=1, noc=0, wmc=5, cbo=4, lcom=10, rfc=0, nom=5, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/converter/FormHttpMessageConverter.java, className=org.springframework.http.converter.FormHttpMessageConverter, type=class, dit=1, noc=0, wmc=71, cbo=16, lcom=266, rfc=72, nom=25, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/converter/HttpMessageNotReadableException.java, className=org.springframework.http.converter.HttpMessageNotReadableException, type=class, dit=6, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/HttpInputMessage.java, className=org.springframework.http.HttpInputMessage, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/MediaType.java, className=org.springframework.http.MediaType, type=class, dit=1, noc=0, wmc=147, cbo=3, lcom=224, rfc=69, nom=33, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/HttpHeaders.java, className=org.springframework.http.HttpHeaders, type=class, dit=1, noc=0, wmc=106, cbo=6, lcom=1142, rfc=75, nom=57, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/HttpMethod.java, className=org.springframework.http.HttpMethod, type=enum, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/HttpMessage.java, className=org.springframework.http.HttpMessage, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/ResponseEntity.java, className=org.springframework.http.ResponseEntity, type=class, dit=2, noc=0, wmc=4, cbo=4, lcom=0, rfc=0, nom=4, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/core/NestedExceptionUtils.java, className=org.springframework.core.NestedExceptionUtils, type=class, dit=1, noc=0, wmc=5, cbo=0, lcom=0, rfc=3, nom=1, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/core/io/AbstractFileResolvingResource.java, className=org.springframework.core.io.AbstractFileResolvingResource, type=class, dit=2, noc=0, wmc=27, cbo=1, lcom=21, rfc=17, nom=7, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/core/io/InputStreamSource.java, className=org.springframework.core.io.InputStreamSource, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/core/io/Resource.java, className=org.springframework.core.io.Resource, type=interface, dit=1, noc=0, wmc=11, cbo=2, lcom=55, rfc=0, nom=11, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/core/io/ByteArrayResource.java, className=org.springframework.core.io.ByteArrayResource, type=class, dit=2, noc=0, wmc=11, cbo=3, lcom=0, rfc=2, nom=8, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/core/io/AbstractResource.java, className=org.springframework.core.io.AbstractResource, type=class, dit=1, noc=0, wmc=19, cbo=2, lcom=91, rfc=12, nom=14, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/core/io/ClassPathResource.java, className=org.springframework.core.io.ClassPathResource, type=class, dit=3, noc=0, wmc=34, cbo=3, lcom=0, rfc=20, nom=14, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/core/NestedIOException.java, className=org.springframework.core.NestedIOException, type=class, dit=4, noc=0, wmc=4, cbo=0, lcom=3, rfc=4, nom=3, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/core/NestedRuntimeException.java, className=org.springframework.core.NestedRuntimeException, type=class, dit=4, noc=0, wmc=22, cbo=1, lcom=15, rfc=6, nom=6, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/util/LinkedCaseInsensitiveMap.java, className=org.springframework.util.LinkedCaseInsensitiveMap, type=class, dit=4, noc=0, wmc=16, cbo=2, lcom=0, rfc=8, nom=10, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/util/FileCopyUtils.java, className=org.springframework.util.FileCopyUtils, type=class, dit=1, noc=0, wmc=17, cbo=2, lcom=30, rfc=18, nom=9, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/util/ObjectUtils.java, className=org.springframework.util.ObjectUtils, type=class, dit=1, noc=0, wmc=231, cbo=8, lcom=442, rfc=61, nom=36, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/util/LinkedMultiValueMap.java, className=org.springframework.util.LinkedMultiValueMap, type=class, dit=1, noc=0, wmc=28, cbo=3, lcom=0, rfc=24, nom=23, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/util/CollectionUtils.java, className=org.springframework.util.CollectionUtils, type=class, dit=1, noc=0, wmc=82, cbo=4, lcom=159, rfc=22, nom=19, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/util/StringUtils.java, className=org.springframework.util.StringUtils, type=class, dit=1, noc=0, wmc=221, cbo=1, lcom=1532, rfc=73, nom=56, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/util/ClassUtils.java, className=org.springframework.util.ClassUtils, type=class, dit=1, noc=0, wmc=146, cbo=2, lcom=1211, rfc=95, nom=50, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/util/MultiValueMap.java, className=org.springframework.util.MultiValueMap, type=interface, dit=1, noc=0, wmc=5, cbo=2, lcom=10, rfc=0, nom=5, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/util/ResourceUtils.java, className=org.springframework.util.ResourceUtils, type=class, dit=1, noc=0, wmc=38, cbo=0, lcom=52, rfc=24, nom=12, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/util/Assert.java, className=org.springframework.util.Assert, type=class, dit=1, noc=0, wmc=56, cbo=0, lcom=325, rfc=23, nom=26, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/activities/RestDetailsActivity.java, className=com.springsource.myrestaurants.activities.RestDetailsActivity, type=class, dit=2, noc=0, wmc=8, cbo=9, lcom=1, rfc=15, nom=1, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/activities/InfoActivity.java, className=com.springsource.myrestaurants.activities.InfoActivity, type=class, dit=2, noc=0, wmc=1, cbo=3, lcom=0, rfc=2, nom=1, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/activities/MainTabWidget.java, className=com.springsource.myrestaurants.activities.MainTabWidget, type=class, dit=2, noc=0, wmc=1, cbo=5, lcom=0, rfc=9, nom=1, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/activities/RestListingActivity.java, className=com.springsource.myrestaurants.activities.RestListingActivity, type=class, dit=2, noc=0, wmc=4, cbo=10, lcom=3, rfc=14, nom=3, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/activities/DeleteFavoriteRestActivity.java, className=com.springsource.myrestaurants.activities.DeleteFavoriteRestActivity, type=class, dit=2, noc=0, wmc=8, cbo=6, lcom=1, rfc=16, nom=1, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/activities/FavoritesListingActivity.java, className=com.springsource.myrestaurants.activities.FavoritesListingActivity, type=class, dit=2, noc=0, wmc=9, cbo=11, lcom=19, rfc=17, nom=7, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/dao/RestaurantDao.java, className=com.springsource.myrestaurants.dao.RestaurantDao, type=class, dit=1, noc=0, wmc=22, cbo=4, lcom=15, rfc=10, nom=7, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/dao/CouchDbMappingJacksonHttpMessageConverter.java, className=com.springsource.myrestaurants.dao.CouchDbMappingJacksonHttpMessageConverter, type=class, dit=2, noc=0, wmc=55, cbo=17, lcom=139, rfc=48, nom=19, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/dao/UserAccountDao.java, className=com.springsource.myrestaurants.dao.UserAccountDao, type=class, dit=1, noc=0, wmc=22, cbo=6, lcom=0, rfc=17, nom=8, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/models/Restaurant.java, className=com.springsource.myrestaurants.models.Restaurant, type=class, dit=1, noc=0, wmc=21, cbo=1, lcom=120, rfc=10, nom=17, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/models/UserAccount.java, className=com.springsource.myrestaurants.models.UserAccount, type=class, dit=1, noc=0, wmc=20, cbo=1, lcom=120, rfc=11, nom=17, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/controllers/NavigationManager.java, className=com.springsource.myrestaurants.controllers.NavigationManager, type=class, dit=1, noc=0, wmc=2, cbo=2, lcom=0, rfc=2, nom=1, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/config/CouchDbConfig.java, className=com.springsource.myrestaurants.config.CouchDbConfig, type=class, dit=1, noc=0, wmc=0, cbo=0, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/com/springsource/myrestaurants/MainActivity.java, className=com.springsource.myrestaurants.MainActivity, type=class, dit=2, noc=0, wmc=2, cbo=3, lcom=1, rfc=5, nom=1, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/web/CouchDbMappingJacksonHttpMessageConverter.java, className=com.springone.myrestaurants.web.CouchDbMappingJacksonHttpMessageConverter, type=class, dit=2, noc=0, wmc=55, cbo=17, lcom=139, rfc=48, nom=19, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/dao/JpaUserAccountDao.java, className=com.springone.myrestaurants.dao.JpaUserAccountDao, type=class, dit=1, noc=0, wmc=10, cbo=6, lcom=0, rfc=9, nom=4, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/dao/Utils.java, className=com.springone.myrestaurants.dao.Utils, type=class, dit=1, noc=0, wmc=4, cbo=1, lcom=1, rfc=3, nom=2, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/dao/JpaRestaurantDao.java, className=com.springone.myrestaurants.dao.JpaRestaurantDao, type=class, dit=1, noc=0, wmc=6, cbo=4, lcom=0, rfc=7, nom=4, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/config/CouchDbConfig.java, className=com.springone.myrestaurants.config.CouchDbConfig, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=2, nom=1, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/test/java/com/springone/myrestaurants/dao/RestaurantDaoTests.java, className=com.springone.myrestaurants.dao.RestaurantDaoTests, type=class, dit=1, noc=0, wmc=2, cbo=5, lcom=0, rfc=9, nom=2, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/test/java/com/springone/myrestaurants/dao/UserAccountDaoTests.java, className=com.springone.myrestaurants.dao.UserAccountDaoTests, type=class, dit=1, noc=0, wmc=4, cbo=5, lcom=0, rfc=15, nom=4, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-music/src/main/java/org/springframework/data/mongodb/examples/music/AlbumRepository.java, className=org.springframework.data.mongodb.examples.music.AlbumRepository, type=interface, dit=1, noc=0, wmc=3, cbo=6, lcom=3, rfc=0, nom=3, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-music/src/main/java/org/springframework/data/mongodb/examples/music/Stars.java, className=org.springframework.data.mongodb.examples.music.Stars, type=class, dit=1, noc=0, wmc=8, cbo=1, lcom=0, rfc=4, nom=3, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-music/src/main/java/org/springframework/data/mongodb/examples/music/Track.java, className=org.springframework.data.mongodb.examples.music.Track, type=class, dit=1, noc=0, wmc=11, cbo=2, lcom=1, rfc=6, nom=7, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-music/src/main/java/org/springframework/data/mongodb/examples/music/Album.java, className=org.springframework.data.mongodb.examples.music.Album, type=class, dit=1, noc=0, wmc=15, cbo=5, lcom=14, rfc=8, nom=9, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-music/src/test/java/org/springframework/data/mongodb/examples/music/AlbumsIntegrationTest.java, className=org.springframework.data.mongodb.examples.music.AlbumsIntegrationTest, type=class, dit=2, noc=0, wmc=7, cbo=5, lcom=21, rfc=10, nom=7, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-music/src/test/java/org/springframework/data/mongodb/examples/music/AlbumRepositoryIntegrationTest.java, className=org.springframework.data.mongodb.examples.music.AlbumRepositoryIntegrationTest, type=class, dit=2, noc=0, wmc=6, cbo=8, lcom=0, rfc=20, nom=6, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-music/src/test/java/org/springframework/data/mongodb/examples/music/AbstractIntegrationTest.java, className=org.springframework.data.mongodb.examples.music.AbstractIntegrationTest, type=class, dit=1, noc=0, wmc=11, cbo=8, lcom=0, rfc=17, nom=6, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-music/src/test/java/org/springframework/data/mongodb/examples/music/QueryDslIntegrationTests.java, className=org.springframework.data.mongodb.examples.music.QueryDslIntegrationTests, type=class, dit=2, noc=0, wmc=2, cbo=8, lcom=0, rfc=5, nom=2, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-music/target/generated-sources/queries/org/bson/types/QObjectId.java, className=org.bson.types.QObjectId, type=class, dit=2, noc=0, wmc=2, cbo=8, lcom=1, rfc=4, nom=2, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-music/target/generated-sources/queries/org/springframework/data/mongodb/examples/music/QAlbum.java, className=org.springframework.data.mongodb.examples.music.QAlbum, type=class, dit=2, noc=0, wmc=6, cbo=11, lcom=4, rfc=6, nom=4, specific={role=9999}]
+17:14:35  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-data-document-examples/mongodb-music/target/generated-sources/queries/org/springframework/data/mongodb/examples/music/QTrack.java, className=org.springframework.data.mongodb.examples.music.QTrack, type=class, dit=2, noc=0, wmc=2, cbo=9, lcom=1, rfc=5, nom=2, specific={role=9999}]
+17:14:35  INFO Finished parsing
+17:14:35  INFO Looking for smells
+17:14:35  INFO Starting the parse engine
+17:14:35  INFO Found 135 java files. We divided into 1 partitions
+17:14:35  INFO Identifying roles...
+17:14:36  INFO -- org.springframework.data.mongodb.examples.hello.HelloMongo is a ArchitecturalRole [role=repository, id=4] (class)
+17:14:36  INFO -- org.springframework.data.mongodb.examples.hello.domain.Person is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.data.mongodb.examples.hello.domain.Account is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.data.mongodb.examples.hello.AppConfig is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.data.mongodb.examples.hello.App is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.data.mongodb.examples.hello.SimpleMongoTest is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.data.mongodb.examples.custsvc.domain.SurveyInfo is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.data.mongodb.examples.custsvc.domain.Customer is a ArchitecturalRole [role=entity, id=3] (class)
+17:14:36  INFO -- org.springframework.data.mongodb.examples.custsvc.data.CustomerRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:36  INFO -- org.springframework.data.mongodb.examples.custsvc.data.CustomerRepositoryTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.data.document.web.bind.annotation.support.HandlerMethodInvoker is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.data.document.web.servlet.ActionExecutingContext is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.data.document.web.servlet.ActionExecutedContext is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.data.document.web.servlet.ActionInterceptor is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:36  INFO -- org.springframework.data.document.analytics.MvcEvent is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.data.document.analytics.ControllerCounter is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.data.document.analytics.Parameters is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- com.springone.myrestaurants.web.RestaurantController is a ArchitecturalRole [role=controller, id=1] (class)
+17:14:36  INFO -- com.springone.myrestaurants.web.BaseApplicationController is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- com.springone.myrestaurants.web.ChartController is a ArchitecturalRole [role=controller, id=1] (class)
+17:14:36  INFO -- com.springone.myrestaurants.web.SignUpController is a ArchitecturalRole [role=controller, id=1] (class)
+17:14:36  INFO -- com.springone.myrestaurants.web.DatastoreInterceptor is a ArchitecturalRole [role=component, id=5] (class)
+17:14:36  INFO -- com.springone.myrestaurants.domain.Restaurant is a ArchitecturalRole [role=entity, id=3] (class)
+17:14:36  INFO -- com.springone.myrestaurants.domain.UserAccount is a ArchitecturalRole [role=entity, id=3] (class)
+17:14:36  INFO -- com.springone.myrestaurants.dao.RestaurantDao is a ArchitecturalRole [role=repository, id=4] (class)
+17:14:36  INFO -- com.springone.myrestaurants.dao.UserAccountDao is a ArchitecturalRole [role=repository, id=4] (class)
+17:14:36  INFO -- com.springone.myrestaurants.config.HandlerAdapterConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- com.springone.myrestaurants.config.MongoConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.data.document.mongodb.analytics.MvcAnalyticsTest is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- com.springsource.myrestaurants.R is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.web.client.RestOperations is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:36  INFO -- org.springframework.web.client.RestClientException is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.web.client.ResponseExtractor is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:36  INFO -- org.springframework.web.client.ResourceAccessException is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.web.client.HttpClientErrorException is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.web.client.DefaultResponseErrorHandler is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.web.client.HttpServerErrorException is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.web.client.RestTemplate is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.web.client.RequestCallback is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:36  INFO -- org.springframework.web.client.HttpMessageConverterExtractor is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.web.client.ResponseErrorHandler is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:36  INFO -- org.springframework.web.client.HttpStatusCodeException is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:36  INFO -- org.springframework.web.RestTemplateActivity is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.web.util.UriUtils is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.web.util.UriTemplate is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.HttpStatus is a ArchitecturalRole [role=other, id=9999] (enum)
+17:14:37  INFO -- org.springframework.http.HttpEntity is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.client.SimpleClientHttpRequestFactory is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.client.ClientHttpRequestFactory is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:37  INFO -- org.springframework.http.client.support.HttpAccessor is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.client.ClientHttpResponse is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:37  INFO -- org.springframework.http.client.AbstractClientHttpRequest is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.client.SimpleClientHttpResponse is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.client.ClientHttpRequest is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:37  INFO -- org.springframework.http.client.SimpleClientHttpRequest is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.HttpOutputMessage is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:37  INFO -- org.springframework.http.converter.HttpMessageConversionException is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.converter.ResourceHttpMessageConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.converter.ByteArrayHttpMessageConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.converter.HttpMessageNotWritableException is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.converter.StringHttpMessageConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.converter.AbstractHttpMessageConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.converter.json.MappingJacksonHttpMessageConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.converter.HttpMessageConverter is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:37  INFO -- org.springframework.http.converter.FormHttpMessageConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.converter.HttpMessageNotReadableException is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.HttpInputMessage is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:37  INFO -- org.springframework.http.MediaType is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.HttpHeaders is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.http.HttpMethod is a ArchitecturalRole [role=other, id=9999] (enum)
+17:14:37  INFO -- org.springframework.http.HttpMessage is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:37  INFO -- org.springframework.http.ResponseEntity is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.core.NestedExceptionUtils is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.core.io.AbstractFileResolvingResource is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.core.io.InputStreamSource is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:37  INFO -- org.springframework.core.io.Resource is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:37  INFO -- org.springframework.core.io.ByteArrayResource is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.core.io.AbstractResource is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.core.io.ClassPathResource is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.core.NestedIOException is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.core.NestedRuntimeException is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.util.LinkedCaseInsensitiveMap is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.util.FileCopyUtils is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.util.ObjectUtils is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.util.LinkedMultiValueMap is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.util.CollectionUtils is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.util.StringUtils is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.util.ClassUtils is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.util.MultiValueMap is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:37  INFO -- org.springframework.util.ResourceUtils is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.util.Assert is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.activities.RestDetailsActivity is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.activities.InfoActivity is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.activities.MainTabWidget is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.activities.RestListingActivity is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.activities.DeleteFavoriteRestActivity is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.activities.FavoritesListingActivity is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.dao.RestaurantDao is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.dao.CouchDbMappingJacksonHttpMessageConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.dao.UserAccountDao is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.models.Restaurant is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.models.UserAccount is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.controllers.NavigationManager is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.config.CouchDbConfig is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springsource.myrestaurants.MainActivity is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/web/RestaurantController.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:37  INFO -- com.springone.myrestaurants.web.CouchDbMappingJacksonHttpMessageConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/web/SignUpController.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:37  INFO -- com.springone.myrestaurants.dao.JpaUserAccountDao is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springone.myrestaurants.dao.Utils is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springone.myrestaurants.dao.JpaRestaurantDao is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springone.myrestaurants.config.CouchDbConfig is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springone.myrestaurants.dao.RestaurantDaoTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- com.springone.myrestaurants.dao.UserAccountDaoTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.data.mongodb.examples.music.AlbumRepository is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:37  INFO -- org.springframework.data.mongodb.examples.music.Stars is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.data.mongodb.examples.music.Track is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.data.mongodb.examples.music.Album is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.data.mongodb.examples.music.AlbumsIntegrationTest is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.data.mongodb.examples.music.AlbumRepositoryIntegrationTest is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.data.mongodb.examples.music.AbstractIntegrationTest is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.data.mongodb.examples.music.QueryDslIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.bson.types.QObjectId is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.data.mongodb.examples.music.QAlbum is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO -- org.springframework.data.mongodb.examples.music.QTrack is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:37  INFO Identifying smells...
+17:14:37  INFO Analysing class org.springframework.data.mongodb.examples.hello.HelloMongo
+17:14:37  INFO Analysing class org.springframework.data.mongodb.examples.hello.domain.Person
+17:14:37  INFO Analysing class org.springframework.data.mongodb.examples.hello.domain.Account
+17:14:38  INFO Analysing class org.springframework.data.mongodb.examples.hello.AppConfig
+17:14:38  INFO Analysing class org.springframework.data.mongodb.examples.hello.App
+17:14:38  INFO Analysing class org.springframework.data.mongodb.examples.hello.SimpleMongoTest
+17:14:38  INFO Analysing class org.springframework.data.mongodb.examples.custsvc.domain.SurveyInfo
+17:14:38  INFO Analysing class org.springframework.data.mongodb.examples.custsvc.domain.Customer
+17:14:38  INFO Analysing class org.springframework.data.mongodb.examples.custsvc.data.CustomerRepository
+17:14:38  INFO Analysing class org.springframework.data.mongodb.examples.custsvc.data.CustomerRepositoryTests
+17:14:38  INFO Analysing class org.springframework.data.document.web.bind.annotation.support.HandlerMethodInvoker
+17:14:38  INFO Analysing class org.springframework.data.document.web.servlet.ActionExecutingContext
+17:14:38  INFO Analysing class org.springframework.data.document.web.servlet.ActionExecutedContext
+17:14:38  INFO Analysing class org.springframework.data.document.web.servlet.ActionInterceptor
+17:14:38  INFO Analysing class org.springframework.data.document.analytics.MvcEvent
+17:14:38  INFO Analysing class org.springframework.data.document.analytics.ControllerCounter
+17:14:38  INFO Analysing class org.springframework.data.document.analytics.Parameters
+17:14:38  INFO Analysing class com.springone.myrestaurants.web.RestaurantController
+17:14:38  INFO Analysing class com.springone.myrestaurants.web.BaseApplicationController
+17:14:38  INFO Analysing class com.springone.myrestaurants.web.ChartController
+17:14:38  INFO Analysing class com.springone.myrestaurants.web.SignUpController
+17:14:38  INFO Analysing class com.springone.myrestaurants.web.DatastoreInterceptor
+17:14:38  INFO Analysing class com.springone.myrestaurants.domain.Restaurant
+17:14:38  INFO Analysing class com.springone.myrestaurants.domain.UserAccount
+17:14:38  INFO Analysing class com.springone.myrestaurants.dao.RestaurantDao
+17:14:38  INFO Analysing class com.springone.myrestaurants.dao.UserAccountDao
+17:14:38  INFO Analysing class com.springone.myrestaurants.config.HandlerAdapterConfiguration
+17:14:38  INFO Analysing class com.springone.myrestaurants.config.MongoConfiguration
+17:14:38  INFO Analysing class org.springframework.data.document.mongodb.analytics.MvcAnalyticsTest
+17:14:38  INFO Analysing class com.springsource.myrestaurants.R
+17:14:38  INFO Analysing class org.springframework.web.client.RestOperations
+17:14:38 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/client/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:38  INFO Analysing class org.springframework.web.client.RestClientException
+17:14:38  INFO Analysing class org.springframework.web.client.ResponseExtractor
+17:14:38  INFO Analysing class org.springframework.web.client.ResourceAccessException
+17:14:38  INFO Analysing class org.springframework.web.client.HttpClientErrorException
+17:14:38  INFO Analysing class org.springframework.web.client.DefaultResponseErrorHandler
+17:14:38  INFO Analysing class org.springframework.web.client.HttpServerErrorException
+17:14:38  INFO Analysing class org.springframework.web.client.RestTemplate
+17:14:38  INFO Analysing class org.springframework.web.client.RequestCallback
+17:14:38  INFO Analysing class org.springframework.web.client.HttpMessageConverterExtractor
+17:14:38  INFO Analysing class org.springframework.web.client.ResponseErrorHandler
+17:14:38  INFO Analysing class org.springframework.web.client.HttpStatusCodeException
+17:14:38  INFO Analysing class org.springframework.web.RestTemplateActivity
+17:14:38 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/web/util/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:38  INFO Analysing class org.springframework.web.util.UriUtils
+17:14:38  INFO Analysing class org.springframework.web.util.UriTemplate
+17:14:38  INFO Analysing class org.springframework.http.HttpStatus
+17:14:38  INFO Analysing class org.springframework.http.HttpEntity
+17:14:38  INFO Analysing class org.springframework.http.client.SimpleClientHttpRequestFactory
+17:14:38  INFO Analysing class org.springframework.http.client.ClientHttpRequestFactory
+17:14:38  INFO Analysing class org.springframework.http.client.support.HttpAccessor
+17:14:38  INFO Analysing class org.springframework.http.client.ClientHttpResponse
+17:14:38  INFO Analysing class org.springframework.http.client.AbstractClientHttpRequest
+17:14:38  INFO Analysing class org.springframework.http.client.SimpleClientHttpResponse
+17:14:38  INFO Analysing class org.springframework.http.client.ClientHttpRequest
+17:14:38  INFO Analysing class org.springframework.http.client.SimpleClientHttpRequest
+17:14:38  INFO Analysing class org.springframework.http.HttpOutputMessage
+17:14:38  INFO Analysing class org.springframework.http.converter.HttpMessageConversionException
+17:14:38 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/converter/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:38  INFO Analysing class org.springframework.http.converter.ResourceHttpMessageConverter
+17:14:38  INFO Analysing class org.springframework.http.converter.ByteArrayHttpMessageConverter
+17:14:38  INFO Analysing class org.springframework.http.converter.HttpMessageNotWritableException
+17:14:38  INFO Analysing class org.springframework.http.converter.StringHttpMessageConverter
+17:14:38  INFO Analysing class org.springframework.http.converter.AbstractHttpMessageConverter
+17:14:38 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/http/converter/json/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:38  INFO Analysing class org.springframework.http.converter.json.MappingJacksonHttpMessageConverter
+17:14:38  INFO Analysing class org.springframework.http.converter.HttpMessageConverter
+17:14:38  INFO Analysing class org.springframework.http.converter.FormHttpMessageConverter
+17:14:38  INFO Analysing class org.springframework.http.converter.HttpMessageNotReadableException
+17:14:38  INFO Analysing class org.springframework.http.HttpInputMessage
+17:14:38  INFO Analysing class org.springframework.http.MediaType
+17:14:38  INFO Analysing class org.springframework.http.HttpHeaders
+17:14:38  INFO Analysing class org.springframework.http.HttpMethod
+17:14:38  INFO Analysing class org.springframework.http.HttpMessage
+17:14:38  INFO Analysing class org.springframework.http.ResponseEntity
+17:14:38  INFO Analysing class org.springframework.core.NestedExceptionUtils
+17:14:38 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants-android/src/org/springframework/core/io/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:38  INFO Analysing class org.springframework.core.io.AbstractFileResolvingResource
+17:14:38  INFO Analysing class org.springframework.core.io.InputStreamSource
+17:14:38  INFO Analysing class org.springframework.core.io.Resource
+17:14:38  INFO Analysing class org.springframework.core.io.ByteArrayResource
+17:14:38  INFO Analysing class org.springframework.core.io.AbstractResource
+17:14:38  INFO Analysing class org.springframework.core.io.ClassPathResource
+17:14:38  INFO Analysing class org.springframework.core.NestedIOException
+17:14:38  INFO Analysing class org.springframework.core.NestedRuntimeException
+17:14:38  INFO Analysing class org.springframework.util.LinkedCaseInsensitiveMap
+17:14:38  INFO Analysing class org.springframework.util.FileCopyUtils
+17:14:39  INFO Analysing class org.springframework.util.ObjectUtils
+17:14:39  INFO Analysing class org.springframework.util.LinkedMultiValueMap
+17:14:39  INFO Analysing class org.springframework.util.CollectionUtils
+17:14:39  INFO Analysing class org.springframework.util.StringUtils
+17:14:39  INFO Analysing class org.springframework.util.ClassUtils
+17:14:39  INFO Analysing class org.springframework.util.MultiValueMap
+17:14:39  INFO Analysing class org.springframework.util.ResourceUtils
+17:14:39  INFO Analysing class org.springframework.util.Assert
+17:14:39  INFO Analysing class com.springsource.myrestaurants.activities.RestDetailsActivity
+17:14:39  INFO Analysing class com.springsource.myrestaurants.activities.InfoActivity
+17:14:39  INFO Analysing class com.springsource.myrestaurants.activities.MainTabWidget
+17:14:39  INFO Analysing class com.springsource.myrestaurants.activities.RestListingActivity
+17:14:39  INFO Analysing class com.springsource.myrestaurants.activities.DeleteFavoriteRestActivity
+17:14:39  INFO Analysing class com.springsource.myrestaurants.activities.FavoritesListingActivity
+17:14:39  INFO Analysing class com.springsource.myrestaurants.dao.RestaurantDao
+17:14:39  INFO Analysing class com.springsource.myrestaurants.dao.CouchDbMappingJacksonHttpMessageConverter
+17:14:39  INFO Analysing class com.springsource.myrestaurants.dao.UserAccountDao
+17:14:39  INFO Analysing class com.springsource.myrestaurants.models.Restaurant
+17:14:39  INFO Analysing class com.springsource.myrestaurants.models.UserAccount
+17:14:39  INFO Analysing class com.springsource.myrestaurants.controllers.NavigationManager
+17:14:39  INFO Analysing class com.springsource.myrestaurants.config.CouchDbConfig
+17:14:39  INFO Analysing class com.springsource.myrestaurants.MainActivity
+17:14:39 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/web/RestaurantController.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:39  INFO Analysing class com.springone.myrestaurants.web.CouchDbMappingJacksonHttpMessageConverter
+17:14:39 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/web/BaseApplicationController.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:39 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/web/SignUpController.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:39 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/domain/Restaurant.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:39 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/domain/UserAccount.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:39 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/dao/RestaurantDao.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:39  INFO Analysing class com.springone.myrestaurants.dao.JpaUserAccountDao
+17:14:39  INFO Analysing class com.springone.myrestaurants.dao.Utils
+17:14:39 ERROR error in /home/guilherme/spring-projects/maven/spring-data-document-examples/couchdb-myrestaurants/src/main/java/com/springone/myrestaurants/dao/UserAccountDao.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:39  INFO Analysing class com.springone.myrestaurants.dao.JpaRestaurantDao
+17:14:39  INFO Analysing class com.springone.myrestaurants.config.CouchDbConfig
+17:14:39  INFO Analysing class com.springone.myrestaurants.dao.RestaurantDaoTests
+17:14:39  INFO Analysing class com.springone.myrestaurants.dao.UserAccountDaoTests
+17:14:39  INFO Analysing class org.springframework.data.mongodb.examples.music.AlbumRepository
+17:14:39  INFO Analysing class org.springframework.data.mongodb.examples.music.Stars
+17:14:39  INFO Analysing class org.springframework.data.mongodb.examples.music.Track
+17:14:39  INFO Analysing class org.springframework.data.mongodb.examples.music.Album
+17:14:39  INFO Analysing class org.springframework.data.mongodb.examples.music.AlbumsIntegrationTest
+17:14:39  INFO Analysing class org.springframework.data.mongodb.examples.music.AlbumRepositoryIntegrationTest
+17:14:39  INFO Analysing class org.springframework.data.mongodb.examples.music.AbstractIntegrationTest
+17:14:39  INFO Analysing class org.springframework.data.mongodb.examples.music.QueryDslIntegrationTests
+17:14:39  INFO Analysing class org.bson.types.QObjectId
+17:14:39  INFO Analysing class org.springframework.data.mongodb.examples.music.QAlbum
+17:14:39  INFO Analysing class org.springframework.data.mongodb.examples.music.QTrack
+17:14:39  INFO Generating output
+17:14:39  INFO That's it! It only took 10 seconds

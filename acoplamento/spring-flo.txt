@@ -1,0 +1,19 @@
+17:16:11  INFO # ----------------------------------------- #
+17:16:11  INFO #          Smelly Cat - Spring MVC          #
+17:16:11  INFO #  www.github.com/mauricioaniche/smellycat  #
+17:16:11  INFO # ----------------------------------------- #
+17:16:11  INFO Running CK metrics
+17:16:19  INFO Found 1 java files
+17:16:19  INFO Max partition size: 300, total partitions=1
+17:16:19  INFO Next partition
+17:16:23  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-flo/samples/spring-flo-sample/src/main/java/org/springframework/flo/Application.java, className=org.springframework.flo.Application, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:16:23  INFO Finished parsing
+17:16:23  INFO Looking for smells
+17:16:23  INFO Starting the parse engine
+17:16:23  INFO Found 1 java files. We divided into 1 partitions
+17:16:23  INFO Identifying roles...
+17:16:24  INFO -- org.springframework.flo.Application is a ArchitecturalRole [role=other, id=9999] (class)
+17:16:24  INFO Identifying smells...
+17:16:25  INFO Analysing class org.springframework.flo.Application
+17:16:25  INFO Generating output
+17:16:25  INFO That's it! It only took 14 seconds

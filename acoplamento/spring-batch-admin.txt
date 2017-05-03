@@ -1,0 +1,830 @@
+17:17:01  INFO # ----------------------------------------- #
+17:17:01  INFO #          Smelly Cat - Spring MVC          #
+17:17:01  INFO #  www.github.com/mauricioaniche/smellycat  #
+17:17:01  INFO # ----------------------------------------- #
+17:17:01  INFO Running CK metrics
+17:17:02  INFO Found 231 java files
+17:17:02  INFO Max partition size: 300, total partitions=1
+17:17:02  INFO Next partition
+17:17:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/src/main/java/org/springframework/batch/admin/sample/RemoteStep.java, className=org.springframework.batch.admin.sample.RemoteStep, type=class, dit=1, noc=0, wmc=8, cbo=2, lcom=20, rfc=1, nom=8, specific={role=9999}]
+17:17:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/src/main/java/org/springframework/batch/admin/sample/job/JobConfiguration.java, className=org.springframework.batch.admin.sample.job.JobConfiguration, type=class, dit=1, noc=0, wmc=4, cbo=12, lcom=6, rfc=10, nom=4, specific={role=9999}]
+17:17:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/src/main/java/org/springframework/batch/admin/sample/StepLocatorStepFactoryBean.java, className=org.springframework.batch.admin.sample.StepLocatorStepFactoryBean, type=class, dit=1, noc=0, wmc=5, cbo=4, lcom=6, rfc=1, nom=5, specific={role=9999}]
+17:17:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/src/main/java/org/springframework/batch/admin/sample/ExampleItemReader.java, className=org.springframework.batch.admin.sample.ExampleItemReader, type=class, dit=1, noc=0, wmc=5, cbo=3, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/src/main/java/org/springframework/batch/admin/sample/ExampleItemWriter.java, className=org.springframework.batch.admin.sample.ExampleItemWriter, type=class, dit=1, noc=0, wmc=4, cbo=3, lcom=0, rfc=2, nom=2, specific={role=9999}]
+17:17:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/src/main/java/org/springframework/batch/admin/sample/TrivialJobParametersIncrementer.java, className=org.springframework.batch.admin.sample.TrivialJobParametersIncrementer, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=3, nom=1, specific={role=9999}]
+17:17:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/src/test/java/org/springframework/batch/admin/sample/JobIntegrationTests.java, className=org.springframework.batch.admin.sample.JobIntegrationTests, type=class, dit=1, noc=0, wmc=1, cbo=6, lcom=0, rfc=4, nom=1, specific={role=9999}]
+17:17:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/src/test/java/org/springframework/batch/admin/sample/ExampleItemReaderTests.java, className=org.springframework.batch.admin.sample.ExampleItemReaderTests, type=class, dit=1, noc=0, wmc=3, cbo=2, lcom=0, rfc=3, nom=2, specific={role=9999}]
+17:17:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/src/test/java/org/springframework/batch/admin/sample/BootstrapTests.java, className=org.springframework.batch.admin.sample.BootstrapTests, type=class, dit=1, noc=0, wmc=6, cbo=8, lcom=6, rfc=15, nom=3, specific={role=9999}]
+17:17:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/src/test/java/org/springframework/batch/admin/sample/job/JobConfigurationTests.java, className=org.springframework.batch.admin.sample.job.JobConfigurationTests, type=class, dit=1, noc=0, wmc=1, cbo=10, lcom=0, rfc=5, nom=1, specific={role=9999}]
+17:17:06  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/src/test/java/org/springframework/batch/admin/sample/ExampleItemWriterTests.java, className=org.springframework.batch.admin.sample.ExampleItemWriterTests, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=2, nom=1, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/src/test/java/org/springframework/batch/admin/sample/JobExecutionTests.java, className=org.springframework.batch.admin.sample.JobExecutionTests, type=class, dit=1, noc=0, wmc=8, cbo=10, lcom=0, rfc=11, nom=7, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/DetailedJobInfoResource.java, className=org.springframework.batch.admin.domain.DetailedJobInfoResource, type=class, dit=3, noc=0, wmc=10, cbo=4, lcom=11, rfc=6, nom=7, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/JobExecutionHistory.java, className=org.springframework.batch.admin.domain.JobExecutionHistory, type=class, dit=1, noc=0, wmc=6, cbo=2, lcom=2, rfc=4, nom=4, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/StepExecutionInfoResource.java, className=org.springframework.batch.admin.domain.StepExecutionInfoResource, type=class, dit=2, noc=0, wmc=30, cbo=5, lcom=209, rfc=33, nom=23, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/CumulativeHistory.java, className=org.springframework.batch.admin.domain.CumulativeHistory, type=class, dit=1, noc=0, wmc=13, cbo=0, lcom=0, rfc=4, nom=7, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/support/StepExecutionHistoryJacksonMixIn.java, className=org.springframework.batch.admin.domain.support.StepExecutionHistoryJacksonMixIn, type=class, dit=1, noc=0, wmc=1, cbo=3, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/support/ExitStatusJacksonMixIn.java, className=org.springframework.batch.admin.domain.support.ExitStatusJacksonMixIn, type=class, dit=1, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/support/JobParametersExtractor.java, className=org.springframework.batch.admin.domain.support.JobParametersExtractor, type=class, dit=1, noc=0, wmc=4, cbo=2, lcom=0, rfc=10, nom=2, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/support/JobParameterJacksonMixIn.java, className=org.springframework.batch.admin.domain.support.JobParameterJacksonMixIn, type=class, dit=1, noc=0, wmc=0, cbo=1, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/support/JobParameterJacksonDeserializer.java, className=org.springframework.batch.admin.domain.support.JobParameterJacksonDeserializer, type=class, dit=2, noc=0, wmc=12, cbo=9, lcom=0, rfc=18, nom=1, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/support/JobParametersJacksonMixIn.java, className=org.springframework.batch.admin.domain.support.JobParametersJacksonMixIn, type=class, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/support/VariableTypeJackson2ObjectMapperFactoryBean.java, className=org.springframework.batch.admin.domain.support.VariableTypeJackson2ObjectMapperFactoryBean, type=class, dit=2, noc=0, wmc=1, cbo=3, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/support/ISO8601DateFormatWithMilliSeconds.java, className=org.springframework.batch.admin.domain.support.ISO8601DateFormatWithMilliSeconds, type=class, dit=2, noc=0, wmc=1, cbo=1, lcom=0, rfc=2, nom=1, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/StepExecutionHistory.java, className=org.springframework.batch.admin.domain.StepExecutionHistory, type=class, dit=1, noc=0, wmc=18, cbo=2, lcom=67, rfc=12, nom=14, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/StepExecutionProgressInfo.java, className=org.springframework.batch.admin.domain.StepExecutionProgressInfo, type=class, dit=1, noc=0, wmc=30, cbo=7, lcom=28, rfc=16, nom=16, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/JobInstanceInfoResource.java, className=org.springframework.batch.admin.domain.JobInstanceInfoResource, type=class, dit=2, noc=0, wmc=5, cbo=3, lcom=4, rfc=2, nom=5, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/StepExecutionInfo.java, className=org.springframework.batch.admin.domain.StepExecutionInfo, type=class, dit=1, noc=0, wmc=27, cbo=1, lcom=55, rfc=18, nom=15, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/JobExecutionInfoResource.java, className=org.springframework.batch.admin.domain.JobExecutionInfoResource, type=class, dit=3, noc=0, wmc=34, cbo=12, lcom=228, rfc=33, nom=24, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/JobInfoResource.java, className=org.springframework.batch.admin.domain.JobInfoResource, type=class, dit=2, noc=0, wmc=7, cbo=1, lcom=11, rfc=0, nom=7, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/NoSuchBatchJobException.java, className=org.springframework.batch.admin.domain.NoSuchBatchJobException, type=class, dit=4, noc=0, wmc=3, cbo=0, lcom=3, rfc=0, nom=3, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/FileInfoResource.java, className=org.springframework.batch.admin.domain.FileInfoResource, type=class, dit=2, noc=0, wmc=7, cbo=1, lcom=11, rfc=0, nom=7, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/JobInfo.java, className=org.springframework.batch.admin.domain.JobInfo, type=class, dit=1, noc=0, wmc=10, cbo=0, lcom=0, rfc=0, nom=10, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/DetailedJobInfo.java, className=org.springframework.batch.admin.domain.DetailedJobInfo, type=class, dit=2, noc=0, wmc=10, cbo=3, lcom=14, rfc=7, nom=8, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/StepType.java, className=org.springframework.batch.admin.domain.StepType, type=enum, dit=1, noc=0, wmc=9, cbo=1, lcom=0, rfc=8, nom=4, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/StepExecutionProgress.java, className=org.springframework.batch.admin.domain.StepExecutionProgress, type=class, dit=1, noc=0, wmc=21, cbo=7, lcom=0, rfc=14, nom=9, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/StepExecutionProgressInfoResource.java, className=org.springframework.batch.admin.domain.StepExecutionProgressInfoResource, type=class, dit=3, noc=0, wmc=6, cbo=3, lcom=7, rfc=1, nom=6, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/JobExecutionInfo.java, className=org.springframework.batch.admin.domain.JobExecutionInfo, type=class, dit=1, noc=0, wmc=20, cbo=5, lcom=77, rfc=19, nom=15, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/main/java/org/springframework/batch/admin/domain/NoSuchBatchJobInstanceException.java, className=org.springframework.batch.admin.domain.NoSuchBatchJobInstanceException, type=class, dit=4, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/test/java/org/springframework/batch/admin/domain/AbstractSerializationTests.java, className=org.springframework.batch.admin.domain.AbstractSerializationTests, type=class, dit=1, noc=0, wmc=5, cbo=9, lcom=8, rfc=12, nom=5, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/test/java/org/springframework/batch/admin/domain/FileInfoResourceSerializationTests.java, className=org.springframework.batch.admin.domain.FileInfoResourceSerializationTests, type=class, dit=2, noc=0, wmc=3, cbo=2, lcom=0, rfc=8, nom=3, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/test/java/org/springframework/batch/admin/domain/StepExecutionProgressInfoResourceSerializationTests.java, className=org.springframework.batch.admin.domain.StepExecutionProgressInfoResourceSerializationTests, type=class, dit=2, noc=0, wmc=3, cbo=6, lcom=3, rfc=39, nom=3, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/test/java/org/springframework/batch/admin/domain/JobExecutionInfoResourceRunningJobSerializationTests.java, className=org.springframework.batch.admin.domain.JobExecutionInfoResourceRunningJobSerializationTests, type=class, dit=2, noc=0, wmc=3, cbo=6, lcom=3, rfc=46, nom=3, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/test/java/org/springframework/batch/admin/domain/StepExecutionInfoResourceSerializationTests.java, className=org.springframework.batch.admin.domain.StepExecutionInfoResourceSerializationTests, type=class, dit=2, noc=0, wmc=3, cbo=5, lcom=3, rfc=41, nom=3, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/test/java/org/springframework/batch/admin/domain/JobExecutionInfoResourceSerializationTests.java, className=org.springframework.batch.admin.domain.JobExecutionInfoResourceSerializationTests, type=class, dit=2, noc=0, wmc=3, cbo=6, lcom=3, rfc=48, nom=3, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/test/java/org/springframework/batch/admin/domain/JobInstanceInfoResourceSerializationTests.java, className=org.springframework.batch.admin.domain.JobInstanceInfoResourceSerializationTests, type=class, dit=2, noc=0, wmc=3, cbo=7, lcom=3, rfc=29, nom=3, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/test/java/org/springframework/batch/admin/domain/DetailedJobInfoResourceSerializationTests.java, className=org.springframework.batch.admin.domain.DetailedJobInfoResourceSerializationTests, type=class, dit=2, noc=0, wmc=3, cbo=6, lcom=3, rfc=28, nom=3, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-domain/src/test/java/org/springframework/batch/admin/domain/JobInfoResourceSerializationTests.java, className=org.springframework.batch.admin.domain.JobInfoResourceSerializationTests, type=class, dit=2, noc=0, wmc=3, cbo=2, lcom=3, rfc=9, nom=3, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/main/java/org/springframework/batch/admin/web/interceptor/ContentTypeInterceptor.java, className=org.springframework.batch.admin.web.interceptor.ContentTypeInterceptor, type=class, dit=2, noc=0, wmc=28, cbo=9, lcom=6, rfc=26, nom=5, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/main/java/org/springframework/batch/admin/web/freemarker/AjaxFreeMarkerView.java, className=org.springframework.batch.admin.web.freemarker.AjaxFreeMarkerView, type=class, dit=2, noc=0, wmc=17, cbo=6, lcom=8, rfc=19, nom=5, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/main/java/org/springframework/batch/admin/web/freemarker/HippyFreeMarkerConfigurer.java, className=org.springframework.batch.admin.web.freemarker.HippyFreeMarkerConfigurer, type=class, dit=2, noc=0, wmc=8, cbo=5, lcom=0, rfc=8, nom=1, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/main/java/org/springframework/batch/admin/web/resources/MenuManager.java, className=org.springframework.batch.admin.web.resources.MenuManager, type=class, dit=1, noc=0, wmc=7, cbo=3, lcom=1, rfc=4, nom=3, specific={role=5}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/main/java/org/springframework/batch/admin/web/resources/ResourceService.java, className=org.springframework.batch.admin.web.resources.ResourceService, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/main/java/org/springframework/batch/admin/web/resources/BaseMenu.java, className=org.springframework.batch.admin.web.resources.BaseMenu, type=class, dit=1, noc=0, wmc=8, cbo=1, lcom=4, rfc=0, nom=8, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/main/java/org/springframework/batch/admin/web/resources/Menu.java, className=org.springframework.batch.admin.web.resources.Menu, type=interface, dit=1, noc=0, wmc=3, cbo=0, lcom=3, rfc=0, nom=3, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/main/java/org/springframework/batch/admin/web/resources/DefaultResourceService.java, className=org.springframework.batch.admin.web.resources.DefaultResourceService, type=class, dit=1, noc=0, wmc=2, cbo=1, lcom=0, rfc=0, nom=2, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/main/java/org/springframework/batch/admin/web/filter/ParameterUnpackerFilter.java, className=org.springframework.batch.admin.web.filter.ParameterUnpackerFilter, type=class, dit=3, noc=0, wmc=35, cbo=5, lcom=16, rfc=29, nom=12, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/main/java/org/springframework/batch/admin/web/filter/SessionIdFilter.java, className=org.springframework.batch.admin.web.filter.SessionIdFilter, type=class, dit=3, noc=0, wmc=13, cbo=5, lcom=26, rfc=12, nom=8, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/main/java/org/springframework/batch/admin/web/util/HomeController.java, className=org.springframework.batch.admin.web.util.HomeController, type=class, dit=1, noc=0, wmc=53, cbo=14, lcom=26, rfc=52, nom=12, specific={role=1}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/main/java/org/springframework/batch/admin/web/util/ResourceInfo.java, className=org.springframework.batch.admin.web.util.ResourceInfo, type=class, dit=1, noc=0, wmc=13, cbo=2, lcom=0, rfc=8, nom=9, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/test/java/org/springframework/test/context/support/WebApplicationContextLoader.java, className=org.springframework.test.context.support.WebApplicationContextLoader, type=class, dit=2, noc=0, wmc=9, cbo=11, lcom=21, rfc=16, nom=7, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/test/java/org/springframework/batch/admin/web/interceptor/ContentTypeInterceptorTests.java, className=org.springframework.batch.admin.web.interceptor.ContentTypeInterceptorTests, type=class, dit=1, noc=0, wmc=6, cbo=9, lcom=0, rfc=9, nom=6, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/test/java/org/springframework/batch/admin/web/views/StandardJsonViewTests.java, className=org.springframework.batch.admin.web.views.StandardJsonViewTests, type=class, dit=2, noc=0, wmc=2, cbo=9, lcom=0, rfc=8, nom=2, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/test/java/org/springframework/batch/admin/web/views/JsonWrapper.java, className=org.springframework.batch.admin.web.views.JsonWrapper, type=class, dit=1, noc=0, wmc=4, cbo=3, lcom=0, rfc=7, nom=4, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/test/java/org/springframework/batch/admin/web/views/HomeViewTests.java, className=org.springframework.batch.admin.web.views.HomeViewTests, type=class, dit=2, noc=0, wmc=2, cbo=8, lcom=0, rfc=6, nom=2, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/test/java/org/springframework/batch/admin/web/views/RssViewTests.java, className=org.springframework.batch.admin.web.views.RssViewTests, type=class, dit=2, noc=0, wmc=1, cbo=8, lcom=0, rfc=6, nom=1, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/test/java/org/springframework/batch/admin/web/views/HomeJsonViewTests.java, className=org.springframework.batch.admin.web.views.HomeJsonViewTests, type=class, dit=2, noc=0, wmc=3, cbo=10, lcom=0, rfc=11, nom=3, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/test/java/org/springframework/batch/admin/web/views/StandardViewTests.java, className=org.springframework.batch.admin.web.views.StandardViewTests, type=class, dit=1, noc=0, wmc=2, cbo=8, lcom=0, rfc=5, nom=2, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/test/java/org/springframework/batch/admin/web/views/AbstractResourceViewTests.java, className=org.springframework.batch.admin.web.views.AbstractResourceViewTests, type=class, dit=1, noc=0, wmc=1, cbo=5, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/test/java/org/springframework/batch/admin/web/resources/DummyMenu.java, className=org.springframework.batch.admin.web.resources.DummyMenu, type=class, dit=2, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=5}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/test/java/org/springframework/batch/admin/web/filter/SessionIdFilterTests.java, className=org.springframework.batch.admin.web.filter.SessionIdFilterTests, type=class, dit=1, noc=0, wmc=3, cbo=6, lcom=0, rfc=12, nom=3, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/test/java/org/springframework/batch/admin/web/filter/ParameterUnpackerFilterTests.java, className=org.springframework.batch.admin.web.filter.ParameterUnpackerFilterTests, type=class, dit=1, noc=0, wmc=9, cbo=5, lcom=0, rfc=11, nom=9, specific={role=9999}]
+17:17:07  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-resources/src/test/java/org/springframework/batch/admin/web/util/HomeControllerTests.java, className=org.springframework.batch.admin.web.util.HomeControllerTests, type=class, dit=1, noc=0, wmc=25, cbo=14, lcom=144, rfc=20, nom=25, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/StepExecutionController.java, className=org.springframework.batch.admin.web.StepExecutionController, type=class, dit=1, noc=0, wmc=22, cbo=15, lcom=0, rfc=24, nom=8, specific={role=1}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/RestConfiguration.java, className=org.springframework.batch.admin.web.RestConfiguration, type=class, dit=1, noc=0, wmc=7, cbo=13, lcom=21, rfc=3, nom=7, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/JobController.java, className=org.springframework.batch.admin.web.JobController, type=class, dit=1, noc=0, wmc=25, cbo=20, lcom=0, rfc=33, nom=7, specific={role=1}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/resource/JobInstanceInfoResourceAssembler.java, className=org.springframework.batch.admin.web.resource.JobInstanceInfoResourceAssembler, type=class, dit=2, noc=0, wmc=4, cbo=7, lcom=3, rfc=8, nom=3, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/resource/JobExecutionInfoResourceAssembler.java, className=org.springframework.batch.admin.web.resource.JobExecutionInfoResourceAssembler, type=class, dit=2, noc=0, wmc=6, cbo=7, lcom=3, rfc=9, nom=3, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/resource/FileInfoResourceAssembler.java, className=org.springframework.batch.admin.web.resource.FileInfoResourceAssembler, type=class, dit=2, noc=0, wmc=3, cbo=4, lcom=3, rfc=6, nom=3, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/resource/StepExecutionInfoResourceAssembler.java, className=org.springframework.batch.admin.web.resource.StepExecutionInfoResourceAssembler, type=class, dit=2, noc=0, wmc=3, cbo=4, lcom=3, rfc=5, nom=3, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/resource/DetailedJobInfoResourceAssembler.java, className=org.springframework.batch.admin.web.resource.DetailedJobInfoResourceAssembler, type=class, dit=2, noc=0, wmc=5, cbo=7, lcom=3, rfc=9, nom=3, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/resource/StepExecutionProgressInfoResourceAssembler.java, className=org.springframework.batch.admin.web.resource.StepExecutionProgressInfoResourceAssembler, type=class, dit=2, noc=0, wmc=3, cbo=4, lcom=3, rfc=9, nom=3, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/resource/JobInfoResourceAssembler.java, className=org.springframework.batch.admin.web.resource.JobInfoResourceAssembler, type=class, dit=2, noc=0, wmc=3, cbo=4, lcom=3, rfc=6, nom=3, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/FileController.java, className=org.springframework.batch.admin.web.FileController, type=class, dit=1, noc=0, wmc=17, cbo=16, lcom=0, rfc=30, nom=6, specific={role=1}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/JobsMenu.java, className=org.springframework.batch.admin.web.JobsMenu, type=class, dit=2, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=5}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/BatchStepExecutionsController.java, className=org.springframework.batch.admin.web.BatchStepExecutionsController, type=class, dit=2, noc=0, wmc=16, cbo=16, lcom=6, rfc=18, nom=4, specific={role=1}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/BatchJobExecutionsController.java, className=org.springframework.batch.admin.web.BatchJobExecutionsController, type=class, dit=2, noc=0, wmc=38, cbo=29, lcom=39, rfc=32, nom=10, specific={role=1}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/BindingHttpMessageConverter.java, className=org.springframework.batch.admin.web.BindingHttpMessageConverter, type=class, dit=1, noc=0, wmc=18, cbo=19, lcom=31, rfc=19, nom=10, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/FilesMenu.java, className=org.springframework.batch.admin.web.FilesMenu, type=class, dit=2, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/ExecutionsMenu.java, className=org.springframework.batch.admin.web.ExecutionsMenu, type=class, dit=2, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=5}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/JobExecutionController.java, className=org.springframework.batch.admin.web.JobExecutionController, type=class, dit=1, noc=0, wmc=43, cbo=19, lcom=0, rfc=43, nom=14, specific={role=1}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/TableUtils.java, className=org.springframework.batch.admin.web.TableUtils, type=class, dit=1, noc=0, wmc=7, cbo=0, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/BatchFileController.java, className=org.springframework.batch.admin.web.BatchFileController, type=class, dit=2, noc=0, wmc=10, cbo=22, lcom=0, rfc=23, nom=4, specific={role=1}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/RestControllerAdvice.java, className=org.springframework.batch.admin.web.RestControllerAdvice, type=class, dit=1, noc=0, wmc=14, cbo=16, lcom=76, rfc=10, nom=13, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/BatchJobInstancesController.java, className=org.springframework.batch.admin.web.BatchJobInstancesController, type=class, dit=2, noc=0, wmc=7, cbo=20, lcom=1, rfc=12, nom=2, specific={role=1}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/AbstractBatchJobsController.java, className=org.springframework.batch.admin.web.AbstractBatchJobsController, type=class, dit=1, noc=0, wmc=1, cbo=9, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/LaunchRequest.java, className=org.springframework.batch.admin.web.LaunchRequest, type=class, dit=1, noc=0, wmc=4, cbo=0, lcom=2, rfc=0, nom=4, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/JsonViewResolver.java, className=org.springframework.batch.admin.web.JsonViewResolver, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/HomeMenu.java, className=org.springframework.batch.admin.web.HomeMenu, type=class, dit=2, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=5}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/ViewHandler.java, className=org.springframework.batch.admin.web.ViewHandler, type=class, dit=1, noc=0, wmc=4, cbo=5, lcom=0, rfc=1, nom=2, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/JobInstanceInfo.java, className=org.springframework.batch.admin.web.JobInstanceInfo, type=class, dit=1, noc=0, wmc=14, cbo=3, lcom=0, rfc=9, nom=8, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/web/BatchJobsController.java, className=org.springframework.batch.admin.web.BatchJobsController, type=class, dit=2, noc=0, wmc=9, cbo=17, lcom=10, rfc=17, nom=5, specific={role=1}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/jmx/StepExecutionServiceLevelMonitor.java, className=org.springframework.batch.admin.jmx.StepExecutionServiceLevelMonitor, type=class, dit=1, noc=0, wmc=17, cbo=3, lcom=31, rfc=8, nom=11, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/jmx/JobExecutionMetricsFactory.java, className=org.springframework.batch.admin.jmx.JobExecutionMetricsFactory, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/jmx/StepExecutionMetrics.java, className=org.springframework.batch.admin.jmx.StepExecutionMetrics, type=interface, dit=1, noc=0, wmc=15, cbo=2, lcom=105, rfc=0, nom=15, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/jmx/JobExecutionMetrics.java, className=org.springframework.batch.admin.jmx.JobExecutionMetrics, type=interface, dit=1, noc=0, wmc=13, cbo=2, lcom=78, rfc=0, nom=13, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/jmx/StepExecutionMetricsFactory.java, className=org.springframework.batch.admin.jmx.StepExecutionMetricsFactory, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/jmx/SimpleJobExecutionMetrics.java, className=org.springframework.batch.admin.jmx.SimpleJobExecutionMetrics, type=class, dit=1, noc=0, wmc=50, cbo=10, lcom=0, rfc=27, nom=18, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/jmx/BatchMBeanExporter.java, className=org.springframework.batch.admin.jmx.BatchMBeanExporter, type=class, dit=2, noc=0, wmc=58, cbo=15, lcom=368, rfc=47, nom=32, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/jmx/SimpleStepExecutionMetrics.java, className=org.springframework.batch.admin.jmx.SimpleStepExecutionMetrics, type=class, dit=1, noc=0, wmc=42, cbo=8, lcom=0, rfc=28, nom=19, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/integration/JobConfigurationResourceLoader.java, className=org.springframework.batch.admin.integration.JobConfigurationResourceLoader, type=class, dit=1, noc=0, wmc=9, cbo=13, lcom=0, rfc=8, nom=5, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/integration/FileParentDirectoryFilter.java, className=org.springframework.batch.admin.integration.FileParentDirectoryFilter, type=class, dit=1, noc=0, wmc=2, cbo=0, lcom=0, rfc=3, nom=2, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/integration/JobNameToJobRestartRequestAdapter.java, className=org.springframework.batch.admin.integration.JobNameToJobRestartRequestAdapter, type=class, dit=1, noc=0, wmc=16, cbo=12, lcom=2, rfc=11, nom=4, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/integration/StringToJobLaunchRequestAdapter.java, className=org.springframework.batch.admin.integration.StringToJobLaunchRequestAdapter, type=class, dit=1, noc=0, wmc=3, cbo=8, lcom=0, rfc=9, nom=3, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/integration/JobConfigurationRequestToResourceAdapter.java, className=org.springframework.batch.admin.integration.JobConfigurationRequestToResourceAdapter, type=class, dit=1, noc=0, wmc=3, cbo=5, lcom=0, rfc=4, nom=1, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/integration/MultipartJobConfigurationRequest.java, className=org.springframework.batch.admin.integration.MultipartJobConfigurationRequest, type=class, dit=1, noc=0, wmc=6, cbo=2, lcom=0, rfc=4, nom=3, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/integration/JobConfigurationRequest.java, className=org.springframework.batch.admin.integration.JobConfigurationRequest, type=class, dit=1, noc=0, wmc=6, cbo=0, lcom=0, rfc=3, nom=5, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/integration/LastJobParametersJobLaunchRequestEnhancer.java, className=org.springframework.batch.admin.integration.LastJobParametersJobLaunchRequestEnhancer, type=class, dit=1, noc=0, wmc=5, cbo=6, lcom=0, rfc=9, nom=3, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/integration/FileToJobLaunchRequestAdapter.java, className=org.springframework.batch.admin.integration.FileToJobLaunchRequestAdapter, type=class, dit=1, noc=0, wmc=7, cbo=6, lcom=0, rfc=7, nom=3, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/integration/FileToResourceAdapter.java, className=org.springframework.batch.admin.integration.FileToResourceAdapter, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/integration/MultipartToJobConfigurationRequestTransformer.java, className=org.springframework.batch.admin.integration.MultipartToJobConfigurationRequestTransformer, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/FileServiceResourceConverter.java, className=org.springframework.batch.admin.service.FileServiceResourceConverter, type=class, dit=2, noc=0, wmc=10, cbo=7, lcom=7, rfc=5, nom=6, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/SearchableJobInstanceDao.java, className=org.springframework.batch.admin.service.SearchableJobInstanceDao, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/SearchableJobExecutionDao.java, className=org.springframework.batch.admin.service.SearchableJobExecutionDao, type=interface, dit=1, noc=0, wmc=5, cbo=2, lcom=10, rfc=0, nom=5, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/SearchableStepExecutionDao.java, className=org.springframework.batch.admin.service.SearchableStepExecutionDao, type=interface, dit=1, noc=0, wmc=3, cbo=2, lcom=3, rfc=0, nom=3, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/JdbcSearchableStepExecutionDao.java, className=org.springframework.batch.admin.service.JdbcSearchableStepExecutionDao, type=class, dit=2, noc=0, wmc=26, cbo=10, lcom=30, rfc=48, nom=7, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/JdbcSearchableJobExecutionDao.java, className=org.springframework.batch.admin.service.JdbcSearchableJobExecutionDao, type=class, dit=2, noc=0, wmc=26, cbo=12, lcom=110, rfc=38, nom=15, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/FileSender.java, className=org.springframework.batch.admin.service.FileSender, type=interface, dit=1, noc=0, wmc=1, cbo=0, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/JdbcSearchableJobInstanceDao.java, className=org.springframework.batch.admin.service.JdbcSearchableJobInstanceDao, type=class, dit=2, noc=0, wmc=3, cbo=2, lcom=3, rfc=4, nom=2, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/JobService.java, className=org.springframework.batch.admin.service.JobService, type=interface, dit=1, noc=0, wmc=25, cbo=4, lcom=300, rfc=0, nom=25, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/JobLocatorStepLocator.java, className=org.springframework.batch.admin.service.JobLocatorStepLocator, type=class, dit=1, noc=0, wmc=19, cbo=7, lcom=0, rfc=11, nom=5, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/NoSuchStepExecutionException.java, className=org.springframework.batch.admin.service.NoSuchStepExecutionException, type=class, dit=2, noc=0, wmc=2, cbo=1, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/FileService.java, className=org.springframework.batch.admin.service.FileService, type=interface, dit=1, noc=0, wmc=6, cbo=2, lcom=15, rfc=0, nom=6, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/LocalFileService.java, className=org.springframework.batch.admin.service.LocalFileService, type=class, dit=2, noc=0, wmc=44, cbo=13, lcom=30, rfc=41, nom=16, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/SimpleJobService.java, className=org.springframework.batch.admin.service.SimpleJobService, type=class, dit=1, noc=0, wmc=127, cbo=33, lcom=84, rfc=85, nom=32, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/SimpleJobServiceFactoryBean.java, className=org.springframework.batch.admin.service.SimpleJobServiceFactoryBean, type=class, dit=1, noc=0, wmc=33, cbo=27, lcom=106, rfc=33, nom=21, specific={role=9999}]
+17:17:08  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/service/FileInfo.java, className=org.springframework.batch.admin.service.FileInfo, type=class, dit=1, noc=0, wmc=39, cbo=1, lcom=0, rfc=11, nom=14, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/launch/JobLauncherSynchronizer.java, className=org.springframework.batch.admin.launch.JobLauncherSynchronizer, type=class, dit=1, noc=0, wmc=17, cbo=13, lcom=0, rfc=17, nom=9, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/util/ThrottledTaskExecutor.java, className=org.springframework.batch.admin.util.ThrottledTaskExecutor, type=class, dit=1, noc=0, wmc=15, cbo=2, lcom=10, rfc=9, nom=8, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/configuration/CompositeApplicationContextFactory.java, className=org.springframework.batch.admin.configuration.CompositeApplicationContextFactory, type=class, dit=1, noc=0, wmc=11, cbo=4, lcom=5, rfc=7, nom=6, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/poller/scheduling/TaskSchedulerPoller.java, className=org.springframework.batch.poller.scheduling.TaskSchedulerPoller, type=class, dit=1, noc=0, wmc=37, cbo=12, lcom=89, rfc=20, nom=8, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/JsonWrapper.java, className=org.springframework.batch.admin.web.JsonWrapper, type=class, dit=1, noc=0, wmc=6, cbo=4, lcom=2, rfc=7, nom=5, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/server/JsonIntegrationTests.java, className=org.springframework.batch.admin.web.server.JsonIntegrationTests, type=class, dit=1, noc=0, wmc=13, cbo=11, lcom=0, rfc=26, nom=6, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/AbstractControllerIntegrationTest.java, className=org.springframework.batch.admin.web.AbstractControllerIntegrationTest, type=class, dit=2, noc=0, wmc=5, cbo=16, lcom=8, rfc=20, nom=2, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/StepExecutionProgressTests.java, className=org.springframework.batch.admin.web.StepExecutionProgressTests, type=class, dit=1, noc=0, wmc=4, cbo=6, lcom=0, rfc=10, nom=4, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/base/DummyMenu.java, className=org.springframework.batch.admin.web.base.DummyMenu, type=class, dit=2, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/BatchJobInstancesControllerIntegrationTests.java, className=org.springframework.batch.admin.web.BatchJobInstancesControllerIntegrationTests, type=class, dit=2, noc=0, wmc=4, cbo=9, lcom=0, rfc=34, nom=4, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/JobExecutionControllerTests.java, className=org.springframework.batch.admin.web.JobExecutionControllerTests, type=class, dit=1, noc=0, wmc=11, cbo=14, lcom=0, rfc=44, nom=10, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/StepExecutionControllerTests.java, className=org.springframework.batch.admin.web.StepExecutionControllerTests, type=class, dit=1, noc=0, wmc=5, cbo=10, lcom=0, rfc=21, nom=5, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/MultiBinderTests.java, className=org.springframework.batch.admin.web.MultiBinderTests, type=class, dit=1, noc=0, wmc=6, cbo=3, lcom=13, rfc=10, nom=5, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/JobControllerTests.java, className=org.springframework.batch.admin.web.JobControllerTests, type=class, dit=1, noc=0, wmc=8, cbo=12, lcom=0, rfc=32, nom=8, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/JobExecutionInfoTests.java, className=org.springframework.batch.admin.web.JobExecutionInfoTests, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=16, nom=2, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/TestDependencies.java, className=org.springframework.batch.admin.web.TestDependencies, type=class, dit=1, noc=0, wmc=4, cbo=7, lcom=6, rfc=1, nom=4, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/JobExecutionViewTests.java, className=org.springframework.batch.admin.web.views.JobExecutionViewTests, type=class, dit=2, noc=0, wmc=4, cbo=9, lcom=0, rfc=16, nom=4, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/JobJsonViewTests.java, className=org.springframework.batch.admin.web.views.JobJsonViewTests, type=class, dit=2, noc=0, wmc=7, cbo=13, lcom=0, rfc=17, nom=7, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/JobExecutionsRssViewTests.java, className=org.springframework.batch.admin.web.views.JobExecutionsRssViewTests, type=class, dit=2, noc=0, wmc=2, cbo=9, lcom=0, rfc=11, nom=2, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/JobExecutionJsonViewTests.java, className=org.springframework.batch.admin.web.views.JobExecutionJsonViewTests, type=class, dit=2, noc=0, wmc=2, cbo=10, lcom=0, rfc=17, nom=2, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/FilesJsonViewTests.java, className=org.springframework.batch.admin.web.views.FilesJsonViewTests, type=class, dit=2, noc=0, wmc=1, cbo=9, lcom=0, rfc=7, nom=1, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/StepExecutionHistoryViewTests.java, className=org.springframework.batch.admin.web.views.StepExecutionHistoryViewTests, type=class, dit=2, noc=0, wmc=2, cbo=10, lcom=0, rfc=10, nom=2, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/AbstractManagerViewTests.java, className=org.springframework.batch.admin.web.views.AbstractManagerViewTests, type=class, dit=1, noc=0, wmc=1, cbo=5, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/JobExecutionsViewTests.java, className=org.springframework.batch.admin.web.views.JobExecutionsViewTests, type=class, dit=2, noc=0, wmc=4, cbo=8, lcom=0, rfc=8, nom=4, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/JobExecutionsJsonViewTests.java, className=org.springframework.batch.admin.web.views.JobExecutionsJsonViewTests, type=class, dit=2, noc=0, wmc=4, cbo=10, lcom=0, rfc=17, nom=4, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/StepExecutionJsonViewTests.java, className=org.springframework.batch.admin.web.views.StepExecutionJsonViewTests, type=class, dit=2, noc=0, wmc=2, cbo=9, lcom=0, rfc=19, nom=2, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/StepExecutionViewTests.java, className=org.springframework.batch.admin.web.views.StepExecutionViewTests, type=class, dit=2, noc=0, wmc=1, cbo=7, lcom=0, rfc=7, nom=1, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/ConfigurationViewTests.java, className=org.springframework.batch.admin.web.views.ConfigurationViewTests, type=class, dit=2, noc=0, wmc=1, cbo=7, lcom=0, rfc=4, nom=1, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/FilesViewTests.java, className=org.springframework.batch.admin.web.views.FilesViewTests, type=class, dit=2, noc=0, wmc=2, cbo=9, lcom=0, rfc=8, nom=2, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/StepExecutionsViewTests.java, className=org.springframework.batch.admin.web.views.StepExecutionsViewTests, type=class, dit=2, noc=0, wmc=1, cbo=9, lcom=0, rfc=9, nom=1, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/views/JobViewTests.java, className=org.springframework.batch.admin.web.views.JobViewTests, type=class, dit=2, noc=0, wmc=4, cbo=10, lcom=0, rfc=11, nom=4, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/JobParametersExtractorTests.java, className=org.springframework.batch.admin.web.JobParametersExtractorTests, type=class, dit=1, noc=0, wmc=4, cbo=3, lcom=0, rfc=8, nom=2, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/FileControllerTests.java, className=org.springframework.batch.admin.web.FileControllerTests, type=class, dit=1, noc=0, wmc=8, cbo=17, lcom=0, rfc=24, nom=7, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/resources/TestMenu.java, className=org.springframework.batch.admin.web.resources.TestMenu, type=class, dit=2, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=5}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/StepExecutionInfoTests.java, className=org.springframework.batch.admin.web.StepExecutionInfoTests, type=class, dit=1, noc=0, wmc=2, cbo=3, lcom=0, rfc=16, nom=2, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/BatchJobExecutionsControllerIntegrationTests.java, className=org.springframework.batch.admin.web.BatchJobExecutionsControllerIntegrationTests, type=class, dit=2, noc=0, wmc=16, cbo=14, lcom=70, rfc=43, nom=16, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/BatchStepExecutionsControllerIntegrationTests.java, className=org.springframework.batch.admin.web.BatchStepExecutionsControllerIntegrationTests, type=class, dit=2, noc=0, wmc=8, cbo=9, lcom=28, rfc=32, nom=8, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/BatchJobsControllerIntegrationTests.java, className=org.springframework.batch.admin.web.BatchJobsControllerIntegrationTests, type=class, dit=2, noc=0, wmc=4, cbo=9, lcom=0, rfc=39, nom=4, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/web/BatchFilesControllerIntegrationTests.java, className=org.springframework.batch.admin.web.BatchFilesControllerIntegrationTests, type=class, dit=2, noc=0, wmc=3, cbo=11, lcom=1, rfc=28, nom=3, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/IgnoredTestSuite.java, className=org.springframework.batch.admin.IgnoredTestSuite, type=class, dit=1, noc=0, wmc=0, cbo=3, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/ServerRunning.java, className=org.springframework.batch.admin.ServerRunning, type=class, dit=2, noc=0, wmc=5, cbo=7, lcom=0, rfc=9, nom=4, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/jmx/SimpleStepExecutionMetricsTests.java, className=org.springframework.batch.admin.jmx.SimpleStepExecutionMetricsTests, type=class, dit=1, noc=0, wmc=16, cbo=6, lcom=0, rfc=31, nom=16, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/jmx/BatchMBeanExporterNoStepsIntegrationTests.java, className=org.springframework.batch.admin.jmx.BatchMBeanExporterNoStepsIntegrationTests, type=class, dit=1, noc=0, wmc=2, cbo=9, lcom=1, rfc=9, nom=2, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/jmx/BatchMBeanExporterTests.java, className=org.springframework.batch.admin.jmx.BatchMBeanExporterTests, type=class, dit=3, noc=0, wmc=7, cbo=11, lcom=9, rfc=26, nom=5, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/jmx/IntegrationAndBatchMBeanExporterIntegrationTests.java, className=org.springframework.batch.admin.jmx.IntegrationAndBatchMBeanExporterIntegrationTests, type=class, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=1, nom=1, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/jmx/SimpleJobExecutionMetricsTests.java, className=org.springframework.batch.admin.jmx.SimpleJobExecutionMetricsTests, type=class, dit=1, noc=0, wmc=17, cbo=8, lcom=0, rfc=38, nom=17, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/jmx/BatchMBeanExporterIntegrationTests.java, className=org.springframework.batch.admin.jmx.BatchMBeanExporterIntegrationTests, type=class, dit=1, noc=0, wmc=3, cbo=9, lcom=1, rfc=9, nom=3, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/integration/StringToJobLaunchRequestAdapterTests.java, className=org.springframework.batch.admin.integration.StringToJobLaunchRequestAdapterTests, type=class, dit=1, noc=0, wmc=5, cbo=6, lcom=0, rfc=12, nom=5, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/integration/JobLaunchRequestFileAdapterTests.java, className=org.springframework.batch.admin.integration.JobLaunchRequestFileAdapterTests, type=class, dit=1, noc=0, wmc=2, cbo=6, lcom=0, rfc=13, nom=2, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/integration/JobRestartRequestStringAdapterTests.java, className=org.springframework.batch.admin.integration.JobRestartRequestStringAdapterTests, type=class, dit=1, noc=0, wmc=3, cbo=13, lcom=0, rfc=23, nom=3, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/integration/JobConfigurationRequestLoaderTests.java, className=org.springframework.batch.admin.integration.JobConfigurationRequestLoaderTests, type=class, dit=1, noc=0, wmc=8, cbo=15, lcom=22, rfc=16, nom=8, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/LocalFileServiceJobIntegrationTests.java, className=org.springframework.batch.admin.service.LocalFileServiceJobIntegrationTests, type=class, dit=1, noc=0, wmc=4, cbo=18, lcom=0, rfc=18, nom=3, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/JdbcDaoIntegrationTests.java, className=org.springframework.batch.admin.service.JdbcDaoIntegrationTests, type=class, dit=5, noc=0, wmc=0, cbo=5, lcom=0, rfc=0, nom=0, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/JdbcSearchableJobExecutionDaoTests.java, className=org.springframework.batch.admin.service.JdbcSearchableJobExecutionDaoTests, type=class, dit=1, noc=0, wmc=13, cbo=10, lcom=0, rfc=16, nom=13, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/LocalFileServiceTests.java, className=org.springframework.batch.admin.service.LocalFileServiceTests, type=class, dit=1, noc=0, wmc=17, cbo=7, lcom=0, rfc=28, nom=16, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/SimpleJobServiceFactoryTests.java, className=org.springframework.batch.admin.service.SimpleJobServiceFactoryTests, type=class, dit=1, noc=0, wmc=6, cbo=7, lcom=0, rfc=11, nom=1, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/FileInfoTests.java, className=org.springframework.batch.admin.service.FileInfoTests, type=class, dit=1, noc=0, wmc=9, cbo=2, lcom=36, rfc=11, nom=9, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/JdbcSearchableStepExecutionDaoTests.java, className=org.springframework.batch.admin.service.JdbcSearchableStepExecutionDaoTests, type=class, dit=1, noc=0, wmc=14, cbo=11, lcom=0, rfc=15, nom=14, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/ActiveProfileSuite.java, className=org.springframework.batch.admin.service.ActiveProfileSuite, type=class, dit=2, noc=0, wmc=10, cbo=5, lcom=3, rfc=7, nom=2, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/SimpleJobServiceTests.java, className=org.springframework.batch.admin.service.SimpleJobServiceTests, type=class, dit=3, noc=0, wmc=52, cbo=26, lcom=0, rfc=103, nom=39, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/JobLocatorStepLocatorTests.java, className=org.springframework.batch.admin.service.JobLocatorStepLocatorTests, type=class, dit=1, noc=0, wmc=5, cbo=9, lcom=0, rfc=15, nom=5, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/JobSupport.java, className=org.springframework.batch.admin.service.JobSupport, type=class, dit=1, noc=0, wmc=7, cbo=5, lcom=13, rfc=0, nom=7, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/LocalFileServiceIntegrationTests.java, className=org.springframework.batch.admin.service.LocalFileServiceIntegrationTests, type=class, dit=1, noc=0, wmc=4, cbo=14, lcom=0, rfc=16, nom=4, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/JdbcSearchableJobInstanceDaoTests.java, className=org.springframework.batch.admin.service.JdbcSearchableJobInstanceDaoTests, type=class, dit=1, noc=0, wmc=6, cbo=11, lcom=0, rfc=9, nom=6, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/service/JobLocatorStepLocatorIntegrationTests.java, className=org.springframework.batch.admin.service.JobLocatorStepLocatorIntegrationTests, type=class, dit=1, noc=0, wmc=2, cbo=5, lcom=0, rfc=5, nom=2, specific={role=9999}]
+17:17:09  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/BootstrapTests.java, className=org.springframework.batch.admin.BootstrapTests, type=class, dit=1, noc=0, wmc=7, cbo=16, lcom=6, rfc=32, nom=3, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/lead/Client.java, className=org.springframework.batch.admin.sample.lead.Client, type=class, dit=1, noc=0, wmc=7, cbo=0, lcom=0, rfc=3, nom=7, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/lead/support/SimpleWriter.java, className=org.springframework.batch.admin.sample.lead.support.SimpleWriter, type=class, dit=1, noc=0, wmc=5, cbo=2, lcom=0, rfc=6, nom=2, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/lead/support/SimpleReader.java, className=org.springframework.batch.admin.sample.lead.support.SimpleReader, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/lead/support/LeadFieldSetMapper.java, className=org.springframework.batch.admin.sample.lead.support.LeadFieldSetMapper, type=class, dit=1, noc=0, wmc=1, cbo=4, lcom=0, rfc=5, nom=1, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/lead/support/StagingWriter.java, className=org.springframework.batch.admin.sample.lead.support.StagingWriter, type=class, dit=1, noc=0, wmc=4, cbo=4, lcom=0, rfc=2, nom=3, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/lead/Product.java, className=org.springframework.batch.admin.sample.lead.Product, type=class, dit=1, noc=0, wmc=5, cbo=0, lcom=0, rfc=3, nom=5, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/lead/Lead.java, className=org.springframework.batch.admin.sample.lead.Lead, type=class, dit=1, noc=0, wmc=15, cbo=3, lcom=35, rfc=3, nom=15, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/RestartJobIntegrationTests.java, className=org.springframework.batch.admin.sample.RestartJobIntegrationTests, type=class, dit=1, noc=0, wmc=5, cbo=16, lcom=4, rfc=10, nom=3, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/FileDropJobIntegrationTests.java, className=org.springframework.batch.admin.sample.FileDropJobIntegrationTests, type=class, dit=1, noc=0, wmc=5, cbo=16, lcom=6, rfc=15, nom=5, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/JobConfigurationRequestIntegrationTests.java, className=org.springframework.batch.admin.sample.JobConfigurationRequestIntegrationTests, type=class, dit=1, noc=0, wmc=4, cbo=15, lcom=2, rfc=11, nom=4, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/StagingJobTests.java, className=org.springframework.batch.admin.sample.StagingJobTests, type=class, dit=1, noc=0, wmc=2, cbo=10, lcom=0, rfc=10, nom=2, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/ExampleTasklet.java, className=org.springframework.batch.admin.sample.ExampleTasklet, type=class, dit=1, noc=0, wmc=3, cbo=4, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/StringPayloadJobIntegrationTests.java, className=org.springframework.batch.admin.sample.StringPayloadJobIntegrationTests, type=class, dit=1, noc=0, wmc=1, cbo=10, lcom=0, rfc=3, nom=1, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/LeadRandomizer.java, className=org.springframework.batch.admin.sample.LeadRandomizer, type=class, dit=1, noc=0, wmc=17, cbo=9, lcom=21, rfc=31, nom=5, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/JobLaunchIntegrationTests.java, className=org.springframework.batch.admin.sample.JobLaunchIntegrationTests, type=class, dit=1, noc=0, wmc=1, cbo=12, lcom=0, rfc=8, nom=1, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/TestMessagingGateway.java, className=org.springframework.batch.admin.sample.TestMessagingGateway, type=class, dit=1, noc=0, wmc=3, cbo=6, lcom=0, rfc=6, nom=3, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/history/StepExecutionHistoryTests.java, className=org.springframework.batch.admin.history.StepExecutionHistoryTests, type=class, dit=1, noc=0, wmc=4, cbo=4, lcom=0, rfc=11, nom=4, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/history/CumulativeHistoryTests.java, className=org.springframework.batch.admin.history.CumulativeHistoryTests, type=class, dit=1, noc=0, wmc=8, cbo=2, lcom=0, rfc=10, nom=8, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/launch/JobLauncherSynchronizerIntegrationTests.java, className=org.springframework.batch.admin.launch.JobLauncherSynchronizerIntegrationTests, type=class, dit=1, noc=0, wmc=14, cbo=15, lcom=0, rfc=26, nom=5, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/annotation/EnableBatchAdminTests.java, className=org.springframework.batch.admin.annotation.EnableBatchAdminTests, type=class, dit=1, noc=0, wmc=5, cbo=6, lcom=0, rfc=9, nom=3, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/util/ThrottledTaskExecutorTests.java, className=org.springframework.batch.admin.util.ThrottledTaskExecutorTests, type=class, dit=1, noc=0, wmc=20, cbo=3, lcom=0, rfc=19, nom=8, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/util/RegExpTests.java, className=org.springframework.batch.admin.util.RegExpTests, type=class, dit=1, noc=0, wmc=2, cbo=1, lcom=0, rfc=3, nom=2, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/configuration/CompositeApplicationContextFactoryTests.java, className=org.springframework.batch.admin.configuration.CompositeApplicationContextFactoryTests, type=class, dit=1, noc=0, wmc=8, cbo=9, lcom=0, rfc=14, nom=7, specific={role=9999}]
+17:17:10  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/poller/scheduling/TaskSchedulerPollerTests.java, className=org.springframework.batch.poller.scheduling.TaskSchedulerPollerTests, type=class, dit=2, noc=0, wmc=19, cbo=11, lcom=34, rfc=19, nom=8, specific={role=9999}]
+17:17:10  INFO Finished parsing
+17:17:10  INFO Looking for smells
+17:17:10  INFO Starting the parse engine
+17:17:10  INFO Found 231 java files. We divided into 1 partitions
+17:17:10  INFO Identifying roles...
+17:17:11  INFO -- org.springframework.batch.admin.sample.RemoteStep is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.sample.job.JobConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.sample.StepLocatorStepFactoryBean is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.sample.ExampleItemReader is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.sample.ExampleItemWriter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.sample.TrivialJobParametersIncrementer is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.sample.JobIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.sample.ExampleItemReaderTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.sample.BootstrapTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.sample.job.JobConfigurationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.sample.ExampleItemWriterTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.sample.JobExecutionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.DetailedJobInfoResource is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.JobExecutionHistory is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.StepExecutionInfoResource is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.CumulativeHistory is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.support.StepExecutionHistoryJacksonMixIn is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.support.ExitStatusJacksonMixIn is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.support.JobParametersExtractor is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.support.JobParameterJacksonMixIn is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.support.JobParameterJacksonDeserializer is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.support.JobParametersJacksonMixIn is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.support.VariableTypeJackson2ObjectMapperFactoryBean is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.support.ISO8601DateFormatWithMilliSeconds is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.StepExecutionHistory is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.StepExecutionProgressInfo is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.JobInstanceInfoResource is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.StepExecutionInfo is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.JobExecutionInfoResource is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.JobInfoResource is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.NoSuchBatchJobException is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.FileInfoResource is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.JobInfo is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.DetailedJobInfo is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.StepType is a ArchitecturalRole [role=other, id=9999] (enum)
+17:17:11  INFO -- org.springframework.batch.admin.domain.StepExecutionProgress is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.StepExecutionProgressInfoResource is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.JobExecutionInfo is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.NoSuchBatchJobInstanceException is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.AbstractSerializationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.FileInfoResourceSerializationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.StepExecutionProgressInfoResourceSerializationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.JobExecutionInfoResourceRunningJobSerializationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.StepExecutionInfoResourceSerializationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.JobExecutionInfoResourceSerializationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.JobInstanceInfoResourceSerializationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.DetailedJobInfoResourceSerializationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.domain.JobInfoResourceSerializationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.interceptor.ContentTypeInterceptor is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.freemarker.AjaxFreeMarkerView is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.freemarker.HippyFreeMarkerConfigurer is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.resources.MenuManager is a ArchitecturalRole [role=component, id=5] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.resources.ResourceService is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:11  INFO -- org.springframework.batch.admin.web.resources.BaseMenu is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.resources.Menu is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:11  INFO -- org.springframework.batch.admin.web.resources.DefaultResourceService is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.filter.ParameterUnpackerFilter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.filter.SessionIdFilter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.util.HomeController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.util.ResourceInfo is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.test.context.support.WebApplicationContextLoader is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.interceptor.ContentTypeInterceptorTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.views.StandardJsonViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.views.JsonWrapper is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.views.HomeViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.views.RssViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.views.HomeJsonViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.views.StandardViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.views.AbstractResourceViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.resources.DummyMenu is a ArchitecturalRole [role=component, id=5] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.filter.SessionIdFilterTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:11  INFO -- org.springframework.batch.admin.web.filter.ParameterUnpackerFilterTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.util.HomeControllerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.StepExecutionController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.RestConfiguration is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.JobController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.resource.JobInstanceInfoResourceAssembler is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.resource.JobExecutionInfoResourceAssembler is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.resource.FileInfoResourceAssembler is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.resource.StepExecutionInfoResourceAssembler is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.resource.DetailedJobInfoResourceAssembler is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.resource.StepExecutionProgressInfoResourceAssembler is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.resource.JobInfoResourceAssembler is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.FileController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.JobsMenu is a ArchitecturalRole [role=component, id=5] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.BatchStepExecutionsController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.BatchJobExecutionsController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.BindingHttpMessageConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.FilesMenu is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.ExecutionsMenu is a ArchitecturalRole [role=component, id=5] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.JobExecutionController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.TableUtils is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.BatchFileController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.RestControllerAdvice is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.BatchJobInstancesController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.AbstractBatchJobsController is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.LaunchRequest is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.JsonViewResolver is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.HomeMenu is a ArchitecturalRole [role=component, id=5] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.ViewHandler is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.JobInstanceInfo is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.BatchJobsController is a ArchitecturalRole [role=controller, id=1] (class)
+17:17:12  INFO -- org.springframework.batch.admin.jmx.StepExecutionServiceLevelMonitor is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.jmx.JobExecutionMetricsFactory is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:12  INFO -- org.springframework.batch.admin.jmx.StepExecutionMetrics is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:12  INFO -- org.springframework.batch.admin.jmx.JobExecutionMetrics is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:12  INFO -- org.springframework.batch.admin.jmx.StepExecutionMetricsFactory is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:12  INFO -- org.springframework.batch.admin.jmx.SimpleJobExecutionMetrics is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.jmx.BatchMBeanExporter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.jmx.SimpleStepExecutionMetrics is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.integration.JobConfigurationResourceLoader is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.integration.FileParentDirectoryFilter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.integration.JobNameToJobRestartRequestAdapter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.integration.StringToJobLaunchRequestAdapter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.integration.JobConfigurationRequestToResourceAdapter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.integration.MultipartJobConfigurationRequest is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.integration.JobConfigurationRequest is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.integration.LastJobParametersJobLaunchRequestEnhancer is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.integration.FileToJobLaunchRequestAdapter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.integration.FileToResourceAdapter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.integration.MultipartToJobConfigurationRequestTransformer is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.service.FileServiceResourceConverter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.service.SearchableJobInstanceDao is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:12  INFO -- org.springframework.batch.admin.service.SearchableJobExecutionDao is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:12  INFO -- org.springframework.batch.admin.service.SearchableStepExecutionDao is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:12  INFO -- org.springframework.batch.admin.service.JdbcSearchableStepExecutionDao is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.service.JdbcSearchableJobExecutionDao is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.service.FileSender is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:12  INFO -- org.springframework.batch.admin.service.JdbcSearchableJobInstanceDao is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.service.JobService is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:12  INFO -- org.springframework.batch.admin.service.JobLocatorStepLocator is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.service.NoSuchStepExecutionException is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.service.FileService is a ArchitecturalRole [role=other, id=9999] (interface)
+17:17:12  INFO -- org.springframework.batch.admin.service.LocalFileService is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.service.SimpleJobService is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.service.SimpleJobServiceFactoryBean is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.service.FileInfo is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.launch.JobLauncherSynchronizer is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.util.ThrottledTaskExecutor is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.configuration.CompositeApplicationContextFactory is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.poller.scheduling.TaskSchedulerPoller is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12 ERROR error in /home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/test/context/support/WebApplicationContextLoader.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getSuperclass(ClassInfoVisitor.java:47)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:29)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:12  INFO -- org.springframework.batch.admin.web.JsonWrapper is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.server.JsonIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:12  INFO -- org.springframework.batch.admin.web.AbstractControllerIntegrationTest is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.StepExecutionProgressTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.base.DummyMenu is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.BatchJobInstancesControllerIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.JobExecutionControllerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.StepExecutionControllerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.MultiBinderTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.JobControllerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.JobExecutionInfoTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.TestDependencies is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.JobExecutionViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.JobJsonViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.JobExecutionsRssViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.JobExecutionJsonViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.FilesJsonViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.StepExecutionHistoryViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.AbstractManagerViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.JobExecutionsViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.JobExecutionsJsonViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.StepExecutionJsonViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.StepExecutionViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.ConfigurationViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.FilesViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.StepExecutionsViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.views.JobViewTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.JobParametersExtractorTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.FileControllerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.resources.TestMenu is a ArchitecturalRole [role=component, id=5] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.StepExecutionInfoTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.BatchJobExecutionsControllerIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.BatchStepExecutionsControllerIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.BatchJobsControllerIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.web.BatchFilesControllerIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.IgnoredTestSuite is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.ServerRunning is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.jmx.SimpleStepExecutionMetricsTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.jmx.BatchMBeanExporterNoStepsIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.jmx.BatchMBeanExporterTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.jmx.IntegrationAndBatchMBeanExporterIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.jmx.SimpleJobExecutionMetricsTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.jmx.BatchMBeanExporterIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.integration.StringToJobLaunchRequestAdapterTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.integration.JobLaunchRequestFileAdapterTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.integration.JobRestartRequestStringAdapterTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.integration.JobConfigurationRequestLoaderTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.LocalFileServiceJobIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.JdbcDaoIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.JdbcSearchableJobExecutionDaoTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.LocalFileServiceTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.SimpleJobServiceFactoryTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.FileInfoTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.JdbcSearchableStepExecutionDaoTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.ActiveProfileSuite is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.SimpleJobServiceTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.JobLocatorStepLocatorTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.JobSupport is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.LocalFileServiceIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.JdbcSearchableJobInstanceDaoTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.service.JobLocatorStepLocatorIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.BootstrapTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.lead.Client is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.lead.support.SimpleWriter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.lead.support.SimpleReader is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.lead.support.LeadFieldSetMapper is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.lead.support.StagingWriter is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.lead.Product is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.lead.Lead is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.RestartJobIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.FileDropJobIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.JobConfigurationRequestIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.StagingJobTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.ExampleTasklet is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.StringPayloadJobIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13 ERROR error in /home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/ExampleItemReader.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getInterfaces(ClassInfoVisitor.java:39)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:30)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:13 ERROR error in /home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/ExampleItemWriter.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.getInterfaces(ClassInfoVisitor.java:39)
+	at com.github.mauricioaniche.springlint.utils.jdt.ClassInfoVisitor.visit(ClassInfoVisitor.java:30)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:453)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2782)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:212)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2711)
+	at com.github.mauricioaniche.springlint.analysis.smells.ArchitecturalRoleRequestor.acceptAST(ArchitecturalRoleRequestor.java:30)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.identifyRoles(SmellAnalysis.java:43)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:28)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:13  INFO -- org.springframework.batch.admin.sample.LeadRandomizer is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.JobLaunchIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.sample.TestMessagingGateway is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.history.StepExecutionHistoryTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.history.CumulativeHistoryTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.launch.JobLauncherSynchronizerIntegrationTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.annotation.EnableBatchAdminTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.util.ThrottledTaskExecutorTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.util.RegExpTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.admin.configuration.CompositeApplicationContextFactoryTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO -- org.springframework.batch.poller.scheduling.TaskSchedulerPollerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:17:13  INFO Identifying smells...
+17:17:14  INFO Analysing class org.springframework.batch.admin.sample.RemoteStep
+17:17:14  INFO Analysing class org.springframework.batch.admin.sample.job.JobConfiguration
+17:17:14  INFO Analysing class org.springframework.batch.admin.sample.StepLocatorStepFactoryBean
+17:17:14  INFO Analysing class org.springframework.batch.admin.sample.ExampleItemReader
+17:17:14  INFO Analysing class org.springframework.batch.admin.sample.ExampleItemWriter
+17:17:14  INFO Analysing class org.springframework.batch.admin.sample.TrivialJobParametersIncrementer
+17:17:14  INFO Analysing class org.springframework.batch.admin.sample.JobIntegrationTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.sample.ExampleItemReaderTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.sample.BootstrapTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.sample.job.JobConfigurationTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.sample.ExampleItemWriterTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.sample.JobExecutionTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.DetailedJobInfoResource
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.JobExecutionHistory
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.StepExecutionInfoResource
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.CumulativeHistory
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.support.StepExecutionHistoryJacksonMixIn
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.support.ExitStatusJacksonMixIn
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.support.JobParametersExtractor
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.support.JobParameterJacksonMixIn
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.support.JobParameterJacksonDeserializer
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.support.JobParametersJacksonMixIn
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.support.VariableTypeJackson2ObjectMapperFactoryBean
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.support.ISO8601DateFormatWithMilliSeconds
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.StepExecutionHistory
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.StepExecutionProgressInfo
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.JobInstanceInfoResource
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.StepExecutionInfo
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.JobExecutionInfoResource
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.JobInfoResource
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.NoSuchBatchJobException
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.FileInfoResource
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.JobInfo
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.DetailedJobInfo
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.StepType
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.StepExecutionProgress
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.StepExecutionProgressInfoResource
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.JobExecutionInfo
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.NoSuchBatchJobInstanceException
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.AbstractSerializationTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.FileInfoResourceSerializationTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.StepExecutionProgressInfoResourceSerializationTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.JobExecutionInfoResourceRunningJobSerializationTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.StepExecutionInfoResourceSerializationTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.JobExecutionInfoResourceSerializationTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.JobInstanceInfoResourceSerializationTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.DetailedJobInfoResourceSerializationTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.domain.JobInfoResourceSerializationTests
+17:17:14  INFO Analysing class org.springframework.batch.admin.web.interceptor.ContentTypeInterceptor
+17:17:14  INFO Analysing class org.springframework.batch.admin.web.freemarker.AjaxFreeMarkerView
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.freemarker.HippyFreeMarkerConfigurer
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.resources.MenuManager
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.resources.ResourceService
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.resources.BaseMenu
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.resources.Menu
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.resources.DefaultResourceService
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.filter.ParameterUnpackerFilter
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.filter.SessionIdFilter
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.util.HomeController
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.util.ResourceInfo
+17:17:15  INFO Analysing class org.springframework.test.context.support.WebApplicationContextLoader
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.interceptor.ContentTypeInterceptorTests
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.views.StandardJsonViewTests
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.views.JsonWrapper
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.views.HomeViewTests
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.views.RssViewTests
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.views.HomeJsonViewTests
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.views.StandardViewTests
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.views.AbstractResourceViewTests
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.resources.DummyMenu
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.filter.SessionIdFilterTests
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.filter.ParameterUnpackerFilterTests
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.util.HomeControllerTests
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.StepExecutionController
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.RestConfiguration
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.JobController
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.resource.JobInstanceInfoResourceAssembler
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.resource.JobExecutionInfoResourceAssembler
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.resource.FileInfoResourceAssembler
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.resource.StepExecutionInfoResourceAssembler
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.resource.DetailedJobInfoResourceAssembler
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.resource.StepExecutionProgressInfoResourceAssembler
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.resource.JobInfoResourceAssembler
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.FileController
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.JobsMenu
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.BatchStepExecutionsController
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.BatchJobExecutionsController
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.BindingHttpMessageConverter
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.FilesMenu
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.ExecutionsMenu
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.JobExecutionController
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.TableUtils
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.BatchFileController
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.RestControllerAdvice
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.BatchJobInstancesController
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.AbstractBatchJobsController
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.LaunchRequest
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.JsonViewResolver
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.HomeMenu
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.ViewHandler
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.JobInstanceInfo
+17:17:15  INFO Analysing class org.springframework.batch.admin.web.BatchJobsController
+17:17:15  INFO Analysing class org.springframework.batch.admin.jmx.StepExecutionServiceLevelMonitor
+17:17:15  INFO Analysing class org.springframework.batch.admin.jmx.JobExecutionMetricsFactory
+17:17:15  INFO Analysing class org.springframework.batch.admin.jmx.StepExecutionMetrics
+17:17:15  INFO Analysing class org.springframework.batch.admin.jmx.JobExecutionMetrics
+17:17:15  INFO Analysing class org.springframework.batch.admin.jmx.StepExecutionMetricsFactory
+17:17:15  INFO Analysing class org.springframework.batch.admin.jmx.SimpleJobExecutionMetrics
+17:17:15  INFO Analysing class org.springframework.batch.admin.jmx.BatchMBeanExporter
+17:17:15  INFO Analysing class org.springframework.batch.admin.jmx.SimpleStepExecutionMetrics
+17:17:15  INFO Analysing class org.springframework.batch.admin.integration.JobConfigurationResourceLoader
+17:17:15  INFO Analysing class org.springframework.batch.admin.integration.FileParentDirectoryFilter
+17:17:15  INFO Analysing class org.springframework.batch.admin.integration.JobNameToJobRestartRequestAdapter
+17:17:15  INFO Analysing class org.springframework.batch.admin.integration.StringToJobLaunchRequestAdapter
+17:17:15  INFO Analysing class org.springframework.batch.admin.integration.JobConfigurationRequestToResourceAdapter
+17:17:15  INFO Analysing class org.springframework.batch.admin.integration.MultipartJobConfigurationRequest
+17:17:15  INFO Analysing class org.springframework.batch.admin.integration.JobConfigurationRequest
+17:17:15  INFO Analysing class org.springframework.batch.admin.integration.LastJobParametersJobLaunchRequestEnhancer
+17:17:15  INFO Analysing class org.springframework.batch.admin.integration.FileToJobLaunchRequestAdapter
+17:17:15  INFO Analysing class org.springframework.batch.admin.integration.FileToResourceAdapter
+17:17:15  INFO Analysing class org.springframework.batch.admin.integration.MultipartToJobConfigurationRequestTransformer
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.FileServiceResourceConverter
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.SearchableJobInstanceDao
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.SearchableJobExecutionDao
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.SearchableStepExecutionDao
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.JdbcSearchableStepExecutionDao
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.JdbcSearchableJobExecutionDao
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.FileSender
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.JdbcSearchableJobInstanceDao
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.JobService
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.JobLocatorStepLocator
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.NoSuchStepExecutionException
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.FileService
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.LocalFileService
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.SimpleJobService
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.SimpleJobServiceFactoryBean
+17:17:15  INFO Analysing class org.springframework.batch.admin.service.FileInfo
+17:17:16  INFO Analysing class org.springframework.batch.admin.launch.JobLauncherSynchronizer
+17:17:16 ERROR error in /home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/main/java/org/springframework/batch/admin/annotation/EnableBatchAdmin.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:16  INFO Analysing class org.springframework.batch.admin.util.ThrottledTaskExecutor
+17:17:16  INFO Analysing class org.springframework.batch.admin.configuration.CompositeApplicationContextFactory
+17:17:16  INFO Analysing class org.springframework.batch.poller.scheduling.TaskSchedulerPoller
+17:17:16 ERROR error in /home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/test/context/support/WebApplicationContextLoader.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.JsonWrapper
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.server.JsonIntegrationTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.AbstractControllerIntegrationTest
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.StepExecutionProgressTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.base.DummyMenu
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.BatchJobInstancesControllerIntegrationTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.JobExecutionControllerTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.StepExecutionControllerTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.MultiBinderTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.JobControllerTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.JobExecutionInfoTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.TestDependencies
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.JobExecutionViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.JobJsonViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.JobExecutionsRssViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.JobExecutionJsonViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.FilesJsonViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.StepExecutionHistoryViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.AbstractManagerViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.JobExecutionsViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.JobExecutionsJsonViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.StepExecutionJsonViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.StepExecutionViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.ConfigurationViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.FilesViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.StepExecutionsViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.views.JobViewTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.JobParametersExtractorTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.FileControllerTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.resources.TestMenu
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.StepExecutionInfoTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.BatchJobExecutionsControllerIntegrationTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.BatchStepExecutionsControllerIntegrationTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.BatchJobsControllerIntegrationTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.web.BatchFilesControllerIntegrationTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.IgnoredTestSuite
+17:17:16  INFO Analysing class org.springframework.batch.admin.ServerRunning
+17:17:16  INFO Analysing class org.springframework.batch.admin.jmx.SimpleStepExecutionMetricsTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.jmx.BatchMBeanExporterNoStepsIntegrationTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.jmx.BatchMBeanExporterTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.jmx.IntegrationAndBatchMBeanExporterIntegrationTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.jmx.SimpleJobExecutionMetricsTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.jmx.BatchMBeanExporterIntegrationTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.integration.StringToJobLaunchRequestAdapterTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.integration.JobLaunchRequestFileAdapterTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.integration.JobRestartRequestStringAdapterTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.integration.JobConfigurationRequestLoaderTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.LocalFileServiceJobIntegrationTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.JdbcDaoIntegrationTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.JdbcSearchableJobExecutionDaoTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.LocalFileServiceTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.SimpleJobServiceFactoryTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.FileInfoTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.JdbcSearchableStepExecutionDaoTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.ActiveProfileSuite
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.SimpleJobServiceTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.JobLocatorStepLocatorTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.JobSupport
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.LocalFileServiceIntegrationTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.JdbcSearchableJobInstanceDaoTests
+17:17:16  INFO Analysing class org.springframework.batch.admin.service.JobLocatorStepLocatorIntegrationTests
+17:17:17  INFO Analysing class org.springframework.batch.admin.BootstrapTests
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.lead.Client
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.lead.support.SimpleWriter
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.lead.support.SimpleReader
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.lead.support.LeadFieldSetMapper
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.lead.support.StagingWriter
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.lead.Product
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.lead.Lead
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.RestartJobIntegrationTests
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.FileDropJobIntegrationTests
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.JobConfigurationRequestIntegrationTests
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.StagingJobTests
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.ExampleTasklet
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.StringPayloadJobIntegrationTests
+17:17:17 ERROR error in /home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/ExampleItemReader.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:17 ERROR error in /home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-manager/src/test/java/org/springframework/batch/admin/sample/ExampleItemWriter.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.LeadRandomizer
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.JobLaunchIntegrationTests
+17:17:17  INFO Analysing class org.springframework.batch.admin.sample.TestMessagingGateway
+17:17:17  INFO Analysing class org.springframework.batch.admin.history.StepExecutionHistoryTests
+17:17:17  INFO Analysing class org.springframework.batch.admin.history.CumulativeHistoryTests
+17:17:17  INFO Analysing class org.springframework.batch.admin.launch.JobLauncherSynchronizerIntegrationTests
+17:17:17  INFO Analysing class org.springframework.batch.admin.annotation.EnableBatchAdminTests
+17:17:17  INFO Analysing class org.springframework.batch.admin.util.ThrottledTaskExecutorTests
+17:17:17  INFO Analysing class org.springframework.batch.admin.util.RegExpTests
+17:17:17  INFO Analysing class org.springframework.batch.admin.configuration.CompositeApplicationContextFactoryTests
+17:17:17  INFO Analysing class org.springframework.batch.poller.scheduling.TaskSchedulerPollerTests
+17:17:17  INFO Generating output
+17:17:17  INFO That's it! It only took 15 seconds

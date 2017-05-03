@@ -1,0 +1,506 @@
+17:14:09  INFO # ----------------------------------------- #
+17:14:09  INFO #          Smelly Cat - Spring MVC          #
+17:14:09  INFO #  www.github.com/mauricioaniche/smellycat  #
+17:14:09  INFO # ----------------------------------------- #
+17:14:09  INFO Running CK metrics
+17:14:09  INFO Found 120 java files
+17:14:09  INFO Max partition size: 300, total partitions=1
+17:14:09  INFO Next partition
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/mock/http/MockHttpInputMessage.java, className=org.springframework.mock.http.MockHttpInputMessage, type=class, dit=1, noc=0, wmc=5, cbo=3, lcom=0, rfc=1, nom=4, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/mock/http/client/MockClientHttpResponse.java, className=org.springframework.mock.http.client.MockClientHttpResponse, type=class, dit=2, noc=0, wmc=6, cbo=4, lcom=0, rfc=3, nom=6, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/mock/http/client/MockClientHttpRequest.java, className=org.springframework.mock.http.client.MockClientHttpRequest, type=class, dit=2, noc=0, wmc=18, cbo=4, lcom=19, rfc=6, nom=10, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/mock/http/MockHttpOutputMessage.java, className=org.springframework.mock.http.MockHttpOutputMessage, type=class, dit=1, noc=0, wmc=6, cbo=3, lcom=8, rfc=6, nom=5, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/RequestBuilder.java, className=org.springframework.test.web.server.RequestBuilder, type=interface, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/MvcResult.java, className=org.springframework.test.web.server.MvcResult, type=interface, dit=1, noc=0, wmc=7, cbo=5, lcom=21, rfc=0, nom=7, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/MockFilterChain.java, className=org.springframework.test.web.server.MockFilterChain, type=class, dit=1, noc=0, wmc=19, cbo=7, lcom=30, rfc=12, nom=13, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/TestDispatcherServlet.java, className=org.springframework.test.web.server.TestDispatcherServlet, type=class, dit=2, noc=0, wmc=7, cbo=11, lcom=10, rfc=8, nom=5, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/MockMvcBuilder.java, className=org.springframework.test.web.server.MockMvcBuilder, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/setup/ContextMockMvcBuilder.java, className=org.springframework.test.web.server.setup.ContextMockMvcBuilder, type=class, dit=3, noc=0, wmc=10, cbo=11, lcom=0, rfc=7, nom=6, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/setup/InitializedContextMockMvcBuilder.java, className=org.springframework.test.web.server.setup.InitializedContextMockMvcBuilder, type=class, dit=3, noc=0, wmc=2, cbo=3, lcom=0, rfc=2, nom=2, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/setup/PatternMappingFilterProxy.java, className=org.springframework.test.web.server.setup.PatternMappingFilterProxy, type=class, dit=1, noc=0, wmc=28, cbo=7, lcom=1, rfc=14, nom=6, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/setup/MockWebApplicationContext.java, className=org.springframework.test.web.server.setup.MockWebApplicationContext, type=class, dit=2, noc=0, wmc=54, cbo=19, lcom=755, rfc=29, nom=51, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/setup/MockMvcBuilders.java, className=org.springframework.test.web.server.setup.MockMvcBuilders, type=class, dit=1, noc=0, wmc=4, cbo=6, lcom=6, rfc=3, nom=4, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/setup/StandaloneMockMvcBuilder.java, className=org.springframework.test.web.server.setup.StandaloneMockMvcBuilder, type=class, dit=5, noc=0, wmc=51, cbo=31, lcom=425, rfc=37, nom=31, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/setup/AbstractMockMvcBuilder.java, className=org.springframework.test.web.server.setup.AbstractMockMvcBuilder, type=class, dit=2, noc=0, wmc=10, cbo=15, lcom=9, rfc=9, nom=7, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/MockMvc.java, className=org.springframework.test.web.server.MockMvc, type=class, dit=1, noc=0, wmc=15, cbo=13, lcom=28, rfc=11, nom=6, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/request/MockHttpServletRequestBuilder.java, className=org.springframework.test.web.server.request.MockHttpServletRequestBuilder, type=class, dit=1, noc=0, wmc=118, cbo=26, lcom=353, rfc=84, nom=31, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/request/RequestPostProcessor.java, className=org.springframework.test.web.server.request.RequestPostProcessor, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/request/MockMvcRequestBuilders.java, className=org.springframework.test.web.server.request.MockMvcRequestBuilders, type=class, dit=1, noc=0, wmc=7, cbo=3, lcom=21, rfc=0, nom=7, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/request/MockMultipartHttpServletRequestBuilder.java, className=org.springframework.test.web.server.request.MockMultipartHttpServletRequestBuilder, type=class, dit=2, noc=0, wmc=10, cbo=8, lcom=0, rfc=5, nom=5, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/ResultMatcher.java, className=org.springframework.test.web.server.ResultMatcher, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/ContentResultMatchers.java, className=org.springframework.test.web.server.result.ContentResultMatchers, type=class, dit=1, noc=0, wmc=17, cbo=12, lcom=124, rfc=15, nom=10, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/ViewResultMatchers.java, className=org.springframework.test.web.server.result.ViewResultMatchers, type=class, dit=1, noc=0, wmc=4, cbo=6, lcom=6, rfc=6, nom=3, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/PrintingResultHandler.java, className=org.springframework.test.web.server.result.PrintingResultHandler, type=class, dit=1, noc=0, wmc=34, cbo=12, lcom=6, rfc=47, nom=13, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/MockMvcResultHandlers.java, className=org.springframework.test.web.server.result.MockMvcResultHandlers, type=class, dit=2, noc=0, wmc=7, cbo=3, lcom=10, rfc=6, nom=3, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/JsonPathResultMatchers.java, className=org.springframework.test.web.server.result.JsonPathResultMatchers, type=class, dit=1, noc=0, wmc=9, cbo=7, lcom=24, rfc=8, nom=6, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/RequestResultMatchers.java, className=org.springframework.test.web.server.result.RequestResultMatchers, type=class, dit=1, noc=0, wmc=7, cbo=7, lcom=21, rfc=7, nom=5, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/HeaderResultMatchers.java, className=org.springframework.test.web.server.result.HeaderResultMatchers, type=class, dit=1, noc=0, wmc=6, cbo=5, lcom=15, rfc=7, nom=4, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/XpathResultMatchers.java, className=org.springframework.test.web.server.result.XpathResultMatchers, type=class, dit=1, noc=0, wmc=16, cbo=13, lcom=90, rfc=14, nom=11, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/MockMvcResultMatchers.java, className=org.springframework.test.web.server.result.MockMvcResultMatchers, type=class, dit=1, noc=0, wmc=18, cbo=16, lcom=153, rfc=5, nom=16, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/CookieResultMatchers.java, className=org.springframework.test.web.server.result.CookieResultMatchers, type=class, dit=1, noc=0, wmc=25, cbo=7, lcom=300, rfc=19, nom=16, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/HandlerResultMatchers.java, className=org.springframework.test.web.server.result.HandlerResultMatchers, type=class, dit=1, noc=0, wmc=10, cbo=6, lcom=28, rfc=12, nom=5, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/FlashAttributeResultMatchers.java, className=org.springframework.test.web.server.result.FlashAttributeResultMatchers, type=class, dit=1, noc=0, wmc=9, cbo=7, lcom=28, rfc=9, nom=5, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/ModelResultMatchers.java, className=org.springframework.test.web.server.result.ModelResultMatchers, type=class, dit=1, noc=0, wmc=28, cbo=10, lcom=153, rfc=17, nom=11, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/StatusResultMatchers.java, className=org.springframework.test.web.server.result.StatusResultMatchers, type=class, dit=1, noc=0, wmc=73, cbo=7, lcom=2628, rfc=11, nom=70, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/ResultActions.java, className=org.springframework.test.web.server.ResultActions, type=interface, dit=1, noc=0, wmc=3, cbo=4, lcom=3, rfc=0, nom=3, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/ResultHandler.java, className=org.springframework.test.web.server.ResultHandler, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/MockMvcBuilderSupport.java, className=org.springframework.test.web.server.MockMvcBuilderSupport, type=class, dit=2, noc=0, wmc=3, cbo=12, lcom=1, rfc=5, nom=2, specific={role=9999}]
+17:14:12  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/DefaultMvcResult.java, className=org.springframework.test.web.server.DefaultMvcResult, type=class, dit=1, noc=0, wmc=12, cbo=6, lcom=50, rfc=1, nom=12, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/support/XpathExpectationsHelper.java, className=org.springframework.test.web.support.XpathExpectationsHelper, type=class, dit=1, noc=0, wmc=16, cbo=11, lcom=73, rfc=30, nom=15, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/support/JsonPathExpectationsHelper.java, className=org.springframework.test.web.support.JsonPathExpectationsHelper, type=class, dit=1, noc=0, wmc=14, cbo=4, lcom=0, rfc=12, nom=6, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/support/XmlExpectationsHelper.java, className=org.springframework.test.web.support.XmlExpectationsHelper, type=class, dit=1, noc=0, wmc=6, cbo=6, lcom=6, rfc=14, nom=4, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/ResponseActions.java, className=org.springframework.test.web.client.ResponseActions, type=interface, dit=1, noc=0, wmc=2, cbo=3, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/match/ContentRequestMatchers.java, className=org.springframework.test.web.client.match.ContentRequestMatchers, type=class, dit=1, noc=0, wmc=18, cbo=14, lcom=124, rfc=16, nom=11, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/match/JsonPathRequestMatchers.java, className=org.springframework.test.web.client.match.JsonPathRequestMatchers, type=class, dit=1, noc=0, wmc=12, cbo=8, lcom=43, rfc=9, nom=8, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/match/RequestMatchers.java, className=org.springframework.test.web.client.match.RequestMatchers, type=class, dit=1, noc=0, wmc=27, cbo=14, lcom=231, rfc=16, nom=15, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/match/XpathRequestMatchers.java, className=org.springframework.test.web.client.match.XpathRequestMatchers, type=class, dit=1, noc=0, wmc=19, cbo=15, lcom=123, rfc=15, nom=13, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/RequestMatcherClientHttpRequest.java, className=org.springframework.test.web.client.RequestMatcherClientHttpRequest, type=class, dit=3, noc=0, wmc=9, cbo=8, lcom=0, rfc=6, nom=4, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/MockRestServiceServer.java, className=org.springframework.test.web.client.MockRestServiceServer, type=class, dit=1, noc=0, wmc=18, cbo=11, lcom=9, rfc=19, nom=7, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/ResponseCreator.java, className=org.springframework.test.web.client.ResponseCreator, type=interface, dit=1, noc=0, wmc=1, cbo=2, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/RequestMatcher.java, className=org.springframework.test.web.client.RequestMatcher, type=interface, dit=1, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/response/ResponseCreators.java, className=org.springframework.test.web.client.response.ResponseCreators, type=class, dit=1, noc=0, wmc=17, cbo=10, lcom=136, rfc=10, nom=15, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/response/DefaultResponseCreator.java, className=org.springframework.test.web.client.response.DefaultResponseCreator, type=class, dit=1, noc=0, wmc=15, cbo=10, lcom=6, rfc=10, nom=8, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/AssertionErrors.java, className=org.springframework.test.web.AssertionErrors, type=class, dit=1, noc=0, wmc=11, cbo=0, lcom=10, rfc=3, nom=5, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/StubMvcResult.java, className=org.springframework.test.web.server.StubMvcResult, type=class, dit=1, noc=0, wmc=16, cbo=6, lcom=72, rfc=0, nom=16, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/setup/AbstractMockMvcBuilderTests.java, className=org.springframework.test.web.server.setup.AbstractMockMvcBuilderTests, type=class, dit=2, noc=0, wmc=7, cbo=11, lcom=1, rfc=4, nom=7, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/setup/ConditionalDelegatingFilterProxyTests.java, className=org.springframework.test.web.server.setup.ConditionalDelegatingFilterProxyTests, type=class, dit=1, noc=0, wmc=38, cbo=16, lcom=673, rfc=13, nom=38, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/context/SecurityRequestPostProcessors.java, className=org.springframework.test.web.server.samples.context.SecurityRequestPostProcessors, type=class, dit=4, noc=0, wmc=23, cbo=22, lcom=105, rfc=20, nom=18, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/context/XmlTestContextTests.java, className=org.springframework.test.web.server.samples.context.XmlTestContextTests, type=class, dit=1, noc=0, wmc=2, cbo=10, lcom=0, rfc=8, nom=2, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/context/GenericWebContextLoader.java, className=org.springframework.test.web.server.samples.context.GenericWebContextLoader, type=class, dit=2, noc=0, wmc=11, cbo=10, lcom=34, rfc=16, nom=8, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/context/ParentContextTests.java, className=org.springframework.test.web.server.samples.context.ParentContextTests, type=class, dit=2, noc=0, wmc=8, cbo=19, lcom=0, rfc=14, nom=8, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/context/WebConfig.java, className=org.springframework.test.web.server.samples.context.WebConfig, type=class, dit=2, noc=0, wmc=5, cbo=11, lcom=10, rfc=7, nom=5, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/context/JavaTestContextTests.java, className=org.springframework.test.web.server.samples.context.JavaTestContextTests, type=class, dit=1, noc=0, wmc=2, cbo=10, lcom=0, rfc=8, nom=2, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/context/WebContextLoader.java, className=org.springframework.test.web.server.samples.context.WebContextLoader, type=class, dit=3, noc=0, wmc=1, cbo=1, lcom=0, rfc=0, nom=1, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/context/SpringSecurityTests.java, className=org.springframework.test.web.server.samples.context.SpringSecurityTests, type=class, dit=1, noc=0, wmc=8, cbo=15, lcom=0, rfc=24, nom=6, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/context/WarRootDirectoryTests.java, className=org.springframework.test.web.server.samples.context.WarRootDirectoryTests, type=class, dit=1, noc=0, wmc=6, cbo=6, lcom=0, rfc=16, nom=4, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/ExceptionHandlerTests.java, className=org.springframework.test.web.server.samples.standalone.ExceptionHandlerTests, type=class, dit=1, noc=0, wmc=5, cbo=7, lcom=3, rfc=9, nom=3, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/RequestBuilderTests.java, className=org.springframework.test.web.server.samples.standalone.RequestBuilderTests, type=class, dit=1, noc=0, wmc=10, cbo=13, lcom=0, rfc=20, nom=9, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/RedirectTests.java, className=org.springframework.test.web.server.samples.standalone.RedirectTests, type=class, dit=1, noc=0, wmc=8, cbo=13, lcom=3, rfc=23, nom=6, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/ResponseBodyTests.java, className=org.springframework.test.web.server.samples.standalone.ResponseBodyTests, type=class, dit=1, noc=0, wmc=2, cbo=8, lcom=1, rfc=12, nom=2, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/ViewResolutionTests.java, className=org.springframework.test.web.server.samples.standalone.ViewResolutionTests, type=class, dit=1, noc=0, wmc=6, cbo=17, lcom=15, rfc=33, nom=6, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/RequestParameterTests.java, className=org.springframework.test.web.server.samples.standalone.RequestParameterTests, type=class, dit=1, noc=0, wmc=2, cbo=8, lcom=1, rfc=12, nom=2, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/StatusAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.StatusAssertionTests, type=class, dit=1, noc=0, wmc=8, cbo=10, lcom=8, rfc=13, nom=8, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/FlashAttributeAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.FlashAttributeAssertionTests, type=class, dit=1, noc=0, wmc=5, cbo=9, lcom=0, rfc=19, nom=5, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/XpathAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.XpathAssertionTests, type=class, dit=1, noc=0, wmc=12, cbo=15, lcom=14, rfc=35, nom=12, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/JsonPathAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.JsonPathAssertionTests, type=class, dit=1, noc=0, wmc=7, cbo=13, lcom=0, rfc=24, nom=7, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/XmlContentAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.XmlContentAssertionTests, type=class, dit=1, noc=0, wmc=7, cbo=12, lcom=9, rfc=17, nom=7, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/RequestAttributeAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.RequestAttributeAssertionTests, type=class, dit=1, noc=0, wmc=4, cbo=8, lcom=0, rfc=12, nom=4, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/ModelAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.ModelAssertionTests, type=class, dit=1, noc=0, wmc=10, cbo=12, lcom=0, rfc=26, nom=9, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/ViewNameAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.ViewNameAssertionTests, type=class, dit=1, noc=0, wmc=4, cbo=8, lcom=0, rfc=13, nom=4, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/CookieAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.CookieAssertionTests, type=class, dit=1, noc=0, wmc=11, cbo=10, lcom=0, rfc=25, nom=11, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/SessionAttributeAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.SessionAttributeAssertionTests, type=class, dit=1, noc=0, wmc=5, cbo=11, lcom=4, rfc=15, nom=5, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/ContentAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.ContentAssertionTests, type=class, dit=1, noc=0, wmc=8, cbo=10, lcom=0, rfc=19, nom=8, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/HeaderAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.HeaderAssertionTests, type=class, dit=1, noc=0, wmc=9, cbo=14, lcom=3, rfc=18, nom=7, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/UrlAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.UrlAssertionTests, type=class, dit=1, noc=0, wmc=5, cbo=7, lcom=4, rfc=7, nom=5, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/HandlerAssertionTests.java, className=org.springframework.test.web.server.samples.standalone.resultmatchers.HandlerAssertionTests, type=class, dit=1, noc=0, wmc=6, cbo=8, lcom=0, rfc=17, nom=6, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resulthandlers/PrintingResultHandlerTests.java, className=org.springframework.test.web.server.samples.standalone.resulthandlers.PrintingResultHandlerTests, type=class, dit=1, noc=0, wmc=2, cbo=4, lcom=1, rfc=0, nom=2, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/FilterTests.java, className=org.springframework.test.web.server.samples.standalone.FilterTests, type=class, dit=4, noc=0, wmc=16, cbo=14, lcom=89, rfc=24, nom=12, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/request/MockHttpServletRequestBuilderTests.java, className=org.springframework.test.web.server.request.MockHttpServletRequestBuilderTests, type=class, dit=1, noc=0, wmc=32, cbo=15, lcom=0, rfc=64, nom=31, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/result/StatusResultMatchersTests.java, className=org.springframework.test.web.server.result.StatusResultMatchersTests, type=class, dit=1, noc=0, wmc=7, cbo=6, lcom=1, rfc=16, nom=2, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/result/ContentResultMatchersTests.java, className=org.springframework.test.web.server.result.ContentResultMatchersTests, type=class, dit=1, noc=0, wmc=11, cbo=6, lcom=53, rfc=14, nom=11, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/result/JsonPathResultMatchersTests.java, className=org.springframework.test.web.server.result.JsonPathResultMatchersTests, type=class, dit=1, noc=0, wmc=11, cbo=4, lcom=53, rfc=12, nom=11, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/result/XpathResultMatchersTests.java, className=org.springframework.test.web.server.result.XpathResultMatchersTests, type=class, dit=1, noc=0, wmc=15, cbo=5, lcom=103, rfc=16, nom=15, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/result/FlashAttributeResultMatchersTests.java, className=org.springframework.test.web.server.result.FlashAttributeResultMatchersTests, type=class, dit=1, noc=0, wmc=5, cbo=4, lcom=10, rfc=5, nom=5, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/result/ModelResultMatchersTests.java, className=org.springframework.test.web.server.result.ModelResultMatchersTests, type=class, dit=1, noc=0, wmc=17, cbo=8, lcom=0, rfc=12, nom=17, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/result/PrintingResultHandlerTests.java, className=org.springframework.test.web.server.result.PrintingResultHandlerTests, type=class, dit=2, noc=0, wmc=18, cbo=16, lcom=0, rfc=43, nom=18, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/client/match/ContentRequestMatchersTests.java, className=org.springframework.test.web.client.match.ContentRequestMatchersTests, type=class, dit=1, noc=0, wmc=12, cbo=6, lcom=0, rfc=14, nom=12, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/client/match/XpathRequestMatchersTests.java, className=org.springframework.test.web.client.match.XpathRequestMatchersTests, type=class, dit=1, noc=0, wmc=15, cbo=6, lcom=0, rfc=14, nom=15, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/client/match/RequestMatchersTests.java, className=org.springframework.test.web.client.match.RequestMatchersTests, type=class, dit=1, noc=0, wmc=15, cbo=8, lcom=0, rfc=13, nom=15, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/client/match/JsonPathRequestMatchersTests.java, className=org.springframework.test.web.client.match.JsonPathRequestMatchersTests, type=class, dit=1, noc=0, wmc=11, cbo=5, lcom=0, rfc=10, nom=11, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/client/MockClientHttpRequestFactoryTests.java, className=org.springframework.test.web.client.MockClientHttpRequestFactoryTests, type=class, dit=1, noc=0, wmc=8, cbo=8, lcom=0, rfc=13, nom=6, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/client/samples/SampleTests.java, className=org.springframework.test.web.client.samples.SampleTests, type=class, dit=1, noc=0, wmc=5, cbo=10, lcom=0, rfc=14, nom=4, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/client/samples/matchers/ContentRequestMatcherTests.java, className=org.springframework.test.web.client.samples.matchers.ContentRequestMatcherTests, type=class, dit=1, noc=0, wmc=7, cbo=11, lcom=0, rfc=19, nom=6, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/client/samples/matchers/HeaderRequestMatcherTests.java, className=org.springframework.test.web.client.samples.matchers.HeaderRequestMatcherTests, type=class, dit=1, noc=0, wmc=3, cbo=11, lcom=0, rfc=14, nom=3, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/client/samples/matchers/JsonPathRequestMatcherTests.java, className=org.springframework.test.web.client.samples.matchers.JsonPathRequestMatcherTests, type=class, dit=1, noc=0, wmc=6, cbo=12, lcom=0, rfc=25, nom=6, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/client/samples/matchers/XpathRequestMatcherTests.java, className=org.springframework.test.web.client.samples.matchers.XpathRequestMatcherTests, type=class, dit=1, noc=0, wmc=11, cbo=12, lcom=3, rfc=32, nom=11, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/client/samples/matchers/XmlContentRequestMatcherTests.java, className=org.springframework.test.web.client.samples.matchers.XmlContentRequestMatcherTests, type=class, dit=1, noc=0, wmc=6, cbo=12, lcom=3, rfc=18, nom=6, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/client/response/ResponseCreatorsTests.java, className=org.springframework.test.web.client.response.ResponseCreatorsTests, type=class, dit=1, noc=0, wmc=9, cbo=6, lcom=36, rfc=21, nom=9, specific={role=9999}]
+17:14:13  INFO CKNumber [file=/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/Person.java, className=org.springframework.test.web.Person, type=class, dit=1, noc=0, wmc=14, cbo=2, lcom=5, rfc=1, nom=10, specific={role=9999}]
+17:14:13  INFO Finished parsing
+17:14:13  INFO Looking for smells
+17:14:13  INFO Starting the parse engine
+17:14:13  INFO Found 120 java files. We divided into 1 partitions
+17:14:13  INFO Identifying roles...
+17:14:13  INFO -- org.springframework.mock.http.MockHttpInputMessage is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.mock.http.client.MockClientHttpResponse is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.mock.http.client.MockClientHttpRequest is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.mock.http.MockHttpOutputMessage is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.RequestBuilder is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:13  INFO -- org.springframework.test.web.server.MvcResult is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:13  INFO -- org.springframework.test.web.server.MockFilterChain is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.TestDispatcherServlet is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.MockMvcBuilder is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:13  INFO -- org.springframework.test.web.server.setup.ContextMockMvcBuilder is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.setup.InitializedContextMockMvcBuilder is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.setup.PatternMappingFilterProxy is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.setup.MockWebApplicationContext is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.setup.MockMvcBuilders is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.setup.StandaloneMockMvcBuilder is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.setup.AbstractMockMvcBuilder is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.MockMvc is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.request.MockHttpServletRequestBuilder is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.request.RequestPostProcessor is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:13  INFO -- org.springframework.test.web.server.request.MockMvcRequestBuilders is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.request.MockMultipartHttpServletRequestBuilder is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:13  INFO -- org.springframework.test.web.server.ResultMatcher is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:14  INFO -- org.springframework.test.web.server.result.ContentResultMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.ViewResultMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.PrintingResultHandler is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.MockMvcResultHandlers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.JsonPathResultMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.RequestResultMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.HeaderResultMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.XpathResultMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.MockMvcResultMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.CookieResultMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.HandlerResultMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.FlashAttributeResultMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.ModelResultMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.StatusResultMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.ResultActions is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:14  INFO -- org.springframework.test.web.server.ResultHandler is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:14  INFO -- org.springframework.test.web.server.MockMvcBuilderSupport is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.DefaultMvcResult is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.support.XpathExpectationsHelper is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.support.JsonPathExpectationsHelper is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.support.XmlExpectationsHelper is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.ResponseActions is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:14  INFO -- org.springframework.test.web.client.match.ContentRequestMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.match.JsonPathRequestMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.match.RequestMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.match.XpathRequestMatchers is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.RequestMatcherClientHttpRequest is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.MockRestServiceServer is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.ResponseCreator is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:14  INFO -- org.springframework.test.web.client.RequestMatcher is a ArchitecturalRole [role=other, id=9999] (interface)
+17:14:14  INFO -- org.springframework.test.web.client.response.ResponseCreators is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.response.DefaultResponseCreator is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.AssertionErrors is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.StubMvcResult is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.setup.AbstractMockMvcBuilderTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.setup.ConditionalDelegatingFilterProxyTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.context.SecurityRequestPostProcessors is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.context.XmlTestContextTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.context.GenericWebContextLoader is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.context.ParentContextTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.context.WebConfig is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.context.JavaTestContextTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.context.WebContextLoader is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.context.SpringSecurityTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.context.WarRootDirectoryTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.ExceptionHandlerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.RequestBuilderTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.RedirectTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.ResponseBodyTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.ViewResolutionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.RequestParameterTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.StatusAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.FlashAttributeAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.XpathAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.JsonPathAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.XmlContentAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.RequestAttributeAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.ModelAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.ViewNameAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.CookieAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.SessionAttributeAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.ContentAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.HeaderAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.UrlAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resultmatchers.HandlerAssertionTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.resulthandlers.PrintingResultHandlerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.samples.standalone.FilterTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.request.MockHttpServletRequestBuilderTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.StatusResultMatchersTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.ContentResultMatchersTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.JsonPathResultMatchersTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.XpathResultMatchersTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.FlashAttributeResultMatchersTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.ModelResultMatchersTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.server.result.PrintingResultHandlerTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.match.ContentRequestMatchersTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.match.XpathRequestMatchersTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.match.RequestMatchersTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.match.JsonPathRequestMatchersTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.MockClientHttpRequestFactoryTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.samples.SampleTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.samples.matchers.ContentRequestMatcherTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.samples.matchers.HeaderRequestMatcherTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.samples.matchers.JsonPathRequestMatcherTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.samples.matchers.XpathRequestMatcherTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.samples.matchers.XmlContentRequestMatcherTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.client.response.ResponseCreatorsTests is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO -- org.springframework.test.web.Person is a ArchitecturalRole [role=other, id=9999] (class)
+17:14:14  INFO Identifying smells...
+17:14:14 ERROR error in /home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/mock/http/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:14  INFO Analysing class org.springframework.mock.http.MockHttpInputMessage
+17:14:14 ERROR error in /home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/mock/http/client/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:14  INFO Analysing class org.springframework.mock.http.client.MockClientHttpResponse
+17:14:14  INFO Analysing class org.springframework.mock.http.client.MockClientHttpRequest
+17:14:14  INFO Analysing class org.springframework.mock.http.MockHttpOutputMessage
+17:14:14  INFO Analysing class org.springframework.test.web.server.RequestBuilder
+17:14:14 ERROR error in /home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:14  INFO Analysing class org.springframework.test.web.server.MvcResult
+17:14:14  INFO Analysing class org.springframework.test.web.server.MockFilterChain
+17:14:14  INFO Analysing class org.springframework.test.web.server.TestDispatcherServlet
+17:14:14  INFO Analysing class org.springframework.test.web.server.MockMvcBuilder
+17:14:14  INFO Analysing class org.springframework.test.web.server.setup.ContextMockMvcBuilder
+17:14:14 ERROR error in /home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/setup/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:14  INFO Analysing class org.springframework.test.web.server.setup.InitializedContextMockMvcBuilder
+17:14:14  INFO Analysing class org.springframework.test.web.server.setup.PatternMappingFilterProxy
+17:14:14  INFO Analysing class org.springframework.test.web.server.setup.MockWebApplicationContext
+17:14:14  INFO Analysing class org.springframework.test.web.server.setup.MockMvcBuilders
+17:14:14  INFO Analysing class org.springframework.test.web.server.setup.StandaloneMockMvcBuilder
+17:14:14  INFO Analysing class org.springframework.test.web.server.setup.AbstractMockMvcBuilder
+17:14:14  INFO Analysing class org.springframework.test.web.server.MockMvc
+17:14:14 ERROR error in /home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/request/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:14  INFO Analysing class org.springframework.test.web.server.request.MockHttpServletRequestBuilder
+17:14:14  INFO Analysing class org.springframework.test.web.server.request.RequestPostProcessor
+17:14:14  INFO Analysing class org.springframework.test.web.server.request.MockMvcRequestBuilders
+17:14:14  INFO Analysing class org.springframework.test.web.server.request.MockMultipartHttpServletRequestBuilder
+17:14:14  INFO Analysing class org.springframework.test.web.server.ResultMatcher
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.ContentResultMatchers
+17:14:14 ERROR error in /home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/server/result/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.ViewResultMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.PrintingResultHandler
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.MockMvcResultHandlers
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.JsonPathResultMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.RequestResultMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.HeaderResultMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.XpathResultMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.MockMvcResultMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.CookieResultMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.HandlerResultMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.FlashAttributeResultMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.ModelResultMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.server.result.StatusResultMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.server.ResultActions
+17:14:14  INFO Analysing class org.springframework.test.web.server.ResultHandler
+17:14:14  INFO Analysing class org.springframework.test.web.server.MockMvcBuilderSupport
+17:14:14  INFO Analysing class org.springframework.test.web.server.DefaultMvcResult
+17:14:14 ERROR error in /home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/support/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:14  INFO Analysing class org.springframework.test.web.support.XpathExpectationsHelper
+17:14:14  INFO Analysing class org.springframework.test.web.support.JsonPathExpectationsHelper
+17:14:14  INFO Analysing class org.springframework.test.web.support.XmlExpectationsHelper
+17:14:14 ERROR error in /home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:14  INFO Analysing class org.springframework.test.web.client.ResponseActions
+17:14:14 ERROR error in /home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/match/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:14  INFO Analysing class org.springframework.test.web.client.match.ContentRequestMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.client.match.JsonPathRequestMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.client.match.RequestMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.client.match.XpathRequestMatchers
+17:14:14  INFO Analysing class org.springframework.test.web.client.RequestMatcherClientHttpRequest
+17:14:14  INFO Analysing class org.springframework.test.web.client.MockRestServiceServer
+17:14:14  INFO Analysing class org.springframework.test.web.client.ResponseCreator
+17:14:14  INFO Analysing class org.springframework.test.web.client.RequestMatcher
+17:14:14 ERROR error in /home/guilherme/spring-projects/maven/spring-test-mvc/src/main/java/org/springframework/test/web/client/response/package-info.java
+java.lang.NullPointerException
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellsRequestor.acceptAST(SmellsRequestor.java:33)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1029)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:636)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:990)
+	at com.github.mauricioaniche.springlint.analysis.smells.Parser.execute(Parser.java:59)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.searchSmells(SmellAnalysis.java:37)
+	at com.github.mauricioaniche.springlint.analysis.smells.SmellAnalysis.run(SmellAnalysis.java:29)
+	at com.github.mauricioaniche.springlint.RunAllAnalysis.run(RunAllAnalysis.java:40)
+	at com.github.mauricioaniche.springlint.SpringLint.main(SpringLint.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+17:14:14  INFO Analysing class org.springframework.test.web.client.response.ResponseCreators
+17:14:14  INFO Analysing class org.springframework.test.web.client.response.DefaultResponseCreator
+17:14:14  INFO Analysing class org.springframework.test.web.AssertionErrors
+17:14:14  INFO Analysing class org.springframework.test.web.server.StubMvcResult
+17:14:14  INFO Analysing class org.springframework.test.web.server.setup.AbstractMockMvcBuilderTests
+17:14:14  INFO Analysing class org.springframework.test.web.server.setup.ConditionalDelegatingFilterProxyTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.context.SecurityRequestPostProcessors
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.context.XmlTestContextTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.context.GenericWebContextLoader
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.context.ParentContextTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.context.WebConfig
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.context.JavaTestContextTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.context.WebContextLoader
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.context.SpringSecurityTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.context.WarRootDirectoryTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.ExceptionHandlerTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.RequestBuilderTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.RedirectTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.ResponseBodyTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.ViewResolutionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.RequestParameterTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.StatusAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.FlashAttributeAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.XpathAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.JsonPathAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.XmlContentAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.RequestAttributeAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.ModelAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.ViewNameAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.CookieAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.SessionAttributeAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.ContentAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.HeaderAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.UrlAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resultmatchers.HandlerAssertionTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.resulthandlers.PrintingResultHandlerTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.samples.standalone.FilterTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.request.MockHttpServletRequestBuilderTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.result.StatusResultMatchersTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.result.ContentResultMatchersTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.result.JsonPathResultMatchersTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.result.XpathResultMatchersTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.result.FlashAttributeResultMatchersTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.result.ModelResultMatchersTests
+17:14:15  INFO Analysing class org.springframework.test.web.server.result.PrintingResultHandlerTests
+17:14:15  INFO Analysing class org.springframework.test.web.client.match.ContentRequestMatchersTests
+17:14:15  INFO Analysing class org.springframework.test.web.client.match.XpathRequestMatchersTests
+17:14:15  INFO Analysing class org.springframework.test.web.client.match.RequestMatchersTests
+17:14:15  INFO Analysing class org.springframework.test.web.client.match.JsonPathRequestMatchersTests
+17:14:15  INFO Analysing class org.springframework.test.web.client.MockClientHttpRequestFactoryTests
+17:14:15  INFO Analysing class org.springframework.test.web.client.samples.SampleTests
+17:14:15  INFO Analysing class org.springframework.test.web.client.samples.matchers.ContentRequestMatcherTests
+17:14:15  INFO Analysing class org.springframework.test.web.client.samples.matchers.HeaderRequestMatcherTests
+17:14:15  INFO Analysing class org.springframework.test.web.client.samples.matchers.JsonPathRequestMatcherTests
+17:14:15  INFO Analysing class org.springframework.test.web.client.samples.matchers.XpathRequestMatcherTests
+17:14:15  INFO Analysing class org.springframework.test.web.client.samples.matchers.XmlContentRequestMatcherTests
+17:14:15  INFO Analysing class org.springframework.test.web.client.response.ResponseCreatorsTests
+17:14:15  INFO Analysing class org.springframework.test.web.Person
+17:14:15  INFO Generating output
+17:14:15  INFO That's it! It only took 5 seconds
