@@ -40,7 +40,6 @@ file_paths.each do |html_file|
       objects << new_row
     end
   end
-
 end
 
 # gerar planilha com os dados de cobertura
