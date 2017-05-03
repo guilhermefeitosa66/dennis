@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ResourceStringTemplateFactory.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">greenhouse</a> &gt; <a href="index.source.html" class="el_package">org.springframework.templating</a> &gt; <span class="el_source">ResourceStringTemplateFactory.java</span></div><h1>ResourceStringTemplateFactory.java</h1><pre class="source lang-java linenums">/*
+ * Copyright 2010 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package org.springframework.templating;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.Reader;
+
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.support.EncodedResource;
+
+/**
+ * A StringTemplate factory that creates template instances from a single Resource.
+ * @author Keith Donald
+ */
+public final class ResourceStringTemplateFactory implements StringTemplateFactory {
+	
+	private final org.antlr.stringtemplate.StringTemplate compiledPrototype;
+	
+	/**
+	 * Creates a StringTemplateFactory that creates its StringTemplate instances from the resource.
+	 * @param resource the resource where the template text is defined
+	 */
+<span class="fc" id="L37">	public ResourceStringTemplateFactory(Resource resource) {</span>
+<span class="fc" id="L38">		this.compiledPrototype = createPrototype(resource);</span>
+<span class="fc" id="L39">	}</span>
+	
+	public StringTemplate getStringTemplate() {
+<span class="fc" id="L42">		return new DelegatingStringTemplate(compiledPrototype.getInstanceOf());</span>
+	}
+	
+	// internal helpers
+	
+	private org.antlr.stringtemplate.StringTemplate createPrototype(Resource resource) {
+<span class="fc" id="L48">		BufferedReader reader = null;</span>
+		try {
+<span class="fc" id="L50">			reader = new BufferedReader(getResourceReader(resource));</span>
+<span class="fc" id="L51">			return loadTemplate(getTemplateName(resource), reader);</span>
+		}
+<span class="nc" id="L53">		catch (IOException e) {</span>
+<span class="nc" id="L54">			throw new IllegalArgumentException(&quot;Unable to read template resource &quot; + resource, e);</span>
+		}
+		finally {
+<span class="pc bpc" id="L57" title="3 of 4 branches missed.">			if (reader != null) {</span>
+				try {
+<span class="pc" id="L59">					reader.close();</span>
+				}
+<span class="nc" id="L61">				catch (IOException e) {</span>
+<span class="nc" id="L62">					throw new IllegalStateException(&quot;Unable to close template resource &quot; + resource, e);</span>
+<span class="pc" id="L63">				}</span>
+			}
+		}		
+	}
+	
+	private Reader getResourceReader(Resource resource) throws IOException {
+<span class="pc bpc" id="L69" title="1 of 2 branches missed.">		if (resource instanceof EncodedResource) {</span>
+<span class="nc" id="L70">			return ((EncodedResource) resource).getReader();</span>
+		} else {
+<span class="fc" id="L72">			return new EncodedResource(resource).getReader();</span>
+		}
+	}
+	
+	private String getTemplateName(Resource resource) {
+<span class="fc" id="L77">		return resource.getFilename();</span>
+	}
+	
+	private org.antlr.stringtemplate.StringTemplate loadTemplate(String name, BufferedReader reader) throws IOException {
+		String line;
+<span class="fc" id="L82">		String nl = System.getProperty(&quot;line.separator&quot;);</span>
+<span class="fc" id="L83">		StringBuffer buf = new StringBuffer(300);</span>
+<span class="fc bfc" id="L84" title="All 2 branches covered.">		while ((line = reader.readLine()) != null) {</span>
+<span class="fc" id="L85">			buf.append(line);</span>
+<span class="fc" id="L86">			buf.append(nl);</span>
+		}
+<span class="fc" id="L88">		String pattern = buf.toString().trim();</span>
+<span class="pc bpc" id="L89" title="1 of 2 branches missed.">		if (pattern.length() == 0) {</span>
+<span class="nc" id="L90">			return null;</span>
+		}
+<span class="fc" id="L92">		org.antlr.stringtemplate.StringTemplate template = new org.antlr.stringtemplate.StringTemplate(pattern);</span>
+<span class="fc" id="L93">		template.setName(name);</span>
+<span class="fc" id="L94">		return template;</span>
+	}
+ }
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.8.201612092310</span></div></body></html>
