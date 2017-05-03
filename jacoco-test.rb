@@ -1,56 +1,67 @@
 require 'spreadsheet'
 require 'nokogiri'
 require 'uri'
-require 'find'
-require 'csv'
 require 'pp'
+require 'find'
 require 'axlsx' # gem install axlsx
-
-# lines = []
-
-# CSV.foreach("jacoco.csv") do |row|
-#   # use row here...
-#   lines << row
-# end
-
-# ## e[4] = coverage
-# ## e[9].to_i + e[10].to_i = complexty
-
-# project_name = "greenhouse"
-# lines.map! { |e| [project_name, e[1], e[2], e[4].to_i / 100, e[9].to_i + e[10].to_i] }
-# lines = lines - lines.first
-
-# pp lines.first
 
 file_paths = []
 objects = []
 
 ## Ler todos os arquivos jacoco.xml
-Find.find("/home/guilherme/spring-projects/maven/") do |path|
-  file_paths << path if path.include?('jacoco.xml')# && path.include?('greenhouse')
+#Find.find("/home/guilherme/spring-projects/maven/") do |path|
+Find.find("jacoco/") do |path|
+  file_paths << path if path.include?('jacoco.xml')
 end
 
 file_paths.each do |xml_file|
-  file = ""
-  project_name = xml_files.split("/")[5]
+  ## nome do projeto
+  #project_name = xml_file.split("/")[5] ## NO FINAL DEVE FICAR ESSE
+  project_name = 'greenhouse' # NOME DE TESTE
 
-  File.open("#{xml_file}", 'r') do |xml|
-    while line = xml.gets
-      file << line
-    end
+  ## ler aquivo xml de um projeto
+  xml = Nokogiri::XML(File.open(xml_file))
+
+  ## seleciona as classes de um arquivo xml
+  classes = xml.xpath("//class")
+
+  classes.each do |c|
+    row = {}
+
+    row[:project] = project_name
+    row[:class] = c.attributes["name"].value
+    # row[:class] = c.attributes["name"].value.split('/')[-1]
+
+    c = c.children.select {|e| e.name == 'counter'}
+    # puts c.select {|e| e.attributes['type'].value == 'CLASS' }[0]
+    coverage = c.select {|e| e.attributes['type'].value == 'INSTRUCTION' }[0]
+    complexity = c.select {|e| e.attributes['type'].value == 'COMPLEXITY' }[0]
+
+    row[:coverage]   = coverage.attributes['covered'] if coverage
+    row[:complexity] = complexity.attributes['missed'] if complexity
+    
+    objects << row
   end
-
-  xml = Nokogiri::XML(file)
-  node = nil
 end
 
-# # gerar planilha com os dados
-# Axlsx::Package.new do |p|
-#  p.workbook.add_worksheet(:name => "cobertura") do |sheet|
-#    sheet.add_row %w{PROJECT PACKAGE CLASS COVERAGE}
-#    lines.each_with_index { |e,i| sheet.add_row([ e.attributes["project"].value, e.attributes["name"].value, e.attributes["classname"].value, e.attributes["time"].value]) }
-#  end
-#  p.serialize('cobertura.xlsx')
-# end
+# gerar planilha com os dados de cobertura
+Axlsx::Package.new do |p|
+  p.workbook.add_worksheet(:name => "cobertura") do |sheet|
+    sheet.add_row %w{PROJECT CLASS COVERAGE}
+    objects.each { |o| sheet.add_row([ o[:project], o[:class], o[:coverage].to_s ]) }
+  end
+
+  p.serialize('cobertura.xlsx')
+end
+
+# gerar planilha com os dados de complexidade
+Axlsx::Package.new do |p|
+  p.workbook.add_worksheet(:name => "complexidade") do |sheet|
+    sheet.add_row %w{PROJECT CLASS COMPLEXITY}
+    objects.each { |o| sheet.add_row([ o[:project], o[:class], o[:complexity].to_s ]) }
+  end
+
+  p.serialize('complexidade.xlsx')
+end
 
 puts "done!"
