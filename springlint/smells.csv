@@ -1,0 +1,7 @@
+project,file,name,role,smell,note
+/home/guilherme/dennis/maven-projects/greenhouse/src/main/java/com/springsource/greenhouse/events/JdbcEventRepository.java,com.springsource.greenhouse.events.JdbcEventRepository,repository,Smart Repository,It has SQL complexity of 103 and McCabe of 26
+/home/guilherme/dennis/maven-projects/greenhouse/target/classes/com/springsource/greenhouse/events/JdbcEventRepository.java,com.springsource.greenhouse.events.JdbcEventRepository,repository,Smart Repository,It has SQL complexity of 103 and McCabe of 26
+/home/guilherme/dennis/maven-projects/greenhouse/src/main/java/com/springsource/greenhouse/events/EventsController.java,com.springsource.greenhouse.events.EventsController,controller,Promiscuous Controller,It has 13 routes and 0 services ()
+/home/guilherme/dennis/maven-projects/greenhouse/target/classes/com/springsource/greenhouse/members/FileStorageProfilePictureService.java,com.springsource.greenhouse.members.FileStorageProfilePictureService,service,Meddling service,It uses a persistence mechanism.
+/home/guilherme/dennis/maven-projects/greenhouse/src/main/java/com/springsource/greenhouse/members/FileStorageProfilePictureService.java,com.springsource.greenhouse.members.FileStorageProfilePictureService,service,Meddling service,It uses a persistence mechanism.
+/home/guilherme/dennis/maven-projects/greenhouse/target/classes/com/springsource/greenhouse/events/EventsController.java,com.springsource.greenhouse.events.EventsController,controller,Promiscuous Controller,It has 13 routes and 0 services ()
