@@ -1,9 +1,8 @@
 require 'find'
 require 'nokogiri'
 
-# ADD PLUGINS IN POM.XML
+## ADD PLUGINS IN POM.XML
 pom_files = []
-
 projects = [
   'aws-maven',
   'eclipse-integration-commons',
@@ -72,6 +71,7 @@ projects = [
   'toolsuite-distribution'
   ]
 
+## Localiza todos os arquivos pom.xml
 projects.each do |project|
   Find.find("/home/guilherme/spring-projects/maven/#{project}") do |file|
     if file.include? "pom.xml"
@@ -81,33 +81,23 @@ projects.each do |project|
   end
 end
 
-pom_files.each do |path|
-  file = ""
-  # ler arquivo xml
-  File.open("#{path}", 'r') do |xml_file|
-    while line = xml_file.gets
-      file << line
-    end
-  end
+pom_files.each do |pom_file|
 
-  # altera arquivo xml
-  xml = Nokogiri::XML(file)
-  node = nil
+  ## Ler o arquivo pom.xml
+  xml = Nokogiri::XML(File.open(file))
 
-  # xml.xpath('.//*').each do |n|
-  #   node = n if n.name == "plugins"
-  # end
-
+  ## localiza o elemento <build>
   xml.xpath('.//*').each {|n| @build = n if n.name == "build"}
 
+  ## caso o elemento <build não exista, segue para o próximo arquivo,
+  ## se existir localiza dentro dele o elemento <plugins> para adicionar novos plugins
   if @build.nil?
     next
   else
     @build.children.each {|n| @plugins = n if n.name == "plugins" }
   end
 
-  # next if node.nil?
-
+  ## plugins a serem acrescentados no arquivo pom.xml
   surefire = 
   '<plugin>
     <groupId>org.apache.maven.plugins</groupId>
@@ -130,6 +120,13 @@ pom_files.each do |path|
     <groupId>com.atlassian.maven.plugins</groupId>
     <artifactId>clover-maven-plugin</artifactId>
     <version>4.1.1</version>
+    <configuration>
+      <generatePdf>false</generatePdf>
+      <generateXml>false</generateXml>
+      <generateHtml>true</generateHtml>
+      <generateJson>false</generateJson>
+      <!-- <licenseLocation>/path/to/clover.license</licenseLocation> -->
+    </configuration>
   </plugin>'
 
   jacoco = 
@@ -147,13 +144,15 @@ pom_files.each do |path|
     </reportSets>
   </plugin>'
 
+  ## se o plugin já não existir dentro de <build><plugins>...</build></plugins>, então ele será adicionado
+
   #@plugins.first_element_child.before(surefire) unless @plugins.to_s.include? "maven-surefire-plugin"
   #@plugins.first_element_child.before(sonar)    unless @plugins.to_s.include? "sonar-maven-plugin"
-  #@plugins.first_element_child.before(clover)   unless @plugins.to_s.include? "clover-maven-plugin"
-  @plugins.first_element_child.before(jacoco)   unless @plugins.to_s.include? "jacoco-maven-plugin"
+  @plugins.first_element_child.before(clover)   unless @plugins.to_s.include? "clover-maven-plugin"
+  #@plugins.first_element_child.before(jacoco)   unless @plugins.to_s.include? "jacoco-maven-plugin"
 
-  # cria novo arquivo xml alterado
-  File.open("#{path}", 'w') do |new_file|
+  ## altera o arquivo pom.xml com os novos plugins adicionados
+  File.open("#{pom_file}", 'w') do |new_file|
     new_file.puts xml
   end
 end

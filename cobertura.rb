@@ -85,3 +85,20 @@ Axlsx::Package.new do |p|
 end
 
 puts "done!"
+
+
+# <plugin>
+#   <groupId>com.atlassian.maven.plugins</groupId>
+#   <artifactId>clover-maven-plugin</artifactId>
+#   <version>4.1.1</version>
+#   <configuration>
+#     <generatePdf>false</generatePdf>
+#     <generateXml>false</generateXml>
+#     <generateHtml>true</generateHtml>
+#     <generateJson>false</generateJson>
+#     <!-- <licenseLocation>/path/to/clover.license</licenseLocation> -->
+#   </configuration>
+# </plugin>
+
+# mvn clean clover:setup test clover:aggregate clover:clover ## executar primeiro
+# mvn clover:clover ## => gerar relatório em html
