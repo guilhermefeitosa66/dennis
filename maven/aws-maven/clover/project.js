@@ -1,0 +1,2 @@
+processClover (  {"children":["org/springframework/build/aws/maven/"],"name":"Clover database Qua mai 10 2017 13:46:54 BRT","stats":{"AvgMethodComplexity":1.3854166,"Complexity":133,"ErroneousTests":0,"FailingTests":0,"FilteredElements":0,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalChildren":1,"TotalPercentageCovered":91.17647,"TotalStatements":278,"UncoveredElements":36},"title":"Amazon Web Services S3 Maven Wagon Support 5.1.0.BUILD-SNAPSHOT"}
+ ); 

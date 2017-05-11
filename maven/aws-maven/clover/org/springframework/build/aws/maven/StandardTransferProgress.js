@@ -1,0 +1,10 @@
+var clover = new Object();
+
+// JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
+clover.pageData = {"classes":[{"el":40,"id":363,"methods":[{"el":33,"sc":5,"sl":29},{"el":38,"sc":5,"sl":35}],"name":"StandardTransferProgress","sl":21}]}
+
+// JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
+clover.testTargets = {"test_11":{"methods":[{"sl":29}],"name":"putAuthorizationException","pass":true,"statements":[{"sl":30},{"sl":31},{"sl":32}]},"test_23":{"methods":[{"sl":29}],"name":"putResourceDoesNotExistException","pass":true,"statements":[{"sl":30},{"sl":31},{"sl":32}]},"test_24":{"methods":[{"sl":29}],"name":"getIfNewerNewer","pass":true,"statements":[{"sl":30},{"sl":31},{"sl":32}]},"test_29":{"methods":[{"sl":29}],"name":"get","pass":true,"statements":[{"sl":30},{"sl":31},{"sl":32}]},"test_36":{"methods":[{"sl":29}],"name":"putTransferFailedException","pass":true,"statements":[{"sl":30},{"sl":31},{"sl":32}]},"test_38":{"methods":[{"sl":29}],"name":"putDirectory","pass":true,"statements":[{"sl":30},{"sl":31},{"sl":32}]},"test_59":{"methods":[{"sl":35}],"name":"notifyProgress","pass":true,"statements":[{"sl":37}]},"test_67":{"methods":[{"sl":29}],"name":"put","pass":true,"statements":[{"sl":30},{"sl":31},{"sl":32}]},"test_76":{"methods":[{"sl":29}],"name":"getResourceDoesNotExistException","pass":true,"statements":[{"sl":30},{"sl":31},{"sl":32}]},"test_79":{"methods":[{"sl":29}],"name":"getAuthorizationException","pass":true,"statements":[{"sl":30},{"sl":31},{"sl":32}]},"test_94":{"methods":[{"sl":29}],"name":"getTransferFailedException","pass":true,"statements":[{"sl":30},{"sl":31},{"sl":32}]}}
+
+// JSON: { lines : [{tests : [testid1, testid2, testid3, ...]}, ...]};
+clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [79, 29, 36, 11, 76, 24, 67, 94, 38, 23], [79, 29, 36, 11, 76, 24, 67, 94, 38, 23], [79, 29, 36, 11, 76, 24, 67, 94, 38, 23], [79, 29, 36, 11, 76, 24, 67, 94, 38, 23], [], [], [59], [], [59], [], [], []]

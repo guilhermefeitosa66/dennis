@@ -1,0 +1,10 @@
+var clover = new Object();
+
+// JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
+clover.pageData = {"classes":[{"el":124,"id":2556,"methods":[{"el":43,"sc":2,"sl":40},{"el":60,"sc":2,"sl":45},{"el":65,"sc":2,"sl":62},{"el":70,"sc":2,"sl":67},{"el":88,"sc":2,"sl":72},{"el":100,"sc":2,"sl":90},{"el":123,"sc":2,"sl":102}],"name":"CompositeApplicationContextFactoryTests","sl":36}]}
+
+// JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
+clover.testTargets = {"test_141":{"methods":[{"sl":90}],"name":"testGetObjectFactoriesOnly","pass":true,"statements":[{"sl":92},{"sl":93},{"sl":95},{"sl":97},{"sl":99}]},"test_150":{"methods":[{"sl":67}],"name":"testGetObjectType","pass":true,"statements":[{"sl":69}]},"test_23":{"methods":[{"sl":102}],"name":"testGetObjectBothOptionsProvided","pass":true,"statements":[{"sl":104},{"sl":107},{"sl":108},{"sl":110},{"sl":112},{"sl":115},{"sl":116},{"sl":118},{"sl":120},{"sl":122}]},"test_231":{"methods":[{"sl":62}],"name":"testIsSingleton","pass":true,"statements":[{"sl":64}]},"test_26":{"methods":[{"sl":45}],"name":"testAfterPropertiesSet","pass":true,"statements":[{"sl":47},{"sl":48},{"sl":50},{"sl":53},{"sl":55},{"sl":57},{"sl":58},{"sl":59}]},"test_67":{"methods":[{"sl":72}],"name":"testGetObjectFactorBeansOnly","pass":true,"statements":[{"sl":74},{"sl":77},{"sl":78},{"sl":80},{"sl":82},{"sl":85},{"sl":87}]}}
+
+// JSON: { lines : [{tests : [testid1, testid2, testid3, ...]}, ...]};
+clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [26], [], [26], [26], [], [26], [], [], [26], [], [26], [], [26], [26], [26], [], [], [231], [], [231], [], [], [150], [], [150], [], [], [67], [], [67], [], [], [67], [67], [], [67], [], [67], [], [], [67], [], [67], [], [], [141], [], [141], [141], [], [141], [], [141], [], [141], [], [], [23], [], [23], [], [], [23], [23], [], [23], [], [23], [], [], [23], [23], [], [23], [], [23], [], [23], [], []]

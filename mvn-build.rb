@@ -124,7 +124,7 @@ Find.find("/home/guilherme/spring-projects/maven/") do |file|
     # system "cd #{dir} && git clean -f"
     # system "cd #{dir} && git checkout ."
     # system "java -jar /home/guilherme/dennis/springlint/springlint-0.4.jar -o /home/guilherme/dennis/acoplamento/ -otype 'html' -p /home/guilherme/spring-projects/#{dir}" # ACOPLAMENTO
-    # system "cd #{dir} && mvn clean clover:setup test clover:aggregate clover:clover"
+    system "cd #{dir} && mvn clean clover:setup test clover:aggregate clover:clover"
     system "cd #{dir} && mvn clover:clover"
   end
 end

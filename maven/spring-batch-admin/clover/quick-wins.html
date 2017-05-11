@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    
+    
+    <link rel="SHORTCUT ICON" href="img/clover.ico" />
+
+    <link rel="stylesheet" href="aui/css/aui.min.css" media="all"/>
+    <link rel="stylesheet" href="aui/css/aui-experimental.min.css" media="all"/>
+    <!--[if IE 9]><link rel="stylesheet" href="aui/css/aui-ie9.min.css" media="all"/><![endif]-->
+
+    <style type="text/css" media="all">
+        @import url('style.css');
+        @import url('tree.css');
+        
+    </style>
+
+    <script src="jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui-experimental.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui-soy.min.js" type="text/javascript"></script>
+
+    <script src="package-nodes-tree.js" type="text/javascript"></script>
+    <script src="clover-tree.js" type="text/javascript"></script>
+    <script src="clover.js" type="text/javascript"></script>
+    <script src="clover-descriptions.js" type="text/javascript"></script>
+    <script src="cloud.js" type="text/javascript"></script>
+
+            <title>Manager 2.0.0.BUILD-SNAPSHOT</title>
+    </head>
+
+<body  >
+    <div id="page">
+        
+        
+
+
+<header id="header" role="banner">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation">
+        <div class="aui-header-inner">
+            <div class="aui-header-primary">
+                <h1 id="logo" class="aui-header-logo aui-header-logo-clover">
+                    <a href="http://www.atlassian.com/clover" title="Open Atlassian Clover home page"><span class="aui-header-logo-device">Clover</span></a>
+                </h1>
+                            </div>
+            <div class="aui-header-secondary">
+                <ul class="aui-nav">
+                    <li id="system-help-menu">
+                        <a class="aui-nav-link" title="Open online Clover documentation" target="_blank"
+                           href="https://confluence.atlassian.com/display/CLOVER/Clover+Documentation+Home">
+                            <span class="aui-icon aui-icon-small aui-iconfont-help">&#160;Help</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+        
+        <div class="aui-page-panel">
+            <div class="aui-page-panel-inner">
+                <div class="aui-page-panel-nav aui-page-panel-nav-clover">
+                    
+
+<div class="aui-page-header-inner" style="margin-bottom: 20px;">
+    <div class="aui-page-header-image">
+                    <a href="http://docs.spring.io/spring-batch-admin/spring-batch-admin-manager" target="_top">
+                <div class="aui-avatar aui-avatar-large aui-avatar-project">
+            <div class="aui-avatar-inner">
+                                    <img src="img/clover_logo_large.png" alt="Clover icon"/>
+                            </div>
+        </div>
+                    </a>
+            </div>
+    <div class="aui-page-header-main" >
+        <h1>
+                            <a href="http://docs.spring.io/spring-batch-admin/spring-batch-admin-manager" target="_top">
+                                        Manager 2.0.0.BUILD-SNAPSHOT
+                                        </a>
+                    </h1>
+    </div>
+</div>
+
+<nav class="aui-navgroup aui-navgroup-vertical">
+    <div class="aui-navgroup-inner">
+                                            <ul class="aui-nav">
+                <li class="aui-nav-selected">
+                    <a href="dashboard.html">Project overview</a>
+                </li>
+            </ul>
+        
+                <div class="aui-nav-heading packages-nav-heading">
+            <strong>Packages</strong>
+        </div>
+        <div class="aui-nav project-packages">
+            <form method="get" action="#" class="aui package-filter-container">
+                <input type="text" autocomplete="off" class="package-filter text"
+                       placeholder="Type to filter packages..." name="package-filter" id="package-filter"
+                       title="Start typing package name (or part of the name) to search through the tree. Use arrow keys and the Enter key to navigate."/>
+            </form>
+            <p class="package-filter-no-results-message hidden">
+                <small>No results found.</small>
+            </p>
+                                                  <div class="packages-tree-wrapper" data-root-relative="" data-package-name="">
+                <div class="packages-tree-container"></div>
+                <div class="clover-packages-lozenges"></div>
+            </div>
+        </div>
+        
+            </div>
+</nav>                </div>
+                <section class="aui-page-panel-content">
+                    <div class="aui-page-panel-content-clover">
+
+                    
+                    <ol class="aui-nav aui-nav-breadcrumbs">
+            
+        <li><a href="dashboard.html">Project Clover database Qua mai 10 2017 18:52:02 BRT</a></li>
+    </ol>
+    
+<h1 class="aui-h2-clover">
+            Project overview
+    </h1>
+<div class="aui-tabs horizontal-tabs">
+            <ul class="tabs-menu">
+            <li class="menu-item ">
+            <a href="dashboard.html">Dashboard</a>
+        </li>
+                <li class="menu-item ">
+            <a href="pkg-summary.html"><strong>Application code</strong></a>
+        </li>
+                <li class="menu-item ">
+            <a href="testsrc-pkg-summary.html"><strong>Test code</strong></a>
+        </li>
+        <li class="menu-item ">
+            <a href="test-pkg-summary.html"><strong>Test results</strong></a>
+        </li>
+                <li class="menu-item ">
+            <a href="top-risks.html"><strong>Top risks</strong></a>
+        </li>
+        <li class="menu-item active-tab">
+            <a href="quick-wins.html"><strong>Quick wins</strong></a>
+        </li>
+                                                <li class="menu-item ">
+                <a href="treemap.html"><strong>Coverage tree map</strong></a>
+            </li>
+            </ul>
+    <div class="tabs-pane active-pane" id="tabs-first">
+
+        <div>&#160;</div>
+
+        
+    <div class="aui-message aui-message-warning">
+        <p class="title">
+            <strong>Evaluation License</strong>
+        </p>
+        <p>
+            This report was generated with an evaluation server license.  <a href="http://www.atlassian.com/software/clover">Purchase Clover</a> or <a href="http://confluence.atlassian.com/x/JAgQCQ">configure your license.</a>
+        </p>
+    </div>
+
+
+                        <div style="text-align: right; margin-bottom: 10px">
+            
+            
+                                    <button class="aui-button aui-button-subtle" id="popupHelp">
+    <span class="aui-icon aui-icon-small aui-iconfont-help"></span>&#160;How to read this chart
+</button>
+<script>
+    AJS.InlineDialog(AJS.$("#popupHelp"), "helpDialog",
+            function (content, trigger, showPopup) {
+                var description = quickWinsDescription();
+                var title = 'Quick Wins';
+                content.css({"padding": "20px"}).html(
+                        '<h2>' + title + '</h2>' + description);
+                showPopup();
+                return false;
+            },
+            {
+                width: 600
+            }
+    );
+</script>
+        </div>
+
+        
+
+<div style="padding: 20px; border: 1px solid #cccccc; background-color: #f5f5f5; border-radius: 3px">
+          <div id="deepPackageCloud"  >
+                          
+    
+        
+    
+            <a href="org/springframework/batch/admin/web/BatchFileController.html" class="tag"
+            style="font-size: 15px;color:#d04437"
+            title="# Elements - 29 , # Elements Covered - 6 ">BatchFileController</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/BatchJobExecutionsController.html" class="tag"
+            style="font-size: 22px;color:#d9695f"
+            title="# Elements - 98 , # Elements Covered - 72 ">BatchJobExecutionsController</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/BatchJobInstancesController.html" class="tag"
+            style="font-size: 14px;color:#d5584c"
+            title="# Elements - 22 , # Elements Covered - 20 ">BatchJobInstancesController</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/BatchJobsController.html" class="tag"
+            style="font-size: 14px;color:#d5584c"
+            title="# Elements - 24 , # Elements Covered - 23 ">BatchJobsController</a>
+            
+    
+            <a href="org/springframework/batch/admin/jmx/BatchMBeanExporter.html" class="tag"
+            style="font-size: 28px;color:#e28e87"
+            title="# Elements - 149 , # Elements Covered - 120 ">BatchMBeanExporter</a>
+            
+    
+            <a href="org/springframework/batch/admin/jmx/BatchMBeanExporter.html" class="tag"
+            style="font-size: 12px;color:#d04437"
+            title="# Elements - 4 , # Elements Covered - 4 ">BatchMBeanExporter.ExecutionMetricsFactory</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/BatchStepExecutionsController.html" class="tag"
+            style="font-size: 16px;color:#d5584c"
+            title="# Elements - 40 , # Elements Covered - 34 ">BatchStepExecutionsController</a>
+            
+    
+            <a href="org/springframework/batch/admin/configuration/CompositeApplicationContextFactory.html" class="tag"
+            style="font-size: 14px;color:#d5584c"
+            title="# Elements - 22 , # Elements Covered - 22 ">CompositeApplicationContextFactory</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/resource/DetailedJobInfoResourceAssembler.html" class="tag"
+            style="font-size: 13px;color:#d04437"
+            title="# Elements - 13 , # Elements Covered - 13 ">DetailedJobInfoResourceAssembler</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/FileController.html" class="tag"
+            style="font-size: 18px;color:#d5584c"
+            title="# Elements - 56 , # Elements Covered - 40 ">FileController</a>
+            
+    
+            <a href="org/springframework/batch/admin/service/FileInfo.html" class="tag"
+            style="font-size: 21px;color:#de7b72"
+            title="# Elements - 91 , # Elements Covered - 91 ">FileInfo</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/resource/FileInfoResourceAssembler.html" class="tag"
+            style="font-size: 12px;color:#d04437"
+            title="# Elements - 6 , # Elements Covered - 6 ">FileInfoResourceAssembler</a>
+            
+    
+            <a href="org/springframework/batch/admin/integration/FileParentDirectoryFilter.html" class="tag"
+            style="font-size: 12px;color:#d04437"
+            title="# Elements - 4 , # Elements Covered - 4 ">FileParentDirectoryFilter</a>
+            
+    
+            <a href="org/springframework/batch/admin/service/FileServiceResourceConverter.html" class="tag"
+            style="font-size: 14px;color:#d5584c"
+            title="# Elements - 20 , # Elements Covered - 17 ">FileServiceResourceConverter</a>
+            
+    
+            <a href="org/springframework/batch/admin/integration/FileToJobLaunchRequestAdapter.html" class="tag"
+            style="font-size: 13px;color:#d04437"
+            title="# Elements - 17 , # Elements Covered - 13 ">FileToJobLaunchRequestAdapter</a>
+            
+    
+            <a href="org/springframework/batch/admin/service/JdbcSearchableJobExecutionDao.html" class="tag"
+            style="font-size: 18px;color:#d9695f"
+            title="# Elements - 64 , # Elements Covered - 52 ">JdbcSearchableJobExecutionDao</a>
+            
+    
+            <a href="org/springframework/batch/admin/service/JdbcSearchableJobExecutionDao.html" class="tag"
+            style="font-size: 13px;color:#d5584c"
+            title="# Elements - 16 , # Elements Covered - 16 ">JdbcSearchableJobExecutionDao.JobExecutionRowMapper</a>
+            
+    
+            <a href="org/springframework/batch/admin/service/JdbcSearchableJobInstanceDao.html" class="tag"
+            style="font-size: 12px;color:#d04437"
+            title="# Elements - 7 , # Elements Covered - 5 ">JdbcSearchableJobInstanceDao</a>
+            
+    
+            <a href="org/springframework/batch/admin/service/JdbcSearchableStepExecutionDao.html" class="tag"
+            style="font-size: 19px;color:#d9695f"
+            title="# Elements - 72 , # Elements Covered - 62 ">JdbcSearchableStepExecutionDao</a>
+            
+    
+            <a href="org/springframework/batch/admin/service/JdbcSearchableStepExecutionDao.html" class="tag"
+            style="font-size: 13px;color:#d5584c"
+            title="# Elements - 18 , # Elements Covered - 18 ">JdbcSearchableStepExecutionDao.StepExecutionRowMapper</a>
+            
+    
+            <a href="org/springframework/batch/admin/integration/JobConfigurationRequest.html" class="tag"
+            style="font-size: 13px;color:#d04437"
+            title="# Elements - 12 , # Elements Covered - 6 ">JobConfigurationRequest</a>
+            
+    
+            <a href="org/springframework/batch/admin/integration/JobConfigurationRequestToResourceAdapter.html" class="tag"
+            style="font-size: 12px;color:#d04437"
+            title="# Elements - 7 , # Elements Covered - 5 ">JobConfigurationRequestToResourceAdapter</a>
+            
+    
+            <a href="org/springframework/batch/admin/integration/JobConfigurationResourceLoader.html" class="tag"
+            style="font-size: 14px;color:#d5584c"
+            title="# Elements - 26 , # Elements Covered - 26 ">JobConfigurationResourceLoader</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/JobController.html" class="tag"
+            style="font-size: 19px;color:#d9695f"
+            title="# Elements - 72 , # Elements Covered - 59 ">JobController</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/JobExecutionController.html" class="tag"
+            style="font-size: 25px;color:#d9695f"
+            title="# Elements - 122 , # Elements Covered - 72 ">JobExecutionController</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/JobExecutionController.html" class="tag"
+            style="font-size: 12px;color:#d04437"
+            title="# Elements - 4 , # Elements Covered - 2 ">JobExecutionController.StopRequest</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/resource/JobExecutionInfoResourceAssembler.html" class="tag"
+            style="font-size: 13px;color:#d04437"
+            title="# Elements - 14 , # Elements Covered - 14 ">JobExecutionInfoResourceAssembler</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/JobInstanceInfo.html" class="tag"
+            style="font-size: 15px;color:#d5584c"
+            title="# Elements - 30 , # Elements Covered - 17 ">JobInstanceInfo</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/resource/JobInstanceInfoResourceAssembler.html" class="tag"
+            style="font-size: 13px;color:#d04437"
+            title="# Elements - 10 , # Elements Covered - 10 ">JobInstanceInfoResourceAssembler</a>
+            
+    
+            <a href="org/springframework/batch/admin/launch/JobLauncherSynchronizer.html" class="tag"
+            style="font-size: 16px;color:#d5584c"
+            title="# Elements - 45 , # Elements Covered - 33 ">JobLauncherSynchronizer</a>
+            
+    
+            <a href="org/springframework/batch/admin/service/JobLocatorStepLocator.html" class="tag"
+            style="font-size: 17px;color:#d5584c"
+            title="# Elements - 46 , # Elements Covered - 37 ">JobLocatorStepLocator</a>
+            
+    
+            <a href="org/springframework/batch/admin/integration/JobNameToJobRestartRequestAdapter.html" class="tag"
+            style="font-size: 16px;color:#d5584c"
+            title="# Elements - 44 , # Elements Covered - 33 ">JobNameToJobRestartRequestAdapter</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/JsonViewResolver.html" class="tag"
+            style="font-size: 12px;color:#d04437"
+            title="# Elements - 4 , # Elements Covered - 4 ">JsonViewResolver</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/LaunchRequest.html" class="tag"
+            style="font-size: 12px;color:#d04437"
+            title="# Elements - 8 , # Elements Covered - 4 ">LaunchRequest</a>
+            
+    
+            <a href="org/springframework/batch/admin/service/LocalFileService.html" class="tag"
+            style="font-size: 25px;color:#e28e87"
+            title="# Elements - 127 , # Elements Covered - 116 ">LocalFileService</a>
+            
+    
+            <a href="org/springframework/batch/admin/service/LocalFileService.html" class="tag"
+            style="font-size: 12px;color:#d04437"
+            title="# Elements - 5 , # Elements Covered - 3 ">LocalFileService.FileServiceResource</a>
+            
+    
+            <a href="org/springframework/batch/admin/service/NoSuchStepExecutionException.html" class="tag"
+            style="font-size: 12px;color:#d04437"
+            title="# Elements - 4 , # Elements Covered - 2 ">NoSuchStepExecutionException</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/RestConfiguration.html" class="tag"
+            style="font-size: 14px;color:#d5584c"
+            title="# Elements - 19 , # Elements Covered - 19 ">RestConfiguration</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/RestControllerAdvice.html" class="tag"
+            style="font-size: 16px;color:#d5584c"
+            title="# Elements - 42 , # Elements Covered - 27 ">RestControllerAdvice</a>
+            
+    
+            <a href="org/springframework/batch/admin/jmx/SimpleJobExecutionMetrics.html" class="tag"
+            style="font-size: 26px;color:#de7b72"
+            title="# Elements - 131 , # Elements Covered - 101 ">SimpleJobExecutionMetrics</a>
+            
+    
+            <a href="org/springframework/batch/admin/service/SimpleJobService.html" class="tag"
+            style="font-size: 48px;color:#89c495"
+            title="# Elements - 330 , # Elements Covered - 264 ">SimpleJobService</a>
+            
+    
+            <a href="org/springframework/batch/admin/service/SimpleJobServiceFactoryBean.html" class="tag"
+            style="font-size: 23px;color:#de7b72"
+            title="# Elements - 105 , # Elements Covered - 86 ">SimpleJobServiceFactoryBean</a>
+            
+    
+            <a href="org/springframework/batch/admin/jmx/SimpleStepExecutionMetrics.html" class="tag"
+            style="font-size: 24px;color:#de7b72"
+            title="# Elements - 111 , # Elements Covered - 78 ">SimpleStepExecutionMetrics</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/StepExecutionController.html" class="tag"
+            style="font-size: 18px;color:#d5584c"
+            title="# Elements - 63 , # Elements Covered - 40 ">StepExecutionController</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/resource/StepExecutionInfoResourceAssembler.html" class="tag"
+            style="font-size: 12px;color:#d04437"
+            title="# Elements - 6 , # Elements Covered - 6 ">StepExecutionInfoResourceAssembler</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/resource/StepExecutionProgressInfoResourceAssembler.html" class="tag"
+            style="font-size: 12px;color:#d04437"
+            title="# Elements - 6 , # Elements Covered - 6 ">StepExecutionProgressInfoResourceAssembler</a>
+            
+    
+            <a href="org/springframework/batch/admin/integration/StringToJobLaunchRequestAdapter.html" class="tag"
+            style="font-size: 13px;color:#d04437"
+            title="# Elements - 12 , # Elements Covered - 12 ">StringToJobLaunchRequestAdapter</a>
+            
+    
+            <a href="org/springframework/batch/admin/web/TableUtils.html" class="tag"
+            style="font-size: 13px;color:#d5584c"
+            title="# Elements - 18 , # Elements Covered - 15 ">TableUtils</a>
+            
+    
+            <a href="org/springframework/batch/poller/scheduling/TaskSchedulerPoller.html" class="tag"
+            style="font-size: 21px;color:#d9695f"
+            title="# Elements - 89 , # Elements Covered - 48 ">TaskSchedulerPoller</a>
+            
+    
+            <a href="org/springframework/batch/admin/util/ThrottledTaskExecutor.html" class="tag"
+            style="font-size: 16px;color:#d5584c"
+            title="# Elements - 38 , # Elements Covered - 32 ">ThrottledTaskExecutor</a>
+           </div>
+   
+   </div>
+    </div> <!-- tabs-pane active-pane -->
+</div> <!-- aui-tabs horizontal-tabs -->
+
+                        </div> <!-- class="aui-page-panel-content-clover" -->
+                    <footer id="footer" role="contentinfo">
+    <section class="footer-body">
+        <ul>
+            <li>
+                Report generated by <a target="_new" href="http://www.atlassian.com/software/clover">Atlassian Clover</a> v 4.1.1
+                on Qua mai 10 2017 18:52:32 BRT using coverage data from Qua mai 10 2017 18:52:26 BRT.
+            </li>
+        </ul>
+        <ul>
+            <li>Clover Evaluation License registered to Clover Maven Plugin. You have 29 day(s) before your license expires.</li>
+        </ul>
+        <div id="footer-logo">
+            <a target="_blank" href="http://www.atlassian.com/">
+                Atlassian
+            </a>
+        </div>
+    </section>
+</footer>                </section> <!-- class="aui-page-panel-content" -->
+            </div> <!-- class="aui-page-panel-inner" -->
+        </div> <!-- class="aui-page-panel" -->
+    </div> <!-- id="page" -->
+</body>
+</html>
