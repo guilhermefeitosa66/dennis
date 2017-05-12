@@ -9,11 +9,11 @@ projects = []
 classes_summary = []
 classes_app = []
 tests_case = []
-coverages = []
+complexity = []
 
 
-projects_path = '/home/guilherme/spring-projects/maven/'
-# projects_path = '/home/guilherme/dennis/maven/' # teste
+# projects_path = '/home/guilherme/spring-projects/maven/'
+projects_path = '/home/guilherme/dennis/maven/' # teste
 
 puts "lendo projetos..."
 Dir.glob("#{projects_path}*") do |dir|
@@ -65,42 +65,14 @@ projects.each do |project|
 
 end
 
-## percorre todos os arquivos de relatório da classe, para verificar quais testes a cobrem
-puts "construido matriz de cobertura por classes..."
-classes_app.each do |ca|
-  begin
-    html = Nokogiri::HTML(File.open("#{ca[0]}/#{ca[2]}.html".gsub('//','/') ))
-    rows = html.xpath("//tbody[@id='tests-body']/tr")
-
-    new_row = [ca[1], ca[2]]
-
-    ## adiciona as classes com a sua cobertura para cada caso de teste
-    tests_case.each do |tc|
-      coverage = 0
-
-      rows.each do |tr|
-        if tr.at_xpath('td[4]/span[2]/text()').to_s.strip == 'PASS' && tr.at_xpath('td[3]/span/text()').to_s.strip == tc
-          coverage = tr.at_xpath('td[2]/span/text()').to_s.strip
-        end
-      end
-
-      new_row << coverage
-    end
-
-    coverages << new_row
-  rescue Exception => e
-    next
-  end
-end
-
 ## gerar planilha com os dados
 puts "gerando planilha..."
 Axlsx::Package.new do |p|
-  p.workbook.add_worksheet(:name => "cobertura") do |sheet|
-    sheet.add_row (["PROJECT", "TESTCASE/CLASS"] + tests_case)
-    coverages.each { |row| sheet.add_row(row) }
+  p.workbook.add_worksheet(:name => "complexidade") do |sheet|
+    sheet.add_row ["PROJECT", "CLASS", "COMPLEXITY"]
+    complexity.each { |row| sheet.add_row(row) }
   end
-  p.serialize('cobertura.xlsx')
+  p.serialize('complexidade.xlsx')
 end
 
 puts "pronto!"
