@@ -45,7 +45,7 @@ projects.each do |project|
   end
 
   ## percorre todos os arquivos de relatório da classe, para localizar os testes que a cobrem
-  puts "criando lista de casos de teste do projeto: #{project}..."
+  puts "criando lista da complexidade das classes do projeto: #{project}..."
   classes_app.each do |ca|
     begin
       html = Nokogiri::HTML(File.open("#{ca[0]}/#{ca[2]}.html".gsub('//','/') ))
