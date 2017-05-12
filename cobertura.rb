@@ -9,6 +9,8 @@ coverage = []
 classes_app = []
 classes_test = []
 projects = []
+row = 0
+col = 0
 
 # projects_path = '/home/guilherme/spring-projects/maven/'
 projects_path = 'maven/'
@@ -59,3 +61,41 @@ end
 
 # mvn clean clover:setup test clover:aggregate clover:clover ## executar primeiro
 # mvn clover:clover ## => gerar relatório em html
+
+## BEGIN TEST
+
+ts  = ["t1", "t2", "t3", "t4", "t5", "t6"]
+
+ps  = 
+[
+  ["projeto 1", "classe 1"],
+  ["projeto 1", "classe 2"],
+  ["projeto 1", "classe 3"],
+  ["projeto 2", "classe 1"],
+  ["projeto 2", "classe 2"],
+  ["projeto 2", "classe 3"]
+]
+
+p1 = 
+[
+  ["projeto 1", "classe 1", 1, 1, 1],
+  ["projeto 1", "classe 2", 1, 1, 1],
+  ["projeto 1", "classe 3", 1, 1, 1]
+]
+
+p2 = 
+[
+  ["projeto 2", "classe 1", 2, 2, 2],
+  ["projeto 2", "classe 2", 2, 2, 2],
+  ["projeto 2", "classe 3", 2, 2, 2]
+]
+
+r = 
+[
+  ["projeto 1", "classe 1", 1, 1, 1, 0, 0, 0],
+  ["projeto 1", "classe 2", 1, 1, 1, 0, 0, 0],
+  ["projeto 1", "classe 3", 1, 1, 1, 0, 0, 0],
+  ["projeto 2", "classe 1", 0, 0, 0, 2, 2, 2],
+  ["projeto 2", "classe 2", 0, 0, 0, 2, 2, 2],
+  ["projeto 2", "classe 3", 0, 0, 0, 2, 2, 2]
+]
