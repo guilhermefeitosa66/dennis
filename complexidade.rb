@@ -12,8 +12,8 @@ tests_case = []
 complexity = []
 
 
-# projects_path = '/home/guilherme/spring-projects/maven/'
-projects_path = '/home/guilherme/dennis/maven/' # teste
+# projects_path = '/home/guilherme/dennis/maven/' # teste
+projects_path = '/home/guilherme/spring-projects/maven/'
 
 puts "lendo projetos..."
 Dir.glob("#{projects_path}*") do |dir|
@@ -49,14 +49,11 @@ projects.each do |project|
   classes_app.each do |ca|
     begin
       html = Nokogiri::HTML(File.open("#{ca[0]}/#{ca[2]}.html".gsub('//','/') ))
-      rows = html.xpath("//tbody[@id='tests-body']/tr")
+      #rows = html.xpath("//tbody[@id='tests-body']/tr")
 
-      ## adiciona todos os casos de teste no vetor
-      rows.each do |tr|
-        if ! tests_case.include? tr.at_xpath('td[3]/span/text()').to_s.strip
-          tests_case << tr.at_xpath('td[3]/span/text()').to_s.strip
-        end
-      end
+      cpxt = html.xpath("//table[1]/tbody/tr").at_xpath('td[5]/text()').to_s.strip
+      complexity << [ca[1], ca[2], cpxt]
+
     rescue Exception => e
       next
     end
