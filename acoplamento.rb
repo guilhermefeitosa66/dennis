@@ -1,9 +1,6 @@
-require 'spreadsheet'
-require 'nokogiri'
-require 'uri'
-require 'pp'
 require 'find'
-require 'axlsx' # gem install axlsx
+require 'axlsx'
+require 'csv'
 
 file_paths = []
 objects = []
@@ -43,6 +40,9 @@ file_paths.each do |path|
 end
 
 # gerar planilha com os dados de acoplamento
+
+puts "gerando planilha..."
+
 Axlsx::Package.new do |p|
   p.workbook.add_worksheet(:name => "acoplamento") do |sheet|
     sheet.add_row %w{PROJECT CLASS COUPLING}
@@ -51,3 +51,10 @@ Axlsx::Package.new do |p|
 
   p.serialize('acoplamento.xlsx')
 end
+
+CSV.open("maven-acomplamento.csv", "w") do |csv|
+  csv << ["PROJECT", "CLASS", "COUPLING"]
+  objects.each { |o| csv << [o[:project], o[:class], o[:cbo].to_s] }
+end
+
+puts "pronto!"

@@ -1,8 +1,7 @@
-require 'spreadsheet'
 require 'nokogiri'
-require 'uri'
 require 'find'
-require 'axlsx' # gem install axlsx
+require 'axlsx'
+require 'csv'
 
 file = ""
 # ler arquivos xml
@@ -44,10 +43,15 @@ xml = Nokogiri::XML(file)
 # gerar planilha com os dados
 Axlsx::Package.new do |p|
   p.workbook.add_worksheet(:name => "testcases") do |sheet|
-    sheet.add_row %w{PROJECT TESTCASE CLASS TIME}
-    xml.child.elements.each_with_index { |e,i| sheet.add_row([ e.attributes["project"].value, e.attributes["name"].value, e.attributes["classname"].value, e.attributes["time"].value]) }
+    sheet.add_row %w{PROJECT CLASS TESTCASE TIME}
+    xml.child.elements.each { |e| sheet.add_row([ e.attributes["project"].value, e.attributes["classname"].value, e.attributes["name"].value, e.attributes["time"].value]) }
   end
-  p.serialize('tempo.xlsx')
+  p.serialize('maven-tempo.xlsx')
 end
 
-puts "done!"
+CSV.open("maven-tempo.csv", "w") do |csv|
+  csv << ["PROJECT", "CLASS", "TESTCASE", "TIME"]
+  xml.child.elements.each { |e| csv << [ e.attributes["project"].value, e.attributes["classname"].value, e.attributes["name"].value, e.attributes["time"].value] }
+end
+
+puts "pronto!"

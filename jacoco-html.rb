@@ -49,7 +49,7 @@ Axlsx::Package.new do |p|
     objects.each { |o| sheet.add_row([ o[:project], o[:class], o[:coverage].to_s ]) }
   end
 
-  p.serialize('cobertura.xlsx')
+  p.serialize('teste/cobertura.xlsx')
 end
 
 # gerar planilha com os dados de complexidade
@@ -59,7 +59,7 @@ Axlsx::Package.new do |p|
     objects.each { |o| sheet.add_row([ o[:project], o[:class], o[:complexity].to_s ]) }
   end
 
-  p.serialize('complexidade.xlsx')
+  p.serialize('teste/complexidade.xlsx')
 end
 
 puts "done!"

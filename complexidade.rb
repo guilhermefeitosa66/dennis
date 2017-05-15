@@ -1,9 +1,6 @@
-#require 'spreadsheet'
 require 'nokogiri'
-require 'uri'
-# require 'axlsx' # gem install axlsx
-require 'pp'
 require 'find'
+require 'axlsx'
 require 'csv'
 
 projects = []
@@ -65,15 +62,15 @@ end
 
 ## gerar planilha com os dados
 puts "gerando planilha..."
-# Axlsx::Package.new do |p|
-#   p.workbook.add_worksheet(:name => "complexidade") do |sheet|
-#     sheet.add_row ["PROJECT", "CLASS", "COMPLEXITY"]
-#     complexity.each { |row| sheet.add_row(row) }
-#   end
-#   p.serialize('complexidade.xlsx')
-# end
+Axlsx::Package.new do |p|
+  p.workbook.add_worksheet(:name => "complexidade") do |sheet|
+    sheet.add_row ["PROJECT", "CLASS", "COMPLEXITY"]
+    complexity.each { |row| sheet.add_row(row) }
+  end
+  p.serialize('maven-complexidade.xlsx')
+end
 
-CSV.open("teste-csv.csv", "w") do |csv|
+CSV.open("maven-complexidade.csv", "w") do |csv|
   csv << ["PROJECT", "CLASS", "COMPLEXITY"]
   complexity.each { |row| csv << row }
 end
