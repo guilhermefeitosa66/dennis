@@ -1,9 +1,10 @@
-require 'spreadsheet'
+#require 'spreadsheet'
 require 'nokogiri'
 require 'uri'
-require 'axlsx' # gem install axlsx
+# require 'axlsx' # gem install axlsx
 require 'pp'
 require 'find'
+require 'csv'
 
 projects = []
 classes_summary = []
@@ -64,12 +65,17 @@ end
 
 ## gerar planilha com os dados
 puts "gerando planilha..."
-Axlsx::Package.new do |p|
-  p.workbook.add_worksheet(:name => "complexidade") do |sheet|
-    sheet.add_row ["PROJECT", "CLASS", "COMPLEXITY"]
-    complexity.each { |row| sheet.add_row(row) }
-  end
-  p.serialize('complexidade.xlsx')
+# Axlsx::Package.new do |p|
+#   p.workbook.add_worksheet(:name => "complexidade") do |sheet|
+#     sheet.add_row ["PROJECT", "CLASS", "COMPLEXITY"]
+#     complexity.each { |row| sheet.add_row(row) }
+#   end
+#   p.serialize('complexidade.xlsx')
+# end
+
+CSV.open("teste-csv.csv", "w") do |csv|
+  csv << ["PROJECT", "CLASS", "COMPLEXITY"]
+  complexity.each { |row| csv << row }
 end
 
 puts "pronto!"
