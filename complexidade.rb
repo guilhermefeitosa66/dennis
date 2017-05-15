@@ -9,7 +9,6 @@ classes_app = []
 tests_case = []
 complexity = []
 
-
 # projects_path = '/home/guilherme/dennis/maven/' # teste
 projects_path = '/home/guilherme/spring-projects/maven/'
 
@@ -23,7 +22,7 @@ end
 puts "localizando sumário de classes..."
 projects.each do |project|
 
-  Find.find("#{projects_path}/#{project}") do |path|
+  Find.find("#{projects_path}/#{project}/") do |path|
     classes_summary << path if path.include?('site/clover/') && path.include?('/pkg-summary.html')
     #classes_test << path if path.include?('site/clover/') && path.include?('testsrc-pkg-summary.html')
   end
@@ -55,9 +54,7 @@ projects.each do |project|
     rescue Exception => e
       next
     end
-    
   end
-
 end
 
 ## gerar planilha com os dados

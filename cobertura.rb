@@ -1,16 +1,13 @@
-require 'spreadsheet'
 require 'nokogiri'
-require 'uri'
-require 'axlsx' # gem install axlsx
-require 'pp'
 require 'find'
+require 'axlsx'
+require 'csv'
 
 projects = []
 classes_summary = []
 classes_app = []
 tests_case = []
 coverages = []
-
 
 projects_path = '/home/guilherme/spring-projects/maven/'
 # projects_path = '/home/guilherme/dennis/maven/' # teste
@@ -25,7 +22,7 @@ end
 puts "localizando sumário de classes..."
 projects.each do |project|
 
-  Find.find("#{projects_path}/#{project}") do |path|
+  Find.find("#{projects_path}/#{project}/") do |path|
     classes_summary << path if path.include?('site/clover/') && path.include?('/pkg-summary.html')
     #classes_test << path if path.include?('site/clover/') && path.include?('testsrc-pkg-summary.html')
   end
@@ -60,9 +57,7 @@ projects.each do |project|
     rescue Exception => e
       next
     end
-    
   end
-
 end
 
 ## percorre todos os arquivos de relatório da classe, para verificar quais testes a cobrem
@@ -101,6 +96,11 @@ Axlsx::Package.new do |p|
     coverages.each { |row| sheet.add_row(row) }
   end
   p.serialize('cobertura.xlsx')
+end
+
+CSV.open("maven-cobertura.csv", "w") do |csv|
+  csv << (["PROJECT", "TESTCASE/CLASS"] + tests_case)
+  coverages.each { |row| csv << row }
 end
 
 puts "pronto!"
