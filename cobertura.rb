@@ -4,11 +4,9 @@ require 'axlsx'
 require 'csv'
 
 projects = []
-classes_summary = []
-classes_app = []
-tests_case = []
 coverages = []
-
+all_classes = []
+all_tests_case = []
 projects_path = '/home/guilherme/spring-projects/maven/'
 # projects_path = '/home/guilherme/dennis/maven/' # teste
 
@@ -19,8 +17,12 @@ end
 
 ## Localiza os arquivos que contem a lista de classes, para em seguida obter 
 ## os nomes de cada arquivo que contem o relatório individual da classe
-puts "localizando sumário de classes..."
 projects.each do |project|
+  classes_summary = []
+  classes_app = []
+  tests_case = []
+
+  puts "localizando sumário de classes..."
 
   Find.find("#{projects_path}/#{project}/") do |path|
     classes_summary << path if path.include?('site/clover/') && path.include?('/pkg-summary.html')
@@ -29,6 +31,7 @@ projects.each do |project|
 
   ## localiza a tabela 'packageClassesTable' em cada arquivo
   puts "criando lista de classes do projeto: #{project}..."
+
   classes_summary.each do |file|
     html = Nokogiri::HTML(File.open(file))
     rows = html.xpath("//table[@id='packageClassesTable']/tbody/tr")
@@ -41,8 +44,13 @@ projects.each do |project|
     end
   end
 
+  all_classes = all_classes + classes_app
+
+  puts "total de classes: #{classes_app.count}"
+
   ## percorre todos os arquivos de relatório da classe, para localizar os testes que a cobrem
   puts "criando lista de casos de teste do projeto: #{project}..."
+
   classes_app.each do |ca|
     begin
       html = Nokogiri::HTML(File.open("#{ca[0]}/#{ca[2]}.html".gsub('//','/') ))
@@ -58,11 +66,17 @@ projects.each do |project|
       next
     end
   end
+
+  all_tests_case = all_tests_case + tests_case
+
+  puts "total de casos de teste: #{tests_case.count}"
+  puts "-" * 100
 end
 
 ## percorre todos os arquivos de relatório da classe, para verificar quais testes a cobrem
 puts "construido matriz de cobertura por classes..."
-classes_app.each do |ca|
+
+all_classes.each do |ca|
   begin
     html = Nokogiri::HTML(File.open("#{ca[0]}/#{ca[2]}.html".gsub('//','/') ))
     rows = html.xpath("//tbody[@id='tests-body']/tr")
@@ -70,7 +84,7 @@ classes_app.each do |ca|
     new_row = [ca[1], ca[2]]
 
     ## adiciona as classes com a sua cobertura para cada caso de teste
-    tests_case.each do |tc|
+    all_tests_case.each do |tc|
       coverage = 0
 
       rows.each do |tr|
@@ -92,14 +106,14 @@ end
 puts "gerando planilha..."
 Axlsx::Package.new do |p|
   p.workbook.add_worksheet(:name => "cobertura") do |sheet|
-    sheet.add_row (["PROJECT", "TESTCASE/CLASS"] + tests_case)
+    sheet.add_row (["PROJECT", "TESTCASE/CLASS"] + all_tests_case)
     coverages.each { |row| sheet.add_row(row) }
   end
   p.serialize('cobertura.xlsx')
 end
 
 CSV.open("maven-cobertura.csv", "w") do |csv|
-  csv << (["PROJECT", "TESTCASE/CLASS"] + tests_case)
+  csv << (["PROJECT", "TESTCASE/CLASS"] + all_tests_case)
   coverages.each { |row| csv << row }
 end
 

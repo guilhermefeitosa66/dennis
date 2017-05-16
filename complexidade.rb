@@ -4,9 +4,6 @@ require 'axlsx'
 require 'csv'
 
 projects = []
-classes_summary = []
-classes_app = []
-tests_case = []
 complexity = []
 
 # projects_path = '/home/guilherme/dennis/maven/' # teste
@@ -19,9 +16,12 @@ end
 
 ## Localiza os arquivos que contem a lista de classes, para em seguida obter 
 ## os nomes de cada arquivo que contem o relatório individual da classe
-puts "localizando sumário de classes..."
 projects.each do |project|
+  classes_summary = []
+  classes_app = []
 
+  puts "localizando sumário de classes do projeto: #{project}..."
+  
   Find.find("#{projects_path}/#{project}/") do |path|
     classes_summary << path if path.include?('site/clover/') && path.include?('/pkg-summary.html')
     #classes_test << path if path.include?('site/clover/') && path.include?('testsrc-pkg-summary.html')
@@ -29,6 +29,7 @@ projects.each do |project|
 
   ## localiza a tabela 'packageClassesTable' em cada arquivo
   puts "criando lista de classes do projeto: #{project}..."
+
   classes_summary.each do |file|
     html = Nokogiri::HTML(File.open(file))
     rows = html.xpath("//table[@id='packageClassesTable']/tbody/tr")
@@ -41,8 +42,11 @@ projects.each do |project|
     end
   end
 
+  puts "total de classes: #{classes_app.count}"
+
   ## percorre todos os arquivos de relatório da classe, para localizar os testes que a cobrem
   puts "criando lista da complexidade das classes do projeto: #{project}..."
+
   classes_app.each do |ca|
     begin
       html = Nokogiri::HTML(File.open("#{ca[0]}/#{ca[2]}.html".gsub('//','/') ))
@@ -55,6 +59,8 @@ projects.each do |project|
       next
     end
   end
+
+  puts "-" * 100
 end
 
 ## gerar planilha com os dados
