@@ -52,7 +52,7 @@ Axlsx::Package.new do |p|
   p.serialize('acoplamento.xlsx')
 end
 
-CSV.open("maven-acomplamento.csv", "w") do |csv|
+CSV.open("maven-acoplamento.csv", "w") do |csv|
   csv << ["PROJECT", "CLASS", "COUPLING"]
   objects.each { |o| csv << [o[:project], o[:class], o[:cbo].to_s] }
 end
