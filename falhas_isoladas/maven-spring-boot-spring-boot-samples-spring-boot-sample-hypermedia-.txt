@@ -1,0 +1,2 @@
+halWithHtml(sample.hypermedia.SampleHypermediaApplicationHomePageTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+	at sample.hypermedia.SampleHypermediaApplicationHomePageTests.halWithHtml(SampleHypermediaApplicationHomePageTests.java:65)

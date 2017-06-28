@@ -1,0 +1,6 @@
+testLogin(sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests)  Time elapsed: 0.069 sec  <<< FAILURE!
+	at sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests.getHeaders(SampleWebSecureJdbcApplicationTests.java:103)
+	at sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests.testLogin(SampleWebSecureJdbcApplicationTests.java:83)
+
+testLoginPage(sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests)  Time elapsed: 0.022 sec  <<< FAILURE!
+	at sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests.testLoginPage(SampleWebSecureJdbcApplicationTests.java:77)

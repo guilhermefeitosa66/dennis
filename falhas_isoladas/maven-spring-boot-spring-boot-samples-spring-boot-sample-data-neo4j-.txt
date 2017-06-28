@@ -1,0 +1,2 @@
+testDefaultSettings(sample.data.neo4j.SampleNeo4jApplicationTests)  Time elapsed: 0.692 sec  <<< FAILURE!
+	at sample.data.neo4j.SampleNeo4jApplicationTests.testDefaultSettings(SampleNeo4jApplicationTests.java:49)

@@ -1,0 +1,34 @@
+beans(org.springframework.boot.actuate.hypermedia.HypermediaEndpointDocumentation)  Time elapsed: 0.01 sec  <<< FAILURE!
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.boot.actuate.hypermedia.HypermediaEndpointDocumentation.beans(HypermediaEndpointDocumentation.java:53)
+
+metrics(org.springframework.boot.actuate.hypermedia.HypermediaEndpointDocumentation)  Time elapsed: 0.006 sec  <<< FAILURE!
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.boot.actuate.hypermedia.HypermediaEndpointDocumentation.metrics(HypermediaEndpointDocumentation.java:59)
+
+endpoints(org.springframework.boot.actuate.hypermedia.EndpointDocumentation)  Time elapsed: 0.005 sec  <<< FAILURE!
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.boot.actuate.hypermedia.EndpointDocumentation.endpoints(EndpointDocumentation.java:124)
+
+partialLogfile(org.springframework.boot.actuate.hypermedia.EndpointDocumentation)  Time elapsed: 0.003 sec  <<< FAILURE!
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.boot.actuate.hypermedia.EndpointDocumentation.partialLogfile(EndpointDocumentation.java:107)
+
+logfile(org.springframework.boot.actuate.hypermedia.EndpointDocumentation)  Time elapsed: 0.003 sec  <<< FAILURE!
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.boot.actuate.hypermedia.EndpointDocumentation.logfile(EndpointDocumentation.java:97)

@@ -1,0 +1,13 @@
+httpSample(org.springframework.boot.cli.SampleIntegrationTests)  Time elapsed: 2.309 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at org.springframework.boot.cli.SampleIntegrationTests.httpSample(SampleIntegrationTests.java:124)
+
+reactorSample(org.springframework.boot.cli.SampleIntegrationTests)  Time elapsed: 1.865 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at org.springframework.boot.cli.SampleIntegrationTests.reactorSample(SampleIntegrationTests.java:89)
+
+dataJpaDependencies(org.springframework.boot.cli.ReproIntegrationTests)  Time elapsed: 1.538 sec  <<< FAILURE!
+	at org.springframework.boot.cli.ReproIntegrationTests.dataJpaDependencies(ReproIntegrationTests.java:57)
+
+integrationAutoConfigTest(org.springframework.boot.cli.TestCommandIntegrationTests)  Time elapsed: 2.383 sec  <<< FAILURE!
+	at org.springframework.boot.cli.TestCommandIntegrationTests.integrationAutoConfigTest(TestCommandIntegrationTests.java:100)

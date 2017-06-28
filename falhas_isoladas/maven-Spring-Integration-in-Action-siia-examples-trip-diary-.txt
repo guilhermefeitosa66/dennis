@@ -1,0 +1,2 @@
+filenameShouldContainTodaysDate(com.manning.siia.trip.diary.ChangeFileNameGeneratorTest)  Time elapsed: 0.094 sec  <<< FAILURE!
+	at com.manning.siia.trip.diary.ChangeFileNameGeneratorTest.filenameShouldContainTodaysDate(ChangeFileNameGeneratorTest.java:51)

@@ -1,0 +1,3 @@
+testStartFlow(org.springframework.webflow.issues.PhonebookFlowExecutionTests)  Time elapsed: 0.052 sec  <<< FAILURE!
+	at org.springframework.webflow.test.execution.AbstractFlowExecutionTests.assertCurrentStateEquals(AbstractFlowExecutionTests.java:332)
+	at org.springframework.webflow.issues.PhonebookFlowExecutionTests.testStartFlow(PhonebookFlowExecutionTests.java:30)
