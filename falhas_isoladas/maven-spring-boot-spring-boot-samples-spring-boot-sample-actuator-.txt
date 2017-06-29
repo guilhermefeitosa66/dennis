@@ -1,0 +1,11 @@
+testHome(sample.actuator.ServletPathInsecureSampleActuatorApplicationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+	at sample.actuator.ServletPathInsecureSampleActuatorApplicationTests.testHome(ServletPathInsecureSampleActuatorApplicationTests.java:55)
+
+testMetricsIsSecure(sample.actuator.ServletPathInsecureSampleActuatorApplicationTests)  Time elapsed: 0.013 sec  <<< FAILURE!
+	at sample.actuator.ServletPathInsecureSampleActuatorApplicationTests.testMetricsIsSecure(ServletPathInsecureSampleActuatorApplicationTests.java:67)
+
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.026 sec <<< FAILURE! - in sample.actuator.ServletPathSampleActuatorApplicationTests
+	at sample.actuator.ServletPathSampleActuatorApplicationTests.testErrorPath(ServletPathSampleActuatorApplicationTests.java:54)
+
+testHealth(sample.actuator.ServletPathSampleActuatorApplicationTests)  Time elapsed: 0.007 sec  <<< FAILURE!
+	at sample.actuator.ServletPathSampleActuatorApplicationTests.testHealth(ServletPathSampleActuatorApplicationTests.java:65)

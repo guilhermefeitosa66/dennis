@@ -1,0 +1,10 @@
+testHome(sample.web.ui.MessageControllerWebTests)  Time elapsed: 0.064 sec  <<< FAILURE!
+	at sample.web.ui.MessageControllerWebTests.testHome(MessageControllerWebTests.java:66)
+
+testCreateValidation(sample.web.ui.MessageControllerWebTests)  Time elapsed: 0.076 sec  <<< FAILURE!
+	at org.springframework.test.web.servlet.result.ContentResultMatchers$4.match(ContentResultMatchers.java:137)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at sample.web.ui.MessageControllerWebTests.testCreateValidation(MessageControllerWebTests.java:80)
+
+testHome(sample.web.ui.SampleWebUiApplicationTests)  Time elapsed: 0.139 sec  <<< FAILURE!
+	at sample.web.ui.SampleWebUiApplicationTests.testHome(SampleWebUiApplicationTests.java:57)

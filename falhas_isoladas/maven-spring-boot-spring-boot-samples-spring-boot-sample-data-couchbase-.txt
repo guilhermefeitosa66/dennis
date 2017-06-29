@@ -1,0 +1,2 @@
+testDefaultSettings(sample.data.couchbase.SampleCouchbaseApplicationTests)  Time elapsed: 12.509 sec  <<< FAILURE!
+	at sample.data.couchbase.SampleCouchbaseApplicationTests.testDefaultSettings(SampleCouchbaseApplicationTests.java:46)

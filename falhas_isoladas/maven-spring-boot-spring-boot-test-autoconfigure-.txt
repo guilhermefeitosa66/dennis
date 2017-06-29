@@ -1,0 +1,14 @@
+getIdForTypeWhenTypeIsWrongShouldThrowException(org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerTests)  Time elapsed: 0 sec  <<< FAILURE!
+	at org.springframework.util.Assert.instanceCheckFailed(Assert.java:635)
+	at org.springframework.util.Assert.isInstanceOf(Assert.java:535)
+	at org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager.getId(TestEntityManager.java:227)
+	at org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerTests.getIdForTypeWhenTypeIsWrongShouldThrowException(TestEntityManagerTests.java:196)
+
+shouldPrint(org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestPrintDefaultIntegrationTests)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at org.springframework.boot.test.rule.OutputCapture$1.evaluate(OutputCapture.java:67)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:250)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:189)

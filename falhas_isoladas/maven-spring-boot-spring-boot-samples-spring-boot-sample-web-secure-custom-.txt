@@ -1,0 +1,6 @@
+testLogin(sample.web.secure.custom.SampleWebSecureCustomApplicationTests)  Time elapsed: 0.085 sec  <<< FAILURE!
+	at sample.web.secure.custom.SampleWebSecureCustomApplicationTests.getHeaders(SampleWebSecureCustomApplicationTests.java:103)
+	at sample.web.secure.custom.SampleWebSecureCustomApplicationTests.testLogin(SampleWebSecureCustomApplicationTests.java:83)
+
+testLoginPage(sample.web.secure.custom.SampleWebSecureCustomApplicationTests)  Time elapsed: 0.018 sec  <<< FAILURE!
+	at sample.web.secure.custom.SampleWebSecureCustomApplicationTests.testLoginPage(SampleWebSecureCustomApplicationTests.java:77)

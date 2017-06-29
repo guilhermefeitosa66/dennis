@@ -86,7 +86,7 @@ complexity.each do |cpx|
   threads.each { |thr| thr.join }
 
   if elements[:coupling] && elements[:coverage] #&& elements[:fault] && elements[:time]
-    selecion[:complexity] << elements[:complexity]
+    selecion[:complexity] << (elements[:complexity] << elements[:coupling][2] )
     selecion[:coupling] << elements[:coupling]
     selecion[:coverage] << elements[:coverage]
     # selecion[:fault] << elements[:fault]
@@ -107,8 +107,8 @@ puts "total: #{selecion[:complexity].count}"
 puts '-------------------------'
 puts 'creating new csv files...'
 
-CSV.open("selecao_dados/complexity.csv", "w") do |csv|
-  csv << complexity[0]
+CSV.open("selecao_dados/complexity-acoplamento.csv", "w") do |csv|
+  csv << (complexity[0] << coupling[0][2])
 
   selecion[:complexity].each do |line|
     csv << line

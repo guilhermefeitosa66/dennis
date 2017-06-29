@@ -1,0 +1,11 @@
+testHome(sample.security.method.SampleMethodSecurityApplicationTests)  Time elapsed: 0.031 sec  <<< FAILURE!
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sample.security.method.SampleMethodSecurityApplicationTests.testHome(SampleMethodSecurityApplicationTests.java:67)
+
+testManagementAuthorizedAccess(sample.security.method.SampleMethodSecurityApplicationTests)  Time elapsed: 0.013 sec  <<< FAILURE!
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sample.security.method.SampleMethodSecurityApplicationTests.testManagementAuthorizedAccess(SampleMethodSecurityApplicationTests.java:125)
