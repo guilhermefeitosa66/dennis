@@ -1,0 +1,201 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.retry:spring-retry:jar:1.2.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 256, column 20
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 264, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 289, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 277, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Retry 1.2.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-retry ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-retry/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-retry ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-retry ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-retry ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spring-retry ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-retry/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.classify.ClassifierAdapterTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec
+Running org.springframework.classify.BackToBackPatternClassifierTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.springframework.classify.BinaryExceptionClassifierTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
+Running org.springframework.classify.SubclassExceptionClassifierTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.springframework.classify.PatternMatchingClassifierTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.springframework.classify.ClassifierSupportTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.springframework.retry.interceptor.RetryOperationsInterceptorTests
+2017-03-03 11:03:18,443 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - <Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5f341870: startup date [Fri Mar 03 11:03:18 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:18,473 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from class path resource [org/springframework/retry/interceptor/retry-transaction-test.xml]>
+2017-03-03 11:03:18,882 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - <Closing org.springframework.context.support.ClassPathXmlApplicationContext@5f341870: startup date [Fri Mar 03 11:03:18 BRT 2017]; root of context hierarchy>
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.543 sec
+Running org.springframework.retry.interceptor.RetryInterceptorBuilderTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.045 sec
+Running org.springframework.retry.interceptor.StatefulRetryOperationsInterceptorTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 sec
+Running org.springframework.retry.AnyThrowTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.springframework.retry.support.RetryTemplateTests
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running org.springframework.retry.support.DefaultRetryStateTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.springframework.retry.support.RetrySynchronizationManagerTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.springframework.retry.support.RetrySimulationTests
+ExponentialBackOffPolicy[initialInterval=100, multiplier=2.0, maxInterval=30000]
+Longest sequence  totalSleep=1500: [100, 200, 400, 800]
+Percentiles:       [100.0, 100.0, 200.0, 200.0, 300.0, 400.0, 400.0, 800.0, 800.0]
+ExponentialRandomBackOffPolicy[initialInterval=100, multiplier=2.0, maxInterval=30000]
+Longest sequence  totalSleep=2954: [186, 393, 796, 1579]
+Percentiles:       [140.0, 180.0, 241.0, 320.0, 399.5, 559.0, 719.0, 958.0, 1276.0]
+FixedBackOffPolicy[backOffPeriod=400]
+Longest sequence  totalSleep=1600: [400, 400, 400, 400]
+Percentiles:       [400.0, 400.0, 400.0, 400.0, 400.0, 400.0, 400.0, 400.0, 400.0]
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.36 sec
+Running org.springframework.retry.support.StatefulRecoveryRetryTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.springframework.retry.policy.StatefulRetryIntegrationTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.254 sec
+Running org.springframework.retry.policy.SoftReferenceMapRetryContextCacheTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.springframework.retry.policy.MapRetryContextCacheTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.springframework.retry.policy.FatalExceptionRetryPolicyTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.springframework.retry.policy.SimpleRetryPolicyTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.springframework.retry.policy.CircuitBreakerRetryTemplateTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.401 sec
+Running org.springframework.retry.policy.AlwaysRetryPolicyTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.springframework.retry.policy.ExceptionClassifierRetryPolicyTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.springframework.retry.policy.TimeoutRetryPolicyTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.199 sec
+Running org.springframework.retry.policy.NeverRetryPolicyTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.springframework.retry.policy.CompositeRetryPolicyTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.springframework.retry.RetryExceptionTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.springframework.retry.BackOffInterruptedExceptionTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.springframework.retry.annotation.RecoverAnnotationRecoveryHandlerTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running org.springframework.retry.annotation.EnableRetryWithListenersTests
+2017-03-03 11:03:21,504 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@305ffe9e: startup date [Fri Mar 03 11:03:21 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:23,678 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@305ffe9e: startup date [Fri Mar 03 11:03:21 BRT 2017]; root of context hierarchy>
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.207 sec
+Running org.springframework.retry.annotation.CircuitBreakerTests
+2017-03-03 11:03:23,684 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4671115f: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:23,738 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4671115f: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+Running org.springframework.retry.annotation.EnableRetryTests
+2017-03-03 11:03:23,744 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@413f69cc: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:23,846 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@413f69cc: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:23,849 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@15713d56: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:23,871 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@15713d56: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:23,873 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@ca30bc1: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:23,899 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@ca30bc1: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:23,901 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@141e5bef: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:23,925 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@141e5bef: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:23,928 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@332796d3: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:23,946 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@332796d3: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:23,947 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6581dc0a: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,007 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6581dc0a: startup date [Fri Mar 03 11:03:23 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,008 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2bd08376: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,028 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2bd08376: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,029 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3ad2e17: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,045 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3ad2e17: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,047 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@65a15628: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,066 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@65a15628: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,067 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@40db2a24: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,085 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@40db2a24: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.347 sec
+Running org.springframework.retry.annotation.ProxyApplicationTests
+2017-03-03 11:03:24,089 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4eeea57d: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,107 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4eeea57d: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,109 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@16fb356: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,117 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@16fb356: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,119 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@67427b69: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,129 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@67427b69: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,130 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@24a1c17f: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,141 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@24a1c17f: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+Running org.springframework.retry.annotation.EnableRetryWithBackoffTests
+2017-03-03 11:03:24,144 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@407cf41: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,182 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@407cf41: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,184 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3deb2326: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,198 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3deb2326: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,200 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@bc57b40: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,216 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@bc57b40: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,217 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@52350abb: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,241 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@52350abb: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 sec
+Running org.springframework.retry.stats.StatisticsListenerTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running org.springframework.retry.stats.CircuitBreakerStatisticsTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.springframework.retry.stats.ExponentialAverageRetryStatisticsTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.springframework.retry.stats.CircuitBreakerInterceptorStatisticsTests
+2017-03-03 11:03:24,269 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@486be205: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+2017-03-03 11:03:24,302 INFO [org.springframework.context.annotation.AnnotationConfigApplicationContext] - <Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@486be205: startup date [Fri Mar 03 11:03:24 BRT 2017]; root of context hierarchy>
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+Running org.springframework.retry.listener.RetryListenerTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.springframework.retry.listener.RetryListenerSupportTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.springframework.retry.TerminatedRetryExceptionTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.springframework.retry.backoff.ExponentialBackOffPolicyTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.springframework.retry.backoff.ExponentialRandomBackOffPolicyTests
+Ran 10000 backoff trials.  Each trial retried 6 times
+Policy: ExponentialRandomBackOffPolicy[initialInterval=50, multiplier=2.0, maxInterval=3000]
+All generated backoffs:
+    [75.0, 99.80000000000109, 149.0, 199.60000000000218, 299.0, 399.3999999999978, 599.0, 799.2000000000044, 1192.0]
+Backoff frequencies:
+    [75.0, 99.80000000000109, 149.0, 199.60000000000218, 299.0, 399.3999999999978, 599.0, 799.2000000000044, 1192.0]Single trial of ExponentialRandomBackOffPolicy[initialInterval=50, multiplier=2.0, maxInterval=3000]: sleeps=[89, 189, 271, 453, 1193]
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.292 sec
+Running org.springframework.retry.backoff.FixedBackOffPolicyTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.springframework.retry.backoff.ThreadWaitSleeperTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+Running org.springframework.retry.ExhaustedRetryExceptionTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+
+Results :
+
+Tests run: 216, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.246 s
+[INFO] Finished at: 2017-03-03T11:03:24-03:00
+[INFO] Final Memory: 12M/217M
+[INFO] ------------------------------------------------------------------------

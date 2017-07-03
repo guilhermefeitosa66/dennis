@@ -1,0 +1,173 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Data Redis - Examples
+[INFO] Spring Data Redis - Example Utilities
+[INFO] Spring Data Redis - Cluster/Sentinel Example
+[INFO] Spring Data Redis - Example
+[INFO] Spring Data Redis - Cluster Example
+[INFO] Spring Data Redis - Repository Support Example
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Redis - Examples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Redis - Example Utilities 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-redis-example-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/util/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/util/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-redis-example-utils ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-redis-example-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/util/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-redis-example-utils ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-redis-example-utils ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Redis - Cluster/Sentinel Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-redis-cluster-sentinel-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-redis-cluster-sentinel-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-redis-cluster-sentinel-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/cluster-sentinel/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-redis-cluster-sentinel-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-redis-cluster-sentinel-example ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Redis - Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-redis-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/example/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-redis-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-redis-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-redis-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-redis-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/redis/example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.redis.commands.KeyOperationsTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.244 sec - in example.springdata.redis.commands.KeyOperationsTests
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Redis - Cluster Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-redis-cluster-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/cluster/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/cluster/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-redis-cluster-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-redis-cluster-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-redis-cluster-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-redis-cluster-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/redis/cluster/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.redis.cluster.BasicUsageTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.208 sec - in example.springdata.redis.cluster.BasicUsageTests
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Redis - Repository Support Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-redis-repositories-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/repositories/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/repositories/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-redis-repositories-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-redis-repositories-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/repositories/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-redis-repositories-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-redis-repositories-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/redis/repositories/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.redis.repositories.PersonRepositoryTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.403 sec - in example.springdata.redis.repositories.PersonRepositoryTests
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Data Redis - Examples ....................... SUCCESS [  0.002 s]
+[INFO] Spring Data Redis - Example Utilities .............. SUCCESS [  0.848 s]
+[INFO] Spring Data Redis - Cluster/Sentinel Example ....... SUCCESS [  0.044 s]
+[INFO] Spring Data Redis - Example ........................ SUCCESS [  0.584 s]
+[INFO] Spring Data Redis - Cluster Example ................ SUCCESS [  0.397 s]
+[INFO] Spring Data Redis - Repository Support Example ..... SUCCESS [  1.571 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.046 s
+[INFO] Finished at: 2017-03-03T10:50:36-03:00
+[INFO] Final Memory: 23M/212M
+[INFO] ------------------------------------------------------------------------

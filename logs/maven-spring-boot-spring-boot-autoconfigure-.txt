@@ -1,0 +1,19 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot AutoConfigure 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.469 s
+[INFO] Finished at: 2017-03-03T10:17:05-03:00
+[INFO] Final Memory: 27M/218M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project spring-boot-autoconfigure: Could not resolve dependencies for project org.springframework.boot:spring-boot-autoconfigure:jar:2.0.0.BUILD-SNAPSHOT: Failure to find org.springframework.boot:spring-boot-test:jar:tests:2.0.0.BUILD-SNAPSHOT in http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

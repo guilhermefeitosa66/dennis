@@ -1,0 +1,97 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-ui:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Web UI Sample 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-rules) @ spring-boot-sample-web-ui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-boot-sample-web-ui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 9 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-sample-web-ui ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-boot-sample-web-ui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-sample-web-ui ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-sample-web-ui ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running sample.web.ui.MessageControllerWebTests
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.136 sec <<< FAILURE! - in sample.web.ui.MessageControllerWebTests
+testHome(sample.web.ui.MessageControllerWebTests)  Time elapsed: 0.064 sec  <<< FAILURE!
+java.lang.AssertionError: Response content
+Expected: a string containing "<title>Messages"
+     but: was ""
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.springframework.test.web.servlet.result.ContentResultMatchers$4.match(ContentResultMatchers.java:137)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at sample.web.ui.MessageControllerWebTests.testHome(MessageControllerWebTests.java:66)
+
+testCreateValidation(sample.web.ui.MessageControllerWebTests)  Time elapsed: 0.076 sec  <<< FAILURE!
+java.lang.AssertionError: Response content
+Expected: a string containing "is required"
+     but: was ""
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.springframework.test.web.servlet.result.ContentResultMatchers$4.match(ContentResultMatchers.java:137)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at sample.web.ui.MessageControllerWebTests.testCreateValidation(MessageControllerWebTests.java:80)
+
+Running sample.web.ui.SampleWebUiApplicationTests
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.97 sec <<< FAILURE! - in sample.web.ui.SampleWebUiApplicationTests
+testHome(sample.web.ui.SampleWebUiApplicationTests)  Time elapsed: 0.139 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[200]> but was:<[404]>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sample.web.ui.SampleWebUiApplicationTests.testHome(SampleWebUiApplicationTests.java:57)
+
+
+Results :
+
+Failed tests: 
+  MessageControllerWebTests.testHome:66 Response content
+Expected: a string containing "<title>Messages"
+     but: was ""
+  MessageControllerWebTests.testCreateValidation:80 Response content
+Expected: a string containing "is required"
+     but: was ""
+  SampleWebUiApplicationTests.testHome:57 expected:<[200]> but was:<[404]>
+
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.867 s
+[INFO] Finished at: 2017-03-03T10:32:09-03:00
+[INFO] Final Memory: 19M/218M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project spring-boot-sample-web-ui: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

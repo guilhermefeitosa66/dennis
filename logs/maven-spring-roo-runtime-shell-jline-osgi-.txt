@@ -1,0 +1,25 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Shell - JLine (OSGi Launcher) 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.support:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.shell:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.shell.jline:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.982 s
+[INFO] Finished at: 2017-03-03T11:07:56-03:00
+[INFO] Final Memory: 18M/212M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project org.springframework.roo.shell.jline.osgi: Could not resolve dependencies for project org.springframework.roo:org.springframework.roo.shell.jline.osgi:bundle:2.0.0.BUILD-SNAPSHOT: The following artifacts could not be resolved: org.springframework.roo:org.springframework.roo.support:jar:2.0.0.BUILD-SNAPSHOT, org.springframework.roo:org.springframework.roo.shell:jar:2.0.0.BUILD-SNAPSHOT, org.springframework.roo:org.springframework.roo.shell.jline:jar:2.0.0.BUILD-SNAPSHOT: Could not find artifact org.springframework.roo:org.springframework.roo.support:jar:2.0.0.BUILD-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

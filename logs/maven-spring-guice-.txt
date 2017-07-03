@@ -1,0 +1,69 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.guice:spring-guice:jar:1.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 74, column 20
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 82, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 107, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 95, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-guice 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-guice ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-guice ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-guice ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-guice/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-guice ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spring-guice ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-guice/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.guice.injector.SpringWiringTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.584 sec
+Running org.springframework.guice.module.SpringModuleWiringTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.271 sec
+Running org.springframework.guice.module.SpringModuleMetadataTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 sec
+Running org.springframework.guice.SimpleWiringTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+Running org.springframework.guice.annotation.EnableGuiceModulesTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec
+Running org.springframework.guice.annotation.GuiceModuleAnnotationTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 sec
+Running org.springframework.guice.annotation.ModuleNamedBeanWiringTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.132 sec
+Running org.springframework.guice.annotation.ModuleBeanWiringTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 sec
+Running org.springframework.guice.NativeGuiceTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.springframework.guice.GuiceWiringTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+
+Results :
+
+Tests run: 62, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.247 s
+[INFO] Finished at: 2017-03-03T11:01:47-03:00
+[INFO] Final Memory: 14M/212M
+[INFO] ------------------------------------------------------------------------

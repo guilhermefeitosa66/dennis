@@ -1,0 +1,685 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.manning.siia:integration:jar:1.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.integration:spring-integration-file:jar -> duplicate declaration of version ${spring.integration.version} @ com.manning.siia:siia-parent:1.0-SNAPSHOT, /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/pom.xml, line 87, column 25
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.integration:spring-integration-stream:jar -> duplicate declaration of version ${spring.integration.version} @ com.manning.siia:siia-parent:1.0-SNAPSHOT, /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/pom.xml, line 117, column 25
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-core:jar -> duplicate declaration of version ${spring.version} @ com.manning.siia:siia-parent:1.0-SNAPSHOT, /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/pom.xml, line 142, column 25
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ com.manning.siia:siia-parent:1.0-SNAPSHOT, /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/pom.xml, line 248, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building integration 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ integration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 13 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ integration ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ integration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ integration ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ integration ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running siia.booking.integration.FlightNotificationsSpelTest
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+MethodInvokingSplitter: Unable to attempt conversion of Message payload types. Component 'null' has no explicit ConversionService reference, and there is no 'integrationConversionService' bean within the context.
+EventDrivenConsumer: Adding {chain} as a subscriber to the 'flightNotifications' channel
+DirectChannel: Channel 'flightNotifications' has 1 subscriber(s).
+EventDrivenConsumer: started org.springframework.integration.config.ConsumerEndpointFactoryBean#0
+EventDrivenConsumer: Adding {outbound-channel-adapter:smsNotifier} as a subscriber to the 'tripNotifications' channel
+PublishSubscribeChannel: Channel 'tripNotifications' has 1 subscriber(s).
+EventDrivenConsumer: started smsNotifier
+EventDrivenConsumer: Adding {bridge} as a subscriber to the 'tripNotifications' channel
+PublishSubscribeChannel: Channel 'tripNotifications' has 2 subscriber(s).
+EventDrivenConsumer: started org.springframework.integration.config.ConsumerEndpointFactoryBean#1
+EventDrivenConsumer: Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 1 subscriber(s).
+EventDrivenConsumer: started _org.springframework.integration.errorLogger
+PublishSubscribeChannel: preSend on channel 'tripNotifications', message: [Payload=Mock for TripNotification, hashCode: 262445056][Headers={id=feb82d19-2964-479f-af44-8339a0e290f2, timestamp=1488546808019}]
+PublishSubscribeChannel: postSend (sent=true) on channel 'tripNotifications', message: [Payload=Mock for TripNotification, hashCode: 262445056][Headers={id=feb82d19-2964-479f-af44-8339a0e290f2, timestamp=1488546808019}]
+MethodInvokingMessageHandler: org.springframework.integration.handler.MethodInvokingMessageHandler#0 received message: [Payload=Mock for TripNotification, hashCode: 262445056][Headers={id=feb82d19-2964-479f-af44-8339a0e290f2, timestamp=1488546808019}]
+BridgeHandler: org.springframework.integration.handler.BridgeHandler#0 received message: [Payload=Mock for TripNotification, hashCode: 262445056][Headers={id=feb82d19-2964-479f-af44-8339a0e290f2, timestamp=1488546808019}]
+BridgeHandler: handler 'org.springframework.integration.handler.BridgeHandler#0' sending reply Message: [Payload=Mock for TripNotification, hashCode: 262445056][Headers={id=feb82d19-2964-479f-af44-8339a0e290f2, timestamp=1488546808019}]
+QueueChannel: preSend on channel 'interceptedTripNotifications', message: [Payload=Mock for TripNotification, hashCode: 262445056][Headers={id=feb82d19-2964-479f-af44-8339a0e290f2, timestamp=1488546808019}]
+QueueChannel: postSend (sent=true) on channel 'interceptedTripNotifications', message: [Payload=Mock for TripNotification, hashCode: 262445056][Headers={id=feb82d19-2964-479f-af44-8339a0e290f2, timestamp=1488546808019}]
+DirectChannel: preSend on channel 'flightNotifications', message: [Payload=siia.booking.domain.notifications.FlightNotification@543588e6][Headers={id=7d7ffa8d-902c-4641-b288-84b61d9c895c, timestamp=1488546808044}]
+MessageHandlerChain: org.springframework.integration.handler.MessageHandlerChain#0 received message: [Payload=siia.booking.domain.notifications.FlightNotification@543588e6][Headers={id=7d7ffa8d-902c-4641-b288-84b61d9c895c, timestamp=1488546808044}]
+MessageTransformingHandler: org.springframework.integration.transformer.MessageTransformingHandler#5579bb86 received message: [Payload=siia.booking.domain.notifications.FlightNotification@543588e6][Headers={id=7d7ffa8d-902c-4641-b288-84b61d9c895c, timestamp=1488546808044}]
+MessageTransformingHandler: handler 'org.springframework.integration.transformer.MessageTransformingHandler#5579bb86' sending reply Message: [Payload=siia.booking.domain.notifications.FlightNotification@543588e6][Headers={affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], id=fa6c55df-e7c3-4205-8d90-56f3026889d7, timestamp=1488546808050}]
+MethodInvokingSplitter: org.springframework.integration.splitter.MethodInvokingSplitter@128d2484 received message: [Payload=siia.booking.domain.notifications.FlightNotification@543588e6][Headers={affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], id=fa6c55df-e7c3-4205-8d90-56f3026889d7, timestamp=1488546808050}]
+MethodInvokingSplitter: handler 'org.springframework.integration.splitter.MethodInvokingSplitter@128d2484' sending reply Message: [Payload=siia.booking.domain.notifications.TripNotification@58d75e99][Headers={sequenceNumber=1, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=eebb1c50-25af-4a13-8990-41a363021c60, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808052}]
+PublishSubscribeChannel: preSend on channel 'tripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@58d75e99][Headers={sequenceNumber=1, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=eebb1c50-25af-4a13-8990-41a363021c60, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808052}]
+MethodInvokingMessageHandler: org.springframework.integration.handler.MethodInvokingMessageHandler#0 received message: [Payload=siia.booking.domain.notifications.TripNotification@58d75e99][Headers={sequenceNumber=1, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=eebb1c50-25af-4a13-8990-41a363021c60, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808052}]
+BridgeHandler: org.springframework.integration.handler.BridgeHandler#0 received message: [Payload=siia.booking.domain.notifications.TripNotification@58d75e99][Headers={sequenceNumber=1, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=eebb1c50-25af-4a13-8990-41a363021c60, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808052}]
+BridgeHandler: handler 'org.springframework.integration.handler.BridgeHandler#0' sending reply Message: [Payload=siia.booking.domain.notifications.TripNotification@58d75e99][Headers={sequenceNumber=1, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=eebb1c50-25af-4a13-8990-41a363021c60, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808052}]
+QueueChannel: preSend on channel 'interceptedTripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@58d75e99][Headers={sequenceNumber=1, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=eebb1c50-25af-4a13-8990-41a363021c60, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808052}]
+QueueChannel: postSend (sent=true) on channel 'interceptedTripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@58d75e99][Headers={sequenceNumber=1, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=eebb1c50-25af-4a13-8990-41a363021c60, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808052}]
+PublishSubscribeChannel: postSend (sent=true) on channel 'tripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@58d75e99][Headers={sequenceNumber=1, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=eebb1c50-25af-4a13-8990-41a363021c60, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808052}]
+MethodInvokingSplitter: handler 'org.springframework.integration.splitter.MethodInvokingSplitter@128d2484' sending reply Message: [Payload=siia.booking.domain.notifications.TripNotification@306e95ec][Headers={sequenceNumber=2, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=9c573631-328f-480b-8ae6-2d039518de55, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808055}]
+PublishSubscribeChannel: preSend on channel 'tripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@306e95ec][Headers={sequenceNumber=2, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=9c573631-328f-480b-8ae6-2d039518de55, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808055}]
+MethodInvokingMessageHandler: org.springframework.integration.handler.MethodInvokingMessageHandler#0 received message: [Payload=siia.booking.domain.notifications.TripNotification@306e95ec][Headers={sequenceNumber=2, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=9c573631-328f-480b-8ae6-2d039518de55, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808055}]
+BridgeHandler: org.springframework.integration.handler.BridgeHandler#0 received message: [Payload=siia.booking.domain.notifications.TripNotification@306e95ec][Headers={sequenceNumber=2, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=9c573631-328f-480b-8ae6-2d039518de55, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808055}]
+BridgeHandler: handler 'org.springframework.integration.handler.BridgeHandler#0' sending reply Message: [Payload=siia.booking.domain.notifications.TripNotification@306e95ec][Headers={sequenceNumber=2, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=9c573631-328f-480b-8ae6-2d039518de55, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808055}]
+QueueChannel: preSend on channel 'interceptedTripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@306e95ec][Headers={sequenceNumber=2, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=9c573631-328f-480b-8ae6-2d039518de55, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808055}]
+QueueChannel: postSend (sent=true) on channel 'interceptedTripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@306e95ec][Headers={sequenceNumber=2, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=9c573631-328f-480b-8ae6-2d039518de55, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808055}]
+PublishSubscribeChannel: postSend (sent=true) on channel 'tripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@306e95ec][Headers={sequenceNumber=2, correlationId=fa6c55df-e7c3-4205-8d90-56f3026889d7, id=9c573631-328f-480b-8ae6-2d039518de55, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618], timestamp=1488546808055}]
+DirectChannel: postSend (sent=true) on channel 'flightNotifications', message: [Payload=siia.booking.domain.notifications.FlightNotification@543588e6][Headers={id=7d7ffa8d-902c-4641-b288-84b61d9c895c, timestamp=1488546808044}]
+QueueChannel: postReceive on channel 'interceptedTripNotifications', message: [Payload=Mock for TripNotification, hashCode: 262445056][Headers={id=feb82d19-2964-479f-af44-8339a0e290f2, timestamp=1488546808019}]
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.702 sec <<< FAILURE!
+shouldEnrichHeaderAndSendMessageForRelatedTrips(siia.booking.integration.FlightNotificationsSpelTest)  Time elapsed: 0.023 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <[Mock for Trip, hashCode: 1567705314, Mock for Trip, hashCode: 637241618]>
+     got: null
+
+	at org.junit.Assert.assertThat(Assert.java:778)
+	at org.junit.Assert.assertThat(Assert.java:736)
+	at siia.booking.integration.FlightNotificationsSpelTest.shouldEnrichHeaderAndSendMessageForRelatedTrips(FlightNotificationsSpelTest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+Running siia.booking.integration.CancellationsWithExceptionTest
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+GatewayProxyFactoryBean$MethodInvocationGateway: started cancellationsGateway
+GatewayProxyFactoryBean: started cancellationsGateway
+MessageFilter: Unable to attempt conversion of Message payload types. Component 'null' has no explicit ConversionService reference, and there is no 'integrationConversionService' bean within the context.
+ServiceActivatingHandler: Unable to attempt conversion of Message payload types. Component 'null' has no explicit ConversionService reference, and there is no 'integrationConversionService' bean within the context.
+EventDrivenConsumer: Adding {filter:cancellationsFilter} as a subscriber to the 'input' channel
+DirectChannel: Channel 'input' has 1 subscriber(s).
+EventDrivenConsumer: started cancellationsFilter
+EventDrivenConsumer: Adding {service-activator:goldCancellationsProcessor} as a subscriber to the 'validated' channel
+DirectChannel: Channel 'validated' has 1 subscriber(s).
+EventDrivenConsumer: started goldCancellationsProcessor
+EventDrivenConsumer: Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 1 subscriber(s).
+EventDrivenConsumer: started _org.springframework.integration.errorLogger
+DirectChannel: preSend on channel 'input', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@5ddeb7cb][Headers={id=22877bf4-c5df-4c48-8304-d1f8e6e74604, timestamp=1488546808197}]
+MessageFilter: org.springframework.integration.filter.MessageFilter@7d9d0818 received message: [Payload=siia.booking.domain.cancellation.CancellationRequest@5ddeb7cb][Headers={id=22877bf4-c5df-4c48-8304-d1f8e6e74604, timestamp=1488546808197}]
+MessageFilter: handler 'org.springframework.integration.filter.MessageFilter@7d9d0818' sending reply Message: [Payload=siia.booking.domain.cancellation.CancellationRequest@5ddeb7cb][Headers={id=22877bf4-c5df-4c48-8304-d1f8e6e74604, timestamp=1488546808197}]
+DirectChannel: preSend on channel 'validated', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@5ddeb7cb][Headers={id=22877bf4-c5df-4c48-8304-d1f8e6e74604, timestamp=1488546808197}]
+ServiceActivatingHandler: ServiceActivator for [org.springframework.integration.handler.MethodInvokingMessageProcessor@70ed52de] received message: [Payload=siia.booking.domain.cancellation.CancellationRequest@5ddeb7cb][Headers={id=22877bf4-c5df-4c48-8304-d1f8e6e74604, timestamp=1488546808197}]
+ServiceActivatingHandler: handler 'ServiceActivator for [org.springframework.integration.handler.MethodInvokingMessageProcessor@70ed52de]' sending reply Message: [Payload=siia.booking.domain.cancellation.CancellationConfirmation@496bc455][Headers={id=049a5b28-7ce5-4e7b-bca6-6378fc707eef, timestamp=1488546808201}]
+QueueChannel: preSend on channel 'confirmed', message: [Payload=siia.booking.domain.cancellation.CancellationConfirmation@496bc455][Headers={id=049a5b28-7ce5-4e7b-bca6-6378fc707eef, timestamp=1488546808201}]
+QueueChannel: postSend (sent=true) on channel 'confirmed', message: [Payload=siia.booking.domain.cancellation.CancellationConfirmation@496bc455][Headers={id=049a5b28-7ce5-4e7b-bca6-6378fc707eef, timestamp=1488546808201}]
+DirectChannel: postSend (sent=true) on channel 'validated', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@5ddeb7cb][Headers={id=22877bf4-c5df-4c48-8304-d1f8e6e74604, timestamp=1488546808197}]
+DirectChannel: postSend (sent=true) on channel 'input', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@5ddeb7cb][Headers={id=22877bf4-c5df-4c48-8304-d1f8e6e74604, timestamp=1488546808197}]
+QueueChannel: postReceive on channel 'confirmed', message: [Payload=siia.booking.domain.cancellation.CancellationConfirmation@496bc455][Headers={id=049a5b28-7ce5-4e7b-bca6-6378fc707eef, timestamp=1488546808201}]
+DirectChannel: preSend on channel 'input', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@59402b8f][Headers={id=a8df08e7-2750-4642-bcf3-c364eb9c4cce, timestamp=1488546808203}]
+MessageFilter: org.springframework.integration.filter.MessageFilter@7d9d0818 received message: [Payload=siia.booking.domain.cancellation.CancellationRequest@59402b8f][Headers={id=a8df08e7-2750-4642-bcf3-c364eb9c4cce, timestamp=1488546808203}]
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.132 sec
+Running siia.booking.integration.notifications.FlightToTripNotificationsSplitterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running siia.booking.integration.LegQuoteIntegrationTest
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+XPathRouter: Channel mappings:{} replaced with:{flightQuote=flightQuoteChannel, carQuote=carQuoteChannel, hotelQuote=hotelQuoteChannel}
+EventDrivenConsumer: Adding {} as a subscriber to the 'javaLegQuoteCommands' channel
+DirectChannel: Channel 'javaLegQuoteCommands' has 1 subscriber(s).
+EventDrivenConsumer: started org.springframework.integration.config.ConsumerEndpointFactoryBean#0
+EventDrivenConsumer: Adding {xml:xslt-transformer} as a subscriber to the 'xmlLegQuotes' channel
+DirectChannel: Channel 'xmlLegQuotes' has 1 subscriber(s).
+EventDrivenConsumer: started org.springframework.integration.config.ConsumerEndpointFactoryBean#1
+EventDrivenConsumer: Adding {xml:xpath-splitter} as a subscriber to the 'xslTransformedLegQuote' channel
+DirectChannel: Channel 'xslTransformedLegQuote' has 1 subscriber(s).
+EventDrivenConsumer: started org.springframework.integration.config.ConsumerEndpointFactoryBean#2
+EventDrivenConsumer: Adding {xml:xpath-router:quoteRequestRouter} as a subscriber to the 'splitQuotes' channel
+DirectChannel: Channel 'splitQuotes' has 1 subscriber(s).
+EventDrivenConsumer: started quoteRequestRouter
+EventDrivenConsumer: Adding {filter:flightQuoteValidator} as a subscriber to the 'flightQuoteChannel' channel
+DirectChannel: Channel 'flightQuoteChannel' has 1 subscriber(s).
+EventDrivenConsumer: started flightQuoteValidator
+EventDrivenConsumer: Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 1 subscriber(s).
+EventDrivenConsumer: started _org.springframework.integration.errorLogger
+DirectChannel: preSend on channel 'javaLegQuoteCommands', message: [Payload=siia.booking.domain.trip.LegQuoteCommand@7393222f][Headers={id=31cf46da-b708-4088-bb24-7471dc96cf50, timestamp=1488546808489}]
+MessageTransformingHandler: org.springframework.integration.transformer.MessageTransformingHandler#0 received message: [Payload=siia.booking.domain.trip.LegQuoteCommand@7393222f][Headers={id=31cf46da-b708-4088-bb24-7471dc96cf50, timestamp=1488546808489}]
+MessageTransformingHandler: handler 'org.springframework.integration.transformer.MessageTransformingHandler#0' sending reply Message: [Payload=[#document: null]][Headers={id=1e6de3bc-c2e2-4bc9-b26c-9350bd531036, timestamp=1488546808498}]
+DirectChannel: preSend on channel 'xmlLegQuotes', message: [Payload=[#document: null]][Headers={id=1e6de3bc-c2e2-4bc9-b26c-9350bd531036, timestamp=1488546808498}]
+MessageTransformingHandler: org.springframework.integration.transformer.MessageTransformingHandler#1 received message: [Payload=[#document: null]][Headers={id=1e6de3bc-c2e2-4bc9-b26c-9350bd531036, timestamp=1488546808498}]
+MessageTransformingHandler: handler 'org.springframework.integration.transformer.MessageTransformingHandler#1' sending reply Message: [Payload=[#document: null]][Headers={id=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, timestamp=1488546808509}]
+DirectChannel: preSend on channel 'xslTransformedLegQuote', message: [Payload=[#document: null]][Headers={id=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, timestamp=1488546808509}]
+XPathMessageSplitter: org.springframework.integration.xml.splitter.XPathMessageSplitter#0 received message: [Payload=[#document: null]][Headers={id=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, timestamp=1488546808509}]
+XPathMessageSplitter: handler 'org.springframework.integration.xml.splitter.XPathMessageSplitter#0' sending reply Message: [Payload=[#document: null]][Headers={sequenceNumber=1, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=ef46ff37-a0cf-4bbc-9024-da4c9cf3f15f, sequenceSize=3, timestamp=1488546808515}]
+DirectChannel: preSend on channel 'splitQuotes', message: [Payload=[#document: null]][Headers={sequenceNumber=1, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=ef46ff37-a0cf-4bbc-9024-da4c9cf3f15f, sequenceSize=3, timestamp=1488546808515}]
+XPathRouter: (inner bean)#1 received message: [Payload=[#document: null]][Headers={sequenceNumber=1, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=ef46ff37-a0cf-4bbc-9024-da4c9cf3f15f, sequenceSize=3, timestamp=1488546808515}]
+DirectChannel: preSend on channel 'flightQuoteChannel', message: [Payload=[#document: null]][Headers={sequenceNumber=1, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=ef46ff37-a0cf-4bbc-9024-da4c9cf3f15f, sequenceSize=3, timestamp=1488546808515}]
+MessageFilter: org.springframework.integration.filter.MessageFilter@4241e0f4 received message: [Payload=[#document: null]][Headers={sequenceNumber=1, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=ef46ff37-a0cf-4bbc-9024-da4c9cf3f15f, sequenceSize=3, timestamp=1488546808515}]
+MessageFilter: handler 'org.springframework.integration.filter.MessageFilter@4241e0f4' sending reply Message: [Payload=[#document: null]][Headers={sequenceNumber=1, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=ef46ff37-a0cf-4bbc-9024-da4c9cf3f15f, sequenceSize=3, timestamp=1488546808515}]
+QueueChannel: preSend on channel 'validFlightQuoteChannel', message: [Payload=[#document: null]][Headers={sequenceNumber=1, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=ef46ff37-a0cf-4bbc-9024-da4c9cf3f15f, sequenceSize=3, timestamp=1488546808515}]
+QueueChannel: postSend (sent=true) on channel 'validFlightQuoteChannel', message: [Payload=[#document: null]][Headers={sequenceNumber=1, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=ef46ff37-a0cf-4bbc-9024-da4c9cf3f15f, sequenceSize=3, timestamp=1488546808515}]
+DirectChannel: postSend (sent=true) on channel 'flightQuoteChannel', message: [Payload=[#document: null]][Headers={sequenceNumber=1, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=ef46ff37-a0cf-4bbc-9024-da4c9cf3f15f, sequenceSize=3, timestamp=1488546808515}]
+DirectChannel: postSend (sent=true) on channel 'splitQuotes', message: [Payload=[#document: null]][Headers={sequenceNumber=1, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=ef46ff37-a0cf-4bbc-9024-da4c9cf3f15f, sequenceSize=3, timestamp=1488546808515}]
+XPathMessageSplitter: handler 'org.springframework.integration.xml.splitter.XPathMessageSplitter#0' sending reply Message: [Payload=[#document: null]][Headers={sequenceNumber=2, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=7e9de1c3-749c-4dc4-ae29-2ee243861dd3, sequenceSize=3, timestamp=1488546808520}]
+DirectChannel: preSend on channel 'splitQuotes', message: [Payload=[#document: null]][Headers={sequenceNumber=2, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=7e9de1c3-749c-4dc4-ae29-2ee243861dd3, sequenceSize=3, timestamp=1488546808520}]
+XPathRouter: (inner bean)#1 received message: [Payload=[#document: null]][Headers={sequenceNumber=2, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=7e9de1c3-749c-4dc4-ae29-2ee243861dd3, sequenceSize=3, timestamp=1488546808520}]
+QueueChannel: preSend on channel 'hotelQuoteChannel', message: [Payload=[#document: null]][Headers={sequenceNumber=2, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=7e9de1c3-749c-4dc4-ae29-2ee243861dd3, sequenceSize=3, timestamp=1488546808520}]
+QueueChannel: postSend (sent=true) on channel 'hotelQuoteChannel', message: [Payload=[#document: null]][Headers={sequenceNumber=2, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=7e9de1c3-749c-4dc4-ae29-2ee243861dd3, sequenceSize=3, timestamp=1488546808520}]
+DirectChannel: postSend (sent=true) on channel 'splitQuotes', message: [Payload=[#document: null]][Headers={sequenceNumber=2, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=7e9de1c3-749c-4dc4-ae29-2ee243861dd3, sequenceSize=3, timestamp=1488546808520}]
+XPathMessageSplitter: handler 'org.springframework.integration.xml.splitter.XPathMessageSplitter#0' sending reply Message: [Payload=[#document: null]][Headers={sequenceNumber=3, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=530b984d-1427-4028-a565-b6e75830d4e3, sequenceSize=3, timestamp=1488546808520}]
+DirectChannel: preSend on channel 'splitQuotes', message: [Payload=[#document: null]][Headers={sequenceNumber=3, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=530b984d-1427-4028-a565-b6e75830d4e3, sequenceSize=3, timestamp=1488546808520}]
+XPathRouter: (inner bean)#1 received message: [Payload=[#document: null]][Headers={sequenceNumber=3, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=530b984d-1427-4028-a565-b6e75830d4e3, sequenceSize=3, timestamp=1488546808520}]
+QueueChannel: preSend on channel 'carQuoteChannel', message: [Payload=[#document: null]][Headers={sequenceNumber=3, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=530b984d-1427-4028-a565-b6e75830d4e3, sequenceSize=3, timestamp=1488546808520}]
+QueueChannel: postSend (sent=true) on channel 'carQuoteChannel', message: [Payload=[#document: null]][Headers={sequenceNumber=3, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=530b984d-1427-4028-a565-b6e75830d4e3, sequenceSize=3, timestamp=1488546808520}]
+DirectChannel: postSend (sent=true) on channel 'splitQuotes', message: [Payload=[#document: null]][Headers={sequenceNumber=3, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=530b984d-1427-4028-a565-b6e75830d4e3, sequenceSize=3, timestamp=1488546808520}]
+DirectChannel: postSend (sent=true) on channel 'xslTransformedLegQuote', message: [Payload=[#document: null]][Headers={id=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, timestamp=1488546808509}]
+DirectChannel: postSend (sent=true) on channel 'xmlLegQuotes', message: [Payload=[#document: null]][Headers={id=1e6de3bc-c2e2-4bc9-b26c-9350bd531036, timestamp=1488546808498}]
+DirectChannel: postSend (sent=true) on channel 'javaLegQuoteCommands', message: [Payload=siia.booking.domain.trip.LegQuoteCommand@7393222f][Headers={id=31cf46da-b708-4088-bb24-7471dc96cf50, timestamp=1488546808489}]
+QueueChannel: postReceive on channel 'carQuoteChannel', message: [Payload=[#document: null]][Headers={sequenceNumber=3, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=530b984d-1427-4028-a565-b6e75830d4e3, sequenceSize=3, timestamp=1488546808520}]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><carQuote><carType>Compact</carType><startOfLegDate>2010-01-03T00:00:00Z</startOfLegDate><endOfLegDate>2010-01-07T00:00:00Z</endOfLegDate><startLocation city="London" countryCode="UK"/><endLocation city="Buenos Aires" countryCode="AR"/></carQuote>
+QueueChannel: postReceive on channel 'validFlightQuoteChannel', message: [Payload=[#document: null]][Headers={sequenceNumber=1, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=ef46ff37-a0cf-4bbc-9024-da4c9cf3f15f, sequenceSize=3, timestamp=1488546808515}]
+[Payload=[#document: null]][Headers={sequenceNumber=1, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=ef46ff37-a0cf-4bbc-9024-da4c9cf3f15f, sequenceSize=3, timestamp=1488546808515}]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><flightQuote><requiredSeatClass>Business</requiredSeatClass><returnRequired>true</returnRequired><startOfLegDate>2010-01-03T00:00:00Z</startOfLegDate><endOfLegDate>2010-01-07T00:00:00Z</endOfLegDate><startLocation city="London" countryCode="UK"/><endLocation city="Buenos Aires" countryCode="AR"/></flightQuote>
+QueueChannel: postReceive on channel 'hotelQuoteChannel', message: [Payload=[#document: null]][Headers={sequenceNumber=2, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=7e9de1c3-749c-4dc4-ae29-2ee243861dd3, sequenceSize=3, timestamp=1488546808520}]
+[Payload=[#document: null]][Headers={sequenceNumber=2, correlationId=ab55399c-5c2d-4fdc-bb58-e83a3ce87627, id=7e9de1c3-749c-4dc4-ae29-2ee243861dd3, sequenceSize=3, timestamp=1488546808520}]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><hotelQuote><roomType>Double</roomType><smokingRoom>false</smokingRoom><startOfLegDate>2010-01-03T00:00:00Z</startOfLegDate><endOfLegDate>2010-01-07T00:00:00Z</endOfLegDate><startLocation city="London" countryCode="UK"/><endLocation city="Buenos Aires" countryCode="AR"/></hotelQuote>
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.352 sec
+Running siia.booking.integration.CancellationsTest
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+GatewayProxyFactoryBean$MethodInvocationGateway: started cancellationsGateway
+GatewayProxyFactoryBean: started cancellationsGateway
+MessageFilter: Unable to attempt conversion of Message payload types. Component 'null' has no explicit ConversionService reference, and there is no 'integrationConversionService' bean within the context.
+ServiceActivatingHandler: Unable to attempt conversion of Message payload types. Component 'null' has no explicit ConversionService reference, and there is no 'integrationConversionService' bean within the context.
+EventDrivenConsumer: Adding {filter:cancellationsFilter} as a subscriber to the 'input' channel
+DirectChannel: Channel 'input' has 1 subscriber(s).
+EventDrivenConsumer: started cancellationsFilter
+EventDrivenConsumer: Adding {service-activator:goldCancellationsProcessor} as a subscriber to the 'validated' channel
+DirectChannel: Channel 'validated' has 1 subscriber(s).
+EventDrivenConsumer: started goldCancellationsProcessor
+EventDrivenConsumer: Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 1 subscriber(s).
+EventDrivenConsumer: started _org.springframework.integration.errorLogger
+DirectChannel: preSend on channel 'input', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1800a575][Headers={id=03b5ccb0-5d1e-4c4f-8586-1ad6618d0558, timestamp=1488546808617}]
+MessageFilter: org.springframework.integration.filter.MessageFilter@14fc1f0 received message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1800a575][Headers={id=03b5ccb0-5d1e-4c4f-8586-1ad6618d0558, timestamp=1488546808617}]
+MessageFilter: handler 'org.springframework.integration.filter.MessageFilter@14fc1f0' sending reply Message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1800a575][Headers={id=03b5ccb0-5d1e-4c4f-8586-1ad6618d0558, timestamp=1488546808617}]
+DirectChannel: preSend on channel 'validated', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1800a575][Headers={id=03b5ccb0-5d1e-4c4f-8586-1ad6618d0558, timestamp=1488546808617}]
+ServiceActivatingHandler: ServiceActivator for [org.springframework.integration.handler.MethodInvokingMessageProcessor@1458ed9c] received message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1800a575][Headers={id=03b5ccb0-5d1e-4c4f-8586-1ad6618d0558, timestamp=1488546808617}]
+ServiceActivatingHandler: handler 'ServiceActivator for [org.springframework.integration.handler.MethodInvokingMessageProcessor@1458ed9c]' sending reply Message: [Payload=siia.booking.domain.cancellation.CancellationConfirmation@10a9d961][Headers={id=edac244b-6426-4dad-98c6-51659b69b555, timestamp=1488546808617}]
+QueueChannel: preSend on channel 'confirmed', message: [Payload=siia.booking.domain.cancellation.CancellationConfirmation@10a9d961][Headers={id=edac244b-6426-4dad-98c6-51659b69b555, timestamp=1488546808617}]
+QueueChannel: postSend (sent=true) on channel 'confirmed', message: [Payload=siia.booking.domain.cancellation.CancellationConfirmation@10a9d961][Headers={id=edac244b-6426-4dad-98c6-51659b69b555, timestamp=1488546808617}]
+DirectChannel: postSend (sent=true) on channel 'validated', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1800a575][Headers={id=03b5ccb0-5d1e-4c4f-8586-1ad6618d0558, timestamp=1488546808617}]
+DirectChannel: postSend (sent=true) on channel 'input', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1800a575][Headers={id=03b5ccb0-5d1e-4c4f-8586-1ad6618d0558, timestamp=1488546808617}]
+QueueChannel: postReceive on channel 'confirmed', message: [Payload=siia.booking.domain.cancellation.CancellationConfirmation@10a9d961][Headers={id=edac244b-6426-4dad-98c6-51659b69b555, timestamp=1488546808617}]
+DirectChannel: preSend on channel 'input', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@130e116b][Headers={id=704ba6ae-34ed-4bba-92f4-c7a3e1d779dd, timestamp=1488546808618}]
+MessageFilter: org.springframework.integration.filter.MessageFilter@14fc1f0 received message: [Payload=siia.booking.domain.cancellation.CancellationRequest@130e116b][Headers={id=704ba6ae-34ed-4bba-92f4-c7a3e1d779dd, timestamp=1488546808618}]
+QueueChannel: preSend on channel 'rejected', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@130e116b][Headers={id=704ba6ae-34ed-4bba-92f4-c7a3e1d779dd, timestamp=1488546808618}]
+QueueChannel: postSend (sent=true) on channel 'rejected', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@130e116b][Headers={id=704ba6ae-34ed-4bba-92f4-c7a3e1d779dd, timestamp=1488546808618}]
+MessageFilter: handler 'org.springframework.integration.filter.MessageFilter@14fc1f0' produced no reply for request Message: [Payload=siia.booking.domain.cancellation.CancellationRequest@130e116b][Headers={id=704ba6ae-34ed-4bba-92f4-c7a3e1d779dd, timestamp=1488546808618}]
+DirectChannel: postSend (sent=true) on channel 'input', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@130e116b][Headers={id=704ba6ae-34ed-4bba-92f4-c7a3e1d779dd, timestamp=1488546808618}]
+QueueChannel: postReceive on channel 'rejected', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@130e116b][Headers={id=704ba6ae-34ed-4bba-92f4-c7a3e1d779dd, timestamp=1488546808618}]
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
+Running siia.booking.integration.PaymentRoutingTest
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+MethodInvokingRouter: Unable to attempt conversion of Message payload types. Component 'null' has no explicit ConversionService reference, and there is no 'integrationConversionService' bean within the context.
+ExpressionEvaluatingRouter: Unable to attempt conversion of Message payload types. Component 'null' has no explicit ConversionService reference, and there is no 'integrationConversionService' bean within the context.
+EventDrivenConsumer: Adding {router} as a subscriber to the 'payments' channel
+DirectChannel: Channel 'payments' has 1 subscriber(s).
+EventDrivenConsumer: started org.springframework.integration.config.ConsumerEndpointFactoryBean#0
+EventDrivenConsumer: Adding {router} as a subscriber to the 'credit-card-payments' channel
+DirectChannel: Channel 'credit-card-payments' has 1 subscriber(s).
+EventDrivenConsumer: started org.springframework.integration.config.ConsumerEndpointFactoryBean#1
+EventDrivenConsumer: Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 1 subscriber(s).
+EventDrivenConsumer: started _org.springframework.integration.errorLogger
+DirectChannel: preSend on channel 'payments', message: [Payload=siia.booking.domain.payment.Invoice@4331d187][Headers={id=18499e3b-3d3f-4a85-af9b-c32aeb9caa5f, timestamp=1488546808659}]
+MethodInvokingRouter: org.springframework.integration.router.MethodInvokingRouter@7749bf93 received message: [Payload=siia.booking.domain.payment.Invoice@4331d187][Headers={id=18499e3b-3d3f-4a85-af9b-c32aeb9caa5f, timestamp=1488546808659}]
+QueueChannel: preSend on channel 'invoices', message: [Payload=siia.booking.domain.payment.Invoice@4331d187][Headers={id=18499e3b-3d3f-4a85-af9b-c32aeb9caa5f, timestamp=1488546808659}]
+QueueChannel: postSend (sent=true) on channel 'invoices', message: [Payload=siia.booking.domain.payment.Invoice@4331d187][Headers={id=18499e3b-3d3f-4a85-af9b-c32aeb9caa5f, timestamp=1488546808659}]
+DirectChannel: postSend (sent=true) on channel 'payments', message: [Payload=siia.booking.domain.payment.Invoice@4331d187][Headers={id=18499e3b-3d3f-4a85-af9b-c32aeb9caa5f, timestamp=1488546808659}]
+DirectChannel: preSend on channel 'payments', message: [Payload=siia.booking.domain.payment.CreditCardPayment@55493582][Headers={id=05edd2e4-060f-4ee0-90bc-edaa9058bc79, timestamp=1488546808661}]
+MethodInvokingRouter: org.springframework.integration.router.MethodInvokingRouter@7749bf93 received message: [Payload=siia.booking.domain.payment.CreditCardPayment@55493582][Headers={id=05edd2e4-060f-4ee0-90bc-edaa9058bc79, timestamp=1488546808661}]
+DirectChannel: preSend on channel 'credit-card-payments', message: [Payload=siia.booking.domain.payment.CreditCardPayment@55493582][Headers={id=05edd2e4-060f-4ee0-90bc-edaa9058bc79, timestamp=1488546808661}]
+ExpressionEvaluatingRouter: org.springframework.integration.router.ExpressionEvaluatingRouter@13330ac6 received message: [Payload=siia.booking.domain.payment.CreditCardPayment@55493582][Headers={id=05edd2e4-060f-4ee0-90bc-edaa9058bc79, timestamp=1488546808661}]
+ExpressionEvaluatingRouter: Unable to attempt conversion of Message payload types. Component 'null' has no explicit ConversionService reference, and there is no 'integrationConversionService' bean within the context.
+QueueChannel: preSend on channel 'MASTERCARD', message: [Payload=siia.booking.domain.payment.CreditCardPayment@55493582][Headers={id=05edd2e4-060f-4ee0-90bc-edaa9058bc79, timestamp=1488546808661}]
+QueueChannel: postSend (sent=true) on channel 'MASTERCARD', message: [Payload=siia.booking.domain.payment.CreditCardPayment@55493582][Headers={id=05edd2e4-060f-4ee0-90bc-edaa9058bc79, timestamp=1488546808661}]
+DirectChannel: postSend (sent=true) on channel 'credit-card-payments', message: [Payload=siia.booking.domain.payment.CreditCardPayment@55493582][Headers={id=05edd2e4-060f-4ee0-90bc-edaa9058bc79, timestamp=1488546808661}]
+DirectChannel: postSend (sent=true) on channel 'payments', message: [Payload=siia.booking.domain.payment.CreditCardPayment@55493582][Headers={id=05edd2e4-060f-4ee0-90bc-edaa9058bc79, timestamp=1488546808661}]
+QueueChannel: postReceive on channel 'MASTERCARD', message: [Payload=siia.booking.domain.payment.CreditCardPayment@55493582][Headers={id=05edd2e4-060f-4ee0-90bc-edaa9058bc79, timestamp=1488546808661}]
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+Running siia.booking.integration.FlightNotificationsTest
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+MethodInvokingSplitter: Unable to attempt conversion of Message payload types. Component 'null' has no explicit ConversionService reference, and there is no 'integrationConversionService' bean within the context.
+EventDrivenConsumer: Adding {chain} as a subscriber to the 'flightNotifications' channel
+DirectChannel: Channel 'flightNotifications' has 1 subscriber(s).
+EventDrivenConsumer: started org.springframework.integration.config.ConsumerEndpointFactoryBean#0
+EventDrivenConsumer: Adding {outbound-channel-adapter:smsNotifier} as a subscriber to the 'tripNotifications' channel
+PublishSubscribeChannel: Channel 'tripNotifications' has 1 subscriber(s).
+EventDrivenConsumer: started smsNotifier
+EventDrivenConsumer: Adding {bridge} as a subscriber to the 'tripNotifications' channel
+PublishSubscribeChannel: Channel 'tripNotifications' has 2 subscriber(s).
+EventDrivenConsumer: started org.springframework.integration.config.ConsumerEndpointFactoryBean#1
+EventDrivenConsumer: Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 1 subscriber(s).
+EventDrivenConsumer: started _org.springframework.integration.errorLogger
+PublishSubscribeChannel: preSend on channel 'tripNotifications', message: [Payload=Mock for TripNotification, hashCode: 1367165453][Headers={id=cb3d85dc-0d22-4214-83f5-73b971a94bbd, timestamp=1488546808735}]
+MethodInvokingMessageHandler: org.springframework.integration.handler.MethodInvokingMessageHandler#0 received message: [Payload=Mock for TripNotification, hashCode: 1367165453][Headers={id=cb3d85dc-0d22-4214-83f5-73b971a94bbd, timestamp=1488546808735}]
+BridgeHandler: org.springframework.integration.handler.BridgeHandler#0 received message: [Payload=Mock for TripNotification, hashCode: 1367165453][Headers={id=cb3d85dc-0d22-4214-83f5-73b971a94bbd, timestamp=1488546808735}]
+BridgeHandler: handler 'org.springframework.integration.handler.BridgeHandler#0' sending reply Message: [Payload=Mock for TripNotification, hashCode: 1367165453][Headers={id=cb3d85dc-0d22-4214-83f5-73b971a94bbd, timestamp=1488546808735}]
+QueueChannel: preSend on channel 'interceptedTripNotifications', message: [Payload=Mock for TripNotification, hashCode: 1367165453][Headers={id=cb3d85dc-0d22-4214-83f5-73b971a94bbd, timestamp=1488546808735}]
+QueueChannel: postSend (sent=true) on channel 'interceptedTripNotifications', message: [Payload=Mock for TripNotification, hashCode: 1367165453][Headers={id=cb3d85dc-0d22-4214-83f5-73b971a94bbd, timestamp=1488546808735}]
+PublishSubscribeChannel: postSend (sent=true) on channel 'tripNotifications', message: [Payload=Mock for TripNotification, hashCode: 1367165453][Headers={id=cb3d85dc-0d22-4214-83f5-73b971a94bbd, timestamp=1488546808735}]
+DirectChannel: preSend on channel 'flightNotifications', message: [Payload=siia.booking.domain.notifications.FlightNotification@1941a8ff][Headers={id=94118d1f-02b5-4dcb-aeb4-0270f32463d7, timestamp=1488546808741}]
+MessageHandlerChain: org.springframework.integration.handler.MessageHandlerChain#0 received message: [Payload=siia.booking.domain.notifications.FlightNotification@1941a8ff][Headers={id=94118d1f-02b5-4dcb-aeb4-0270f32463d7, timestamp=1488546808741}]
+MessageTransformingHandler: org.springframework.integration.transformer.MessageTransformingHandler#21a21c64 received message: [Payload=siia.booking.domain.notifications.FlightNotification@1941a8ff][Headers={id=94118d1f-02b5-4dcb-aeb4-0270f32463d7, timestamp=1488546808741}]
+MessageTransformingHandler: handler 'org.springframework.integration.transformer.MessageTransformingHandler#21a21c64' sending reply Message: [Payload=siia.booking.domain.notifications.FlightNotification@1941a8ff][Headers={affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], id=03b6bb32-09e2-4953-877e-3b5383d4a532, timestamp=1488546808742}]
+MethodInvokingSplitter: org.springframework.integration.splitter.MethodInvokingSplitter@6fb365ed received message: [Payload=siia.booking.domain.notifications.FlightNotification@1941a8ff][Headers={affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], id=03b6bb32-09e2-4953-877e-3b5383d4a532, timestamp=1488546808742}]
+MethodInvokingSplitter: handler 'org.springframework.integration.splitter.MethodInvokingSplitter@6fb365ed' sending reply Message: [Payload=siia.booking.domain.notifications.TripNotification@2c1156a7][Headers={sequenceNumber=1, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=5970483c-61cb-42d5-b24f-31fbe6200564, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808744}]
+PublishSubscribeChannel: preSend on channel 'tripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@2c1156a7][Headers={sequenceNumber=1, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=5970483c-61cb-42d5-b24f-31fbe6200564, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808744}]
+MethodInvokingMessageHandler: org.springframework.integration.handler.MethodInvokingMessageHandler#0 received message: [Payload=siia.booking.domain.notifications.TripNotification@2c1156a7][Headers={sequenceNumber=1, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=5970483c-61cb-42d5-b24f-31fbe6200564, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808744}]
+BridgeHandler: org.springframework.integration.handler.BridgeHandler#0 received message: [Payload=siia.booking.domain.notifications.TripNotification@2c1156a7][Headers={sequenceNumber=1, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=5970483c-61cb-42d5-b24f-31fbe6200564, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808744}]
+BridgeHandler: handler 'org.springframework.integration.handler.BridgeHandler#0' sending reply Message: [Payload=siia.booking.domain.notifications.TripNotification@2c1156a7][Headers={sequenceNumber=1, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=5970483c-61cb-42d5-b24f-31fbe6200564, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808744}]
+QueueChannel: preSend on channel 'interceptedTripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@2c1156a7][Headers={sequenceNumber=1, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=5970483c-61cb-42d5-b24f-31fbe6200564, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808744}]
+QueueChannel: postSend (sent=true) on channel 'interceptedTripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@2c1156a7][Headers={sequenceNumber=1, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=5970483c-61cb-42d5-b24f-31fbe6200564, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808744}]
+PublishSubscribeChannel: postSend (sent=true) on channel 'tripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@2c1156a7][Headers={sequenceNumber=1, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=5970483c-61cb-42d5-b24f-31fbe6200564, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808744}]
+MethodInvokingSplitter: handler 'org.springframework.integration.splitter.MethodInvokingSplitter@6fb365ed' sending reply Message: [Payload=siia.booking.domain.notifications.TripNotification@691939c9][Headers={sequenceNumber=2, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=1c727ed7-16b7-4708-9cd8-3650bdc4667a, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808747}]
+PublishSubscribeChannel: preSend on channel 'tripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@691939c9][Headers={sequenceNumber=2, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=1c727ed7-16b7-4708-9cd8-3650bdc4667a, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808747}]
+MethodInvokingMessageHandler: org.springframework.integration.handler.MethodInvokingMessageHandler#0 received message: [Payload=siia.booking.domain.notifications.TripNotification@691939c9][Headers={sequenceNumber=2, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=1c727ed7-16b7-4708-9cd8-3650bdc4667a, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808747}]
+BridgeHandler: org.springframework.integration.handler.BridgeHandler#0 received message: [Payload=siia.booking.domain.notifications.TripNotification@691939c9][Headers={sequenceNumber=2, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=1c727ed7-16b7-4708-9cd8-3650bdc4667a, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808747}]
+BridgeHandler: handler 'org.springframework.integration.handler.BridgeHandler#0' sending reply Message: [Payload=siia.booking.domain.notifications.TripNotification@691939c9][Headers={sequenceNumber=2, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=1c727ed7-16b7-4708-9cd8-3650bdc4667a, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808747}]
+QueueChannel: preSend on channel 'interceptedTripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@691939c9][Headers={sequenceNumber=2, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=1c727ed7-16b7-4708-9cd8-3650bdc4667a, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808747}]
+QueueChannel: postSend (sent=true) on channel 'interceptedTripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@691939c9][Headers={sequenceNumber=2, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=1c727ed7-16b7-4708-9cd8-3650bdc4667a, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808747}]
+PublishSubscribeChannel: postSend (sent=true) on channel 'tripNotifications', message: [Payload=siia.booking.domain.notifications.TripNotification@691939c9][Headers={sequenceNumber=2, correlationId=03b6bb32-09e2-4953-877e-3b5383d4a532, id=1c727ed7-16b7-4708-9cd8-3650bdc4667a, sequenceSize=2, affectedTrips=[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595], timestamp=1488546808747}]
+DirectChannel: postSend (sent=true) on channel 'flightNotifications', message: [Payload=siia.booking.domain.notifications.FlightNotification@1941a8ff][Headers={id=94118d1f-02b5-4dcb-aeb4-0270f32463d7, timestamp=1488546808741}]
+QueueChannel: postReceive on channel 'interceptedTripNotifications', message: [Payload=Mock for TripNotification, hashCode: 1367165453][Headers={id=cb3d85dc-0d22-4214-83f5-73b971a94bbd, timestamp=1488546808735}]
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec <<< FAILURE!
+shouldEnrichHeaderAndSendMessageForRelatedTrips(siia.booking.integration.FlightNotificationsTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <[Mock for Trip, hashCode: 584561912, Mock for Trip, hashCode: 345887595]>
+     got: null
+
+	at org.junit.Assert.assertThat(Assert.java:778)
+	at org.junit.Assert.assertThat(Assert.java:736)
+	at siia.booking.integration.FlightNotificationsTest.shouldEnrichHeaderAndSendMessageForRelatedTrips(FlightNotificationsTest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+Running siia.booking.integration.CancellationsWithNotificationTest
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+ChannelInitializer: Auto-creating channel 'mailTransformer' as DirectChannel
+GatewayProxyFactoryBean$MethodInvocationGateway: started cancellationsGateway
+GatewayProxyFactoryBean: started cancellationsGateway
+MessageFilter: Unable to attempt conversion of Message payload types. Component 'null' has no explicit ConversionService reference, and there is no 'integrationConversionService' bean within the context.
+ServiceActivatingHandler: Unable to attempt conversion of Message payload types. Component 'null' has no explicit ConversionService reference, and there is no 'integrationConversionService' bean within the context.
+EventDrivenConsumer: Adding {filter:cancellationsFilter} as a subscriber to the 'input' channel
+DirectChannel: Channel 'input' has 1 subscriber(s).
+EventDrivenConsumer: started cancellationsFilter
+EventDrivenConsumer: Adding {transformer} as a subscriber to the 'rejected' channel
+DirectChannel: Channel 'rejected' has 1 subscriber(s).
+EventDrivenConsumer: started org.springframework.integration.config.ConsumerEndpointFactoryBean#0
+EventDrivenConsumer: Adding {transformer} as a subscriber to the 'mailTransformer' channel
+DirectChannel: Channel 'mailTransformer' has 1 subscriber(s).
+EventDrivenConsumer: started org.springframework.integration.config.ConsumerEndpointFactoryBean#1
+EventDrivenConsumer: Adding {message-handler:rejectionMail.adapter} as a subscriber to the 'rejectionMail' channel
+DirectChannel: Channel 'rejectionMail' has 1 subscriber(s).
+EventDrivenConsumer: started rejectionMail.adapter
+EventDrivenConsumer: Adding {service-activator:goldCancellationsProcessor} as a subscriber to the 'validated' channel
+DirectChannel: Channel 'validated' has 1 subscriber(s).
+EventDrivenConsumer: started goldCancellationsProcessor
+EventDrivenConsumer: Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 1 subscriber(s).
+EventDrivenConsumer: started _org.springframework.integration.errorLogger
+DirectChannel: preSend on channel 'input', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@28e8dde3][Headers={id=325f8005-b0d0-4578-8678-159ef8145414, timestamp=1488546808816}]
+MessageFilter: org.springframework.integration.filter.MessageFilter@42721fe received message: [Payload=siia.booking.domain.cancellation.CancellationRequest@28e8dde3][Headers={id=325f8005-b0d0-4578-8678-159ef8145414, timestamp=1488546808816}]
+MessageFilter: handler 'org.springframework.integration.filter.MessageFilter@42721fe' sending reply Message: [Payload=siia.booking.domain.cancellation.CancellationRequest@28e8dde3][Headers={id=325f8005-b0d0-4578-8678-159ef8145414, timestamp=1488546808816}]
+DirectChannel: preSend on channel 'validated', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@28e8dde3][Headers={id=325f8005-b0d0-4578-8678-159ef8145414, timestamp=1488546808816}]
+ServiceActivatingHandler: ServiceActivator for [org.springframework.integration.handler.MethodInvokingMessageProcessor@6d23017e] received message: [Payload=siia.booking.domain.cancellation.CancellationRequest@28e8dde3][Headers={id=325f8005-b0d0-4578-8678-159ef8145414, timestamp=1488546808816}]
+ServiceActivatingHandler: handler 'ServiceActivator for [org.springframework.integration.handler.MethodInvokingMessageProcessor@6d23017e]' sending reply Message: [Payload=siia.booking.domain.cancellation.CancellationConfirmation@54dcfa5a][Headers={id=0c711940-a62e-4369-8ec6-e873e1bbe76f, timestamp=1488546808817}]
+QueueChannel: preSend on channel 'confirmed', message: [Payload=siia.booking.domain.cancellation.CancellationConfirmation@54dcfa5a][Headers={id=0c711940-a62e-4369-8ec6-e873e1bbe76f, timestamp=1488546808817}]
+QueueChannel: postSend (sent=true) on channel 'confirmed', message: [Payload=siia.booking.domain.cancellation.CancellationConfirmation@54dcfa5a][Headers={id=0c711940-a62e-4369-8ec6-e873e1bbe76f, timestamp=1488546808817}]
+DirectChannel: postSend (sent=true) on channel 'validated', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@28e8dde3][Headers={id=325f8005-b0d0-4578-8678-159ef8145414, timestamp=1488546808816}]
+DirectChannel: postSend (sent=true) on channel 'input', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@28e8dde3][Headers={id=325f8005-b0d0-4578-8678-159ef8145414, timestamp=1488546808816}]
+QueueChannel: postReceive on channel 'confirmed', message: [Payload=siia.booking.domain.cancellation.CancellationConfirmation@54dcfa5a][Headers={id=0c711940-a62e-4369-8ec6-e873e1bbe76f, timestamp=1488546808817}]
+DirectChannel: preSend on channel 'input', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1817f1eb][Headers={id=3331c520-45e0-4f99-ab9c-5e7d83aba9cc, timestamp=1488546808818}]
+MessageFilter: org.springframework.integration.filter.MessageFilter@42721fe received message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1817f1eb][Headers={id=3331c520-45e0-4f99-ab9c-5e7d83aba9cc, timestamp=1488546808818}]
+DirectChannel: preSend on channel 'rejected', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1817f1eb][Headers={id=3331c520-45e0-4f99-ab9c-5e7d83aba9cc, timestamp=1488546808818}]
+MessageTransformingHandler: org.springframework.integration.transformer.MessageTransformingHandler#0 received message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1817f1eb][Headers={id=3331c520-45e0-4f99-ab9c-5e7d83aba9cc, timestamp=1488546808818}]
+MessageTransformingHandler: handler 'org.springframework.integration.transformer.MessageTransformingHandler#0' sending reply Message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1817f1eb][Headers={mail_to=test@example.com, id=ebf5b177-e5e8-44a1-98c8-668c8746c126, timestamp=1488546808818}]
+DirectChannel: preSend on channel 'mailTransformer', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1817f1eb][Headers={mail_to=test@example.com, id=ebf5b177-e5e8-44a1-98c8-668c8746c126, timestamp=1488546808818}]
+MessageTransformingHandler: org.springframework.integration.transformer.MessageTransformingHandler@1f6c9cd8 received message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1817f1eb][Headers={mail_to=test@example.com, id=ebf5b177-e5e8-44a1-98c8-668c8746c126, timestamp=1488546808818}]
+MessageTransformingHandler: handler 'org.springframework.integration.transformer.MessageTransformingHandler@1f6c9cd8' sending reply Message: [Payload=BRONZE123 has been rejected][Headers={mail_to=test@example.com, id=dda2acdf-1981-456c-9df5-41d41eca6511, timestamp=1488546808818}]
+DirectChannel: preSend on channel 'rejectionMail', message: [Payload=BRONZE123 has been rejected][Headers={mail_to=test@example.com, id=dda2acdf-1981-456c-9df5-41d41eca6511, timestamp=1488546808818}]
+MailSendingMessageHandler: org.springframework.integration.mail.MailSendingMessageHandler#0 received message: [Payload=BRONZE123 has been rejected][Headers={mail_to=test@example.com, id=dda2acdf-1981-456c-9df5-41d41eca6511, timestamp=1488546808818}]
+DirectChannel: postSend (sent=true) on channel 'rejectionMail', message: [Payload=BRONZE123 has been rejected][Headers={mail_to=test@example.com, id=dda2acdf-1981-456c-9df5-41d41eca6511, timestamp=1488546808818}]
+DirectChannel: postSend (sent=true) on channel 'mailTransformer', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1817f1eb][Headers={mail_to=test@example.com, id=ebf5b177-e5e8-44a1-98c8-668c8746c126, timestamp=1488546808818}]
+DirectChannel: postSend (sent=true) on channel 'rejected', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1817f1eb][Headers={id=3331c520-45e0-4f99-ab9c-5e7d83aba9cc, timestamp=1488546808818}]
+MessageFilter: handler 'org.springframework.integration.filter.MessageFilter@42721fe' produced no reply for request Message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1817f1eb][Headers={id=3331c520-45e0-4f99-ab9c-5e7d83aba9cc, timestamp=1488546808818}]
+DirectChannel: postSend (sent=true) on channel 'input', message: [Payload=siia.booking.domain.cancellation.CancellationRequest@1817f1eb][Headers={id=3331c520-45e0-4f99-ab9c-5e7d83aba9cc, timestamp=1488546808818}]
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+Running siia.booking.integration.TripCommandsTest
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+ExpressionEvaluatingSplitter: Unable to attempt conversion of Message payload types. Component 'null' has no explicit ConversionService reference, and there is no 'integrationConversionService' bean within the context.
+EventDrivenConsumer: Adding {splitter:tripCommandSplitter} as a subscriber to the 'tripCommands' channel
+DirectChannel: Channel 'tripCommands' has 1 subscriber(s).
+EventDrivenConsumer: started tripCommandSplitter
+EventDrivenConsumer: Adding {aggregator:legQuoteAggregator} as a subscriber to the 'legQuotes' channel
+DirectChannel: Channel 'legQuotes' has 1 subscriber(s).
+EventDrivenConsumer: started legQuoteAggregator
+EventDrivenConsumer: Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 1 subscriber(s).
+EventDrivenConsumer: started _org.springframework.integration.errorLogger
+DirectChannel: preSend on channel 'legQuotes', message: [Payload=Mock for Leg, hashCode: 1033856359][Headers={sequenceNumber=1, correlationId=wouldBeSetBySplitter, id=b810524d-11dc-4b90-9295-3c03f03fd614, sequenceSize=2, timestamp=1488546808893}]
+AggregatingMessageHandler: org.springframework.integration.aggregator.AggregatingMessageHandler#0 received message: [Payload=Mock for Leg, hashCode: 1033856359][Headers={sequenceNumber=1, correlationId=wouldBeSetBySplitter, id=b810524d-11dc-4b90-9295-3c03f03fd614, sequenceSize=2, timestamp=1488546808893}]
+AbstractCorrelatingMessageHandler: Handling message with correlationKey [wouldBeSetBySplitter]: [Payload=Mock for Leg, hashCode: 1033856359][Headers={sequenceNumber=1, correlationId=wouldBeSetBySplitter, id=b810524d-11dc-4b90-9295-3c03f03fd614, sequenceSize=2, timestamp=1488546808893}]
+DirectChannel: postSend (sent=true) on channel 'legQuotes', message: [Payload=Mock for Leg, hashCode: 1033856359][Headers={sequenceNumber=1, correlationId=wouldBeSetBySplitter, id=b810524d-11dc-4b90-9295-3c03f03fd614, sequenceSize=2, timestamp=1488546808893}]
+DirectChannel: preSend on channel 'legQuotes', message: [Payload=Mock for Leg, hashCode: 1431710377][Headers={sequenceNumber=2, correlationId=wouldBeSetBySplitter, id=b64a7566-93d1-4146-9cc7-8cfecab52b83, sequenceSize=2, timestamp=1488546808894}]
+AggregatingMessageHandler: org.springframework.integration.aggregator.AggregatingMessageHandler#0 received message: [Payload=Mock for Leg, hashCode: 1431710377][Headers={sequenceNumber=2, correlationId=wouldBeSetBySplitter, id=b64a7566-93d1-4146-9cc7-8cfecab52b83, sequenceSize=2, timestamp=1488546808894}]
+AbstractCorrelatingMessageHandler: Handling message with correlationKey [wouldBeSetBySplitter]: [Payload=Mock for Leg, hashCode: 1431710377][Headers={sequenceNumber=2, correlationId=wouldBeSetBySplitter, id=b64a7566-93d1-4146-9cc7-8cfecab52b83, sequenceSize=2, timestamp=1488546808894}]
+AbstractCorrelatingMessageHandler: Completing group with correlationKey [wouldBeSetBySplitter]
+QueueChannel: preSend on channel 'tripQuotes', message: [Payload=siia.booking.domain.trip.Trip@3401a114][Headers={correlationId=wouldBeSetBySplitter, id=45213fbd-d51c-4539-ad12-a6261e9b7585, timestamp=1488546808898}]
+QueueChannel: postSend (sent=true) on channel 'tripQuotes', message: [Payload=siia.booking.domain.trip.Trip@3401a114][Headers={correlationId=wouldBeSetBySplitter, id=45213fbd-d51c-4539-ad12-a6261e9b7585, timestamp=1488546808898}]
+DirectChannel: postSend (sent=true) on channel 'legQuotes', message: [Payload=Mock for Leg, hashCode: 1431710377][Headers={sequenceNumber=2, correlationId=wouldBeSetBySplitter, id=b64a7566-93d1-4146-9cc7-8cfecab52b83, sequenceSize=2, timestamp=1488546808894}]
+QueueChannel: postReceive on channel 'tripQuotes', message: [Payload=siia.booking.domain.trip.Trip@3401a114][Headers={correlationId=wouldBeSetBySplitter, id=45213fbd-d51c-4539-ad12-a6261e9b7585, timestamp=1488546808898}]
+DirectChannel: preSend on channel 'tripCommands', message: [Payload=Mock for CreateTripCommand, hashCode: 792855998][Headers={id=6fd53467-45ac-42c3-bb85-9a9401571847, timestamp=1488546808902}]
+ExpressionEvaluatingSplitter: org.springframework.integration.splitter.ExpressionEvaluatingSplitter@333dd51e received message: [Payload=Mock for CreateTripCommand, hashCode: 792855998][Headers={id=6fd53467-45ac-42c3-bb85-9a9401571847, timestamp=1488546808902}]
+ExpressionEvaluatingSplitter: handler 'org.springframework.integration.splitter.ExpressionEvaluatingSplitter@333dd51e' sending reply Message: [Payload=Mock for Command, hashCode: 1003755748][Headers={sequenceNumber=1, correlationId=6fd53467-45ac-42c3-bb85-9a9401571847, id=94b5bb8e-bec8-4091-bcc7-1456c0cade0c, sequenceSize=3, timestamp=1488546808905}]
+QueueChannel: preSend on channel 'javaLegQuoteCommands', message: [Payload=Mock for Command, hashCode: 1003755748][Headers={sequenceNumber=1, correlationId=6fd53467-45ac-42c3-bb85-9a9401571847, id=94b5bb8e-bec8-4091-bcc7-1456c0cade0c, sequenceSize=3, timestamp=1488546808905}]
+QueueChannel: postSend (sent=true) on channel 'javaLegQuoteCommands', message: [Payload=Mock for Command, hashCode: 1003755748][Headers={sequenceNumber=1, correlationId=6fd53467-45ac-42c3-bb85-9a9401571847, id=94b5bb8e-bec8-4091-bcc7-1456c0cade0c, sequenceSize=3, timestamp=1488546808905}]
+ExpressionEvaluatingSplitter: handler 'org.springframework.integration.splitter.ExpressionEvaluatingSplitter@333dd51e' sending reply Message: [Payload=Mock for Command, hashCode: 1414013111][Headers={sequenceNumber=2, correlationId=6fd53467-45ac-42c3-bb85-9a9401571847, id=ac0a7602-6cb0-4716-9c61-33934177076c, sequenceSize=3, timestamp=1488546808906}]
+QueueChannel: preSend on channel 'javaLegQuoteCommands', message: [Payload=Mock for Command, hashCode: 1414013111][Headers={sequenceNumber=2, correlationId=6fd53467-45ac-42c3-bb85-9a9401571847, id=ac0a7602-6cb0-4716-9c61-33934177076c, sequenceSize=3, timestamp=1488546808906}]
+QueueChannel: postSend (sent=true) on channel 'javaLegQuoteCommands', message: [Payload=Mock for Command, hashCode: 1414013111][Headers={sequenceNumber=2, correlationId=6fd53467-45ac-42c3-bb85-9a9401571847, id=ac0a7602-6cb0-4716-9c61-33934177076c, sequenceSize=3, timestamp=1488546808906}]
+ExpressionEvaluatingSplitter: handler 'org.springframework.integration.splitter.ExpressionEvaluatingSplitter@333dd51e' sending reply Message: [Payload=Mock for Command, hashCode: 1805164661][Headers={sequenceNumber=3, correlationId=6fd53467-45ac-42c3-bb85-9a9401571847, id=c5c3f066-5548-4587-99a6-fee8f34976df, sequenceSize=3, timestamp=1488546808906}]
+QueueChannel: preSend on channel 'javaLegQuoteCommands', message: [Payload=Mock for Command, hashCode: 1805164661][Headers={sequenceNumber=3, correlationId=6fd53467-45ac-42c3-bb85-9a9401571847, id=c5c3f066-5548-4587-99a6-fee8f34976df, sequenceSize=3, timestamp=1488546808906}]
+QueueChannel: postSend (sent=true) on channel 'javaLegQuoteCommands', message: [Payload=Mock for Command, hashCode: 1805164661][Headers={sequenceNumber=3, correlationId=6fd53467-45ac-42c3-bb85-9a9401571847, id=c5c3f066-5548-4587-99a6-fee8f34976df, sequenceSize=3, timestamp=1488546808906}]
+DirectChannel: postSend (sent=true) on channel 'tripCommands', message: [Payload=Mock for CreateTripCommand, hashCode: 792855998][Headers={id=6fd53467-45ac-42c3-bb85-9a9401571847, timestamp=1488546808902}]
+QueueChannel: postReceive on channel 'javaLegQuoteCommands', message: [Payload=Mock for Command, hashCode: 1003755748][Headers={sequenceNumber=1, correlationId=6fd53467-45ac-42c3-bb85-9a9401571847, id=94b5bb8e-bec8-4091-bcc7-1456c0cade0c, sequenceSize=3, timestamp=1488546808905}]
+QueueChannel: postReceive on channel 'javaLegQuoteCommands', message: [Payload=Mock for Command, hashCode: 1414013111][Headers={sequenceNumber=2, correlationId=6fd53467-45ac-42c3-bb85-9a9401571847, id=ac0a7602-6cb0-4716-9c61-33934177076c, sequenceSize=3, timestamp=1488546808906}]
+QueueChannel: postReceive on channel 'javaLegQuoteCommands', message: [Payload=Mock for Command, hashCode: 1805164661][Headers={sequenceNumber=3, correlationId=6fd53467-45ac-42c3-bb85-9a9401571847, id=c5c3f066-5548-4587-99a6-fee8f34976df, sequenceSize=3, timestamp=1488546808906}]
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec
+Running siia.booking.integration.WeatherTest
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+DefaultConfiguringBeanFactoryPostProcessor: No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+HttpRequestExecutingMessageHandler: Unable to attempt conversion of Message payload types. Component 'org.springframework.integration.http.outbound.HttpRequestExecutingMessageHandler#0' has no explicit ConversionService reference, and there is no 'integrationConversionService' bean within the context.
+EventDrivenConsumer: Adding {message-handler} as a subscriber to the 'weatherRequests' channel
+DirectChannel: Channel 'weatherRequests' has 1 subscriber(s).
+EventDrivenConsumer: started org.springframework.integration.config.ConsumerEndpointFactoryBean#0
+EventDrivenConsumer: Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 1 subscriber(s).
+EventDrivenConsumer: started _org.springframework.integration.errorLogger
+DirectChannel: preSend on channel 'weatherRequests', message: [Payload=4118][Headers={replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@7fc6de5b, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@7fc6de5b, id=5cf26aae-10af-4bcb-9a29-50d15600a4f7, timestamp=1488546809001}]
+HttpRequestExecutingMessageHandler: org.springframework.integration.http.outbound.HttpRequestExecutingMessageHandler#0 received message: [Payload=4118][Headers={replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@7fc6de5b, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@7fc6de5b, id=5cf26aae-10af-4bcb-9a29-50d15600a4f7, timestamp=1488546809001}]
+DefaultHttpHeaderMapper: outboundHeaderNames=[Accept, Accept-Charset, Accept-Encoding, Accept-Language, Accept-Ranges, Authorization, Cache-Control, Connection, Content-Length, Content-Type, Cookie, Date, Expect, From, Host, If-Match, If-Modified-Since, If-None-Match, If-Range, If-Unmodified-Since, Max-Forwards, Pragma, Proxy-Authorization, Range, Referer, TE, Upgrade, User-Agent, Via, Warning]
+DefaultHttpHeaderMapper: headerName=[replyChannel] WILL NOT be mapped
+DefaultHttpHeaderMapper: headerName=[errorChannel] WILL NOT be mapped
+DefaultHttpHeaderMapper: headerName=[id] WILL NOT be mapped
+DefaultHttpHeaderMapper: headerName=[timestamp] WILL NOT be mapped
+RestTemplate: GET request for "http://weather.yahooapis.com/forecastrss?w=4118" resulted in 401 (Unauthorized); invoking error handler
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.893 sec <<< FAILURE!
+testToronto(siia.booking.integration.WeatherTest)  Time elapsed: 0.892 sec  <<< ERROR!
+org.springframework.integration.MessageHandlingException: HTTP request execution failed for URI [http://weather.yahooapis.com/forecastrss?w={location}]
+	at org.springframework.integration.http.outbound.HttpRequestExecutingMessageHandler.handleRequestMessage(HttpRequestExecutingMessageHandler.java:284)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:97)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:73)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:115)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:102)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:157)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:128)
+	at org.springframework.integration.core.MessagingTemplate.doSend(MessagingTemplate.java:288)
+	at org.springframework.integration.core.MessagingTemplate.doSendAndReceive(MessagingTemplate.java:318)
+	at org.springframework.integration.core.MessagingTemplate.sendAndReceive(MessagingTemplate.java:239)
+	at org.springframework.integration.core.MessagingTemplate.sendAndReceive(MessagingTemplate.java:235)
+	at siia.booking.integration.WeatherTest.testToronto(WeatherTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:75)
+	at org.springframework.web.client.RestTemplate.handleResponseError(RestTemplate.java:486)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:443)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:409)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:384)
+	at org.springframework.integration.http.outbound.HttpRequestExecutingMessageHandler.handleRequestMessage(HttpRequestExecutingMessageHandler.java:258)
+	... 46 more
+
+EventDrivenConsumer: Removing {splitter:tripCommandSplitter} as a subscriber to the 'tripCommands' channel
+DirectChannel: Channel 'tripCommands' has 0 subscriber(s).
+EventDrivenConsumer: stopped tripCommandSplitter
+EventDrivenConsumer: Removing {aggregator:legQuoteAggregator} as a subscriber to the 'legQuotes' channel
+DirectChannel: Channel 'legQuotes' has 0 subscriber(s).
+EventDrivenConsumer: stopped legQuoteAggregator
+EventDrivenConsumer: Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 0 subscriber(s).
+EventDrivenConsumer: stopped _org.springframework.integration.errorLogger
+EventDrivenConsumer: Removing {message-handler} as a subscriber to the 'weatherRequests' channel
+DirectChannel: Channel 'weatherRequests' has 0 subscriber(s).
+EventDrivenConsumer: stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#0
+EventDrivenConsumer: Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 0 subscriber(s).
+EventDrivenConsumer: stopped _org.springframework.integration.errorLogger
+GatewayProxyFactoryBean$MethodInvocationGateway: stopped cancellationsGateway
+GatewayProxyFactoryBean: stopped cancellationsGateway
+EventDrivenConsumer: Removing {filter:cancellationsFilter} as a subscriber to the 'input' channel
+DirectChannel: Channel 'input' has 0 subscriber(s).
+EventDrivenConsumer: stopped cancellationsFilter
+EventDrivenConsumer: Removing {transformer} as a subscriber to the 'rejected' channel
+DirectChannel: Channel 'rejected' has 0 subscriber(s).
+EventDrivenConsumer: stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#0
+EventDrivenConsumer: Removing {transformer} as a subscriber to the 'mailTransformer' channel
+DirectChannel: Channel 'mailTransformer' has 0 subscriber(s).
+EventDrivenConsumer: stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#1
+EventDrivenConsumer: Removing {message-handler:rejectionMail.adapter} as a subscriber to the 'rejectionMail' channel
+DirectChannel: Channel 'rejectionMail' has 0 subscriber(s).
+EventDrivenConsumer: stopped rejectionMail.adapter
+EventDrivenConsumer: Removing {service-activator:goldCancellationsProcessor} as a subscriber to the 'validated' channel
+DirectChannel: Channel 'validated' has 0 subscriber(s).
+EventDrivenConsumer: stopped goldCancellationsProcessor
+EventDrivenConsumer: Removing {} as a subscriber to the 'javaLegQuoteCommands' channel
+EventDrivenConsumer: Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+DirectChannel: Channel 'javaLegQuoteCommands' has 0 subscriber(s).
+EventDrivenConsumer: stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#0
+EventDrivenConsumer: Removing {xml:xslt-transformer} as a subscriber to the 'xmlLegQuotes' channel
+DirectChannel: Channel 'xmlLegQuotes' has 0 subscriber(s).
+EventDrivenConsumer: stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#1
+EventDrivenConsumer: Removing {xml:xpath-splitter} as a subscriber to the 'xslTransformedLegQuote' channel
+DirectChannel: Channel 'xslTransformedLegQuote' has 0 subscriber(s).
+EventDrivenConsumer: stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#2
+EventDrivenConsumer: Removing {xml:xpath-router:quoteRequestRouter} as a subscriber to the 'splitQuotes' channel
+DirectChannel: Channel 'splitQuotes' has 0 subscriber(s).
+EventDrivenConsumer: stopped quoteRequestRouter
+EventDrivenConsumer: Removing {chain} as a subscriber to the 'flightNotifications' channel
+DirectChannel: Channel 'flightNotifications' has 0 subscriber(s).
+EventDrivenConsumer: stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#0
+EventDrivenConsumer: Removing {outbound-channel-adapter:smsNotifier} as a subscriber to the 'tripNotifications' channel
+PublishSubscribeChannel: Channel 'tripNotifications' has 1 subscriber(s).
+EventDrivenConsumer: stopped smsNotifier
+EventDrivenConsumer: Removing {bridge} as a subscriber to the 'tripNotifications' channel
+PublishSubscribeChannel: Channel 'tripNotifications' has 0 subscriber(s).
+EventDrivenConsumer: stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#1
+EventDrivenConsumer: Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 0 subscriber(s).
+EventDrivenConsumer: stopped _org.springframework.integration.errorLogger
+GatewayProxyFactoryBean$MethodInvocationGateway: stopped cancellationsGateway
+GatewayProxyFactoryBean: stopped cancellationsGateway
+EventDrivenConsumer: Removing {filter:cancellationsFilter} as a subscriber to the 'input' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 0 subscriber(s).
+EventDrivenConsumer: Removing {filter:flightQuoteValidator} as a subscriber to the 'flightQuoteChannel' channel
+DirectChannel: Channel 'flightQuoteChannel' has 0 subscriber(s).
+EventDrivenConsumer: stopped flightQuoteValidator
+EventDrivenConsumer: Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 0 subscriber(s).
+EventDrivenConsumer: stopped _org.springframework.integration.errorLogger
+EventDrivenConsumer: Removing {router} as a subscriber to the 'payments' channel
+DirectChannel: Channel 'payments' has 0 subscriber(s).
+EventDrivenConsumer: stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#0
+EventDrivenConsumer: Removing {router} as a subscriber to the 'credit-card-payments' channel
+DirectChannel: Channel 'credit-card-payments' has 0 subscriber(s).
+EventDrivenConsumer: stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#1
+EventDrivenConsumer: Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 0 subscriber(s).
+EventDrivenConsumer: stopped _org.springframework.integration.errorLogger
+GatewayProxyFactoryBean$MethodInvocationGateway: stopped cancellationsGateway
+GatewayProxyFactoryBean: stopped cancellationsGateway
+EventDrivenConsumer: Removing {filter:cancellationsFilter} as a subscriber to the 'input' channel
+DirectChannel: Channel 'input' has 0 subscriber(s).
+EventDrivenConsumer: stopped cancellationsFilter
+EventDrivenConsumer: Removing {service-activator:goldCancellationsProcessor} as a subscriber to the 'validated' channel
+DirectChannel: Channel 'validated' has 0 subscriber(s).
+EventDrivenConsumer: stopped goldCancellationsProcessor
+EventDrivenConsumer: Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 0 subscriber(s).
+EventDrivenConsumer: stopped _org.springframework.integration.errorLogger
+EventDrivenConsumer: Removing {chain} as a subscriber to the 'flightNotifications' channel
+DirectChannel: Channel 'flightNotifications' has 0 subscriber(s).
+EventDrivenConsumer: stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#0
+EventDrivenConsumer: Removing {outbound-channel-adapter:smsNotifier} as a subscriber to the 'tripNotifications' channel
+PublishSubscribeChannel: Channel 'tripNotifications' has 1 subscriber(s).
+EventDrivenConsumer: stopped smsNotifier
+EventDrivenConsumer: Removing {bridge} as a subscriber to the 'tripNotifications' channel
+PublishSubscribeChannel: Channel 'tripNotifications' has 0 subscriber(s).
+EventDrivenConsumer: stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#1
+EventDrivenConsumer: Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 0 subscriber(s).
+EventDrivenConsumer: stopped _org.springframework.integration.errorLogger
+DirectChannel: Channel 'input' has 0 subscriber(s).
+EventDrivenConsumer: stopped cancellationsFilter
+EventDrivenConsumer: Removing {service-activator:goldCancellationsProcessor} as a subscriber to the 'validated' channel
+DirectChannel: Channel 'validated' has 0 subscriber(s).
+EventDrivenConsumer: stopped goldCancellationsProcessor
+EventDrivenConsumer: Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel 'errorChannel' has 0 subscriber(s).
+EventDrivenConsumer: stopped _org.springframework.integration.errorLogger
+EventDrivenConsumer: stopped _org.springframework.integration.errorLogger
+
+Results :
+
+Failed tests:   shouldEnrichHeaderAndSendMessageForRelatedTrips(siia.booking.integration.FlightNotificationsSpelTest): (..)
+  shouldEnrichHeaderAndSendMessageForRelatedTrips(siia.booking.integration.FlightNotificationsTest): (..)
+
+Tests in error: 
+  testToronto(siia.booking.integration.WeatherTest): HTTP request execution failed for URI [http://weather.yahooapis.com/forecastrss?w={location}]
+
+Tests run: 20, Failures: 2, Errors: 1, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.787 s
+[INFO] Finished at: 2017-03-03T10:13:29-03:00
+[INFO] Final Memory: 10M/150M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project integration: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/flight-booking/integration/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

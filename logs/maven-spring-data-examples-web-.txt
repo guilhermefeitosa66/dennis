@@ -1,0 +1,127 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Data - Web examples
+[INFO] Spring Data - Basic web example
+[INFO] Spring Data - QueryDSL web example
+[INFO] Spring Data - JSON and XML projection web example
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data - Web examples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data - Basic web example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-web-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-web-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-web-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/web/example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-web-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-web-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/web/example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.users.UserRepositoryIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.088 sec - in example.users.UserRepositoryIntegrationTests
+Running example.users.UserManagementIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec - in example.users.UserManagementIntegrationTests
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data - QueryDSL web example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- apt-maven-plugin:1.1.3:process (default) @ spring-data-web-querydsl ---
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-examples/web/querydsl/src/main/java/example/users/web/UserController.java:43: error: cannot find symbol
+@RequiredArgsConstructor(onConstructor = @__(@Autowired) )
+                                          ^
+  symbol: class __
+1 error
+
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-web-querydsl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-web-querydsl ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/guilherme/spring-projects/maven/spring-data-examples/web/querydsl/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-web-querydsl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/web/querydsl/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-web-querydsl ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-web-querydsl ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data - JSON and XML projection web example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-web-projection ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-web-projection ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-web-projection ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/web/projection/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-web-projection ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-web-projection ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/web/projection/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.users.UserControllerIntegrationTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.417 sec - in example.users.UserControllerIntegrationTests
+Running example.users.UserControllerClientTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.021 sec - in example.users.UserControllerClientTests
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Data - Web examples ......................... SUCCESS [  0.002 s]
+[INFO] Spring Data - Basic web example .................... SUCCESS [  9.311 s]
+[INFO] Spring Data - QueryDSL web example ................. SUCCESS [  1.327 s]
+[INFO] Spring Data - JSON and XML projection web example .. SUCCESS [  3.711 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14.769 s
+[INFO] Finished at: 2017-03-03T10:52:51-03:00
+[INFO] Final Memory: 38M/310M
+[INFO] ------------------------------------------------------------------------

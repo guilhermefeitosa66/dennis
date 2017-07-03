@@ -1,0 +1,21 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Deployment Support 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- asciidoctor-maven-plugin:1.5.2:process-asciidoc (output-html) @ org.springframework.roo.deployment.support ---
+[INFO] Rendered /home/guilherme/spring-projects/maven/spring-roo/runtime/deployment-support/src/main/asciidoc/index.adoc
+[INFO] 
+[INFO] --- asciidoctor-maven-plugin:1.5.2:process-asciidoc (generate-pdf-doc) @ org.springframework.roo.deployment.support ---
+[INFO] Rendered /home/guilherme/spring-projects/maven/spring-roo/runtime/deployment-support/src/main/asciidoc/index.adoc
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.457 s
+[INFO] Finished at: 2017-03-03T11:06:52-03:00
+[INFO] Final Memory: 57M/509M
+[INFO] ------------------------------------------------------------------------

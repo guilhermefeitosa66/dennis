@@ -1,0 +1,41 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data MongoDB - Spring Security Integration 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-mongodb-security ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/security/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/security/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-mongodb-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-mongodb-security ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-mongodb-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-mongodb-security ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/security/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.mongodb.security.PersonRepositoryIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.741 sec - in example.springdata.mongodb.security.PersonRepositoryIntegrationTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.535 s
+[INFO] Finished at: 2017-03-03T10:47:35-03:00
+[INFO] Final Memory: 19M/218M
+[INFO] ------------------------------------------------------------------------

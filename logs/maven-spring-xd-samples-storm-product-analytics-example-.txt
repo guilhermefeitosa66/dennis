@@ -1,0 +1,276 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] redis-common
+[INFO] redis-source
+[INFO] user-history-processor
+[INFO] product-category-enricher
+[INFO] product-categories-counter
+[INFO] product-analytics-example
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building redis-common 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ redis-common ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-xd-samples/storm-product-analytics-example/redis-common/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ redis-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ redis-common ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-xd-samples/storm-product-analytics-example/redis-common/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ redis-common ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ redis-common ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building redis-source 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ redis-source ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ redis-source ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ redis-source ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-xd-samples/storm-product-analytics-example/spring-xd-redis-source/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ redis-source ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ redis-source ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building user-history-processor 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ user-history-processor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ user-history-processor ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ user-history-processor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ user-history-processor ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ user-history-processor ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-xd-samples/storm-product-analytics-example/user-history-processor/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.xd.samples.ModuleTest
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.428 sec <<< FAILURE! - in org.springframework.xd.samples.ModuleTest
+test(org.springframework.xd.samples.ModuleTest)  Time elapsed: 0.24 sec  <<< ERROR!
+org.springframework.integration.transformer.MessageTransformationException: Failed to transform Message; nested exception is org.springframework.messaging.MessageHandlingException: nested exception is org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:82)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1641)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:155)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:251)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:58)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:128)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:91)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:78)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultSetOperations.members(DefaultSetOperations.java:127)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.members(DefaultBoundSetOperations.java:91)
+	at org.springframework.xd.samples.UserHistoryProcessor.getUserNavigationHistory(UserHistoryProcessor.java:84)
+	at org.springframework.xd.samples.UserHistoryProcessor.updateUserHistory(UserHistoryProcessor.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:113)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:129)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:347)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getTypedValue(SpelNodeImpl.java:131)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:330)
+	at org.springframework.integration.util.AbstractExpressionEvaluator.evaluateExpression(AbstractExpressionEvaluator.java:166)
+	at org.springframework.integration.util.MessagingMethodInvokerHelper.processInternal(MessagingMethodInvokerHelper.java:317)
+	at org.springframework.integration.util.MessagingMethodInvokerHelper.process(MessagingMethodInvokerHelper.java:155)
+	at org.springframework.integration.handler.MethodInvokingMessageProcessor.processMessage(MethodInvokingMessageProcessor.java:93)
+	at org.springframework.integration.transformer.AbstractMessageProcessingTransformer.transform(AbstractMessageProcessingTransformer.java:90)
+	at org.springframework.integration.transformer.MessageTransformingHandler.handleRequestMessage(MessageTransformingHandler.java:89)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:99)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.xd.samples.ModuleTest.test(ModuleTest.java:65)
+
+test(org.springframework.xd.samples.ModuleTest)  Time elapsed: 0.241 sec  <<< ERROR!
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:82)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1641)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:155)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:251)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:58)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:128)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:91)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:78)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.RedisTemplate.delete(RedisTemplate.java:600)
+	at org.springframework.xd.samples.ModuleTest.cleanUp(ModuleTest.java:71)
+
+Running org.springframework.xd.samples.UserHistoryProcessorTest
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in org.springframework.xd.samples.UserHistoryProcessorTest
+testUpdateUserHistory(org.springframework.xd.samples.UserHistoryProcessorTest)  Time elapsed: 0 sec  <<< ERROR!
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:82)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1641)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:155)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:251)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:58)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:128)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:91)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:78)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultSetOperations.add(DefaultSetOperations.java:43)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.add(DefaultBoundSetOperations.java:47)
+	at org.springframework.xd.samples.UserHistoryProcessor.addProductToHistory(UserHistoryProcessor.java:78)
+	at org.springframework.xd.samples.UserHistoryProcessor.updateUserHistory(UserHistoryProcessor.java:69)
+	at org.springframework.xd.samples.UserHistoryProcessorTest.testUpdateUserHistory(UserHistoryProcessorTest.java:76)
+
+testUpdateUserHistory(org.springframework.xd.samples.UserHistoryProcessorTest)  Time elapsed: 0.001 sec  <<< ERROR!
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:82)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1641)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:155)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:251)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:58)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:128)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:91)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:78)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.RedisTemplate.delete(RedisTemplate.java:600)
+	at org.springframework.xd.samples.UserHistoryProcessorTest.cleanUp(UserHistoryProcessorTest.java:120)
+
+
+Results :
+
+
+Tests in error: 
+org.springframework.xd.samples.ModuleTest.test(org.springframework.xd.samples.ModuleTest)
+  Run 1: ModuleTest.test:65 » MessageTransformation Failed to transform Message; nested...
+  Run 2: ModuleTest.cleanUp:71 » RedisConnectionFailure Cannot get Jedis connection; ne...
+
+org.springframework.xd.samples.UserHistoryProcessorTest.testUpdateUserHistory(org.springframework.xd.samples.UserHistoryProcessorTest)
+  Run 1: UserHistoryProcessorTest.testUpdateUserHistory:76 » RedisConnectionFailure Can...
+  Run 2: UserHistoryProcessorTest.cleanUp:120 » RedisConnectionFailure Cannot get Jedis...
+
+
+
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] redis-common ....................................... SUCCESS [  0.758 s]
+[INFO] redis-source ....................................... SUCCESS [  0.756 s]
+[INFO] user-history-processor ............................. FAILURE [  2.291 s]
+[INFO] product-category-enricher .......................... SKIPPED
+[INFO] product-categories-counter ......................... SKIPPED
+[INFO] product-analytics-example .......................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.171 s
+[INFO] Finished at: 2017-03-03T11:25:49-03:00
+[INFO] Final Memory: 35M/347M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.18:test (default-test) on project user-history-processor: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-xd-samples/storm-product-analytics-example/user-history-processor/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :user-history-processor

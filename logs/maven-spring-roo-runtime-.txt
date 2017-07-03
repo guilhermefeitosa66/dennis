@@ -1,0 +1,742 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 28 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 28 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Roo - Runtime - Runtime Module Parent
+[INFO] Spring Roo - Runtime - Deployment Support
+[INFO] Spring Roo - Runtime - OSGi Bundle Module Parent
+[INFO] Spring Roo - Runtime - Support for OSGi Features
+[INFO] Spring Roo - Runtime - Shell
+[INFO] Spring Roo - Runtime - Shell (OSGi Launcher)
+[INFO] Spring Roo - Runtime - File Monitor
+[INFO] Spring Roo - Runtime - File Undo
+[INFO] Spring Roo - Runtime - Metadata
+[INFO] Spring Roo - Runtime - Model
+[INFO] Spring Roo - Runtime - Process Manager
+[INFO] Spring Roo - Runtime - URL Stream API Contract
+[INFO] Spring Roo - Runtime - Felix Interoperability
+[INFO] Spring Roo - Runtime - ROO Gogo Commands
+[INFO] Spring Roo - Runtime - Bootstrap
+[INFO] Spring Roo - Runtime - OSGi Start Level Control
+[INFO] Spring Roo - Runtime - Shell - JLine
+[INFO] Spring Roo - Runtime - Shell - JLine (OSGi Launcher)
+[INFO] Spring Roo - Runtime - REST Publisher
+[INFO] Spring Roo - Runtime - Project
+[INFO] Spring Roo - Runtime - Property Files Manager
+[INFO] Spring Roo - Runtime - Settings
+[INFO] Spring Roo - Runtime - Classpath
+[INFO] Spring Roo - Runtime - Classpath (Antlr Java Parser)
+[INFO] Spring Roo - Runtime - OBR Management
+[INFO] Spring Roo - Runtime - Roo Addon Suite Support
+[INFO] Spring Roo - Runtime - Application Config
+[INFO] Spring Roo - Runtime - Converters
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Runtime Module Parent 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Deployment Support 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- asciidoctor-maven-plugin:1.5.2:process-asciidoc (output-html) @ org.springframework.roo.deployment.support ---
+[INFO] Rendered /home/guilherme/spring-projects/maven/spring-roo/runtime/deployment-support/src/main/asciidoc/index.adoc
+[INFO] 
+[INFO] --- asciidoctor-maven-plugin:1.5.2:process-asciidoc (generate-pdf-doc) @ org.springframework.roo.deployment.support ---
+[INFO] Rendered /home/guilherme/spring-projects/maven/spring-roo/runtime/deployment-support/src/main/asciidoc/index.adoc
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - OSGi Bundle Module Parent 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.osgi.bundle ---
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.osgi.bundle ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Support for OSGi Features 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.support ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 32
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 32 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.support ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.support ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/support/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.support ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.support ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.support ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.support ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.support ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-roo/runtime/support/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Tests run: 53, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Shell 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.shell ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 40
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 40 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.shell ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.shell ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.shell ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.shell ---
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/shell/target/classes/OSGI-INF/org.springframework.roo.shell.RooBundleActivatorImpl.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.shell ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/shell/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.shell ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.shell ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-roo/runtime/shell/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Shell (OSGi Launcher) 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.shell.osgi ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 4
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 4 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.shell.osgi ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.shell.osgi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/shell-osgi/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.shell.osgi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.shell.osgi ---
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/shell-osgi/target/classes/OSGI-INF/org.springframework.roo.shell.osgi.converters.StaticFieldConverterImplComponent.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/shell-osgi/target/classes/OSGI-INF/org.springframework.roo.shell.osgi.converters.AvailableCommandsConverterComponent.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/shell-osgi/target/classes/OSGI-INF/org.springframework.roo.shell.osgi.SimpleParserComponent.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.shell.osgi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/shell-osgi/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.shell.osgi ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.shell.osgi ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - File Monitor 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.file.monitor ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 15
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 15 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.file.monitor ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.file.monitor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/file-monitor/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.file.monitor ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.file.monitor ---
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/file-monitor/target/classes/OSGI-INF/org.springframework.roo.file.monitor.polling.PollingFileMonitorComponent.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.file.monitor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/file-monitor/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.file.monitor ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.file.monitor ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-roo/runtime/file-monitor/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - File Undo 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.file.undo ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 12
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 12 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.file.undo ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.file.undo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/file-undo/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.file.undo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.file.undo ---
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/file-undo/target/classes/OSGI-INF/org.springframework.roo.file.undo.DefaultUndoManager.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.file.undo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/file-undo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.file.undo ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.file.undo ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Metadata 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.metadata ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 22
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 22 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.metadata ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.metadata ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/metadata/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.metadata ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.metadata ---
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/metadata/target/classes/OSGI-INF/org.springframework.roo.metadata.DefaultMetadataService.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/metadata/target/classes/OSGI-INF/org.springframework.roo.metadata.DefaultMetadataLogger.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/metadata/target/classes/OSGI-INF/org.springframework.roo.metadata.internal.DefaultMetadataDependencyRegistry.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.metadata ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/metadata/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.metadata ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.metadata ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-roo/runtime/metadata/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Tests run: 45, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Model 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.model ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 32
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 32 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.model ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.model ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/model/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.model ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.model ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.model ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/model/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.model ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.model ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-roo/runtime/model/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Process Manager 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.process.manager ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 18
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 18 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.process.manager ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.process.manager ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/process-manager/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.process.manager ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.process.manager ---
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo/runtime/process-manager/src/main/java/org/springframework/roo/process/manager/internal/ProcessManagerDiagnosticsListener.java [1:1]:  Component org.springframework.roo.process.manager.internal.ProcessManagerDiagnosticsListener is using the deprecated inheritance feature and inherits from org.springframework.roo.shell.osgi.AbstractFlashingObject. This feature will be removed in future versions.
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/process-manager/target/classes/OSGI-INF/org.springframework.roo.process.manager.internal.ProcessManagerDiagnosticsListener.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/process-manager/target/classes/OSGI-INF/org.springframework.roo.process.manager.internal.DefaultFileManager.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/process-manager/target/classes/OSGI-INF/org.springframework.roo.process.manager.internal.DefaultProcessManager.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/process-manager/target/classes/OSGI-INF/org.springframework.roo.process.manager.ProcessManagerHostedExecutionStrategy.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.process.manager ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/process-manager/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.process.manager ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.process.manager ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - URL Stream API Contract 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.url.stream ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 2
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 2 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.url.stream ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.url.stream ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/url-stream/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.url.stream ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.url.stream ---
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo/runtime/url-stream/src/main/java/org/springframework/roo/url/stream/JdkUrlInputStreamService.java [1:1]:  Component org.springframework.roo.url.stream.JdkUrlInputStreamService is using the deprecated inheritance feature and inherits from org.springframework.roo.shell.osgi.AbstractFlashingObject. This feature will be removed in future versions.
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/url-stream/target/classes/OSGI-INF/org.springframework.roo.url.stream.JdkUrlInputStreamService.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.url.stream ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/url-stream/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.url.stream ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.url.stream ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Felix Interoperability 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.felix ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 16
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 16 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.felix ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.felix ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.felix ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.felix ---
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo/runtime/felix/src/main/java/org/springframework/roo/felix/JdkDelegatingLogListener.java [1:1]:  Component org.springframework.roo.felix.JdkDelegatingLogListener is using the deprecated inheritance feature and inherits from org.springframework.roo.shell.osgi.AbstractFlashingObject. This feature will be removed in future versions.
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/felix/target/classes/OSGI-INF/org.springframework.roo.felix.pgp.PgpKeyIdConverter.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/felix/target/classes/OSGI-INF/org.springframework.roo.felix.pgp.PgpServiceImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/felix/target/classes/OSGI-INF/org.springframework.roo.felix.pgp.PgpCommands.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/felix/target/classes/OSGI-INF/org.springframework.roo.felix.JdkDelegatingLogListener.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/felix/target/classes/OSGI-INF/org.springframework.roo.felix.help.HelpCommands.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/felix/target/classes/OSGI-INF/org.springframework.roo.felix.help.HelpServiceImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/felix/target/classes/OSGI-INF/org.springframework.roo.felix.FelixDelegator.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/felix/target/classes/OSGI-INF/org.springframework.roo.felix.HttpPgpUrlStreamHandlerServiceImpl.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.felix ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/felix/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.felix ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.felix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - ROO Gogo Commands 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.osgi.gogo.commands ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 2
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 2 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.osgi.gogo.commands ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.osgi.gogo.commands ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/gogo-commands/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.osgi.gogo.commands ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.osgi.gogo.commands ---
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/gogo-commands/target/classes/OSGI-INF/org.srpingframework.roo.osgi.gogo.commands.SubsystemCommands.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/gogo-commands/target/classes/OSGI-INF/org.srpingframework.roo.osgi.gogo.commands.ObrCommands.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.osgi.gogo.commands ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/gogo-commands/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.osgi.gogo.commands ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.osgi.gogo.commands ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Bootstrap 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.bootstrap ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/bootstrap/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.bootstrap ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.bootstrap ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/bootstrap/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.bootstrap ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.bootstrap ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - OSGi Start Level Control 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.startlevel ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 1
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 1 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.startlevel ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.startlevel ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/startlevel/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.startlevel ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.startlevel ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.startlevel ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/startlevel/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.startlevel ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.startlevel ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Shell - JLine 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.shell.jline ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 4
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 4 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.shell.jline ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.shell.jline ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/shell-jline/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.shell.jline ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.shell.jline ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.shell.jline ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/shell-jline/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.shell.jline ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.shell.jline ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Shell - JLine (OSGi Launcher) 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.shell.jline.osgi ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 1
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 1 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.shell.jline.osgi ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.shell.jline.osgi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/shell-jline-osgi/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.shell.jline.osgi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.shell.jline.osgi ---
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/shell-jline-osgi/target/classes/OSGI-INF/org.springframework.roo.shell.jline.osgi.JLineShellComponent.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.shell.jline.osgi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/shell-jline-osgi/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.shell.jline.osgi ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.shell.jline.osgi ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - REST Publisher 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.rest.publisher ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 6
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 6 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.rest.publisher ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.rest.publisher ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/rest-publisher/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.rest.publisher ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.rest.publisher ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.rest.publisher ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/rest-publisher/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.rest.publisher ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.rest.publisher ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - Project 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.project ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 84
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 84 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.project ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.project ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.project ---
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo/runtime/project/src/main/java/org/springframework/roo/project/MavenOperationsImpl.java [1:1]:  Component org.springframework.roo.project.MavenOperationsImpl is using the deprecated inheritance feature and inherits from org.springframework.roo.project.AbstractProjectOperations. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo/runtime/project/src/main/java/org/springframework/roo/project/DefaultPathResolvingStrategy.java [1:1]:  Component org.springframework.roo.project.DefaultPathResolvingStrategy is using the deprecated inheritance feature and inherits from org.springframework.roo.project.AbstractPathResolvingStrategy. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo/runtime/project/src/main/java/org/springframework/roo/project/MavenPathResolvingStrategy.java [1:1]:  Component org.springframework.roo.project.MavenPathResolvingStrategy is using the deprecated inheritance feature and inherits from org.springframework.roo.project.AbstractPathResolvingStrategy. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo/runtime/project/src/main/java/org/springframework/roo/project/packaging/PomPackaging.java [1:1]:  Component org.springframework.roo.project.packaging.PomPackaging is using the deprecated inheritance feature and inherits from org.springframework.roo.project.packaging.AbstractPackagingProvider. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo/runtime/project/src/main/java/org/springframework/roo/project/packaging/EarPackaging.java [1:1]:  Component org.springframework.roo.project.packaging.EarPackaging is using the deprecated inheritance feature and inherits from org.springframework.roo.project.packaging.AbstractPackagingProvider. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo/runtime/project/src/main/java/org/springframework/roo/project/packaging/JarPackaging.java [1:1]:  Component org.springframework.roo.project.packaging.JarPackaging is using the deprecated inheritance feature and inherits from org.springframework.roo.project.packaging.AbstractPackagingProvider. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo/runtime/project/src/main/java/org/springframework/roo/project/packaging/WarPackaging.java [1:1]:  Component org.springframework.roo.project.packaging.WarPackaging is using the deprecated inheritance feature and inherits from org.springframework.roo.project.packaging.AbstractPackagingProvider. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo/runtime/project/src/main/java/org/springframework/roo/project/packaging/EsaPackaging.java [1:1]:  Component org.springframework.roo.project.packaging.EsaPackaging is using the deprecated inheritance feature and inherits from org.springframework.roo.project.packaging.AbstractPackagingProvider. This feature will be removed in future versions.
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.PomManagementServiceImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.DelegatePathResolver.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.ProjectCommands.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.maven.PomFactoryImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.MavenOperationsImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.AutomaticProjectUpgradeService.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.ApplicationContextOperationsImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.MavenCommands.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.DefaultPathResolvingStrategy.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.MavenPathResolvingStrategy.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.jaxrs.ProjectResource.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.ProjectPathMonitoringInitializer.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.packaging.PackagingProviderRegistryImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.packaging.BundlePackaging.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.packaging.PomPackaging.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.packaging.EarPackaging.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.packaging.JarPackaging.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.packaging.WarPackaging.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.packaging.EsaPackaging.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.PathResolvingAwareFilenameResolver.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/classes/OSGI-INF/org.springframework.roo.project.MavenProjectMetadataProvider.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.project ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.project ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Tests in error: 
+  PomManagementServiceImplTest.testGetPomsWhenOneEmptyPomIsDirty:218 » IllegalState
+
+Tests run: 117, Failures: 0, Errors: 1, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Roo - Runtime - Runtime Module Parent ....... SUCCESS [  0.037 s]
+[INFO] Spring Roo - Runtime - Deployment Support .......... SUCCESS [ 10.569 s]
+[INFO] Spring Roo - Runtime - OSGi Bundle Module Parent ... SUCCESS [  0.121 s]
+[INFO] Spring Roo - Runtime - Support for OSGi Features ... SUCCESS [  1.237 s]
+[INFO] Spring Roo - Runtime - Shell ....................... SUCCESS [  0.449 s]
+[INFO] Spring Roo - Runtime - Shell (OSGi Launcher) ....... SUCCESS [  0.087 s]
+[INFO] Spring Roo - Runtime - File Monitor ................ SUCCESS [  0.386 s]
+[INFO] Spring Roo - Runtime - File Undo ................... SUCCESS [  0.054 s]
+[INFO] Spring Roo - Runtime - Metadata .................... SUCCESS [  0.346 s]
+[INFO] Spring Roo - Runtime - Model ....................... SUCCESS [  0.281 s]
+[INFO] Spring Roo - Runtime - Process Manager ............. SUCCESS [  0.078 s]
+[INFO] Spring Roo - Runtime - URL Stream API Contract ..... SUCCESS [  0.048 s]
+[INFO] Spring Roo - Runtime - Felix Interoperability ...... SUCCESS [  0.096 s]
+[INFO] Spring Roo - Runtime - ROO Gogo Commands ........... SUCCESS [  0.073 s]
+[INFO] Spring Roo - Runtime - Bootstrap ................... SUCCESS [  0.199 s]
+[INFO] Spring Roo - Runtime - OSGi Start Level Control .... SUCCESS [  0.060 s]
+[INFO] Spring Roo - Runtime - Shell - JLine ............... SUCCESS [  0.063 s]
+[INFO] Spring Roo - Runtime - Shell - JLine (OSGi Launcher) SUCCESS [  0.054 s]
+[INFO] Spring Roo - Runtime - REST Publisher .............. SUCCESS [  0.045 s]
+[INFO] Spring Roo - Runtime - Project ..................... FAILURE [  0.817 s]
+[INFO] Spring Roo - Runtime - Property Files Manager ...... SKIPPED
+[INFO] Spring Roo - Runtime - Settings .................... SKIPPED
+[INFO] Spring Roo - Runtime - Classpath ................... SKIPPED
+[INFO] Spring Roo - Runtime - Classpath (Antlr Java Parser) SKIPPED
+[INFO] Spring Roo - Runtime - OBR Management .............. SKIPPED
+[INFO] Spring Roo - Runtime - Roo Addon Suite Support ..... SKIPPED
+[INFO] Spring Roo - Runtime - Application Config .......... SKIPPED
+[INFO] Spring Roo - Runtime - Converters .................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 16.461 s
+[INFO] Finished at: 2017-03-03T11:07:26-03:00
+[INFO] Final Memory: 78M/548M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project org.springframework.roo.project: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :org.springframework.roo.project

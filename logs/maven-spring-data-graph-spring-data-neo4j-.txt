@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Neo4J Core 1.2.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-license-plugin:1.9.0:format (check-licenses) @ spring-data-neo4j ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.2:compile (default) @ spring-data-neo4j ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-neo4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ spring-data-neo4j ---
+[INFO] Compiling 149 source files to /home/guilherme/spring-projects/maven/spring-data-graph/spring-data-neo4j/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/guilherme/spring-projects/maven/spring-data-graph/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/support/Tuple2.java:[33,38] '_' used as an identifier
+[WARNING]   (use of '_' as an identifier might not be supported in releases after Java SE 8)
+/home/guilherme/spring-projects/maven/spring-data-graph/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/template/PropertyMap.java:[40,38] '_' used as an identifier
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] bootstrap class path not set in conjunction with -source 1.6
+/home/guilherme/spring-projects/maven/spring-data-graph/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/fieldaccess/DynamicProperties.java:[41,61] error: unmappable character for encoding UTF-8
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/fieldaccess/DynamicProperties.java:[46,34] error: unmappable character for encoding UTF-8
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.424 s
+[INFO] Finished at: 2017-03-03T10:53:21-03:00
+[INFO] Final Memory: 12M/256M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project spring-data-neo4j: Compilation failure: Compilation failure:
+[ERROR] bootstrap class path not set in conjunction with -source 1.6
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/fieldaccess/DynamicProperties.java:[41,61] error: unmappable character for encoding UTF-8
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph/spring-data-neo4j/src/main/java/org/springframework/data/neo4j/fieldaccess/DynamicProperties.java:[46,34] error: unmappable character for encoding UTF-8
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

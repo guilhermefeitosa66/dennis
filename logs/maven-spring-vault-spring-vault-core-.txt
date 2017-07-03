@@ -1,0 +1,292 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Vault Core 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-vault-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ spring-vault-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 56 source files to /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core/target/classes
+[INFO] /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core/src/main/java/org/springframework/vault/client/VaultAccessor.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core/src/main/java/org/springframework/vault/client/VaultAccessor.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-vault-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ spring-vault-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ spring-vault-core ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.vault.authentication.AppIdAuthenticationUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.452 sec - in org.springframework.vault.authentication.AppIdAuthenticationUnitTests
+Running org.springframework.vault.authentication.MacAddressUserIdUnitTests
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE! - in org.springframework.vault.authentication.MacAddressUserIdUnitTests
+shouldGenerateUppercaseSha256HexString(org.springframework.vault.authentication.MacAddressUserIdUnitTests)  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot determine NetworkInterface for dell/127.0.1.1
+	at org.springframework.vault.authentication.MacAddressUserIdUnitTests.shouldGenerateUppercaseSha256HexString(MacAddressUserIdUnitTests.java:38)
+
+Running org.springframework.vault.authentication.CubbyholeAuthenticationIntegrationTests
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in org.springframework.vault.authentication.CubbyholeAuthenticationIntegrationTests
+shouldCreateWrappedToken(org.springframework.vault.authentication.CubbyholeAuthenticationIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.authentication.CubbyholeAuthenticationIntegrationTests.<init>(CubbyholeAuthenticationIntegrationTests.java:44)
+
+loginShouldFail(org.springframework.vault.authentication.CubbyholeAuthenticationIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.authentication.CubbyholeAuthenticationIntegrationTests.<init>(CubbyholeAuthenticationIntegrationTests.java:44)
+
+Running org.springframework.vault.authentication.ClientCertificateAuthenticationUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.springframework.vault.authentication.ClientCertificateAuthenticationUnitTests
+Running org.springframework.vault.authentication.AppIdAuthenticationIntegrationTests
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE! - in org.springframework.vault.authentication.AppIdAuthenticationIntegrationTests
+shouldLoginSuccessfully(org.springframework.vault.authentication.AppIdAuthenticationIntegrationTests)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.authentication.AppIdAuthenticationIntegrationTests.<init>(AppIdAuthenticationIntegrationTests.java:39)
+
+loginShouldFail(org.springframework.vault.authentication.AppIdAuthenticationIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.authentication.AppIdAuthenticationIntegrationTests.<init>(AppIdAuthenticationIntegrationTests.java:39)
+
+Running org.springframework.vault.authentication.AwsEc2AuthenticationUnitTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in org.springframework.vault.authentication.AwsEc2AuthenticationUnitTests
+Running org.springframework.vault.authentication.CubbyholeAuthenticationUnitTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec - in org.springframework.vault.authentication.CubbyholeAuthenticationUnitTests
+Running org.springframework.vault.authentication.IpAddressUserIdTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.vault.authentication.IpAddressUserIdTests
+Running org.springframework.vault.authentication.ClientCertificateAuthenticationIntegrationTests
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE! - in org.springframework.vault.authentication.ClientCertificateAuthenticationIntegrationTests
+shouldLoginSuccessfully(org.springframework.vault.authentication.ClientCertificateAuthenticationIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.authentication.ClientCertificateAuthenticationIntegrationTests.<init>(ClientCertificateAuthenticationIntegrationTests.java:48)
+
+loginShouldFail(org.springframework.vault.authentication.ClientCertificateAuthenticationIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.authentication.ClientCertificateAuthenticationIntegrationTests.<init>(ClientCertificateAuthenticationIntegrationTests.java:48)
+
+Running org.springframework.vault.config.ClientHttpRequestFactoryFactoryIntegrationTests
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in org.springframework.vault.config.ClientHttpRequestFactoryFactoryIntegrationTests
+nettyClientShouldWork(org.springframework.vault.config.ClientHttpRequestFactoryFactoryIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.config.ClientHttpRequestFactoryFactoryIntegrationTests.nettyClientShouldWork(ClientHttpRequestFactoryFactoryIntegrationTests.java:65)
+
+okHttpClientShouldWork(org.springframework.vault.config.ClientHttpRequestFactoryFactoryIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.config.ClientHttpRequestFactoryFactoryIntegrationTests.okHttpClientShouldWork(ClientHttpRequestFactoryFactoryIntegrationTests.java:80)
+
+httpComponentsClientShouldWork(org.springframework.vault.config.ClientHttpRequestFactoryFactoryIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.config.ClientHttpRequestFactoryFactoryIntegrationTests.httpComponentsClientShouldWork(ClientHttpRequestFactoryFactoryIntegrationTests.java:51)
+
+Running org.springframework.vault.core.VaultTemplateTransitIntegrationTests
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.044 sec <<< FAILURE! - in org.springframework.vault.core.VaultTemplateTransitIntegrationTests
+shouldEncrypt(org.springframework.vault.core.VaultTemplateTransitIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTemplateTransitIntegrationTests.<init>(VaultTemplateTransitIntegrationTests.java:40)
+
+shouldEncryptAndDecrypt(org.springframework.vault.core.VaultTemplateTransitIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTemplateTransitIntegrationTests.<init>(VaultTemplateTransitIntegrationTests.java:40)
+
+Running org.springframework.vault.core.VaultTokenTemplateIntegrationTests
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE! - in org.springframework.vault.core.VaultTokenTemplateIntegrationTests
+createTokenShouldCreateACustomizedToken(org.springframework.vault.core.VaultTokenTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTokenTemplateIntegrationTests.<init>(VaultTokenTemplateIntegrationTests.java:43)
+
+revokeShouldRevokeToken(org.springframework.vault.core.VaultTokenTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTokenTemplateIntegrationTests.<init>(VaultTokenTemplateIntegrationTests.java:43)
+
+renewShouldFailForNonRenewableRenewTokens(org.springframework.vault.core.VaultTokenTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTokenTemplateIntegrationTests.<init>(VaultTokenTemplateIntegrationTests.java:43)
+
+createOrphanTokenShouldCreateAToken(org.springframework.vault.core.VaultTokenTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTokenTemplateIntegrationTests.<init>(VaultTokenTemplateIntegrationTests.java:43)
+
+createdTokenShouldBeUsableWithVaultClient(org.springframework.vault.core.VaultTokenTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTokenTemplateIntegrationTests.<init>(VaultTokenTemplateIntegrationTests.java:43)
+
+createTokenShouldCreateANewToken(org.springframework.vault.core.VaultTokenTemplateIntegrationTests)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTokenTemplateIntegrationTests.<init>(VaultTokenTemplateIntegrationTests.java:43)
+
+createOrphanTokenShouldCreateACustomizedToken(org.springframework.vault.core.VaultTokenTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTokenTemplateIntegrationTests.<init>(VaultTokenTemplateIntegrationTests.java:43)
+
+renewShouldRenewToken(org.springframework.vault.core.VaultTokenTemplateIntegrationTests)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTokenTemplateIntegrationTests.<init>(VaultTokenTemplateIntegrationTests.java:43)
+
+Running org.springframework.vault.core.VaultSysTemplateIntegrationTests
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in org.springframework.vault.core.VaultSysTemplateIntegrationTests
+authMountShouldMountGenericSecret(org.springframework.vault.core.VaultSysTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultSysTemplateIntegrationTests.<init>(VaultSysTemplateIntegrationTests.java:40)
+
+isInitializedShouldReturnTrue(org.springframework.vault.core.VaultSysTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultSysTemplateIntegrationTests.<init>(VaultSysTemplateIntegrationTests.java:40)
+
+mountShouldMountGenericSecret(org.springframework.vault.core.VaultSysTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultSysTemplateIntegrationTests.<init>(VaultSysTemplateIntegrationTests.java:40)
+
+getUnsealStatusShouldReturnStatus(org.springframework.vault.core.VaultSysTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultSysTemplateIntegrationTests.<init>(VaultSysTemplateIntegrationTests.java:40)
+
+getAuthMountsShouldContainSecretBackend(org.springframework.vault.core.VaultSysTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultSysTemplateIntegrationTests.<init>(VaultSysTemplateIntegrationTests.java:40)
+
+getMountsShouldContainSecretBackend(org.springframework.vault.core.VaultSysTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultSysTemplateIntegrationTests.<init>(VaultSysTemplateIntegrationTests.java:40)
+
+Running org.springframework.vault.core.VaultTransitTemplateIntegrationTests
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in org.springframework.vault.core.VaultTransitTemplateIntegrationTests
+createKeyShouldCreateKeyWithOptions(org.springframework.vault.core.VaultTransitTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTransitTemplateIntegrationTests.<init>(VaultTransitTemplateIntegrationTests.java:41)
+
+encryptShouldCreateCiphertextWithNonceAndContext(org.springframework.vault.core.VaultTransitTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTransitTemplateIntegrationTests.<init>(VaultTransitTemplateIntegrationTests.java:41)
+
+encryptAndRewrapShouldCreateCiphertextWithNonceAndContext(org.springframework.vault.core.VaultTransitTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTransitTemplateIntegrationTests.<init>(VaultTransitTemplateIntegrationTests.java:41)
+
+encryptShouldCreateCiphertext(org.springframework.vault.core.VaultTransitTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTransitTemplateIntegrationTests.<init>(VaultTransitTemplateIntegrationTests.java:41)
+
+decryptShouldCreatePlaintextWithNonceAndContext(org.springframework.vault.core.VaultTransitTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTransitTemplateIntegrationTests.<init>(VaultTransitTemplateIntegrationTests.java:41)
+
+deleteKeyShouldFailIfKeyNotExists(org.springframework.vault.core.VaultTransitTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTransitTemplateIntegrationTests.<init>(VaultTransitTemplateIntegrationTests.java:41)
+
+deleteKeyShouldDeleteKey(org.springframework.vault.core.VaultTransitTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTransitTemplateIntegrationTests.<init>(VaultTransitTemplateIntegrationTests.java:41)
+
+decryptShouldCreatePlaintext(org.springframework.vault.core.VaultTransitTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTransitTemplateIntegrationTests.<init>(VaultTransitTemplateIntegrationTests.java:41)
+
+createKeyShouldCreateKey(org.springframework.vault.core.VaultTransitTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTransitTemplateIntegrationTests.<init>(VaultTransitTemplateIntegrationTests.java:41)
+
+encryptAndRewrapShouldCreateCiphertext(org.springframework.vault.core.VaultTransitTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTransitTemplateIntegrationTests.<init>(VaultTransitTemplateIntegrationTests.java:41)
+
+getKeyShouldReturnNullIfKeyNotExists(org.springframework.vault.core.VaultTransitTemplateIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTransitTemplateIntegrationTests.<init>(VaultTransitTemplateIntegrationTests.java:41)
+
+Running org.springframework.vault.core.VaultTemplateGenericIntegrationTests
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE! - in org.springframework.vault.core.VaultTemplateGenericIntegrationTests
+readObjectShouldReadDomainClass(org.springframework.vault.core.VaultTemplateGenericIntegrationTests)  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTemplateGenericIntegrationTests.<init>(VaultTemplateGenericIntegrationTests.java:41)
+
+readShouldReturnAbsentKey(org.springframework.vault.core.VaultTemplateGenericIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTemplateGenericIntegrationTests.<init>(VaultTemplateGenericIntegrationTests.java:41)
+
+deleteShouldRemoveKey(org.springframework.vault.core.VaultTemplateGenericIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTemplateGenericIntegrationTests.<init>(VaultTemplateGenericIntegrationTests.java:41)
+
+listShouldReturnExistingKey(org.springframework.vault.core.VaultTemplateGenericIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTemplateGenericIntegrationTests.<init>(VaultTemplateGenericIntegrationTests.java:41)
+
+readShouldReturnExistingKey(org.springframework.vault.core.VaultTemplateGenericIntegrationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalStateException: Cannot find work directory in /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core or any parent directories
+	at org.springframework.vault.core.VaultTemplateGenericIntegrationTests.<init>(VaultTemplateGenericIntegrationTests.java:41)
+
+
+Results :
+
+Tests in error: 
+  AppIdAuthenticationIntegrationTests.<init>:39->IntegrationTestSupport.<init>:27 » IllegalState
+  AppIdAuthenticationIntegrationTests.<init>:39->IntegrationTestSupport.<init>:27 » IllegalState
+  ClientCertificateAuthenticationIntegrationTests.<init>:48->IntegrationTestSupport.<init>:27 » IllegalState
+  ClientCertificateAuthenticationIntegrationTests.<init>:48->IntegrationTestSupport.<init>:27 » IllegalState
+  CubbyholeAuthenticationIntegrationTests.<init>:44->IntegrationTestSupport.<init>:27 » IllegalState
+  CubbyholeAuthenticationIntegrationTests.<init>:44->IntegrationTestSupport.<init>:27 » IllegalState
+  MacAddressUserIdUnitTests.shouldGenerateUppercaseSha256HexString:38 » IllegalState
+  ClientHttpRequestFactoryFactoryIntegrationTests.httpComponentsClientShouldWork:51 » IllegalState
+  ClientHttpRequestFactoryFactoryIntegrationTests.nettyClientShouldWork:65 » IllegalState
+  ClientHttpRequestFactoryFactoryIntegrationTests.okHttpClientShouldWork:80 » IllegalState
+  VaultSysTemplateIntegrationTests.<init>:40->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultSysTemplateIntegrationTests.<init>:40->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultSysTemplateIntegrationTests.<init>:40->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultSysTemplateIntegrationTests.<init>:40->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultSysTemplateIntegrationTests.<init>:40->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultSysTemplateIntegrationTests.<init>:40->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTemplateGenericIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTemplateGenericIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTemplateGenericIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTemplateGenericIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTemplateGenericIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTemplateTransitIntegrationTests.<init>:40->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTemplateTransitIntegrationTests.<init>:40->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTokenTemplateIntegrationTests.<init>:43->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTokenTemplateIntegrationTests.<init>:43->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTokenTemplateIntegrationTests.<init>:43->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTokenTemplateIntegrationTests.<init>:43->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTokenTemplateIntegrationTests.<init>:43->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTokenTemplateIntegrationTests.<init>:43->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTokenTemplateIntegrationTests.<init>:43->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTokenTemplateIntegrationTests.<init>:43->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTransitTemplateIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTransitTemplateIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTransitTemplateIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTransitTemplateIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTransitTemplateIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTransitTemplateIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTransitTemplateIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTransitTemplateIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTransitTemplateIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTransitTemplateIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+  VaultTransitTemplateIntegrationTests.<init>:41->IntegrationTestSupport.<init>:27 » IllegalState
+
+Tests run: 57, Failures: 0, Errors: 42, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.006 s
+[INFO] Finished at: 2017-03-03T11:17:20-03:00
+[INFO] Final Memory: 22M/280M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project spring-vault-core: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-vault/spring-vault-core/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,78 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-test-mvc 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-test-mvc ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-test-mvc/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.1:compile (default-compile) @ spring-test-mvc ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 10 source files to /home/guilherme/spring-projects/maven/spring-test-mvc/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-test-mvc ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 10 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.1:testCompile (default-testCompile) @ spring-test-mvc ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 55 source files to /home/guilherme/spring-projects/maven/spring-test-mvc/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/Person.java:[19,35] error: package javax.validation.constraints does not exist
+
+[ERROR] /home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/ModelAssertionTests.java:[32,23] error: package javax.validation does not exist
+
+[ERROR] /home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/FilterTests.java:[32,23] error: package javax.validation does not exist
+
+[ERROR] /home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/RedirectTests.java:[23,23] error: package javax.validation does not exist
+
+[ERROR] /home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/Person.java:[27,2] error: cannot find symbol
+
+[ERROR]  class Person
+/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/ModelAssertionTests.java:[119,24] error: cannot find symbol
+
+[ERROR]  class SampleController
+/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/FilterTests.java:[113,22] error: cannot find symbol
+
+[ERROR]  class PersonController
+/home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/RedirectTests.java:[94,22] error: cannot find symbol
+
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.918 s
+[INFO] Finished at: 2017-03-03T11:16:50-03:00
+[INFO] Final Memory: 22M/197M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.1:testCompile (default-testCompile) on project spring-test-mvc: Compilation failure: Compilation failure:
+[ERROR] /home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/Person.java:[19,35] error: package javax.validation.constraints does not exist
+[ERROR] 
+[ERROR] /home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/ModelAssertionTests.java:[32,23] error: package javax.validation does not exist
+[ERROR] 
+[ERROR] /home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/FilterTests.java:[32,23] error: package javax.validation does not exist
+[ERROR] 
+[ERROR] /home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/RedirectTests.java:[23,23] error: package javax.validation does not exist
+[ERROR] 
+[ERROR] /home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/Person.java:[27,2] error: cannot find symbol
+[ERROR] 
+[ERROR] class Person
+[ERROR] /home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/resultmatchers/ModelAssertionTests.java:[119,24] error: cannot find symbol
+[ERROR] 
+[ERROR] class SampleController
+[ERROR] /home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/FilterTests.java:[113,22] error: cannot find symbol
+[ERROR] 
+[ERROR] class PersonController
+[ERROR] /home/guilherme/spring-projects/maven/spring-test-mvc/src/test/java/org/springframework/test/web/server/samples/standalone/RedirectTests.java:[94,22] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

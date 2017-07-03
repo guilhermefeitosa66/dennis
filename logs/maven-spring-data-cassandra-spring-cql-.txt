@@ -1,0 +1,84 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring CQL 1.5.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- dependencypath-maven-plugin:1.1.1:set (set-all) @ spring-cql ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-cql ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ spring-cql ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-cql ---
+Manifest written to '/home/guilherme/spring-projects/maven/spring-data-cassandra/spring-cql/target/classes/META-INF/MANIFEST.MF'
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:reserve-network-port (reserve-network-port) @ spring-cql ---
+[INFO] Reserved port 34192 for build.cassandra.native_transport_port
+[INFO] Reserved port 40212 for build.cassandra.rpc_port
+[INFO] Reserved port 46017 for build.cassandra.storage_port
+[INFO] Reserved port 40699 for build.cassandra.ssl_storage_port
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-cql ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ spring-cql ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-cql ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-cassandra/spring-cql/target/surefire-reports
+[INFO] parallel='methods', perCoreThreadCount=true, threadCount=10, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.cassandra.core.CachedPreparedStatementCreatorUnitTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 sec - in org.springframework.cassandra.core.CachedPreparedStatementCreatorUnitTests
+Running org.springframework.cassandra.core.CqlTemplateUnitTests
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.108 sec - in org.springframework.cassandra.core.CqlTemplateUnitTests
+Running org.springframework.cassandra.support.CassandraAccessorUnitTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.cassandra.support.CassandraAccessorUnitTests
+Running org.springframework.cassandra.config.xml.CassandraCqlClusterParserUnitTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec - in org.springframework.cassandra.config.xml.CassandraCqlClusterParserUnitTests
+Running org.springframework.cassandra.config.PoolingOptionsFactoryBeanUnitTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in org.springframework.cassandra.config.PoolingOptionsFactoryBeanUnitTests
+Running org.springframework.cassandra.config.CassandraCqlSessionFactoryBeanUnitTests
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in org.springframework.cassandra.config.CassandraCqlSessionFactoryBeanUnitTests
+Running org.springframework.cassandra.core.ConsistencyLevelResolverUnitTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.cassandra.core.ConsistencyLevelResolverUnitTests
+Running org.springframework.cassandra.config.java.AbstractClusterConfigurationUnitTests
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.346 sec - in org.springframework.cassandra.config.java.AbstractClusterConfigurationUnitTests
+Running org.springframework.cassandra.core.cql.CqlIdentifierUnitTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.cassandra.core.cql.CqlIdentifierUnitTests
+Running org.springframework.cassandra.config.xml.ParsingUtilsUnitTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in org.springframework.cassandra.config.xml.ParsingUtilsUnitTests
+Running org.springframework.cassandra.core.QueryOptionsUnitTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.cassandra.core.QueryOptionsUnitTests
+Running org.springframework.cassandra.core.support.EmptyResultSetUnitTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.cassandra.core.support.EmptyResultSetUnitTests
+Running org.springframework.cassandra.core.util.CollectionUtilsUnitTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.cassandra.core.util.CollectionUtilsUnitTests
+Running org.springframework.cassandra.core.WriteOptionsUnitTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.cassandra.core.WriteOptionsUnitTests
+Running org.springframework.cassandra.core.cql.generator.AlterTableCqlGeneratorUnitTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.springframework.cassandra.core.cql.generator.AlterTableCqlGeneratorUnitTests
+Running org.springframework.cassandra.core.keyspace.OptionUnitTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.cassandra.core.keyspace.OptionUnitTests
+Running org.springframework.cassandra.config.CassandraCqlClusterFactoryBeanUnitTests
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.173 sec - in org.springframework.cassandra.config.CassandraCqlClusterFactoryBeanUnitTests
+
+Results :
+
+Tests run: 198, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.204 s
+[INFO] Finished at: 2017-03-03T10:42:50-03:00
+[INFO] Final Memory: 16M/260M
+[INFO] ------------------------------------------------------------------------

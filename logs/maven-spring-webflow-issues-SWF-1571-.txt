@@ -1,0 +1,57 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.webflow.samples:SWF-1571:war:1.0
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 181, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Hotel Booking : Spring MVC + Web Flow + JSF/RichFaces 1.0
+[INFO] ------------------------------------------------------------------------
+Downloading: http://download.java.net/maven/2/org/springframework/webflow/spring-faces/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-faces/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/springframework/webflow/spring-faces/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+3 KB          Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-faces/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml (3 KB at 2.1 KB/sec)
+              Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-binding/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/springframework/webflow/spring-binding/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://download.java.net/maven/2/org/springframework/webflow/spring-binding/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+3 KB                 Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-binding/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml (3 KB at 2.4 KB/sec)
+       Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-webflow/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://download.java.net/maven/2/org/springframework/webflow/spring-webflow/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/springframework/webflow/spring-webflow/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+3 KB                 Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-webflow/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml (3 KB at 2.7 KB/sec)
+       Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://download.java.net/maven/2/org/springframework/webflow/spring-js/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/springframework/webflow/spring-js/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+3 KB                 Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml (3 KB at 2.5 KB/sec)
+       Downloading: http://download.java.net/maven/2/org/springframework/webflow/spring-js-resources/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js-resources/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.jboss.org/nexus/content/groups/public-jboss/org/springframework/webflow/spring-js-resources/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+2 KB          Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js-resources/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml (2 KB at 2.1 KB/sec)
+              [INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SWF-1571 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SWF-1571 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SWF-1571 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1571/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SWF-1571 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SWF-1571 ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.041 s
+[INFO] Finished at: 2017-03-03T11:18:52-03:00
+[INFO] Final Memory: 11M/126M
+[INFO] ------------------------------------------------------------------------

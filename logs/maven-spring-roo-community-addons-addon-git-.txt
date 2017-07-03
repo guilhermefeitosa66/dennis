@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Addon - GIT 1.3.1.RELEASE
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-versions) @ org.springframework.roo.addon.git ---
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.addon.git ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.addon.git ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.addon.git ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.20.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.addon.git ---
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-git/target/classes/OSGI-INF/org.springframework.roo.addon.git.GitOperationsImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-git/target/classes/OSGI-INF/org.springframework.roo.addon.git.GitCommands.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-git/target/classes/OSGI-INF/org.springframework.roo.addon.git.GitShellEventListener.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.addon.git ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-git/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.addon.git ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ org.springframework.roo.addon.git ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-git/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.152 s
+[INFO] Finished at: 2017-03-03T11:08:16-03:00
+[INFO] Final Memory: 26M/317M
+[INFO] ------------------------------------------------------------------------

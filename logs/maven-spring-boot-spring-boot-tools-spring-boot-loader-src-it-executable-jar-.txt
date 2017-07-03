@@ -1,0 +1,30 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building executable-jar 0.0.1.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ executable-jar ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-loader/src/it/executable-jar/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ executable-jar ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-loader/src/it/executable-jar/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ executable-jar ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-loader/src/it/executable-jar/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ executable-jar ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ executable-jar ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.108 s
+[INFO] Finished at: 2017-03-03T10:39:16-03:00
+[INFO] Final Memory: 15M/165M
+[INFO] ------------------------------------------------------------------------

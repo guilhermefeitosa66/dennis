@@ -1,0 +1,43 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] foo-parent
+[INFO] foo-child
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building foo-parent 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building foo-child 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ foo-child ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/test-classes/org/springframework/roo/project/multi/foo-child/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ foo-child ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ foo-child ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/runtime/project/target/test-classes/org/springframework/roo/project/multi/foo-child/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ foo-child ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ foo-child ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] foo-parent ......................................... SUCCESS [  0.001 s]
+[INFO] foo-child .......................................... SUCCESS [  0.523 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.598 s
+[INFO] Finished at: 2017-03-03T11:07:44-03:00
+[INFO] Final Memory: 9M/150M
+[INFO] ------------------------------------------------------------------------

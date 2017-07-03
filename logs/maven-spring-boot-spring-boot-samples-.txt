@@ -1,0 +1,645 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-ant:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-activemq:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-actuator:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-actuator-log4j2:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-actuator-noweb:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-actuator-ui:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-amqp:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-aop:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-atmosphere:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-batch:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-cache:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-data-cassandra:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-data-couchbase:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-data-elasticsearch:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-data-gemfire:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-data-jpa:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-data-mongodb:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-data-neo4j:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-data-redis:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-data-rest:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-data-solr:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-devtools:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-flyway:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-hateoas:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-hibernate4:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-hibernate52:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-hypermedia:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-hypermedia-gson:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-hypermedia-jpa:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-hypermedia-ui:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-integration:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jersey:war:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jersey1:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jetty:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jetty-jsp:war:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jetty-ssl:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jetty8:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jetty8-ssl:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jetty92:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jooq:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jpa:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jta-atomikos:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jta-bitronix:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jta-narayana:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-jta-jndi:war:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-liquibase:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-logback:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-metrics-dropwizard:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-metrics-opentsdb:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-metrics-redis:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-parent-context:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-profile:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-property-validation:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-secure:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-secure-oauth2:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-secure-oauth2-resource:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-servlet:war:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-session-redis:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-simple:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-test:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-test-nomockito:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-testng:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-tomcat:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-tomcat-jsp:war:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-tomcat-ssl:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-tomcat-multi-connectors:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-tomcat7-jsp:war:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-tomcat7-ssl:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-tomcat80-ssl:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-traditional:war:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-undertow:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-undertow-ssl:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-war:war:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-freemarker:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-groovy-templates:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-jsp:war:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-method-security:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-mustache:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-secure:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-secure-custom:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-secure-github:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-secure-jdbc:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-static:war:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-thymeleaf3:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-ui:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-websocket-jetty:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-websocket-tomcat:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-websocket-undertow:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-webservices:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-xml:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-samples:pom:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Boot Samples
+[INFO] Spring Boot Ant Sample
+[INFO] Spring Boot ActiveMQ Sample
+[INFO] Spring Boot Actuator Sample
+[INFO] Spring Boot Actuator Log4j 2 Sample
+[INFO] Spring Boot Actuator Non-Web Sample
+[INFO] Spring Boot Actuator UI Sample
+[INFO] Spring Boot AMQP Sample
+[INFO] Spring Boot AOP Sample
+[INFO] Spring Boot Atmosphere Sample
+[INFO] Spring Boot Batch Sample
+[INFO] Spring Boot Cache Sample
+[INFO] Spring Boot Data Cassandra Sample
+[INFO] Spring Boot Data Couchbase Sample
+[INFO] Spring Boot Data Elasticsearch Sample
+[INFO] Spring Boot Data GemFire Sample
+[INFO] Spring Boot Data JPA Sample
+[INFO] Spring Boot Data MongoDB Sample
+[INFO] Spring Boot Data Neo4j Sample
+[INFO] Spring Boot Data Redis Sample
+[INFO] Spring Boot Data REST Sample
+[INFO] Spring Boot Data Solr Sample
+[INFO] Spring Boot Developer Tools Sample
+[INFO] Spring Boot Flyway Sample
+[INFO] Spring Boot Hateoas Sample
+[INFO] Spring Boot Hibernate 4 Sample
+[INFO] Spring Boot Hibernate 5.2 Sample
+[INFO] Spring Boot Hypermedia Sample
+[INFO] Spring Boot Hypermedia GSON Sample
+[INFO] Spring Boot Hypermedia JPA Sample
+[INFO] Spring Boot Hypermedia UI Sample
+[INFO] Spring Boot Integration Sample
+[INFO] Spring Boot Jersey Sample
+[INFO] Spring Boot Jersey 1 Sample
+[INFO] Spring Boot Jetty Sample
+[INFO] Spring Boot Jetty JSP Sample
+[INFO] Spring Boot Jetty SSL Sample
+[INFO] Spring Boot Jetty 8 Sample
+[INFO] Spring Boot Jetty 8 SSL Sample
+[INFO] Spring Boot Jetty 9.2 Sample
+[INFO] Spring Boot jOOQ Sample
+[INFO] Spring Boot JPA Sample
+[INFO] Spring Boot Atomikos JTA Sample
+[INFO] Spring Boot Bitronix JTA Sample
+[INFO] Spring Boot Narayana JTA Sample
+[INFO] Spring Boot JNDI JTA Sample
+[INFO] Spring Boot Liquibase Sample
+[INFO] Spring Boot Logback Sample
+[INFO] Spring Boot Metrics Dropwizard Sample
+[INFO] Spring Boot Metrics OpenTSDB Sample
+[INFO] Spring Boot Metrics Redis Sample
+[INFO] Spring Boot Parent Context Sample
+[INFO] Spring Boot Profile Sample
+[INFO] Spring Boot Property Validation Sample
+[INFO] Spring Boot Security Sample
+[INFO] Spring Boot Security OAuth2 Sample
+[INFO] spring-boot-sample-secure-oauth2-resource
+[INFO] Spring Boot Servlet Sample
+[INFO] Spring Boot Session Redis Sample
+[INFO] Spring Boot Simple Sample
+[INFO] Spring Boot Test Sample
+[INFO] Spring Boot Test Sample No Mockito
+[INFO] Spring Boot TestNG Sample
+[INFO] Spring Boot Tomcat Sample
+[INFO] Spring Boot Tomcat JSP Sample
+[INFO] Spring Boot Tomcat SSL Sample
+[INFO] Spring Boot Multi-Connector Tomcat Sample
+[INFO] Spring Boot Tomcat 7 JSP Sample
+[INFO] Spring Boot Tomcat 7 SSL Sample
+[INFO] Spring Boot Tomcat 8.0 SSL Sample
+[INFO] Spring Boot Traditional Sample
+[INFO] Spring Boot Undertow Sample
+[INFO] Spring Boot Undertow SSL Sample
+[INFO] Spring Boot War Sample
+[INFO] Spring Boot Web FreeMarker Sample
+[INFO] Spring Boot Web Groovy Templates Sample
+[INFO] Spring Boot Web JSP Sample
+[INFO] Spring Boot Web Method Security Sample
+[INFO] Spring Boot Web Mustache Sample
+[INFO] Spring Boot Web Secure Sample
+[INFO] Spring Boot Web Secure Custom Sample
+[INFO] Spring Boot Web Secure GitHub Sample
+[INFO] Spring Boot Web Secure JDBC Sample
+[INFO] Spring Boot Web Static Sample
+[INFO] Spring Boot Web Thymeleaf 3 Sample
+[INFO] Spring Boot Web UI Sample
+[INFO] Spring Boot WebSocket Jetty Sample
+[INFO] Spring Boot WebSocket Tomcat Sample
+[INFO] Spring Boot WebSocket Undertow Sample
+[INFO] Spring Boot Web Services Sample
+[INFO] Spring Boot XML Sample
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Samples 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-rules) @ spring-boot-samples ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Ant Sample 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-rules) @ spring-boot-sample-ant ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-boot-sample-ant ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-ant/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-ant/src/main/resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-boot-sample-ant ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-sample-ant ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-sample-ant ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot ActiveMQ Sample 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-rules) @ spring-boot-sample-activemq ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-boot-sample-activemq ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-sample-activemq ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-boot-sample-activemq ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-activemq/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-sample-activemq ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-sample-activemq ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-activemq/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running sample.activemq.SampleActiveMqTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.605 sec - in sample.activemq.SampleActiveMqTests
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Actuator Sample 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-rules) @ spring-boot-sample-actuator ---
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.0.0.BUILD-SNAPSHOT:build-info (generate build info) @ spring-boot-sample-actuator ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-boot-sample-actuator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-sample-actuator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-boot-sample-actuator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-sample-actuator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-sample-actuator ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-actuator/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running sample.actuator.SampleActuatorApplicationTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.308 sec - in sample.actuator.SampleActuatorApplicationTests
+Running sample.actuator.ServletPathInsecureSampleActuatorApplicationTests
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.364 sec <<< FAILURE! - in sample.actuator.ServletPathInsecureSampleActuatorApplicationTests
+testHome(sample.actuator.ServletPathInsecureSampleActuatorApplicationTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[200]> but was:<[404]>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sample.actuator.ServletPathInsecureSampleActuatorApplicationTests.testHome(ServletPathInsecureSampleActuatorApplicationTests.java:55)
+
+testMetricsIsSecure(sample.actuator.ServletPathInsecureSampleActuatorApplicationTests)  Time elapsed: 0.015 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<40[1]> but was:<40[4]>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sample.actuator.ServletPathInsecureSampleActuatorApplicationTests.testMetricsIsSecure(ServletPathInsecureSampleActuatorApplicationTests.java:67)
+
+Running sample.actuator.InsecureManagementPortAndPathSampleActuatorApplicationTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.361 sec - in sample.actuator.InsecureManagementPortAndPathSampleActuatorApplicationTests
+Running sample.actuator.ShutdownSampleActuatorApplicationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.063 sec - in sample.actuator.ShutdownSampleActuatorApplicationTests
+Running sample.actuator.InsecureSampleActuatorApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.105 sec - in sample.actuator.InsecureSampleActuatorApplicationTests
+Running sample.actuator.ServletPathSampleActuatorApplicationTests
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.911 sec <<< FAILURE! - in sample.actuator.ServletPathSampleActuatorApplicationTests
+testErrorPath(sample.actuator.ServletPathSampleActuatorApplicationTests)  Time elapsed: 0.025 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[500]> but was:<[401]>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sample.actuator.ServletPathSampleActuatorApplicationTests.testErrorPath(ServletPathSampleActuatorApplicationTests.java:54)
+
+testHealth(sample.actuator.ServletPathSampleActuatorApplicationTests)  Time elapsed: 0.009 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[200]> but was:<[401]>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sample.actuator.ServletPathSampleActuatorApplicationTests.testHealth(ServletPathSampleActuatorApplicationTests.java:65)
+
+Running sample.actuator.NonSensitiveHealthTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.956 sec - in sample.actuator.NonSensitiveHealthTests
+Running sample.actuator.ManagementPortAndPathSampleActuatorApplicationTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.127 sec - in sample.actuator.ManagementPortAndPathSampleActuatorApplicationTests
+Running sample.actuator.InsecureManagementSampleActuatorApplicationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.935 sec - in sample.actuator.InsecureManagementSampleActuatorApplicationTests
+Running sample.actuator.ManagementPathSampleActuatorApplicationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.973 sec - in sample.actuator.ManagementPathSampleActuatorApplicationTests
+Running sample.actuator.EndpointsPropertiesSampleActuatorApplicationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.883 sec - in sample.actuator.EndpointsPropertiesSampleActuatorApplicationTests
+Running sample.actuator.NoManagementSampleActuatorApplicationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.8 sec - in sample.actuator.NoManagementSampleActuatorApplicationTests
+Running sample.actuator.ManagementPortSampleActuatorApplicationTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.991 sec - in sample.actuator.ManagementPortSampleActuatorApplicationTests
+Running sample.actuator.ManagementAddressActuatorApplicationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.913 sec - in sample.actuator.ManagementAddressActuatorApplicationTests
+
+Results :
+
+Failed tests: 
+  ServletPathInsecureSampleActuatorApplicationTests.testHome:55 expected:<[200]> but was:<[404]>
+  ServletPathInsecureSampleActuatorApplicationTests.testMetricsIsSecure:67 expected:<40[1]> but was:<40[4]>
+  ServletPathSampleActuatorApplicationTests.testErrorPath:54 expected:<[500]> but was:<[401]>
+  ServletPathSampleActuatorApplicationTests.testHealth:65 expected:<[200]> but was:<[401]>
+
+Tests run: 47, Failures: 4, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Boot Samples ................................ SUCCESS [  0.358 s]
+[INFO] Spring Boot Ant Sample ............................. SUCCESS [  0.529 s]
+[INFO] Spring Boot ActiveMQ Sample ........................ SUCCESS [  3.361 s]
+[INFO] Spring Boot Actuator Sample ........................ FAILURE [ 18.908 s]
+[INFO] Spring Boot Actuator Log4j 2 Sample ................ SKIPPED
+[INFO] Spring Boot Actuator Non-Web Sample ................ SKIPPED
+[INFO] Spring Boot Actuator UI Sample ..................... SKIPPED
+[INFO] Spring Boot AMQP Sample ............................ SKIPPED
+[INFO] Spring Boot AOP Sample ............................. SKIPPED
+[INFO] Spring Boot Atmosphere Sample ...................... SKIPPED
+[INFO] Spring Boot Batch Sample ........................... SKIPPED
+[INFO] Spring Boot Cache Sample ........................... SKIPPED
+[INFO] Spring Boot Data Cassandra Sample .................. SKIPPED
+[INFO] Spring Boot Data Couchbase Sample .................. SKIPPED
+[INFO] Spring Boot Data Elasticsearch Sample .............. SKIPPED
+[INFO] Spring Boot Data GemFire Sample .................... SKIPPED
+[INFO] Spring Boot Data JPA Sample ........................ SKIPPED
+[INFO] Spring Boot Data MongoDB Sample .................... SKIPPED
+[INFO] Spring Boot Data Neo4j Sample ...................... SKIPPED
+[INFO] Spring Boot Data Redis Sample ...................... SKIPPED
+[INFO] Spring Boot Data REST Sample ....................... SKIPPED
+[INFO] Spring Boot Data Solr Sample ....................... SKIPPED
+[INFO] Spring Boot Developer Tools Sample ................. SKIPPED
+[INFO] Spring Boot Flyway Sample .......................... SKIPPED
+[INFO] Spring Boot Hateoas Sample ......................... SKIPPED
+[INFO] Spring Boot Hibernate 4 Sample ..................... SKIPPED
+[INFO] Spring Boot Hibernate 5.2 Sample ................... SKIPPED
+[INFO] Spring Boot Hypermedia Sample ...................... SKIPPED
+[INFO] Spring Boot Hypermedia GSON Sample ................. SKIPPED
+[INFO] Spring Boot Hypermedia JPA Sample .................. SKIPPED
+[INFO] Spring Boot Hypermedia UI Sample ................... SKIPPED
+[INFO] Spring Boot Integration Sample ..................... SKIPPED
+[INFO] Spring Boot Jersey Sample .......................... SKIPPED
+[INFO] Spring Boot Jersey 1 Sample ........................ SKIPPED
+[INFO] Spring Boot Jetty Sample ........................... SKIPPED
+[INFO] Spring Boot Jetty JSP Sample ....................... SKIPPED
+[INFO] Spring Boot Jetty SSL Sample ....................... SKIPPED
+[INFO] Spring Boot Jetty 8 Sample ......................... SKIPPED
+[INFO] Spring Boot Jetty 8 SSL Sample ..................... SKIPPED
+[INFO] Spring Boot Jetty 9.2 Sample ....................... SKIPPED
+[INFO] Spring Boot jOOQ Sample ............................ SKIPPED
+[INFO] Spring Boot JPA Sample ............................. SKIPPED
+[INFO] Spring Boot Atomikos JTA Sample .................... SKIPPED
+[INFO] Spring Boot Bitronix JTA Sample .................... SKIPPED
+[INFO] Spring Boot Narayana JTA Sample .................... SKIPPED
+[INFO] Spring Boot JNDI JTA Sample ........................ SKIPPED
+[INFO] Spring Boot Liquibase Sample ....................... SKIPPED
+[INFO] Spring Boot Logback Sample ......................... SKIPPED
+[INFO] Spring Boot Metrics Dropwizard Sample .............. SKIPPED
+[INFO] Spring Boot Metrics OpenTSDB Sample ................ SKIPPED
+[INFO] Spring Boot Metrics Redis Sample ................... SKIPPED
+[INFO] Spring Boot Parent Context Sample .................. SKIPPED
+[INFO] Spring Boot Profile Sample ......................... SKIPPED
+[INFO] Spring Boot Property Validation Sample ............. SKIPPED
+[INFO] Spring Boot Security Sample ........................ SKIPPED
+[INFO] Spring Boot Security OAuth2 Sample ................. SKIPPED
+[INFO] spring-boot-sample-secure-oauth2-resource .......... SKIPPED
+[INFO] Spring Boot Servlet Sample ......................... SKIPPED
+[INFO] Spring Boot Session Redis Sample ................... SKIPPED
+[INFO] Spring Boot Simple Sample .......................... SKIPPED
+[INFO] Spring Boot Test Sample ............................ SKIPPED
+[INFO] Spring Boot Test Sample No Mockito ................. SKIPPED
+[INFO] Spring Boot TestNG Sample .......................... SKIPPED
+[INFO] Spring Boot Tomcat Sample .......................... SKIPPED
+[INFO] Spring Boot Tomcat JSP Sample ...................... SKIPPED
+[INFO] Spring Boot Tomcat SSL Sample ...................... SKIPPED
+[INFO] Spring Boot Multi-Connector Tomcat Sample .......... SKIPPED
+[INFO] Spring Boot Tomcat 7 JSP Sample .................... SKIPPED
+[INFO] Spring Boot Tomcat 7 SSL Sample .................... SKIPPED
+[INFO] Spring Boot Tomcat 8.0 SSL Sample .................. SKIPPED
+[INFO] Spring Boot Traditional Sample ..................... SKIPPED
+[INFO] Spring Boot Undertow Sample ........................ SKIPPED
+[INFO] Spring Boot Undertow SSL Sample .................... SKIPPED
+[INFO] Spring Boot War Sample ............................. SKIPPED
+[INFO] Spring Boot Web FreeMarker Sample .................. SKIPPED
+[INFO] Spring Boot Web Groovy Templates Sample ............ SKIPPED
+[INFO] Spring Boot Web JSP Sample ......................... SKIPPED
+[INFO] Spring Boot Web Method Security Sample ............. SKIPPED
+[INFO] Spring Boot Web Mustache Sample .................... SKIPPED
+[INFO] Spring Boot Web Secure Sample ...................... SKIPPED
+[INFO] Spring Boot Web Secure Custom Sample ............... SKIPPED
+[INFO] Spring Boot Web Secure GitHub Sample ............... SKIPPED
+[INFO] Spring Boot Web Secure JDBC Sample ................. SKIPPED
+[INFO] Spring Boot Web Static Sample ...................... SKIPPED
+[INFO] Spring Boot Web Thymeleaf 3 Sample ................. SKIPPED
+[INFO] Spring Boot Web UI Sample .......................... SKIPPED
+[INFO] Spring Boot WebSocket Jetty Sample ................. SKIPPED
+[INFO] Spring Boot WebSocket Tomcat Sample ................ SKIPPED
+[INFO] Spring Boot WebSocket Undertow Sample .............. SKIPPED
+[INFO] Spring Boot Web Services Sample .................... SKIPPED
+[INFO] Spring Boot XML Sample ............................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 25.748 s
+[INFO] Finished at: 2017-03-03T10:24:05-03:00
+[INFO] Final Memory: 105M/482M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project spring-boot-sample-actuator: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-actuator/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :spring-boot-sample-actuator

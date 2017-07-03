@@ -1,0 +1,48 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Cassandra - Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-cassandra-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/example/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-cassandra-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/example/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-cassandra-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-cassandra-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-cassandra-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.cassandra.basic.BasicUserRepositoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.276 sec - in example.springdata.cassandra.basic.BasicUserRepositoryTests
+Running example.springdata.cassandra.projection.CustomerRepositoryIntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in example.springdata.cassandra.projection.CustomerRepositoryIntegrationTest
+Running example.springdata.cassandra.convert.ConversionIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 sec - in example.springdata.cassandra.convert.ConversionIntegrationTests
+Running example.springdata.cassandra.basic.CassandraOperationsIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.008 sec - in example.springdata.cassandra.basic.CassandraOperationsIntegrationTests
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 4
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.921 s
+[INFO] Finished at: 2017-03-03T10:44:20-03:00
+[INFO] Final Memory: 26M/265M
+[INFO] ------------------------------------------------------------------------

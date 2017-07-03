@@ -1,0 +1,171 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] OAuth for Spring Security - Sparklr (OAuth 1 Provider Example)
+[INFO] OAuth for Spring Security - Tonr (OAuth 1 Consumer Example)
+[INFO] OAuth for Spring Security - Sparklr2 (OAuth 2 Provider Example)
+[INFO] OAuth for Spring Security - Tonr2 (OAuth 2 Client Example)
+[INFO] OAuth for Spring Security - Samples
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OAuth for Spring Security - Sparklr (OAuth 1 Provider Example) 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sparklr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 9 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ sparklr ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sparklr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-security-oauth/samples/oauth/sparklr/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ sparklr ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ sparklr ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.6:check (enforce-java-6) @ sparklr ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OAuth for Spring Security - Tonr (OAuth 1 Consumer Example) 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tonr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ tonr ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tonr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-security-oauth/samples/oauth/tonr/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ tonr ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ tonr ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.6:check (enforce-java-6) @ tonr ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OAuth for Spring Security - Sparklr2 (OAuth 2 Provider Example) 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sparklr2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ sparklr2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sparklr2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-security-oauth/samples/oauth2/sparklr/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ sparklr2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ sparklr2 ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/samples/oauth2/sparklr/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.security.oauth2.provider.AuthorizationCodeProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.446 sec - in org.springframework.security.oauth2.provider.AuthorizationCodeProviderTests
+Running org.springframework.security.oauth2.provider.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in org.springframework.security.oauth2.provider.RefreshTokenSupportTests
+Running org.springframework.security.oauth2.provider.ClientCredentialsProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in org.springframework.security.oauth2.provider.ClientCredentialsProviderTests
+Running org.springframework.security.oauth2.provider.ResourceOwnerPasswordProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in org.springframework.security.oauth2.provider.ResourceOwnerPasswordProviderTests
+Running org.springframework.security.samples.config.ApplicationConfigurationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.092 sec - in org.springframework.security.samples.config.ApplicationConfigurationTests
+Running org.springframework.security.oauth2.provider.ImplicitProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.007 sec - in org.springframework.security.oauth2.provider.ImplicitProviderTests
+Running org.springframework.security.oauth2.provider.AdminEndpointsTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in org.springframework.security.oauth2.provider.AdminEndpointsTests
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 6
+
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.6:check (enforce-java-6) @ sparklr2 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OAuth for Spring Security - Tonr2 (OAuth 2 Client Example) 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tonr2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ tonr2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tonr2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-security-oauth/samples/oauth2/tonr/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ tonr2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ tonr2 ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/samples/oauth2/tonr/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.security.samples.config.AdHocTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 1.426 sec - in org.springframework.security.samples.config.AdHocTests
+Running org.springframework.security.oauth.examples.tonr.RefreshTokenGrantTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.004 sec - in org.springframework.security.oauth.examples.tonr.RefreshTokenGrantTests
+Running org.springframework.security.samples.config.SecurityConfigTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 sec - in org.springframework.security.samples.config.SecurityConfigTests
+Running org.springframework.security.oauth.examples.tonr.AuthorizationCodeGrantTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 sec - in org.springframework.security.oauth.examples.tonr.AuthorizationCodeGrantTests
+Running org.springframework.security.oauth.examples.tonr.ResourceOwnerPasswordGrantTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in org.springframework.security.oauth.examples.tonr.ResourceOwnerPasswordGrantTests
+Running org.springframework.security.oauth.examples.tonr.ClientCredentialsGrantTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 sec - in org.springframework.security.oauth.examples.tonr.ClientCredentialsGrantTests
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 8
+
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.6:check (enforce-java-6) @ tonr2 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OAuth for Spring Security - Samples 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.6:check (enforce-java-6) @ spring-security-oauth-samples ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] OAuth for Spring Security - Sparklr (OAuth 1 Provider Example) SUCCESS [  1.575 s]
+[INFO] OAuth for Spring Security - Tonr (OAuth 1 Consumer Example) SUCCESS [  0.868 s]
+[INFO] OAuth for Spring Security - Sparklr2 (OAuth 2 Provider Example) SUCCESS [  3.428 s]
+[INFO] OAuth for Spring Security - Tonr2 (OAuth 2 Client Example) SUCCESS [  2.369 s]
+[INFO] OAuth for Spring Security - Samples ................ SUCCESS [  0.149 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.713 s
+[INFO] Finished at: 2017-03-03T11:09:07-03:00
+[INFO] Final Memory: 40M/647M
+[INFO] ------------------------------------------------------------------------

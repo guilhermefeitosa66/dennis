@@ -1,0 +1,47 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 3 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 3 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Roo - JPA
+[INFO] Spring Roo - Annotations - JPA
+[INFO] Spring Roo - Addon - JPA
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - JPA 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.addon.jpa ---
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.addon.jpa ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Annotations - JPA 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.addon.configurable.annotations:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.addon.javabean.annotations:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Roo - JPA ................................... SUCCESS [  0.241 s]
+[INFO] Spring Roo - Annotations - JPA ..................... FAILURE [  0.025 s]
+[INFO] Spring Roo - Addon - JPA ........................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.284 s
+[INFO] Finished at: 2017-03-03T11:04:46-03:00
+[INFO] Final Memory: 17M/216M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project org.springframework.roo.addon.jpa.annotations: Could not resolve dependencies for project org.springframework.roo:org.springframework.roo.addon.jpa.annotations:bundle:2.0.0.BUILD-SNAPSHOT: The following artifacts could not be resolved: org.springframework.roo:org.springframework.roo.addon.configurable.annotations:jar:2.0.0.BUILD-SNAPSHOT, org.springframework.roo:org.springframework.roo.addon.javabean.annotations:jar:2.0.0.BUILD-SNAPSHOT: Could not find artifact org.springframework.roo:org.springframework.roo.addon.configurable.annotations:jar:2.0.0.BUILD-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :org.springframework.roo.addon.jpa.annotations

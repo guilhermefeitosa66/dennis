@@ -1,0 +1,17 @@
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM io.pivotal:springxd-smartgrid-demo:1.0-SNAPSHOT (/home/guilherme/spring-projects/maven/spring-xd-samples/smartgrid-prediction/pom.xml) points at org.springframework.xd.samples:sample-modules-parent instead of org.springframework.boot:spring-boot-starter-parent, please verify your project structure @ line 12, column 13
+[ERROR] Child module /home/guilherme/spring-projects/maven/spring-xd-samples/smartgrid-prediction/smartgrid-frontend of /home/guilherme/spring-projects/maven/spring-xd-samples/smartgrid-prediction/pom.xml does not exist @ 
+[ERROR] Child module /home/guilherme/spring-projects/maven/spring-xd-samples/smartgrid-prediction/smartgrid-backend of /home/guilherme/spring-projects/maven/spring-xd-samples/smartgrid-prediction/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project io.pivotal:springxd-smartgrid-demo:1.0-SNAPSHOT (/home/guilherme/spring-projects/maven/spring-xd-samples/smartgrid-prediction/pom.xml) has 2 errors
+[ERROR]     Child module /home/guilherme/spring-projects/maven/spring-xd-samples/smartgrid-prediction/smartgrid-frontend of /home/guilherme/spring-projects/maven/spring-xd-samples/smartgrid-prediction/pom.xml does not exist
+[ERROR]     Child module /home/guilherme/spring-projects/maven/spring-xd-samples/smartgrid-prediction/smartgrid-backend of /home/guilherme/spring-projects/maven/spring-xd-samples/smartgrid-prediction/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException

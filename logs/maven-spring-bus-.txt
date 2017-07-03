@@ -1,0 +1,292 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] spring-bus-parent
+[INFO] spring-bus-runner
+[INFO] spring-xd-module-runner
+[INFO] spring-xd-samples
+[INFO] spring-xd-module-runner-sample-source
+[INFO] spring-xd-module-runner-sample-sink
+[INFO] spring-xd-module-runner-sample-tap
+[INFO] spring-xd-module-runner-sample-source-xml
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-bus-parent 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-bus-runner 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-bus-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-bus-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-bus-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-bus/spring-bus-core/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-bus-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spring-bus-core ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-bus/spring-bus-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests
+10:40:24.601 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests].
+10:40:24.609 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:40:24.614 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:40:24.622 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+10:40:24.636 [main] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@1877ab81 declaringClass = 'org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests', classes = '{class org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests$Empty}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+10:40:24.642 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests]
+10:40:24.647 [main] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests]: using defaults.
+10:40:24.669 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+10:40:24.706 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@401e7803, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@10dba097, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1786f9d5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@704d6e83, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@43a0cee9]
+10:40:24.708 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests]
+10:40:24.708 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests]
+10:40:24.709 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests]
+10:40:24.709 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests]
+10:40:24.711 [main] DEBUG o.s.t.c.s.DirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@548ad73b testClass = MessageBusAdapterConfigurationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4c762604 testClass = MessageBusAdapterConfigurationTests, locations = '{}', classes = '{class org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests$Empty}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [true] with mode [AFTER_EACH_TEST_METHOD].
+10:40:24.712 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests]
+10:40:24.712 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests]
+10:40:24.714 [main] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@548ad73b testClass = MessageBusAdapterConfigurationTests, testInstance = org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests@5579bb86, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4c762604 testClass = MessageBusAdapterConfigurationTests, locations = '{}', classes = '{class org.springframework.bus.runner.config.MessageBusAdapterConfigurationTests$Empty}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+10:40:24.788 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+10:40:24.790 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+10:40:24.790 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+10:40:24.791 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+2017-03-03 10:40:24.979  INFO 10118 --- [           main] o.a.maven.surefire.booter.ForkedBooter   : Starting ForkedBooter v2.12.4 on dell with PID 10118 (/home/guilherme/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.jar started by guilherme in /home/guilherme/spring-projects/maven/spring-bus/spring-bus-core)
+2017-03-03 10:40:25.353  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@367ffa75: startup date [Fri Mar 03 10:40:25 BRT 2017]; root of context hierarchy
+2017-03-03 10:40:25.685  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'encrypt.CONFIGURATION_PROPERTIES' of type [class org.springframework.cloud.bootstrap.encrypt.KeyProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:25.685  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'encryptionBootstrapConfiguration' of type [class org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$c9253a7b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:25.766  INFO 10118 --- [           main] o.a.maven.surefire.booter.ForkedBooter   : Started ForkedBooter in 0.936 seconds (JVM running for 2.283)
+2017-03-03 10:40:25.892  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2575f671: startup date [Fri Mar 03 10:40:25 BRT 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@367ffa75
+2017-03-03 10:40:25.907  INFO 10118 --- [           main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from URL [jar:file:/home/guilherme/.m2/repository/org/springframework/xd/spring-xd-dirt/2.0.0.BUILD-SNAPSHOT/spring-xd-dirt-2.0.0.BUILD-SNAPSHOT.jar!/META-INF/spring-xd/bus/codec.xml]
+2017-03-03 10:40:26.040  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.bus.runner.config.MessageBusAdapterConfiguration$MessageBusAwareRouterConfiguration' of type [class org.springframework.bus.runner.config.MessageBusAdapterConfiguration$MessageBusAwareRouterConfiguration$$EnhancerBySpringCGLIB$$2ba4b4b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:26.201  INFO 10118 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 
+2017-03-03 10:40:26.310  INFO 10118 --- [           main] .r.c.MessageBusAdapterConfigurationTests : Started MessageBusAdapterConfigurationTests in 1.518 seconds (JVM running for 2.826)
+2017-03-03 10:40:26.321  INFO 10118 --- [           main] o.s.b.f.config.PropertiesFactoryBean     : Loading properties file from URL [jar:file:/home/guilherme/.m2/repository/org/springframework/integration/spring-integration-core/4.2.0.M1/spring-integration-core-4.2.0.M1.jar!/META-INF/spring.integration.default.properties]
+2017-03-03 10:40:26.325  INFO 10118 --- [           main] o.s.b.runner.adapter.MessageBusAdapter   : Locating channels
+2017-03-03 10:40:26.339  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Adding {bridge:outbound.topic:group.0} as a subscriber to the 'null' channel
+2017-03-03 10:40:26.339  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'unknown.channel.name' has 1 subscriber(s).
+2017-03-03 10:40:26.340  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : started org.springframework.integration.endpoint.EventDrivenConsumer@37d00a23
+2017-03-03 10:40:26.340  INFO 10118 --- [           main] o.s.b.runner.adapter.MessageBusAdapter   : creating and binding tap channel for tap:stream:group.module.0
+2017-03-03 10:40:26.342  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Adding {bridge:outbound.tap:stream:group.module.0} as a subscriber to the 'tap:stream:group.module.0.tap.bridge' channel
+2017-03-03 10:40:26.342  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'tap:stream:group.module.0.tap.bridge' has 1 subscriber(s).
+2017-03-03 10:40:26.342  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : started org.springframework.integration.endpoint.EventDrivenConsumer@988246e
+2017-03-03 10:40:26.344  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-03-03 10:40:26.345  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2575f671: startup date [Fri Mar 03 10:40:25 BRT 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@367ffa75
+2017-03-03 10:40:26.346  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-03-03 10:40:26.346  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Removing {bridge:outbound.topic:group.0} as a subscriber to the 'null' channel
+2017-03-03 10:40:26.346  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'unknown.channel.name' has 0 subscriber(s).
+2017-03-03 10:40:26.346  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : stopped org.springframework.integration.endpoint.EventDrivenConsumer@37d00a23
+2017-03-03 10:40:26.346  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Removing {bridge:outbound.tap:stream:group.module.0} as a subscriber to the 'tap:stream:group.module.0.tap.bridge' channel
+2017-03-03 10:40:26.346  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'tap:stream:group.module.0.tap.bridge' has 0 subscriber(s).
+2017-03-03 10:40:26.346  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : stopped org.springframework.integration.endpoint.EventDrivenConsumer@988246e
+2017-03-03 10:40:26.347  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-03-03 10:40:26.375  INFO 10118 --- [           main] o.a.maven.surefire.booter.ForkedBooter   : Starting ForkedBooter v2.12.4 on dell with PID 10118 (/home/guilherme/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.jar started by guilherme in /home/guilherme/spring-projects/maven/spring-bus/spring-bus-core)
+2017-03-03 10:40:26.377  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@75f2099: startup date [Fri Mar 03 10:40:26 BRT 2017]; root of context hierarchy
+2017-03-03 10:40:26.413  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'encrypt.CONFIGURATION_PROPERTIES' of type [class org.springframework.cloud.bootstrap.encrypt.KeyProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:26.414  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'encryptionBootstrapConfiguration' of type [class org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$c9253a7b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:26.427  INFO 10118 --- [           main] o.a.maven.surefire.booter.ForkedBooter   : Started ForkedBooter in 0.065 seconds (JVM running for 2.943)
+2017-03-03 10:40:26.506  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@408b87aa: startup date [Fri Mar 03 10:40:26 BRT 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@75f2099
+2017-03-03 10:40:26.516  INFO 10118 --- [           main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from URL [jar:file:/home/guilherme/.m2/repository/org/springframework/xd/spring-xd-dirt/2.0.0.BUILD-SNAPSHOT/spring-xd-dirt-2.0.0.BUILD-SNAPSHOT.jar!/META-INF/spring-xd/bus/codec.xml]
+2017-03-03 10:40:26.569  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.bus.runner.config.MessageBusAdapterConfiguration$MessageBusAwareRouterConfiguration' of type [class org.springframework.bus.runner.config.MessageBusAdapterConfiguration$MessageBusAwareRouterConfiguration$$EnhancerBySpringCGLIB$$2ba4b4b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:26.597  INFO 10118 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 
+2017-03-03 10:40:26.608  INFO 10118 --- [           main] .r.c.MessageBusAdapterConfigurationTests : Started MessageBusAdapterConfigurationTests in 0.255 seconds (JVM running for 3.124)
+2017-03-03 10:40:26.614  INFO 10118 --- [           main] o.s.b.runner.adapter.MessageBusAdapter   : Locating channels
+2017-03-03 10:40:26.616  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Adding {bridge:outbound.foo.bar} as a subscriber to the 'null' channel
+2017-03-03 10:40:26.616  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'unknown.channel.name' has 1 subscriber(s).
+2017-03-03 10:40:26.616  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : started org.springframework.integration.endpoint.EventDrivenConsumer@3506d826
+2017-03-03 10:40:26.616  INFO 10118 --- [           main] o.s.b.runner.adapter.MessageBusAdapter   : creating and binding tap channel for tap:stream:foo.bar.module.0
+2017-03-03 10:40:26.618  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Adding {bridge:outbound.tap:stream:foo.bar.module.0} as a subscriber to the 'tap:stream:foo.bar.module.0.tap.bridge' channel
+2017-03-03 10:40:26.619  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'tap:stream:foo.bar.module.0.tap.bridge' has 1 subscriber(s).
+2017-03-03 10:40:26.619  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : started org.springframework.integration.endpoint.EventDrivenConsumer@35dd9ed3
+2017-03-03 10:40:26.623  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-03-03 10:40:26.624  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@408b87aa: startup date [Fri Mar 03 10:40:26 BRT 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@75f2099
+2017-03-03 10:40:26.625  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-03-03 10:40:26.625  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Removing {bridge:outbound.foo.bar} as a subscriber to the 'null' channel
+2017-03-03 10:40:26.625  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'unknown.channel.name' has 0 subscriber(s).
+2017-03-03 10:40:26.625  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : stopped org.springframework.integration.endpoint.EventDrivenConsumer@3506d826
+2017-03-03 10:40:26.625  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Removing {bridge:outbound.tap:stream:foo.bar.module.0} as a subscriber to the 'tap:stream:foo.bar.module.0.tap.bridge' channel
+2017-03-03 10:40:26.625  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'tap:stream:foo.bar.module.0.tap.bridge' has 0 subscriber(s).
+2017-03-03 10:40:26.625  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : stopped org.springframework.integration.endpoint.EventDrivenConsumer@35dd9ed3
+2017-03-03 10:40:26.626  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-03-03 10:40:26.667  INFO 10118 --- [           main] o.a.maven.surefire.booter.ForkedBooter   : Starting ForkedBooter v2.12.4 on dell with PID 10118 (/home/guilherme/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.jar started by guilherme in /home/guilherme/spring-projects/maven/spring-bus/spring-bus-core)
+2017-03-03 10:40:26.670  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@23b3aa8c: startup date [Fri Mar 03 10:40:26 BRT 2017]; root of context hierarchy
+2017-03-03 10:40:26.713  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'encrypt.CONFIGURATION_PROPERTIES' of type [class org.springframework.cloud.bootstrap.encrypt.KeyProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:26.714  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'encryptionBootstrapConfiguration' of type [class org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$c9253a7b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:26.735  INFO 10118 --- [           main] o.a.maven.surefire.booter.ForkedBooter   : Started ForkedBooter in 0.083 seconds (JVM running for 3.251)
+2017-03-03 10:40:26.772  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5cbe2654: startup date [Fri Mar 03 10:40:26 BRT 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@23b3aa8c
+2017-03-03 10:40:26.776  INFO 10118 --- [           main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from URL [jar:file:/home/guilherme/.m2/repository/org/springframework/xd/spring-xd-dirt/2.0.0.BUILD-SNAPSHOT/spring-xd-dirt-2.0.0.BUILD-SNAPSHOT.jar!/META-INF/spring-xd/bus/codec.xml]
+2017-03-03 10:40:26.799  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.bus.runner.config.MessageBusAdapterConfiguration$MessageBusAwareRouterConfiguration' of type [class org.springframework.bus.runner.config.MessageBusAdapterConfiguration$MessageBusAwareRouterConfiguration$$EnhancerBySpringCGLIB$$2ba4b4b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:26.814  INFO 10118 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 
+2017-03-03 10:40:26.822  INFO 10118 --- [           main] .r.c.MessageBusAdapterConfigurationTests : Started MessageBusAdapterConfigurationTests in 0.187 seconds (JVM running for 3.338)
+2017-03-03 10:40:26.823  INFO 10118 --- [           main] o.s.b.runner.adapter.MessageBusAdapter   : Locating channels
+2017-03-03 10:40:26.824  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Adding {bridge:outbound.topic:foo.bar} as a subscriber to the 'null' channel
+2017-03-03 10:40:26.824  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'unknown.channel.name' has 1 subscriber(s).
+2017-03-03 10:40:26.824  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : started org.springframework.integration.endpoint.EventDrivenConsumer@711d1a52
+2017-03-03 10:40:26.824  INFO 10118 --- [           main] o.s.b.runner.adapter.MessageBusAdapter   : creating and binding tap channel for tap:stream:foo.bar.module.0
+2017-03-03 10:40:26.825  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Adding {bridge:outbound.tap:stream:foo.bar.module.0} as a subscriber to the 'tap:stream:foo.bar.module.0.tap.bridge' channel
+2017-03-03 10:40:26.825  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'tap:stream:foo.bar.module.0.tap.bridge' has 1 subscriber(s).
+2017-03-03 10:40:26.825  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : started org.springframework.integration.endpoint.EventDrivenConsumer@612e21b9
+2017-03-03 10:40:26.825  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-03-03 10:40:26.826  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5cbe2654: startup date [Fri Mar 03 10:40:26 BRT 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@23b3aa8c
+2017-03-03 10:40:26.827  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-03-03 10:40:26.827  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Removing {bridge:outbound.topic:foo.bar} as a subscriber to the 'null' channel
+2017-03-03 10:40:26.827  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'unknown.channel.name' has 0 subscriber(s).
+2017-03-03 10:40:26.827  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : stopped org.springframework.integration.endpoint.EventDrivenConsumer@711d1a52
+2017-03-03 10:40:26.827  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Removing {bridge:outbound.tap:stream:foo.bar.module.0} as a subscriber to the 'tap:stream:foo.bar.module.0.tap.bridge' channel
+2017-03-03 10:40:26.827  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'tap:stream:foo.bar.module.0.tap.bridge' has 0 subscriber(s).
+2017-03-03 10:40:26.827  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : stopped org.springframework.integration.endpoint.EventDrivenConsumer@612e21b9
+2017-03-03 10:40:26.827  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-03-03 10:40:26.845  INFO 10118 --- [           main] o.a.maven.surefire.booter.ForkedBooter   : Starting ForkedBooter v2.12.4 on dell with PID 10118 (/home/guilherme/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.jar started by guilherme in /home/guilherme/spring-projects/maven/spring-bus/spring-bus-core)
+2017-03-03 10:40:26.848  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@625d9132: startup date [Fri Mar 03 10:40:26 BRT 2017]; root of context hierarchy
+2017-03-03 10:40:26.875  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'encrypt.CONFIGURATION_PROPERTIES' of type [class org.springframework.cloud.bootstrap.encrypt.KeyProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:26.876  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'encryptionBootstrapConfiguration' of type [class org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$c9253a7b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:26.885  INFO 10118 --- [           main] o.a.maven.surefire.booter.ForkedBooter   : Started ForkedBooter in 0.049 seconds (JVM running for 3.401)
+2017-03-03 10:40:26.912  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@462e1e64: startup date [Fri Mar 03 10:40:26 BRT 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@625d9132
+2017-03-03 10:40:26.915  INFO 10118 --- [           main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from URL [jar:file:/home/guilherme/.m2/repository/org/springframework/xd/spring-xd-dirt/2.0.0.BUILD-SNAPSHOT/spring-xd-dirt-2.0.0.BUILD-SNAPSHOT.jar!/META-INF/spring-xd/bus/codec.xml]
+2017-03-03 10:40:26.936  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.bus.runner.config.MessageBusAdapterConfiguration$MessageBusAwareRouterConfiguration' of type [class org.springframework.bus.runner.config.MessageBusAdapterConfiguration$MessageBusAwareRouterConfiguration$$EnhancerBySpringCGLIB$$2ba4b4b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:26.953  INFO 10118 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 
+2017-03-03 10:40:26.962  INFO 10118 --- [           main] .r.c.MessageBusAdapterConfigurationTests : Started MessageBusAdapterConfigurationTests in 0.13 seconds (JVM running for 3.478)
+2017-03-03 10:40:26.963  INFO 10118 --- [           main] o.s.b.runner.adapter.MessageBusAdapter   : Locating channels
+2017-03-03 10:40:26.964  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Adding {bridge:outbound.group.0} as a subscriber to the 'null' channel
+2017-03-03 10:40:26.964  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'unknown.channel.name' has 1 subscriber(s).
+2017-03-03 10:40:26.964  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : started org.springframework.integration.endpoint.EventDrivenConsumer@6848a051
+2017-03-03 10:40:26.964  INFO 10118 --- [           main] o.s.b.runner.adapter.MessageBusAdapter   : creating and binding tap channel for tap:stream:group.module.0
+2017-03-03 10:40:26.965  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Adding {bridge:outbound.tap:stream:group.module.0} as a subscriber to the 'tap:stream:group.module.0.tap.bridge' channel
+2017-03-03 10:40:26.965  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'tap:stream:group.module.0.tap.bridge' has 1 subscriber(s).
+2017-03-03 10:40:26.965  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : started org.springframework.integration.endpoint.EventDrivenConsumer@149b0577
+2017-03-03 10:40:26.965  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Adding {bridge:outbound.foo.group.0} as a subscriber to the 'null' channel
+2017-03-03 10:40:26.966  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'unknown.channel.name' has 1 subscriber(s).
+2017-03-03 10:40:26.966  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : started org.springframework.integration.endpoint.EventDrivenConsumer@4a901445
+2017-03-03 10:40:26.966  INFO 10118 --- [           main] o.s.b.runner.adapter.MessageBusAdapter   : creating and binding tap channel for tap:stream:foo.group.0.module.0
+2017-03-03 10:40:26.966  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Adding {bridge:outbound.tap:stream:foo.group.0.module.0} as a subscriber to the 'tap:stream:foo.group.0.module.0.tap.bridge' channel
+2017-03-03 10:40:26.967  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'tap:stream:foo.group.0.module.0.tap.bridge' has 1 subscriber(s).
+2017-03-03 10:40:26.967  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : started org.springframework.integration.endpoint.EventDrivenConsumer@67f77f6e
+2017-03-03 10:40:26.967  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-03-03 10:40:26.967  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@462e1e64: startup date [Fri Mar 03 10:40:26 BRT 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@625d9132
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Removing {bridge:outbound.group.0} as a subscriber to the 'null' channel
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'unknown.channel.name' has 0 subscriber(s).
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : stopped org.springframework.integration.endpoint.EventDrivenConsumer@6848a051
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Removing {bridge:outbound.tap:stream:group.module.0} as a subscriber to the 'tap:stream:group.module.0.tap.bridge' channel
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'tap:stream:group.module.0.tap.bridge' has 0 subscriber(s).
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : stopped org.springframework.integration.endpoint.EventDrivenConsumer@149b0577
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Removing {bridge:outbound.foo.group.0} as a subscriber to the 'null' channel
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'unknown.channel.name' has 0 subscriber(s).
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : stopped org.springframework.integration.endpoint.EventDrivenConsumer@4a901445
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Removing {bridge:outbound.tap:stream:foo.group.0.module.0} as a subscriber to the 'tap:stream:foo.group.0.module.0.tap.bridge' channel
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'tap:stream:foo.group.0.module.0.tap.bridge' has 0 subscriber(s).
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : stopped org.springframework.integration.endpoint.EventDrivenConsumer@67f77f6e
+2017-03-03 10:40:26.968  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-03-03 10:40:26.991  INFO 10118 --- [           main] o.a.maven.surefire.booter.ForkedBooter   : Starting ForkedBooter v2.12.4 on dell with PID 10118 (/home/guilherme/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.jar started by guilherme in /home/guilherme/spring-projects/maven/spring-bus/spring-bus-core)
+2017-03-03 10:40:26.992  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56f730b2: startup date [Fri Mar 03 10:40:26 BRT 2017]; root of context hierarchy
+2017-03-03 10:40:27.007  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'encrypt.CONFIGURATION_PROPERTIES' of type [class org.springframework.cloud.bootstrap.encrypt.KeyProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:27.008  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'encryptionBootstrapConfiguration' of type [class org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$c9253a7b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:27.017  INFO 10118 --- [           main] o.a.maven.surefire.booter.ForkedBooter   : Started ForkedBooter in 0.039 seconds (JVM running for 3.533)
+2017-03-03 10:40:27.053  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3b98b809: startup date [Fri Mar 03 10:40:27 BRT 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@56f730b2
+2017-03-03 10:40:27.055  INFO 10118 --- [           main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from URL [jar:file:/home/guilherme/.m2/repository/org/springframework/xd/spring-xd-dirt/2.0.0.BUILD-SNAPSHOT/spring-xd-dirt-2.0.0.BUILD-SNAPSHOT.jar!/META-INF/spring-xd/bus/codec.xml]
+2017-03-03 10:40:27.074  INFO 10118 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.bus.runner.config.MessageBusAdapterConfiguration$MessageBusAwareRouterConfiguration' of type [class org.springframework.bus.runner.config.MessageBusAdapterConfiguration$MessageBusAwareRouterConfiguration$$EnhancerBySpringCGLIB$$2ba4b4b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-03 10:40:27.086  INFO 10118 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 
+2017-03-03 10:40:27.092  INFO 10118 --- [           main] .r.c.MessageBusAdapterConfigurationTests : Started MessageBusAdapterConfigurationTests in 0.12 seconds (JVM running for 3.609)
+2017-03-03 10:40:27.094  INFO 10118 --- [           main] o.s.b.runner.adapter.MessageBusAdapter   : Locating channels
+2017-03-03 10:40:27.094  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Adding {bridge:outbound.group.0} as a subscriber to the 'null' channel
+2017-03-03 10:40:27.094  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'unknown.channel.name' has 1 subscriber(s).
+2017-03-03 10:40:27.094  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : started org.springframework.integration.endpoint.EventDrivenConsumer@5ccb85d6
+2017-03-03 10:40:27.095  INFO 10118 --- [           main] o.s.b.runner.adapter.MessageBusAdapter   : creating and binding tap channel for tap:stream:group.module.0
+2017-03-03 10:40:27.095  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Adding {bridge:outbound.tap:stream:group.module.0} as a subscriber to the 'tap:stream:group.module.0.tap.bridge' channel
+2017-03-03 10:40:27.095  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'tap:stream:group.module.0.tap.bridge' has 1 subscriber(s).
+2017-03-03 10:40:27.095  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : started org.springframework.integration.endpoint.EventDrivenConsumer@d88f893
+2017-03-03 10:40:27.095  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-03-03 10:40:27.096  INFO 10118 --- [           main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3b98b809: startup date [Fri Mar 03 10:40:27 BRT 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@56f730b2
+2017-03-03 10:40:27.096  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-03-03 10:40:27.096  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Removing {bridge:outbound.group.0} as a subscriber to the 'null' channel
+2017-03-03 10:40:27.096  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'unknown.channel.name' has 0 subscriber(s).
+2017-03-03 10:40:27.096  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : stopped org.springframework.integration.endpoint.EventDrivenConsumer@5ccb85d6
+2017-03-03 10:40:27.096  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : Removing {bridge:outbound.tap:stream:group.module.0} as a subscriber to the 'tap:stream:group.module.0.tap.bridge' channel
+2017-03-03 10:40:27.096  INFO 10118 --- [           main] o.s.integration.channel.DirectChannel    : Channel 'tap:stream:group.module.0.tap.bridge' has 0 subscriber(s).
+2017-03-03 10:40:27.096  INFO 10118 --- [           main] o.s.i.endpoint.EventDrivenConsumer       : stopped org.springframework.integration.endpoint.EventDrivenConsumer@d88f893
+2017-03-03 10:40:27.097  INFO 10118 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.761 sec
+Running org.springframework.bus.runner.adapter.DiscoveryClientChannelLocatorTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.237 sec
+Running org.springframework.bus.runner.adapter.DefaultChannelLocatorTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+2017-03-03 10:40:27.402  INFO 10118 --- [       Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@23b3aa8c: startup date [Fri Mar 03 10:40:26 BRT 2017]; root of context hierarchy
+2017-03-03 10:40:27.403  INFO 10118 --- [       Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@75f2099: startup date [Fri Mar 03 10:40:26 BRT 2017]; root of context hierarchy
+2017-03-03 10:40:27.405  INFO 10118 --- [       Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@367ffa75: startup date [Fri Mar 03 10:40:25 BRT 2017]; root of context hierarchy
+2017-03-03 10:40:27.405  INFO 10118 --- [       Thread-4] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@625d9132: startup date [Fri Mar 03 10:40:26 BRT 2017]; root of context hierarchy
+2017-03-03 10:40:27.406  INFO 10118 --- [       Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56f730b2: startup date [Fri Mar 03 10:40:26 BRT 2017]; root of context hierarchy
+
+Results :
+
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-xd-module-runner 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-xd-runner ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-xd-runner ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-xd-runner ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-bus/spring-xd-runner/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-xd-runner ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spring-xd-runner ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-xd-samples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-xd-module-runner-sample-source 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for io.pivotal.receptor:receptor-client:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] spring-bus-parent .................................. SUCCESS [  0.152 s]
+[INFO] spring-bus-runner .................................. SUCCESS [  5.273 s]
+[INFO] spring-xd-module-runner ............................ SUCCESS [  0.063 s]
+[INFO] spring-xd-samples .................................. SUCCESS [  0.003 s]
+[INFO] spring-xd-module-runner-sample-source .............. FAILURE [  0.113 s]
+[INFO] spring-xd-module-runner-sample-sink ................ SKIPPED
+[INFO] spring-xd-module-runner-sample-tap ................. SKIPPED
+[INFO] spring-xd-module-runner-sample-source-xml .......... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.308 s
+[INFO] Finished at: 2017-03-03T10:40:27-03:00
+[INFO] Final Memory: 28M/349M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project spring-xd-module-runner-sample-source: Could not resolve dependencies for project org.springframework.bus:spring-xd-module-runner-sample-source:jar:1.0.0.BUILD-SNAPSHOT: Failure to find io.pivotal.receptor:receptor-client:jar:0.0.1-SNAPSHOT in http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :spring-xd-module-runner-sample-source

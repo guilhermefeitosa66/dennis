@@ -1,0 +1,408 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] sample-modules-parent
+[INFO] Spring XD Sample - Hadoop Batch Hashtag Count
+[INFO] Spring XD Sample - Hadoop Batch Hive Tweet Analysis
+[INFO] Spring XD Sample - Payments Import with Notifications
+[INFO] Spring XD Sample - Pig Top 10 Hashtag Count
+[INFO] Spring XD Sample - Batch Simple Example
+[INFO] Spring XD Sample - Hadoop Batch Wordcount
+[INFO] groovy-script-sink
+[INFO] Spring XD Sample - Payload type conversion example with a custom module
+[INFO] payload-value-counter
+[INFO] redis-store-sink
+[INFO] rss-feed-source
+[INFO] rxjava-moving-average
+[INFO] si-dsl-module
+[INFO] redis-common
+[INFO] redis-source
+[INFO] user-history-processor
+[INFO] product-category-enricher
+[INFO] product-categories-counter
+[INFO] product-analytics-example
+[INFO] Spring XD Sample - Tweet Transformer
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building sample-modules-parent 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring XD Sample - Hadoop Batch Hashtag Count 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ batch-hashtag-count ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ batch-hashtag-count ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ batch-hashtag-count ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-xd-samples/batch-hashtag-count/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ batch-hashtag-count ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ batch-hashtag-count ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring XD Sample - Hadoop Batch Hive Tweet Analysis 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ batch-hive ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ batch-hive ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ batch-hive ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-xd-samples/batch-hive/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ batch-hive ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ batch-hive ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring XD Sample - Payments Import with Notifications 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ batch-notifications ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ batch-notifications ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ batch-notifications ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-xd-samples/batch-notifications/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ batch-notifications ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ batch-notifications ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring XD Sample - Pig Top 10 Hashtag Count 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ batch-pig ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ batch-pig ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ batch-pig ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-xd-samples/batch-pig/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ batch-pig ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ batch-pig ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring XD Sample - Batch Simple Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ springxd-batch-simple ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ springxd-batch-simple ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ springxd-batch-simple ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-xd-samples/batch-simple/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ springxd-batch-simple ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ springxd-batch-simple ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring XD Sample - Hadoop Batch Wordcount 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ batch-wordcount ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ batch-wordcount ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ batch-wordcount ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-xd-samples/batch-wordcount/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ batch-wordcount ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ batch-wordcount ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building groovy-script-sink 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ groovy-script-sink ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ groovy-script-sink ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ groovy-script-sink ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-xd-samples/groovy-script-sink/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ groovy-script-sink ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ groovy-script-sink ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring XD Sample - Payload type conversion example with a custom module 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ payload-conversion ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ payload-conversion ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ payload-conversion ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-xd-samples/payload-conversion/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ payload-conversion ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ payload-conversion ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-xd-samples/payload-conversion/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.xd.samples.conversion.MyTupleProcessorTest
+
+ _____                           __   _______
+/  ___|          (-)             \ \ / /  _  \
+\ `--. _ __  _ __ _ _ __   __ _   \ V /| | | |
+ `--. \ '_ \| '__| | '_ \ / _` |  / ^ \| | | |
+/\__/ / |_) | |  | | | | | (_| | / / \ \ |/ /
+\____/| .__/|_|  |_|_| |_|\__, | \/   \/___/
+      | |                  __/ |
+      |_|                 |___/
+1.3.1.RELEASE                    eXtreme Data
+
+
+Started : SingleNodeApplication
+Documentation: http://docs.spring.io/spring-xd/docs/current/reference/html/
+
+2017-03-03 11:20:30,110 INFO  [main] util.Version (Version.java:<clinit>(17)) - HV000001: Hibernate Validator 5.2.1.Final
+2017-03-03 11:20:30,857 INFO  [HSQLDB Server @703fa45] HSQLDB5A948B22FE.ENGINE (?:logInfoEvent(?)) - Checkpoint start
+2017-03-03 11:20:30,857 INFO  [HSQLDB Server @703fa45] HSQLDB5A948B22FE.ENGINE (?:logInfoEvent(?)) - checkpointClose start
+2017-03-03 11:20:30,894 INFO  [HSQLDB Server @703fa45] HSQLDB5A948B22FE.ENGINE (?:logInfoEvent(?)) - checkpointClose synched
+2017-03-03 11:20:30,919 INFO  [HSQLDB Server @703fa45] HSQLDB5A948B22FE.ENGINE (?:logInfoEvent(?)) - checkpointClose script done
+2017-03-03 11:20:30,969 INFO  [HSQLDB Server @703fa45] HSQLDB5A948B22FE.ENGINE (?:logInfoEvent(?)) - checkpointClose end
+2017-03-03 11:20:30,970 INFO  [HSQLDB Server @703fa45] HSQLDB5A948B22FE.ENGINE (?:logInfoEvent(?)) - Checkpoint end - txts: 1
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.273 sec - in org.springframework.xd.samples.conversion.MyTupleProcessorTest
+
+Results :
+
+
+
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building payload-value-counter 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ payload-value-counter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ payload-value-counter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ payload-value-counter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-xd-samples/payload-value-counter/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ payload-value-counter ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ payload-value-counter ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building redis-store-sink 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ redis-store-sink ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ redis-store-sink ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ redis-store-sink ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ redis-store-sink ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ redis-store-sink ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-xd-samples/redis-store-sink/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.xd.samples.ModuleOptionsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec - in org.springframework.xd.samples.ModuleOptionsTest
+Running org.springframework.xd.samples.RedisStoreSinkTest
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.982 sec <<< FAILURE! - in org.springframework.xd.samples.RedisStoreSinkTest
+test(org.springframework.xd.samples.RedisStoreSinkTest)  Time elapsed: 0.076 sec  <<< ERROR!
+org.springframework.messaging.MessageHandlingException: error occurred in message handler [org.springframework.integration.redis.outbound.RedisStoreWritingMessageHandler#0]; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:82)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1641)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:155)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:251)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:58)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:128)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:91)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:78)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.RedisTemplate.type(RedisTemplate.java:789)
+	at org.springframework.data.redis.support.collections.RedisCollectionFactoryBean.afterPropertiesSet(RedisCollectionFactoryBean.java:89)
+	at org.springframework.integration.redis.outbound.RedisStoreWritingMessageHandler.createStoreView(RedisStoreWritingMessageHandler.java:466)
+	at org.springframework.integration.redis.outbound.RedisStoreWritingMessageHandler.handleMessageInternal(RedisStoreWritingMessageHandler.java:257)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:127)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:147)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:120)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:77)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:442)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:392)
+	at org.springframework.xd.samples.RedisStoreSinkTest.test(RedisStoreSinkTest.java:53)
+
+test(org.springframework.xd.samples.RedisStoreSinkTest)  Time elapsed: 0.076 sec  <<< ERROR!
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:82)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1641)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:155)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:251)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:58)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:128)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:91)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:78)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.RedisTemplate.delete(RedisTemplate.java:600)
+	at org.springframework.xd.samples.RedisStoreSinkTest.cleanUp(RedisStoreSinkTest.java:59)
+
+
+Results :
+
+
+Tests in error: 
+org.springframework.xd.samples.RedisStoreSinkTest.test(org.springframework.xd.samples.RedisStoreSinkTest)
+  Run 1: RedisStoreSinkTest.test:53 » MessageHandling error occurred in message handler...
+  Run 2: RedisStoreSinkTest.cleanUp:59 » RedisConnectionFailure Cannot get Jedis connec...
+
+
+
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] sample-modules-parent .............................. SUCCESS [  0.002 s]
+[INFO] Spring XD Sample - Hadoop Batch Hashtag Count ...... SUCCESS [  1.306 s]
+[INFO] Spring XD Sample - Hadoop Batch Hive Tweet Analysis  SUCCESS [  0.097 s]
+[INFO] Spring XD Sample - Payments Import with Notifications SUCCESS [  0.067 s]
+[INFO] Spring XD Sample - Pig Top 10 Hashtag Count ........ SUCCESS [  0.086 s]
+[INFO] Spring XD Sample - Batch Simple Example ............ SUCCESS [  0.061 s]
+[INFO] Spring XD Sample - Hadoop Batch Wordcount .......... SUCCESS [  0.063 s]
+[INFO] groovy-script-sink ................................. SUCCESS [  0.061 s]
+[INFO] Spring XD Sample - Payload type conversion example with a custom module SUCCESS [ 12.929 s]
+[INFO] payload-value-counter .............................. SUCCESS [  0.106 s]
+[INFO] redis-store-sink ................................... FAILURE [  1.732 s]
+[INFO] rss-feed-source .................................... SKIPPED
+[INFO] rxjava-moving-average .............................. SKIPPED
+[INFO] si-dsl-module ...................................... SKIPPED
+[INFO] redis-common ....................................... SKIPPED
+[INFO] redis-source ....................................... SKIPPED
+[INFO] user-history-processor ............................. SKIPPED
+[INFO] product-category-enricher .......................... SKIPPED
+[INFO] product-categories-counter ......................... SKIPPED
+[INFO] product-analytics-example .......................... SKIPPED
+[INFO] Spring XD Sample - Tweet Transformer ............... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.143 s
+[INFO] Finished at: 2017-03-03T11:20:42-03:00
+[INFO] Final Memory: 46M/345M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.18:test (default-test) on project redis-store-sink: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-xd-samples/redis-store-sink/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :redis-store-sink

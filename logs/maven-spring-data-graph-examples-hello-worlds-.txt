@@ -1,0 +1,73 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Neo4j hello-worlds 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.0:compile (default) @ spring-data-neo4j-hello-worlds ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-neo4j-hello-worlds ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.1:compile (default-compile) @ spring-data-neo4j-hello-worlds ---
+[INFO] Compiling 7 source files to /home/guilherme/spring-projects/maven/spring-data-graph-examples/hello-worlds/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/hello-worlds/src/main/java/org/springframework/data/neo4j/examples/hellograph/World.java:[26,65] error: incompatible types: Class<World> cannot be converted to Class<? extends NodeBacked>
+
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/hello-worlds/src/main/java/org/springframework/data/neo4j/examples/hellograph/WorldRepositoryImpl.java:[54,37] error: cannot find symbol
+
+[ERROR]  class World
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/hello-worlds/src/main/java/org/springframework/data/neo4j/examples/hellograph/WorldRepositoryImpl.java:[70,30] error: method findAllByTraversal in interface TraversalRepository<T> cannot be applied to given types;
+
+[ERROR] 
+    N extends NodeBacked declared in method <N>findAllByTraversal(N,TraversalDescription)
+    T extends GraphBacked<?> declared in interface TraversalRepository
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/hello-worlds/src/main/java/org/springframework/data/neo4j/examples/hellograph/WorldRepository.java:[10,76] error: type argument World is not within bounds of type-variable T
+
+[ERROR] 
+    T extends GraphBacked<?> declared in interface GraphRepository
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/hello-worlds/src/main/java/org/springframework/data/neo4j/examples/hellograph/WorldRepository.java:[10,105] error: type argument World is not within bounds of type-variable T
+
+[ERROR] 
+    T extends GraphBacked<?> declared in interface NamedIndexRepository
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/hello-worlds/src/main/java/org/springframework/data/neo4j/examples/hellograph/World.java:[57,8] error: cannot find symbol
+
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.252 s
+[INFO] Finished at: 2017-03-03T10:53:24-03:00
+[INFO] Final Memory: 15M/204M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.1:compile (default-compile) on project spring-data-neo4j-hello-worlds: Compilation failure: Compilation failure:
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/hello-worlds/src/main/java/org/springframework/data/neo4j/examples/hellograph/World.java:[26,65] error: incompatible types: Class<World> cannot be converted to Class<? extends NodeBacked>
+[ERROR] 
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/hello-worlds/src/main/java/org/springframework/data/neo4j/examples/hellograph/WorldRepositoryImpl.java:[54,37] error: cannot find symbol
+[ERROR] 
+[ERROR] class World
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/hello-worlds/src/main/java/org/springframework/data/neo4j/examples/hellograph/WorldRepositoryImpl.java:[70,30] error: method findAllByTraversal in interface TraversalRepository<T> cannot be applied to given types;
+[ERROR] 
+[ERROR] 
+[ERROR] N extends NodeBacked declared in method <N>findAllByTraversal(N,TraversalDescription)
+[ERROR] T extends GraphBacked<?> declared in interface TraversalRepository
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/hello-worlds/src/main/java/org/springframework/data/neo4j/examples/hellograph/WorldRepository.java:[10,76] error: type argument World is not within bounds of type-variable T
+[ERROR] 
+[ERROR] 
+[ERROR] T extends GraphBacked<?> declared in interface GraphRepository
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/hello-worlds/src/main/java/org/springframework/data/neo4j/examples/hellograph/WorldRepository.java:[10,105] error: type argument World is not within bounds of type-variable T
+[ERROR] 
+[ERROR] 
+[ERROR] T extends GraphBacked<?> declared in interface NamedIndexRepository
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/hello-worlds/src/main/java/org/springframework/data/neo4j/examples/hellograph/World.java:[57,8] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

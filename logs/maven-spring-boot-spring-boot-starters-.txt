@@ -1,0 +1,1686 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Boot Starters
+[INFO] Spring Boot Logging Starter
+[INFO] Spring Boot Starter
+[INFO] Spring Boot ActiveMQ Starter
+[INFO] Spring Boot AMQP Starter
+[INFO] Spring Boot AOP Starter
+[INFO] Spring Boot Artemis Starter
+[INFO] Spring Boot JDBC Starter
+[INFO] Spring Boot Batch Starter
+[INFO] Spring Boot Cache Starter
+[INFO] Spring Boot Spring Cloud Connectors Starter
+[INFO] Spring Boot Data Cassandra Starter
+[INFO] Spring Boot Data Couchbase Starter
+[INFO] Spring Boot Data Elasticsearch Starter
+[INFO] Spring Boot Data GemFire Starter
+[INFO] Spring Boot Data JPA Starter
+[INFO] Spring Boot Data MongoDB Starter
+[INFO] Spring Boot Data Neo4j Starter
+[INFO] Spring Boot Data Redis Starter
+[INFO] Spring Boot Tomcat Starter
+[INFO] Spring Boot Web Starter
+[INFO] Spring Boot Data REST Starter
+[INFO] Spring Boot Data Solr Starter
+[INFO] Spring Boot FreeMarker Starter
+[INFO] Spring Boot Groovy Templates Starter
+[INFO] Spring Boot HATEOAS Starter
+[INFO] Spring Boot Integration Starter
+[INFO] Spring Boot Validation Starter
+[INFO] Spring Boot Jersey Starter
+[INFO] Spring Boot Jetty Starter
+[INFO] Spring Boot JOOQ Starter
+[INFO] Spring Boot Atomikos JTA Starter
+[INFO] Spring Boot Bitronix JTA Starter
+[INFO] Spring Boot Narayana JTA Starter
+[INFO] Spring Boot Log4j 2 Starter
+[INFO] Spring Boot Mail Starter
+[INFO] Spring Boot Mobile Starter
+[INFO] Spring Boot Mustache Starter
+[INFO] Spring Boot Actuator Starter
+[INFO] Spring Boot Starter Parent
+[INFO] Spring Boot Security Starter
+[INFO] Spring Boot Social Facebook Starter
+[INFO] Spring Boot Social Twitter Starter
+[INFO] Spring Boot Social LinkedIn Starter
+[INFO] Spring Boot Test Starter
+[INFO] Spring Boot Thymeleaf Starter
+[INFO] Spring Boot Undertow Starter
+[INFO] Spring Boot WebSocket Starter
+[INFO] Spring Boot Web Services Starter
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Starters 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starters ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starters ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starters ---
+[INFO] Ignoring POM project!
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.6:single (assemble-starter-poms) @ spring-boot-starters ---
+[INFO] Reading assembly descriptor: src/main/assembly/starter-poms-assembly.xml
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-logging:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-activemq:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-amqp:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-aop:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-artemis:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-batch:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-cache:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-cloud-connectors:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-data-cassandra:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-data-couchbase:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-data-gemfire:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-data-mongodb:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-data-neo4j:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-web:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-data-rest:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-data-solr:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-freemarker:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-groovy-templates:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-hateoas:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-integration:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-validation:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-jersey:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-jetty:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-jooq:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-jta-atomikos:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-jta-bitronix:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-jta-narayana:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-log4j2:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-mail:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-mobile:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-mustache:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-actuator:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-parent:pom:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-security:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-social-facebook:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-social-twitter:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-social-linkedin:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-test:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-undertow:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-websocket:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Processing sources for module project: org.springframework.boot:spring-boot-starter-web-services:jar:2.0.0.BUILD-SNAPSHOT
+[INFO] Building zip: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/target/spring-boot-starters-2.0.0.BUILD-SNAPSHOT-starter-poms.zip
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starters ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Logging Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-logging ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-logging ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-logging ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-logging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-logging ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-logging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-logging/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-logging ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-logging ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-logging ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot ActiveMQ Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-activemq ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-activemq ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-activemq ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-activemq ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-activemq ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-activemq ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-activemq/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-activemq ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-activemq ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-activemq ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot AMQP Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-amqp ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-amqp ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-amqp ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-amqp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-amqp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-amqp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-amqp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-amqp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-amqp ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-amqp ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot AOP Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-aop ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-aop ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-aop ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-aop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-aop ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-aop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-aop/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-aop ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-aop ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-aop ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Artemis Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-artemis ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-artemis ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-artemis ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-artemis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-artemis ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-artemis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-artemis/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-artemis ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-artemis ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-artemis ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot JDBC Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-jdbc ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-jdbc ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-jdbc ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-jdbc ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-jdbc/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-jdbc ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-jdbc ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-jdbc ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Batch Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-batch ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-batch ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-batch ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-batch ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-batch ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-batch ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-batch/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-batch ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-batch ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-batch ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Cache Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-cache ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-cache ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-cache ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-cache ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-cache ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-cache ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-cache/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-cache ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-cache ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-cache ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Spring Cloud Connectors Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-cloud-connectors ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-cloud-connectors ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-cloud-connectors ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-cloud-connectors ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-cloud-connectors ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-cloud-connectors ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-cloud-connectors/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-cloud-connectors ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-cloud-connectors ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-cloud-connectors ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Data Cassandra Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-data-cassandra ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-data-cassandra ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-data-cassandra ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-data-cassandra ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-data-cassandra ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-data-cassandra ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-data-cassandra/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-data-cassandra ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-data-cassandra ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-data-cassandra ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Data Couchbase Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-data-couchbase ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-data-couchbase ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-data-couchbase ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-data-couchbase ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-data-couchbase ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-data-couchbase ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-data-couchbase/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-data-couchbase ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-data-couchbase ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-data-couchbase ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Data Elasticsearch Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-data-elasticsearch ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-data-elasticsearch ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-data-elasticsearch ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-data-elasticsearch ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-data-elasticsearch ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-data-elasticsearch ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-data-elasticsearch/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-data-elasticsearch ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-data-elasticsearch ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-data-elasticsearch ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Data GemFire Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-data-gemfire ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-data-gemfire ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-data-gemfire ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-data-gemfire ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-data-gemfire ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-data-gemfire ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-data-gemfire/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-data-gemfire ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-data-gemfire ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-data-gemfire ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Data JPA Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-data-jpa ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-data-jpa ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-data-jpa ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-data-jpa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-data-jpa ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-data-jpa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-data-jpa/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-data-jpa ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-data-jpa ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-data-jpa ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Data MongoDB Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-data-mongodb ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-data-mongodb ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-data-mongodb ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-data-mongodb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-data-mongodb ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-data-mongodb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-data-mongodb/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-data-mongodb ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-data-mongodb ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-data-mongodb ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Data Neo4j Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-data-neo4j ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-data-neo4j ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-data-neo4j ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-data-neo4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-data-neo4j ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-data-neo4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-data-neo4j/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-data-neo4j ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-data-neo4j ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-data-neo4j ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Data Redis Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-data-redis ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-data-redis ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-data-redis ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-data-redis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-data-redis ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-data-redis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-data-redis/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-data-redis ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-data-redis ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-data-redis ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Tomcat Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-tomcat ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-tomcat ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-tomcat ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-tomcat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-tomcat ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-tomcat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-tomcat/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-tomcat ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-tomcat ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-tomcat ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Web Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-web ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-web ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-web ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-web ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-web/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-web ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-web ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-web ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Data REST Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-data-rest ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-data-rest ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-data-rest ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-data-rest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-data-rest ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-data-rest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-data-rest/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-data-rest ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-data-rest ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-data-rest ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Data Solr Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-data-solr ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-data-solr ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-data-solr ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-data-solr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-data-solr ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-data-solr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-data-solr/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-data-solr ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-data-solr ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-data-solr ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot FreeMarker Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-freemarker ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-freemarker ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-freemarker ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-freemarker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-freemarker ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-freemarker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-freemarker/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-freemarker ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-freemarker ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-freemarker ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Groovy Templates Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-groovy-templates ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-groovy-templates ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-groovy-templates ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-groovy-templates ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-groovy-templates ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-groovy-templates ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-groovy-templates/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-groovy-templates ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-groovy-templates ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-groovy-templates ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot HATEOAS Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-hateoas ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-hateoas ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-hateoas ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-hateoas ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-hateoas ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-hateoas ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-hateoas/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-hateoas ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-hateoas ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-hateoas ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Integration Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-integration ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-integration ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-integration ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-integration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-integration ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-integration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-integration/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-integration ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-integration ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-integration ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Validation Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-validation ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-validation ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-validation ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-validation ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-validation ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-validation ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-validation/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-validation ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-validation ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-validation ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Jersey Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-jersey ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-jersey ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-jersey ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-jersey ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-jersey ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-jersey ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-jersey/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-jersey ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-jersey ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-jersey ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Jetty Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-jetty ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-jetty ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-jetty ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-jetty ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-jetty ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-jetty ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-jetty/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-jetty ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-jetty ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-jetty ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot JOOQ Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-jooq ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-jooq ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-jooq ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-jooq ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-jooq ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-jooq ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-jooq/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-jooq ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-jooq ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-jooq ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Atomikos JTA Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-jta-atomikos ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-jta-atomikos ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-jta-atomikos ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-jta-atomikos ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-jta-atomikos ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-jta-atomikos ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-jta-atomikos/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-jta-atomikos ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-jta-atomikos ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-jta-atomikos ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Bitronix JTA Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-jta-bitronix ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-jta-bitronix ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-jta-bitronix ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-jta-bitronix ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-jta-bitronix ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-jta-bitronix ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-jta-bitronix/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-jta-bitronix ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-jta-bitronix ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-jta-bitronix ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Narayana JTA Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-jta-narayana ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-jta-narayana ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-jta-narayana ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-jta-narayana ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-jta-narayana ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-jta-narayana ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-jta-narayana/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-jta-narayana ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-jta-narayana ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-jta-narayana ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Log4j 2 Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-log4j2 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-log4j2 ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-log4j2 ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-log4j2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-log4j2 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-log4j2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-log4j2/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-log4j2 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-log4j2 ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-log4j2 ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Mail Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-mail ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-mail ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-mail ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-mail ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-mail ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-mail ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-mail/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-mail ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-mail ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-mail ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Mobile Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-mobile ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-mobile ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-mobile ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-mobile ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-mobile ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-mobile ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-mobile/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-mobile ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-mobile ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-mobile ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Mustache Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-mustache ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-mustache ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-mustache ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-mustache ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-mustache ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-mustache ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-mustache/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-mustache ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-mustache ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-mustache ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Actuator Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-actuator ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-actuator ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-actuator ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-actuator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-actuator ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-actuator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-actuator/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-actuator ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-actuator ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-actuator ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Starter Parent 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Security Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-security ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-security ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-security ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-security ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-security ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-security ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-security/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-security ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-security ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-security ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Social Facebook Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-social-facebook ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-social-facebook ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-social-facebook ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-social-facebook ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-social-facebook ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-social-facebook ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-social-facebook/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-social-facebook ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-social-facebook ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-social-facebook ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Social Twitter Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-social-twitter ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-social-twitter ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-social-twitter ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-social-twitter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-social-twitter ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-social-twitter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-social-twitter/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-social-twitter ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-social-twitter ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-social-twitter ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Social LinkedIn Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-social-linkedin ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-social-linkedin ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-social-linkedin ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-social-linkedin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-social-linkedin ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-social-linkedin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-social-linkedin/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-social-linkedin ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-social-linkedin ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-social-linkedin ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Test Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-test ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-test ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-test ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-test ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-test ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Thymeleaf Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-thymeleaf ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-thymeleaf ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-thymeleaf ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-thymeleaf ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-thymeleaf ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-thymeleaf ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-thymeleaf/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-thymeleaf ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-thymeleaf ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-thymeleaf ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Undertow Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-undertow ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-undertow ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-undertow ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-undertow ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-undertow/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-undertow ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-undertow ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-undertow/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-undertow ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-undertow ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-undertow ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot WebSocket Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-websocket ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-websocket ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-websocket ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-websocket ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-websocket ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-websocket ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-websocket/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-websocket ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-websocket ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-websocket ---
+[INFO] Signature checking is skipped.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Web Services Starter 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-starter-web-services ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-starter-web-services ---
+[INFO] 
+[INFO] --- duplicate-finder-maven-plugin:1.2.1:check (duplicate-dependencies) @ spring-boot-starter-web-services ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-starter-web-services ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-starter-web-services ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-starter-web-services ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-starters/spring-boot-starter-web-services/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-starter-web-services ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-starter-web-services ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-starter-web-services ---
+[INFO] Signature checking is skipped.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Boot Starters ............................... SUCCESS [  2.793 s]
+[INFO] Spring Boot Logging Starter ........................ SUCCESS [  0.570 s]
+[INFO] Spring Boot Starter ................................ SUCCESS [  0.489 s]
+[INFO] Spring Boot ActiveMQ Starter ....................... SUCCESS [  0.478 s]
+[INFO] Spring Boot AMQP Starter ........................... SUCCESS [  0.289 s]
+[INFO] Spring Boot AOP Starter ............................ SUCCESS [  0.130 s]
+[INFO] Spring Boot Artemis Starter ........................ SUCCESS [  0.408 s]
+[INFO] Spring Boot JDBC Starter ........................... SUCCESS [  0.126 s]
+[INFO] Spring Boot Batch Starter .......................... SUCCESS [  0.248 s]
+[INFO] Spring Boot Cache Starter .......................... SUCCESS [  0.097 s]
+[INFO] Spring Boot Spring Cloud Connectors Starter ........ SUCCESS [  0.143 s]
+[INFO] Spring Boot Data Cassandra Starter ................. SUCCESS [  0.396 s]
+[INFO] Spring Boot Data Couchbase Starter ................. SUCCESS [  0.296 s]
+[INFO] Spring Boot Data Elasticsearch Starter ............. SUCCESS [  1.465 s]
+[INFO] Spring Boot Data GemFire Starter ................... SUCCESS [  0.756 s]
+[INFO] Spring Boot Data JPA Starter ....................... SUCCESS [  0.356 s]
+[INFO] Spring Boot Data MongoDB Starter ................... SUCCESS [  0.168 s]
+[INFO] Spring Boot Data Neo4j Starter ..................... SUCCESS [  0.218 s]
+[INFO] Spring Boot Data Redis Starter ..................... SUCCESS [  0.171 s]
+[INFO] Spring Boot Tomcat Starter ......................... SUCCESS [  0.116 s]
+[INFO] Spring Boot Web Starter ............................ SUCCESS [  0.216 s]
+[INFO] Spring Boot Data REST Starter ...................... SUCCESS [  0.228 s]
+[INFO] Spring Boot Data Solr Starter ...................... SUCCESS [  0.308 s]
+[INFO] Spring Boot FreeMarker Starter ..................... SUCCESS [  0.139 s]
+[INFO] Spring Boot Groovy Templates Starter ............... SUCCESS [  0.215 s]
+[INFO] Spring Boot HATEOAS Starter ........................ SUCCESS [  0.094 s]
+[INFO] Spring Boot Integration Starter .................... SUCCESS [  0.156 s]
+[INFO] Spring Boot Validation Starter ..................... SUCCESS [  0.075 s]
+[INFO] Spring Boot Jersey Starter ......................... SUCCESS [  0.825 s]
+[INFO] Spring Boot Jetty Starter .......................... SUCCESS [  0.379 s]
+[INFO] Spring Boot JOOQ Starter ........................... SUCCESS [  0.111 s]
+[INFO] Spring Boot Atomikos JTA Starter ................... SUCCESS [  0.101 s]
+[INFO] Spring Boot Bitronix JTA Starter ................... SUCCESS [  0.071 s]
+[INFO] Spring Boot Narayana JTA Starter ................... SUCCESS [  0.194 s]
+[INFO] Spring Boot Log4j 2 Starter ........................ SUCCESS [  0.056 s]
+[INFO] Spring Boot Mail Starter ........................... SUCCESS [  0.112 s]
+[INFO] Spring Boot Mobile Starter ......................... SUCCESS [  0.094 s]
+[INFO] Spring Boot Mustache Starter ....................... SUCCESS [  0.101 s]
+[INFO] Spring Boot Actuator Starter ....................... SUCCESS [  0.148 s]
+[INFO] Spring Boot Starter Parent ......................... SUCCESS [  0.000 s]
+[INFO] Spring Boot Security Starter ....................... SUCCESS [  0.117 s]
+[INFO] Spring Boot Social Facebook Starter ................ SUCCESS [  0.129 s]
+[INFO] Spring Boot Social Twitter Starter ................. SUCCESS [  0.123 s]
+[INFO] Spring Boot Social LinkedIn Starter ................ SUCCESS [  0.121 s]
+[INFO] Spring Boot Test Starter ........................... SUCCESS [  0.328 s]
+[INFO] Spring Boot Thymeleaf Starter ...................... SUCCESS [  0.179 s]
+[INFO] Spring Boot Undertow Starter ....................... SUCCESS [  0.192 s]
+[INFO] Spring Boot WebSocket Starter ...................... SUCCESS [  0.106 s]
+[INFO] Spring Boot Web Services Starter ................... SUCCESS [  0.114 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 16.180 s
+[INFO] Finished at: 2017-03-03T10:32:54-03:00
+[INFO] Final Memory: 112M/729M
+[INFO] ------------------------------------------------------------------------

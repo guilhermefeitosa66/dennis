@@ -1,0 +1,1529 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Data - Examples
+[INFO] Spring Data JPA - Examples
+[INFO] Spring Data JPA - Example
+[INFO] Spring Data JPA - Refactoring showcase
+[INFO] Spring Data JPA - Interceptor sample
+[INFO] Spring Data JPA - Java 8 specific features
+[INFO] Spring Data JPA - JPA 2.1 specific features
+[INFO] Spring Data JPA - Spring Security integration
+[INFO] Spring Data JPA - Multple datasources
+[INFO] Spring Data JPA - EclipseLink setup example
+[INFO] Spring Data JPA - Query-by-Example (QBE)
+[INFO] Spring Data KeyValue - Map repositories example
+[INFO] Spring Data MongoDB - Examples
+[INFO] Spring Data MongoDB - Aggregation framework
+[INFO] Spring Data MongoDB - Example
+[INFO] Spring Data MongoDB - Text Search
+[INFO] Spring Data MongoDB - Java 8 specific features
+[INFO] Spring Data MongoDB - Spring Security Integration
+[INFO] Spring Data MongoDB - GeoJson support
+[INFO] Spring Data MongoDB - Query-by-Example (QBE)
+[INFO] Spring Data - Multi-store example
+[INFO] Spring Data REST - Examples
+[INFO] Spring Data REST - Starbucks Example
+[INFO] Spring Data REST - Multi-store example
+[INFO] Spring Data REST - Projections Example
+[INFO] Spring Data REST - Security Example
+[INFO] Spring Data REST - Headers Example
+[INFO] Spring Data REST - URI Customizations Example
+[INFO] Spring Data Redis - Examples
+[INFO] Spring Data Redis - Example Utilities
+[INFO] Spring Data Redis - Cluster/Sentinel Example
+[INFO] Spring Data Redis - Example
+[INFO] Spring Data Redis - Cluster Example
+[INFO] Spring Data Redis - Repository Support Example
+[INFO] Spring Data Solr - Examples
+[INFO] Spring Data Solr - Example utilities
+[INFO] Spring Data Solr - Example
+[INFO] Spring Data Solr - Managed schema examples
+[INFO] Spring Data Cassandra - Examples
+[INFO] Spring Data Cassandra - Example Utilities
+[INFO] Spring Data Cassandra - Example
+[INFO] Spring Data Cassandra - Java 8 specific features
+[INFO] Spring Data Elasticsearch - Examples
+[INFO] Spring Data Elasticsearch - Example
+[INFO] Spring Data - Web examples
+[INFO] Spring Data - Basic web example
+[INFO] Spring Data - QueryDSL web example
+[INFO] Spring Data - JSON and XML projection web example
+[INFO] Spring Data - Using the BOM for dependency management
+[INFO] Spring Data Neo4j 4 - Examples
+[INFO] Spring Data Neo4j - Example
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data - Examples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data JPA - Examples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data JPA - Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-jpa-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/example/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-jpa-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 30 source files to /home/guilherme/spring-projects/maven/spring-data-examples/jpa/example/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-jpa-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-jpa-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /home/guilherme/spring-projects/maven/spring-data-examples/jpa/example/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-jpa-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.jpa.simple.SimpleUserRepositoryTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.045 sec - in example.springdata.jpa.simple.SimpleUserRepositoryTests
+Running example.springdata.jpa.basics.BasicFactorySetup
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 sec - in example.springdata.jpa.basics.BasicFactorySetup
+Running example.springdata.jpa.custom.UserRepositoryCustomizationTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.591 sec - in example.springdata.jpa.custom.UserRepositoryCustomizationTests
+Running example.springdata.jpa.customall.UserRepositoryCustomizationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.598 sec - in example.springdata.jpa.customall.UserRepositoryCustomizationTests
+Running example.springdata.jpa.auditing.AuditableUserSample
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.777 sec - in example.springdata.jpa.auditing.AuditableUserSample
+Running example.springdata.jpa.projections.CustomerRepositoryIntegrationTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.474 sec - in example.springdata.jpa.projections.CustomerRepositoryIntegrationTest
+Running example.springdata.jpa.basics.BasicSample
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in example.springdata.jpa.basics.BasicSample
+
+Results :
+
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data JPA - Refactoring showcase 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:add-source (add-source) @ spring-data-jpa-showcase ---
+[INFO] Source directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/showcase/src/snippets/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:add-test-source (add-test-source) @ spring-data-jpa-showcase ---
+[INFO] Test Source directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/showcase/src/test-snippets/java added.
+[INFO] 
+[INFO] --- apt-maven-plugin:1.1.3:process (default) @ spring-data-jpa-showcase ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-jpa-showcase ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-jpa-showcase ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/guilherme/spring-projects/maven/spring-data-examples/jpa/showcase/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-jpa-showcase ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-jpa-showcase ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-jpa-showcase ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/showcase/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.jpa.showcase.after.CustomerRepositoryIntegrationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.962 sec - in example.springdata.jpa.showcase.after.CustomerRepositoryIntegrationTest
+Running example.springdata.jpa.showcase.before.CustomerServiceIntegrationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec - in example.springdata.jpa.showcase.before.CustomerServiceIntegrationTest
+Running example.springdata.jpa.showcase.before.AccountServiceIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in example.springdata.jpa.showcase.before.AccountServiceIntegrationTest
+Running example.springdata.jpa.showcase.after.AccountRepositoryIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec - in example.springdata.jpa.showcase.after.AccountRepositoryIntegrationTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data JPA - Interceptor sample 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-jpa-interceptors ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/interceptors/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/interceptors/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-jpa-interceptors ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-jpa-interceptors ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-jpa-interceptors ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-jpa-interceptors ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/interceptors/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.jpa.interceptors.InterceptorIntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.772 sec - in example.springdata.jpa.interceptors.InterceptorIntegrationTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data JPA - Java 8 specific features 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-jpa-java8 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/java8/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/java8/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-jpa-java8 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-jpa-java8 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/java8/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-jpa-java8 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-jpa-java8 ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/java8/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.jpa.java8.Java8IntegrationTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.798 sec - in example.springdata.jpa.java8.Java8IntegrationTests
+
+Results :
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data JPA - JPA 2.1 specific features 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-jpa-jpa21 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-jpa-jpa21 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/guilherme/spring-projects/maven/spring-data-examples/jpa/jpa21/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-jpa-jpa21 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/jpa21/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-jpa-jpa21 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-jpa-jpa21 ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/jpa21/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.jpa.storedprocedures.UserRepositoryIntegrationTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.685 sec - in example.springdata.jpa.storedprocedures.UserRepositoryIntegrationTests
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data JPA - Spring Security integration 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-jpa-security ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/security/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/security/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-jpa-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-jpa-security ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-jpa-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-jpa-security ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/security/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.jpa.security.SecurityIntegrationTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.165 sec - in example.springdata.jpa.security.SecurityIntegrationTests
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data JPA - Multple datasources 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-jpa-multiple-datasources ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/multiple-datasources/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/multiple-datasources/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-jpa-multiple-datasources ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-jpa-multiple-datasources ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/multiple-datasources/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-jpa-multiple-datasources ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-jpa-multiple-datasources ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/multiple-datasources/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.jpa.multipleds.customer.CustomerRepositoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.873 sec - in example.springdata.jpa.multipleds.customer.CustomerRepositoryTests
+Running example.springdata.jpa.multipleds.order.OrderRepositoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in example.springdata.jpa.multipleds.order.OrderRepositoryTests
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data JPA - EclipseLink setup example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-jpa-eclipselink ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-jpa-eclipselink ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-jpa-eclipselink ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/eclipselink/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-jpa-eclipselink ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-jpa-eclipselink ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/eclipselink/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.jpa.eclipselink.CustomerRepositoryIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.559 sec - in example.springdata.jpa.eclipselink.CustomerRepositoryIntegrationTests
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data JPA - Query-by-Example (QBE) 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-jpa-query-by-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/query-by-example/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/query-by-example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-jpa-query-by-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/guilherme/spring-projects/maven/spring-data-examples/jpa/query-by-example/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-jpa-query-by-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/query-by-example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-jpa-query-by-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-jpa-query-by-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/query-by-example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.jpa.querybyexample.UserRepositoryIntegrationTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.837 sec - in example.springdata.jpa.querybyexample.UserRepositoryIntegrationTests
+Running example.springdata.jpa.querybyexample.UserRepositoryInheritanceIntegrationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in example.springdata.jpa.querybyexample.UserRepositoryInheritanceIntegrationTests
+
+Results :
+
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data KeyValue - Map repositories example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-map-repositories-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/map/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/map/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-map-repositories-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-map-repositories-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/map/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-map-repositories-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-map-repositories-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/map/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.map.PersonRepositoryIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.116 sec - in example.springdata.map.PersonRepositoryIntegrationTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data MongoDB - Examples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data MongoDB - Aggregation framework 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-mongodb-aggregation ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/aggregation/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/aggregation/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-mongodb-aggregation ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-mongodb-aggregation ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/aggregation/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-mongodb-aggregation ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-mongodb-aggregation ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/aggregation/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.mongodb.aggregation.OrderRepositoryIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.718 sec - in example.springdata.mongodb.aggregation.OrderRepositoryIntegrationTests
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data MongoDB - Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- apt-maven-plugin:1.1.3:process (default) @ spring-data-mongodb-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-mongodb-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/example/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-mongodb-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/example/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-mongodb-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-mongodb-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/example/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-mongodb-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.mongodb.advanced.AdvancedIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.951 sec - in example.springdata.mongodb.advanced.AdvancedIntegrationTests
+Running example.springdata.mongodb.advanced.ServersideScriptTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.355 sec - in example.springdata.mongodb.advanced.ServersideScriptTests
+Running example.springdata.mongodb.customer.CustomerRepositoryIntegrationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.478 sec - in example.springdata.mongodb.customer.CustomerRepositoryIntegrationTest
+Running example.springdata.mongodb.projections.CustomerRepositoryIntegrationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.541 sec - in example.springdata.mongodb.projections.CustomerRepositoryIntegrationTest
+
+Results :
+
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data MongoDB - Text Search 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-mongodb-text-search ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/text-search/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/text-search/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-mongodb-text-search ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-mongodb-text-search ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-mongodb-text-search ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-mongodb-text-search ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/text-search/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.mongodb.textsearch.TextSearchTemplateTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.144 sec - in example.springdata.mongodb.textsearch.TextSearchTemplateTests
+Running example.springdata.mongodb.textsearch.TextSearchRepositoryTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec - in example.springdata.mongodb.textsearch.TextSearchRepositoryTests
+
+Results :
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data MongoDB - Java 8 specific features 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-mongodb-java8 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/java8/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/java8/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-mongodb-java8 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-mongodb-java8 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-mongodb-java8 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/java8/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-mongodb-java8 ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/java8/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.mongodb.people.PersonRepositoryIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.749 sec - in example.springdata.mongodb.people.PersonRepositoryIntegrationTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data MongoDB - Spring Security Integration 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-mongodb-security ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/security/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/security/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-mongodb-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-mongodb-security ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-mongodb-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-mongodb-security ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/security/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.mongodb.security.PersonRepositoryIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.875 sec - in example.springdata.mongodb.security.PersonRepositoryIntegrationTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data MongoDB - GeoJson support 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-mongodb-geojson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-mongodb-geojson ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-mongodb-geojson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-mongodb-geojson ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-mongodb-geojson ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/geo-json/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.mongodb.geojson.StoreRepositoryTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.908 sec - in example.springdata.mongodb.geojson.StoreRepositoryTests
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data MongoDB - Query-by-Example (QBE) 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-mongodb-query-by-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/query-by-example/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/query-by-example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-mongodb-query-by-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/query-by-example/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-mongodb-query-by-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/query-by-example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-mongodb-query-by-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-mongodb-query-by-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/query-by-example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.mongodb.querybyexample.MongoOperationsIntegrationTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.728 sec - in example.springdata.mongodb.querybyexample.MongoOperationsIntegrationTests
+Running example.springdata.mongodb.querybyexample.UserRepositoryIntegrationTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec - in example.springdata.mongodb.querybyexample.UserRepositoryIntegrationTests
+Running example.springdata.mongodb.querybyexample.ContactRepositoryIntegrationTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in example.springdata.mongodb.querybyexample.ContactRepositoryIntegrationTests
+
+Results :
+
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data - Multi-store example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-multi-store-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/multi-store/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/multi-store/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-multi-store-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-multi-store-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-multi-store-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-multi-store-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/multi-store/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.multistore.ApplicationConfigurationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.076 sec - in example.springdata.multistore.ApplicationConfigurationTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - Examples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - Starbucks Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- apt-maven-plugin:1.1.3:process (default) @ spring-data-rest-starbucks ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-rest-starbucks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-rest-starbucks ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /home/guilherme/spring-projects/maven/spring-data-examples/rest/starbucks/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-rest-starbucks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/starbucks/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-rest-starbucks ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-rest-starbucks ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/rest/starbucks/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.rest.stores.StoreRepositoryIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.295 sec - in example.springdata.rest.stores.StoreRepositoryIntegrationTests
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - Multi-store example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-rest-multi-store ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/multi-store/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/multi-store/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-rest-multi-store ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-rest-multi-store ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/multi-store/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-rest-multi-store ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-rest-multi-store ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/rest/multi-store/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.multistore.ApplicationIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.447 sec - in example.springdata.multistore.ApplicationIntegrationTests
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - Projections Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-rest-projections ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/projections/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/projections/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-rest-projections ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-rest-projections ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/projections/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-rest-projections ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-rest-projections ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/rest/projections/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.rest.projections.SimpleProjectionTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.227 sec - in example.springdata.rest.projections.SimpleProjectionTests
+Running example.springdata.rest.projections.ApplicationIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.598 sec - in example.springdata.rest.projections.ApplicationIntegrationTests
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - Security Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-rest-security ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/security/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/security/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-rest-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-rest-security ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/security/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-rest-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-rest-security ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/rest/security/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.rest.security.MethodLevelSecurityTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.543 sec - in example.springdata.rest.security.MethodLevelSecurityTests
+Running example.springdata.rest.security.UrlLevelSecurityTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.53 sec - in example.springdata.rest.security.UrlLevelSecurityTests
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - Headers Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-rest-headers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/headers/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/headers/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-rest-headers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-rest-headers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-rest-headers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-rest-headers ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/rest/headers/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.rest.headers.WebIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.228 sec - in example.springdata.rest.headers.WebIntegrationTests
+Running example.springdata.rest.headers.ApplicationIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in example.springdata.rest.headers.ApplicationIntegrationTests
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - URI Customizations Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-rest-uri-customizations ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/uri-customization/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/uri-customization/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-rest-uri-customizations ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-rest-uri-customizations ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-rest-uri-customizations ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-rest-uri-customizations ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/rest/uri-customization/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.rest.uris.WebIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.607 sec - in example.springdata.rest.uris.WebIntegrationTests
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Redis - Examples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Redis - Example Utilities 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-redis-example-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/util/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/util/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-redis-example-utils ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-redis-example-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/util/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-redis-example-utils ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-redis-example-utils ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Redis - Cluster/Sentinel Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-redis-cluster-sentinel-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-redis-cluster-sentinel-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-redis-cluster-sentinel-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/cluster-sentinel/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-redis-cluster-sentinel-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-redis-cluster-sentinel-example ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Redis - Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-redis-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/example/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-redis-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-redis-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-redis-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-redis-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/redis/example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.redis.commands.KeyOperationsTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.248 sec - in example.springdata.redis.commands.KeyOperationsTests
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Redis - Cluster Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-redis-cluster-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/cluster/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/cluster/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-redis-cluster-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-redis-cluster-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-redis-cluster-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-redis-cluster-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/redis/cluster/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.redis.cluster.BasicUsageTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.204 sec - in example.springdata.redis.cluster.BasicUsageTests
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Redis - Repository Support Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-redis-repositories-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/repositories/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/repositories/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-redis-repositories-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-redis-repositories-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/redis/repositories/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-redis-repositories-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-redis-repositories-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/redis/repositories/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.redis.repositories.PersonRepositoryTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.622 sec - in example.springdata.redis.repositories.PersonRepositoryTests
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Solr - Examples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Solr - Example utilities 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-solr-example-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/solr/util/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/solr/util/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-solr-example-utils ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-solr-example-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/solr/util/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-solr-example-utils ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-solr-example-utils ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Solr - Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-solr-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/solr/example/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/solr/example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-solr-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-solr-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-solr-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-solr-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/solr/example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.solr.BasicSolrRepositoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.463 sec - in example.springdata.solr.BasicSolrRepositoryTests
+Running example.springdata.solr.AdvancedSolrRepositoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.074 sec - in example.springdata.solr.AdvancedSolrRepositoryTests
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 2
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Solr - Managed schema examples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-solr-managed-schema-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/solr/managed-schema/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/solr/managed-schema/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-solr-managed-schema-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-solr-managed-schema-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-solr-managed-schema-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-solr-managed-schema-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/solr/managed-schema/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.solr.SolrRepositoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.55 sec - in example.springdata.solr.SolrRepositoryTests
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Cassandra - Examples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Cassandra - Example Utilities 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-cassandra-example-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/util/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/util/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-cassandra-example-utils ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-cassandra-example-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/util/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-cassandra-example-utils ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-cassandra-example-utils ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Cassandra - Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-cassandra-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/example/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-cassandra-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/example/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-cassandra-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-cassandra-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-cassandra-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.cassandra.basic.BasicUserRepositoryTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.239 sec - in example.springdata.cassandra.basic.BasicUserRepositoryTests
+Running example.springdata.cassandra.basic.CassandraOperationsIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.01 sec - in example.springdata.cassandra.basic.CassandraOperationsIntegrationTests
+Running example.springdata.cassandra.convert.ConversionIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.016 sec - in example.springdata.cassandra.convert.ConversionIntegrationTests
+Running example.springdata.cassandra.projection.CustomerRepositoryIntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.006 sec - in example.springdata.cassandra.projection.CustomerRepositoryIntegrationTest
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 4
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Cassandra - Java 8 specific features 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-cassandra-java8 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/java8/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/java8/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-cassandra-java8 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/java8/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-cassandra-java8 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/java8/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-cassandra-java8 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-cassandra-java8 ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/java8/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.cassandra.java8.Jsr310IntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.227 sec - in example.springdata.cassandra.java8.Jsr310IntegrationTests
+Running example.springdata.cassandra.java8.Java8IntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 sec - in example.springdata.cassandra.java8.Java8IntegrationTests
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 2
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Elasticsearch - Examples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Elasticsearch - Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-elasticsearch-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-elasticsearch-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-elasticsearch-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/elasticsearch/example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-elasticsearch-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-elasticsearch-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/elasticsearch/example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.elasticsearch.conference.ElasticsearchOperationsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.792 sec - in example.springdata.elasticsearch.conference.ElasticsearchOperationsTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data - Web examples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data - Basic web example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-web-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-web-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-web-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/web/example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-web-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-web-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/web/example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.users.UserManagementIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.276 sec - in example.users.UserManagementIntegrationTests
+Running example.users.UserRepositoryIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in example.users.UserRepositoryIntegrationTests
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data - QueryDSL web example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- apt-maven-plugin:1.1.3:process (default) @ spring-data-web-querydsl ---
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-examples/web/querydsl/src/main/java/example/users/web/UserController.java:43: error: cannot find symbol
+@RequiredArgsConstructor(onConstructor = @__(@Autowired) )
+                                          ^
+  symbol: class __
+1 error
+
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-web-querydsl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-web-querydsl ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/guilherme/spring-projects/maven/spring-data-examples/web/querydsl/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-web-querydsl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/web/querydsl/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-web-querydsl ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-web-querydsl ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data - JSON and XML projection web example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-web-projection ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-web-projection ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-web-projection ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/web/projection/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-web-projection ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-web-projection ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/web/projection/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.users.UserControllerClientTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.642 sec - in example.users.UserControllerClientTests
+Running example.users.UserControllerIntegrationTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.807 sec - in example.users.UserControllerIntegrationTests
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data - Using the BOM for dependency management 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-examples-bom ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/bom/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-examples-bom ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-examples-bom ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/bom/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-examples-bom ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spring-data-examples-bom ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Neo4j 4 - Examples 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Neo4j - Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-neo4j-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/neo4j/example/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/neo4j/example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-neo4j-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-neo4j-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-neo4j-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-neo4j-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/neo4j/example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.neo4j.ActorRepositoryIntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.946 sec - in example.springdata.neo4j.ActorRepositoryIntegrationTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Data - Examples ............................. SUCCESS [  0.002 s]
+[INFO] Spring Data JPA - Examples ......................... SUCCESS [  0.000 s]
+[INFO] Spring Data JPA - Example .......................... SUCCESS [  8.431 s]
+[INFO] Spring Data JPA - Refactoring showcase ............. SUCCESS [  3.936 s]
+[INFO] Spring Data JPA - Interceptor sample ............... SUCCESS [  2.980 s]
+[INFO] Spring Data JPA - Java 8 specific features ......... SUCCESS [  4.088 s]
+[INFO] Spring Data JPA - JPA 2.1 specific features ........ SUCCESS [  3.114 s]
+[INFO] Spring Data JPA - Spring Security integration ...... SUCCESS [  3.414 s]
+[INFO] Spring Data JPA - Multple datasources .............. SUCCESS [  3.126 s]
+[INFO] Spring Data JPA - EclipseLink setup example ........ SUCCESS [  2.943 s]
+[INFO] Spring Data JPA - Query-by-Example (QBE) ........... SUCCESS [  3.361 s]
+[INFO] Spring Data KeyValue - Map repositories example .... SUCCESS [  1.281 s]
+[INFO] Spring Data MongoDB - Examples ..................... SUCCESS [  0.000 s]
+[INFO] Spring Data MongoDB - Aggregation framework ........ SUCCESS [  3.284 s]
+[INFO] Spring Data MongoDB - Example ...................... SUCCESS [  8.125 s]
+[INFO] Spring Data MongoDB - Text Search .................. SUCCESS [  3.869 s]
+[INFO] Spring Data MongoDB - Java 8 specific features ..... SUCCESS [  3.400 s]
+[INFO] Spring Data MongoDB - Spring Security Integration .. SUCCESS [  3.447 s]
+[INFO] Spring Data MongoDB - GeoJson support .............. SUCCESS [  3.491 s]
+[INFO] Spring Data MongoDB - Query-by-Example (QBE) ....... SUCCESS [  3.505 s]
+[INFO] Spring Data - Multi-store example .................. SUCCESS [  3.300 s]
+[INFO] Spring Data REST - Examples ........................ SUCCESS [  0.000 s]
+[INFO] Spring Data REST - Starbucks Example ............... SUCCESS [ 10.567 s]
+[INFO] Spring Data REST - Multi-store example ............. SUCCESS [  7.098 s]
+[INFO] Spring Data REST - Projections Example ............. SUCCESS [  5.224 s]
+[INFO] Spring Data REST - Security Example ................ SUCCESS [  6.529 s]
+[INFO] Spring Data REST - Headers Example ................. SUCCESS [  5.531 s]
+[INFO] Spring Data REST - URI Customizations Example ...... SUCCESS [  3.889 s]
+[INFO] Spring Data Redis - Examples ....................... SUCCESS [  0.000 s]
+[INFO] Spring Data Redis - Example Utilities .............. SUCCESS [  0.082 s]
+[INFO] Spring Data Redis - Cluster/Sentinel Example ....... SUCCESS [  0.026 s]
+[INFO] Spring Data Redis - Example ........................ SUCCESS [  0.489 s]
+[INFO] Spring Data Redis - Cluster Example ................ SUCCESS [  0.406 s]
+[INFO] Spring Data Redis - Repository Support Example ..... SUCCESS [  1.837 s]
+[INFO] Spring Data Solr - Examples ........................ SUCCESS [  0.000 s]
+[INFO] Spring Data Solr - Example utilities ............... SUCCESS [  0.088 s]
+[INFO] Spring Data Solr - Example ......................... SUCCESS [  0.769 s]
+[INFO] Spring Data Solr - Managed schema examples ......... SUCCESS [  0.765 s]
+[INFO] Spring Data Cassandra - Examples ................... SUCCESS [  0.000 s]
+[INFO] Spring Data Cassandra - Example Utilities .......... SUCCESS [  0.033 s]
+[INFO] Spring Data Cassandra - Example .................... SUCCESS [  0.754 s]
+[INFO] Spring Data Cassandra - Java 8 specific features ... SUCCESS [  0.596 s]
+[INFO] Spring Data Elasticsearch - Examples ............... SUCCESS [  0.000 s]
+[INFO] Spring Data Elasticsearch - Example ................ SUCCESS [  4.121 s]
+[INFO] Spring Data - Web examples ......................... SUCCESS [  0.000 s]
+[INFO] Spring Data - Basic web example .................... SUCCESS [  8.625 s]
+[INFO] Spring Data - QueryDSL web example ................. SUCCESS [  0.477 s]
+[INFO] Spring Data - JSON and XML projection web example .. SUCCESS [  3.799 s]
+[INFO] Spring Data - Using the BOM for dependency management SUCCESS [  0.294 s]
+[INFO] Spring Data Neo4j 4 - Examples ..................... SUCCESS [  0.000 s]
+[INFO] Spring Data Neo4j - Example ........................ SUCCESS [  5.778 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:18 min
+[INFO] Finished at: 2017-03-03T10:50:22-03:00
+[INFO] Final Memory: 112M/735M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OAuth for Spring Security - Tonr2 (OAuth 2 Client Example) 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tonr2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ tonr2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tonr2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-security-oauth/samples/oauth2/tonr/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ tonr2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ tonr2 ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/samples/oauth2/tonr/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.security.oauth.examples.tonr.ClientCredentialsGrantTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.249 sec - in org.springframework.security.oauth.examples.tonr.ClientCredentialsGrantTests
+Running org.springframework.security.samples.config.AdHocTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.95 sec - in org.springframework.security.samples.config.AdHocTests
+Running org.springframework.security.oauth.examples.tonr.RefreshTokenGrantTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in org.springframework.security.oauth.examples.tonr.RefreshTokenGrantTests
+Running org.springframework.security.oauth.examples.tonr.AuthorizationCodeGrantTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in org.springframework.security.oauth.examples.tonr.AuthorizationCodeGrantTests
+Running org.springframework.security.samples.config.SecurityConfigTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 sec - in org.springframework.security.samples.config.SecurityConfigTests
+Running org.springframework.security.oauth.examples.tonr.ResourceOwnerPasswordGrantTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in org.springframework.security.oauth.examples.tonr.ResourceOwnerPasswordGrantTests
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 8
+
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.6:check (enforce-java-6) @ tonr2 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.548 s
+[INFO] Finished at: 2017-03-03T11:08:57-03:00
+[INFO] Final Memory: 15M/346M
+[INFO] ------------------------------------------------------------------------

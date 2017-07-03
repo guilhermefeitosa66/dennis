@@ -1,0 +1,217 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data MongoDB - Cross-Store Support 1.10.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-mongodb-cross-store ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb-cross-store/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ spring-data-mongodb-cross-store ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-mongodb-cross-store ---
+Manifest written to '/home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb-cross-store/target/classes/META-INF/MANIFEST.MF'
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.6:compile (default) @ spring-data-mongodb-cross-store ---
+[INFO] No modifications found skipping aspectJ compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-mongodb-cross-store ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ spring-data-mongodb-cross-store ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.6:test-compile (default) @ spring-data-mongodb-cross-store ---
+[INFO] No modifications found skipping aspectJ compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-mongodb-cross-store ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb-cross-store/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.data.mongodb.crossstore.CrossStoreMongoTests
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 42.127 sec <<< FAILURE! - in org.springframework.data.mongodb.crossstore.CrossStoreMongoTests
+testUpdatedJpaToMongoEntityRelationship(org.springframework.data.mongodb.crossstore.CrossStoreMongoTests)  Time elapsed: 10.182 sec  <<< ERROR!
+org.springframework.dao.DataAccessResourceFailureException: Timed out after 10000 ms while waiting to connect. Client view of cluster state is {type=Unknown, servers=[{address=localhost:27017, type=Unknown, state=Connecting, exception={com.mongodb.MongoException$Network: Exception opening the socket}, caused by {java.net.ConnectException: Connection refused}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 10000 ms while waiting to connect. Client view of cluster state is {type=Unknown, servers=[{address=localhost:27017, type=Unknown, state=Connecting, exception={com.mongodb.MongoException$Network: Exception opening the socket}, caused by {java.net.ConnectException: Connection refused}}]
+	at com.mongodb.BaseCluster.getDescription(BaseCluster.java:128)
+	at com.mongodb.DBTCPConnector.getClusterDescription(DBTCPConnector.java:402)
+	at com.mongodb.DBTCPConnector.getType(DBTCPConnector.java:584)
+	at com.mongodb.DBTCPConnector.getReplicaSetStatus(DBTCPConnector.java:370)
+	at com.mongodb.Mongo.getReplicaSetStatus(Mongo.java:446)
+	at com.mongodb.DB.getCommandReadPreference(DB.java:82)
+	at com.mongodb.DB.command(DB.java:317)
+	at com.mongodb.DB.command(DB.java:299)
+	at com.mongodb.DB.command(DB.java:374)
+	at com.mongodb.DB.command(DB.java:246)
+	at com.mongodb.DBCollection.drop(DBCollection.java:1267)
+	at com.mongodb.DBCollectionImpl.drop(DBCollectionImpl.java:386)
+	at org.springframework.data.mongodb.core.MongoTemplate$7.doInCollection(MongoTemplate.java:546)
+	at org.springframework.data.mongodb.core.MongoTemplate$7.doInCollection(MongoTemplate.java:544)
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:478)
+	at org.springframework.data.mongodb.core.MongoTemplate.dropCollection(MongoTemplate.java:544)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests.clearData(CrossStoreMongoTests.java:102)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests.setUp(CrossStoreMongoTests.java:66)
+
+testUpdatedJpaToMongoEntityRelationship(org.springframework.data.mongodb.crossstore.CrossStoreMongoTests)  Time elapsed: 10.183 sec  <<< ERROR!
+java.lang.IllegalArgumentException: attempt to create delete event with null entity
+	at org.hibernate.event.DeleteEvent.<init>(DeleteEvent.java:47)
+	at org.hibernate.impl.SessionImpl.delete(SessionImpl.java:934)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.remove(AbstractEntityManagerImpl.java:869)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:298)
+	at com.sun.proxy.$Proxy39.remove(Unknown Source)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests$2.doInTransaction(CrossStoreMongoTests.java:93)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests$2.doInTransaction(CrossStoreMongoTests.java:1)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests.tearDown(CrossStoreMongoTests.java:91)
+
+testMergeJpaEntityWithMongoDocument(org.springframework.data.mongodb.crossstore.CrossStoreMongoTests)  Time elapsed: 10.002 sec  <<< ERROR!
+org.springframework.dao.DataAccessResourceFailureException: Timed out after 10000 ms while waiting to connect. Client view of cluster state is {type=Unknown, servers=[{address=localhost:27017, type=Unknown, state=Connecting, exception={com.mongodb.MongoException$Network: Exception opening the socket}, caused by {java.net.ConnectException: Connection refused}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 10000 ms while waiting to connect. Client view of cluster state is {type=Unknown, servers=[{address=localhost:27017, type=Unknown, state=Connecting, exception={com.mongodb.MongoException$Network: Exception opening the socket}, caused by {java.net.ConnectException: Connection refused}}]
+	at com.mongodb.BaseCluster.getDescription(BaseCluster.java:128)
+	at com.mongodb.DBTCPConnector.getClusterDescription(DBTCPConnector.java:402)
+	at com.mongodb.DBTCPConnector.getType(DBTCPConnector.java:584)
+	at com.mongodb.DBTCPConnector.getReplicaSetStatus(DBTCPConnector.java:370)
+	at com.mongodb.Mongo.getReplicaSetStatus(Mongo.java:446)
+	at com.mongodb.DB.getCommandReadPreference(DB.java:82)
+	at com.mongodb.DB.command(DB.java:317)
+	at com.mongodb.DB.command(DB.java:299)
+	at com.mongodb.DB.command(DB.java:374)
+	at com.mongodb.DB.command(DB.java:246)
+	at com.mongodb.DBCollection.drop(DBCollection.java:1267)
+	at com.mongodb.DBCollectionImpl.drop(DBCollectionImpl.java:386)
+	at org.springframework.data.mongodb.core.MongoTemplate$7.doInCollection(MongoTemplate.java:546)
+	at org.springframework.data.mongodb.core.MongoTemplate$7.doInCollection(MongoTemplate.java:544)
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:478)
+	at org.springframework.data.mongodb.core.MongoTemplate.dropCollection(MongoTemplate.java:544)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests.clearData(CrossStoreMongoTests.java:102)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests.setUp(CrossStoreMongoTests.java:66)
+
+testMergeJpaEntityWithMongoDocument(org.springframework.data.mongodb.crossstore.CrossStoreMongoTests)  Time elapsed: 10.003 sec  <<< ERROR!
+java.lang.IllegalArgumentException: attempt to create delete event with null entity
+	at org.hibernate.event.DeleteEvent.<init>(DeleteEvent.java:47)
+	at org.hibernate.impl.SessionImpl.delete(SessionImpl.java:934)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.remove(AbstractEntityManagerImpl.java:869)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:298)
+	at com.sun.proxy.$Proxy39.remove(Unknown Source)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests$2.doInTransaction(CrossStoreMongoTests.java:93)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests$2.doInTransaction(CrossStoreMongoTests.java:1)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests.tearDown(CrossStoreMongoTests.java:91)
+
+testRemoveJpaEntityWithMongoDocument(org.springframework.data.mongodb.crossstore.CrossStoreMongoTests)  Time elapsed: 10.007 sec  <<< ERROR!
+org.springframework.dao.DataAccessResourceFailureException: Timed out after 10000 ms while waiting to connect. Client view of cluster state is {type=Unknown, servers=[{address=localhost:27017, type=Unknown, state=Connecting, exception={com.mongodb.MongoException$Network: Exception opening the socket}, caused by {java.net.ConnectException: Connection refused}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 10000 ms while waiting to connect. Client view of cluster state is {type=Unknown, servers=[{address=localhost:27017, type=Unknown, state=Connecting, exception={com.mongodb.MongoException$Network: Exception opening the socket}, caused by {java.net.ConnectException: Connection refused}}]
+	at com.mongodb.BaseCluster.getDescription(BaseCluster.java:128)
+	at com.mongodb.DBTCPConnector.getClusterDescription(DBTCPConnector.java:402)
+	at com.mongodb.DBTCPConnector.getType(DBTCPConnector.java:584)
+	at com.mongodb.DBTCPConnector.getReplicaSetStatus(DBTCPConnector.java:370)
+	at com.mongodb.Mongo.getReplicaSetStatus(Mongo.java:446)
+	at com.mongodb.DB.getCommandReadPreference(DB.java:82)
+	at com.mongodb.DB.command(DB.java:317)
+	at com.mongodb.DB.command(DB.java:299)
+	at com.mongodb.DB.command(DB.java:374)
+	at com.mongodb.DB.command(DB.java:246)
+	at com.mongodb.DBCollection.drop(DBCollection.java:1267)
+	at com.mongodb.DBCollectionImpl.drop(DBCollectionImpl.java:386)
+	at org.springframework.data.mongodb.core.MongoTemplate$7.doInCollection(MongoTemplate.java:546)
+	at org.springframework.data.mongodb.core.MongoTemplate$7.doInCollection(MongoTemplate.java:544)
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:478)
+	at org.springframework.data.mongodb.core.MongoTemplate.dropCollection(MongoTemplate.java:544)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests.clearData(CrossStoreMongoTests.java:102)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests.setUp(CrossStoreMongoTests.java:66)
+
+testRemoveJpaEntityWithMongoDocument(org.springframework.data.mongodb.crossstore.CrossStoreMongoTests)  Time elapsed: 10.007 sec  <<< ERROR!
+java.lang.IllegalArgumentException: attempt to create delete event with null entity
+	at org.hibernate.event.DeleteEvent.<init>(DeleteEvent.java:47)
+	at org.hibernate.impl.SessionImpl.delete(SessionImpl.java:934)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.remove(AbstractEntityManagerImpl.java:869)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:298)
+	at com.sun.proxy.$Proxy39.remove(Unknown Source)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests$2.doInTransaction(CrossStoreMongoTests.java:93)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests$2.doInTransaction(CrossStoreMongoTests.java:1)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests.tearDown(CrossStoreMongoTests.java:91)
+
+testReadJpaToMongoEntityRelationship(org.springframework.data.mongodb.crossstore.CrossStoreMongoTests)  Time elapsed: 10.001 sec  <<< ERROR!
+org.springframework.dao.DataAccessResourceFailureException: Timed out after 10000 ms while waiting to connect. Client view of cluster state is {type=Unknown, servers=[{address=localhost:27017, type=Unknown, state=Connecting, exception={com.mongodb.MongoException$Network: Exception opening the socket}, caused by {java.net.ConnectException: Connection refused}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 10000 ms while waiting to connect. Client view of cluster state is {type=Unknown, servers=[{address=localhost:27017, type=Unknown, state=Connecting, exception={com.mongodb.MongoException$Network: Exception opening the socket}, caused by {java.net.ConnectException: Connection refused}}]
+	at com.mongodb.BaseCluster.getDescription(BaseCluster.java:128)
+	at com.mongodb.DBTCPConnector.getClusterDescription(DBTCPConnector.java:402)
+	at com.mongodb.DBTCPConnector.getType(DBTCPConnector.java:584)
+	at com.mongodb.DBTCPConnector.getReplicaSetStatus(DBTCPConnector.java:370)
+	at com.mongodb.Mongo.getReplicaSetStatus(Mongo.java:446)
+	at com.mongodb.DB.getCommandReadPreference(DB.java:82)
+	at com.mongodb.DB.command(DB.java:317)
+	at com.mongodb.DB.command(DB.java:299)
+	at com.mongodb.DB.command(DB.java:374)
+	at com.mongodb.DB.command(DB.java:246)
+	at com.mongodb.DBCollection.drop(DBCollection.java:1267)
+	at com.mongodb.DBCollectionImpl.drop(DBCollectionImpl.java:386)
+	at org.springframework.data.mongodb.core.MongoTemplate$7.doInCollection(MongoTemplate.java:546)
+	at org.springframework.data.mongodb.core.MongoTemplate$7.doInCollection(MongoTemplate.java:544)
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:478)
+	at org.springframework.data.mongodb.core.MongoTemplate.dropCollection(MongoTemplate.java:544)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests.clearData(CrossStoreMongoTests.java:102)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests.setUp(CrossStoreMongoTests.java:66)
+
+testReadJpaToMongoEntityRelationship(org.springframework.data.mongodb.crossstore.CrossStoreMongoTests)  Time elapsed: 10.002 sec  <<< ERROR!
+java.lang.IllegalArgumentException: attempt to create delete event with null entity
+	at org.hibernate.event.DeleteEvent.<init>(DeleteEvent.java:47)
+	at org.hibernate.impl.SessionImpl.delete(SessionImpl.java:934)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.remove(AbstractEntityManagerImpl.java:869)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:298)
+	at com.sun.proxy.$Proxy39.remove(Unknown Source)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests$2.doInTransaction(CrossStoreMongoTests.java:93)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests$2.doInTransaction(CrossStoreMongoTests.java:1)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.springframework.data.mongodb.crossstore.CrossStoreMongoTests.tearDown(CrossStoreMongoTests.java:91)
+
+
+Results :
+
+Tests in error: 
+  CrossStoreMongoTests.setUp:66->clearData:102 » DataAccessResourceFailure Timed...
+  CrossStoreMongoTests.tearDown:91 » IllegalArgument attempt to create delete ev...
+  CrossStoreMongoTests.setUp:66->clearData:102 » DataAccessResourceFailure Timed...
+  CrossStoreMongoTests.tearDown:91 » IllegalArgument attempt to create delete ev...
+  CrossStoreMongoTests.setUp:66->clearData:102 » DataAccessResourceFailure Timed...
+  CrossStoreMongoTests.tearDown:91 » IllegalArgument attempt to create delete ev...
+  CrossStoreMongoTests.setUp:66->clearData:102 » DataAccessResourceFailure Timed...
+  CrossStoreMongoTests.tearDown:91 » IllegalArgument attempt to create delete ev...
+
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 44.291 s
+[INFO] Finished at: 2017-03-03T10:54:38-03:00
+[INFO] Final Memory: 15M/192M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project spring-data-mongodb-cross-store: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb-cross-store/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,123 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-actuator:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Actuator Sample 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-rules) @ spring-boot-sample-actuator ---
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.0.0.BUILD-SNAPSHOT:build-info (generate build info) @ spring-boot-sample-actuator ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-boot-sample-actuator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-sample-actuator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-boot-sample-actuator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-sample-actuator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-sample-actuator ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-actuator/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running sample.actuator.ManagementPathSampleActuatorApplicationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.781 sec - in sample.actuator.ManagementPathSampleActuatorApplicationTests
+Running sample.actuator.ManagementPortAndPathSampleActuatorApplicationTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.352 sec - in sample.actuator.ManagementPortAndPathSampleActuatorApplicationTests
+Running sample.actuator.EndpointsPropertiesSampleActuatorApplicationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.073 sec - in sample.actuator.EndpointsPropertiesSampleActuatorApplicationTests
+Running sample.actuator.ServletPathInsecureSampleActuatorApplicationTests
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.035 sec <<< FAILURE! - in sample.actuator.ServletPathInsecureSampleActuatorApplicationTests
+testHome(sample.actuator.ServletPathInsecureSampleActuatorApplicationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[200]> but was:<[404]>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sample.actuator.ServletPathInsecureSampleActuatorApplicationTests.testHome(ServletPathInsecureSampleActuatorApplicationTests.java:55)
+
+testMetricsIsSecure(sample.actuator.ServletPathInsecureSampleActuatorApplicationTests)  Time elapsed: 0.013 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<40[1]> but was:<40[4]>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sample.actuator.ServletPathInsecureSampleActuatorApplicationTests.testMetricsIsSecure(ServletPathInsecureSampleActuatorApplicationTests.java:67)
+
+Running sample.actuator.ManagementAddressActuatorApplicationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.162 sec - in sample.actuator.ManagementAddressActuatorApplicationTests
+Running sample.actuator.NonSensitiveHealthTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.894 sec - in sample.actuator.NonSensitiveHealthTests
+Running sample.actuator.InsecureManagementPortAndPathSampleActuatorApplicationTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.985 sec - in sample.actuator.InsecureManagementPortAndPathSampleActuatorApplicationTests
+Running sample.actuator.ServletPathSampleActuatorApplicationTests
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.026 sec <<< FAILURE! - in sample.actuator.ServletPathSampleActuatorApplicationTests
+testErrorPath(sample.actuator.ServletPathSampleActuatorApplicationTests)  Time elapsed: 0.021 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[500]> but was:<[401]>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sample.actuator.ServletPathSampleActuatorApplicationTests.testErrorPath(ServletPathSampleActuatorApplicationTests.java:54)
+
+testHealth(sample.actuator.ServletPathSampleActuatorApplicationTests)  Time elapsed: 0.007 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[200]> but was:<[401]>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sample.actuator.ServletPathSampleActuatorApplicationTests.testHealth(ServletPathSampleActuatorApplicationTests.java:65)
+
+Running sample.actuator.NoManagementSampleActuatorApplicationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.862 sec - in sample.actuator.NoManagementSampleActuatorApplicationTests
+Running sample.actuator.ManagementPortSampleActuatorApplicationTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.051 sec - in sample.actuator.ManagementPortSampleActuatorApplicationTests
+Running sample.actuator.SampleActuatorApplicationTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.112 sec - in sample.actuator.SampleActuatorApplicationTests
+Running sample.actuator.InsecureManagementSampleActuatorApplicationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.873 sec - in sample.actuator.InsecureManagementSampleActuatorApplicationTests
+Running sample.actuator.ShutdownSampleActuatorApplicationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.835 sec - in sample.actuator.ShutdownSampleActuatorApplicationTests
+Running sample.actuator.InsecureSampleActuatorApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.797 sec - in sample.actuator.InsecureSampleActuatorApplicationTests
+
+Results :
+
+Failed tests: 
+  ServletPathInsecureSampleActuatorApplicationTests.testHome:55 expected:<[200]> but was:<[404]>
+  ServletPathInsecureSampleActuatorApplicationTests.testMetricsIsSecure:67 expected:<40[1]> but was:<40[4]>
+  ServletPathSampleActuatorApplicationTests.testErrorPath:54 expected:<[500]> but was:<[401]>
+  ServletPathSampleActuatorApplicationTests.testHealth:65 expected:<[200]> but was:<[401]>
+
+Tests run: 47, Failures: 4, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18.915 s
+[INFO] Finished at: 2017-03-03T10:24:30-03:00
+[INFO] Final Memory: 22M/256M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project spring-boot-sample-actuator: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-actuator/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

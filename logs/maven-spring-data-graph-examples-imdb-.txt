@@ -1,0 +1,145 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building imdb 0.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.0:compile (default) @ imdb ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.2:resources (default-resources) @ imdb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.1:compile (default-compile) @ imdb ---
+[INFO] Compiling 30 source files to /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Actor.java:[15,53] error: incompatible types: Class<Movie> cannot be converted to Class<? extends NodeBacked>
+
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Movie.java:[17,53] error: incompatible types: Class<Actor> cannot be converted to Class<? extends NodeBacked>
+
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Lookup.java:[20,35] error: incompatible types: Class<Movie> cannot be converted to Class<? extends NodeBacked>
+
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Lookup.java:[22,35] error: incompatible types: Class<Actor> cannot be converted to Class<? extends NodeBacked>
+
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Actor.java:[31,15] error: cannot find symbol
+
+[ERROR]  class Actor
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Actor.java:[40,8] error: cannot find symbol
+
+[ERROR]  class Actor
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/LookupRepository.java:[9,58] error: type argument Lookup is not within bounds of type-variable T
+
+[ERROR] 
+    T extends GraphBacked<?> declared in interface GraphRepository
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Lookup.java:[33,8] error: cannot find symbol
+
+[ERROR]  class Lookup
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ActorRepository.java:[9,57] error: type argument Actor is not within bounds of type-variable T
+
+[ERROR] 
+    T extends GraphBacked<?> declared in interface GraphRepository
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[27,39] error: cannot find symbol
+
+[ERROR]  class Actor
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[34,39] error: cannot find symbol
+
+[ERROR]  class Movie
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[66,48] error: cannot find symbol
+
+[ERROR]  variable bacon of type Actor
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[74,122] error: cannot find symbol
+
+[ERROR]  variable bacon of type Actor
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[74,150] error: cannot find symbol
+
+[ERROR]  variable actor of type Actor
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[84,58] error: method createEntityFromState in class GraphDatabaseContext cannot be applied to given types;
+
+[ERROR] 
+    S extends PropertyContainer declared in method <S,T>createEntityFromState(S,Class<T>)
+    T extends GraphBacked<S> declared in method <S,T>createEntityFromState(S,Class<T>)
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[86,58] error: method createEntityFromState in class GraphDatabaseContext cannot be applied to given types;
+
+[ERROR] 
+    S extends PropertyContainer declared in method <S,T>createEntityFromState(S,Class<T>)
+    T extends GraphBacked<S> declared in method <S,T>createEntityFromState(S,Class<T>)
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/MovieRepository.java:[9,57] error: type argument Movie is not within bounds of type-variable T
+
+[ERROR] 
+    T extends GraphBacked<?> declared in interface GraphRepository
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbSearchEngineImpl.java:[60,52] error: cannot find symbol
+
+[INFO] 18 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.311 s
+[INFO] Finished at: 2017-03-03T10:53:27-03:00
+[INFO] Final Memory: 15M/168M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.1:compile (default-compile) on project imdb: Compilation failure: Compilation failure:
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Actor.java:[15,53] error: incompatible types: Class<Movie> cannot be converted to Class<? extends NodeBacked>
+[ERROR] 
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Movie.java:[17,53] error: incompatible types: Class<Actor> cannot be converted to Class<? extends NodeBacked>
+[ERROR] 
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Lookup.java:[20,35] error: incompatible types: Class<Movie> cannot be converted to Class<? extends NodeBacked>
+[ERROR] 
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Lookup.java:[22,35] error: incompatible types: Class<Actor> cannot be converted to Class<? extends NodeBacked>
+[ERROR] 
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Actor.java:[31,15] error: cannot find symbol
+[ERROR] 
+[ERROR] class Actor
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Actor.java:[40,8] error: cannot find symbol
+[ERROR] 
+[ERROR] class Actor
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/LookupRepository.java:[9,58] error: type argument Lookup is not within bounds of type-variable T
+[ERROR] 
+[ERROR] 
+[ERROR] T extends GraphBacked<?> declared in interface GraphRepository
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/Lookup.java:[33,8] error: cannot find symbol
+[ERROR] 
+[ERROR] class Lookup
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ActorRepository.java:[9,57] error: type argument Actor is not within bounds of type-variable T
+[ERROR] 
+[ERROR] 
+[ERROR] T extends GraphBacked<?> declared in interface GraphRepository
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[27,39] error: cannot find symbol
+[ERROR] 
+[ERROR] class Actor
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[34,39] error: cannot find symbol
+[ERROR] 
+[ERROR] class Movie
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[66,48] error: cannot find symbol
+[ERROR] 
+[ERROR] variable bacon of type Actor
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[74,122] error: cannot find symbol
+[ERROR] 
+[ERROR] variable bacon of type Actor
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[74,150] error: cannot find symbol
+[ERROR] 
+[ERROR] variable actor of type Actor
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[84,58] error: method createEntityFromState in class GraphDatabaseContext cannot be applied to given types;
+[ERROR] 
+[ERROR] 
+[ERROR] S extends PropertyContainer declared in method <S,T>createEntityFromState(S,Class<T>)
+[ERROR] T extends GraphBacked<S> declared in method <S,T>createEntityFromState(S,Class<T>)
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbServiceImpl.java:[86,58] error: method createEntityFromState in class GraphDatabaseContext cannot be applied to given types;
+[ERROR] 
+[ERROR] 
+[ERROR] S extends PropertyContainer declared in method <S,T>createEntityFromState(S,Class<T>)
+[ERROR] T extends GraphBacked<S> declared in method <S,T>createEntityFromState(S,Class<T>)
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/MovieRepository.java:[9,57] error: type argument Movie is not within bounds of type-variable T
+[ERROR] 
+[ERROR] 
+[ERROR] T extends GraphBacked<?> declared in interface GraphRepository
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/imdb/src/main/java/org/neo4j/examples/imdb/domain/ImdbSearchEngineImpl.java:[60,52] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,164 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - WebMVC 2.6.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-rest-webmvc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ spring-data-rest-webmvc ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 107 source files to /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-webmvc/target/classes
+[INFO] /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/BasePathAwareHandlerMapping.java: Some input files use or override a deprecated API.
+[INFO] /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/BasePathAwareHandlerMapping.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/alps/RootResourceInformationToAlpsDescriptorConverter.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/alps/RootResourceInformationToAlpsDescriptorConverter.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-rest-webmvc ---
+[INFO] Ignored project with enabled = false
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-rest-webmvc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ spring-data-rest-webmvc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ spring-data-rest-webmvc ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.data.rest.webmvc.AugmentingHandlerMappingUnitTests
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.131 sec <<< FAILURE! - in org.springframework.data.rest.webmvc.AugmentingHandlerMappingUnitTests
+augmentsRequestMappingsWithBaseUriFromConfiguration(org.springframework.data.rest.webmvc.AugmentingHandlerMappingUnitTests)  Time elapsed: 0.101 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.data.rest.core.config.RepositoryRestConfiguration.setBasePath(Ljava/lang/String;)V
+	at org.springframework.data.rest.webmvc.AugmentingHandlerMappingUnitTests.augmentsRequestMappingsWithBaseUriFromConfiguration(AugmentingHandlerMappingUnitTests.java:60)
+
+Running org.springframework.data.rest.webmvc.mapping.AssociationsUnitTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.246 sec - in org.springframework.data.rest.webmvc.mapping.AssociationsUnitTests
+Running org.springframework.data.rest.webmvc.RootResourceInformationUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.springframework.data.rest.webmvc.RootResourceInformationUnitTests
+Running org.springframework.data.rest.webmvc.RepositoryRestExceptionHandlerUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in org.springframework.data.rest.webmvc.RepositoryRestExceptionHandlerUnitTests
+Running org.springframework.data.rest.webmvc.support.ETagUnitTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec - in org.springframework.data.rest.webmvc.support.ETagUnitTests
+Running org.springframework.data.rest.webmvc.support.RepositoryConstraintViolationExceptionMessageUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.data.rest.webmvc.support.RepositoryConstraintViolationExceptionMessageUnitTests
+Running org.springframework.data.rest.webmvc.support.PersistentEntityProjectorUnitTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec - in org.springframework.data.rest.webmvc.support.PersistentEntityProjectorUnitTests
+Running org.springframework.data.rest.webmvc.support.DelegatingHandlerMappingUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec - in org.springframework.data.rest.webmvc.support.DelegatingHandlerMappingUnitTests
+Running org.springframework.data.rest.webmvc.support.ETagDoesntMatchExceptionUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.webmvc.support.ETagDoesntMatchExceptionUnitTests
+Running org.springframework.data.rest.webmvc.CustomAcceptHeaderHttpServletRequestUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.data.rest.webmvc.CustomAcceptHeaderHttpServletRequestUnitTests
+Running org.springframework.data.rest.webmvc.config.RepositoryRestMvConfigurationIntegrationTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.773 sec - in org.springframework.data.rest.webmvc.config.RepositoryRestMvConfigurationIntegrationTests
+Running org.springframework.data.rest.webmvc.config.ArgumentResolverPagingAndSortingTemplateVariablesUnitTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec - in org.springframework.data.rest.webmvc.config.ArgumentResolverPagingAndSortingTemplateVariablesUnitTests
+Running org.springframework.data.rest.webmvc.json.JsonSchemaUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.webmvc.json.JsonSchemaUnitTests
+Running org.springframework.data.rest.webmvc.json.PersistentEntityJackson2ModuleUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec - in org.springframework.data.rest.webmvc.json.PersistentEntityJackson2ModuleUnitTests
+Running org.springframework.data.rest.webmvc.json.EnumTranslatorUnitTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in org.springframework.data.rest.webmvc.json.EnumTranslatorUnitTests
+Running org.springframework.data.rest.webmvc.json.SortTranslatorUnitTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.springframework.data.rest.webmvc.json.SortTranslatorUnitTests
+Running org.springframework.data.rest.webmvc.json.patch.CopyOperationTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in org.springframework.data.rest.webmvc.json.patch.CopyOperationTests
+Running org.springframework.data.rest.webmvc.json.patch.PathToSpelTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.data.rest.webmvc.json.patch.PathToSpelTests
+Running org.springframework.data.rest.webmvc.json.patch.MoveOperationTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.springframework.data.rest.webmvc.json.patch.MoveOperationTests
+Running org.springframework.data.rest.webmvc.json.patch.JsonPatchTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in org.springframework.data.rest.webmvc.json.patch.JsonPatchTests
+Running org.springframework.data.rest.webmvc.json.patch.AddOperationTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.rest.webmvc.json.patch.AddOperationTests
+Running org.springframework.data.rest.webmvc.json.patch.RemoveOperationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.data.rest.webmvc.json.patch.RemoveOperationTests
+Running org.springframework.data.rest.webmvc.json.patch.ReplaceOperationTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.data.rest.webmvc.json.patch.ReplaceOperationTests
+Running org.springframework.data.rest.webmvc.json.patch.TestOperationTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.webmvc.json.patch.TestOperationTests
+Running org.springframework.data.rest.webmvc.json.JacksonMetadataUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.data.rest.webmvc.json.JacksonMetadataUnitTests
+Running org.springframework.data.rest.webmvc.json.DomainObjectReaderUnitTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in org.springframework.data.rest.webmvc.json.DomainObjectReaderUnitTests
+Running org.springframework.data.rest.webmvc.json.MappingAwarePageableArgumentResolverUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in org.springframework.data.rest.webmvc.json.MappingAwarePageableArgumentResolverUnitTests
+Running org.springframework.data.rest.webmvc.json.ProjectionJacksonIntegrationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in org.springframework.data.rest.webmvc.json.ProjectionJacksonIntegrationTests
+Running org.springframework.data.rest.webmvc.json.UriStringDeserializerUnitTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in org.springframework.data.rest.webmvc.json.UriStringDeserializerUnitTests
+Running org.springframework.data.rest.webmvc.RepositorySearchesResourceUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.data.rest.webmvc.RepositorySearchesResourceUnitTests
+Running org.springframework.data.rest.webmvc.PersistentEntityResourceUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.data.rest.webmvc.PersistentEntityResourceUnitTests
+Running org.springframework.data.rest.webmvc.BaseUriUnitTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.data.rest.webmvc.BaseUriUnitTests
+Running org.springframework.data.rest.webmvc.AssociationLinksUnitTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.data.rest.webmvc.AssociationLinksUnitTests
+Running org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests
+Tests run: 11, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.246 sec <<< FAILURE! - in org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests
+returnsRepositoryHandlerMethodForAbsoluteBaseUri(org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.data.rest.core.config.RepositoryRestConfiguration.setBasePath(Ljava/lang/String;)V
+	at org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests.returnsRepositoryHandlerMethodForAbsoluteBaseUri(RepositoryRestHandlerMappingUnitTests.java:163)
+
+returnsRepositoryHandlerMethodWithBaseUriConfigured(org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.data.rest.core.config.RepositoryRestConfiguration.setBasePath(Ljava/lang/String;)V
+	at org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests.returnsRepositoryHandlerMethodWithBaseUriConfigured(RepositoryRestHandlerMappingUnitTests.java:127)
+
+returnsRepositoryHandlerMethodForAbsoluteBaseUriWithServletMapping(org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.data.rest.core.config.RepositoryRestConfiguration.setBasePath(Ljava/lang/String;)V
+	at org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests.returnsRepositoryHandlerMethodForAbsoluteBaseUriWithServletMapping(RepositoryRestHandlerMappingUnitTests.java:182)
+
+returnsRootHandlerMethodWithBaseUriConfigured(org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.data.rest.core.config.RepositoryRestConfiguration.setBasePath(Ljava/lang/String;)V
+	at org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests.returnsRootHandlerMethodWithBaseUriConfigured(RepositoryRestHandlerMappingUnitTests.java:145)
+
+refrainsFromMappingWhenUrisDontMatch(org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.data.rest.core.config.RepositoryRestConfiguration.setBasePath(Ljava/lang/String;)V
+	at org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests.refrainsFromMappingWhenUrisDontMatch(RepositoryRestHandlerMappingUnitTests.java:221)
+
+refrainsFromMappingIfTheRequestDoesNotPointIntoAbsolutelyDefinedUriSpace(org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.data.rest.core.config.RepositoryRestConfiguration.setBasePath(Ljava/lang/String;)V
+	at org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests.refrainsFromMappingIfTheRequestDoesNotPointIntoAbsolutelyDefinedUriSpace(RepositoryRestHandlerMappingUnitTests.java:201)
+
+Running org.springframework.data.rest.webmvc.IncomingRequestUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.webmvc.IncomingRequestUnitTests
+Running org.springframework.data.rest.webmvc.RepositoryPropertyReferenceControllerUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in org.springframework.data.rest.webmvc.RepositoryPropertyReferenceControllerUnitTests
+
+Results :
+
+Tests in error: 
+  AugmentingHandlerMappingUnitTests.augmentsRequestMappingsWithBaseUriFromConfiguration:60 NoSuchMethod
+  RepositoryRestHandlerMappingUnitTests.refrainsFromMappingIfTheRequestDoesNotPointIntoAbsolutelyDefinedUriSpace:201 NoSuchMethod
+  RepositoryRestHandlerMappingUnitTests.refrainsFromMappingWhenUrisDontMatch:221 NoSuchMethod
+  RepositoryRestHandlerMappingUnitTests.returnsRepositoryHandlerMethodForAbsoluteBaseUri:163 NoSuchMethod
+  RepositoryRestHandlerMappingUnitTests.returnsRepositoryHandlerMethodForAbsoluteBaseUriWithServletMapping:182 NoSuchMethod
+  RepositoryRestHandlerMappingUnitTests.returnsRepositoryHandlerMethodWithBaseUriConfigured:127 NoSuchMethod
+  RepositoryRestHandlerMappingUnitTests.returnsRootHandlerMethodWithBaseUriConfigured:145 NoSuchMethod
+
+Tests run: 164, Failures: 0, Errors: 7, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.442 s
+[INFO] Finished at: 2017-03-03T10:58:21-03:00
+[INFO] Final Memory: 27M/399M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project spring-data-rest-webmvc: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-webmvc/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

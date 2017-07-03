@@ -1,0 +1,281 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Developer Tools 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-devtools ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-devtools ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-devtools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-devtools ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-devtools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-devtools ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-devtools ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-devtools/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.boot.devtools.tunnel.server.HttpTunnelServerHandlerTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.195 sec - in org.springframework.boot.devtools.tunnel.server.HttpTunnelServerHandlerTests
+Running org.springframework.boot.devtools.restart.MainMethodTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in org.springframework.boot.devtools.restart.MainMethodTests
+Running org.springframework.boot.devtools.tunnel.client.HttpTunnelConnectionTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 sec - in org.springframework.boot.devtools.tunnel.client.HttpTunnelConnectionTests
+Running org.springframework.boot.devtools.restart.RestartScopeInitializerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.731 sec - in org.springframework.boot.devtools.restart.RestartScopeInitializerTests
+Running org.springframework.boot.devtools.remote.client.ClassPathChangeUploaderTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.047 sec - in org.springframework.boot.devtools.remote.client.ClassPathChangeUploaderTests
+Running org.springframework.boot.devtools.tunnel.server.HttpTunnelServerTests
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.894 sec - in org.springframework.boot.devtools.tunnel.server.HttpTunnelServerTests
+Running org.springframework.boot.devtools.restart.server.RestartServerTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in org.springframework.boot.devtools.restart.server.RestartServerTests
+Running org.springframework.boot.devtools.autoconfigure.DevToolsPooledDataSourceAutoConfigurationTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.569 sec - in org.springframework.boot.devtools.autoconfigure.DevToolsPooledDataSourceAutoConfigurationTests
+Running org.springframework.boot.devtools.classpath.PatternClassPathRestartStrategyTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in org.springframework.boot.devtools.classpath.PatternClassPathRestartStrategyTests
+Running org.springframework.boot.devtools.restart.OnInitializedRestarterConditionTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec - in org.springframework.boot.devtools.restart.OnInitializedRestarterConditionTests
+Running org.springframework.boot.devtools.filewatch.ChangedFileTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.springframework.boot.devtools.filewatch.ChangedFileTests
+Running org.springframework.boot.devtools.livereload.ConnectionOutputStreamTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in org.springframework.boot.devtools.livereload.ConnectionOutputStreamTests
+Running org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcherTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.257 sec - in org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcherTests
+Running org.springframework.boot.devtools.remote.server.DispatcherTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in org.springframework.boot.devtools.remote.server.DispatcherTests
+Running org.springframework.boot.devtools.restart.RestarterTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.641 sec - in org.springframework.boot.devtools.restart.RestarterTests
+Running org.springframework.boot.devtools.remote.server.HttpHeaderAccessManagerTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.boot.devtools.remote.server.HttpHeaderAccessManagerTests
+Running org.springframework.boot.devtools.restart.classloader.ClassLoaderFileTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.boot.devtools.restart.classloader.ClassLoaderFileTests
+Running org.springframework.boot.devtools.filewatch.FileSystemWatcherTests
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.532 sec - in org.springframework.boot.devtools.filewatch.FileSystemWatcherTests
+Running org.springframework.boot.devtools.remote.client.RemoteClientConfigurationTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.678 sec - in org.springframework.boot.devtools.remote.client.RemoteClientConfigurationTests
+Running org.springframework.boot.devtools.autoconfigure.DevToolsPropertiesTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.boot.devtools.autoconfigure.DevToolsPropertiesTests
+Running org.springframework.boot.devtools.settings.DevToolsSettingsTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.boot.devtools.settings.DevToolsSettingsTests
+Running org.springframework.boot.devtools.restart.classloader.RestartClassLoaderTests
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in org.springframework.boot.devtools.restart.classloader.RestartClassLoaderTests
+Running org.springframework.boot.devtools.livereload.FrameTests
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.boot.devtools.livereload.FrameTests
+Running org.springframework.boot.devtools.restart.DefaultRestartInitializerTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.devtools.restart.DefaultRestartInitializerTests
+Running org.springframework.boot.devtools.restart.server.HttpRestartServerHandlerTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.boot.devtools.restart.server.HttpRestartServerHandlerTests
+Running org.springframework.boot.devtools.restart.ChangeableUrlsTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.boot.devtools.restart.ChangeableUrlsTests
+Running org.springframework.boot.devtools.tunnel.client.TunnelClientTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.623 sec - in org.springframework.boot.devtools.tunnel.client.TunnelClientTests
+Running org.springframework.boot.devtools.remote.client.HttpHeaderInterceptorTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.boot.devtools.remote.client.HttpHeaderInterceptorTests
+Running org.springframework.boot.devtools.restart.RestartApplicationListenerTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in org.springframework.boot.devtools.restart.RestartApplicationListenerTests
+Running org.springframework.boot.devtools.env.DevToolsHomePropertiesPostProcessorTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.boot.devtools.env.DevToolsHomePropertiesPostProcessorTests
+Running org.springframework.boot.devtools.classpath.ClassPathChangedEventTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.devtools.classpath.ClassPathChangedEventTests
+Running org.springframework.boot.devtools.filewatch.FolderSnapshotTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.boot.devtools.filewatch.FolderSnapshotTests
+Running org.springframework.boot.devtools.restart.SilentExitExceptionHandlerTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.boot.devtools.restart.SilentExitExceptionHandlerTests
+Running org.springframework.boot.devtools.tunnel.payload.HttpTunnelPayloadTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.boot.devtools.tunnel.payload.HttpTunnelPayloadTests
+Running org.springframework.boot.devtools.restart.classloader.ClassLoaderFilesTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.boot.devtools.restart.classloader.ClassLoaderFilesTests
+Running org.springframework.boot.devtools.restart.server.HttpRestartServerTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.springframework.boot.devtools.restart.server.HttpRestartServerTests
+Running org.springframework.boot.devtools.remote.server.UrlHandlerMapperTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.boot.devtools.remote.server.UrlHandlerMapperTests
+Running org.springframework.boot.devtools.restart.server.DefaultSourceFolderUrlFilterTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in org.springframework.boot.devtools.restart.server.DefaultSourceFolderUrlFilterTests
+Running org.springframework.boot.devtools.integrationtest.HttpTunnelIntegrationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.487 sec - in org.springframework.boot.devtools.integrationtest.HttpTunnelIntegrationTests
+Running org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServerTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServerTests
+Running org.springframework.boot.devtools.tunnel.server.SocketTargetServerConnectionTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in org.springframework.boot.devtools.tunnel.server.SocketTargetServerConnectionTests
+Running org.springframework.boot.devtools.filewatch.FileSnapshotTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.boot.devtools.filewatch.FileSnapshotTests
+Running org.springframework.boot.devtools.classpath.ClassPathFileChangeListenerTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.boot.devtools.classpath.ClassPathFileChangeListenerTests
+Running org.springframework.boot.devtools.remote.client.DelayedLiveReloadTriggerTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.439 sec - in org.springframework.boot.devtools.remote.client.DelayedLiveReloadTriggerTests
+Running org.springframework.boot.devtools.livereload.LiveReloadServerTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 182.023 sec - in org.springframework.boot.devtools.livereload.LiveReloadServerTests
+Running org.springframework.boot.devtools.remote.server.DispatcherFilterTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in org.springframework.boot.devtools.remote.server.DispatcherFilterTests
+Running org.springframework.boot.devtools.tunnel.server.StaticPortProviderTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.devtools.tunnel.server.StaticPortProviderTests
+Running org.springframework.boot.devtools.RemoteUrlPropertyExtractorTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 sec - in org.springframework.boot.devtools.RemoteUrlPropertyExtractorTests
+Running org.springframework.boot.devtools.env.DevToolPropertiesIntegrationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec - in org.springframework.boot.devtools.env.DevToolPropertiesIntegrationTests
+Running org.springframework.boot.devtools.remote.server.HttpStatusHandlerTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.devtools.remote.server.HttpStatusHandlerTests
+Running org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfigurationTests
+Tests run: 16, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 3.082 sec <<< FAILURE! - in org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfigurationTests
+thymeleafCacheIsFalse(org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfigurationTests)  Time elapsed: 0.273 sec  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.thymeleaf.templateresolver.TemplateResolver' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:343)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:330)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1091)
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfigurationTests.thymeleafCacheIsFalse(LocalDevToolsAutoConfigurationTests.java:96)
+
+defaultPropertyCanBeOverriddenFromCommandLine(org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfigurationTests)  Time elapsed: 0.211 sec  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.thymeleaf.templateresolver.TemplateResolver' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:343)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:330)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1091)
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfigurationTests.defaultPropertyCanBeOverriddenFromCommandLine(LocalDevToolsAutoConfigurationTests.java:104)
+
+devToolsSwitchesJspServletToDevelopmentMode(org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfigurationTests)  Time elapsed: 0.192 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getEmbeddedServletContainer()Lorg/springframework/boot/context/embedded/EmbeddedServletContainer;
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfigurationTests.devToolsSwitchesJspServletToDevelopmentMode(LocalDevToolsAutoConfigurationTests.java:249)
+
+defaultPropertyCanBeOverriddenFromUserHomeProperties(org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfigurationTests)  Time elapsed: 0.196 sec  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.thymeleaf.templateresolver.TemplateResolver' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:343)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:330)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1091)
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfigurationTests.defaultPropertyCanBeOverriddenFromUserHomeProperties(LocalDevToolsAutoConfigurationTests.java:116)
+
+Running org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests
+Tests run: 13, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests
+ignoresIfMissingSecretFromRequest(org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.loadContext(RemoteDevToolsAutoConfigurationTests.java:234)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.ignoresIfMissingSecretFromRequest(RemoteDevToolsAutoConfigurationTests.java:112)
+
+invokeTunnelWithCustomServerContextPath(org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.loadContext(RemoteDevToolsAutoConfigurationTests.java:234)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.invokeTunnelWithCustomServerContextPath(RemoteDevToolsAutoConfigurationTests.java:170)
+
+disableRestart(org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.loadContext(RemoteDevToolsAutoConfigurationTests.java:234)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.disableRestart(RemoteDevToolsAutoConfigurationTests.java:152)
+
+ignoresUnmappedUrl(org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.loadContext(RemoteDevToolsAutoConfigurationTests.java:234)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.ignoresUnmappedUrl(RemoteDevToolsAutoConfigurationTests.java:102)
+
+disabledIfRemoteSecretIsMissing(org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.loadContext(RemoteDevToolsAutoConfigurationTests.java:234)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.disabledIfRemoteSecretIsMissing(RemoteDevToolsAutoConfigurationTests.java:95)
+
+invokeTunnelWithCustomHeaderName(org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.loadContext(RemoteDevToolsAutoConfigurationTests.java:234)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.invokeTunnelWithCustomHeaderName(RemoteDevToolsAutoConfigurationTests.java:181)
+
+invokeTunnelWithDefaultSetup(org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.loadContext(RemoteDevToolsAutoConfigurationTests.java:234)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.invokeTunnelWithDefaultSetup(RemoteDevToolsAutoConfigurationTests.java:160)
+
+disableRemoteDebug(org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.loadContext(RemoteDevToolsAutoConfigurationTests.java:234)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.disableRemoteDebug(RemoteDevToolsAutoConfigurationTests.java:192)
+
+invokeRestartWithCustomServerContextPath(org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.loadContext(RemoteDevToolsAutoConfigurationTests.java:234)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.invokeRestartWithCustomServerContextPath(RemoteDevToolsAutoConfigurationTests.java:141)
+
+ignoresInvalidSecretInRequest(org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.loadContext(RemoteDevToolsAutoConfigurationTests.java:234)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.ignoresInvalidSecretInRequest(RemoteDevToolsAutoConfigurationTests.java:121)
+
+invokeRestartWithDefaultSetup(org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.loadContext(RemoteDevToolsAutoConfigurationTests.java:234)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.invokeRestartWithDefaultSetup(RemoteDevToolsAutoConfigurationTests.java:131)
+
+devToolsHealthWithCustomServerContextPathReturns200(org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.loadContext(RemoteDevToolsAutoConfigurationTests.java:234)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.devToolsHealthWithCustomServerContextPathReturns200(RemoteDevToolsAutoConfigurationTests.java:211)
+
+devToolsHealthReturns200(org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.loadContext(RemoteDevToolsAutoConfigurationTests.java:234)
+	at org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfigurationTests.devToolsHealthReturns200(RemoteDevToolsAutoConfigurationTests.java:200)
+
+Running org.springframework.boot.devtools.remote.client.LocalDebugPortAvailableConditionTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.boot.devtools.remote.client.LocalDebugPortAvailableConditionTests
+Running org.springframework.boot.devtools.autoconfigure.DevToolsEmbeddedDataSourceAutoConfigurationTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.734 sec - in org.springframework.boot.devtools.autoconfigure.DevToolsEmbeddedDataSourceAutoConfigurationTests
+Running org.springframework.boot.devtools.livereload.ConnectionInputStreamTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.boot.devtools.livereload.ConnectionInputStreamTests
+Running org.springframework.boot.devtools.tunnel.payload.HttpTunnelPayloadForwarderTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.devtools.tunnel.payload.HttpTunnelPayloadForwarderTests
+Running org.springframework.boot.devtools.autoconfigure.TriggerFileFilterTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.boot.devtools.autoconfigure.TriggerFileFilterTests
+
+Results :
+
+Tests in error: 
+  LocalDevToolsAutoConfigurationTests.thymeleafCacheIsFalse:96 » NoSuchBeanDefinition
+  LocalDevToolsAutoConfigurationTests.defaultPropertyCanBeOverriddenFromCommandLine:104 » NoSuchBeanDefinition
+  LocalDevToolsAutoConfigurationTests.devToolsSwitchesJspServletToDevelopmentMode:249 NoSuchMethod
+  LocalDevToolsAutoConfigurationTests.defaultPropertyCanBeOverriddenFromUserHomeProperties:116 » NoSuchBeanDefinition
+  RemoteDevToolsAutoConfigurationTests.ignoresIfMissingSecretFromRequest:112->loadContext:234 NoClassDefFound
+  RemoteDevToolsAutoConfigurationTests.invokeTunnelWithCustomServerContextPath:170->loadContext:234 NoClassDefFound
+  RemoteDevToolsAutoConfigurationTests.disableRestart:152->loadContext:234 NoClassDefFound
+  RemoteDevToolsAutoConfigurationTests.ignoresUnmappedUrl:102->loadContext:234 NoClassDefFound
+  RemoteDevToolsAutoConfigurationTests.disabledIfRemoteSecretIsMissing:95->loadContext:234 NoClassDefFound
+  RemoteDevToolsAutoConfigurationTests.invokeTunnelWithCustomHeaderName:181->loadContext:234 NoClassDefFound
+  RemoteDevToolsAutoConfigurationTests.invokeTunnelWithDefaultSetup:160->loadContext:234 NoClassDefFound
+  RemoteDevToolsAutoConfigurationTests.disableRemoteDebug:192->loadContext:234 NoClassDefFound
+  RemoteDevToolsAutoConfigurationTests.invokeRestartWithCustomServerContextPath:141->loadContext:234 NoClassDefFound
+  RemoteDevToolsAutoConfigurationTests.ignoresInvalidSecretInRequest:121->loadContext:234 NoClassDefFound
+  RemoteDevToolsAutoConfigurationTests.invokeRestartWithDefaultSetup:131->loadContext:234 NoClassDefFound
+  RemoteDevToolsAutoConfigurationTests.devToolsHealthWithCustomServerContextPathReturns200:211->loadContext:234 NoClassDefFound
+  RemoteDevToolsAutoConfigurationTests.devToolsHealthReturns200:200->loadContext:234 NoClassDefFound
+
+Tests run: 339, Failures: 0, Errors: 17, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:28 min
+[INFO] Finished at: 2017-03-03T10:22:19-03:00
+[INFO] Final Memory: 26M/329M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project spring-boot-devtools: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-boot/spring-boot-devtools/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

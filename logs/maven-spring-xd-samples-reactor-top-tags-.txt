@@ -1,0 +1,67 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building reactor-top-tags 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ reactor-top-tags ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ reactor-top-tags ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[23,18] package reactor.rx does not exist
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[24,18] package reactor.rx does not exist
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[25,18] package reactor.rx does not exist
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[46,38] cannot find symbol
+  symbol:   class Stream
+  location: class com.acme.TopTags
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[46,16] cannot find symbol
+  symbol:   class Stream
+  location: class com.acme.TopTags
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[33,8] cannot access reactor.rx.Stream
+  class file for reactor.rx.Stream not found
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[51,32] cannot find symbol
+  symbol:   variable Streams
+  location: class com.acme.TopTags
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[55,47] cannot find symbol
+  symbol:   variable BiStreams
+  location: class com.acme.TopTags
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.197 s
+[INFO] Finished at: 2017-03-03T11:20:50-03:00
+[INFO] Final Memory: 35M/276M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project reactor-top-tags: Compilation failure: Compilation failure:
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[23,18] package reactor.rx does not exist
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[24,18] package reactor.rx does not exist
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[25,18] package reactor.rx does not exist
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[46,38] cannot find symbol
+[ERROR] symbol:   class Stream
+[ERROR] location: class com.acme.TopTags
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[46,16] cannot find symbol
+[ERROR] symbol:   class Stream
+[ERROR] location: class com.acme.TopTags
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[33,8] cannot access reactor.rx.Stream
+[ERROR] class file for reactor.rx.Stream not found
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[51,32] cannot find symbol
+[ERROR] symbol:   variable Streams
+[ERROR] location: class com.acme.TopTags
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-top-tags/src/main/java/com/acme/TopTags.java:[55,47] cannot find symbol
+[ERROR] symbol:   variable BiStreams
+[ERROR] location: class com.acme.TopTags
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data JPA - Refactoring showcase 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:add-source (add-source) @ spring-data-jpa-showcase ---
+[INFO] Source directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/showcase/src/snippets/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:add-test-source (add-test-source) @ spring-data-jpa-showcase ---
+[INFO] Test Source directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/showcase/src/test-snippets/java added.
+[INFO] 
+[INFO] --- apt-maven-plugin:1.1.3:process (default) @ spring-data-jpa-showcase ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-jpa-showcase ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-jpa-showcase ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/guilherme/spring-projects/maven/spring-data-examples/jpa/showcase/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-jpa-showcase ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-jpa-showcase ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-jpa-showcase ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/showcase/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.jpa.showcase.before.AccountServiceIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.933 sec - in example.springdata.jpa.showcase.before.AccountServiceIntegrationTest
+Running example.springdata.jpa.showcase.after.CustomerRepositoryIntegrationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec - in example.springdata.jpa.showcase.after.CustomerRepositoryIntegrationTest
+Running example.springdata.jpa.showcase.before.CustomerServiceIntegrationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in example.springdata.jpa.showcase.before.CustomerServiceIntegrationTest
+Running example.springdata.jpa.showcase.after.AccountRepositoryIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in example.springdata.jpa.showcase.after.AccountRepositoryIntegrationTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.275 s
+[INFO] Finished at: 2017-03-03T10:46:19-03:00
+[INFO] Final Memory: 30M/273M
+[INFO] ------------------------------------------------------------------------

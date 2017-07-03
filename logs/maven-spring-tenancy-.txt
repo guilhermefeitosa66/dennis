@@ -1,0 +1,30 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Multi-Tenancy Framework 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-tenancy ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-tenancy/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ spring-tenancy ---
+[INFO] Compiling 17 source files to /home/guilherme/spring-projects/maven/spring-tenancy/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.562 s
+[INFO] Finished at: 2017-03-03T11:16:46-03:00
+[INFO] Final Memory: 13M/150M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project spring-tenancy: Compilation failure: Compilation failure:
+[ERROR] /home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/datasource/TenantAwareDataSource.java:[31,7] error: TenantAwareDataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+[ERROR] 
+[ERROR] /home/guilherme/spring-projects/maven/spring-tenancy/src/main/java/org/springframework/tenancy/datasource/ThreadlocalDatabaseSwitchingDataSource.java:[26,7] error: ThreadlocalDatabaseSwitchingDataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

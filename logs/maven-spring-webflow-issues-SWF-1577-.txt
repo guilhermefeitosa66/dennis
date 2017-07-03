@@ -1,0 +1,75 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.webflow.issues:SWF-1577:war:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 173, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 193, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Web Flow and JSF Issue Reproduction Project 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SWF-1577 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SWF-1577 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SWF-1577 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SWF-1577 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SWF-1577 ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1577/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.webflow.issues.MyFlowExecutionTests
+2017-03-03 11:18:56,620 INFO [org.springframework.context.support.StaticApplicationContext] - <Refreshing org.springframework.context.support.StaticApplicationContext@3f49dace: startup date [Fri Mar 03 11:18:56 BRT 2017]; root of context hierarchy>
+2017-03-03 11:18:56,627 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@167fdd33: defining beans []; root of factory hierarchy>
+2017-03-03 11:18:56,734 INFO [org.springframework.context.support.GenericApplicationContext] - <Refreshing Flow ApplicationContext [myflow]: startup date [Fri Mar 03 11:18:56 BRT 2017]; parent: org.springframework.context.support.StaticApplicationContext@3f49dace>
+2017-03-03 11:18:56,757 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@35a50a4c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@167fdd33>
+2017-03-03 11:18:56,769 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImplFactory] - <Creating new execution of 'myflow'>
+2017-03-03 11:18:56,777 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImpl] - <Starting in org.springframework.webflow.test.MockExternalContext@57175e74 with input map[[empty]]>
+2017-03-03 11:18:56,780 DEBUG [org.springframework.webflow.engine.ViewState] - <Entering state 'view' of flow 'myflow'>
+2017-03-03 11:18:56,780 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImpl] - <Assigned key 1>
+2017-03-03 11:18:56,784 DEBUG [org.springframework.webflow.engine.ViewState] - <Rendering + [MockViewFactoryCreator.MockView@534df152 viewId = 'view']>
+2017-03-03 11:18:56,784 DEBUG [org.springframework.webflow.engine.ViewState] - <  Flash scope = map[[empty]]>
+2017-03-03 11:18:56,784 DEBUG [org.springframework.webflow.engine.ViewState] - <  Messages = [DefaultMessageContext@52e677af sourceMessages = map[[null] -> list[[empty]]]]>
+2017-03-03 11:18:56,786 INFO [org.springframework.context.support.StaticApplicationContext] - <Refreshing org.springframework.context.support.StaticApplicationContext@341b80b2: startup date [Fri Mar 03 11:18:56 BRT 2017]; root of context hierarchy>
+2017-03-03 11:18:56,787 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2145433b: defining beans []; root of factory hierarchy>
+2017-03-03 11:18:56,809 INFO [org.springframework.context.support.GenericApplicationContext] - <Refreshing Flow ApplicationContext [myflow]: startup date [Fri Mar 03 11:18:56 BRT 2017]; parent: org.springframework.context.support.StaticApplicationContext@341b80b2>
+2017-03-03 11:18:56,811 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@123f1134: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@2145433b>
+2017-03-03 11:18:56,811 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImplFactory] - <Creating new execution of 'myflow'>
+2017-03-03 11:18:56,811 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImpl] - <Resuming in org.springframework.webflow.test.MockExternalContext@7d68ef40>
+2017-03-03 11:18:56,812 DEBUG [org.springframework.webflow.engine.ViewState] - <Event 'continue' returned from view [MockViewFactoryCreator.MockView@1f1c7bf6 viewId = 'view']>
+2017-03-03 11:18:56,812 DEBUG [org.springframework.webflow.engine.Transition] - <Executing [Transition@25b485ba on = continue, to = done]>
+2017-03-03 11:18:56,812 DEBUG [org.springframework.webflow.engine.Transition] - <Exiting state 'view'>
+2017-03-03 11:18:56,813 DEBUG [org.springframework.webflow.engine.EndState] - <Entering state 'done' of flow 'myflow'>
+2017-03-03 11:18:56,813 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Executing org.springframework.webflow.action.ViewFactoryActionAdapter@2c34f934>
+2017-03-03 11:18:56,814 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Executing org.springframework.webflow.action.ExternalRedirectAction@25a65b77>
+2017-03-03 11:18:56,814 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Finished executing org.springframework.webflow.action.ExternalRedirectAction@25a65b77; result = success>
+2017-03-03 11:18:56,814 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Finished executing org.springframework.webflow.action.ViewFactoryActionAdapter@2c34f934; result = success>
+2017-03-03 11:18:56,814 DEBUG [org.springframework.webflow.engine.Transition] - <Completed transition execution.  As a result, the flow execution has ended>
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.372 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.624 s
+[INFO] Finished at: 2017-03-03T11:18:56-03:00
+[INFO] Final Memory: 10M/150M
+[INFO] ------------------------------------------------------------------------

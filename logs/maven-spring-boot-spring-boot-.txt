@@ -1,0 +1,339 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 297 source files to /home/guilherme/spring-projects/maven/spring-boot/spring-boot/target/classes
+[WARNING] /home/guilherme/spring-projects/maven/spring-boot/spring-boot/src/main/java/org/springframework/boot/web/client/RootUriTemplateHandler.java: Some input files use or override a deprecated API.
+[WARNING] /home/guilherme/spring-projects/maven/spring-boot/spring-boot/src/main/java/org/springframework/boot/web/client/RootUriTemplateHandler.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 74 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 192 source files to /home/guilherme/spring-projects/maven/spring-boot/spring-boot/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-boot/spring-boot/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.boot.jta.atomikos.AtomikosXAConnectionFactoryWrapperTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.171 sec - in org.springframework.boot.jta.atomikos.AtomikosXAConnectionFactoryWrapperTests
+Running org.springframework.boot.web.servlet.WebListenerHandlerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec - in org.springframework.boot.web.servlet.WebListenerHandlerTests
+Running org.springframework.boot.bind.PropertiesConfigurationFactoryMapTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec - in org.springframework.boot.bind.PropertiesConfigurationFactoryMapTests
+Running org.springframework.boot.info.InfoPropertiesTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in org.springframework.boot.info.InfoPropertiesTests
+Running org.springframework.boot.info.GitPropertiesTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.boot.info.GitPropertiesTests
+Running org.springframework.boot.ReproTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.14 sec - in org.springframework.boot.ReproTests
+Running org.springframework.boot.bind.RelaxedDataBinderTests
+Tests run: 67, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.54 sec - in org.springframework.boot.bind.RelaxedDataBinderTests
+Running org.springframework.boot.context.config.DelegatingApplicationListenerTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.boot.context.config.DelegatingApplicationListenerTests
+Running org.springframework.boot.logging.log4j2.Log4J2LoggingSystemTests
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.516 sec - in org.springframework.boot.logging.log4j2.Log4J2LoggingSystemTests
+Running org.springframework.boot.jta.bitronix.PoolingConnectionFactoryBeanTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.springframework.boot.jta.bitronix.PoolingConnectionFactoryBeanTests
+Running org.springframework.boot.context.config.AnsiOutputApplicationListenerTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.459 sec - in org.springframework.boot.context.config.AnsiOutputApplicationListenerTests
+Running org.springframework.boot.DefaultApplicationArgumentsTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.boot.DefaultApplicationArgumentsTests
+Running org.springframework.boot.web.servlet.MultipartConfigFactoryTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.web.servlet.MultipartConfigFactoryTests
+Running org.springframework.boot.bind.PropertiesConfigurationFactoryTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in org.springframework.boot.bind.PropertiesConfigurationFactoryTests
+Running org.springframework.boot.context.config.DelegatingApplicationContextInitializerTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.boot.context.config.DelegatingApplicationContextInitializerTests
+Running org.springframework.boot.SimpleMainTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.864 sec - in org.springframework.boot.SimpleMainTests
+Running org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrarTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.454 sec - in org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrarTests
+Running org.springframework.boot.bind.PropertySourcesBindingTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.305 sec - in org.springframework.boot.bind.PropertySourcesBindingTests
+Running org.springframework.boot.context.properties.EnableConfigurationPropertiesTests
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.845 sec - in org.springframework.boot.context.properties.EnableConfigurationPropertiesTests
+Running org.springframework.boot.ExitCodeGeneratorsTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.springframework.boot.ExitCodeGeneratorsTests
+Running org.springframework.boot.context.ContextIdApplicationContextInitializerTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.context.ContextIdApplicationContextInitializerTests
+Running org.springframework.boot.cloud.CloudPlatformTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.cloud.CloudPlatformTests
+Running org.springframework.boot.system.ApplicationPidFileWriterTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in org.springframework.boot.system.ApplicationPidFileWriterTests
+Running org.springframework.boot.bind.YamlConfigurationFactoryTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.springframework.boot.bind.YamlConfigurationFactoryTests
+Running org.springframework.boot.logging.logback.LogbackLoggingSystemTests
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 sec - in org.springframework.boot.logging.logback.LogbackLoggingSystemTests
+Running org.springframework.boot.context.config.RandomValuePropertySourceTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in org.springframework.boot.context.config.RandomValuePropertySourceTests
+Running org.springframework.boot.yaml.SpringProfileDocumentMatcherTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.boot.yaml.SpringProfileDocumentMatcherTests
+Running org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializerTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.209 sec - in org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializerTests
+Running org.springframework.boot.bind.RelaxedPropertyResolverTests
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.springframework.boot.bind.RelaxedPropertyResolverTests
+Running org.springframework.boot.builder.SpringApplicationBuilderTests
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.771 sec - in org.springframework.boot.builder.SpringApplicationBuilderTests
+Running org.springframework.boot.web.client.RootUriTemplateHandlerTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 sec - in org.springframework.boot.web.client.RootUriTemplateHandlerTests
+Running org.springframework.boot.logging.log4j2.ExtendedWhitespaceThrowablePatternConverterTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.logging.log4j2.ExtendedWhitespaceThrowablePatternConverterTests
+Running org.springframework.boot.env.PropertySourcesLoaderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.env.PropertySourcesLoaderTests
+Running org.springframework.boot.logging.logback.SpringBootJoranConfiguratorTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 sec - in org.springframework.boot.logging.logback.SpringBootJoranConfiguratorTests
+Running org.springframework.boot.liquibase.CommonsLoggingLiquibaseLoggerTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.boot.liquibase.CommonsLoggingLiquibaseLoggerTests
+Running org.springframework.boot.jta.atomikos.AtomikosConnectionFactoryBeanTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in org.springframework.boot.jta.atomikos.AtomikosConnectionFactoryBeanTests
+Running org.springframework.boot.context.embedded.undertow.FileSessionPersistenceTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.boot.context.embedded.undertow.FileSessionPersistenceTests
+Running org.springframework.boot.web.servlet.WebFilterHandlerTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.boot.web.servlet.WebFilterHandlerTests
+Running org.springframework.boot.json.BasicJsonParserTests
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.boot.json.BasicJsonParserTests
+Running org.springframework.boot.web.support.ErrorPageFilterTests
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec - in org.springframework.boot.web.support.ErrorPageFilterTests
+Running org.springframework.boot.web.support.SpringBootServletInitializerTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in org.springframework.boot.web.support.SpringBootServletInitializerTests
+Running org.springframework.boot.web.client.RestTemplateBuilderTests
+Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.616 sec - in org.springframework.boot.web.client.RestTemplateBuilderTests
+Running org.springframework.boot.web.support.ErrorPageFilterIntegrationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.078 sec - in org.springframework.boot.web.support.ErrorPageFilterIntegrationTests
+Running org.springframework.boot.jdbc.DatabaseDriverClassNameTests
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in org.springframework.boot.jdbc.DatabaseDriverClassNameTests
+Running org.springframework.boot.jackson.JsonComponentModuleTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 sec - in org.springframework.boot.jackson.JsonComponentModuleTests
+Running org.springframework.boot.json.JsonJsonParserTests
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.boot.json.JsonJsonParserTests
+Running org.springframework.boot.jta.bitronix.PoolingDataSourceBeanTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.518 sec - in org.springframework.boot.jta.bitronix.PoolingDataSourceBeanTests
+Running org.springframework.boot.env.SpringApplicationJsonEnvironmentPostProcessorTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in org.springframework.boot.env.SpringApplicationJsonEnvironmentPostProcessorTests
+Running org.springframework.boot.BeanDefinitionLoaderTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.64 sec - in org.springframework.boot.BeanDefinitionLoaderTests
+Running org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategyTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 sec - in org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategyTests
+Running org.springframework.boot.jta.narayana.NarayanaConfigurationBeanTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec - in org.springframework.boot.jta.narayana.NarayanaConfigurationBeanTests
+Running org.springframework.boot.jta.narayana.NarayanaDataSourceBeanTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 sec - in org.springframework.boot.jta.narayana.NarayanaDataSourceBeanTests
+Running org.springframework.boot.jta.bitronix.BitronixDependentBeanFactoryPostProcessorTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.195 sec - in org.springframework.boot.jta.bitronix.BitronixDependentBeanFactoryPostProcessorTests
+Running org.springframework.boot.bind.PropertySourcesPropertyValuesTests
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in org.springframework.boot.bind.PropertySourcesPropertyValuesTests
+Running org.springframework.boot.web.servlet.ServletComponentScanRegistrarTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 sec - in org.springframework.boot.web.servlet.ServletComponentScanRegistrarTests
+Running org.springframework.boot.ansi.AnsiColorsTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in org.springframework.boot.ansi.AnsiColorsTests
+Running org.springframework.boot.logging.LoggingApplicationListenerTests
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.16 sec - in org.springframework.boot.logging.LoggingApplicationListenerTests
+Running org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactoryTests
+Tests run: 68, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 2.348 sec - in org.springframework.boot.context.embedded.undertow.UndertowEmbeddedServletContainerFactoryTests
+Running org.springframework.boot.web.servlet.WebServletHandlerTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.boot.web.servlet.WebServletHandlerTests
+Running org.springframework.boot.bind.ConverterBindingTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.243 sec - in org.springframework.boot.bind.ConverterBindingTests
+Running org.springframework.boot.jta.atomikos.AtomikosDataSourceBeanTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in org.springframework.boot.jta.atomikos.AtomikosDataSourceBeanTests
+Running org.springframework.boot.cloud.cloudfoundry.CloudFoundryVcapEnvironmentPostProcessorTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.springframework.boot.cloud.cloudfoundry.CloudFoundryVcapEnvironmentPostProcessorTests
+Running org.springframework.boot.logging.logback.ColorConverterTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.boot.logging.logback.ColorConverterTests
+Running org.springframework.boot.testutil.FilteredClassPathRunnerTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in org.springframework.boot.testutil.FilteredClassPathRunnerTests
+Running org.springframework.boot.env.PropertiesPropertySourceLoaderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in org.springframework.boot.env.PropertiesPropertySourceLoaderTests
+Running org.springframework.boot.OverrideSourcesTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.324 sec - in org.springframework.boot.OverrideSourcesTests
+Running org.springframework.boot.ApplicationPidTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.boot.ApplicationPidTests
+Running org.springframework.boot.web.support.ServletContextApplicationContextInitializerTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.springframework.boot.web.support.ServletContextApplicationContextInitializerTests
+Running org.springframework.boot.env.YamlPropertySourceLoaderTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.boot.env.YamlPropertySourceLoaderTests
+Running org.springframework.boot.jta.narayana.DataSourceXAResourceRecoveryHelperTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.springframework.boot.jta.narayana.DataSourceXAResourceRecoveryHelperTests
+Running org.springframework.boot.bind.PropertiesConfigurationFactoryPerformanceTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.219 sec - in org.springframework.boot.bind.PropertiesConfigurationFactoryPerformanceTests
+Running org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactoryTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactoryTests
+Running org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContextTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.371 sec - in org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContextTests
+Running org.springframework.boot.diagnostics.analyzer.ValidationExceptionFailureAnalyzerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.276 sec - in org.springframework.boot.diagnostics.analyzer.ValidationExceptionFailureAnalyzerTests
+Running org.springframework.boot.logging.LogFileTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.logging.LogFileTests
+Running org.springframework.boot.context.FileEncodingApplicationListenerTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.boot.context.FileEncodingApplicationListenerTests
+Running org.springframework.boot.context.embedded.EmbeddedServletContainerMvcIntegrationTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.942 sec - in org.springframework.boot.context.embedded.EmbeddedServletContainerMvcIntegrationTests
+Running org.springframework.boot.jdbc.DatabaseDriverTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.jdbc.DatabaseDriverTests
+Running org.springframework.boot.ansi.AnsiOutputTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.ansi.AnsiOutputTests
+Running org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBeanTests
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBeanTests
+Running org.springframework.boot.json.JsonSimpleJsonParserTests
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec - in org.springframework.boot.json.JsonSimpleJsonParserTests
+Running org.springframework.boot.context.TypeExcludeFilterTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in org.springframework.boot.context.TypeExcludeFilterTests
+Running org.springframework.boot.jta.narayana.NarayanaXAConnectionFactoryWrapperTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.springframework.boot.jta.narayana.NarayanaXAConnectionFactoryWrapperTests
+Running org.springframework.boot.bind.PropertiesConfigurationFactoryParameterizedTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.boot.bind.PropertiesConfigurationFactoryParameterizedTests
+Running org.springframework.boot.ansi.AnsiPropertySourceTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.boot.ansi.AnsiPropertySourceTests
+Running org.springframework.boot.context.embedded.LocalServerPortTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in org.springframework.boot.context.embedded.LocalServerPortTests
+Running org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessorTests
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.604 sec - in org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessorTests
+Running org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverterTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverterTests
+Running org.springframework.boot.context.embedded.EmbeddedWebApplicationContextTests
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec - in org.springframework.boot.context.embedded.EmbeddedWebApplicationContextTests
+Running org.springframework.boot.logging.LoggingSystemTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.logging.LoggingSystemTests
+Running org.springframework.boot.jackson.JsonObjectDeserializerTests
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in org.springframework.boot.jackson.JsonObjectDeserializerTests
+Running org.springframework.boot.logging.log4j2.ColorConverterTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.logging.log4j2.ColorConverterTests
+Running org.springframework.boot.bind.DefaultPropertyNamePatternsMatcherTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.bind.DefaultPropertyNamePatternsMatcherTests
+Running org.springframework.boot.info.BuildPropertiesTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.info.BuildPropertiesTests
+Running org.springframework.boot.context.embedded.CompressionTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.context.embedded.CompressionTests
+Running org.springframework.boot.StartUpLoggerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.StartUpLoggerTests
+Running org.springframework.boot.bind.SimplerPropertySourcesBindingTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.209 sec - in org.springframework.boot.bind.SimplerPropertySourcesBindingTests
+Running org.springframework.boot.web.servlet.ServletListenerRegistrationBeanTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.web.servlet.ServletListenerRegistrationBeanTests
+Running org.springframework.boot.diagnostics.analyzer.BeanNotOfRequiredTypeFailureAnalyzerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 sec - in org.springframework.boot.diagnostics.analyzer.BeanNotOfRequiredTypeFailureAnalyzerTests
+Running org.springframework.boot.logging.LoggerConfigurationComparatorTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.logging.LoggerConfigurationComparatorTests
+Running org.springframework.boot.bind.RelaxedNamesTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.bind.RelaxedNamesTests
+Running org.springframework.boot.json.YamlJsonParserTests
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in org.springframework.boot.json.YamlJsonParserTests
+Running org.springframework.boot.jta.atomikos.AtomikosDependsOnBeanFactoryPostProcessorTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec - in org.springframework.boot.jta.atomikos.AtomikosDependsOnBeanFactoryPostProcessorTests
+Running org.springframework.boot.diagnostics.analyzer.NoUniqueBeanDefinitionFailureAnalyzerTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.224 sec - in org.springframework.boot.diagnostics.analyzer.NoUniqueBeanDefinitionFailureAnalyzerTests
+Running org.springframework.boot.system.EmbeddedServerPortFileWriterTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in org.springframework.boot.system.EmbeddedServerPortFileWriterTests
+Running org.springframework.boot.ImageBannerTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.761 sec - in org.springframework.boot.ImageBannerTests
+Running org.springframework.boot.context.embedded.MimeMappingsTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.boot.context.embedded.MimeMappingsTests
+Running org.springframework.boot.web.servlet.ServletComponentScanIntegrationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 sec - in org.springframework.boot.web.servlet.ServletComponentScanIntegrationTests
+Running org.springframework.boot.jta.narayana.NarayanaRecoveryManagerBeanTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.boot.jta.narayana.NarayanaRecoveryManagerBeanTests
+Running org.springframework.boot.diagnostics.analyzer.BindFailureAnalyzerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec - in org.springframework.boot.diagnostics.analyzer.BindFailureAnalyzerTests
+Running org.springframework.boot.jta.bitronix.BitronixXAConnectionFactoryWrapperTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.jta.bitronix.BitronixXAConnectionFactoryWrapperTests
+Running org.springframework.boot.logging.DeferredLogTests
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.boot.logging.DeferredLogTests
+Running org.springframework.boot.web.servlet.FilterRegistrationBeanTests
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.springframework.boot.web.servlet.FilterRegistrationBeanTests
+Running org.springframework.boot.diagnostics.analyzer.BeanCurrentlyInCreationFailureAnalyzerTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec - in org.springframework.boot.diagnostics.analyzer.BeanCurrentlyInCreationFailureAnalyzerTests
+Running org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactoryTests
+Tests run: 62, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.968 sec - in org.springframework.boot.context.embedded.jetty.JettyEmbeddedServletContainerFactoryTests
+Running org.springframework.boot.web.servlet.ServletRegistrationBeanTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.boot.web.servlet.ServletRegistrationBeanTests
+Running org.springframework.boot.bind.PropertySourcesBinderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in org.springframework.boot.bind.PropertySourcesBinderTests
+Running org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverterTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverterTests
+Running org.springframework.boot.jta.narayana.NarayanaBeanFactoryPostProcessorTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 sec - in org.springframework.boot.jta.narayana.NarayanaBeanFactoryPostProcessorTests
+Running org.springframework.boot.logging.log4j2.WhitespaceThrowablePatternConverterTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.logging.log4j2.WhitespaceThrowablePatternConverterTests
+Running org.springframework.boot.logging.LoggingApplicationListenerIntegrationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.396 sec - in org.springframework.boot.logging.LoggingApplicationListenerIntegrationTests
+Running org.springframework.boot.SpringApplicationTests
+Tests run: 53, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.369 sec - in org.springframework.boot.SpringApplicationTests
+Running org.springframework.boot.json.JacksonJsonParserTests
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.springframework.boot.json.JacksonJsonParserTests
+Running org.springframework.boot.jackson.JsonObjectSerializerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.jackson.JsonObjectSerializerTests
+Running org.springframework.boot.ApplicationTempTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec - in org.springframework.boot.ApplicationTempTests
+Running org.springframework.boot.jta.bitronix.BitronixXADataSourceWrapperTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.jta.bitronix.BitronixXADataSourceWrapperTests
+Running org.springframework.boot.logging.logback.LogbackConfigurationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in org.springframework.boot.logging.logback.LogbackConfigurationTests
+Running org.springframework.boot.json.GsonJsonParserTests
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in org.springframework.boot.json.GsonJsonParserTests
+Running org.springframework.boot.ResourceBannerTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.boot.ResourceBannerTests
+Running org.springframework.boot.liquibase.LiquibaseServiceLocatorApplicationListenerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec - in org.springframework.boot.liquibase.LiquibaseServiceLocatorApplicationListenerTests
+Running org.springframework.boot.context.embedded.XmlEmbeddedWebApplicationContextTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in org.springframework.boot.context.embedded.XmlEmbeddedWebApplicationContextTests
+Running org.springframework.boot.liquibase.SpringPackageScanClassResolverTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.boot.liquibase.SpringPackageScanClassResolverTests
+Running org.springframework.boot.diagnostics.FailureAnalyzersIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec - in org.springframework.boot.diagnostics.FailureAnalyzersIntegrationTests
+Running org.springframework.boot.diagnostics.FailureAnalyzersTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in org.springframework.boot.diagnostics.FailureAnalyzersTests
+Running org.springframework.boot.logging.logback.LevelRemappingAppenderTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in org.springframework.boot.logging.logback.LevelRemappingAppenderTests
+Running org.springframework.boot.jta.narayana.NarayanaXADataSourceWrapperTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.jta.narayana.NarayanaXADataSourceWrapperTests
+Running org.springframework.boot.BannerTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.706 sec - in org.springframework.boot.BannerTests
+Running org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactoryTests
+Tests run: 76, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.639 sec - in org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactoryTests
+Running org.springframework.boot.jta.atomikos.AtomikosPropertiesTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.jta.atomikos.AtomikosPropertiesTests
+Running org.springframework.boot.jta.atomikos.AtomikosXADataSourceWrapperTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.jta.atomikos.AtomikosXADataSourceWrapperTests
+Running org.springframework.boot.testutil.MatchedTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.boot.testutil.MatchedTests
+Running org.springframework.boot.logging.java.JavaLoggingSystemTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in org.springframework.boot.logging.java.JavaLoggingSystemTests
+Running org.springframework.boot.context.config.ConfigFileApplicationListenerTests
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.239 sec - in org.springframework.boot.context.config.ConfigFileApplicationListenerTests
+Running org.springframework.boot.bind.BindingPreparationTests
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.021 sec - in org.springframework.boot.bind.BindingPreparationTests
+
+Results :
+
+Tests run: 1394, Failures: 0, Errors: 0, Skipped: 4
+
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:05 min
+[INFO] Finished at: 2017-03-03T10:16:48-03:00
+[INFO] Final Memory: 87M/827M
+[INFO] ------------------------------------------------------------------------

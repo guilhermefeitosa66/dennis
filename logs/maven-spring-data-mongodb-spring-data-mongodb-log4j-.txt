@@ -1,0 +1,69 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data MongoDB - Log4J Appender 1.10.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-mongodb-log4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb-log4j/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ spring-data-mongodb-log4j ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb-log4j/target/classes
+[INFO] /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb-log4j/src/main/java/org/springframework/data/mongodb/log4j/MongoLog4jAppender.java: /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb-log4j/src/main/java/org/springframework/data/mongodb/log4j/MongoLog4jAppender.java uses or overrides a deprecated API.
+[INFO] /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb-log4j/src/main/java/org/springframework/data/mongodb/log4j/MongoLog4jAppender.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-mongodb-log4j ---
+Manifest written to '/home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb-log4j/target/classes/META-INF/MANIFEST.MF'
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-mongodb-log4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ spring-data-mongodb-log4j ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ spring-data-mongodb-log4j ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.data.mongodb.log4j.MongoLog4jAppenderUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in org.springframework.data.mongodb.log4j.MongoLog4jAppenderUnitTests
+Running org.springframework.data.mongodb.log4j.MongoLog4jAppenderIntegrationTests
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 20.151 sec <<< FAILURE! - in org.springframework.data.mongodb.log4j.MongoLog4jAppenderIntegrationTests
+testProperties(org.springframework.data.mongodb.log4j.MongoLog4jAppenderIntegrationTests)  Time elapsed: 10.112 sec  <<< ERROR!
+com.mongodb.MongoTimeoutException: Timed out after 10000 ms while waiting to connect. Client view of cluster state is {type=Unknown, servers=[{address=localhost:27017, type=Unknown, state=Connecting, exception={com.mongodb.MongoException$Network: Exception opening the socket}, caused by {java.net.ConnectException: Connection refused}}]
+	at org.springframework.data.mongodb.log4j.MongoLog4jAppenderIntegrationTests.setUp(MongoLog4jAppenderIntegrationTests.java:55)
+
+testLogging(org.springframework.data.mongodb.log4j.MongoLog4jAppenderIntegrationTests)  Time elapsed: 10.003 sec  <<< ERROR!
+com.mongodb.MongoTimeoutException: Timed out after 10000 ms while waiting to connect. Client view of cluster state is {type=Unknown, servers=[{address=localhost:27017, type=Unknown, state=Connecting, exception={com.mongodb.MongoException$Network: Exception opening the socket}, caused by {java.net.ConnectException: Connection refused}}]
+	at org.springframework.data.mongodb.log4j.MongoLog4jAppenderIntegrationTests.setUp(MongoLog4jAppenderIntegrationTests.java:55)
+
+
+Results :
+
+Tests in error: 
+  MongoLog4jAppenderIntegrationTests.setUp:55 » MongoTimeout Timed out after 100...
+  MongoLog4jAppenderIntegrationTests.setUp:55 » MongoTimeout Timed out after 100...
+
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 22.645 s
+[INFO] Finished at: 2017-03-03T10:55:03-03:00
+[INFO] Final Memory: 18M/165M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project spring-data-mongodb-log4j: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb-log4j/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

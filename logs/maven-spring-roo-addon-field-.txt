@@ -1,0 +1,50 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 2 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 2 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Roo - Field
+[INFO] Spring Roo - Addon - Field
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Field 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.addon.field ---
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.addon.field ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Addon - Field 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.classpath:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.project:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.model:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.shell:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.metadata:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.settings:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.converters:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Roo - Field ................................. SUCCESS [  0.197 s]
+[INFO] Spring Roo - Addon - Field ......................... FAILURE [  0.038 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.131 s
+[INFO] Finished at: 2017-03-03T11:04:18-03:00
+[INFO] Final Memory: 20M/217M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project org.springframework.roo.addon.field.addon: Could not resolve dependencies for project org.springframework.roo:org.springframework.roo.addon.field.addon:bundle:2.0.0.BUILD-SNAPSHOT: The following artifacts could not be resolved: org.springframework.roo:org.springframework.roo.classpath:jar:2.0.0.BUILD-SNAPSHOT, org.springframework.roo:org.springframework.roo.project:jar:2.0.0.BUILD-SNAPSHOT, org.springframework.roo:org.springframework.roo.model:jar:2.0.0.BUILD-SNAPSHOT, org.springframework.roo:org.springframework.roo.shell:jar:2.0.0.BUILD-SNAPSHOT, org.springframework.roo:org.springframework.roo.metadata:jar:2.0.0.BUILD-SNAPSHOT, org.springframework.roo:org.springframework.roo.settings:jar:2.0.0.BUILD-SNAPSHOT, org.springframework.roo:org.springframework.roo.converters:jar:2.0.0.BUILD-SNAPSHOT: Could not find artifact org.springframework.roo:org.springframework.roo.classpath:jar:2.0.0.BUILD-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :org.springframework.roo.addon.field.addon

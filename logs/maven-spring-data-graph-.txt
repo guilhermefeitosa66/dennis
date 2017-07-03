@@ -1,0 +1,41 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Data Graph Parent
+[INFO] Spring Data Neo4J Core
+[INFO] Spring Data Graph REST Wrapper
+[INFO] Spring Data Graph Distribution
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Graph Parent 1.2.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-license-plugin:1.9.0:format (check-licenses) @ spring-data-graph-parent ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-graph-parent ---
+[WARNING] The POM for org.objectweb.asm:com.springsource.org.objectweb.asm:jar:3.1.0 is missing, no dependency information available
+[WARNING] The POM for org.objectweb.asm:com.springsource.org.objectweb.asm.tree:jar:3.1.0 is missing, no dependency information available
+[WARNING] The POM for org.objectweb.asm:com.springsource.org.objectweb.asm.commons:jar:3.1.0 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Data Graph Parent ........................... FAILURE [  0.347 s]
+[INFO] Spring Data Neo4J Core ............................. SKIPPED
+[INFO] Spring Data Graph REST Wrapper ..................... SKIPPED
+[INFO] Spring Data Graph Distribution ..................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.612 s
+[INFO] Finished at: 2017-03-03T10:53:16-03:00
+[INFO] Final Memory: 7M/150M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.springsource.bundlor:com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) on project spring-data-graph-parent: Execution bundlor of goal com.springsource.bundlor:com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor failed: Plugin com.springsource.bundlor:com.springsource.bundlor.maven:1.0.0.RELEASE or one of its dependencies could not be resolved: The following artifacts could not be resolved: org.objectweb.asm:com.springsource.org.objectweb.asm.tree:jar:3.1.0, org.objectweb.asm:com.springsource.org.objectweb.asm.commons:jar:3.1.0, org.objectweb.asm:com.springsource.org.objectweb.asm:jar:3.1.0: Failure to find org.objectweb.asm:com.springsource.org.objectweb.asm.tree:jar:3.1.0 in http://repository.springsource.com/maven/bundles/release was cached in the local repository, resolution will not be reattempted until the update interval of repository.springsource.maven.bundles.release has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException

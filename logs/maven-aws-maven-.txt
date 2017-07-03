@@ -1,0 +1,83 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Amazon Web Services S3 Maven Wagon Support 5.1.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ aws-maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ aws-maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ aws-maven ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ aws-maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ aws-maven ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/aws-maven/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.build.aws.maven.StandardSessionListenerSupportTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.162 sec - in org.springframework.build.aws.maven.StandardSessionListenerSupportTest
+Running org.springframework.build.aws.maven.RegionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.build.aws.maven.RegionTest
+Running org.springframework.build.aws.maven.AbstractWagonTest
+Tests run: 43, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 sec - in org.springframework.build.aws.maven.AbstractWagonTest
+Running org.springframework.build.aws.maven.NullProtectingProxyInfoProviderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.build.aws.maven.NullProtectingProxyInfoProviderTest
+Running org.springframework.build.aws.maven.TransferProgressFileOutputStreamTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in org.springframework.build.aws.maven.TransferProgressFileOutputStreamTest
+Running org.springframework.build.aws.maven.S3UtilsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.218 sec - in org.springframework.build.aws.maven.S3UtilsTest
+Running org.springframework.build.aws.maven.SimpleStorageServiceWagonIntegrationTest
+Tests run: 15, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.486 sec <<< FAILURE! - in org.springframework.build.aws.maven.SimpleStorageServiceWagonIntegrationTest
+regionConnections(org.springframework.build.aws.maven.SimpleStorageServiceWagonIntegrationTest)  Time elapsed: 2.425 sec  <<< ERROR!
+com.amazonaws.AmazonClientException: Unable to load AWS credentials from any provider in the chain
+	at com.amazonaws.auth.AWSCredentialsProviderChain.getCredentials(AWSCredentialsProviderChain.java:117)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:3377)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:3336)
+	at com.amazonaws.services.s3.AmazonS3Client.getBucketLocation(AmazonS3Client.java:669)
+	at com.amazonaws.services.s3.AmazonS3Client.getBucketLocation(AmazonS3Client.java:677)
+	at org.springframework.build.aws.maven.SimpleStorageServiceWagon.connectToRepository(SimpleStorageServiceWagon.java:86)
+	at org.springframework.build.aws.maven.SimpleStorageServiceWagonIntegrationTest.regionConnections(SimpleStorageServiceWagonIntegrationTest.java:77)
+
+Running org.springframework.build.aws.maven.StandardTransferListenerSupportTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.build.aws.maven.StandardTransferListenerSupportTest
+Running org.springframework.build.aws.maven.TransferProgressFileInputStreamTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.build.aws.maven.TransferProgressFileInputStreamTest
+Running org.springframework.build.aws.maven.TransferProgressTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.build.aws.maven.TransferProgressTest
+Running org.springframework.build.aws.maven.AuthenticationInfoAwsCredentialsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.build.aws.maven.AuthenticationInfoAwsCredentialsTest
+
+Results :
+
+Tests in error: 
+  SimpleStorageServiceWagonIntegrationTest.regionConnections:77 » AmazonClient U...
+
+Tests run: 95, Failures: 0, Errors: 1, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.255 s
+[INFO] Finished at: 2017-03-03T10:14:10-03:00
+[INFO] Final Memory: 13M/212M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project aws-maven: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/aws-maven/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

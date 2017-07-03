@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data LDAP 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-ldap ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ spring-data-ldap ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-ldap ---
+[INFO] Ignored project with enabled = false
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-ldap ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ spring-data-ldap ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ spring-data-ldap ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.data.ldap.config.LdapNamespaceHandlerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.699 sec - in org.springframework.data.ldap.config.LdapNamespaceHandlerTests
+Running org.springframework.data.ldap.repository.support.QueryDslFilterGeneratorTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec - in org.springframework.data.ldap.repository.support.QueryDslFilterGeneratorTests
+Running org.springframework.data.ldap.repository.config.AnnotationConfigTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.153 sec - in org.springframework.data.ldap.repository.config.AnnotationConfigTests
+Running org.springframework.data.ldap.repository.config.CustomRepositoryBaseClassTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 sec - in org.springframework.data.ldap.repository.config.CustomRepositoryBaseClassTests
+Running org.springframework.data.ldap.repository.query.PartTreeLdapRepositoryQueryTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 sec - in org.springframework.data.ldap.repository.query.PartTreeLdapRepositoryQueryTests
+Running org.springframework.data.ldap.repository.SimpleLdapRepositoryTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.146 sec - in org.springframework.data.ldap.repository.SimpleLdapRepositoryTests
+
+Results :
+
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.211 s
+[INFO] Finished at: 2017-03-03T10:53:44-03:00
+[INFO] Final Memory: 12M/217M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+[INFO] Scanning for projects...
+Downloading: http://m2.neo4j.org/content/repositories/releases/org/springframework/data/build/spring-data-parent/1.9.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/snapshots/org/springframework/data/build/spring-data-parent/1.9.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/releases/org/springframework/data/build/spring-data-build/1.9.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/snapshots/org/springframework/data/build/spring-data-build/1.9.0.BUILD-SNAPSHOT/maven-metadata.xml
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Neo4j - Distribution 4.2.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-neo4j-distribution ---
+[INFO] Ignored project with enabled = false
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.169 s
+[INFO] Finished at: 2017-03-03T10:55:28-03:00
+[INFO] Final Memory: 9M/150M
+[INFO] ------------------------------------------------------------------------

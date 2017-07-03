@@ -1,0 +1,94 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Boot Security Tests
+[INFO] Spring Boot Security Tests - Web Hello World
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Security Tests 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-security-tests ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-security-tests ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-security-tests ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Security Tests - Web Hello World 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-security-test-web-helloworld ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-security-test-web-helloworld ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-security-test-web-helloworld ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-security-test-web-helloworld ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-security-test-web-helloworld ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-security-test-web-helloworld ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-security-test-web-helloworld ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running sample.HelloWebSecurityApplicationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.326 sec - in sample.HelloWebSecurityApplicationTests
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-security-test-web-helloworld ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/main/java/sample/HelloWebSecurityApplication.java:25: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/main/java/sample/HelloWebSecurityApplication.java:25: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/main/java/sample/HelloWebSecurityApplication.java:25: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/main/java/sample/HelloWebSecurityApplication.java:25: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/main/java/sample/HelloWebSecurityApplication.java:25: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/main/java/sample/HelloWebSecurityApplication.java:25: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/main/java/sample/HelloWebSecurityApplication.java:25: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/main/java/sample/HelloWebSecurityApplication.java:25: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/main/java/sample/HelloWebSecurityApplication.java:25: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/main/java/sample/HelloWebSecurityApplication.java:25: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/main/java/sample/HelloWebSecurityApplication.java:25: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-integration-tests/spring-boot-security-tests/spring-boot-security-test-web-helloworld/src/main/java/sample/HelloWebSecurityApplication.java:25: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Boot Security Tests ......................... SUCCESS [  1.953 s]
+[INFO] Spring Boot Security Tests - Web Hello World ....... FAILURE [  4.217 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.470 s
+[INFO] Finished at: 2017-03-03T10:23:26-03:00
+[INFO] Final Memory: 26M/524M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:animal-sniffer-maven-plugin:1.15:check (enforce-java-6) on project spring-boot-security-test-web-helloworld: Signature errors found. Verify them and ignore them with the proper annotation if needed. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :spring-boot-security-test-web-helloworld

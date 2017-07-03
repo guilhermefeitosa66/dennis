@@ -1,0 +1,44 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data JPA - Query-by-Example (QBE) 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-jpa-query-by-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/query-by-example/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/query-by-example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-jpa-query-by-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/guilherme/spring-projects/maven/spring-data-examples/jpa/query-by-example/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-jpa-query-by-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/jpa/query-by-example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-jpa-query-by-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-jpa-query-by-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/jpa/query-by-example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.jpa.querybyexample.UserRepositoryIntegrationTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.823 sec - in example.springdata.jpa.querybyexample.UserRepositoryIntegrationTests
+Running example.springdata.jpa.querybyexample.UserRepositoryInheritanceIntegrationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in example.springdata.jpa.querybyexample.UserRepositoryInheritanceIntegrationTests
+
+Results :
+
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.403 s
+[INFO] Finished at: 2017-03-03T10:46:06-03:00
+[INFO] Final Memory: 29M/280M
+[INFO] ------------------------------------------------------------------------

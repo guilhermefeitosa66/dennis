@@ -1,0 +1,106 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Actuator Docs 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-actuator-docs ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-actuator-docs ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:add-source (add-restdoc-source) @ spring-boot-actuator-docs ---
+[INFO] Source directory: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-actuator-docs/src/restdoc/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:add-resource (add-restdoc-resource) @ spring-boot-actuator-docs ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-actuator-docs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-actuator-docs/src/main/resources
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-actuator-docs ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (generate-rest-documentation) @ spring-boot-actuator-docs ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-actuator-docs/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.boot.actuate.hypermedia.HealthEndpointDocumentation
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.379 sec - in org.springframework.boot.actuate.hypermedia.HealthEndpointDocumentation
+Running org.springframework.boot.actuate.hypermedia.HypermediaEndpointDocumentation
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.067 sec <<< FAILURE! - in org.springframework.boot.actuate.hypermedia.HypermediaEndpointDocumentation
+beans(org.springframework.boot.actuate.hypermedia.HypermediaEndpointDocumentation)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.boot.actuate.hypermedia.HypermediaEndpointDocumentation.beans(HypermediaEndpointDocumentation.java:53)
+
+metrics(org.springframework.boot.actuate.hypermedia.HypermediaEndpointDocumentation)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.boot.actuate.hypermedia.HypermediaEndpointDocumentation.metrics(HypermediaEndpointDocumentation.java:59)
+
+Running org.springframework.boot.actuate.hypermedia.EndpointDocumentation
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.975 sec <<< FAILURE! - in org.springframework.boot.actuate.hypermedia.EndpointDocumentation
+endpoints(org.springframework.boot.actuate.hypermedia.EndpointDocumentation)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.boot.actuate.hypermedia.EndpointDocumentation.endpoints(EndpointDocumentation.java:124)
+
+partialLogfile(org.springframework.boot.actuate.hypermedia.EndpointDocumentation)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<206> but was:<401>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.boot.actuate.hypermedia.EndpointDocumentation.partialLogfile(EndpointDocumentation.java:107)
+
+logfile(org.springframework.boot.actuate.hypermedia.EndpointDocumentation)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.boot.actuate.hypermedia.EndpointDocumentation.logfile(EndpointDocumentation.java:97)
+
+
+Results :
+
+Failed tests: 
+  HypermediaEndpointDocumentation.beans:53 Status expected:<200> but was:<401>
+  HypermediaEndpointDocumentation.metrics:59 Status expected:<200> but was:<401>
+  EndpointDocumentation.endpoints:124 Status expected:<200> but was:<401>
+  EndpointDocumentation.partialLogfile:107 Status expected:<206> but was:<401>
+  EndpointDocumentation.logfile:97 Status expected:<200> but was:<401>
+
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.747 s
+[INFO] Finished at: 2017-03-03T10:17:00-03:00
+[INFO] Final Memory: 24M/269M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (generate-rest-documentation) on project spring-boot-actuator-docs: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-boot/spring-boot-actuator-docs/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

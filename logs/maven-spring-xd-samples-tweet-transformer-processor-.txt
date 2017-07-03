@@ -1,0 +1,65 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring XD Sample - Tweet Transformer 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tweet-transformer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tweet-transformer ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tweet-transformer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tweet-transformer ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ tweet-transformer ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-xd-samples/tweet-transformer-processor/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running my.custom.transformer.TweetTransformerIntegrationTest
+
+ _____                           __   _______
+/  ___|          (-)             \ \ / /  _  \
+\ `--. _ __  _ __ _ _ __   __ _   \ V /| | | |
+ `--. \ '_ \| '__| | '_ \ / _` |  / ^ \| | | |
+/\__/ / |_) | |  | | | | | (_| | / / \ \ |/ /
+\____/| .__/|_|  |_|_| |_|\__, | \/   \/___/
+      | |                  __/ |
+      |_|                 |___/
+1.3.1.RELEASE                    eXtreme Data
+
+
+Started : SingleNodeApplication
+Documentation: http://docs.spring.io/spring-xd/docs/current/reference/html/
+
+11:26:11,604  INFO main util.Version - HV000001: Hibernate Validator 5.2.1.Final
+11:26:12,376  INFO HSQLDB Server @5785e813 HSQLDB5A9490590D.ENGINE - Checkpoint start
+11:26:12,376  INFO HSQLDB Server @5785e813 HSQLDB5A9490590D.ENGINE - checkpointClose start
+11:26:12,403  INFO HSQLDB Server @5785e813 HSQLDB5A9490590D.ENGINE - checkpointClose synched
+11:26:12,429  INFO HSQLDB Server @5785e813 HSQLDB5A9490590D.ENGINE - checkpointClose script done
+11:26:12,487  INFO HSQLDB Server @5785e813 HSQLDB5A9490590D.ENGINE - checkpointClose end
+11:26:12,488  INFO HSQLDB Server @5785e813 HSQLDB5A9490590D.ENGINE - Checkpoint end - txts: 1
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.762 sec - in my.custom.transformer.TweetTransformerIntegrationTest
+
+Results :
+
+
+
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 15.082 s
+[INFO] Finished at: 2017-03-03T11:26:22-03:00
+[INFO] Final Memory: 23M/218M
+[INFO] ------------------------------------------------------------------------

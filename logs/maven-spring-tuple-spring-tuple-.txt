@@ -1,0 +1,50 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-tuple 1.0.1.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-tuple ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ spring-tuple ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 21 source files to /home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-tuple ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ spring-tuple ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-tuple ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.tuple.SpringToDateConverterTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec - in org.springframework.tuple.SpringToDateConverterTests
+Running org.springframework.tuple.JsonBytesToTupleConverterTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.251 sec - in org.springframework.tuple.JsonBytesToTupleConverterTests
+Running org.springframework.tuple.spel.TuplePropertyAccessorTests
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec - in org.springframework.tuple.spel.TuplePropertyAccessorTests
+Running org.springframework.tuple.DefaultTupleTests
+Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.07 sec - in org.springframework.tuple.DefaultTupleTests
+Running org.springframework.tuple.TupleJsonMarshallerTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec - in org.springframework.tuple.TupleJsonMarshallerTests
+
+Results :
+
+Tests run: 54, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.599 s
+[INFO] Finished at: 2017-03-03T11:17:09-03:00
+[INFO] Final Memory: 17M/212M
+[INFO] ------------------------------------------------------------------------

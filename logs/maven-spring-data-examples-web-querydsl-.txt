@@ -1,0 +1,39 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data - QueryDSL web example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- apt-maven-plugin:1.1.3:process (default) @ spring-data-web-querydsl ---
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-examples/web/querydsl/src/main/java/example/users/web/UserController.java:43: error: cannot find symbol
+@RequiredArgsConstructor(onConstructor = @__(@Autowired) )
+                                          ^
+  symbol: class __
+1 error
+
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-web-querydsl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-web-querydsl ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/guilherme/spring-projects/maven/spring-data-examples/web/querydsl/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-web-querydsl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/web/querydsl/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-web-querydsl ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-web-querydsl ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.817 s
+[INFO] Finished at: 2017-03-03T10:53:01-03:00
+[INFO] Final Memory: 30M/266M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,21 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building run-exclude 0.0.1.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.logging.log4j:log4j-api:jar:@log4j2.version@ is missing, no dependency information available
+[WARNING] The POM for javax.servlet:javax.servlet-api:jar:@servlet-api.version@ is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.195 s
+[INFO] Finished at: 2017-03-03T10:40:04-03:00
+[INFO] Final Memory: 6M/119M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project run-exclude: Could not resolve dependencies for project org.springframework.boot.maven.it:run-exclude:jar:0.0.1.BUILD-SNAPSHOT: The following artifacts could not be resolved: org.apache.logging.log4j:log4j-api:jar:@log4j2.version@, javax.servlet:javax.servlet-api:jar:@servlet-api.version@: Failure to find org.apache.logging.log4j:log4j-api:jar:@log4j2.version@ in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

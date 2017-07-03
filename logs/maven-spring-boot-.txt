@@ -1,0 +1,422 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Boot Dependencies
+[INFO] Spring Boot Parent
+[INFO] Spring Boot Tools
+[INFO] Spring Boot Configuration Metadata
+[INFO] Spring Boot Configuration Processor
+[INFO] Spring Boot Loader
+[INFO] Spring Boot Loader Tools
+[INFO] Spring Boot Maven Plugin
+[INFO] Spring Boot Gradle Plugin
+[INFO] Spring Boot Antlib
+[INFO] Spring Boot
+[INFO] Spring Boot Test
+[INFO] Spring Boot AutoConfigure
+[INFO] Spring Boot Test Auto-Configure
+[INFO] Spring Boot Actuator
+[INFO] Spring Boot Developer Tools
+[INFO] Spring Boot Docs
+[INFO] Spring Boot Starters
+[INFO] Spring Boot Logging Starter
+[INFO] Spring Boot Starter
+[INFO] Spring Boot ActiveMQ Starter
+[INFO] Spring Boot AMQP Starter
+[INFO] Spring Boot AOP Starter
+[INFO] Spring Boot Artemis Starter
+[INFO] Spring Boot JDBC Starter
+[INFO] Spring Boot Batch Starter
+[INFO] Spring Boot Cache Starter
+[INFO] Spring Boot Spring Cloud Connectors Starter
+[INFO] Spring Boot Data Cassandra Starter
+[INFO] Spring Boot Data Couchbase Starter
+[INFO] Spring Boot Data Elasticsearch Starter
+[INFO] Spring Boot Data GemFire Starter
+[INFO] Spring Boot Data JPA Starter
+[INFO] Spring Boot Data MongoDB Starter
+[INFO] Spring Boot Data Neo4j Starter
+[INFO] Spring Boot Data Redis Starter
+[INFO] Spring Boot Tomcat Starter
+[INFO] Spring Boot Web Starter
+[INFO] Spring Boot Data REST Starter
+[INFO] Spring Boot Data Solr Starter
+[INFO] Spring Boot FreeMarker Starter
+[INFO] Spring Boot Groovy Templates Starter
+[INFO] Spring Boot HATEOAS Starter
+[INFO] Spring Boot Integration Starter
+[INFO] Spring Boot Validation Starter
+[INFO] Spring Boot Jersey Starter
+[INFO] Spring Boot Jetty Starter
+[INFO] Spring Boot JOOQ Starter
+[INFO] Spring Boot Atomikos JTA Starter
+[INFO] Spring Boot Bitronix JTA Starter
+[INFO] Spring Boot Narayana JTA Starter
+[INFO] Spring Boot Log4j 2 Starter
+[INFO] Spring Boot Mail Starter
+[INFO] Spring Boot Mobile Starter
+[INFO] Spring Boot Mustache Starter
+[INFO] Spring Boot Actuator Starter
+[INFO] Spring Boot Starter Parent
+[INFO] Spring Boot Security Starter
+[INFO] Spring Boot Social Facebook Starter
+[INFO] Spring Boot Social Twitter Starter
+[INFO] Spring Boot Social LinkedIn Starter
+[INFO] Spring Boot Test Starter
+[INFO] Spring Boot Thymeleaf Starter
+[INFO] Spring Boot Undertow Starter
+[INFO] Spring Boot WebSocket Starter
+[INFO] Spring Boot Web Services Starter
+[INFO] Spring Boot Actuator Docs
+[INFO] Spring Boot CLI
+[INFO] Spring Boot Integration Tests
+[INFO] Spring Boot Gradle Integration Tests
+[INFO] Spring Boot Launch Script Integration Tests
+[INFO] Spring Boot Security Tests
+[INFO] Spring Boot Security Tests - Web Hello World
+[INFO] Spring Boot Build
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Dependencies 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-help-plugin:2.2:effective-pom (generate-effective-dependencies-pom) @ spring-boot-dependencies ---
+[INFO] Effective-POM written to: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-dependencies/target/effective-pom/spring-boot-dependencies.xml
+[INFO] 
+[INFO] --- xml-maven-plugin:1.0:transform (default) @ spring-boot-dependencies ---
+[INFO] Transforming file: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-dependencies/target/effective-pom/spring-boot-dependencies.xml
+[INFO] Transformed 1 file(s).
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Parent 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-parent ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-parent ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-parent ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Tools 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-tools ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-tools ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-tools ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Configuration Metadata 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-configuration-metadata ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-configuration-metadata ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-configuration-metadata ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-configuration-metadata ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-configuration-metadata ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 9 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-configuration-metadata ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-configuration-metadata ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.boot.configurationmetadata.JsonReaderTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 sec - in org.springframework.boot.configurationmetadata.JsonReaderTests
+Running org.springframework.boot.configurationmetadata.DescriptionExtractorTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.configurationmetadata.DescriptionExtractorTests
+Running org.springframework.boot.configurationmetadata.ConfigurationMetadataRepositoryJsonBuilderTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in org.springframework.boot.configurationmetadata.ConfigurationMetadataRepositoryJsonBuilderTests
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-configuration-metadata ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Hints.java:30: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Hints.java:30: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Hints.java:30: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Hints.java:30: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Hints.java:30: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Hints.java:30: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Hints.java:30: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Hints.java:30: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Hints.java:30: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Hints.java:30: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Hints.java:30: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Hints.java:30: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueHint.java:29: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueHint.java:29: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueHint.java:29: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueHint.java:29: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueHint.java:29: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueHint.java:29: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueHint.java:29: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueHint.java:29: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueHint.java:29: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueHint.java:29: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/JsonReader.java:36: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/JsonReader.java:36: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/JsonReader.java:36: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/JsonReader.java:36: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/JsonReader.java:36: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/JsonReader.java:36: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/JsonReader.java:36: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/JsonReader.java:36: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/JsonReader.java:36: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/JsonReader.java:36: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Deprecation.java:29: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Deprecation.java:29: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Deprecation.java:29: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Deprecation.java:29: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Deprecation.java:29: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Deprecation.java:29: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Deprecation.java:29: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Deprecation.java:29: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Deprecation.java:29: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Deprecation.java:29: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueHint.java:29: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueHint.java:29: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/JsonReader.java:36: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/JsonReader.java:36: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Deprecation.java:29: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/Deprecation.java:29: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueProvider.java:34: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueProvider.java:34: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueProvider.java:34: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueProvider.java:34: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueProvider.java:34: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueProvider.java:34: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueProvider.java:34: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueProvider.java:34: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueProvider.java:34: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueProvider.java:34: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueProvider.java:34: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ValueProvider.java:34: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/DescriptionExtractor.java:27: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/DescriptionExtractor.java:27: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/DescriptionExtractor.java:27: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/DescriptionExtractor.java:27: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/DescriptionExtractor.java:27: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/DescriptionExtractor.java:27: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/DescriptionExtractor.java:27: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/DescriptionExtractor.java:27: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/DescriptionExtractor.java:27: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/DescriptionExtractor.java:27: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/DescriptionExtractor.java:27: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/DescriptionExtractor.java:27: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataHint.java:28: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataHint.java:28: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataHint.java:28: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataHint.java:28: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataHint.java:28: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataHint.java:28: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataHint.java:28: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataHint.java:28: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataHint.java:28: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataHint.java:28: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataItem.java:26: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataItem.java:26: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataItem.java:26: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataItem.java:26: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataItem.java:26: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataItem.java:26: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataItem.java:26: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataItem.java:26: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataItem.java:26: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataItem.java:26: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataGroup.java:33: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataGroup.java:33: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataGroup.java:33: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataGroup.java:33: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataGroup.java:33: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataGroup.java:33: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataGroup.java:33: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataGroup.java:33: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataGroup.java:33: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataGroup.java:33: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/RawConfigurationMetadata.java:28: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/RawConfigurationMetadata.java:28: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/RawConfigurationMetadata.java:28: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/RawConfigurationMetadata.java:28: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/RawConfigurationMetadata.java:28: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/RawConfigurationMetadata.java:28: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/RawConfigurationMetadata.java:28: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/RawConfigurationMetadata.java:28: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/RawConfigurationMetadata.java:28: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/RawConfigurationMetadata.java:28: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataHint.java:28: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataHint.java:28: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataItem.java:26: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataItem.java:26: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataGroup.java:33: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataGroup.java:33: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/RawConfigurationMetadata.java:28: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/RawConfigurationMetadata.java:28: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataSource.java:31: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataSource.java:31: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataSource.java:31: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataSource.java:31: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataSource.java:31: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataSource.java:31: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataSource.java:31: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataSource.java:31: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataSource.java:31: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataSource.java:31: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataProperty.java:31: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataProperty.java:31: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataProperty.java:31: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataProperty.java:31: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataProperty.java:31: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataProperty.java:31: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataProperty.java:31: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataProperty.java:31: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataProperty.java:31: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataProperty.java:31: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataSource.java:31: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataSource.java:31: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataProperty.java:31: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataProperty.java:31: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/SimpleConfigurationMetadataRepository.java:33: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/SimpleConfigurationMetadataRepository.java:33: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/SimpleConfigurationMetadataRepository.java:33: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/SimpleConfigurationMetadataRepository.java:33: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/SimpleConfigurationMetadataRepository.java:33: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/SimpleConfigurationMetadataRepository.java:33: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/SimpleConfigurationMetadataRepository.java:33: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/SimpleConfigurationMetadataRepository.java:33: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/SimpleConfigurationMetadataRepository.java:33: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/SimpleConfigurationMetadataRepository.java:33: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/SimpleConfigurationMetadataRepository.java:33: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/SimpleConfigurationMetadataRepository.java:33: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataRepositoryJsonBuilder.java:35: Undefined reference: com_atlassian_clover.CloverProfile
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataRepositoryJsonBuilder.java:35: Undefined reference: void com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_1_2()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataRepositoryJsonBuilder.java:35: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataRepositoryJsonBuilder.java:35: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataRepositoryJsonBuilder.java:35: Undefined reference: String com_atlassian_clover.CloverVersionInfo.getReleaseNum()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataRepositoryJsonBuilder.java:35: Undefined reference: long com_atlassian_clover.CloverVersionInfo.getBuildStamp()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataRepositoryJsonBuilder.java:35: Undefined reference: void com_atlassian_clover.Clover.l(String)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataRepositoryJsonBuilder.java:35: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataRepositoryJsonBuilder.java:35: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getNullRecorder()
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataRepositoryJsonBuilder.java:35: Undefined reference: com_atlassian_clover.CoverageRecorder com_atlassian_clover.Clover.getRecorder(String, long, long, int, com_atlassian_clover.CloverProfile[], String[])
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataRepositoryJsonBuilder.java:35: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-tools/spring-boot-configuration-metadata/src/main/java/org/springframework/boot/configurationmetadata/ConfigurationMetadataRepositoryJsonBuilder.java:35: Undefined reference: void com_atlassian_clover.CoverageRecorder.inc(int)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Boot Dependencies ........................... SUCCESS [  2.875 s]
+[INFO] Spring Boot Parent ................................. SUCCESS [  1.571 s]
+[INFO] Spring Boot Tools .................................. SUCCESS [  0.568 s]
+[INFO] Spring Boot Configuration Metadata ................. FAILURE [  1.809 s]
+[INFO] Spring Boot Configuration Processor ................ SKIPPED
+[INFO] Spring Boot Loader ................................. SKIPPED
+[INFO] Spring Boot Loader Tools ........................... SKIPPED
+[INFO] Spring Boot Maven Plugin ........................... SKIPPED
+[INFO] Spring Boot Gradle Plugin .......................... SKIPPED
+[INFO] Spring Boot Antlib ................................. SKIPPED
+[INFO] Spring Boot ........................................ SKIPPED
+[INFO] Spring Boot Test ................................... SKIPPED
+[INFO] Spring Boot AutoConfigure .......................... SKIPPED
+[INFO] Spring Boot Test Auto-Configure .................... SKIPPED
+[INFO] Spring Boot Actuator ............................... SKIPPED
+[INFO] Spring Boot Developer Tools ........................ SKIPPED
+[INFO] Spring Boot Docs ................................... SKIPPED
+[INFO] Spring Boot Starters ............................... SKIPPED
+[INFO] Spring Boot Logging Starter ........................ SKIPPED
+[INFO] Spring Boot Starter ................................ SKIPPED
+[INFO] Spring Boot ActiveMQ Starter ....................... SKIPPED
+[INFO] Spring Boot AMQP Starter ........................... SKIPPED
+[INFO] Spring Boot AOP Starter ............................ SKIPPED
+[INFO] Spring Boot Artemis Starter ........................ SKIPPED
+[INFO] Spring Boot JDBC Starter ........................... SKIPPED
+[INFO] Spring Boot Batch Starter .......................... SKIPPED
+[INFO] Spring Boot Cache Starter .......................... SKIPPED
+[INFO] Spring Boot Spring Cloud Connectors Starter ........ SKIPPED
+[INFO] Spring Boot Data Cassandra Starter ................. SKIPPED
+[INFO] Spring Boot Data Couchbase Starter ................. SKIPPED
+[INFO] Spring Boot Data Elasticsearch Starter ............. SKIPPED
+[INFO] Spring Boot Data GemFire Starter ................... SKIPPED
+[INFO] Spring Boot Data JPA Starter ....................... SKIPPED
+[INFO] Spring Boot Data MongoDB Starter ................... SKIPPED
+[INFO] Spring Boot Data Neo4j Starter ..................... SKIPPED
+[INFO] Spring Boot Data Redis Starter ..................... SKIPPED
+[INFO] Spring Boot Tomcat Starter ......................... SKIPPED
+[INFO] Spring Boot Web Starter ............................ SKIPPED
+[INFO] Spring Boot Data REST Starter ...................... SKIPPED
+[INFO] Spring Boot Data Solr Starter ...................... SKIPPED
+[INFO] Spring Boot FreeMarker Starter ..................... SKIPPED
+[INFO] Spring Boot Groovy Templates Starter ............... SKIPPED
+[INFO] Spring Boot HATEOAS Starter ........................ SKIPPED
+[INFO] Spring Boot Integration Starter .................... SKIPPED
+[INFO] Spring Boot Validation Starter ..................... SKIPPED
+[INFO] Spring Boot Jersey Starter ......................... SKIPPED
+[INFO] Spring Boot Jetty Starter .......................... SKIPPED
+[INFO] Spring Boot JOOQ Starter ........................... SKIPPED
+[INFO] Spring Boot Atomikos JTA Starter ................... SKIPPED
+[INFO] Spring Boot Bitronix JTA Starter ................... SKIPPED
+[INFO] Spring Boot Narayana JTA Starter ................... SKIPPED
+[INFO] Spring Boot Log4j 2 Starter ........................ SKIPPED
+[INFO] Spring Boot Mail Starter ........................... SKIPPED
+[INFO] Spring Boot Mobile Starter ......................... SKIPPED
+[INFO] Spring Boot Mustache Starter ....................... SKIPPED
+[INFO] Spring Boot Actuator Starter ....................... SKIPPED
+[INFO] Spring Boot Starter Parent ......................... SKIPPED
+[INFO] Spring Boot Security Starter ....................... SKIPPED
+[INFO] Spring Boot Social Facebook Starter ................ SKIPPED
+[INFO] Spring Boot Social Twitter Starter ................. SKIPPED
+[INFO] Spring Boot Social LinkedIn Starter ................ SKIPPED
+[INFO] Spring Boot Test Starter ........................... SKIPPED
+[INFO] Spring Boot Thymeleaf Starter ...................... SKIPPED
+[INFO] Spring Boot Undertow Starter ....................... SKIPPED
+[INFO] Spring Boot WebSocket Starter ...................... SKIPPED
+[INFO] Spring Boot Web Services Starter ................... SKIPPED
+[INFO] Spring Boot Actuator Docs .......................... SKIPPED
+[INFO] Spring Boot CLI .................................... SKIPPED
+[INFO] Spring Boot Integration Tests ...................... SKIPPED
+[INFO] Spring Boot Gradle Integration Tests ............... SKIPPED
+[INFO] Spring Boot Launch Script Integration Tests ........ SKIPPED
+[INFO] Spring Boot Security Tests ......................... SKIPPED
+[INFO] Spring Boot Security Tests - Web Hello World ....... SKIPPED
+[INFO] Spring Boot Build .................................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.008 s
+[INFO] Finished at: 2017-03-03T10:15:42-03:00
+[INFO] Final Memory: 98M/646M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:animal-sniffer-maven-plugin:1.15:check (enforce-java-6) on project spring-boot-configuration-metadata: Signature errors found. Verify them and ignore them with the proper annotation if needed. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :spring-boot-configuration-metadata

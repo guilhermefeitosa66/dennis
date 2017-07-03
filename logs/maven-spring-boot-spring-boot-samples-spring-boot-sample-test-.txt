@@ -1,0 +1,71 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-test:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Test Sample 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-rules) @ spring-boot-sample-test ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-boot-sample-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-sample-test ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-boot-sample-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-sample-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-test/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-test/src/test/java/sample/test/web/UserVehicleControllerApplicationTests.java:[25,59] cannot find symbol
+  symbol:   class AutoConfigureTestDatabase
+  location: package org.springframework.boot.test.autoconfigure.orm.jpa
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-test/src/test/java/sample/test/web/UserVehicleControllerApplicationTests.java:[48,2] cannot find symbol
+  symbol: class AutoConfigureTestDatabase
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-test/src/test/java/sample/test/SampleTestApplicationWebIntegrationTests.java:[27,59] cannot find symbol
+  symbol:   class AutoConfigureTestDatabase
+  location: package org.springframework.boot.test.autoconfigure.orm.jpa
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-test/src/test/java/sample/test/SampleTestApplicationWebIntegrationTests.java:[43,2] cannot find symbol
+  symbol: class AutoConfigureTestDatabase
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.121 s
+[INFO] Finished at: 2017-03-03T10:30:00-03:00
+[INFO] Final Memory: 34M/283M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project spring-boot-sample-test: Compilation failure: Compilation failure:
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-test/src/test/java/sample/test/web/UserVehicleControllerApplicationTests.java:[25,59] cannot find symbol
+[ERROR] symbol:   class AutoConfigureTestDatabase
+[ERROR] location: package org.springframework.boot.test.autoconfigure.orm.jpa
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-test/src/test/java/sample/test/web/UserVehicleControllerApplicationTests.java:[48,2] cannot find symbol
+[ERROR] symbol: class AutoConfigureTestDatabase
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-test/src/test/java/sample/test/SampleTestApplicationWebIntegrationTests.java:[27,59] cannot find symbol
+[ERROR] symbol:   class AutoConfigureTestDatabase
+[ERROR] location: package org.springframework.boot.test.autoconfigure.orm.jpa
+[ERROR] /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-test/src/test/java/sample/test/SampleTestApplicationWebIntegrationTests.java:[43,2] cannot find symbol
+[ERROR] symbol: class AutoConfigureTestDatabase
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

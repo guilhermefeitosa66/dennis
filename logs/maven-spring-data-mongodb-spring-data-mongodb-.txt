@@ -1,0 +1,43 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data MongoDB - Core 1.10.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-mongodb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ spring-data-mongodb ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 277 source files to /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb/src/main/java/org/springframework/data/mongodb/core/GeoJsonConfiguration.java:[20,43] cannot find symbol
+  symbol:   class SpringDataWebConfigurationMixin
+  location: package org.springframework.data.web.config
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb/src/main/java/org/springframework/data/mongodb/core/GeoJsonConfiguration.java:[27,2] cannot find symbol
+  symbol: class SpringDataWebConfigurationMixin
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.320 s
+[INFO] Finished at: 2017-03-03T10:53:53-03:00
+[INFO] Final Memory: 22M/282M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project spring-data-mongodb: Compilation failure: Compilation failure:
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb/src/main/java/org/springframework/data/mongodb/core/GeoJsonConfiguration.java:[20,43] cannot find symbol
+[ERROR] symbol:   class SpringDataWebConfigurationMixin
+[ERROR] location: package org.springframework.data.web.config
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-mongodb/spring-data-mongodb/src/main/java/org/springframework/data/mongodb/core/GeoJsonConfiguration.java:[27,2] cannot find symbol
+[ERROR] symbol: class SpringDataWebConfigurationMixin
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

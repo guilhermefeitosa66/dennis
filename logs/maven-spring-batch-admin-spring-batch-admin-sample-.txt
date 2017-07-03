@@ -1,0 +1,61 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.batch:spring-batch-admin-sample:war:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-oxm:jar -> duplicate declaration of version ${spring.framework.version} @ org.springframework.batch:spring-batch-admin-parent:2.0.0.BUILD-SNAPSHOT, /home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-parent/pom.xml, line 627, column 16
+[WARNING] 'build.plugins.plugin.version' for org.mortbay.jetty:maven-jetty-plugin is missing. @ org.springframework.batch:spring-batch-admin-sample:[unknown-version], /home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/pom.xml, line 126, column 20
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.springframework.batch:spring-batch-admin-parent:2.0.0.BUILD-SNAPSHOT, /home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-parent/pom.xml, line 224, column 20
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ org.springframework.batch:spring-batch-admin-sample:[unknown-version], /home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/pom.xml, line 133, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Web Sample 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-batch-admin-sample ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 11 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-batch-admin-sample ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-batch-admin-sample ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 11 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-batch-admin-sample ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-batch-admin-sample ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-batch-admin/spring-batch-admin-sample/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.batch.admin.sample.JobIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.033 sec - in org.springframework.batch.admin.sample.JobIntegrationTests
+Running org.springframework.batch.admin.sample.job.JobConfigurationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.146 sec - in org.springframework.batch.admin.sample.job.JobConfigurationTests
+Running org.springframework.batch.admin.sample.ExampleItemWriterTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.batch.admin.sample.ExampleItemWriterTests
+Running org.springframework.batch.admin.sample.BootstrapTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.436 sec - in org.springframework.batch.admin.sample.BootstrapTests
+Running org.springframework.batch.admin.sample.JobExecutionTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.388 sec - in org.springframework.batch.admin.sample.JobExecutionTests
+Running org.springframework.batch.admin.sample.ExampleItemReaderTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.batch.admin.sample.ExampleItemReaderTests
+
+Results :
+
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.395 s
+[INFO] Finished at: 2017-03-03T10:15:32-03:00
+[INFO] Final Memory: 13M/217M
+[INFO] ------------------------------------------------------------------------

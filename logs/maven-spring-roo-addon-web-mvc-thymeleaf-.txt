@@ -1,0 +1,79 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 3 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 3 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Roo - Thymeleaf
+[INFO] Spring Roo - Annotations - Thymeleaf
+[INFO] Spring Roo - Addon - Thymeleaf
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Thymeleaf 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.addon.web.mvc.thymeleaf ---
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.addon.web.mvc.thymeleaf ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Annotations - Thymeleaf 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-java-formatter-plugin:0.4:format (default) @ org.springframework.roo.addon.web.mvc.thymeleaf.annotations ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 9
+[INFO] Successfully formatted: 0 file(s)
+[INFO] Fail to format        : 0 file(s)
+[INFO] Skipped               : 9 file(s)
+[INFO] Approximate time taken: 0s
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.addon.web.mvc.thymeleaf.annotations ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.addon.web.mvc.thymeleaf.annotations ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/addon-web-mvc-thymeleaf/annotations/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.addon.web.mvc.thymeleaf.annotations ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.addon.web.mvc.thymeleaf.annotations ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.addon.web.mvc.thymeleaf.annotations ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo/addon-web-mvc-thymeleaf/annotations/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.addon.web.mvc.thymeleaf.annotations ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ org.springframework.roo.addon.web.mvc.thymeleaf.annotations ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Addon - Thymeleaf 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.addon.web.mvc.controller.addon:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.addon.web.mvc.views:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Roo - Thymeleaf ............................. SUCCESS [  0.307 s]
+[INFO] Spring Roo - Annotations - Thymeleaf ............... SUCCESS [  0.863 s]
+[INFO] Spring Roo - Addon - Thymeleaf ..................... FAILURE [  0.013 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.273 s
+[INFO] Finished at: 2017-03-03T11:06:01-03:00
+[INFO] Final Memory: 24M/291M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project org.springframework.roo.addon.web.mvc.thymeleaf.addon: Could not resolve dependencies for project org.springframework.roo:org.springframework.roo.addon.web.mvc.thymeleaf.addon:bundle:2.0.0.BUILD-SNAPSHOT: The following artifacts could not be resolved: org.springframework.roo:org.springframework.roo.addon.web.mvc.controller.addon:jar:2.0.0.BUILD-SNAPSHOT, org.springframework.roo:org.springframework.roo.addon.web.mvc.views:jar:2.0.0.BUILD-SNAPSHOT: Could not find artifact org.springframework.roo:org.springframework.roo.addon.web.mvc.controller.addon:jar:2.0.0.BUILD-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :org.springframework.roo.addon.web.mvc.thymeleaf.addon

@@ -1,0 +1,1168 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Flex Roo Addon
+[INFO] Spring Flex Roo Addon Annotations
+[INFO] Spring Flex Roo Addon Distribution
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Flex Roo Addon 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.2:resources (default-resources) @ org.springframework.flex.roo.addon ---
+[INFO] Using default encoding to copy filtered resources.
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ org.springframework.flex.roo.addon ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.3:run (compile) @ org.springframework.flex.roo.addon ---
+[INFO] Executing tasks
+     [echo] Created '/home/guilherme/spring-projects/maven/spring-flex-roo/org.springframework.flex.roo.addon/setup.env' and '/home/guilherme/spring-projects/maven/spring-flex-roo/org.springframework.flex.roo.addon\setup.bat'
+     [echo] *nix: use source /home/guilherme/spring-projects/maven/spring-flex-roo/org.springframework.flex.roo.addon/setup.env to read in variable
+     [echo] Cached Roo add-on classpath file '/home/guilherme/spring-projects/maven/spring-flex-roo/org.springframework.flex.roo.addon/target/roo_classpath.txt'
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-scr-plugin:1.4.2:scr (generate-scr-scrdescriptor) @ org.springframework.flex.roo.addon ---
+[INFO] Writing abstract service descriptor /home/guilherme/spring-projects/maven/spring-flex-roo/org.springframework.flex.roo.addon/target/scr-plugin-generated/OSGI-INF/scr-plugin/scrinfo.xml with 9 entries.
+[INFO] Generating 9 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-flex-roo/org.springframework.flex.roo.addon/target/scr-plugin-generated/OSGI-INF/serviceComponents.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.2:testResources (default-testResources) @ org.springframework.flex.roo.addon ---
+[INFO] Using default encoding to copy filtered resources.
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ org.springframework.flex.roo.addon ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.4.3:test (default-test) @ org.springframework.flex.roo.addon ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-flex-roo/org.springframework.flex.roo.addon/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserMetadataProviderTests
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserMetadataProviderTests - 
+package com.foo.stuff{
+	public interface Foo {
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserMetadataProviderTests - 
+package  com.foo.stuff{
+	[RemoteClass(alias="com.foo.stuff.domain.FooImpl")]
+	public class FooImpl {
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserMetadataProviderTests - 
+package  com.foo.stuff{
+	import com.foo.other.Parent;
+	public class FooImpl extends Parent  {
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserMetadataProviderTests - 
+package  com.foo.stuff{
+	import com.foo.other.Parent;
+	import com.foo.other.Sibling;
+	public class FooImpl implements Parent, Sibling {
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserMetadataProviderTests - 
+package  com.foo.stuff{
+	public class FooImpl {
+		public function FooImpl() {
+		}
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserMetadataProviderTests - 
+package  com.foo.stuff{
+	import com.foo.other.Bar;
+	public class FooImpl {
+		[Autowired]
+		private function FooImpl(arg1:String, arg2:Bar) {
+		}
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserMetadataProviderTests - 
+package  com.foo.stuff{
+	public class FooImpl {
+		public function doStuff():void {
+		}
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserMetadataProviderTests - 
+package  com.foo.stuff{
+	import com.foo.smothered.Covered;
+	import com.foo.other.Bar;
+	public class FooImpl {
+		[MagicalMetadata]
+		private function doStuff(arg1:String, arg2:Bar):Covered {
+		}
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserMetadataProviderTests - 
+package  com.foo.stuff{
+	import com.foo.other.Brother;
+	public class FooImpl {
+		[Bindable]
+		public var name:String;
+		protected var brother:Brother;
+		private var stuff:Stuff;
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserMetadataProviderTests - 
+package  com.foo.stuff{
+	public class FooImpl {
+	}
+}
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.368 sec
+Running org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserClassMetadataValidParsingTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserClassMetadataMutableTypeDetailsTests
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserClassMetadataMutableTypeDetailsTests - 
+package com.foo.stuff
+{
+	import com.foo.Alpha;
+	import com.foo.Bar;
+	import com.foo.Foo;
+	
+	[ClassLevelTag1]
+	[ClassLevelTag2(foo="bar")]
+	public class FooImpl extends Alpha implements Foo
+	{
+		[FieldLevelTag1]
+		public var field1:String;
+		
+		private var field2:Bar;
+		
+		public function FooImpl(){
+			var localField1 = "localField1";
+			field2 = new Bar(localField);
+		}
+		
+		[MethodLevelTag1]
+		private function method1():void{
+		
+		}
+		
+		public function fooFactory():FooImpl{
+		
+		}
+		
+		public function calculateStuff(bar:String, baz:Bar):String {
+		
+		}
+		private var id:Number=-1;
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserClassMetadataMutableTypeDetailsTests - 
+package com.foo.stuff
+{
+	import com.foo.Alpha;
+	import com.foo.Bar;
+	import com.foo.Foo;
+	
+	[ClassLevelTag1]
+	[ClassLevelTag2(foo="bar")]
+	public class FooImpl extends Alpha implements Foo
+	{
+		[FieldLevelTag1]
+		public var field1:String;
+		
+		private var field2:Bar;
+		
+		public function FooImpl(){
+			var localField1 = "localField1";
+			field2 = new Bar(localField);
+		}
+		
+		[MethodLevelTag1]
+		private function method1():void{
+		
+		}
+		
+		public function fooFactory():FooImpl{
+		
+		}
+		
+		public function calculateStuff(bar:String, baz:Bar):String {
+		
+		}
+		private var name:String;
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserClassMetadataMutableTypeDetailsTests - 
+package com.foo.stuff
+{
+	import com.foo.Alpha;
+	import com.foo.Bar;
+	import com.foo.Foo;
+	import com.foo.other.Baz;
+	
+	[ClassLevelTag1]
+	[ClassLevelTag2(foo="bar")]
+	public class FooImpl extends Alpha implements Foo
+	{
+		[FieldLevelTag1]
+		public var field1:String;
+		
+		private var field2:Bar;
+		
+		public function FooImpl(){
+			var localField1 = "localField1";
+			field2 = new Bar(localField);
+		}
+		
+		[MethodLevelTag1]
+		private function method1():void{
+		
+		}
+		
+		public function fooFactory():FooImpl{
+		
+		}
+		
+		public function calculateStuff(bar:String, baz:Bar):String {
+		
+		}
+		[Bindable]
+		private var baz:Baz;
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserClassMetadataMutableTypeDetailsTests - 
+package com.foo.stuff
+{
+	import com.foo.Alpha;
+	import com.foo.Bar;
+	import com.foo.Foo;
+	
+	[ClassLevelTag1]
+	[ClassLevelTag2(foo="bar")]
+	public class FooImpl extends Alpha implements Foo
+	{
+		
+		
+		private var field2:Bar;
+		
+		public function FooImpl(){
+			var localField1 = "localField1";
+			field2 = new Bar(localField);
+		}
+		
+		[MethodLevelTag1]
+		private function method1():void{
+		
+		}
+		
+		public function fooFactory():FooImpl{
+		
+		}
+		
+		public function calculateStuff(bar:String, baz:Bar):String {
+		
+		}
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserClassMetadataMutableTypeDetailsTests - 
+package com.foo.stuff
+{
+	import com.foo.Alpha;
+	import com.foo.Bar;
+	import com.foo.Foo;
+	
+	[ClassLevelTag1]
+	[ClassLevelTag2(foo="bar")]
+	public class FooImpl extends Alpha implements Foo
+	{
+		[FieldLevelTag1]
+		public var field1:String;
+		
+		private var field2:Bar;
+		
+		public function FooImpl(){
+			var localField1 = "localField1";
+			field2 = new Bar(localField);
+		}
+		
+		[MethodLevelTag1]
+		private function method1():void{
+		
+		}
+		
+		public function fooFactory():FooImpl{
+		
+		}
+		
+		public function calculateStuff(bar:String, baz:Bar):String {
+		
+		}
+		public function doStuff():void {
+		}
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserClassMetadataMutableTypeDetailsTests - 
+package com.foo.stuff
+{
+	import com.foo.Alpha;
+	import com.foo.Bar;
+	import com.foo.Foo;
+	import com.foo.smothered.Covered;
+	import com.foo.other.Bar;
+	
+	[ClassLevelTag1]
+	[ClassLevelTag2(foo="bar")]
+	public class FooImpl extends Alpha implements Foo
+	{
+		[FieldLevelTag1]
+		public var field1:String;
+		
+		private var field2:Bar;
+		
+		public function FooImpl(){
+			var localField1 = "localField1";
+			field2 = new Bar(localField);
+		}
+		
+		[MethodLevelTag1]
+		private function method1():void{
+		
+		}
+		
+		public function fooFactory():FooImpl{
+		
+		}
+		
+		public function calculateStuff(bar:String, baz:Bar):String {
+		
+		}
+		[MagicalMetadata]
+		private function doStuff(arg1:String, arg2:Bar):Covered {
+		}
+	}
+}
+DEBUG: org.springframework.flex.roo.addon.as.classpath.as3parser.As3ParserClassMetadataMutableTypeDetailsTests - 
+package com.foo.stuff
+{
+	import com.foo.Alpha;
+	import com.foo.Bar;
+	import com.foo.Foo;
+	
+	[ClassLevelTag1]
+	[ClassLevelTag2(foo="bar")][RemoteClass(alias="com.foo.stuff.domain.FooImpl")]
+	
+	public class FooImpl extends Alpha implements Foo
+	{
+		[FieldLevelTag1]
+		public var field1:String;
+		
+		private var field2:Bar;
+		
+		public function FooImpl(){
+			var localField1 = "localField1";
+			field2 = new Bar(localField);
+		}
+		
+		[MethodLevelTag1]
+		private function method1():void{
+		
+		}
+		
+		public function fooFactory():FooImpl{
+		
+		}
+		
+		public function calculateStuff(bar:String, baz:Bar):String {
+		
+		}
+	}
+}
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.043 sec
+Running org.springframework.flex.roo.addon.ui.FormTemplateTests
+DEBUG: org.springframework.flex.roo.addon.ui.FormTemplateTests - <?xml version="1.0" encoding="utf-8"?>
+<s:TitleWindow xmlns:fx="http://ns.adobe.com/mxml/2009" 
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+        xmlns:mx="library://ns.adobe.com/flex/mx" close="handleCloseEvent();" creationComplete="personForm_creationCompleteHandler(event)" title="Person Form" width="400" height="300">
+    <fx:Script>
+        <![CDATA[
+            import mx.collections.ArrayCollection;
+            import mx.controls.Alert;
+            import mx.events.FlexEvent;
+            import mx.managers.PopUpManager;
+            import mx.messaging.ChannelSet;
+            import mx.rpc.events.FaultEvent;
+            import mx.rpc.events.ResultEvent;
+            
+            import mx.validators.Validator;
+            
+            import com.foo.Person;
+            
+            
+            [Bindable]
+            public var remotingChannels:ChannelSet;
+            
+            [Bindable]
+            public var person:Person;
+            
+            private function handleCloseEvent():void {
+                PopUpManager.removePopUp(this);
+            }            
+            
+            private function processSave():void {
+                if (!validateAndCommit()){
+                    return;
+                }
+                this.dispatchEvent(new PersonEvent(((!person.id || person.id <= 0) ? PersonEvent.CREATE : PersonEvent.UPDATE), person));
+                PopUpManager.removePopUp(this);
+            }
+            
+            private function validateAndCommit():Boolean{
+                var validatorErrors:Array = Validator.validateAll(validators.source);
+                if (validatorErrors.length > 0){
+                    return false;
+                }
+                person.name = nameInput.text;
+
+                return true;
+            }
+            
+            protected function personForm_creationCompleteHandler(event:FlexEvent):void
+            {
+            }
+            
+        ]]>
+    </fx:Script>
+    
+    <fx:Declarations>
+        <s:ArrayList id="validators">
+            <mx:StringValidator id="nameValidator" source="{nameInput}" property="text"  required="true" />
+        </s:ArrayList>
+    </fx:Declarations>
+    
+    <s:layout>
+        <s:VerticalLayout/>
+    </s:layout>
+    
+    <mx:Form id="personForm">
+        <mx:FormItem id="nameField" label="Name">
+        	<s:TextInput id="nameInput" text="{person.name}" /></mx:FormItem>
+    </mx:Form>
+    
+    <s:Group>
+        <s:layout>
+            <s:HorizontalLayout/>
+        </s:layout>
+        <s:Button label="Save" click="processSave();"/>
+        <s:Button label="Cancel" click="handleCloseEvent();"/>
+    </s:Group>
+    
+    
+</s:TitleWindow>
+DEBUG: org.springframework.flex.roo.addon.ui.FormTemplateTests - <?xml version="1.0" encoding="utf-8"?>
+<s:TitleWindow xmlns:fx="http://ns.adobe.com/mxml/2009" 
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+        xmlns:mx="library://ns.adobe.com/flex/mx" close="handleCloseEvent();" creationComplete="personForm_creationCompleteHandler(event)" title="Person Form" width="400" height="300">
+    <fx:Script>
+        <![CDATA[
+            import mx.collections.ArrayCollection;
+            import mx.controls.Alert;
+            import mx.events.FlexEvent;
+            import mx.managers.PopUpManager;
+            import mx.messaging.ChannelSet;
+            import mx.rpc.events.FaultEvent;
+            import mx.rpc.events.ResultEvent;
+            
+            import mx.validators.Validator;
+            
+            import com.foo.Person;
+            
+            
+            [Bindable]
+            public var remotingChannels:ChannelSet;
+            
+            [Bindable]
+            public var person:Person;
+            
+            private function handleCloseEvent():void {
+                PopUpManager.removePopUp(this);
+            }            
+            
+            private function processSave():void {
+                if (!validateAndCommit()){
+                    return;
+                }
+                this.dispatchEvent(new PersonEvent(((!person.id || person.id <= 0) ? PersonEvent.CREATE : PersonEvent.UPDATE), person));
+                PopUpManager.removePopUp(this);
+            }
+            
+            private function validateAndCommit():Boolean{
+                var validatorErrors:Array = Validator.validateAll(validators.source);
+                if (validatorErrors.length > 0){
+                    return false;
+                }
+                person.name = nameInput.text;
+
+                return true;
+            }
+            
+            protected function personForm_creationCompleteHandler(event:FlexEvent):void
+            {
+            }
+            
+        ]]>
+    </fx:Script>
+    
+    <fx:Declarations>
+        <s:ArrayList id="validators">
+            <mx:StringValidator id="nameValidator" source="{nameInput}" property="text"  minLength="2" required="true" />
+        </s:ArrayList>
+    </fx:Declarations>
+    
+    <s:layout>
+        <s:VerticalLayout/>
+    </s:layout>
+    
+    <mx:Form id="personForm">
+        <mx:FormItem id="nameField" label="Name">
+        	<s:TextInput id="nameInput" text="{person.name}" /></mx:FormItem>
+    </mx:Form>
+    
+    <s:Group>
+        <s:layout>
+            <s:HorizontalLayout/>
+        </s:layout>
+        <s:Button label="Save" click="processSave();"/>
+        <s:Button label="Cancel" click="handleCloseEvent();"/>
+    </s:Group>
+    
+    
+</s:TitleWindow>
+DEBUG: org.springframework.flex.roo.addon.ui.FormTemplateTests - <?xml version="1.0" encoding="utf-8"?>
+<s:TitleWindow xmlns:fx="http://ns.adobe.com/mxml/2009" 
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+        xmlns:mx="library://ns.adobe.com/flex/mx" close="handleCloseEvent();" creationComplete="personForm_creationCompleteHandler(event)" title="Person Form" width="400" height="300">
+    <fx:Script>
+        <![CDATA[
+            import mx.collections.ArrayCollection;
+            import mx.controls.Alert;
+            import mx.events.FlexEvent;
+            import mx.managers.PopUpManager;
+            import mx.messaging.ChannelSet;
+            import mx.rpc.events.FaultEvent;
+            import mx.rpc.events.ResultEvent;
+            
+            import mx.validators.Validator;
+            
+            import com.foo.Person;
+            
+            
+            [Bindable]
+            public var remotingChannels:ChannelSet;
+            
+            [Bindable]
+            public var person:Person;
+            
+            private function handleCloseEvent():void {
+                PopUpManager.removePopUp(this);
+            }            
+            
+            private function processSave():void {
+                if (!validateAndCommit()){
+                    return;
+                }
+                this.dispatchEvent(new PersonEvent(((!person.id || person.id <= 0) ? PersonEvent.CREATE : PersonEvent.UPDATE), person));
+                PopUpManager.removePopUp(this);
+            }
+            
+            private function validateAndCommit():Boolean{
+                var validatorErrors:Array = Validator.validateAll(validators.source);
+                if (validatorErrors.length > 0){
+                    return false;
+                }
+                person.age = parseInt(ageInput.text);
+
+
+                return true;
+            }
+            
+            protected function personForm_creationCompleteHandler(event:FlexEvent):void
+            {
+            }
+            
+        ]]>
+    </fx:Script>
+    
+    <fx:Declarations>
+        <s:ArrayList id="validators">
+        </s:ArrayList>
+    </fx:Declarations>
+    
+    <s:layout>
+        <s:VerticalLayout/>
+    </s:layout>
+    
+    <mx:Form id="personForm">
+        <mx:FormItem id="ageField" label="Age">
+        	<s:TextInput id="ageInput" text="{person.age}" /></mx:FormItem>
+    </mx:Form>
+    
+    <s:Group>
+        <s:layout>
+            <s:HorizontalLayout/>
+        </s:layout>
+        <s:Button label="Save" click="processSave();"/>
+        <s:Button label="Cancel" click="handleCloseEvent();"/>
+    </s:Group>
+    
+    
+</s:TitleWindow>
+DEBUG: org.springframework.flex.roo.addon.ui.FormTemplateTests - <?xml version="1.0" encoding="utf-8"?>
+<s:TitleWindow xmlns:fx="http://ns.adobe.com/mxml/2009" 
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+        xmlns:mx="library://ns.adobe.com/flex/mx" close="handleCloseEvent();" creationComplete="personForm_creationCompleteHandler(event)" title="Person Form" width="400" height="300">
+    <fx:Script>
+        <![CDATA[
+            import mx.collections.ArrayCollection;
+            import mx.controls.Alert;
+            import mx.events.FlexEvent;
+            import mx.managers.PopUpManager;
+            import mx.messaging.ChannelSet;
+            import mx.rpc.events.FaultEvent;
+            import mx.rpc.events.ResultEvent;
+            
+            import mx.validators.Validator;
+            
+            import com.foo.Person;
+            
+            
+            [Bindable]
+            public var remotingChannels:ChannelSet;
+            
+            [Bindable]
+            public var person:Person;
+            
+            private function handleCloseEvent():void {
+                PopUpManager.removePopUp(this);
+            }            
+            
+            private function processSave():void {
+                if (!validateAndCommit()){
+                    return;
+                }
+                this.dispatchEvent(new PersonEvent(((!person.id || person.id <= 0) ? PersonEvent.CREATE : PersonEvent.UPDATE), person));
+                PopUpManager.removePopUp(this);
+            }
+            
+            private function validateAndCommit():Boolean{
+                var validatorErrors:Array = Validator.validateAll(validators.source);
+                if (validatorErrors.length > 0){
+                    return false;
+                }
+                person.age = parseInt(ageInput.text);
+
+
+                return true;
+            }
+            
+            protected function personForm_creationCompleteHandler(event:FlexEvent):void
+            {
+            }
+            
+        ]]>
+    </fx:Script>
+    
+    <fx:Declarations>
+        <s:ArrayList id="validators">
+            <mx:NumberValidator id="ageValidator" source="{ageInput}" property="text"
+             required="true" />
+        </s:ArrayList>
+    </fx:Declarations>
+    
+    <s:layout>
+        <s:VerticalLayout/>
+    </s:layout>
+    
+    <mx:Form id="personForm">
+        <mx:FormItem id="ageField" label="Age">
+        	<s:TextInput id="ageInput" text="{person.age}" /></mx:FormItem>
+    </mx:Form>
+    
+    <s:Group>
+        <s:layout>
+            <s:HorizontalLayout/>
+        </s:layout>
+        <s:Button label="Save" click="processSave();"/>
+        <s:Button label="Cancel" click="handleCloseEvent();"/>
+    </s:Group>
+    
+    
+</s:TitleWindow>
+DEBUG: org.springframework.flex.roo.addon.ui.FormTemplateTests - <?xml version="1.0" encoding="utf-8"?>
+<s:TitleWindow xmlns:fx="http://ns.adobe.com/mxml/2009" 
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+        xmlns:mx="library://ns.adobe.com/flex/mx" close="handleCloseEvent();" creationComplete="personForm_creationCompleteHandler(event)" title="Person Form" width="400" height="300">
+    <fx:Script>
+        <![CDATA[
+            import mx.collections.ArrayCollection;
+            import mx.controls.Alert;
+            import mx.events.FlexEvent;
+            import mx.managers.PopUpManager;
+            import mx.messaging.ChannelSet;
+            import mx.rpc.events.FaultEvent;
+            import mx.rpc.events.ResultEvent;
+            
+            import mx.validators.Validator;
+            
+            import com.foo.Person;
+            
+            
+            [Bindable]
+            public var remotingChannels:ChannelSet;
+            
+            [Bindable]
+            public var person:Person;
+            
+            private function handleCloseEvent():void {
+                PopUpManager.removePopUp(this);
+            }            
+            
+            private function processSave():void {
+                if (!validateAndCommit()){
+                    return;
+                }
+                this.dispatchEvent(new PersonEvent(((!person.id || person.id <= 0) ? PersonEvent.CREATE : PersonEvent.UPDATE), person));
+                PopUpManager.removePopUp(this);
+            }
+            
+            private function validateAndCommit():Boolean{
+                var validatorErrors:Array = Validator.validateAll(validators.source);
+                if (validatorErrors.length > 0){
+                    return false;
+                }
+                person.name = parseInt(nameInput.text);
+
+
+                return true;
+            }
+            
+            protected function personForm_creationCompleteHandler(event:FlexEvent):void
+            {
+            }
+            
+        ]]>
+    </fx:Script>
+    
+    <fx:Declarations>
+        <s:ArrayList id="validators">
+            <mx:NumberValidator id="nameValidator" source="{nameInput}" property="text"
+             minValue="2" required="true" />
+        </s:ArrayList>
+    </fx:Declarations>
+    
+    <s:layout>
+        <s:VerticalLayout/>
+    </s:layout>
+    
+    <mx:Form id="personForm">
+        <mx:FormItem id="nameField" label="Name">
+        	<s:TextInput id="nameInput" text="{person.name}" /></mx:FormItem>
+    </mx:Form>
+    
+    <s:Group>
+        <s:layout>
+            <s:HorizontalLayout/>
+        </s:layout>
+        <s:Button label="Save" click="processSave();"/>
+        <s:Button label="Cancel" click="handleCloseEvent();"/>
+    </s:Group>
+    
+    
+</s:TitleWindow>
+DEBUG: org.springframework.flex.roo.addon.ui.FormTemplateTests - <?xml version="1.0" encoding="utf-8"?>
+<s:TitleWindow xmlns:fx="http://ns.adobe.com/mxml/2009" 
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+        xmlns:mx="library://ns.adobe.com/flex/mx" close="handleCloseEvent();" creationComplete="personForm_creationCompleteHandler(event)" title="Person Form" width="400" height="300">
+    <fx:Script>
+        <![CDATA[
+            import mx.collections.ArrayCollection;
+            import mx.controls.Alert;
+            import mx.events.FlexEvent;
+            import mx.managers.PopUpManager;
+            import mx.messaging.ChannelSet;
+            import mx.rpc.events.FaultEvent;
+            import mx.rpc.events.ResultEvent;
+            
+            import mx.validators.Validator;
+            
+            import com.foo.Person;
+            
+            
+            [Bindable]
+            public var remotingChannels:ChannelSet;
+            
+            [Bindable]
+            public var person:Person;
+            
+            private function handleCloseEvent():void {
+                PopUpManager.removePopUp(this);
+            }            
+            
+            private function processSave():void {
+                if (!validateAndCommit()){
+                    return;
+                }
+                this.dispatchEvent(new PersonEvent(((!person.id || person.id <= 0) ? PersonEvent.CREATE : PersonEvent.UPDATE), person));
+                PopUpManager.removePopUp(this);
+            }
+            
+            private function validateAndCommit():Boolean{
+                var validatorErrors:Array = Validator.validateAll(validators.source);
+                if (validatorErrors.length > 0){
+                    return false;
+                }
+                person.birthday = birthdayInput.selectedDate;
+
+
+                return true;
+            }
+            
+            protected function personForm_creationCompleteHandler(event:FlexEvent):void
+            {
+            }
+            
+        ]]>
+    </fx:Script>
+    
+    <fx:Declarations>
+        <s:ArrayList id="validators">
+        </s:ArrayList>
+    </fx:Declarations>
+    
+    <s:layout>
+        <s:VerticalLayout/>
+    </s:layout>
+    
+    <mx:Form id="personForm">
+        <mx:FormItem id="birthdayField" label="Birthday">
+        	<mx:DateField id="birthdayInput" selectedDate="{person.birthday}" />
+        </mx:FormItem>
+    </mx:Form>
+    
+    <s:Group>
+        <s:layout>
+            <s:HorizontalLayout/>
+        </s:layout>
+        <s:Button label="Save" click="processSave();"/>
+        <s:Button label="Cancel" click="handleCloseEvent();"/>
+    </s:Group>
+    
+    
+</s:TitleWindow>
+DEBUG: org.springframework.flex.roo.addon.ui.FormTemplateTests - <?xml version="1.0" encoding="utf-8"?>
+<s:TitleWindow xmlns:fx="http://ns.adobe.com/mxml/2009" 
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+        xmlns:mx="library://ns.adobe.com/flex/mx" close="handleCloseEvent();" creationComplete="personForm_creationCompleteHandler(event)" title="Person Form" width="400" height="300">
+    <fx:Script>
+        <![CDATA[
+            import mx.collections.ArrayCollection;
+            import mx.controls.Alert;
+            import mx.events.FlexEvent;
+            import mx.managers.PopUpManager;
+            import mx.messaging.ChannelSet;
+            import mx.rpc.events.FaultEvent;
+            import mx.rpc.events.ResultEvent;
+            
+            import mx.validators.Validator;
+            
+            import com.foo.Person;
+            
+            
+            [Bindable]
+            public var remotingChannels:ChannelSet;
+            
+            [Bindable]
+            public var person:Person;
+            
+            private function handleCloseEvent():void {
+                PopUpManager.removePopUp(this);
+            }            
+            
+            private function processSave():void {
+                if (!validateAndCommit()){
+                    return;
+                }
+                this.dispatchEvent(new PersonEvent(((!person.id || person.id <= 0) ? PersonEvent.CREATE : PersonEvent.UPDATE), person));
+                PopUpManager.removePopUp(this);
+            }
+            
+            private function validateAndCommit():Boolean{
+                var validatorErrors:Array = Validator.validateAll(validators.source);
+                if (validatorErrors.length > 0){
+                    return false;
+                }
+                person.birthday = birthdayInput.selectedDate;
+
+
+                return true;
+            }
+            
+            protected function personForm_creationCompleteHandler(event:FlexEvent):void
+            {
+            }
+            
+        ]]>
+    </fx:Script>
+    
+    <fx:Declarations>
+        <s:ArrayList id="validators">
+            <mx:DateValidator id="birthdayValidator" source="{birthdayInput}" property="selectedDate" required="true" />
+        </s:ArrayList>
+    </fx:Declarations>
+    
+    <s:layout>
+        <s:VerticalLayout/>
+    </s:layout>
+    
+    <mx:Form id="personForm">
+        <mx:FormItem id="birthdayField" label="Birthday">
+        	<mx:DateField id="birthdayInput" selectedDate="{person.birthday}" />
+        </mx:FormItem>
+    </mx:Form>
+    
+    <s:Group>
+        <s:layout>
+            <s:HorizontalLayout/>
+        </s:layout>
+        <s:Button label="Save" click="processSave();"/>
+        <s:Button label="Cancel" click="handleCloseEvent();"/>
+    </s:Group>
+    
+    
+</s:TitleWindow>
+DEBUG: org.springframework.flex.roo.addon.ui.FormTemplateTests - <?xml version="1.0" encoding="utf-8"?>
+<s:TitleWindow xmlns:fx="http://ns.adobe.com/mxml/2009" 
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+        xmlns:mx="library://ns.adobe.com/flex/mx" close="handleCloseEvent();" creationComplete="personForm_creationCompleteHandler(event)" title="Person Form" width="400" height="300">
+    <fx:Script>
+        <![CDATA[
+            import mx.collections.ArrayCollection;
+            import mx.controls.Alert;
+            import mx.events.FlexEvent;
+            import mx.managers.PopUpManager;
+            import mx.messaging.ChannelSet;
+            import mx.rpc.events.FaultEvent;
+            import mx.rpc.events.ResultEvent;
+            
+            import mx.validators.Validator;
+            
+            import com.foo.Person;
+            
+            
+            [Bindable]
+            public var remotingChannels:ChannelSet;
+            
+            [Bindable]
+            public var person:Person;
+            
+            private function handleCloseEvent():void {
+                PopUpManager.removePopUp(this);
+            }            
+            
+            private function processSave():void {
+                if (!validateAndCommit()){
+                    return;
+                }
+                this.dispatchEvent(new PersonEvent(((!person.id || person.id <= 0) ? PersonEvent.CREATE : PersonEvent.UPDATE), person));
+                PopUpManager.removePopUp(this);
+            }
+            
+            private function validateAndCommit():Boolean{
+                var validatorErrors:Array = Validator.validateAll(validators.source);
+                if (validatorErrors.length > 0){
+                    return false;
+                }
+                person.name = nameInput.text;
+
+                return true;
+            }
+            
+            protected function personForm_creationCompleteHandler(event:FlexEvent):void
+            {
+            }
+            
+        ]]>
+    </fx:Script>
+    
+    <fx:Declarations>
+        <s:ArrayList id="validators">
+        </s:ArrayList>
+    </fx:Declarations>
+    
+    <s:layout>
+        <s:VerticalLayout/>
+    </s:layout>
+    
+    <mx:Form id="personForm">
+        <mx:FormItem id="nameField" label="Name">
+        	<s:TextInput id="nameInput" text="{person.name}" /></mx:FormItem>
+    </mx:Form>
+    
+    <s:Group>
+        <s:layout>
+            <s:HorizontalLayout/>
+        </s:layout>
+        <s:Button label="Save" click="processSave();"/>
+        <s:Button label="Cancel" click="handleCloseEvent();"/>
+    </s:Group>
+    
+    
+</s:TitleWindow>
+DEBUG: org.springframework.flex.roo.addon.ui.FormTemplateTests - <?xml version="1.0" encoding="utf-8"?>
+<s:TitleWindow xmlns:fx="http://ns.adobe.com/mxml/2009" 
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+        xmlns:mx="library://ns.adobe.com/flex/mx" close="handleCloseEvent();" creationComplete="personForm_creationCompleteHandler(event)" title="Person Form" width="400" height="300">
+    <fx:Script>
+        <![CDATA[
+            import mx.collections.ArrayCollection;
+            import mx.controls.Alert;
+            import mx.events.FlexEvent;
+            import mx.managers.PopUpManager;
+            import mx.messaging.ChannelSet;
+            import mx.rpc.events.FaultEvent;
+            import mx.rpc.events.ResultEvent;
+            
+            import mx.validators.Validator;
+            
+            import com.foo.Person;
+            
+            import com.foo.Address;
+
+            
+            [Bindable]
+            public var remotingChannels:ChannelSet;
+            
+            [Bindable]
+            public var person:Person;
+            
+            private function handleCloseEvent():void {
+                PopUpManager.removePopUp(this);
+            }            
+            
+            private function processSave():void {
+                if (!validateAndCommit()){
+                    return;
+                }
+                this.dispatchEvent(new PersonEvent(((!person.id || person.id <= 0) ? PersonEvent.CREATE : PersonEvent.UPDATE), person));
+                PopUpManager.removePopUp(this);
+            }
+            
+            private function validateAndCommit():Boolean{
+                var validatorErrors:Array = Validator.validateAll(validators.source);
+                if (validatorErrors.length > 0){
+                    return false;
+                }
+                person.currentAddress = currentAddressInput.selectedItem;
+
+                return true;
+            }
+            
+            protected function personForm_creationCompleteHandler(event:FlexEvent):void
+            {
+                addressService.list();
+
+            }
+            
+            protected function addressService_faultHandler(event:FaultEvent):void
+            {
+                Alert.show(event.fault.faultString, "Remote Operation Failed");
+            }
+
+            protected function addressService_listResultHandler(event:ResultEvent):void
+            {
+                currentAddressInput.dataProvider = event.result as ArrayCollection;
+                selectCurrentAddress();
+            }
+
+            private function selectCurrentAddress():void {
+            	if (person.currentAddress == null) {
+            		return;
+            	}
+            	for each(var addressItem:Address in currentAddressInput.dataProvider) {
+            		if (person.currentAddress.id == addressItem.id) {
+            			currentAddressInput.selectedItem = addressItem;
+            			return;
+            		}
+            	}
+            }
+
+
+        ]]>
+    </fx:Script>
+    
+    <fx:Declarations>
+    	<s:RemoteObject channelSet="{remotingChannels}" destination="addressService" fault="addressService_faultHandler(event)" id="addressService" >
+    	    <s:method name="list" result="addressService_listResultHandler(event)" />
+    	</s:RemoteObject>
+        <s:ArrayList id="validators">
+        </s:ArrayList>
+    </fx:Declarations>
+    
+    <s:layout>
+        <s:VerticalLayout/>
+    </s:layout>
+    
+    <mx:Form id="personForm">
+        <mx:FormItem id="currentAddressField" label="Current Address">
+        	<s:DropDownList id="currentAddressInput" labelField="street" />	</mx:FormItem>
+    </mx:Form>
+    
+    <s:Group>
+        <s:layout>
+            <s:HorizontalLayout/>
+        </s:layout>
+        <s:Button label="Save" click="processSave();"/>
+        <s:Button label="Cancel" click="handleCloseEvent();"/>
+    </s:Group>
+    
+    
+</s:TitleWindow>
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.221 sec
+
+Results :
+
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Flex Roo Addon Annotations 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.flex.roo.annotations ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-flex-roo/org.springframework.flex.roo.annotations/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ org.springframework.flex.roo.annotations ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.flex.roo.annotations ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-flex-roo/org.springframework.flex.roo.annotations/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ org.springframework.flex.roo.annotations ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ org.springframework.flex.roo.annotations ---
+[INFO] No tests to run.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Flex Roo Addon Distribution 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Flex Roo Addon .............................. SUCCESS [  2.076 s]
+[INFO] Spring Flex Roo Addon Annotations .................. SUCCESS [  0.187 s]
+[INFO] Spring Flex Roo Addon Distribution ................. SUCCESS [  0.000 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.752 s
+[INFO] Finished at: 2017-03-03T11:01:34-03:00
+[INFO] Final Memory: 16M/196M
+[INFO] ------------------------------------------------------------------------

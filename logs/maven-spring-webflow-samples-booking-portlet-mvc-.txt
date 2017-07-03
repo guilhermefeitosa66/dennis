@@ -1,0 +1,41 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Hotel Booking : Spring Portlet MVC + Web Flow + JSP 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repo.spring.io/milestone/joda-time/joda-time-jsptags/1.0.2/joda-time-jsptags-1.0.2.pom
+Downloading: https://repo.maven.apache.org/maven2/joda-time/joda-time-jsptags/1.0.2/joda-time-jsptags-1.0.2.pom
+[WARNING] The POM for joda-time:joda-time-jsptags:jar:1.0.2 is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ booking-portlet-mvc ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ booking-portlet-mvc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ booking-portlet-mvc ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ booking-portlet-mvc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ booking-portlet-mvc ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-webflow-samples/booking-portlet-mvc/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.995 s
+[INFO] Finished at: 2017-03-03T11:19:28-03:00
+[INFO] Final Memory: 12M/171M
+[INFO] ------------------------------------------------------------------------

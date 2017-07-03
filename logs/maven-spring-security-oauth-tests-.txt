@@ -1,0 +1,1023 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] spring-oauth2-tests
+[INFO] spring-oauth2-tests-common
+[INFO] spring-oauth2-tests-vanilla
+[INFO] spring-oauth2-tests-mappings
+[INFO] spring-oauth2-tests-form
+[INFO] spring-oauth2-tests-jwt
+[INFO] spring-oauth2-tests-approval
+[INFO] spring-oauth2-tests-jdbc
+[INFO] spring-oauth2-tests-jpa
+[INFO] spring-oauth2-tests-jaxb
+[INFO] spring-oauth-tests-custom-grant
+[INFO] spring-oauth2-tests-multi
+[INFO] spring-oauth2-tests-client
+[INFO] spring-oauth2-tests-resource
+[INFO] spring-oauth2-tests-custom-authentication
+[INFO] spring-oauth2-tests-xml
+[INFO] spring-oauth2-tests-xml-common
+[INFO] spring-oauth2-tests-xml-vanilla
+[INFO] spring-oauth2-tests-xml-mappings
+[INFO] spring-oauth2-tests-xml-form
+[INFO] spring-oauth2-tests-xml-jwt
+[INFO] spring-oauth2-tests-xml-approval
+[INFO] spring-oauth2-tests-xml-jdbc
+[INFO] spring-oauth2-tests-xml-client
+[INFO] OAuth for Spring Security - Integration Tests
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-common 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-common ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-common ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-vanilla 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-vanilla ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-vanilla ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-vanilla ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-vanilla ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-vanilla ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/annotation/vanilla/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.484 sec - in demo.ApplicationTests
+Running demo.AuthorizationCodeProviderCookieTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.451 sec - in demo.AuthorizationCodeProviderCookieTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.581 sec - in demo.ResourceOwnerPasswordProviderTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.568 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 sec - in demo.ClientCredentialsProviderTests
+Running demo.GlobalMethodSecurityTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.087 sec - in demo.GlobalMethodSecurityTests
+Running demo.ImplicitProviderTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.627 sec - in demo.ImplicitProviderTests
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec - in demo.ProtectedResourceTests
+Running demo.AdHocTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in demo.AdHocTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in demo.RefreshTokenSupportTests
+
+Results :
+
+Tests run: 46, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-mappings 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-mappings ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-mappings ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-mappings ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-mappings ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-mappings ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/annotation/mappings/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.025 sec - in demo.ApplicationTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.671 sec - in demo.ClientCredentialsProviderTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec - in demo.RefreshTokenSupportTests
+Running demo.ImplicitProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec - in demo.ImplicitProviderTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.625 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.318 sec - in demo.ResourceOwnerPasswordProviderTests
+Running demo.ServletPathClientCredentialsProviderTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.048 sec - in demo.ServletPathClientCredentialsProviderTests
+Running demo.ProtectedResourceTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec - in demo.ProtectedResourceTests
+
+Results :
+
+Tests run: 43, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-form 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-form ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-form ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-form ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-form ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-form ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/annotation/form/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.084 sec - in demo.ProtectedResourceTests
+Running demo.AdHocTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in demo.AdHocTests
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in demo.ApplicationTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.836 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.387 sec - in demo.ResourceOwnerPasswordProviderTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in demo.RefreshTokenSupportTests
+Running demo.ImplicitProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in demo.ImplicitProviderTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec - in demo.ClientCredentialsProviderTests
+
+Results :
+
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-jwt 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-jwt ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-jwt ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-jwt ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-jwt ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-jwt ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/annotation/jwt/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ApplicationTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.878 sec - in demo.ApplicationTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.868 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec - in demo.ProtectedResourceTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in demo.RefreshTokenSupportTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 sec - in demo.ClientCredentialsProviderTests
+Running demo.ImplicitProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec - in demo.ImplicitProviderTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.375 sec - in demo.ResourceOwnerPasswordProviderTests
+
+Results :
+
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-approval 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-approval ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-approval ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-approval ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-approval ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-approval ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/annotation/approval/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.865 sec - in demo.ProtectedResourceTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.687 sec - in demo.ResourceOwnerPasswordProviderTests
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in demo.ApplicationTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 sec - in demo.ClientCredentialsProviderTests
+Running demo.ImplicitProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec - in demo.ImplicitProviderTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.537 sec - in demo.AuthorizationCodeProviderTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in demo.RefreshTokenSupportTests
+
+Results :
+
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-jdbc 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-jdbc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-jdbc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-jdbc ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/annotation/jdbc/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.AdHocTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.009 sec - in demo.AdHocTests
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.587 sec - in demo.ApplicationTests
+Running demo.ImplicitProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.494 sec - in demo.ImplicitProviderTests
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 sec - in demo.ProtectedResourceTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.133 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.269 sec - in demo.ResourceOwnerPasswordProviderTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.2 sec - in demo.RefreshTokenSupportTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.398 sec - in demo.ClientCredentialsProviderTests
+
+Results :
+
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-jpa 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-jpa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-jpa ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-jpa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-jpa ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-jpa ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/annotation/jpa/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.535 sec - in demo.ApplicationTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.285 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ImplicitProviderTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.651 sec - in demo.ImplicitProviderTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.405 sec - in demo.ResourceOwnerPasswordProviderTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 sec - in demo.ClientCredentialsProviderTests
+Running demo.AdHocTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in demo.AdHocTests
+Running demo.AuthorizationCodeProviderCookieTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec - in demo.AuthorizationCodeProviderCookieTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec - in demo.RefreshTokenSupportTests
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in demo.ProtectedResourceTests
+
+Results :
+
+Tests run: 43, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-jaxb 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-jaxb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-jaxb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-jaxb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-jaxb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-jaxb ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/annotation/jaxb/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.583 sec - in demo.ResourceOwnerPasswordProviderTests
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in demo.ProtectedResourceTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec - in demo.ClientCredentialsProviderTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.518 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in demo.ApplicationTests
+Running demo.ImplicitProviderTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.398 sec - in demo.ImplicitProviderTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in demo.RefreshTokenSupportTests
+
+Results :
+
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth-tests-custom-grant 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-custom-grant ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-custom-grant ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-custom-grant ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-custom-grant ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-custom-grant ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/annotation/custom-grant/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ClientCredentialsProviderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.992 sec - in demo.ClientCredentialsProviderTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.858 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ImplicitProviderTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.383 sec - in demo.ImplicitProviderTests
+Running demo.AdHocTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in demo.AdHocTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.31 sec - in demo.ResourceOwnerPasswordProviderTests
+Running demo.CustomProviderTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in demo.CustomProviderTests
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in demo.ApplicationTests
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in demo.ProtectedResourceTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec - in demo.RefreshTokenSupportTests
+
+Results :
+
+Tests run: 43, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-multi 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-multi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-multi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-multi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-multi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-multi ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/annotation/multi/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.067 sec - in demo.RefreshTokenSupportTests
+Running demo.ImplicitProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 sec - in demo.ImplicitProviderTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.176 sec - in demo.ClientCredentialsProviderTests
+Running demo.ProtectedResourceTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec - in demo.ProtectedResourceTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.497 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in demo.ApplicationTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.367 sec - in demo.ResourceOwnerPasswordProviderTests
+
+Results :
+
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-client 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-client ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/annotation/client/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running client.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.734 sec - in client.ApplicationTests
+Running client.ClientServerInteractionTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.35 sec - in client.ClientServerInteractionTests
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-resource 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-resource ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-resource ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-resource ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-resource ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-resource ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/annotation/resource/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.594 sec - in demo.ProtectedResourceTests
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in demo.ApplicationTests
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-custom-authentication 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-custom-authentication ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-custom-authentication ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-custom-authentication ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-custom-authentication ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-custom-authentication ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/annotation/custom-authentication/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.653 sec - in demo.ApplicationTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.54 sec - in demo.ClientCredentialsProviderTests
+
+Results :
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-xml 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-xml-common 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-xml-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-xml-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-xml-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-xml-common ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-xml-common ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-xml-vanilla 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-xml-vanilla ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-xml-vanilla ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-xml-vanilla ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-security-oauth/tests/xml/vanilla/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-xml-vanilla ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-xml-vanilla ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/xml/vanilla/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.AuthorizationCodeProviderTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.666 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.296 sec - in demo.ResourceOwnerPasswordProviderTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec - in demo.ClientCredentialsProviderTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec - in demo.RefreshTokenSupportTests
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in demo.ProtectedResourceTests
+Running demo.ImplicitProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in demo.ImplicitProviderTests
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in demo.ApplicationTests
+
+Results :
+
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-xml-mappings 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-xml-mappings ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-xml-mappings ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-xml-mappings ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-security-oauth/tests/xml/mappings/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-xml-mappings ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-xml-mappings ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/xml/mappings/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.038 sec - in demo.RefreshTokenSupportTests
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in demo.ApplicationTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.746 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ProtectedResourceTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in demo.ProtectedResourceTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec - in demo.ClientCredentialsProviderTests
+Running demo.ImplicitProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in demo.ImplicitProviderTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.263 sec - in demo.ResourceOwnerPasswordProviderTests
+
+Results :
+
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-xml-form 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-xml-form ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-xml-form ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-xml-form ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-security-oauth/tests/xml/form/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-xml-form ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-xml-form ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/xml/form/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.718 sec - in demo.ApplicationTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.435 sec - in demo.RefreshTokenSupportTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.202 sec - in demo.ClientCredentialsProviderTests
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in demo.ProtectedResourceTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.557 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ImplicitProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in demo.ImplicitProviderTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.263 sec - in demo.ResourceOwnerPasswordProviderTests
+
+Results :
+
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-xml-jwt 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-xml-jwt ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-xml-jwt ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-xml-jwt ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-security-oauth/tests/xml/jwt/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-xml-jwt ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-xml-jwt ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/xml/jwt/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.46 sec - in demo.ApplicationTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.943 sec - in demo.ResourceOwnerPasswordProviderTests
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in demo.ProtectedResourceTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.14 sec - in demo.ClientCredentialsProviderTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in demo.RefreshTokenSupportTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.417 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ImplicitProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec - in demo.ImplicitProviderTests
+
+Results :
+
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-xml-approval 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-xml-approval ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-xml-approval ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-xml-approval ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-security-oauth/tests/xml/approval/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-xml-approval ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-xml-approval ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/xml/approval/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ClientCredentialsProviderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.06 sec - in demo.ClientCredentialsProviderTests
+Running demo.ImplicitProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec - in demo.ImplicitProviderTests
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 sec - in demo.ProtectedResourceTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.566 sec - in demo.AuthorizationCodeProviderTests
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.357 sec - in demo.ResourceOwnerPasswordProviderTests
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in demo.ApplicationTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in demo.RefreshTokenSupportTests
+
+Results :
+
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-xml-jdbc 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-xml-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-xml-jdbc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-xml-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-xml-jdbc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-xml-jdbc ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/xml/jdbc/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running demo.ResourceOwnerPasswordProviderTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.091 sec - in demo.ResourceOwnerPasswordProviderTests
+Running demo.ClientCredentialsProviderTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 sec - in demo.ClientCredentialsProviderTests
+Running demo.ProtectedResourceTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in demo.ProtectedResourceTests
+Running demo.ImplicitProviderTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec - in demo.ImplicitProviderTests
+Running demo.AdHocTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in demo.AdHocTests
+Running demo.AuthorizationCodeProviderTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.492 sec - in demo.AuthorizationCodeProviderTests
+Running demo.RefreshTokenSupportTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec - in demo.RefreshTokenSupportTests
+Running demo.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in demo.ApplicationTests
+
+Results :
+
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-oauth2-tests-xml-client 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-oauth2-tests-xml-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-oauth2-tests-xml-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-oauth2-tests-xml-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-oauth2-tests-xml-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-oauth2-tests-xml-client ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-security-oauth/tests/xml/client/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Running client.ClientServerInteractionTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.289 sec - in client.ClientServerInteractionTests
+Running client.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.899 sec - in client.ApplicationTests
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OAuth for Spring Security - Integration Tests 2.0.12.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.6:check (enforce-java-6) @ spring-security-oauth-tests ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] spring-oauth2-tests ................................ SUCCESS [  0.002 s]
+[INFO] spring-oauth2-tests-common ......................... SUCCESS [  0.558 s]
+[INFO] spring-oauth2-tests-vanilla ........................ SUCCESS [  8.969 s]
+[INFO] spring-oauth2-tests-mappings ....................... SUCCESS [  7.133 s]
+[INFO] spring-oauth2-tests-form ........................... SUCCESS [  5.816 s]
+[INFO] spring-oauth2-tests-jwt ............................ SUCCESS [  5.897 s]
+[INFO] spring-oauth2-tests-approval ....................... SUCCESS [  5.711 s]
+[INFO] spring-oauth2-tests-jdbc ........................... SUCCESS [  8.490 s]
+[INFO] spring-oauth2-tests-jpa ............................ SUCCESS [  8.465 s]
+[INFO] spring-oauth2-tests-jaxb ........................... SUCCESS [  5.951 s]
+[INFO] spring-oauth-tests-custom-grant .................... SUCCESS [  5.879 s]
+[INFO] spring-oauth2-tests-multi .......................... SUCCESS [  5.581 s]
+[INFO] spring-oauth2-tests-client ......................... SUCCESS [  4.358 s]
+[INFO] spring-oauth2-tests-resource ....................... SUCCESS [  3.842 s]
+[INFO] spring-oauth2-tests-custom-authentication .......... SUCCESS [  4.395 s]
+[INFO] spring-oauth2-tests-xml ............................ SUCCESS [  0.000 s]
+[INFO] spring-oauth2-tests-xml-common ..................... SUCCESS [  0.160 s]
+[INFO] spring-oauth2-tests-xml-vanilla .................... SUCCESS [  5.610 s]
+[INFO] spring-oauth2-tests-xml-mappings ................... SUCCESS [  5.549 s]
+[INFO] spring-oauth2-tests-xml-form ....................... SUCCESS [  5.510 s]
+[INFO] spring-oauth2-tests-xml-jwt ........................ SUCCESS [  5.384 s]
+[INFO] spring-oauth2-tests-xml-approval ................... SUCCESS [  5.405 s]
+[INFO] spring-oauth2-tests-xml-jdbc ....................... SUCCESS [  6.109 s]
+[INFO] spring-oauth2-tests-xml-client ..................... SUCCESS [  4.463 s]
+[INFO] OAuth for Spring Security - Integration Tests ...... SUCCESS [  0.305 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:00 min
+[INFO] Finished at: 2017-03-03T11:14:59-03:00
+[INFO] Final Memory: 46M/489M
+[INFO] ------------------------------------------------------------------------

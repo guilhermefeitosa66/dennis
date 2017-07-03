@@ -1,0 +1,31 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.manning.siia:siia-webapp:war:1.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.integration:spring-integration-file:jar -> duplicate declaration of version ${spring.integration.version} @ com.manning.siia:siia-parent:1.0-SNAPSHOT, /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/pom.xml, line 87, column 25
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.integration:spring-integration-stream:jar -> duplicate declaration of version ${spring.integration.version} @ com.manning.siia:siia-parent:1.0-SNAPSHOT, /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/pom.xml, line 117, column 25
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-core:jar -> duplicate declaration of version ${spring.version} @ com.manning.siia:siia-parent:1.0-SNAPSHOT, /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/pom.xml, line 142, column 25
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ com.manning.siia:siia-parent:1.0-SNAPSHOT, /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/pom.xml, line 248, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for com.manning.siia:integration:jar:1.0-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.224 s
+[INFO] Finished at: 2017-03-03T10:14:05-03:00
+[INFO] Final Memory: 6M/119M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project siia-webapp: Could not resolve dependencies for project com.manning.siia:siia-webapp:war:1.0-SNAPSHOT: Could not find artifact com.manning.siia:integration:jar:1.0-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

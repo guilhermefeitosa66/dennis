@@ -1,0 +1,43 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - Security Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-rest-security ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/security/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/security/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-rest-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-rest-security ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/rest/security/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-rest-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-rest-security ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/rest/security/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.rest.security.MethodLevelSecurityTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.934 sec - in example.springdata.rest.security.MethodLevelSecurityTests
+Running example.springdata.rest.security.UrlLevelSecurityTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.281 sec - in example.springdata.rest.security.UrlLevelSecurityTests
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.061 s
+[INFO] Finished at: 2017-03-03T10:51:54-03:00
+[INFO] Final Memory: 19M/219M
+[INFO] ------------------------------------------------------------------------

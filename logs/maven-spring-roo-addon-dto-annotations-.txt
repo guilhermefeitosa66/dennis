@@ -1,0 +1,24 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Annotations - DTO 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.addon.configurable.annotations:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.springframework.roo:org.springframework.roo.addon.javabean.annotations:jar:2.0.0.BUILD-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.975 s
+[INFO] Finished at: 2017-03-03T11:04:03-03:00
+[INFO] Final Memory: 15M/217M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project org.springframework.roo.addon.dto.annotations: Could not resolve dependencies for project org.springframework.roo:org.springframework.roo.addon.dto.annotations:bundle:2.0.0.BUILD-SNAPSHOT: The following artifacts could not be resolved: org.springframework.roo:org.springframework.roo.addon.configurable.annotations:jar:2.0.0.BUILD-SNAPSHOT, org.springframework.roo:org.springframework.roo.addon.javabean.annotations:jar:2.0.0.BUILD-SNAPSHOT: Could not find artifact org.springframework.roo:org.springframework.roo.addon.configurable.annotations:jar:2.0.0.BUILD-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

@@ -1,0 +1,178 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Boot Deployment Tests
+[INFO] Spring Boot Glassfish Deployment Test
+[INFO] Spring Boot TomEE Deployment Test
+[INFO] Spring Boot Tomcat Deployment Test
+[INFO] Spring Boot WildFly Deployment Test
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Deployment Tests 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-deployment-tests ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-deployment-tests ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-deployment-tests ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Glassfish Deployment Test 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-deployment-test-glassfish ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-deployment-test-glassfish ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-deployment-test-glassfish ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-deployment-tests/spring-boot-deployment-test-glassfish/src/main/resources
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:reserve-network-port (reserve-network-port) @ spring-boot-deployment-test-glassfish ---
+[INFO] Reserved port 39126 for appserver.port
+[INFO] Reserved port 35049 for appserver.admin.port
+[INFO] Reserved port 42574 for appserver.jms.port
+[INFO] Reserved port 39938 for appserver.iiop.port
+[INFO] Reserved port 36585 for appserver.https.port
+[INFO] Reserved port 35007 for appserver.iiops.port
+[INFO] Reserved port 34681 for appserver.iiopmutualauth.port
+[INFO] Reserved port 38926 for appserver.jmx.port
+[INFO] Reserved port 46055 for appserver.osgishell.port
+[INFO] Reserved port 38604 for appserver.debugger.port
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-deployment-test-glassfish ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-deployment-test-glassfish ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-deployment-tests/spring-boot-deployment-test-glassfish/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-deployment-test-glassfish ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-deployment-test-glassfish ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-deployment-test-glassfish ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot TomEE Deployment Test 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-deployment-test-tomee ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-deployment-test-tomee ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-deployment-test-tomee ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-deployment-tests/spring-boot-deployment-test-tomee/src/main/resources
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:reserve-network-port (reserve-network-port) @ spring-boot-deployment-test-tomee ---
+[INFO] Reserved port 33324 for appserver.port
+[INFO] Reserved port 45855 for appserver.ajp.port
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-deployment-test-tomee ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-deployment-test-tomee ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-deployment-tests/spring-boot-deployment-test-tomee/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-deployment-test-tomee ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-deployment-test-tomee ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-deployment-test-tomee ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Tomcat Deployment Test 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-deployment-test-tomcat ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-deployment-test-tomcat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-deployment-test-tomcat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-deployment-tests/spring-boot-deployment-test-tomcat/src/main/resources
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:reserve-network-port (reserve-network-port) @ spring-boot-deployment-test-tomcat ---
+[INFO] Reserved port 34686 for appserver.port
+[INFO] Reserved port 36799 for appserver.ajp.port
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-deployment-test-tomcat ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-deployment-test-tomcat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-deployment-tests/spring-boot-deployment-test-tomcat/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-deployment-test-tomcat ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-deployment-test-tomcat ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-deployment-test-tomcat ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot WildFly Deployment Test 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-deployment-test-wildfly ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-deployment-test-wildfly ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-deployment-test-wildfly ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-deployment-tests/spring-boot-deployment-test-wildfly/src/main/resources
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:reserve-network-port (reserve-network-port) @ spring-boot-deployment-test-wildfly ---
+[INFO] Reserved port 39870 for appserver.port
+[INFO] Reserved port 37817 for appserver.ajp.port
+[INFO] Reserved port 39437 for appserver.transaction.port
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-deployment-test-wildfly ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-deployment-test-wildfly ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-deployment-tests/spring-boot-deployment-test-wildfly/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-deployment-test-wildfly ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-deployment-test-wildfly ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (enforce-java-6) @ spring-boot-deployment-test-wildfly ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Boot Deployment Tests ....................... SUCCESS [  2.166 s]
+[INFO] Spring Boot Glassfish Deployment Test .............. SUCCESS [  1.477 s]
+[INFO] Spring Boot TomEE Deployment Test .................. SUCCESS [  0.808 s]
+[INFO] Spring Boot Tomcat Deployment Test ................. SUCCESS [  0.779 s]
+[INFO] Spring Boot WildFly Deployment Test ................ SUCCESS [  0.738 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.333 s
+[INFO] Finished at: 2017-03-03T10:18:26-03:00
+[INFO] Final Memory: 56M/480M
+[INFO] ------------------------------------------------------------------------

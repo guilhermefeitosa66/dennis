@@ -1,0 +1,87 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Hotel Booking : Spring MVC + Web Flow + JSP 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ booking-mvc ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ booking-mvc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ booking-mvc ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ booking-mvc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.14:test (default-test) @ booking-mvc ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-webflow-samples/booking-mvc/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.webflow.samples.booking.BookingFlowExecutionTests
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'booking-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Starting in org.springframework.webflow.test.MockExternalContext@b62d79 with input map['hotelId' -> '1']
+DEBUG: org.springframework.binding.mapping.impl.DefaultMapper - Beginning mapping between source [org.springframework.webflow.core.collection.LocalAttributeMap] and target [org.springframework.webflow.engine.impl.RequestControlContextImpl]
+DEBUG: org.springframework.binding.mapping.impl.DefaultMapping - Adding mapping result [Success@759d26fb mapping = hotelId -> flowScope.hotelId, code = 'success', error = false, originalValue = '1', mappedValue = '1']
+DEBUG: org.springframework.binding.mapping.impl.DefaultMapper - Completing mapping between source [org.springframework.webflow.core.collection.LocalAttributeMap] and target [org.springframework.webflow.engine.impl.RequestControlContextImpl]; total mappings = 1; total errors = 0
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Executing [EvaluateAction@4d5b6aac expression = bookingService.createBooking(hotelId, currentUser.name), resultExpression = flowScope.booking]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Finished executing [EvaluateAction@4d5b6aac expression = bookingService.createBooking(hotelId, currentUser.name), resultExpression = flowScope.booking]; result = success
+DEBUG: org.springframework.webflow.engine.ViewState - Entering state 'enterBookingDetails' of flow 'booking-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Assigned key 1
+DEBUG: org.springframework.webflow.engine.ViewState - Rendering + [MockViewFactoryCreator.MockView@3bf9ce3e viewId = 'enterBookingDetails']
+DEBUG: org.springframework.webflow.engine.ViewState -   Flash scope = map[[empty]]
+DEBUG: org.springframework.webflow.engine.ViewState -   Messages = [DefaultMessageContext@16610890 sourceMessages = map[[null] -> list[[empty]]]]
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Executing [RenderAction@71def8f8 fragments = array<Expression>[body]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Finished executing [RenderAction@71def8f8 fragments = array<Expression>[body]]; result = success
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'booking-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Resuming in org.springframework.webflow.test.MockExternalContext@56cdfb3b
+DEBUG: org.springframework.webflow.engine.ViewState - Event 'confirm' returned from view [MockViewFactoryCreator.MockView@2b91004a viewId = 'reviewBooking']
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Executing [EvaluateAction@20ccf40b expression = bookingService.persistBooking(booking), resultExpression = [null]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Finished executing [EvaluateAction@20ccf40b expression = bookingService.persistBooking(booking), resultExpression = [null]]; result = success
+DEBUG: org.springframework.webflow.engine.Transition - Executing [Transition@169e6180 on = confirm, to = bookingConfirmed]
+DEBUG: org.springframework.webflow.engine.Transition - Exiting state 'reviewBooking'
+DEBUG: org.springframework.webflow.engine.EndState - Entering state 'bookingConfirmed' of flow 'booking-flow'
+DEBUG: org.springframework.binding.mapping.impl.DefaultMapper - Beginning mapping between source [org.springframework.webflow.engine.impl.RequestControlContextImpl] and target [org.springframework.webflow.core.collection.LocalAttributeMap]
+DEBUG: org.springframework.binding.mapping.impl.DefaultMapping - Adding mapping result [Success@35aea049 mapping = 'Your booking is confirmed, you can book another hotel by searching again.' -> confirmed, code = 'success', error = false, originalValue = 'Your booking is confirmed, you can book another hotel by searching again.', mappedValue = 'Your booking is confirmed, you can book another hotel by searching again.']
+DEBUG: org.springframework.binding.mapping.impl.DefaultMapper - Completing mapping between source [org.springframework.webflow.engine.impl.RequestControlContextImpl] and target [org.springframework.webflow.core.collection.LocalAttributeMap]; total mappings = 1; total errors = 0
+DEBUG: org.springframework.webflow.engine.Transition - Completed transition execution.  As a result, the flow execution has ended
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'booking-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Resuming in org.springframework.webflow.test.MockExternalContext@5acf93bb
+DEBUG: org.springframework.webflow.engine.ViewState - Event 'proceed' returned from view [MockViewFactoryCreator.MockView@7e7be63f viewId = 'enterBookingDetails']
+DEBUG: org.springframework.webflow.engine.Transition - Executing [Transition@6cd28fa7 on = proceed, to = reviewBooking]
+DEBUG: org.springframework.webflow.engine.Transition - Exiting state 'enterBookingDetails'
+DEBUG: org.springframework.webflow.engine.ViewState - Entering state 'reviewBooking' of flow 'booking-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Assigned key 1
+DEBUG: org.springframework.webflow.engine.ViewState - Rendering + [MockViewFactoryCreator.MockView@614ca7df viewId = 'reviewBooking']
+DEBUG: org.springframework.webflow.engine.ViewState -   Flash scope = map[[empty]]
+DEBUG: org.springframework.webflow.engine.ViewState -   Messages = [DefaultMessageContext@4738a206 sourceMessages = map[[null] -> list[[empty]]]]
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Executing [RenderAction@66d3eec0 fragments = array<Expression>[body]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Finished executing [RenderAction@66d3eec0 fragments = array<Expression>[body]]; result = success
+DEBUG: org.springframework.webflow.engine.Transition - Completed transition execution.  As a result, the new state is 'reviewBooking' in flow 'booking-flow'
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.709 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.449 s
+[INFO] Finished at: 2017-03-03T11:19:17-03:00
+[INFO] Final Memory: 12M/212M
+[INFO] ------------------------------------------------------------------------

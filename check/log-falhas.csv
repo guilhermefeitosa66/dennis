@@ -1,0 +1,477 @@
+ARQUIVO,FALHA
+/home/guilherme/dennis/logs/maven-Spring-Integration-in-Action-siia-examples-flight-booking-.txt,"shouldEnrichHeaderAndSendMessageForRelatedTrips(siia.booking.integration.FlightNotificationsSpelTest)  Time elapsed: 0.02 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-Spring-Integration-in-Action-siia-examples-flight-booking-.txt,"shouldEnrichHeaderAndSendMessageForRelatedTrips(siia.booking.integration.FlightNotificationsTest)  Time elapsed: 0.01 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-Spring-Integration-in-Action-siia-examples-flight-booking-integration-.txt,"shouldEnrichHeaderAndSendMessageForRelatedTrips(siia.booking.integration.FlightNotificationsSpelTest)  Time elapsed: 0.023 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-Spring-Integration-in-Action-siia-examples-flight-booking-integration-.txt,"shouldEnrichHeaderAndSendMessageForRelatedTrips(siia.booking.integration.FlightNotificationsTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-Spring-Integration-in-Action-siia-examples-messages-channels-.txt,"testChannels(siia.channels.ChannelsBridgeTest)  Time elapsed: 0.093 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-Spring-Integration-in-Action-siia-examples-trip-diary-.txt,"filenameShouldContainTodaysDate(com.manning.siia.trip.diary.ChangeFileNameGeneratorTest)  Time elapsed: 0.094 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-actuator-docs-.txt,"beans(org.springframework.boot.actuate.hypermedia.HypermediaEndpointDocumentation)  Time elapsed: 0.01 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-actuator-docs-.txt,"metrics(org.springframework.boot.actuate.hypermedia.HypermediaEndpointDocumentation)  Time elapsed: 0.006 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-actuator-docs-.txt,"endpoints(org.springframework.boot.actuate.hypermedia.EndpointDocumentation)  Time elapsed: 0.005 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-actuator-docs-.txt,"partialLogfile(org.springframework.boot.actuate.hypermedia.EndpointDocumentation)  Time elapsed: 0.003 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-actuator-docs-.txt,"logfile(org.springframework.boot.actuate.hypermedia.EndpointDocumentation)  Time elapsed: 0.003 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-cli-.txt,"httpSample(org.springframework.boot.cli.SampleIntegrationTests)  Time elapsed: 2.309 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-cli-.txt,"reactorSample(org.springframework.boot.cli.SampleIntegrationTests)  Time elapsed: 1.865 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-cli-.txt,"dataJpaDependencies(org.springframework.boot.cli.ReproIntegrationTests)  Time elapsed: 1.538 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-cli-.txt,"integrationAutoConfigTest(org.springframework.boot.cli.TestCommandIntegrationTests)  Time elapsed: 2.383 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"nonJavaExecRunTaskIsIgnored(org.springframework.boot.gradle.MainClassTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[0](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.085 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[0](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.038 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[1](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.038 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[1](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.038 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[2](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[2](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.036 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[3](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[3](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.165 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[4](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[4](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.036 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[5](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[5](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[6](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.036 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[6](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[7](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[7](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.036 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[8](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.039 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[8](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.043 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[9](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.066 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[9](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[10](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[10](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[11](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.036 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[11](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[12](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[12](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[13](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.036 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[13](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[14](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.063 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[14](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[15](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[15](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[16](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[16](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[17](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[17](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[18](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[18](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[19](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[19](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.068 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[20](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[20](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.031 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[21](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[21](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[22](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.04 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[22](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[23](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[23](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[24](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[24](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[25](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[25](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.057 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[26](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[26](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[27](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[27](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[28](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.031 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[28](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.042 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[29](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[29](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[30](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.042 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[30](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.06 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[31](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[31](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[32](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[32](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[33](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[33](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[34](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.043 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[34](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.04 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[35](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[35](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.036 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[36](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.053 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[36](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[37](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.031 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[37](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[38](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.031 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[38](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[39](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.031 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[39](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.062 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[40](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[40](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[41](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.031 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[41](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.051 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[42](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[42](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.031 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[43](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[43](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.031 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[44](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.042 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[44](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.038 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[45](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.058 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[45](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.056 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"commonsLoggingIsNotATransitiveDependency[46](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.047 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[46](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.064 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"nonJavaExecRunTaskIsIgnored(org.springframework.boot.gradle.MainClassTests)  Time elapsed: 0.125 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[0](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.045 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[0](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.049 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[1](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.044 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[1](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.041 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[2](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.042 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[2](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.04 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[3](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.074 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[3](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.038 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[4](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.042 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[4](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.064 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[5](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.048 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[5](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.04 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[6](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.04 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[6](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.04 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[7](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.064 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[7](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.041 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[8](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.04 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[8](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.039 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[9](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.142 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[9](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.039 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[10](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[10](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[11](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.039 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[11](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[12](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.038 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[12](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.039 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[13](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.038 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[13](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.049 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[14](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.079 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[14](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.046 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[15](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.038 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[15](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[16](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.038 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[16](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[17](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[17](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[18](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[18](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.038 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[19](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.036 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[19](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.039 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[20](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.07 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[20](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[21](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[21](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[22](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[22](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.208 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[23](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.063 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[23](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.049 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[24](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.043 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[24](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.04 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[25](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.038 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[25](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.061 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[26](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[26](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[27](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[27](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[28](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[28](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[29](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[29](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[30](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.038 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[30](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.027 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[31](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.058 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[31](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.038 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[32](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.046 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[32](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.041 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[33](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[33](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[34](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[34](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[35](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[35](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[36](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[36](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.06 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[37](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.035 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[37](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[38](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[38](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[39](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[39](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[40](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[40](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.031 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[41](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[41](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.034 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[42](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.052 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[42](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[43](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[43](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.031 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[44](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[44](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[45](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[45](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"commonsLoggingIsNotATransitiveDependency[46](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.033 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-integration-tests-spring-boot-gradle-tests-.txt,"oldSpringModulesAreNotTransitiveDependencies[46](org.springframework.boot.starter.StarterDependenciesIntegrationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-.txt,"testHome(sample.actuator.ServletPathInsecureSampleActuatorApplicationTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-.txt,"testMetricsIsSecure(sample.actuator.ServletPathInsecureSampleActuatorApplicationTests)  Time elapsed: 0.015 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-.txt,"testErrorPath(sample.actuator.ServletPathSampleActuatorApplicationTests)  Time elapsed: 0.025 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-.txt,"testHealth(sample.actuator.ServletPathSampleActuatorApplicationTests)  Time elapsed: 0.009 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-actuator-.txt,"testHome(sample.actuator.ServletPathInsecureSampleActuatorApplicationTests)  Time elapsed: 0.032 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-actuator-.txt,"testMetricsIsSecure(sample.actuator.ServletPathInsecureSampleActuatorApplicationTests)  Time elapsed: 0.013 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-actuator-.txt,"testErrorPath(sample.actuator.ServletPathSampleActuatorApplicationTests)  Time elapsed: 0.021 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-actuator-.txt,"testHealth(sample.actuator.ServletPathSampleActuatorApplicationTests)  Time elapsed: 0.007 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-data-couchbase-.txt,"testDefaultSettings(sample.data.couchbase.SampleCouchbaseApplicationTests)  Time elapsed: 12.509 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-data-neo4j-.txt,"testDefaultSettings(sample.data.neo4j.SampleNeo4jApplicationTests)  Time elapsed: 0.692 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-hypermedia-.txt,"halWithHtml(sample.hypermedia.SampleHypermediaApplicationHomePageTests)  Time elapsed: 0.037 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-hypermedia-gson-.txt,"envValue(sample.hypermedia.gson.SampleHypermediaGsonApplicationTests)  Time elapsed: 0.052 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-hypermedia-gson-.txt,"trace(sample.hypermedia.gson.SampleHypermediaGsonApplicationTests)  Time elapsed: 0.004 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-web-method-security-.txt,"testHome(sample.security.method.SampleMethodSecurityApplicationTests)  Time elapsed: 0.031 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-web-method-security-.txt,"testManagementAuthorizedAccess(sample.security.method.SampleMethodSecurityApplicationTests)  Time elapsed: 0.013 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-web-secure-.txt,"testLogin(sample.web.secure.SampleSecureApplicationTests)  Time elapsed: 0.074 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-web-secure-.txt,"testLoginPage(sample.web.secure.SampleSecureApplicationTests)  Time elapsed: 0.017 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-web-secure-custom-.txt,"testLogin(sample.web.secure.custom.SampleWebSecureCustomApplicationTests)  Time elapsed: 0.085 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-web-secure-custom-.txt,"testLoginPage(sample.web.secure.custom.SampleWebSecureCustomApplicationTests)  Time elapsed: 0.018 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-web-secure-jdbc-.txt,"testLogin(sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests)  Time elapsed: 0.069 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-web-secure-jdbc-.txt,"testLoginPage(sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests)  Time elapsed: 0.022 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-web-ui-.txt,"testHome(sample.web.ui.MessageControllerWebTests)  Time elapsed: 0.064 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-web-ui-.txt,"testCreateValidation(sample.web.ui.MessageControllerWebTests)  Time elapsed: 0.076 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-samples-spring-boot-sample-web-ui-.txt,"testHome(sample.web.ui.SampleWebUiApplicationTests)  Time elapsed: 0.139 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-test-autoconfigure-.txt,"getIdForTypeWhenTypeIsWrongShouldThrowException(org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerTests)  Time elapsed: 0 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-boot-spring-boot-test-autoconfigure-.txt,"shouldPrint(org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestPrintDefaultIntegrationTests)  Time elapsed: 0 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-data-rest-spring-data-rest-hal-browser-.txt,"exposesJsonUnderApiRootByDefault(org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests)  Time elapsed: 0.052 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-data-rest-spring-data-rest-hal-browser-.txt,"retrunsApiIfHtmlIsNotExplicitlyListed(org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests)  Time elapsed: 0.005 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-data-rest-spring-data-rest-hal-browser-.txt,"exposesHalBrowser(org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests)  Time elapsed: 0.007 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-data-rest-spring-data-rest-hal-browser-.txt,"redirectsToBrowserForApiRootAndHtml(org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests)  Time elapsed: 0.005 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-data-rest-spring-data-rest-hal-browser-.txt,"forwardsBrowserToIndexHtml(org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests)  Time elapsed: 0.004 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-webflow-issues-SWF-1483-.txt,"testEndFlow(org.springframework.webflow.issues.MyFlowExecutionTests)  Time elapsed: 0.041 sec  <<< FAILURE!
+"
+/home/guilherme/dennis/logs/maven-spring-webflow-issues-SWF-1516-.txt,"testStartFlow(org.springframework.webflow.issues.PhonebookFlowExecutionTests)  Time elapsed: 0.052 sec  <<< FAILURE!
+"

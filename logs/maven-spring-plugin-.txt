@@ -1,0 +1,111 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Plugin
+[INFO] Spring Plugin - Core
+[INFO] Spring Plugin - Metadata Extension
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Plugin 1.3.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-plugin ---
+[INFO] Ignored project with type = 'pom'
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Plugin - Core 1.3.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-plugin-core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:compile (default-compile) @ spring-plugin-core ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to /home/guilherme/spring-projects/maven/spring-plugin/core/target/classes
+[INFO] /home/guilherme/spring-projects/maven/spring-plugin/core/src/main/java/org/springframework/plugin/core/SimplePluginRegistry.java: /home/guilherme/spring-projects/maven/spring-plugin/core/src/main/java/org/springframework/plugin/core/SimplePluginRegistry.java uses or overrides a deprecated API.
+[INFO] /home/guilherme/spring-projects/maven/spring-plugin/core/src/main/java/org/springframework/plugin/core/SimplePluginRegistry.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-plugin-core ---
+Manifest written to '/home/guilherme/spring-projects/maven/spring-plugin/core/target/classes/META-INF/MANIFEST.MF'
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-plugin-core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:testCompile (default-testCompile) @ spring-plugin-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-plugin-core ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-plugin/core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.plugin.core.SimplePluginRegistryUnitTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in org.springframework.plugin.core.SimplePluginRegistryUnitTest
+Running org.springframework.plugin.core.OrderAwarePluginRegistryUnitTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.173 sec - in org.springframework.plugin.core.OrderAwarePluginRegistryUnitTest
+Running org.springframework.plugin.core.support.BeanListFactoryBeanUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec - in org.springframework.plugin.core.support.BeanListFactoryBeanUnitTest
+Running org.springframework.plugin.core.config.EnablePluginRegistriesIntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.295 sec - in org.springframework.plugin.core.config.EnablePluginRegistriesIntegrationTest
+Running org.springframework.plugin.core.config.PluginConfigurationIntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 sec - in org.springframework.plugin.core.config.PluginConfigurationIntegrationTest
+Running org.springframework.plugin.core.support.OrderAwarePluginRegistryIntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec - in org.springframework.plugin.core.support.OrderAwarePluginRegistryIntegrationTest
+
+Results :
+
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Plugin - Metadata Extension 1.3.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-plugin-metadata ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-plugin/metadata/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:compile (default-compile) @ spring-plugin-metadata ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-plugin-metadata ---
+Manifest written to '/home/guilherme/spring-projects/maven/spring-plugin/metadata/target/classes/META-INF/MANIFEST.MF'
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-plugin-metadata ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-plugin/metadata/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:testCompile (default-testCompile) @ spring-plugin-metadata ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-plugin-metadata ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-plugin/metadata/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.plugin.metadata.SimplePluginMetadataUnitTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec - in org.springframework.plugin.metadata.SimplePluginMetadataUnitTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Plugin ...................................... SUCCESS [  0.289 s]
+[INFO] Spring Plugin - Core ............................... SUCCESS [  3.010 s]
+[INFO] Spring Plugin - Metadata Extension ................. SUCCESS [  0.196 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.582 s
+[INFO] Finished at: 2017-03-03T11:03:15-03:00
+[INFO] Final Memory: 21M/199M
+[INFO] ------------------------------------------------------------------------

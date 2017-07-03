@@ -1,0 +1,169 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.webflow.issues:SWF-1662:war:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 206, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 226, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Web Flow Issue Reproduction Project 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-webflow/2.4.2.BUILD-SNAPSHOT/maven-metadata.xml
+3 KB          Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-webflow/2.4.2.BUILD-SNAPSHOT/maven-metadata.xml (3 KB at 0.8 KB/sec)
+Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-binding/2.4.2.BUILD-SNAPSHOT/maven-metadata.xml
+3 KB          Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-binding/2.4.2.BUILD-SNAPSHOT/maven-metadata.xml (3 KB at 3.0 KB/sec)
+Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js/2.4.2.BUILD-SNAPSHOT/maven-metadata.xml
+3 KB          Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js/2.4.2.BUILD-SNAPSHOT/maven-metadata.xml (3 KB at 2.8 KB/sec)
+Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js-resources/2.4.2.BUILD-SNAPSHOT/maven-metadata.xml
+2 KB          Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js-resources/2.4.2.BUILD-SNAPSHOT/maven-metadata.xml (2 KB at 2.0 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SWF-1662 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SWF-1662 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SWF-1662 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SWF-1662 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SWF-1662 ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1662/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.webflow.issues.MyFlowExecutionTests
+2017-03-03 11:19:10,845 INFO [org.springframework.context.support.StaticApplicationContext] - <Refreshing org.springframework.context.support.StaticApplicationContext@42dafa95: startup date [Fri Mar 03 11:19:10 BRT 2017]; root of context hierarchy>
+2017-03-03 11:19:10,852 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@23faf8f2: defining beans []; root of factory hierarchy>
+2017-03-03 11:19:10,951 INFO [org.springframework.context.support.StaticApplicationContext] - <Refreshing org.springframework.context.support.StaticApplicationContext@43bd930a: startup date [Fri Mar 03 11:19:10 BRT 2017]; root of context hierarchy>
+2017-03-03 11:19:10,951 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@64f6106c: defining beans []; root of factory hierarchy>
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.304 sec <<< FAILURE!
+testEndFlow(org.springframework.webflow.issues.MyFlowExecutionTests)  Time elapsed: 0.239 sec  <<< ERROR!
+org.springframework.webflow.engine.builder.FlowBuilderException: Unable to get the model for this flow
+	at org.springframework.webflow.engine.builder.model.FlowModelFlowBuilder.doInit(FlowModelFlowBuilder.java:154)
+	at org.springframework.webflow.engine.builder.support.AbstractFlowBuilder.init(AbstractFlowBuilder.java:46)
+	at org.springframework.webflow.engine.builder.FlowAssembler.assembleFlow(FlowAssembler.java:90)
+	at org.springframework.webflow.test.execution.AbstractExternalizedFlowExecutionTests.buildFlow(AbstractExternalizedFlowExecutionTests.java:174)
+	at org.springframework.webflow.test.execution.AbstractExternalizedFlowExecutionTests.getFlowDefinition(AbstractExternalizedFlowExecutionTests.java:147)
+	at org.springframework.webflow.test.execution.AbstractFlowExecutionTests.setCurrentState(AbstractFlowExecutionTests.java:149)
+	at org.springframework.webflow.issues.MyFlowExecutionTests.testEndFlow(MyFlowExecutionTests.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.webflow.engine.model.builder.FlowModelBuilderException: Unable to find flow 'common' to inherit from
+	at org.springframework.webflow.engine.model.builder.xml.XmlFlowModelBuilder.mergeFlows(XmlFlowModelBuilder.java:646)
+	at org.springframework.webflow.engine.model.builder.xml.XmlFlowModelBuilder.build(XmlFlowModelBuilder.java:136)
+	at org.springframework.webflow.engine.model.builder.DefaultFlowModelHolder.assembleFlowModel(DefaultFlowModelHolder.java:88)
+	at org.springframework.webflow.engine.model.builder.DefaultFlowModelHolder.getFlowModel(DefaultFlowModelHolder.java:61)
+	at org.springframework.webflow.engine.builder.model.FlowModelFlowBuilder.doInit(FlowModelFlowBuilder.java:151)
+	... 31 more
+Caused by: org.springframework.webflow.engine.model.registry.NoSuchFlowModelException: No flow model 'common' found
+	at org.springframework.webflow.engine.model.registry.FlowModelRegistryImpl.getLocalFlowModelHolder(FlowModelRegistryImpl.java:94)
+	at org.springframework.webflow.engine.model.registry.FlowModelRegistryImpl.getFlowModel(FlowModelRegistryImpl.java:52)
+	at org.springframework.webflow.engine.model.builder.xml.XmlFlowModelBuilder.mergeFlows(XmlFlowModelBuilder.java:644)
+	... 35 more
+
+testStartFlow(org.springframework.webflow.issues.MyFlowExecutionTests)  Time elapsed: 0.022 sec  <<< ERROR!
+org.springframework.webflow.engine.builder.FlowBuilderException: Unable to get the model for this flow
+	at org.springframework.webflow.engine.builder.model.FlowModelFlowBuilder.doInit(FlowModelFlowBuilder.java:154)
+	at org.springframework.webflow.engine.builder.support.AbstractFlowBuilder.init(AbstractFlowBuilder.java:46)
+	at org.springframework.webflow.engine.builder.FlowAssembler.assembleFlow(FlowAssembler.java:90)
+	at org.springframework.webflow.test.execution.AbstractExternalizedFlowExecutionTests.buildFlow(AbstractExternalizedFlowExecutionTests.java:174)
+	at org.springframework.webflow.test.execution.AbstractExternalizedFlowExecutionTests.getFlowDefinition(AbstractExternalizedFlowExecutionTests.java:147)
+	at org.springframework.webflow.test.execution.AbstractFlowExecutionTests.startFlow(AbstractFlowExecutionTests.java:120)
+	at org.springframework.webflow.issues.MyFlowExecutionTests.testStartFlow(MyFlowExecutionTests.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.webflow.engine.model.builder.FlowModelBuilderException: Unable to find flow 'common' to inherit from
+	at org.springframework.webflow.engine.model.builder.xml.XmlFlowModelBuilder.mergeFlows(XmlFlowModelBuilder.java:646)
+	at org.springframework.webflow.engine.model.builder.xml.XmlFlowModelBuilder.build(XmlFlowModelBuilder.java:136)
+	at org.springframework.webflow.engine.model.builder.DefaultFlowModelHolder.assembleFlowModel(DefaultFlowModelHolder.java:88)
+	at org.springframework.webflow.engine.model.builder.DefaultFlowModelHolder.getFlowModel(DefaultFlowModelHolder.java:61)
+	at org.springframework.webflow.engine.builder.model.FlowModelFlowBuilder.doInit(FlowModelFlowBuilder.java:151)
+	... 31 more
+Caused by: org.springframework.webflow.engine.model.registry.NoSuchFlowModelException: No flow model 'common' found
+	at org.springframework.webflow.engine.model.registry.FlowModelRegistryImpl.getLocalFlowModelHolder(FlowModelRegistryImpl.java:94)
+	at org.springframework.webflow.engine.model.registry.FlowModelRegistryImpl.getFlowModel(FlowModelRegistryImpl.java:52)
+	at org.springframework.webflow.engine.model.builder.xml.XmlFlowModelBuilder.mergeFlows(XmlFlowModelBuilder.java:644)
+	... 35 more
+
+
+Results :
+
+Tests in error: 
+  testEndFlow(org.springframework.webflow.issues.MyFlowExecutionTests): Unable to get the model for this flow
+  testStartFlow(org.springframework.webflow.issues.MyFlowExecutionTests): Unable to get the model for this flow
+
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.444 s
+[INFO] Finished at: 2017-03-03T11:19:10-03:00
+[INFO] Final Memory: 12M/184M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project SWF-1662: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1662/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

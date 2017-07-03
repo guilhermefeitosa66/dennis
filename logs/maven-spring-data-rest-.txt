@@ -1,0 +1,284 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Data REST
+[INFO] Spring Data REST - Core
+[INFO] Spring Data REST - WebMVC
+[INFO] Spring Data REST - Distribution
+[INFO] Spring Data REST - HAL Browser
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST 2.6.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-rest-parent ---
+[INFO] Ignored project with enabled = false
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - Core 2.6.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-rest-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ spring-data-rest-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-rest-core ---
+[INFO] Ignored project with enabled = false
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-rest-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ spring-data-rest-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ spring-data-rest-core ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.data.rest.core.mapping.TypeBasedCollectionResourceMappingUnitTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec - in org.springframework.data.rest.core.mapping.TypeBasedCollectionResourceMappingUnitTests
+Running org.springframework.data.rest.core.mapping.RepositoryResourceMappingsIntegrationTests
+findByFirstnameContaining
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.671 sec - in org.springframework.data.rest.core.mapping.RepositoryResourceMappingsIntegrationTests
+Running org.springframework.data.rest.core.mapping.MappingResourceMetadataUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in org.springframework.data.rest.core.mapping.MappingResourceMetadataUnitTests
+Running org.springframework.data.rest.core.mapping.RepositoryMethodResourceMappingUnitTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.data.rest.core.mapping.RepositoryMethodResourceMappingUnitTests
+Running org.springframework.data.rest.core.mapping.CrudMethodsSupportedHttpMethodsUnitTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in org.springframework.data.rest.core.mapping.CrudMethodsSupportedHttpMethodsUnitTests
+Running org.springframework.data.rest.core.mapping.RepositoryDetectionStrategiesUnitTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.data.rest.core.mapping.RepositoryDetectionStrategiesUnitTests
+Running org.springframework.data.rest.core.mapping.RepositoryCollectionResourceMappingUnitTests
+2017-03-03 10:55:39,847  WARN ping.RepositoryCollectionResourceMapping:  81 - @RestResource detected to customize the repository resource for org.springframework.data.rest.core.mapping.RepositoryCollectionResourceMappingUnitTests$AnnotatedAnnotatedPersonRepository! Use @RepositoryRestResource instead!
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in org.springframework.data.rest.core.mapping.RepositoryCollectionResourceMappingUnitTests
+Running org.springframework.data.rest.core.mapping.PersistentPropertyResourceMappingUnitTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in org.springframework.data.rest.core.mapping.PersistentPropertyResourceMappingUnitTests
+Running org.springframework.data.rest.core.PathUnitTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.data.rest.core.PathUnitTests
+Running org.springframework.data.rest.core.event.AnnotatedEventHandlerInvokerUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in org.springframework.data.rest.core.event.AnnotatedEventHandlerInvokerUnitTests
+Running org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactoryUnitTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 sec - in org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactoryUnitTests
+Running org.springframework.data.rest.core.support.DomainObjectMergerUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.core.support.DomainObjectMergerUnitTests
+Running org.springframework.data.rest.core.support.ResourceStringUtilsTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.data.rest.core.support.ResourceStringUtilsTests
+Running org.springframework.data.rest.core.support.DefaultSelfLinkProviderUnitTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in org.springframework.data.rest.core.support.DefaultSelfLinkProviderUnitTests
+Running org.springframework.data.rest.core.support.DomainObjectMergerTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in org.springframework.data.rest.core.support.DomainObjectMergerTests
+Running org.springframework.data.rest.core.UriToEntityConverterUnitTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in org.springframework.data.rest.core.UriToEntityConverterUnitTests
+Running org.springframework.data.rest.core.RepositoryRestConfigurationIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.202 sec - in org.springframework.data.rest.core.RepositoryRestConfigurationIntegrationTests
+Running org.springframework.data.rest.core.config.ResourceMappingUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.data.rest.core.config.ResourceMappingUnitTests
+Running org.springframework.data.rest.core.config.ProjectionDefinitionConfigurationUnitTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.data.rest.core.config.ProjectionDefinitionConfigurationUnitTests
+Running org.springframework.data.rest.core.context.ValidatorIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 sec - in org.springframework.data.rest.core.context.ValidatorIntegrationTests
+Running org.springframework.data.rest.core.context.RepositoryEventIntegrationTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 sec - in org.springframework.data.rest.core.context.RepositoryEventIntegrationTests
+Running org.springframework.data.rest.core.ValidationErrorsUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.data.rest.core.ValidationErrorsUnitTests
+Running org.springframework.data.rest.core.RepositoryRestConfigurationUnitTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.data.rest.core.RepositoryRestConfigurationUnitTests
+Running org.springframework.data.rest.core.util.FunctionTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.core.util.FunctionTests
+Running org.springframework.data.rest.core.util.MethodsUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.rest.core.util.MethodsUnitTests
+
+Results :
+
+Tests run: 142, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - WebMVC 2.6.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-rest-webmvc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ spring-data-rest-webmvc ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 107 source files to /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-webmvc/target/classes
+[INFO] /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/BasePathAwareHandlerMapping.java: Some input files use or override a deprecated API.
+[INFO] /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/BasePathAwareHandlerMapping.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/alps/RootResourceInformationToAlpsDescriptorConverter.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-webmvc/src/main/java/org/springframework/data/rest/webmvc/alps/RootResourceInformationToAlpsDescriptorConverter.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-rest-webmvc ---
+[INFO] Ignored project with enabled = false
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-rest-webmvc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ spring-data-rest-webmvc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ spring-data-rest-webmvc ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.data.rest.webmvc.AugmentingHandlerMappingUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.517 sec - in org.springframework.data.rest.webmvc.AugmentingHandlerMappingUnitTests
+Running org.springframework.data.rest.webmvc.mapping.AssociationsUnitTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 sec - in org.springframework.data.rest.webmvc.mapping.AssociationsUnitTests
+Running org.springframework.data.rest.webmvc.RootResourceInformationUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.springframework.data.rest.webmvc.RootResourceInformationUnitTests
+Running org.springframework.data.rest.webmvc.RepositoryRestExceptionHandlerUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.data.rest.webmvc.RepositoryRestExceptionHandlerUnitTests
+Running org.springframework.data.rest.webmvc.support.ETagUnitTests
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec - in org.springframework.data.rest.webmvc.support.ETagUnitTests
+Running org.springframework.data.rest.webmvc.support.RepositoryConstraintViolationExceptionMessageUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.data.rest.webmvc.support.RepositoryConstraintViolationExceptionMessageUnitTests
+Running org.springframework.data.rest.webmvc.support.PersistentEntityProjectorUnitTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in org.springframework.data.rest.webmvc.support.PersistentEntityProjectorUnitTests
+Running org.springframework.data.rest.webmvc.support.DelegatingHandlerMappingUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in org.springframework.data.rest.webmvc.support.DelegatingHandlerMappingUnitTests
+Running org.springframework.data.rest.webmvc.support.ETagDoesntMatchExceptionUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.rest.webmvc.support.ETagDoesntMatchExceptionUnitTests
+Running org.springframework.data.rest.webmvc.CustomAcceptHeaderHttpServletRequestUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.data.rest.webmvc.CustomAcceptHeaderHttpServletRequestUnitTests
+Running org.springframework.data.rest.webmvc.config.RepositoryRestMvConfigurationIntegrationTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.496 sec - in org.springframework.data.rest.webmvc.config.RepositoryRestMvConfigurationIntegrationTests
+Running org.springframework.data.rest.webmvc.config.ArgumentResolverPagingAndSortingTemplateVariablesUnitTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in org.springframework.data.rest.webmvc.config.ArgumentResolverPagingAndSortingTemplateVariablesUnitTests
+Running org.springframework.data.rest.webmvc.json.JsonSchemaUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.webmvc.json.JsonSchemaUnitTests
+Running org.springframework.data.rest.webmvc.json.PersistentEntityJackson2ModuleUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec - in org.springframework.data.rest.webmvc.json.PersistentEntityJackson2ModuleUnitTests
+Running org.springframework.data.rest.webmvc.json.EnumTranslatorUnitTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.data.rest.webmvc.json.EnumTranslatorUnitTests
+Running org.springframework.data.rest.webmvc.json.SortTranslatorUnitTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.data.rest.webmvc.json.SortTranslatorUnitTests
+Running org.springframework.data.rest.webmvc.json.patch.CopyOperationTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in org.springframework.data.rest.webmvc.json.patch.CopyOperationTests
+Running org.springframework.data.rest.webmvc.json.patch.PathToSpelTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.rest.webmvc.json.patch.PathToSpelTests
+Running org.springframework.data.rest.webmvc.json.patch.MoveOperationTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.data.rest.webmvc.json.patch.MoveOperationTests
+Running org.springframework.data.rest.webmvc.json.patch.JsonPatchTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in org.springframework.data.rest.webmvc.json.patch.JsonPatchTests
+Running org.springframework.data.rest.webmvc.json.patch.AddOperationTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.data.rest.webmvc.json.patch.AddOperationTests
+Running org.springframework.data.rest.webmvc.json.patch.RemoveOperationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.webmvc.json.patch.RemoveOperationTests
+Running org.springframework.data.rest.webmvc.json.patch.ReplaceOperationTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.data.rest.webmvc.json.patch.ReplaceOperationTests
+Running org.springframework.data.rest.webmvc.json.patch.TestOperationTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.data.rest.webmvc.json.patch.TestOperationTests
+Running org.springframework.data.rest.webmvc.json.JacksonMetadataUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in org.springframework.data.rest.webmvc.json.JacksonMetadataUnitTests
+Running org.springframework.data.rest.webmvc.json.DomainObjectReaderUnitTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in org.springframework.data.rest.webmvc.json.DomainObjectReaderUnitTests
+Running org.springframework.data.rest.webmvc.json.MappingAwarePageableArgumentResolverUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in org.springframework.data.rest.webmvc.json.MappingAwarePageableArgumentResolverUnitTests
+Running org.springframework.data.rest.webmvc.json.ProjectionJacksonIntegrationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in org.springframework.data.rest.webmvc.json.ProjectionJacksonIntegrationTests
+Running org.springframework.data.rest.webmvc.json.UriStringDeserializerUnitTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in org.springframework.data.rest.webmvc.json.UriStringDeserializerUnitTests
+Running org.springframework.data.rest.webmvc.RepositorySearchesResourceUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.webmvc.RepositorySearchesResourceUnitTests
+Running org.springframework.data.rest.webmvc.PersistentEntityResourceUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.data.rest.webmvc.PersistentEntityResourceUnitTests
+Running org.springframework.data.rest.webmvc.BaseUriUnitTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.webmvc.BaseUriUnitTests
+Running org.springframework.data.rest.webmvc.AssociationLinksUnitTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.springframework.data.rest.webmvc.AssociationLinksUnitTests
+Running org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.254 sec - in org.springframework.data.rest.webmvc.RepositoryRestHandlerMappingUnitTests
+Running org.springframework.data.rest.webmvc.IncomingRequestUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.rest.webmvc.IncomingRequestUnitTests
+Running org.springframework.data.rest.webmvc.RepositoryPropertyReferenceControllerUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in org.springframework.data.rest.webmvc.RepositoryPropertyReferenceControllerUnitTests
+
+Results :
+
+Tests run: 164, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - Distribution 2.6.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-rest-distribution ---
+[INFO] Ignored project with enabled = false
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - HAL Browser 2.6.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-rest-hal-browser ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:unpack (unpack-hal-browser) @ spring-data-rest-hal-browser ---
+[INFO] Configured Artifact: org.webjars:hal-browser:?:jar
+[INFO] hal-browser-b7669f1-1.jar already unpacked.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:unpack (unpack-json-editor) @ spring-data-rest-hal-browser ---
+[INFO] Configured Artifact: org.webjars:json-editor:?:jar
+[INFO] json-editor-0.7.21.jar already unpacked.
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (default) @ spring-data-rest-hal-browser ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 1 file to /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-hal-browser/target/classes/META-INF/spring-data-rest/hal-browser
+   [delete] Deleting: /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-hal-browser/target/classes/META-INF/spring-data-rest/hal-browser/browser.html
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ spring-data-rest-hal-browser ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-rest-hal-browser ---
+[INFO] Ignored project with enabled = false
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-rest-hal-browser ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ spring-data-rest-hal-browser ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-rest-hal-browser ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-hal-browser/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.165 sec - in org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests
+Running org.springframework.data.rest.webmvc.halbrowser.HalBrowserUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.webmvc.halbrowser.HalBrowserUnitTests
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Data REST ................................... SUCCESS [  0.164 s]
+[INFO] Spring Data REST - Core ............................ SUCCESS [  3.108 s]
+[INFO] Spring Data REST - WebMVC .......................... SUCCESS [  6.737 s]
+[INFO] Spring Data REST - Distribution .................... SUCCESS [  0.002 s]
+[INFO] Spring Data REST - HAL Browser ..................... SUCCESS [  3.444 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.752 s
+[INFO] Finished at: 2017-03-03T10:55:51-03:00
+[INFO] Final Memory: 36M/435M
+[INFO] ------------------------------------------------------------------------

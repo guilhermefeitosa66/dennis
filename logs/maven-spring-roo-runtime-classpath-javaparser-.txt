@@ -1,0 +1,18 @@
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.osgi:org.osgi.core:jar is missing. @ org.springframework.roo:org.springframework.roo.classpath.javaparser:[unknown-version], /home/guilherme/spring-projects/maven/spring-roo/runtime/classpath-javaparser/pom.xml, line 15, column 21
+[ERROR] 'dependencies.dependency.version' for org.osgi:org.osgi.compendium:jar is missing. @ org.springframework.roo:org.springframework.roo.classpath.javaparser:[unknown-version], /home/guilherme/spring-projects/maven/spring-roo/runtime/classpath-javaparser/pom.xml, line 19, column 21
+[ERROR] 'dependencies.dependency.version' for org.springframework.roo.wrapping:org.springframework.roo.wrapping.javaparser:jar is missing. @ org.springframework.roo:org.springframework.roo.classpath.javaparser:[unknown-version], /home/guilherme/spring-projects/maven/spring-roo/runtime/classpath-javaparser/pom.xml, line 66, column 21
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.springframework.roo:org.springframework.roo.classpath.javaparser:2.0.0.BUILD-SNAPSHOT (/home/guilherme/spring-projects/maven/spring-roo/runtime/classpath-javaparser/pom.xml) has 3 errors
+[ERROR]     'dependencies.dependency.version' for org.osgi:org.osgi.core:jar is missing. @ org.springframework.roo:org.springframework.roo.classpath.javaparser:[unknown-version], /home/guilherme/spring-projects/maven/spring-roo/runtime/classpath-javaparser/pom.xml, line 15, column 21
+[ERROR]     'dependencies.dependency.version' for org.osgi:org.osgi.compendium:jar is missing. @ org.springframework.roo:org.springframework.roo.classpath.javaparser:[unknown-version], /home/guilherme/spring-projects/maven/spring-roo/runtime/classpath-javaparser/pom.xml, line 19, column 21
+[ERROR]     'dependencies.dependency.version' for org.springframework.roo.wrapping:org.springframework.roo.wrapping.javaparser:jar is missing. @ org.springframework.roo:org.springframework.roo.classpath.javaparser:[unknown-version], /home/guilherme/spring-projects/maven/spring-roo/runtime/classpath-javaparser/pom.xml, line 66, column 21
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException

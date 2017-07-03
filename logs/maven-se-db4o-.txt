@@ -1,0 +1,148 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring db4o Extension Project
+[INFO] Spring db4o Extension
+[INFO] Spring db4o Extension IT Spring
+[INFO] Spring db4o Extension IT OSGi
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring db4o Extension Project 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring db4o Extension 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ org.springextensions.db4o ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ org.springextensions.db4o ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ org.springextensions.db4o ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ org.springextensions.db4o ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ org.springextensions.db4o ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+169 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - using configuration: embedded
+283 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - embedded container opened: 6b09fb41
+284 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - db4o 8.1.209.15862
+284 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - closing object container 6b09fb41
+285 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - closing object container 6b09fb41
+285 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - using configuration: embedded
+294 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - embedded container opened: 1500b2f3
+295 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - db4o 8.1.209.15862
+295 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - closing object container 1500b2f3
+295 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - using configuration: embedded
+300 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - embedded container opened: 1f9e9475
+300 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - db4o 8.1.209.15862
+300 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - closing object container 1f9e9475
+301 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - using configuration: embedded
+306 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - embedded container opened: 7dc19a70
+306 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - db4o 8.1.209.15862
+306 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - using configuration: embedded
+307 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - closing object container 7dc19a70
+314 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - using configuration: server
+333 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - opened object server 50f6ac94 at port 0
+334 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - db4o 8.1.209.15862
+334 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - closing object server 50f6ac94
+335 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - using configuration: server
+342 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - opened object server 78fa769e at port 0
+342 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - db4o 8.1.209.15862
+342 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - closing object server 78fa769e
+343 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - using configuration: server
+349 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - opened object server 4c2bb6e0 at port 0
+349 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - db4o 8.1.209.15862
+349 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - closing object server 4c2bb6e0
+Tests run: 188, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.025 sec
+
+Results :
+
+Tests run: 188, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring db4o Extension IT Spring 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springextensions.db4o-it-spring ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-spring/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ org.springextensions.db4o-it-spring ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springextensions.db4o-it-spring ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 11 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ org.springextensions.db4o-it-spring ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ org.springextensions.db4o-it-spring ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-spring/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring db4o Extension IT OSGi 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springextensions.db4o-it-osgi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-osgi/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ org.springextensions.db4o-it-osgi ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springextensions.db4o-it-osgi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ org.springextensions.db4o-it-osgi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ org.springextensions.db4o-it-osgi ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o-it-osgi/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring db4o Extension Project ...................... SUCCESS [  0.002 s]
+[INFO] Spring db4o Extension .............................. SUCCESS [  1.911 s]
+[INFO] Spring db4o Extension IT Spring .................... SUCCESS [  0.360 s]
+[INFO] Spring db4o Extension IT OSGi ...................... SUCCESS [  0.302 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.106 s
+[INFO] Finished at: 2017-03-03T10:14:35-03:00
+[INFO] Final Memory: 15M/198M
+[INFO] ------------------------------------------------------------------------

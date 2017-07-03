@@ -1,0 +1,5 @@
+PROJECT,CLASS,COMPLEXITY,COUPLING
+Spring-Integration-in-Action,TripNotification,3,1
+Spring-Integration-in-Action,Booking,2,0
+spring-boot,SpringApplicationBuilder,51,15
+spring-boot,SampleNeo4jApplication,2,4

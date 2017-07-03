@@ -1,0 +1,20 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Book - Neo4J 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.neo4j:neo4j-cypher-dsl:jar:1.8 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.480 s
+[INFO] Finished at: 2017-03-03T10:42:24-03:00
+[INFO] Final Memory: 7M/150M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project spring-data-book-neo4j: Could not resolve dependencies for project com.oreilly.springdata:spring-data-book-neo4j:jar:1.0.0.BUILD-SNAPSHOT: Failure to find org.neo4j:neo4j-cypher-dsl:jar:1.8 in http://m2.neo4j.org/releases was cached in the local repository, resolution will not be reattempted until the update interval of neo4j-public-release-repository has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

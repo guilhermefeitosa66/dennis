@@ -1,0 +1,45 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building roo-spring-data-jpa 0.1.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.2:compile (default) @ roo-spring-data-jpa ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ roo-spring-data-jpa ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ roo-spring-data-jpa ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.2:test-compile (default) @ roo-spring-data-jpa ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ roo-spring-data-jpa ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-book/roo/roo-spring-data-jpa/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ roo-spring-data-jpa ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ roo-spring-data-jpa ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-book/roo/roo-spring-data-jpa/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.648 s
+[INFO] Finished at: 2017-03-03T10:42:38-03:00
+[INFO] Final Memory: 16M/216M
+[INFO] ------------------------------------------------------------------------

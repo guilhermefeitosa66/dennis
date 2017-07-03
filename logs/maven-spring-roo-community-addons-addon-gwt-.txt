@@ -1,0 +1,59 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Addon - Google Web Toolkit 1.3.1.RELEASE
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-versions) @ org.springframework.roo.addon.gwt ---
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.addon.gwt ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.addon.gwt ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 129 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.addon.gwt ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.20.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.addon.gwt ---
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/src/main/java/org/springframework/roo/addon/gwt/proxy/GwtProxyMetadataProviderImpl.java [1:1]:  Component org.springframework.roo.addon.gwt.proxy.GwtProxyMetadataProviderImpl is using the deprecated inheritance feature and inherits from org.springframework.roo.metadata.AbstractHashCodeTrackingMetadataNotifier. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/src/main/java/org/springframework/roo/addon/gwt/request/GwtRequestMetadataProviderImpl.java [1:1]:  Component org.springframework.roo.addon.gwt.request.GwtRequestMetadataProviderImpl is using the deprecated inheritance feature and inherits from org.springframework.roo.metadata.AbstractHashCodeTrackingMetadataNotifier. This feature will be removed in future versions.
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/target/classes/OSGI-INF/org.springframework.roo.addon.gwt.GwtOperationsImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/target/classes/OSGI-INF/org.springframework.roo.addon.gwt.GwtFileManagerImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/target/classes/OSGI-INF/org.springframework.roo.addon.gwt.scaffold.GwtScaffoldMetadataProviderImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/target/classes/OSGI-INF/org.springframework.roo.addon.gwt.GwtTypeServiceImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/target/classes/OSGI-INF/org.springframework.roo.addon.gwt.proxy.GwtProxyMetadataProviderImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/target/classes/OSGI-INF/org.springframework.roo.addon.gwt.GwtCommands.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/target/classes/OSGI-INF/org.springframework.roo.addon.gwt.request.GwtRequestMetadataNotificationListener.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/target/classes/OSGI-INF/org.springframework.roo.addon.gwt.request.GwtRequestMetadataProviderImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/target/classes/OSGI-INF/org.springframework.roo.addon.gwt.locator.GwtLocatorMetadataProviderImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/target/classes/OSGI-INF/org.springframework.roo.addon.gwt.GwtTemplateServiceImpl.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.addon.gwt ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.addon.gwt ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ org.springframework.roo.addon.gwt ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-gwt/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.551 s
+[INFO] Finished at: 2017-03-03T11:08:20-03:00
+[INFO] Final Memory: 29M/325M
+[INFO] ------------------------------------------------------------------------

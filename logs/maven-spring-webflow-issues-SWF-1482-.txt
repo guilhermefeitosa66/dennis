@@ -1,0 +1,94 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.webflow.issues:SWF-1482:war:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 203, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 223, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Web Flow and JSF Issue Reproduction Project 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repository.prime.com.tr/org/springframework/webflow/spring-faces/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.springframework.webflow:spring-faces:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from/to primefaces (http://repository.prime.com.tr): repository.prime.com.tr: unknown error
+[WARNING] Failure to transfer org.springframework.webflow:spring-faces:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from http://repository.prime.com.tr was cached in the local repository, resolution will not be reattempted until the update interval of primefaces has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.webflow:spring-faces:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from/to primefaces (http://repository.prime.com.tr): repository.prime.com.tr: unknown error
+Downloading: http://repository.prime.com.tr/org/springframework/webflow/spring-binding/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.springframework.webflow:spring-binding:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from/to primefaces (http://repository.prime.com.tr): repository.prime.com.tr
+[WARNING] Failure to transfer org.springframework.webflow:spring-binding:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from http://repository.prime.com.tr was cached in the local repository, resolution will not be reattempted until the update interval of primefaces has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.webflow:spring-binding:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from/to primefaces (http://repository.prime.com.tr): repository.prime.com.tr
+Downloading: http://repository.prime.com.tr/org/springframework/webflow/spring-webflow/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.springframework.webflow:spring-webflow:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from/to primefaces (http://repository.prime.com.tr): repository.prime.com.tr
+[WARNING] Failure to transfer org.springframework.webflow:spring-webflow:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from http://repository.prime.com.tr was cached in the local repository, resolution will not be reattempted until the update interval of primefaces has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.webflow:spring-webflow:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from/to primefaces (http://repository.prime.com.tr): repository.prime.com.tr
+Downloading: http://repository.prime.com.tr/org/springframework/webflow/spring-js/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+[WARNING] Could not transfer metadata org.springframework.webflow:spring-js:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from/to primefaces (http://repository.prime.com.tr): repository.prime.com.tr
+[WARNING] Failure to transfer org.springframework.webflow:spring-js:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from http://repository.prime.com.tr was cached in the local repository, resolution will not be reattempted until the update interval of primefaces has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.webflow:spring-js:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from/to primefaces (http://repository.prime.com.tr): repository.prime.com.tr
+Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js-resources/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://repository.prime.com.tr/org/springframework/webflow/spring-js-resources/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml
+2 KB          Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js-resources/2.4.0.BUILD-SNAPSHOT/maven-metadata.xml (2 KB at 1.1 KB/sec)
+[WARNING] Could not transfer metadata org.springframework.webflow:spring-js-resources:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from/to primefaces (http://repository.prime.com.tr): repository.prime.com.tr
+[WARNING] Failure to transfer org.springframework.webflow:spring-js-resources:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from http://repository.prime.com.tr was cached in the local repository, resolution will not be reattempted until the update interval of primefaces has elapsed or updates are forced. Original error: Could not transfer metadata org.springframework.webflow:spring-js-resources:2.4.0.BUILD-SNAPSHOT/maven-metadata.xml from/to primefaces (http://repository.prime.com.tr): repository.prime.com.tr
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SWF-1482 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SWF-1482 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SWF-1482 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SWF-1482 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SWF-1482 ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1482/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.webflow.issues.PhonebookFlowExecutionTests
+2017-03-03 11:17:53,621 INFO [org.springframework.context.support.StaticApplicationContext] - <Refreshing org.springframework.context.support.StaticApplicationContext@59ec2012: startup date [Fri Mar 03 11:17:53 BRT 2017]; root of context hierarchy>
+2017-03-03 11:17:53,629 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4973813a: defining beans []; root of factory hierarchy>
+2017-03-03 11:17:53,751 INFO [org.springframework.context.support.GenericApplicationContext] - <Refreshing Flow ApplicationContext [phonebook-flow]: startup date [Fri Mar 03 11:17:53 BRT 2017]; parent: org.springframework.context.support.StaticApplicationContext@59ec2012>
+2017-03-03 11:17:53,773 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1786f9d5: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@4973813a>
+2017-03-03 11:17:53,784 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImplFactory] - <Creating new execution of 'phonebook-flow'>
+2017-03-03 11:17:53,790 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImpl] - <Resuming in org.springframework.webflow.test.MockExternalContext@7ff2a664>
+2017-03-03 11:17:53,817 DEBUG [org.springframework.webflow.engine.Flow] - <Restoring [FlowVariable@731f8236 name = 'fileUploadBean', valueFactory = [BeanFactoryVariableValueFactory@255b53dc type = FileUploadBean]]>
+2017-03-03 11:17:53,821 DEBUG [org.springframework.webflow.engine.ViewState] - <Event 'continue' returned from view [MockViewFactoryCreator.MockView@770c2e6b viewId = 'showNumbers']>
+2017-03-03 11:17:53,822 DEBUG [org.springframework.webflow.engine.Transition] - <Executing [Transition@1a052a00 on = continue, to = done]>
+2017-03-03 11:17:53,822 DEBUG [org.springframework.webflow.engine.Transition] - <Exiting state 'showNumbers'>
+2017-03-03 11:17:53,822 DEBUG [org.springframework.webflow.engine.EndState] - <Entering state 'done' of flow 'phonebook-flow'>
+2017-03-03 11:17:53,823 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Executing org.springframework.webflow.action.ViewFactoryActionAdapter@44a664f2>
+2017-03-03 11:17:53,823 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Executing org.springframework.webflow.action.ExternalRedirectAction@6328d34a>
+2017-03-03 11:17:53,824 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Finished executing org.springframework.webflow.action.ExternalRedirectAction@6328d34a; result = success>
+2017-03-03 11:17:53,824 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Finished executing org.springframework.webflow.action.ViewFactoryActionAdapter@44a664f2; result = success>
+2017-03-03 11:17:53,824 DEBUG [org.springframework.webflow.engine.Transition] - <Completed transition execution.  As a result, the flow execution has ended>
+2017-03-03 11:17:53,826 INFO [org.springframework.context.support.StaticApplicationContext] - <Refreshing org.springframework.context.support.StaticApplicationContext@4c40b76e: startup date [Fri Mar 03 11:17:53 BRT 2017]; root of context hierarchy>
+2017-03-03 11:17:53,826 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@41ee392b: defining beans []; root of factory hierarchy>
+2017-03-03 11:17:53,848 INFO [org.springframework.context.support.GenericApplicationContext] - <Refreshing Flow ApplicationContext [phonebook-flow]: startup date [Fri Mar 03 11:17:53 BRT 2017]; parent: org.springframework.context.support.StaticApplicationContext@4c40b76e>
+2017-03-03 11:17:53,850 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@55040f2f: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@41ee392b>
+2017-03-03 11:17:53,851 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImplFactory] - <Creating new execution of 'phonebook-flow'>
+2017-03-03 11:17:53,851 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImpl] - <Starting in org.springframework.webflow.test.MockExternalContext@64c87930 with input map[[empty]]>
+2017-03-03 11:17:53,851 DEBUG [org.springframework.webflow.engine.Flow] - <Creating [FlowVariable@525f1e4e name = 'fileUploadBean', valueFactory = [BeanFactoryVariableValueFactory@75f9eccc type = FileUploadBean]]>
+2017-03-03 11:17:53,860 DEBUG [org.springframework.webflow.engine.ViewState] - <Entering state 'showNumbers' of flow 'phonebook-flow'>
+2017-03-03 11:17:53,861 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImpl] - <Assigned key 1>
+2017-03-03 11:17:53,861 DEBUG [org.springframework.webflow.engine.ViewState] - <Rendering + [MockViewFactoryCreator.MockView@2890c451 viewId = 'showNumbers']>
+2017-03-03 11:17:53,861 DEBUG [org.springframework.webflow.engine.ViewState] - <  Flash scope = map[[empty]]>
+2017-03-03 11:17:53,861 DEBUG [org.springframework.webflow.engine.ViewState] - <  Messages = [DefaultMessageContext@40e6dfe1 sourceMessages = map[[null] -> list[[empty]]]]>
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.431 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14.372 s
+[INFO] Finished at: 2017-03-03T11:17:53-03:00
+[INFO] Final Memory: 12M/171M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data MongoDB - Example 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- apt-maven-plugin:1.1.3:process (default) @ spring-data-mongodb-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-mongodb-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/example/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-mongodb-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/example/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-mongodb-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-mongodb-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/example/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-mongodb-example ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/mongodb/example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.mongodb.advanced.AdvancedIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.804 sec - in example.springdata.mongodb.advanced.AdvancedIntegrationTests
+Running example.springdata.mongodb.projections.CustomerRepositoryIntegrationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.492 sec - in example.springdata.mongodb.projections.CustomerRepositoryIntegrationTest
+Running example.springdata.mongodb.advanced.ServersideScriptTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.401 sec - in example.springdata.mongodb.advanced.ServersideScriptTests
+Running example.springdata.mongodb.customer.CustomerRepositoryIntegrationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.64 sec - in example.springdata.mongodb.customer.CustomerRepositoryIntegrationTest
+
+Results :
+
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.460 s
+[INFO] Finished at: 2017-03-03T10:46:39-03:00
+[INFO] Final Memory: 31M/279M
+[INFO] ------------------------------------------------------------------------

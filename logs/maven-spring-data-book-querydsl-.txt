@@ -1,0 +1,46 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Book - Querydsl 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- apt-maven-plugin:1.0.8:process (default) @ spring-data-book-querydsl ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-book-querydsl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-book/querydsl/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ spring-data-book-querydsl ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to /home/guilherme/spring-projects/maven/spring-data-book/querydsl/target/classes
+[WARNING] /home/guilherme/spring-projects/maven/spring-data-book/querydsl/target/generated-sources/java/com/oreilly/springdata/querydsl/core/QCustomer.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/guilherme/spring-projects/maven/spring-data-book/querydsl/target/generated-sources/java/com/oreilly/springdata/querydsl/core/QCustomer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-book-querydsl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-book/querydsl/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ spring-data-book-querydsl ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/guilherme/spring-projects/maven/spring-data-book/querydsl/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-book-querydsl ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-book/querydsl/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.oreilly.springdata.querydsl.core.ProductUnitTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.54 sec - in com.oreilly.springdata.querydsl.core.ProductUnitTest
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.529 s
+[INFO] Finished at: 2017-03-03T10:42:31-03:00
+[INFO] Final Memory: 18M/168M
+[INFO] ------------------------------------------------------------------------

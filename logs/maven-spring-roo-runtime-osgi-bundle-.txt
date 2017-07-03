@@ -1,0 +1,19 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Runtime - OSGi Bundle Module Parent 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.osgi.bundle ---
+[INFO] 
+[INFO] --- maven-scr-plugin:1.21.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.osgi.bundle ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.107 s
+[INFO] Finished at: 2017-03-03T11:07:08-03:00
+[INFO] Final Memory: 16M/218M
+[INFO] ------------------------------------------------------------------------

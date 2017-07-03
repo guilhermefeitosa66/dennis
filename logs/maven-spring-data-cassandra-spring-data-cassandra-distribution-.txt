@@ -1,0 +1,23 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data for Apache Cassandra - Distribution 1.5.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- dependencypath-maven-plugin:1.1.1:set (set-all) @ spring-data-cassandra-distribution ---
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-cassandra-distribution ---
+[INFO] Ignored project with type = 'pom'
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:reserve-network-port (reserve-network-port) @ spring-data-cassandra-distribution ---
+[INFO] Reserved port 35125 for build.cassandra.native_transport_port
+[INFO] Reserved port 41820 for build.cassandra.rpc_port
+[INFO] Reserved port 43258 for build.cassandra.storage_port
+[INFO] Reserved port 42319 for build.cassandra.ssl_storage_port
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.887 s
+[INFO] Finished at: 2017-03-03T10:42:57-03:00
+[INFO] Final Memory: 9M/150M
+[INFO] ------------------------------------------------------------------------

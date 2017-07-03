@@ -1,0 +1,44 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JSON Editor 0.7.21
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ json-editor ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ json-editor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-hal-browser/target/json-editor/META-INF/maven/org.webjars/json-editor/src/main/resources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (default) @ json-editor ---
+[INFO] Executing tasks
+
+main:
+      [get] Getting: https://raw.githubusercontent.com/jdorn/json-editor/v0.7.21/dist/jsoneditor.js
+      [get] To: /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-hal-browser/target/json-editor/META-INF/maven/org.webjars/json-editor/target/classes/META-INF/resources/webjars/json-editor/0.7.21/jsoneditor.js
+      [get] Getting: https://raw.githubusercontent.com/jdorn/json-editor/v0.7.21/dist/jsoneditor.min.js
+      [get] To: /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-hal-browser/target/json-editor/META-INF/maven/org.webjars/json-editor/target/classes/META-INF/resources/webjars/json-editor/0.7.21/jsoneditor.min.js
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ json-editor ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ json-editor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-hal-browser/target/json-editor/META-INF/maven/org.webjars/json-editor/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ json-editor ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ json-editor ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.322 s
+[INFO] Finished at: 2017-03-03T10:56:17-03:00
+[INFO] Final Memory: 17M/195M
+[INFO] ------------------------------------------------------------------------

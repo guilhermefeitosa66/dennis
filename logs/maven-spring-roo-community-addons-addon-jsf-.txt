@@ -1,0 +1,62 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Roo - Addon - JSF/PrimeFaces 1.3.1.RELEASE
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-versions) @ org.springframework.roo.addon.jsf ---
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (default) @ org.springframework.roo.addon.jsf ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.springframework.roo.addon.jsf ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 34 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ org.springframework.roo.addon.jsf ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-scr-plugin:1.20.0:scr (generate-scr-scrdescriptor) @ org.springframework.roo.addon.jsf ---
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/src/main/java/org/springframework/roo/addon/jsf/JsfOperationsImpl.java [1:1]:  Component org.springframework.roo.addon.jsf.JsfOperationsImpl is using the deprecated inheritance feature and inherits from org.springframework.roo.classpath.operations.AbstractOperations. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/src/main/java/org/springframework/roo/addon/jsf/managedbean/JsfManagedBeanMetadataProviderImpl.java [1:1]:  Component org.springframework.roo.addon.jsf.managedbean.JsfManagedBeanMetadataProviderImpl is using the deprecated inheritance feature and inherits from org.springframework.roo.classpath.itd.AbstractMemberDiscoveringItdMetadataProvider. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/src/main/java/org/springframework/roo/addon/jsf/managedbean/JsfManagedBeanMetadataProviderImpl.java [1:1]:  Component org.springframework.roo.addon.jsf.managedbean.JsfManagedBeanMetadataProviderImpl is using the deprecated inheritance feature and inherits from org.springframework.roo.classpath.itd.AbstractItdMetadataProvider. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/src/main/java/org/springframework/roo/addon/jsf/managedbean/JsfManagedBeanMetadataProviderImpl.java [1:1]:  Component org.springframework.roo.addon.jsf.managedbean.JsfManagedBeanMetadataProviderImpl is using the deprecated inheritance feature and inherits from org.springframework.roo.metadata.AbstractHashCodeTrackingMetadataNotifier. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/src/main/java/org/springframework/roo/addon/jsf/application/JsfApplicationBeanMetadataProviderImpl.java [1:1]:  Component org.springframework.roo.addon.jsf.application.JsfApplicationBeanMetadataProviderImpl is using the deprecated inheritance feature and inherits from org.springframework.roo.classpath.itd.AbstractItdMetadataProvider. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/src/main/java/org/springframework/roo/addon/jsf/application/JsfApplicationBeanMetadataProviderImpl.java [1:1]:  Component org.springframework.roo.addon.jsf.application.JsfApplicationBeanMetadataProviderImpl is using the deprecated inheritance feature and inherits from org.springframework.roo.metadata.AbstractHashCodeTrackingMetadataNotifier. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/src/main/java/org/springframework/roo/addon/jsf/converter/JsfConverterMetadataProviderImpl.java [1:1]:  Component org.springframework.roo.addon.jsf.converter.JsfConverterMetadataProviderImpl is using the deprecated inheritance feature and inherits from org.springframework.roo.classpath.itd.AbstractMemberDiscoveringItdMetadataProvider. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/src/main/java/org/springframework/roo/addon/jsf/converter/JsfConverterMetadataProviderImpl.java [1:1]:  Component org.springframework.roo.addon.jsf.converter.JsfConverterMetadataProviderImpl is using the deprecated inheritance feature and inherits from org.springframework.roo.classpath.itd.AbstractItdMetadataProvider. This feature will be removed in future versions.
+[WARNING] /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/src/main/java/org/springframework/roo/addon/jsf/converter/JsfConverterMetadataProviderImpl.java [1:1]:  Component org.springframework.roo.addon.jsf.converter.JsfConverterMetadataProviderImpl is using the deprecated inheritance feature and inherits from org.springframework.roo.metadata.AbstractHashCodeTrackingMetadataNotifier. This feature will be removed in future versions.
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/target/classes/OSGI-INF/org.springframework.roo.addon.jsf.JsfOperationsImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/target/classes/OSGI-INF/org.springframework.roo.addon.jsf.JsfCommands.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/target/classes/OSGI-INF/org.springframework.roo.addon.jsf.managedbean.JsfManagedBeanMetadataProviderImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/target/classes/OSGI-INF/org.springframework.roo.addon.jsf.application.JsfApplicationBeanMetadataProviderImpl.xml
+[INFO] Writing 1 Service Component Descriptors to /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/target/classes/OSGI-INF/org.springframework.roo.addon.jsf.converter.JsfConverterMetadataProviderImpl.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ org.springframework.roo.addon.jsf ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ org.springframework.roo.addon.jsf ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ org.springframework.roo.addon.jsf ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-roo-community-addons/addon-jsf/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.210 s
+[INFO] Finished at: 2017-03-03T11:08:25-03:00
+[INFO] Final Memory: 28M/327M
+[INFO] ------------------------------------------------------------------------

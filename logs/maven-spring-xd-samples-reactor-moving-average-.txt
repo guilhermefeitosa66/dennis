@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building reactor-moving-average 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/org/springframework/xd//spring-xd-reactor/1.1.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://repo.spring.io/snapshot/org/springframework/xd//spring-xd-reactor/1.1.0.BUILD-SNAPSHOT/maven-metadata.xml
+1/3 KB   3/3 KB   3/3 KB            Downloaded: http://repo.spring.io/snapshot/org/springframework/xd//spring-xd-reactor/1.1.0.BUILD-SNAPSHOT/maven-metadata.xml (3 KB at 2.0 KB/sec)
+Downloading: http://jcenter.bintray.com/io/projectreactor/reactor-core/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://repo.spring.io/snapshot/io/projectreactor/reactor-core/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+1/3 KB   3/3 KB   3/3 KB                     Downloaded: http://repo.spring.io/snapshot/io/projectreactor/reactor-core/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml (3 KB at 3.9 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ reactor-moving-average ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ reactor-moving-average ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-moving-average/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-moving-average/src/main/java/com/acme/MovingAverage.java:[6,18] package reactor.rx does not exist
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-moving-average/src/main/java/com/acme/MovingAverage.java:[13,34] cannot find symbol
+  symbol:   class Stream
+  location: class com.acme.MovingAverage
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-moving-average/src/main/java/com/acme/MovingAverage.java:[13,12] cannot find symbol
+  symbol:   class Stream
+  location: class com.acme.MovingAverage
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.226 s
+[INFO] Finished at: 2017-03-03T11:20:47-03:00
+[INFO] Final Memory: 39M/298M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project reactor-moving-average: Compilation failure: Compilation failure:
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-moving-average/src/main/java/com/acme/MovingAverage.java:[6,18] package reactor.rx does not exist
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-moving-average/src/main/java/com/acme/MovingAverage.java:[13,34] cannot find symbol
+[ERROR] symbol:   class Stream
+[ERROR] location: class com.acme.MovingAverage
+[ERROR] /home/guilherme/spring-projects/maven/spring-xd-samples/reactor-moving-average/src/main/java/com/acme/MovingAverage.java:[13,12] cannot find symbol
+[ERROR] symbol:   class Stream
+[ERROR] location: class com.acme.MovingAverage
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

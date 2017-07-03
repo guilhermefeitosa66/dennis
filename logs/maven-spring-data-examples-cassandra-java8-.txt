@@ -1,0 +1,44 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Cassandra - Java 8 specific features 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-cassandra-java8 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/java8/src/main/resources
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/java8/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-data-cassandra-java8 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/java8/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-cassandra-java8 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/java8/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-data-cassandra-java8 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-cassandra-java8 ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-examples/cassandra/java8/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running example.springdata.cassandra.java8.Java8IntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.195 sec - in example.springdata.cassandra.java8.Java8IntegrationTests
+Running example.springdata.cassandra.java8.Jsr310IntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 sec - in example.springdata.cassandra.java8.Jsr310IntegrationTests
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 2
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.849 s
+[INFO] Finished at: 2017-03-03T10:44:24-03:00
+[INFO] Final Memory: 28M/262M
+[INFO] ------------------------------------------------------------------------

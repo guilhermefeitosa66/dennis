@@ -1,0 +1,143 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.webflow.issues:SWF-1525:war:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 238, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 258, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Web Flow Issue Reproduction Project 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SWF-1525 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SWF-1525 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SWF-1525 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SWF-1525 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SWF-1525 ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1525/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.webflow.issues.MyFlowExecutionTests
+2017-03-03 11:18:34,409 INFO [org.springframework.context.support.StaticApplicationContext] - <Refreshing org.springframework.context.support.StaticApplicationContext@69ea3742: startup date [Fri Mar 03 11:18:34 BRT 2017]; root of context hierarchy>
+2017-03-03 11:18:34,417 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@646d64ab: defining beans []; root of factory hierarchy>
+2017-03-03 11:18:34,543 INFO [org.springframework.context.support.GenericApplicationContext] - <Refreshing Flow ApplicationContext [myflow]: startup date [Fri Mar 03 11:18:34 BRT 2017]; parent: org.springframework.context.support.StaticApplicationContext@69ea3742>
+2017-03-03 11:18:34,574 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7ba18f1b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@646d64ab>
+2017-03-03 11:18:34,601 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImplFactory] - <Creating new execution of 'myflow'>
+2017-03-03 11:18:34,607 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImpl] - <Resuming in org.springframework.webflow.test.MockExternalContext@8909f18>
+2017-03-03 11:18:34,610 DEBUG [org.springframework.webflow.engine.Flow] - <Restoring [FlowVariable@197d671 name = 'houseForm', valueFactory = [BeanFactoryVariableValueFactory@402e37bc type = HouseForm]]>
+2017-03-03 11:18:34,614 DEBUG [org.springframework.webflow.engine.ViewState] - <Event 'continue' returned from view [MockViewFactoryCreator.MockView@75f32542 viewId = 'view']>
+2017-03-03 11:18:34,614 DEBUG [org.springframework.webflow.engine.Transition] - <Executing [Transition@7f1302d6 on = continue, to = done]>
+2017-03-03 11:18:34,614 DEBUG [org.springframework.webflow.engine.Transition] - <Exiting state 'view'>
+2017-03-03 11:18:34,614 DEBUG [org.springframework.webflow.engine.EndState] - <Entering state 'done' of flow 'myflow'>
+2017-03-03 11:18:34,615 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Executing org.springframework.webflow.action.ViewFactoryActionAdapter@184cf7cf>
+2017-03-03 11:18:34,615 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Executing org.springframework.webflow.action.ExternalRedirectAction@5db250b4>
+2017-03-03 11:18:34,616 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Finished executing org.springframework.webflow.action.ExternalRedirectAction@5db250b4; result = success>
+2017-03-03 11:18:34,616 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Finished executing org.springframework.webflow.action.ViewFactoryActionAdapter@184cf7cf; result = success>
+2017-03-03 11:18:34,616 DEBUG [org.springframework.webflow.engine.Transition] - <Completed transition execution.  As a result, the flow execution has ended>
+2017-03-03 11:18:34,618 INFO [org.springframework.context.support.StaticApplicationContext] - <Refreshing org.springframework.context.support.StaticApplicationContext@37918c79: startup date [Fri Mar 03 11:18:34 BRT 2017]; root of context hierarchy>
+2017-03-03 11:18:34,618 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@233fe9b6: defining beans []; root of factory hierarchy>
+2017-03-03 11:18:34,642 INFO [org.springframework.context.support.GenericApplicationContext] - <Refreshing Flow ApplicationContext [myflow]: startup date [Fri Mar 03 11:18:34 BRT 2017]; parent: org.springframework.context.support.StaticApplicationContext@37918c79>
+2017-03-03 11:18:34,644 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3d121db3: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@233fe9b6>
+2017-03-03 11:18:34,645 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImplFactory] - <Creating new execution of 'myflow'>
+2017-03-03 11:18:34,645 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImpl] - <Starting in org.springframework.webflow.test.MockExternalContext@3b07a0d6 with input map[[empty]]>
+2017-03-03 11:18:34,646 DEBUG [org.springframework.webflow.engine.Flow] - <Creating [FlowVariable@14d3bc22 name = 'houseForm', valueFactory = [BeanFactoryVariableValueFactory@12d4bf7e type = HouseForm]]>
+2017-03-03 11:18:34,660 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImpl] - <Attempting to handle [org.springframework.webflow.execution.FlowExecutionException: Exception thrown in state 'null' of flow 'myflow'] with root cause [org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [org.springframework.webflow.issues.service.HouseService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}]>
+2017-03-03 11:18:34,660 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImpl] - <Rethrowing unhandled flow execution exception>
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.461 sec <<< FAILURE!
+testStartFlow(org.springframework.webflow.issues.MyFlowExecutionTests)  Time elapsed: 0.046 sec  <<< ERROR!
+org.springframework.webflow.execution.FlowExecutionException: Exception thrown in state 'null' of flow 'myflow'
+	at org.springframework.webflow.engine.impl.FlowExecutionImpl.wrap(FlowExecutionImpl.java:571)
+	at org.springframework.webflow.engine.impl.FlowExecutionImpl.start(FlowExecutionImpl.java:226)
+	at org.springframework.webflow.test.execution.AbstractFlowExecutionTests.startFlow(AbstractFlowExecutionTests.java:121)
+	at org.springframework.webflow.issues.MyFlowExecutionTests.testStartFlow(MyFlowExecutionTests.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.webflow.issues.form.HouseForm': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.webflow.issues.service.HouseService org.springframework.webflow.issues.form.HouseForm.houseService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [org.springframework.webflow.issues.service.HouseService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:286)
+	at org.springframework.webflow.engine.support.BeanFactoryVariableValueFactory.createInitialValue(BeanFactoryVariableValueFactory.java:52)
+	at org.springframework.webflow.engine.FlowVariable.create(FlowVariable.java:79)
+	at org.springframework.webflow.engine.Flow.createVariables(Flow.java:627)
+	at org.springframework.webflow.engine.Flow.start(Flow.java:527)
+	at org.springframework.webflow.engine.impl.FlowExecutionImpl.start(FlowExecutionImpl.java:366)
+	at org.springframework.webflow.engine.impl.FlowExecutionImpl.start(FlowExecutionImpl.java:222)
+	... 27 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.webflow.issues.service.HouseService org.springframework.webflow.issues.form.HouseForm.houseService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [org.springframework.webflow.issues.service.HouseService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:506)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 37 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [org.springframework.webflow.issues.service.HouseService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:924)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:793)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:707)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	... 39 more
+
+
+Results :
+
+Tests in error: 
+  testStartFlow(org.springframework.webflow.issues.MyFlowExecutionTests): Exception thrown in state 'null' of flow 'myflow'
+
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.779 s
+[INFO] Finished at: 2017-03-03T11:18:34-03:00
+[INFO] Final Memory: 13M/212M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project SWF-1525: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1525/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

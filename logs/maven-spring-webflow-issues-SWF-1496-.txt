@@ -1,0 +1,83 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.webflow.issues:SWF-1496:war:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 219, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 239, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Web Flow Issue Reproduction Project 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-webflow/2.3.0.BUILD-SNAPSHOT/maven-metadata.xml
+385 B           Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-webflow/2.3.0.BUILD-SNAPSHOT/maven-metadata.xml (385 B at 0.1 KB/sec)
+Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-binding/2.3.0.BUILD-SNAPSHOT/maven-metadata.xml
+385 B           Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-binding/2.3.0.BUILD-SNAPSHOT/maven-metadata.xml (385 B at 0.6 KB/sec)
+Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js/2.3.0.BUILD-SNAPSHOT/maven-metadata.xml
+380 B           Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js/2.3.0.BUILD-SNAPSHOT/maven-metadata.xml (380 B at 0.4 KB/sec)
+Downloading: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js-resources/2.3.0.BUILD-SNAPSHOT/maven-metadata.xml
+390 B           Downloaded: http://maven.springframework.org/snapshot/org/springframework/webflow/spring-js-resources/2.3.0.BUILD-SNAPSHOT/maven-metadata.xml (390 B at 0.5 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SWF-1496 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SWF-1496 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SWF-1496 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SWF-1496 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SWF-1496 ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-webflow-issues/SWF-1496/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.webflow.issues.PhonebookFlowExecutionTests
+2017-03-03 11:18:10,026 INFO [org.springframework.context.support.StaticApplicationContext] - <Refreshing org.springframework.context.support.StaticApplicationContext@553f17c: startup date [Fri Mar 03 11:18:10 BRT 2017]; root of context hierarchy>
+2017-03-03 11:18:10,034 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@50b494a6: defining beans []; root of factory hierarchy>
+2017-03-03 11:18:10,147 INFO [org.springframework.context.support.GenericApplicationContext] - <Refreshing Flow ApplicationContext [phonebook-flow]: startup date [Fri Mar 03 11:18:10 BRT 2017]; parent: org.springframework.context.support.StaticApplicationContext@553f17c>
+2017-03-03 11:18:10,170 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3891771e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@50b494a6>
+2017-03-03 11:18:10,189 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImplFactory] - <Creating new execution of 'phonebook-flow'>
+2017-03-03 11:18:10,193 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImpl] - <Starting in org.springframework.webflow.test.MockExternalContext@10b48321 with input map[[empty]]>
+2017-03-03 11:18:10,196 DEBUG [org.springframework.webflow.engine.ViewState] - <Entering state 'showNumbers' of flow 'phonebook-flow'>
+2017-03-03 11:18:10,196 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImpl] - <Assigned key 1>
+2017-03-03 11:18:10,200 DEBUG [org.springframework.webflow.engine.ViewState] - <Rendering + [MockViewFactoryCreator.MockView@525b461a viewId = 'showNumbers']>
+2017-03-03 11:18:10,200 DEBUG [org.springframework.webflow.engine.ViewState] - <  Flash scope = map[[empty]]>
+2017-03-03 11:18:10,200 DEBUG [org.springframework.webflow.engine.ViewState] - <  Messages = [DefaultMessageContext@58c1c010 sourceMessages = map[[null] -> list[[empty]]]]>
+2017-03-03 11:18:10,202 INFO [org.springframework.context.support.StaticApplicationContext] - <Refreshing org.springframework.context.support.StaticApplicationContext@69b794e2: startup date [Fri Mar 03 11:18:10 BRT 2017]; root of context hierarchy>
+2017-03-03 11:18:10,202 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4d339552: defining beans []; root of factory hierarchy>
+2017-03-03 11:18:10,224 INFO [org.springframework.context.support.GenericApplicationContext] - <Refreshing Flow ApplicationContext [phonebook-flow]: startup date [Fri Mar 03 11:18:10 BRT 2017]; parent: org.springframework.context.support.StaticApplicationContext@69b794e2>
+2017-03-03 11:18:10,225 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@279ad2e3: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@4d339552>
+2017-03-03 11:18:10,226 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImplFactory] - <Creating new execution of 'phonebook-flow'>
+2017-03-03 11:18:10,226 DEBUG [org.springframework.webflow.engine.impl.FlowExecutionImpl] - <Resuming in org.springframework.webflow.test.MockExternalContext@58134517>
+2017-03-03 11:18:10,227 DEBUG [org.springframework.webflow.engine.ViewState] - <Event 'continue' returned from view [MockViewFactoryCreator.MockView@351d0846 viewId = 'showNumbers']>
+2017-03-03 11:18:10,227 DEBUG [org.springframework.webflow.engine.Transition] - <Executing [Transition@77e4c80f on = continue, to = done]>
+2017-03-03 11:18:10,227 DEBUG [org.springframework.webflow.engine.Transition] - <Exiting state 'showNumbers'>
+2017-03-03 11:18:10,227 DEBUG [org.springframework.webflow.engine.EndState] - <Entering state 'done' of flow 'phonebook-flow'>
+2017-03-03 11:18:10,228 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Executing org.springframework.webflow.action.ViewFactoryActionAdapter@6b53e23f>
+2017-03-03 11:18:10,228 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Executing org.springframework.webflow.action.ExternalRedirectAction@4f9a3314>
+2017-03-03 11:18:10,229 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Finished executing org.springframework.webflow.action.ExternalRedirectAction@4f9a3314; result = success>
+2017-03-03 11:18:10,229 DEBUG [org.springframework.webflow.execution.ActionExecutor] - <Finished executing org.springframework.webflow.action.ViewFactoryActionAdapter@6b53e23f; result = success>
+2017-03-03 11:18:10,229 DEBUG [org.springframework.webflow.engine.Transition] - <Completed transition execution.  As a result, the flow execution has ended>
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.388 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.347 s
+[INFO] Finished at: 2017-03-03T11:18:10-03:00
+[INFO] Final Memory: 11M/166M
+[INFO] ------------------------------------------------------------------------

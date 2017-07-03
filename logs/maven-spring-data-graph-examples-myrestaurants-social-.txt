@@ -1,0 +1,161 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building myrestaurants-social 0.1.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.0:compile (default) @ myrestaurants-social ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.2:resources (default-resources) @ myrestaurants-social ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.1:compile (default-compile) @ myrestaurants-social ---
+[INFO] Compiling 17 source files to /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/UserAccount.java:[43,59] error: incompatible types: Class<UserAccount> cannot be converted to Class<? extends NodeBacked>
+
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/UserAccount.java:[46,68] error: incompatible types: Class<Recommendation> cannot be converted to Class<? extends RelationshipBacked>
+
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/UserAccount.java:[49,99] error: incompatible types: Class<Restaurant> cannot be converted to Class<? extends NodeBacked>
+
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/BaseApplicationController.java:[41,14] error: cannot find symbol
+
+[ERROR]  variable userAccount of type UserAccount
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/data/RestaurantRepository.java:[24,7] error: cannot find symbol
+
+[ERROR]  variable rest of type Restaurant
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/data/UserAccountRepository.java:[25,20] error: cannot find symbol
+
+[ERROR]  variable userAccount of type UserAccount
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/data/UserAccountRepository.java:[40,24] error: cannot find symbol
+
+[ERROR]  variable userAccount of type UserAccount
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/data/UserAccountRepository.java:[69,19] error: cannot find symbol
+
+[ERROR]  variable userAccount of type UserAccount
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/data/UserAccountRepository.java:[74,19] error: cannot find symbol
+
+[ERROR]  variable userAccount of type UserAccount
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/UserAccount.java:[150,8] error: cannot find symbol
+
+[ERROR]  class UserAccount
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/UserAccount.java:[161,57] error: cannot find symbol
+
+[ERROR]  class UserAccount
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[33,31] error: cannot find symbol
+
+[ERROR]  variable foundRec of type Recommendation
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[49,21] error: cannot find symbol
+
+[ERROR]  variable recommendation of type Recommendation
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[73,27] error: cannot find symbol
+
+[ERROR]  variable recommendation of type Recommendation
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[98,55] error: cannot find symbol
+
+[ERROR]  variable recommendation of type Recommendation
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[99,54] error: cannot find symbol
+
+[ERROR]  variable recommendation of type Recommendation
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[140,29] error: cannot find symbol
+
+[ERROR]  variable foundRec of type Recommendation
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[158,18] error: cannot find symbol
+
+[ERROR]  variable foundRec of type Recommendation
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[159,15] error: cannot find symbol
+
+[ERROR]  variable foundRec of type Recommendation
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/TopRatedRestaurantFinder.java:[28,32] error: cannot find symbol
+
+[ERROR]  variable user of type UserAccount
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/TopRatedRestaurantFinder.java:[67,96] error: method createEntityFromState in class GraphDatabaseContext cannot be applied to given types;
+
+[ERROR] 
+    S extends PropertyContainer declared in method <S,T>createEntityFromState(S,Class<T>)
+    T extends GraphBacked<S> declared in method <S,T>createEntityFromState(S,Class<T>)
+/home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/TopRatedRestaurantFinder.java:[69,60] error: method createEntityFromState in class GraphDatabaseContext cannot be applied to given types;
+
+[INFO] 22 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.331 s
+[INFO] Finished at: 2017-03-03T10:53:31-03:00
+[INFO] Final Memory: 17M/166M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.1:compile (default-compile) on project myrestaurants-social: Compilation failure: Compilation failure:
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/UserAccount.java:[43,59] error: incompatible types: Class<UserAccount> cannot be converted to Class<? extends NodeBacked>
+[ERROR] 
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/UserAccount.java:[46,68] error: incompatible types: Class<Recommendation> cannot be converted to Class<? extends RelationshipBacked>
+[ERROR] 
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/UserAccount.java:[49,99] error: incompatible types: Class<Restaurant> cannot be converted to Class<? extends NodeBacked>
+[ERROR] 
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/BaseApplicationController.java:[41,14] error: cannot find symbol
+[ERROR] 
+[ERROR] variable userAccount of type UserAccount
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/data/RestaurantRepository.java:[24,7] error: cannot find symbol
+[ERROR] 
+[ERROR] variable rest of type Restaurant
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/data/UserAccountRepository.java:[25,20] error: cannot find symbol
+[ERROR] 
+[ERROR] variable userAccount of type UserAccount
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/data/UserAccountRepository.java:[40,24] error: cannot find symbol
+[ERROR] 
+[ERROR] variable userAccount of type UserAccount
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/data/UserAccountRepository.java:[69,19] error: cannot find symbol
+[ERROR] 
+[ERROR] variable userAccount of type UserAccount
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/data/UserAccountRepository.java:[74,19] error: cannot find symbol
+[ERROR] 
+[ERROR] variable userAccount of type UserAccount
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/UserAccount.java:[150,8] error: cannot find symbol
+[ERROR] 
+[ERROR] class UserAccount
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/UserAccount.java:[161,57] error: cannot find symbol
+[ERROR] 
+[ERROR] class UserAccount
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[33,31] error: cannot find symbol
+[ERROR] 
+[ERROR] variable foundRec of type Recommendation
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[49,21] error: cannot find symbol
+[ERROR] 
+[ERROR] variable recommendation of type Recommendation
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[73,27] error: cannot find symbol
+[ERROR] 
+[ERROR] variable recommendation of type Recommendation
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[98,55] error: cannot find symbol
+[ERROR] 
+[ERROR] variable recommendation of type Recommendation
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[99,54] error: cannot find symbol
+[ERROR] 
+[ERROR] variable recommendation of type Recommendation
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[140,29] error: cannot find symbol
+[ERROR] 
+[ERROR] variable foundRec of type Recommendation
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[158,18] error: cannot find symbol
+[ERROR] 
+[ERROR] variable foundRec of type Recommendation
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/web/RecommendationController.java:[159,15] error: cannot find symbol
+[ERROR] 
+[ERROR] variable foundRec of type Recommendation
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/TopRatedRestaurantFinder.java:[28,32] error: cannot find symbol
+[ERROR] 
+[ERROR] variable user of type UserAccount
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/TopRatedRestaurantFinder.java:[67,96] error: method createEntityFromState in class GraphDatabaseContext cannot be applied to given types;
+[ERROR] 
+[ERROR] 
+[ERROR] S extends PropertyContainer declared in method <S,T>createEntityFromState(S,Class<T>)
+[ERROR] T extends GraphBacked<S> declared in method <S,T>createEntityFromState(S,Class<T>)
+[ERROR] /home/guilherme/spring-projects/maven/spring-data-graph-examples/myrestaurants-social/src/main/java/com/springone/myrestaurants/domain/TopRatedRestaurantFinder.java:[69,60] error: method createEntityFromState in class GraphDatabaseContext cannot be applied to given types;
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

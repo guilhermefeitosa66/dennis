@@ -1,0 +1,80 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.boot:spring-boot-sample-web-secure-jdbc:jar:2.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-enforcer-plugin is missing. @ org.springframework.boot:spring-boot-samples:[unknown-version], /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/pom.xml, line 160, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Web Secure JDBC Sample 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-rules) @ spring-boot-sample-web-secure-jdbc ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-boot-sample-web-secure-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-sample-web-secure-jdbc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-boot-sample-web-secure-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-web-secure-jdbc/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-sample-web-secure-jdbc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-sample-web-secure-jdbc ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-web-secure-jdbc/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.36 sec <<< FAILURE! - in sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests
+testLogin(sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests)  Time elapsed: 0.069 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[2]00> but was:<[5]00>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests.getHeaders(SampleWebSecureJdbcApplicationTests.java:103)
+	at sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests.testLogin(SampleWebSecureJdbcApplicationTests.java:83)
+
+testLoginPage(sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests)  Time elapsed: 0.022 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[2]00> but was:<[5]00>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at sample.web.secure.jdbc.SampleWebSecureJdbcApplicationTests.testLoginPage(SampleWebSecureJdbcApplicationTests.java:77)
+
+
+Results :
+
+Failed tests: 
+  SampleWebSecureJdbcApplicationTests.testLogin:83->getHeaders:103 expected:<[2]00> but was:<[5]00>
+  SampleWebSecureJdbcApplicationTests.testLoginPage:77 expected:<[2]00> but was:<[5]00>
+
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.161 s
+[INFO] Finished at: 2017-03-03T10:31:50-03:00
+[INFO] Final Memory: 20M/218M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project spring-boot-sample-web-secure-jdbc: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-boot/spring-boot-samples/spring-boot-sample-web-secure-jdbc/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,107 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.manning.siia:trip-diary:jar:1.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.integration:spring-integration-file:jar -> duplicate declaration of version ${spring.integration.version} @ com.manning.siia:siia-parent:1.0-SNAPSHOT, /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/pom.xml, line 87, column 25
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.integration:spring-integration-stream:jar -> duplicate declaration of version ${spring.integration.version} @ com.manning.siia:siia-parent:1.0-SNAPSHOT, /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/pom.xml, line 117, column 25
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-core:jar -> duplicate declaration of version ${spring.version} @ com.manning.siia:siia-parent:1.0-SNAPSHOT, /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/pom.xml, line 142, column 25
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ com.manning.siia:siia-parent:1.0-SNAPSHOT, /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/pom.xml, line 248, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building trip-diary 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ trip-diary ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ trip-diary ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ trip-diary ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ trip-diary ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ trip-diary ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/trip-diary/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.manning.siia.trip.diary.EditableTextTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+Running com.manning.siia.trip.diary.ChangeFileNameGeneratorTest
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.095 sec <<< FAILURE!
+filenameShouldContainTodaysDate(com.manning.siia.trip.diary.ChangeFileNameGeneratorTest)  Time elapsed: 0.094 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: a string containing "1488546842399"
+     got: "1488546842398_21777@dell"
+
+	at org.junit.Assert.assertThat(Assert.java:778)
+	at org.junit.Assert.assertThat(Assert.java:736)
+	at com.manning.siia.trip.diary.ChangeFileNameGeneratorTest.filenameShouldContainTodaysDate(ChangeFileNameGeneratorTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+Running com.manning.siia.trip.diary.ExchangerIntegrationTest
+/tmp/junit1617305008038488713
+/tmp/junit1617305008038488713/148854684295821777@dell
+/tmp/junit1617305008038488713
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.642 sec
+
+Results :
+
+Failed tests:   filenameShouldContainTodaysDate(com.manning.siia.trip.diary.ChangeFileNameGeneratorTest): (..)
+
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.835 s
+[INFO] Finished at: 2017-03-03T10:14:03-03:00
+[INFO] Final Memory: 11M/212M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project trip-diary: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/Spring-Integration-in-Action/siia-examples/trip-diary/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

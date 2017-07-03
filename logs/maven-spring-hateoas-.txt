@@ -1,0 +1,142 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring HATEOAS 0.22.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-hateoas ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ spring-hateoas ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 88 source files to /home/guilherme/spring-projects/maven/spring-hateoas/target/classes
+[INFO] /home/guilherme/spring-projects/maven/spring-hateoas/src/main/java/org/springframework/hateoas/hal/Jackson2HalModule.java: /home/guilherme/spring-projects/maven/spring-hateoas/src/main/java/org/springframework/hateoas/hal/Jackson2HalModule.java uses or overrides a deprecated API.
+[INFO] /home/guilherme/spring-projects/maven/spring-hateoas/src/main/java/org/springframework/hateoas/hal/Jackson2HalModule.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-hateoas ---
+Manifest written to '/home/guilherme/spring-projects/maven/spring-hateoas/target/classes/META-INF/MANIFEST.MF'
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-hateoas ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 11 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ spring-hateoas ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-hateoas ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-hateoas/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.hateoas.ResourceSupportIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.4 sec - in org.springframework.hateoas.ResourceSupportIntegrationTest
+Running org.springframework.hateoas.Jackson2ResourceIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in org.springframework.hateoas.Jackson2ResourceIntegrationTest
+Running org.springframework.hateoas.alps.JacksonSerializationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in org.springframework.hateoas.alps.JacksonSerializationTest
+Running org.springframework.hateoas.client.HopUnitTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.hateoas.client.HopUnitTest
+Running org.springframework.hateoas.core.ControllerEntityLinksFactoryBeanUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.222 sec - in org.springframework.hateoas.core.ControllerEntityLinksFactoryBeanUnitTest
+Running org.springframework.hateoas.mvc.TypeConstrainedMappingJackson2HttpMessageConverterUnitTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in org.springframework.hateoas.mvc.TypeConstrainedMappingJackson2HttpMessageConverterUnitTest
+Running org.springframework.hateoas.hal.Jackson2HalIntegrationTest
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 sec - in org.springframework.hateoas.hal.Jackson2HalIntegrationTest
+Running org.springframework.hateoas.ResourceSupportUnitTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.hateoas.ResourceSupportUnitTest
+Running org.springframework.hateoas.core.DelegatingRelProviderUnitTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.hateoas.core.DelegatingRelProviderUnitTest
+Running org.springframework.hateoas.VndErrorsMarshallingTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 sec - in org.springframework.hateoas.VndErrorsMarshallingTest
+Running org.springframework.hateoas.client.TraversonTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.937 sec - in org.springframework.hateoas.client.TraversonTest
+Running org.springframework.hateoas.PagedResourcesMarshallingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in org.springframework.hateoas.PagedResourcesMarshallingTest
+Running org.springframework.hateoas.hal.HalLinkDiscovererUnitTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.hateoas.hal.HalLinkDiscovererUnitTest
+Running org.springframework.hateoas.TemplateVariablesUnitTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.hateoas.TemplateVariablesUnitTest
+Running org.springframework.hateoas.config.XmlConfigurationIntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.378 sec - in org.springframework.hateoas.config.XmlConfigurationIntegrationTest
+Running org.springframework.hateoas.mvc.IdentifiableResourceAssemblerSupportUnitTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in org.springframework.hateoas.mvc.IdentifiableResourceAssemblerSupportUnitTest
+Running org.springframework.hateoas.mvc.ControllerLinkBuilderUnitTest
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.278 sec - in org.springframework.hateoas.mvc.ControllerLinkBuilderUnitTest
+Running org.springframework.hateoas.mvc.ForwardedHeaderUnitTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.hateoas.mvc.ForwardedHeaderUnitTest
+Running org.springframework.hateoas.hal.DefaultCurieProviderUnitTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.hateoas.hal.DefaultCurieProviderUnitTest
+Running org.springframework.hateoas.VndErrorsUnitTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.hateoas.VndErrorsUnitTest
+Running org.springframework.hateoas.PagedResourcesUnitTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.hateoas.PagedResourcesUnitTest
+Running org.springframework.hateoas.jaxrs.JaxRsLinkBuilderFactoryUnitTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.hateoas.jaxrs.JaxRsLinkBuilderFactoryUnitTest
+Running org.springframework.hateoas.mvc.TypeReferencesIntegrationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 sec - in org.springframework.hateoas.mvc.TypeReferencesIntegrationTest
+Running org.springframework.hateoas.core.ControllerEntityLinksUnitTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec - in org.springframework.hateoas.core.ControllerEntityLinksUnitTest
+Running org.springframework.hateoas.mvc.HeaderLinksResponseEntityUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.hateoas.mvc.HeaderLinksResponseEntityUnitTest
+Running org.springframework.hateoas.hal.HalEmbeddedBuilderUnitTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.springframework.hateoas.hal.HalEmbeddedBuilderUnitTest
+Running org.springframework.hateoas.Jackson2ResourceSupportIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.hateoas.Jackson2ResourceSupportIntegrationTest
+Running org.springframework.hateoas.mvc.ControllerLinkBuilderOutsideSpringMvcUnitTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.hateoas.mvc.ControllerLinkBuilderOutsideSpringMvcUnitTest
+Running org.springframework.hateoas.core.LinkBuilderSupportUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.hateoas.core.LinkBuilderSupportUnitTest
+Running org.springframework.hateoas.core.JsonPathLinkDiscovererUnitTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.hateoas.core.JsonPathLinkDiscovererUnitTest
+Running org.springframework.hateoas.LinkUnitTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.hateoas.LinkUnitTest
+Running org.springframework.hateoas.mvc.DummyInvocationUtilsUnitTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.hateoas.mvc.DummyInvocationUtilsUnitTest
+Running org.springframework.hateoas.core.EvoInflectorRelProviderUnitTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.hateoas.core.EvoInflectorRelProviderUnitTest
+Running org.springframework.hateoas.LinkDiscoverersUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.hateoas.LinkDiscoverersUnitTest
+Running org.springframework.hateoas.core.MethodParametersUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.springframework.hateoas.core.MethodParametersUnitTest
+Running org.springframework.hateoas.Jackson2PagedResourcesIntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in org.springframework.hateoas.Jackson2PagedResourcesIntegrationTest
+Running org.springframework.hateoas.Jackson2LinkIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.hateoas.Jackson2LinkIntegrationTest
+Running org.springframework.hateoas.ResourceIntegrationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.springframework.hateoas.ResourceIntegrationTest
+Running org.springframework.hateoas.config.EnableEntityLinksIntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in org.springframework.hateoas.config.EnableEntityLinksIntegrationTest
+Running org.springframework.hateoas.mvc.ControllerLinkBuilderFactoryUnitTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in org.springframework.hateoas.mvc.ControllerLinkBuilderFactoryUnitTest
+Running org.springframework.hateoas.LinksUnitTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.hateoas.LinksUnitTest
+Running org.springframework.hateoas.LinkIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.hateoas.LinkIntegrationTest
+Running org.springframework.hateoas.ResourceUnitTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.hateoas.ResourceUnitTest
+Running org.springframework.hateoas.core.AnnotationMappingDiscovererUnitTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.hateoas.core.AnnotationMappingDiscovererUnitTest
+Running org.springframework.hateoas.core.DelegatingEntityLinksUnitTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.hateoas.core.DelegatingEntityLinksUnitTest
+Running org.springframework.hateoas.ResourcesUnitTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.hateoas.ResourcesUnitTest
+Running org.springframework.hateoas.UriTemplateUnitTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.hateoas.UriTemplateUnitTest
+Running org.springframework.hateoas.config.EnableHypermediaSupportIntegrationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.413 sec - in org.springframework.hateoas.config.EnableHypermediaSupportIntegrationTest
+Running org.springframework.hateoas.core.EmbeddedWrappersUnitTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.hateoas.core.EmbeddedWrappersUnitTest
+
+Results :
+
+Tests run: 303, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.871 s
+[INFO] Finished at: 2017-03-03T11:02:33-03:00
+[INFO] Final Memory: 23M/273M
+[INFO] ------------------------------------------------------------------------

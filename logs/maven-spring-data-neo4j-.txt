@@ -1,0 +1,69 @@
+[INFO] Scanning for projects...
+Downloading: http://m2.neo4j.org/content/repositories/releases/org/springframework/data/build/spring-data-parent/1.9.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/snapshots/org/springframework/data/build/spring-data-parent/1.9.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/releases/org/springframework/data/build/spring-data-build/1.9.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/snapshots/org/springframework/data/build/spring-data-build/1.9.0.BUILD-SNAPSHOT/maven-metadata.xml
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.data:spring-data-neo4j:jar:4.2.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-failsafe-plugin is missing. @ org.springframework.data:spring-data-neo4j:[unknown-version], /home/guilherme/spring-projects/maven/spring-data-neo4j/spring-data-neo4j/pom.xml, line 156, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spring Data Neo4j - Parent
+[INFO] Spring Data Neo4j
+[INFO] Spring Data Neo4j - Distribution
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Neo4j - Parent 4.2.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-neo4j-parent ---
+[INFO] Ignored project with enabled = false
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data Neo4j 4.2.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://m2.neo4j.org/content/repositories/releases/org/neo4j/neo4j-ogm-core/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/snapshots/org/neo4j/neo4j-ogm-core/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/releases/org/neo4j/neo4j-ogm-core/2.1.0-SNAPSHOT/neo4j-ogm-core-2.1.0-SNAPSHOT.pom
+Downloading: http://m2.neo4j.org/content/repositories/snapshots/org/neo4j/neo4j-ogm-core/2.1.0-SNAPSHOT/neo4j-ogm-core-2.1.0-SNAPSHOT.pom
+[WARNING] The POM for org.neo4j:neo4j-ogm-core:jar:2.1.0-SNAPSHOT is missing, no dependency information available
+Downloading: http://m2.neo4j.org/content/repositories/releases/org/neo4j/neo4j-ogm-http-driver/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/snapshots/org/neo4j/neo4j-ogm-http-driver/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/releases/org/neo4j/neo4j-ogm/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/snapshots/org/neo4j/neo4j-ogm/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/releases/org/neo4j/neo4j-ogm/2.1.0-SNAPSHOT/neo4j-ogm-2.1.0-SNAPSHOT.pom
+Downloading: http://m2.neo4j.org/content/repositories/snapshots/org/neo4j/neo4j-ogm/2.1.0-SNAPSHOT/neo4j-ogm-2.1.0-SNAPSHOT.pom
+Downloading: http://m2.neo4j.org/content/repositories/releases/org/springframework/data/spring-data-commons/1.13.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/snapshots/org/springframework/data/spring-data-commons/1.13.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/releases/org/neo4j/neo4j-ogm-test/2.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://m2.neo4j.org/content/repositories/snapshots/org/neo4j/neo4j-ogm-test/2.1.0-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB            Downloaded: http://m2.neo4j.org/content/repositories/snapshots/org/neo4j/neo4j-ogm-test/2.1.0-SNAPSHOT/maven-metadata.xml (2 KB at 2.7 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Spring Data Neo4j - Parent ......................... SUCCESS [  0.118 s]
+[INFO] Spring Data Neo4j .................................. FAILURE [  3.531 s]
+[INFO] Spring Data Neo4j - Distribution ................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.978 s
+[INFO] Finished at: 2017-03-03T10:55:21-03:00
+[INFO] Final Memory: 14M/154M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project spring-data-neo4j: Could not resolve dependencies for project org.springframework.data:spring-data-neo4j:jar:4.2.0.BUILD-SNAPSHOT: Failed to collect dependencies at org.neo4j:neo4j-ogm-http-driver:jar:2.1.0-SNAPSHOT: Failed to read artifact descriptor for org.neo4j:neo4j-ogm-http-driver:jar:2.1.0-SNAPSHOT: Could not find artifact org.neo4j:neo4j-ogm:pom:2.1.0-SNAPSHOT in neo4j (http://m2.neo4j.org/content/repositories/releases) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :spring-data-neo4j

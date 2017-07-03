@@ -1,0 +1,70 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring db4o Extension 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ org.springextensions.db4o ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ org.springextensions.db4o ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ org.springextensions.db4o ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ org.springextensions.db4o ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ org.springextensions.db4o ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/se-db4o/org.springextensions.db4o/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+176 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - using configuration: embedded
+301 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - embedded container opened: 6b09fb41
+301 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - db4o 8.1.209.15862
+301 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - closing object container 6b09fb41
+302 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - closing object container 6b09fb41
+302 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - using configuration: embedded
+308 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - embedded container opened: 1500b2f3
+308 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - db4o 8.1.209.15862
+308 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - closing object container 1500b2f3
+309 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - using configuration: embedded
+319 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - embedded container opened: 1f9e9475
+319 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - db4o 8.1.209.15862
+319 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - closing object container 1f9e9475
+320 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - using configuration: embedded
+326 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - embedded container opened: 7dc19a70
+326 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - db4o 8.1.209.15862
+326 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - using configuration: embedded
+327 [main] INFO org.springextensions.db4o.ObjectContainerFactoryBean - closing object container 7dc19a70
+334 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - using configuration: server
+355 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - opened object server 50f6ac94 at port 0
+355 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - db4o 8.1.209.15862
+356 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - closing object server 50f6ac94
+357 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - using configuration: server
+361 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - opened object server 78fa769e at port 0
+362 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - db4o 8.1.209.15862
+362 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - closing object server 78fa769e
+362 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - using configuration: server
+367 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - opened object server 4c2bb6e0 at port 0
+367 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - db4o 8.1.209.15862
+367 [main] INFO org.springextensions.db4o.ObjectServerFactoryBean - closing object server 4c2bb6e0
+Tests run: 188, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.138 sec
+
+Results :
+
+Tests run: 188, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.449 s
+[INFO] Finished at: 2017-03-03T10:14:26-03:00
+[INFO] Final Memory: 14M/216M
+[INFO] ------------------------------------------------------------------------

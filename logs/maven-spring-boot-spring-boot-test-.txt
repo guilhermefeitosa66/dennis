@@ -1,0 +1,226 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Test 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (checkstyle-validation) @ spring-boot-test ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-rules) @ spring-boot-test ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ spring-boot-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-test ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ spring-boot-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 19 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-test ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-boot-test ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-test/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.boot.test.mock.mockito.MockBeanOnConfigurationClassForNewBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.502 sec - in org.springframework.boot.test.mock.mockito.MockBeanOnConfigurationClassForNewBeanIntegrationTests
+Running org.springframework.boot.test.context.SpringBootTestActiveProfileTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.329 sec - in org.springframework.boot.test.context.SpringBootTestActiveProfileTests
+Running org.springframework.boot.test.mock.mockito.MockBeanOnTestFieldForExistingBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in org.springframework.boot.test.mock.mockito.MockBeanOnTestFieldForExistingBeanIntegrationTests
+Running org.springframework.boot.test.mock.mockito.SpyBeanOnTestClassForExistingBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec - in org.springframework.boot.test.mock.mockito.SpyBeanOnTestClassForExistingBeanIntegrationTests
+Running org.springframework.boot.test.util.EnvironmentTestUtilsTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.boot.test.util.EnvironmentTestUtilsTests
+Running org.springframework.boot.test.context.ImportsContextCustomizerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in org.springframework.boot.test.context.ImportsContextCustomizerTests
+Running org.springframework.boot.test.context.bootstrap.SpringBootTestContextBootstrapperTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in org.springframework.boot.test.context.bootstrap.SpringBootTestContextBootstrapperTests
+Running org.springframework.boot.test.web.client.MockServerRestTemplateCustomizerTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.421 sec - in org.springframework.boot.test.web.client.MockServerRestTemplateCustomizerTests
+Running org.springframework.boot.test.mock.mockito.MockResetTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.boot.test.mock.mockito.MockResetTests
+Running org.springframework.boot.test.mock.mockito.SpyBeanOnTestClassForNewBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in org.springframework.boot.test.mock.mockito.SpyBeanOnTestClassForNewBeanIntegrationTests
+Running org.springframework.boot.test.context.SpringBootTestWebEnvironmentRandomPortTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.021 sec - in org.springframework.boot.test.context.SpringBootTestWebEnvironmentRandomPortTests
+Running org.springframework.boot.test.mock.mockito.MockitoContextCustomizerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.boot.test.mock.mockito.MockitoContextCustomizerTests
+Running org.springframework.boot.test.context.bootstrap.SpringBootTestContextBootstrapperIntegrationTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 sec - in org.springframework.boot.test.context.bootstrap.SpringBootTestContextBootstrapperIntegrationTests
+Running org.springframework.boot.test.mock.mockito.MockDefinitionTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.springframework.boot.test.mock.mockito.MockDefinitionTests
+Running org.springframework.boot.test.mock.mockito.SpyBeanWithAopProxyAndNotProxyTargetAwareTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 sec - in org.springframework.boot.test.mock.mockito.SpyBeanWithAopProxyAndNotProxyTargetAwareTests
+Running org.springframework.boot.test.context.SpringBootContextLoaderMockMvcTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.138 sec - in org.springframework.boot.test.context.SpringBootContextLoaderMockMvcTests
+Running org.springframework.boot.test.json.JsonContentAssertTests
+Tests run: 200, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.179 sec - in org.springframework.boot.test.json.JsonContentAssertTests
+Running org.springframework.boot.test.context.SpringBootConfigurationFinderTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 sec - in org.springframework.boot.test.context.SpringBootConfigurationFinderTests
+Running org.springframework.boot.test.mock.mockito.MockBeanOnConfigurationClassForExistingBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in org.springframework.boot.test.mock.mockito.MockBeanOnConfigurationClassForExistingBeanIntegrationTests
+Running org.springframework.boot.test.context.SpringBootTestMixedConfigurationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.287 sec - in org.springframework.boot.test.context.SpringBootTestMixedConfigurationTests
+Running org.springframework.boot.test.json.JacksonTesterIntegrationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 sec - in org.springframework.boot.test.json.JacksonTesterIntegrationTests
+Running org.springframework.boot.test.context.SpringBootContextLoaderTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.059 sec - in org.springframework.boot.test.context.SpringBootContextLoaderTests
+Running org.springframework.boot.test.context.SpringBootTestGroovyConfigurationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec - in org.springframework.boot.test.context.SpringBootTestGroovyConfigurationTests
+Running org.springframework.boot.test.mock.mockito.MockBeanWithAsyncInterfaceMethodIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec - in org.springframework.boot.test.mock.mockito.MockBeanWithAsyncInterfaceMethodIntegrationTests
+Running org.springframework.boot.test.web.client.TestRestTemplateTests
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.084 sec <<< FAILURE! - in org.springframework.boot.test.web.client.TestRestTemplateTests
+restOperationsAreAvailable(org.springframework.boot.test.web.client.TestRestTemplateTests)  Time elapsed: 0.037 sec  <<< ERROR!
+java.lang.IllegalStateException: java.lang.NullPointerException
+	at org.springframework.boot.test.web.client.TestRestTemplateTests$1.doWith(TestRestTemplateTests.java:96)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:547)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:526)
+	at org.springframework.boot.test.web.client.TestRestTemplateTests.restOperationsAreAvailable(TestRestTemplateTests.java:88)
+
+Running org.springframework.boot.test.mock.mockito.MockBeanOnTestClassForExistingBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in org.springframework.boot.test.mock.mockito.MockBeanOnTestClassForExistingBeanIntegrationTests
+Running org.springframework.boot.test.context.bootstrap.SpringBootTestContextBootstrapperWithContextConfigurationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec - in org.springframework.boot.test.context.bootstrap.SpringBootTestContextBootstrapperWithContextConfigurationTests
+Running org.springframework.boot.test.mock.mockito.DefinitionsParserTests
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in org.springframework.boot.test.mock.mockito.DefinitionsParserTests
+Running org.springframework.boot.test.mock.mockito.SpyBeanOnTestFieldForExistingBeanCacheIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in org.springframework.boot.test.mock.mockito.SpyBeanOnTestFieldForExistingBeanCacheIntegrationTests
+Running org.springframework.boot.test.mock.mockito.SpyBeanOnConfigurationFieldForNewBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in org.springframework.boot.test.mock.mockito.SpyBeanOnConfigurationFieldForNewBeanIntegrationTests
+Running org.springframework.boot.test.json.JsonContentTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.boot.test.json.JsonContentTests
+Running org.springframework.boot.test.mock.mockito.MockBeanOnConfigurationFieldForExistingBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in org.springframework.boot.test.mock.mockito.MockBeanOnConfigurationFieldForExistingBeanIntegrationTests
+Running org.springframework.boot.test.mock.web.SpringBootMockServletContextTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec - in org.springframework.boot.test.mock.web.SpringBootMockServletContextTests
+Running org.springframework.boot.test.context.SpringBootTestWebEnvironmentMockTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 sec - in org.springframework.boot.test.context.SpringBootTestWebEnvironmentMockTests
+Running org.springframework.boot.test.context.ConfigFileApplicationContextInitializerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in org.springframework.boot.test.context.ConfigFileApplicationContextInitializerTests
+Running org.springframework.boot.test.mock.mockito.SpyBeanOnTestFieldForNewBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec - in org.springframework.boot.test.mock.mockito.SpyBeanOnTestFieldForNewBeanIntegrationTests
+Running org.springframework.boot.test.mock.mockito.SpyBeanOnTestFieldForExistingBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.boot.test.mock.mockito.SpyBeanOnTestFieldForExistingBeanIntegrationTests
+Running org.springframework.boot.test.mock.mockito.MockBeanOnTestFieldForExistingBeanCacheIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.springframework.boot.test.mock.mockito.MockBeanOnTestFieldForExistingBeanCacheIntegrationTests
+Running org.springframework.boot.test.context.ImportsContextCustomizerFactoryTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in org.springframework.boot.test.context.ImportsContextCustomizerFactoryTests
+Running org.springframework.boot.test.context.SpringBootTestWebEnvironmentMockWithWebAppConfigurationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 sec - in org.springframework.boot.test.context.SpringBootTestWebEnvironmentMockWithWebAppConfigurationTests
+Running org.springframework.boot.test.mock.mockito.MockBeanWithAopProxyTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec - in org.springframework.boot.test.mock.mockito.MockBeanWithAopProxyTests
+Running org.springframework.boot.test.mock.mockito.MockBeanOnTestFieldForExistingBeanWithQualifierIntegrationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in org.springframework.boot.test.mock.mockito.MockBeanOnTestFieldForExistingBeanWithQualifierIntegrationTests
+Running org.springframework.boot.test.json.JacksonTesterTests
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec - in org.springframework.boot.test.json.JacksonTesterTests
+Running org.springframework.boot.test.mock.mockito.SpyBeanWithAopProxyTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.283 sec - in org.springframework.boot.test.mock.mockito.SpyBeanWithAopProxyTests
+Running org.springframework.boot.test.web.client.RootUriRequestExpectationManagerTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec - in org.springframework.boot.test.web.client.RootUriRequestExpectationManagerTests
+Running org.springframework.boot.test.mock.mockito.MockBeanWithGenericsOnTestFieldForNewBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in org.springframework.boot.test.mock.mockito.MockBeanWithGenericsOnTestFieldForNewBeanIntegrationTests
+Running org.springframework.boot.test.context.SpringBootTestJmxTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in org.springframework.boot.test.context.SpringBootTestJmxTests
+Running org.springframework.boot.test.mock.mockito.SpyBeanOnContextHierarchyIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in org.springframework.boot.test.mock.mockito.SpyBeanOnContextHierarchyIntegrationTests
+Running org.springframework.boot.test.context.ImportsContextCustomizerFactoryIntegrationTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in org.springframework.boot.test.context.ImportsContextCustomizerFactoryIntegrationTests
+Running org.springframework.boot.test.context.SpringBootTestWebEnvironmentDefinedPortTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.196 sec - in org.springframework.boot.test.context.SpringBootTestWebEnvironmentDefinedPortTests
+Running org.springframework.boot.test.mock.mockito.MockitoTestExecutionListenerTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in org.springframework.boot.test.mock.mockito.MockitoTestExecutionListenerTests
+Running org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListenerTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListenerTests
+Running org.springframework.boot.test.context.SpringBootTestGroovyConventionConfigurationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec - in org.springframework.boot.test.context.SpringBootTestGroovyConventionConfigurationTests
+Running org.springframework.boot.test.mock.mockito.SpyBeanOnConfigurationClassForNewBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in org.springframework.boot.test.mock.mockito.SpyBeanOnConfigurationClassForNewBeanIntegrationTests
+Running org.springframework.boot.test.mock.mockito.MockBeanOnConfigurationFieldForNewBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in org.springframework.boot.test.mock.mockito.MockBeanOnConfigurationFieldForNewBeanIntegrationTests
+Running org.springframework.boot.test.mock.mockito.MockBeanWithInjectedFieldIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in org.springframework.boot.test.mock.mockito.MockBeanWithInjectedFieldIntegrationTests
+Running org.springframework.boot.test.context.SpringBootTestDefaultConfigurationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in org.springframework.boot.test.context.SpringBootTestDefaultConfigurationTests
+Running org.springframework.boot.test.context.SpringBootTestWithContextConfigurationIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in org.springframework.boot.test.context.SpringBootTestWithContextConfigurationIntegrationTests
+Running org.springframework.boot.test.mock.mockito.MockitoPostProcessorTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in org.springframework.boot.test.mock.mockito.MockitoPostProcessorTests
+Running org.springframework.boot.test.mock.mockito.MockBeanOnTestClassForNewBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in org.springframework.boot.test.mock.mockito.MockBeanOnTestClassForNewBeanIntegrationTests
+Running org.springframework.boot.test.mock.mockito.MockBeanOnScopedProxyTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in org.springframework.boot.test.mock.mockito.MockBeanOnScopedProxyTests
+Running org.springframework.boot.test.mock.mockito.QualifierDefinitionTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in org.springframework.boot.test.mock.mockito.QualifierDefinitionTests
+Running org.springframework.boot.test.web.htmlunit.webdriver.LocalHostWebConnectionHtmlUnitDriverTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.751 sec - in org.springframework.boot.test.web.htmlunit.webdriver.LocalHostWebConnectionHtmlUnitDriverTests
+Running org.springframework.boot.test.mock.mockito.MockBeanOnTestFieldForNewBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in org.springframework.boot.test.mock.mockito.MockBeanOnTestFieldForNewBeanIntegrationTests
+Running org.springframework.boot.test.json.ObjectContentAssertTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.springframework.boot.test.json.ObjectContentAssertTests
+Running org.springframework.boot.test.context.filter.TestTypeExcludeFilterTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.boot.test.context.filter.TestTypeExcludeFilterTests
+Running org.springframework.boot.test.mock.mockito.MockBeanOnContextHierarchyIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in org.springframework.boot.test.mock.mockito.MockBeanOnContextHierarchyIntegrationTests
+Running org.springframework.boot.test.mock.mockito.SpyDefinitionTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.boot.test.mock.mockito.SpyDefinitionTests
+Running org.springframework.boot.test.mock.mockito.MockitoContextCustomizerFactoryTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.boot.test.mock.mockito.MockitoContextCustomizerFactoryTests
+Running org.springframework.boot.test.web.htmlunit.LocalHostWebClientTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in org.springframework.boot.test.web.htmlunit.LocalHostWebClientTests
+Running org.springframework.boot.test.json.GsonTesterTests
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in org.springframework.boot.test.json.GsonTesterTests
+Running org.springframework.boot.test.util.ApplicationContextTestUtilsTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.boot.test.util.ApplicationContextTestUtilsTests
+Running org.springframework.boot.test.json.BasicJsonTesterTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.boot.test.json.BasicJsonTesterTests
+Running org.springframework.boot.test.context.SpringBootTestXmlConventionConfigurationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.214 sec - in org.springframework.boot.test.context.SpringBootTestXmlConventionConfigurationTests
+Running org.springframework.boot.test.web.client.LocalHostUriTemplateHandlerTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.boot.test.web.client.LocalHostUriTemplateHandlerTests
+Running org.springframework.boot.test.json.ObjectContentTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in org.springframework.boot.test.json.ObjectContentTests
+Running org.springframework.boot.test.context.SpringBootTestCustomConfigNameTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec - in org.springframework.boot.test.context.SpringBootTestCustomConfigNameTests
+Running org.springframework.boot.test.context.SpringBootTestWithClassesIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in org.springframework.boot.test.context.SpringBootTestWithClassesIntegrationTests
+Running org.springframework.boot.test.mock.mockito.SpyBeanOnConfigurationClassForExistingBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in org.springframework.boot.test.mock.mockito.SpyBeanOnConfigurationClassForExistingBeanIntegrationTests
+Running org.springframework.boot.test.context.SpringBootTestWithTestPropertySourceTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in org.springframework.boot.test.context.SpringBootTestWithTestPropertySourceTests
+Running org.springframework.boot.test.mock.mockito.SpyBeanOnConfigurationFieldForExistingBeanIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in org.springframework.boot.test.mock.mockito.SpyBeanOnConfigurationFieldForExistingBeanIntegrationTests
+
+Results :
+
+Tests in error: 
+  TestRestTemplateTests.restOperationsAreAvailable:88 » IllegalState java.lang.N...
+
+Tests run: 476, Failures: 0, Errors: 1, Skipped: 1
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.377 s
+[INFO] Finished at: 2017-03-03T10:38:11-03:00
+[INFO] Final Memory: 27M/377M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project spring-boot-test: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-boot/spring-boot-test/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

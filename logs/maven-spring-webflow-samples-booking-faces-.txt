@@ -1,0 +1,146 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Hotel Booking : Spring MVC + Web Flow + JSF/PrimeFaces 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ booking-faces ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ booking-faces ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ booking-faces ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ booking-faces ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ booking-faces ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-webflow-samples/booking-faces/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.webflow.samples.booking.MainFlowExecutionTests
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'main-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Starting in org.springframework.webflow.test.MockExternalContext@6200f9cb with input null
+DEBUG: org.springframework.webflow.engine.Flow - Creating [FlowVariable@1e66f1f5 name = 'searchCriteria', valueFactory = [BeanFactoryVariableValueFactory@4e50c791 type = SearchCriteria]]
+DEBUG: org.springframework.webflow.engine.ViewState - Entering state 'enterSearchCriteria' of flow 'main-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Assigned key 1
+DEBUG: org.springframework.webflow.engine.ViewState - Rendering + [MockViewFactoryCreator.MockView@1f59a598 viewId = 'enterSearchCriteria']
+DEBUG: org.springframework.webflow.engine.ViewState -   Flash scope = map[[empty]]
+DEBUG: org.springframework.webflow.engine.ViewState -   Messages = [DefaultMessageContext@1e178745 sourceMessages = map[[null] -> list[[empty]]]]
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Executing [EvaluateAction@2e377400 expression = bookingService.findBookings(currentUser?.name), resultExpression = viewScope.bookings]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Finished executing [EvaluateAction@2e377400 expression = bookingService.findBookings(currentUser?.name), resultExpression = viewScope.bookings]; result = success
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'main-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Resuming in org.springframework.webflow.test.MockExternalContext@2f54a33d
+DEBUG: org.springframework.webflow.engine.Flow - Restoring [FlowVariable@1018bde2 name = 'searchCriteria', valueFactory = [BeanFactoryVariableValueFactory@65b3f4a4 type = SearchCriteria]]
+DEBUG: org.springframework.webflow.engine.ViewState - Event 'search' returned from view [MockViewFactoryCreator.MockView@f2ff811 viewId = 'enterSearchCriteria']
+DEBUG: org.springframework.webflow.engine.Transition - Executing [Transition@568ff82 on = search, to = reviewHotels]
+DEBUG: org.springframework.webflow.engine.Transition - Exiting state 'enterSearchCriteria'
+DEBUG: org.springframework.webflow.engine.ViewState - Entering state 'reviewHotels' of flow 'main-flow'
+DEBUG: org.springframework.webflow.engine.ViewState - Creating org.springframework.webflow.engine.ViewVariable@8951a9f
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Assigned key 1
+DEBUG: org.springframework.webflow.engine.ViewState - Rendering + [MockViewFactoryCreator.MockView@2e1d27ba viewId = 'reviewHotels']
+DEBUG: org.springframework.webflow.engine.ViewState -   Flash scope = map[[empty]]
+DEBUG: org.springframework.webflow.engine.ViewState -   Messages = [DefaultMessageContext@61d6015a sourceMessages = map[[null] -> list[[empty]]]]
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Executing [EvaluateAction@2525ff7e expression = hotels.setSearchCriteria(searchCriteria), resultExpression = [null]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Finished executing [EvaluateAction@2525ff7e expression = hotels.setSearchCriteria(searchCriteria), resultExpression = [null]]; result = success
+DEBUG: org.springframework.webflow.engine.Transition - Completed transition execution.  As a result, the new state is 'reviewHotels' in flow 'main-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'main-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Resuming in org.springframework.webflow.test.MockExternalContext@5939a379
+DEBUG: org.springframework.webflow.engine.Flow - Restoring [FlowVariable@e1de817 name = 'searchCriteria', valueFactory = [BeanFactoryVariableValueFactory@52102734 type = SearchCriteria]]
+DEBUG: org.springframework.webflow.engine.ViewState - Restoring org.springframework.webflow.engine.ViewVariable@ed0c4063
+DEBUG: org.springframework.webflow.engine.ViewState - Event 'select' returned from view [MockViewFactoryCreator.MockView@13b13b5d viewId = 'reviewHotels']
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Executing [SetAction@2892dae4 name = flowScope.hotel, value = hotels.selected]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Finished executing [SetAction@2892dae4 name = flowScope.hotel, value = hotels.selected]; result = success
+DEBUG: org.springframework.webflow.engine.Transition - Executing [Transition@355ce81c on = select, to = reviewHotel]
+DEBUG: org.springframework.webflow.engine.Transition - Exiting state 'reviewHotels'
+DEBUG: org.springframework.webflow.engine.ViewState - Destroying org.springframework.webflow.engine.ViewVariable@ed0c4063
+DEBUG: org.springframework.webflow.engine.ViewState - Entering state 'reviewHotel' of flow 'main-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Assigned key 1
+DEBUG: org.springframework.webflow.engine.ViewState - Rendering + [MockViewFactoryCreator.MockView@29647f75 viewId = 'reviewHotel']
+DEBUG: org.springframework.webflow.engine.ViewState -   Flash scope = map[[empty]]
+DEBUG: org.springframework.webflow.engine.ViewState -   Messages = [DefaultMessageContext@3315d2d7 sourceMessages = map[[null] -> list[[empty]]]]
+DEBUG: org.springframework.webflow.engine.Transition - Completed transition execution.  As a result, the new state is 'reviewHotel' in flow 'main-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'main-flow'
+DEBUG: org.springframework.webflow.definition.registry.FlowDefinitionRegistryImpl - Registering flow definition 'org.springframework.webflow.engine.Flow' under id 'booking'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Resuming in org.springframework.webflow.test.MockExternalContext@2abf4075
+DEBUG: org.springframework.webflow.engine.Flow - Restoring [FlowVariable@770d3326 name = 'searchCriteria', valueFactory = [BeanFactoryVariableValueFactory@4cc8eb05 type = SearchCriteria]]
+DEBUG: org.springframework.webflow.engine.ViewState - Event 'book' returned from view [MockViewFactoryCreator.MockView@51f116b8 viewId = 'reviewHotel']
+DEBUG: org.springframework.webflow.engine.Transition - Executing [Transition@19d481b on = book, to = bookHotel]
+DEBUG: org.springframework.webflow.engine.Transition - Exiting state 'reviewHotel'
+DEBUG: org.springframework.webflow.engine.SubflowState - Entering state 'bookHotel' of flow 'main-flow'
+DEBUG: org.springframework.binding.mapping.impl.DefaultMapper - Beginning mapping between source [org.springframework.webflow.engine.impl.RequestControlContextImpl] and target [org.springframework.webflow.core.collection.LocalAttributeMap]
+DEBUG: org.springframework.binding.mapping.impl.DefaultMapping - Adding mapping result [Success@55536d9e mapping = hotel.id -> hotelId, code = 'success', error = false, originalValue = 1, mappedValue = 1]
+DEBUG: org.springframework.binding.mapping.impl.DefaultMapper - Completing mapping between source [org.springframework.webflow.engine.impl.RequestControlContextImpl] and target [org.springframework.webflow.core.collection.LocalAttributeMap]; total mappings = 1; total errors = 0
+DEBUG: org.springframework.webflow.definition.registry.FlowDefinitionRegistryImpl - Getting FlowDefinition with id 'booking'
+DEBUG: org.springframework.webflow.engine.SubflowState - Calling subflow 'booking' with input map['hotelId' -> 1]
+DEBUG: org.springframework.webflow.engine.EndState - Entering state 'bookingConfirmed' of flow 'booking'
+DEBUG: org.springframework.webflow.engine.Flow - Restoring [FlowVariable@770d3326 name = 'searchCriteria', valueFactory = [BeanFactoryVariableValueFactory@4cc8eb05 type = SearchCriteria]]
+DEBUG: org.springframework.webflow.engine.SubflowState - Mapping subflow output map[[empty]]
+DEBUG: org.springframework.webflow.engine.Transition - Executing [Transition@62230c58 on = bookingConfirmed, to = finish]
+DEBUG: org.springframework.webflow.engine.Transition - Exiting state 'bookHotel'
+DEBUG: org.springframework.webflow.engine.EndState - Entering state 'finish' of flow 'main-flow'
+DEBUG: org.springframework.webflow.engine.Transition - Completed transition execution.  As a result, the flow execution has ended
+DEBUG: org.springframework.webflow.engine.Transition - Completed transition execution.  As a result, the flow execution has ended
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.794 sec
+Running org.springframework.webflow.samples.booking.BookingFlowExecutionTests
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'booking-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Starting in org.springframework.webflow.test.MockExternalContext@2fd1433e with input map['hotelId' -> '1']
+DEBUG: org.springframework.binding.mapping.impl.DefaultMapper - Beginning mapping between source [org.springframework.webflow.core.collection.LocalAttributeMap] and target [org.springframework.webflow.engine.impl.RequestControlContextImpl]
+DEBUG: org.springframework.binding.mapping.impl.DefaultMapping - Adding mapping result [Success@29d89d5d mapping = hotelId -> flowScope.hotelId, code = 'success', error = false, originalValue = '1', mappedValue = '1']
+DEBUG: org.springframework.binding.mapping.impl.DefaultMapper - Completing mapping between source [org.springframework.webflow.core.collection.LocalAttributeMap] and target [org.springframework.webflow.engine.impl.RequestControlContextImpl]; total mappings = 1; total errors = 0
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Executing [EvaluateAction@3514a4c0 expression = bookingService.createBooking(hotelId, currentUser.name), resultExpression = flowScope.booking]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Finished executing [EvaluateAction@3514a4c0 expression = bookingService.createBooking(hotelId, currentUser.name), resultExpression = flowScope.booking]; result = success
+DEBUG: org.springframework.webflow.engine.ViewState - Entering state 'enterBookingDetails' of flow 'booking-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Assigned key 1
+DEBUG: org.springframework.webflow.engine.ViewState - Rendering + [MockViewFactoryCreator.MockView@69997e9d viewId = 'enterBookingDetails']
+DEBUG: org.springframework.webflow.engine.ViewState -   Flash scope = map[[empty]]
+DEBUG: org.springframework.webflow.engine.ViewState -   Messages = [DefaultMessageContext@793be5ca sourceMessages = map[[null] -> list[[empty]]]]
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'booking-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Resuming in org.springframework.webflow.test.MockExternalContext@3fb1549b
+DEBUG: org.springframework.webflow.engine.ViewState - Event 'proceed' returned from view [MockViewFactoryCreator.MockView@ea6147e viewId = 'enterBookingDetails']
+DEBUG: org.springframework.webflow.engine.Transition - Executing [Transition@4d02f94e on = proceed, to = reviewBooking]
+DEBUG: org.springframework.webflow.engine.Transition - Exiting state 'enterBookingDetails'
+DEBUG: org.springframework.webflow.engine.ViewState - Entering state 'reviewBooking' of flow 'booking-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Assigned key 1
+DEBUG: org.springframework.webflow.engine.ViewState - Rendering + [MockViewFactoryCreator.MockView@2b48a640 viewId = 'reviewBooking']
+DEBUG: org.springframework.webflow.engine.ViewState -   Flash scope = map[[empty]]
+DEBUG: org.springframework.webflow.engine.ViewState -   Messages = [DefaultMessageContext@1e683a3e sourceMessages = map[[null] -> list[[empty]]]]
+DEBUG: org.springframework.webflow.engine.Transition - Completed transition execution.  As a result, the new state is 'reviewBooking' in flow 'booking-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImplFactory - Creating new execution of 'booking-flow'
+DEBUG: org.springframework.webflow.engine.impl.FlowExecutionImpl - Resuming in org.springframework.webflow.test.MockExternalContext@3e84448c
+DEBUG: org.springframework.webflow.engine.ViewState - Event 'confirm' returned from view [MockViewFactoryCreator.MockView@4a7f959b viewId = 'reviewBooking']
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Executing [EvaluateAction@429bffaa expression = bookingService.persistBooking(booking), resultExpression = [null]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Putting action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.AnnotatedAction - Clearing action execution attributes map[[empty]]
+DEBUG: org.springframework.webflow.execution.ActionExecutor - Finished executing [EvaluateAction@429bffaa expression = bookingService.persistBooking(booking), resultExpression = [null]]; result = success
+DEBUG: org.springframework.webflow.engine.Transition - Executing [Transition@63a12c68 on = confirm, to = bookingConfirmed]
+DEBUG: org.springframework.webflow.engine.Transition - Exiting state 'reviewBooking'
+DEBUG: org.springframework.webflow.engine.EndState - Entering state 'bookingConfirmed' of flow 'booking-flow'
+DEBUG: org.springframework.webflow.engine.Transition - Completed transition execution.  As a result, the flow execution has ended
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.095 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.391 s
+[INFO] Finished at: 2017-03-03T11:19:14-03:00
+[INFO] Final Memory: 10M/150M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,144 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] spring-tuple-parent
+[INFO] spring-tuple
+[INFO] spring-integration-tuple
+[INFO] spring-batch-tuple
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-tuple-parent 1.0.1.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-tuple 1.0.1.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-tuple ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ spring-tuple ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 21 source files to /home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-tuple ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ spring-tuple ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-tuple ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-tuple/spring-tuple/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.tuple.DefaultTupleTests
+Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.431 sec - in org.springframework.tuple.DefaultTupleTests
+Running org.springframework.tuple.SpringToDateConverterTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.tuple.SpringToDateConverterTests
+Running org.springframework.tuple.TupleJsonMarshallerTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in org.springframework.tuple.TupleJsonMarshallerTests
+Running org.springframework.tuple.spel.TuplePropertyAccessorTests
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in org.springframework.tuple.spel.TuplePropertyAccessorTests
+Running org.springframework.tuple.JsonBytesToTupleConverterTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.tuple.JsonBytesToTupleConverterTests
+
+Results :
+
+Tests run: 54, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-integration-tuple 1.0.1.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-integration-tuple ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-tuple/spring-integration-tuple/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ spring-integration-tuple ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to /home/guilherme/spring-projects/maven/spring-tuple/spring-integration-tuple/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-integration-tuple ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-tuple/spring-integration-tuple/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ spring-integration-tuple ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /home/guilherme/spring-projects/maven/spring-tuple/spring-integration-tuple/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-integration-tuple ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-tuple/spring-integration-tuple/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.tuple.integration.MapToTupleTransformerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.339 sec - in org.springframework.tuple.integration.MapToTupleTransformerTests
+Running org.springframework.integration.tuple.TupleCodecTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in org.springframework.integration.tuple.TupleCodecTests
+Running org.springframework.integration.tuple.JsonToTupleTransformerTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in org.springframework.integration.tuple.JsonToTupleTransformerTests
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-batch-tuple 1.0.1.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-batch-tuple ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-tuple/spring-batch-tuple/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ spring-batch-tuple ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 7 source files to /home/guilherme/spring-projects/maven/spring-tuple/spring-batch-tuple/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-batch-tuple ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-tuple/spring-batch-tuple/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ spring-batch-tuple ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /home/guilherme/spring-projects/maven/spring-tuple/spring-batch-tuple/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-batch-tuple ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-tuple/spring-batch-tuple/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.xd.tuple.batch.TupleFieldExtractorTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.28 sec - in org.springframework.xd.tuple.batch.TupleFieldExtractorTests
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] spring-tuple-parent ................................ SUCCESS [  0.007 s]
+[INFO] spring-tuple ....................................... SUCCESS [  4.269 s]
+[INFO] spring-integration-tuple ........................... SUCCESS [  0.919 s]
+[INFO] spring-batch-tuple ................................. SUCCESS [  0.632 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.955 s
+[INFO] Finished at: 2017-03-03T11:16:57-03:00
+[INFO] Final Memory: 22M/204M
+[INFO] ------------------------------------------------------------------------

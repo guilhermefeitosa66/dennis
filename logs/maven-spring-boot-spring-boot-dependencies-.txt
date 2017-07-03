@@ -1,0 +1,19 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Boot Dependencies 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-help-plugin:2.2:effective-pom (generate-effective-dependencies-pom) @ spring-boot-dependencies ---
+[INFO] Effective-POM written to: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-dependencies/target/effective-pom/spring-boot-dependencies.xml
+[INFO] 
+[INFO] --- xml-maven-plugin:1.0:transform (default) @ spring-boot-dependencies ---
+[INFO] Transforming file: /home/guilherme/spring-projects/maven/spring-boot/spring-boot-dependencies/target/effective-pom/spring-boot-dependencies.xml
+[INFO] Transformed 1 file(s).
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.922 s
+[INFO] Finished at: 2017-03-03T10:18:19-03:00
+[INFO] Final Memory: 10M/156M
+[INFO] ------------------------------------------------------------------------

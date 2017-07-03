@@ -1,0 +1,36 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Admin Console WAR 4.1.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- glassfishbuild-maven-plugin:3.2.20:echo (echo) @ war ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Building in /home/guilherme/spring-projects/maven/spring-boot/spring-boot-deployment-tests/spring-boot-deployment-test-glassfish/target/cargo/installs/glassfish-4.1.1/glassfish4/glassfish/lib/install/applications/__admingui/META-INF/maven/org.glassfish.main.admingui/war
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce-versions) @ war ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ war ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-deployment-tests/spring-boot-deployment-test-glassfish/target/cargo/installs/glassfish-4.1.1/glassfish4/glassfish/lib/install/applications/__admingui/META-INF/maven/org.glassfish.main.admingui/war/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.4:compile (default-compile) @ war ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ war ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-boot/spring-boot-deployment-tests/spring-boot-deployment-test-glassfish/target/cargo/installs/glassfish-4.1.1/glassfish4/glassfish/lib/install/applications/__admingui/META-INF/maven/org.glassfish.main.admingui/war/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.4:testCompile (default-testCompile) @ war ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.4.3:test (default-test) @ war ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.177 s
+[INFO] Finished at: 2017-03-03T10:18:36-03:00
+[INFO] Final Memory: 17M/212M
+[INFO] ------------------------------------------------------------------------

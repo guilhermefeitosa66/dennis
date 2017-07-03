@@ -1,0 +1,92 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - Core 2.6.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-rest-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ spring-data-rest-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-rest-core ---
+[INFO] Ignored project with enabled = false
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-rest-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ spring-data-rest-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ spring-data-rest-core ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.data.rest.core.mapping.TypeBasedCollectionResourceMappingUnitTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec - in org.springframework.data.rest.core.mapping.TypeBasedCollectionResourceMappingUnitTests
+Running org.springframework.data.rest.core.mapping.RepositoryResourceMappingsIntegrationTests
+findByFirstnameContaining
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.668 sec - in org.springframework.data.rest.core.mapping.RepositoryResourceMappingsIntegrationTests
+Running org.springframework.data.rest.core.mapping.MappingResourceMetadataUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in org.springframework.data.rest.core.mapping.MappingResourceMetadataUnitTests
+Running org.springframework.data.rest.core.mapping.RepositoryMethodResourceMappingUnitTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.springframework.data.rest.core.mapping.RepositoryMethodResourceMappingUnitTests
+Running org.springframework.data.rest.core.mapping.CrudMethodsSupportedHttpMethodsUnitTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in org.springframework.data.rest.core.mapping.CrudMethodsSupportedHttpMethodsUnitTests
+Running org.springframework.data.rest.core.mapping.RepositoryDetectionStrategiesUnitTests
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.data.rest.core.mapping.RepositoryDetectionStrategiesUnitTests
+Running org.springframework.data.rest.core.mapping.RepositoryCollectionResourceMappingUnitTests
+2017-03-03 10:55:54,296  WARN ping.RepositoryCollectionResourceMapping:  81 - @RestResource detected to customize the repository resource for org.springframework.data.rest.core.mapping.RepositoryCollectionResourceMappingUnitTests$AnnotatedAnnotatedPersonRepository! Use @RepositoryRestResource instead!
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in org.springframework.data.rest.core.mapping.RepositoryCollectionResourceMappingUnitTests
+Running org.springframework.data.rest.core.mapping.PersistentPropertyResourceMappingUnitTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.springframework.data.rest.core.mapping.PersistentPropertyResourceMappingUnitTests
+Running org.springframework.data.rest.core.PathUnitTests
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.springframework.data.rest.core.PathUnitTests
+Running org.springframework.data.rest.core.event.AnnotatedEventHandlerInvokerUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in org.springframework.data.rest.core.event.AnnotatedEventHandlerInvokerUnitTests
+Running org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactoryUnitTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 sec - in org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactoryUnitTests
+Running org.springframework.data.rest.core.support.DomainObjectMergerUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.core.support.DomainObjectMergerUnitTests
+Running org.springframework.data.rest.core.support.ResourceStringUtilsTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.data.rest.core.support.ResourceStringUtilsTests
+Running org.springframework.data.rest.core.support.DefaultSelfLinkProviderUnitTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in org.springframework.data.rest.core.support.DefaultSelfLinkProviderUnitTests
+Running org.springframework.data.rest.core.support.DomainObjectMergerTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in org.springframework.data.rest.core.support.DomainObjectMergerTests
+Running org.springframework.data.rest.core.UriToEntityConverterUnitTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in org.springframework.data.rest.core.UriToEntityConverterUnitTests
+Running org.springframework.data.rest.core.RepositoryRestConfigurationIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 sec - in org.springframework.data.rest.core.RepositoryRestConfigurationIntegrationTests
+Running org.springframework.data.rest.core.config.ResourceMappingUnitTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.springframework.data.rest.core.config.ResourceMappingUnitTests
+Running org.springframework.data.rest.core.config.ProjectionDefinitionConfigurationUnitTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.springframework.data.rest.core.config.ProjectionDefinitionConfigurationUnitTests
+Running org.springframework.data.rest.core.context.ValidatorIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.188 sec - in org.springframework.data.rest.core.context.ValidatorIntegrationTests
+Running org.springframework.data.rest.core.context.RepositoryEventIntegrationTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 sec - in org.springframework.data.rest.core.context.RepositoryEventIntegrationTests
+Running org.springframework.data.rest.core.ValidationErrorsUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.springframework.data.rest.core.ValidationErrorsUnitTests
+Running org.springframework.data.rest.core.RepositoryRestConfigurationUnitTests
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.core.RepositoryRestConfigurationUnitTests
+Running org.springframework.data.rest.core.util.FunctionTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.core.util.FunctionTests
+Running org.springframework.data.rest.core.util.MethodsUnitTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.springframework.data.rest.core.util.MethodsUnitTests
+
+Results :
+
+Tests run: 142, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.261 s
+[INFO] Finished at: 2017-03-03T10:55:55-03:00
+[INFO] Final Memory: 14M/216M
+[INFO] ------------------------------------------------------------------------

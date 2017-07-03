@@ -1,0 +1,123 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building serialization-benchmarks 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/org/springframework/xd/spring-xd-codec/1.2.1.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://repo.spring.io/snapshot/org/springframework/xd/spring-xd-codec/1.2.1.BUILD-SNAPSHOT/maven-metadata.xml
+1/3 KB   3/3 KB            Downloaded: http://repo.spring.io/snapshot/org/springframework/xd/spring-xd-codec/1.2.1.BUILD-SNAPSHOT/maven-metadata.xml (3 KB at 1.6 KB/sec)
+Downloading: http://jcenter.bintray.com/org/springframework/xd/spring-xd-spi-common/1.2.1.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://repo.spring.io/snapshot/org/springframework/xd/spring-xd-spi-common/1.2.1.BUILD-SNAPSHOT/maven-metadata.xml
+         1/3 KB   3/3 KB            Downloaded: http://repo.spring.io/snapshot/org/springframework/xd/spring-xd-spi-common/1.2.1.BUILD-SNAPSHOT/maven-metadata.xml (3 KB at 2.5 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ serialization-benchmarks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/guilherme/spring-projects/maven/spring-xd-samples/serialization-benchmarks/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ serialization-benchmarks ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ serialization-benchmarks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ serialization-benchmarks ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ serialization-benchmarks ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-xd-samples/serialization-benchmarks/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.xd.samples.serialization.orders.OptimizedOrderCodecBenchmarkTest
+11:21:20.531 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - configured Kryo registration [20, org.springframework.xd.samples.domain.baseline.Address] with serializer org.springframework.xd.samples.kryo.AddressSerializer
+11:21:20.534 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - configured Kryo registration [21, org.springframework.xd.samples.domain.baseline.Customer] with serializer org.springframework.xd.samples.kryo.CustomerSerializer
+11:21:20.535 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - configured Kryo registration [22, org.springframework.xd.samples.domain.baseline.Product] with serializer org.springframework.xd.samples.kryo.ProductSerializer
+11:21:20.535 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - configured Kryo registration [23, org.springframework.xd.samples.domain.baseline.Order] with serializer org.springframework.xd.samples.kryo.OrderSerializer
+11:21:20.535 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - configured Kryo registration [24, org.springframework.xd.samples.domain.baseline.LineItem] with serializer org.springframework.xd.samples.kryo.LineItemSerializer
+11:21:20.543 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - registering [20, org.springframework.xd.samples.domain.baseline.Address] with serializer org.springframework.xd.samples.kryo.AddressSerializer
+11:21:20.543 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - registering [21, org.springframework.xd.samples.domain.baseline.Customer] with serializer org.springframework.xd.samples.kryo.CustomerSerializer
+11:21:20.543 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - registering [22, org.springframework.xd.samples.domain.baseline.Product] with serializer org.springframework.xd.samples.kryo.ProductSerializer
+11:21:20.543 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - registering [23, org.springframework.xd.samples.domain.baseline.Order] with serializer org.springframework.xd.samples.kryo.OrderSerializer
+11:21:20.543 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - registering [24, org.springframework.xd.samples.domain.baseline.LineItem] with serializer org.springframework.xd.samples.kryo.LineItemSerializer
+StopWatch 'PojoCodec ser/deser - Iterations:2000 Duration (ms):15000': running time (millis) = 60007
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+15000  025%  warmup (10 sec.) iteration:0
+15000  025%  warmup (3 sec.) iteration:0
+15000  025%  serialize org.springframework.xd.samples.domain.baseline.Order
+15007  025%  deserialize org.springframework.xd.samples.domain.baseline.Order
+
+serialize org.springframework.xd.samples.domain.baseline.Order: avg time (ns) 1111.7699377408835
+deserialize org.springframework.xd.samples.domain.baseline.Order: avg time (ns) 3399.8640688717715
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.908 sec - in org.springframework.xd.samples.serialization.orders.OptimizedOrderCodecBenchmarkTest
+Running org.springframework.xd.samples.serialization.orders.SerializationFunctionalTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec - in org.springframework.xd.samples.serialization.orders.SerializationFunctionalTest
+Running org.springframework.xd.samples.serialization.orders.BaselineOrderCodecBenchmarkTest
+StopWatch 'PojoCodec ser/deser - Iterations:2000 Duration (ms):15000': running time (millis) = 60009
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+15002  025%  warmup (10 sec.) iteration:0
+15001  025%  warmup (3 sec.) iteration:0
+15001  025%  serialize org.springframework.xd.samples.domain.baseline.Order
+15005  025%  deserialize org.springframework.xd.samples.domain.baseline.Order
+
+serialize org.springframework.xd.samples.domain.baseline.Order: avg time (ns) 2100.9803921568628
+deserialize org.springframework.xd.samples.domain.baseline.Order: avg time (ns) 4172.691879866518
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.803 sec - in org.springframework.xd.samples.serialization.orders.BaselineOrderCodecBenchmarkTest
+Running org.springframework.xd.samples.serialization.orders.SerializableOrderCodecBenchmarkTest
+StopWatch 'PojoCodec ser/deser - Iterations:2000 Duration (ms):15000': running time (millis) = 60006
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+15000  025%  warmup (10 sec.) iteration:0
+15002  025%  warmup (3 sec.) iteration:0
+15001  025%  serialize org.springframework.xd.samples.domain.serializable.SerializableOrder
+15003  025%  deserialize org.springframework.xd.samples.domain.serializable.SerializableOrder
+
+serialize org.springframework.xd.samples.domain.serializable.SerializableOrder: avg time (ns) 1553.2201283909712
+deserialize org.springframework.xd.samples.domain.serializable.SerializableOrder: avg time (ns) 2727.818181818182
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.8 sec - in org.springframework.xd.samples.serialization.orders.SerializableOrderCodecBenchmarkTest
+Running org.springframework.xd.samples.serialization.media.MediaContentCodecBenchmarkTest
+11:24:23.906 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - configured Kryo registration [20, java.util.ArrayList] with serializer com.esotericsoftware.kryo.serializers.CollectionSerializer
+11:24:23.909 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - configured Kryo registration [21, data.media.MediaContent] with serializer org.springframework.xd.samples.kryo.MediaContentSerializer
+11:24:23.909 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - configured Kryo registration [22, data.media.Image] with serializer org.springframework.xd.samples.kryo.ImageSerializer
+11:24:23.909 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - configured Kryo registration [23, data.media.Media] with serializer org.springframework.xd.samples.kryo.MediaSerializer
+11:24:23.909 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - configured Kryo registration [24, data.media.Media$Player] with serializer com.esotericsoftware.kryo.serializers.DefaultSerializers$EnumSerializer
+11:24:23.909 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - configured Kryo registration [25, data.media.Image$Size] with serializer com.esotericsoftware.kryo.serializers.DefaultSerializers$EnumSerializer
+11:24:24.082 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - registering [20, java.util.ArrayList] with serializer com.esotericsoftware.kryo.serializers.CollectionSerializer
+11:24:24.082 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - registering [21, data.media.MediaContent] with serializer org.springframework.xd.samples.kryo.MediaContentSerializer
+11:24:24.082 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - registering [22, data.media.Image] with serializer org.springframework.xd.samples.kryo.ImageSerializer
+11:24:24.082 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - registering [23, data.media.Media] with serializer org.springframework.xd.samples.kryo.MediaSerializer
+11:24:24.082 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - registering [24, data.media.Media$Player] with serializer com.esotericsoftware.kryo.serializers.DefaultSerializers$EnumSerializer
+11:24:24.083 [main] INFO  o.s.x.d.i.b.s.k.CompositeKryoRegistrar - registering [25, data.media.Image$Size] with serializer com.esotericsoftware.kryo.serializers.DefaultSerializers$EnumSerializer
+StopWatch 'PojoCodec ser/deser - Iterations:2000 Duration (ms):15000': running time (millis) = 60001
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+15000  025%  warmup (10 sec.) iteration:0
+15000  025%  warmup (3 sec.) iteration:0
+15000  025%  serialize data.media.MediaContent
+15001  025%  deserialize data.media.MediaContent
+
+serialize data.media.MediaContent: avg time (ns) 551.1058858108605
+deserialize data.media.MediaContent: avg time (ns) 956.4524356031625
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 61.076 sec - in org.springframework.xd.samples.serialization.media.MediaContentCodecBenchmarkTest
+
+Results :
+
+
+
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 04:08 min
+[INFO] Finished at: 2017-03-03T11:25:24-03:00
+[INFO] Final Memory: 12M/191M
+[INFO] ------------------------------------------------------------------------

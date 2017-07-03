@@ -1,0 +1,118 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Data REST - HAL Browser 2.6.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-data-rest-hal-browser ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:unpack (unpack-hal-browser) @ spring-data-rest-hal-browser ---
+[INFO] Configured Artifact: org.webjars:hal-browser:?:jar
+[INFO] hal-browser-b7669f1-1.jar already unpacked.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:unpack (unpack-json-editor) @ spring-data-rest-hal-browser ---
+[INFO] Configured Artifact: org.webjars:json-editor:?:jar
+[INFO] json-editor-0.7.21.jar already unpacked.
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (default) @ spring-data-rest-hal-browser ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 1 file to /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-hal-browser/target/classes/META-INF/spring-data-rest/hal-browser
+   [delete] Deleting: /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-hal-browser/target/classes/META-INF/spring-data-rest/hal-browser/browser.html
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ spring-data-rest-hal-browser ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- com.springsource.bundlor.maven:1.0.0.RELEASE:bundlor (bundlor) @ spring-data-rest-hal-browser ---
+[INFO] Ignored project with enabled = false
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-data-rest-hal-browser ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ spring-data-rest-hal-browser ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ spring-data-rest-hal-browser ---
+[INFO] Surefire report directory: /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-hal-browser/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 1.683 sec <<< FAILURE! - in org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests
+exposesJsonUnderApiRootByDefault(org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests)  Time elapsed: 0.052 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests.exposesJsonUnderApiRootByDefault(HalBrowserIntegrationTests.java:82)
+
+retrunsApiIfHtmlIsNotExplicitlyListed(org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests.retrunsApiIfHtmlIsNotExplicitlyListed(HalBrowserIntegrationTests.java:126)
+
+exposesHalBrowser(org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests.exposesHalBrowser(HalBrowserIntegrationTests.java:115)
+
+redirectsToBrowserForApiRootAndHtml(org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<302> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests.redirectsToBrowserForApiRootAndHtml(HalBrowserIntegrationTests.java:93)
+
+forwardsBrowserToIndexHtml(org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<302> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at org.springframework.data.rest.webmvc.halbrowser.HalBrowserIntegrationTests.forwardsBrowserToIndexHtml(HalBrowserIntegrationTests.java:104)
+
+Running org.springframework.data.rest.webmvc.halbrowser.HalBrowserUnitTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in org.springframework.data.rest.webmvc.halbrowser.HalBrowserUnitTests
+
+Results :
+
+Failed tests: 
+  HalBrowserIntegrationTests.exposesJsonUnderApiRootByDefault:82 Status expected:<200> but was:<404>
+  HalBrowserIntegrationTests.retrunsApiIfHtmlIsNotExplicitlyListed:126 Status expected:<200> but was:<404>
+  HalBrowserIntegrationTests.exposesHalBrowser:115 Status expected:<200> but was:<404>
+  HalBrowserIntegrationTests.redirectsToBrowserForApiRootAndHtml:93 Status expected:<302> but was:<404>
+  HalBrowserIntegrationTests.forwardsBrowserToIndexHtml:104 Status expected:<302> but was:<404>
+
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.170 s
+[INFO] Finished at: 2017-03-03T10:56:01-03:00
+[INFO] Final Memory: 18M/203M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project spring-data-rest-hal-browser: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/guilherme/spring-projects/maven/spring-data-rest/spring-data-rest-hal-browser/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
