@@ -18,7 +18,8 @@ require 'find'
 # end
 
 ## projetos a serem ignorados
-exclude = [
+exclude = 
+[
   # PROJETOS NÃO RESOLVIDOS
   "eclipse-integration-commons",
   "eclipse-integration-gradle",
@@ -33,9 +34,11 @@ exclude = [
   "toolsuite-distribution",
   # PROJETOS EM JS E GROOVY
   "spring-flo",
-  "spring-ide"]
+  "spring-ide"
+]
 
-projects = [
+projects = 
+[
   'aws-maven',
   'eclipse-integration-commons',
   'eclipse-integration-gradle',
@@ -101,31 +104,42 @@ projects = [
   'spring-xd-samples',
   'toolsuite-discovery-runtimes',
   'toolsuite-distribution'
-  ]
+]
+
+selected_projects = 
+[
+  'Spring-Integration-in-Action',
+  'spring-boot',
+  'spring-data-rest',
+  'spring-webflow-issues'
+]
 
 ## executa comando de sistema dentro do diretório dos projetos
-Find.find("/home/guilherme/spring-projects/maven/") do |file|
-  next if exclude.any? {|e| file.to_s.include? e }
+selected_projects.each do |project|
+  #Find.find("/home/guilherme/spring-projects/maven/") do |file|
+  Find.find("/home/guilherme/spring-projects/maven/#{project}/") do |file|
+    next if exclude.any? {|e| file.to_s.include? e }
 
-  if file.include? "pom.xml"
-    # puts file
-    puts "=" * 100
-    puts file
-    puts "=" * 100
+    if file.include? "pom.xml"
+      # puts file
+      puts "=" * 100
+      puts file
+      puts "=" * 100
 
-    dir = file.gsub("pom.xml", "")
-    # system "mvn -f #{dir} install"
-    # system "mvn -f #{dir} test"
-    # system "mvn -f #{dir} javancss:report" # complexidade ciclomática
-    # system "mvn -f #{dir} org.jacoco:jacoco-maven-plugin:0.7.8:prepare-agent install org.jacoco:jacoco-maven-plugin:0.7.8:report" # cobertura
-    # system "cd #{dir} && mvn org.jacoco:jacoco-maven-plugin:0.7.8:prepare-agent install org.jacoco:jacoco-maven-plugin:0.7.8:report" # cobertura
-    # system "mvn -f #{dir} jdepend:generate " # acoplamento
-    # system "cd #{dir} && git checkout -- pom.xml"
-    # system "cd #{dir} && git clean -f"
-    # system "cd #{dir} && git checkout ."
-    # system "java -jar /home/guilherme/dennis/springlint/springlint-0.4.jar -o /home/guilherme/dennis/acoplamento/ -otype 'html' -p /home/guilherme/spring-projects/#{dir}" # ACOPLAMENTO
-    system "cd #{dir} && mvn clean clover:setup test clover:aggregate clover:clover"
-    system "cd #{dir} && mvn clover:clover"
+      dir = file.gsub("pom.xml", "")
+      # system "mvn -f #{dir} install"
+      # system "mvn -f #{dir} test"
+      # system "mvn -f #{dir} javancss:report" # complexidade ciclomática
+      # system "mvn -f #{dir} org.jacoco:jacoco-maven-plugin:0.7.8:prepare-agent install org.jacoco:jacoco-maven-plugin:0.7.8:report" # cobertura
+      system "cd #{dir} && mvn org.jacoco:jacoco-maven-plugin:0.7.8:prepare-agent install org.jacoco:jacoco-maven-plugin:0.7.8:report" # cobertura
+      # system "mvn -f #{dir} jdepend:generate " # acoplamento
+      # system "cd #{dir} && git checkout -- pom.xml"
+      # system "cd #{dir} && git clean -f"
+      # system "cd #{dir} && git checkout ."
+      # system "java -jar /home/guilherme/dennis/springlint/springlint-0.4.jar -o /home/guilherme/dennis/acoplamento/ -otype 'html' -p /home/guilherme/spring-projects/#{dir}" # ACOPLAMENTO
+      # system "cd #{dir} && mvn clean clover:setup test clover:aggregate clover:clover"
+      # system "cd #{dir} && mvn clover:clover"
+    end
   end
 end
 

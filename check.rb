@@ -62,41 +62,72 @@ require 'csv'
 # end
 
 
-## NUMERO DE FALHAS ENCONTRADAS:
+## FALHAS ISOLADAS X ACOPLAMENTO
 
+sheet = CSV.read('teste/jacoco-complexidade.csv')
+isolated_failures = CSV.read('essa_pasta_aqui/falhas_isoladas.csv')
 
+result = {cp: [], if: []}
 
-file_paths = []
-failure_count = 0
-failure_lines = []
-
-Find.find("/home/guilherme/dennis/logs/") do |path|
-  file_paths << path if path.include?('.txt')
-end
-
-file_paths.each do |path|
-
-  File.open("#{path}", 'r') do |file|
-    while line = file.gets
-      # if line.include?("<<< FAILURE!")
-      if line.include?("<<< FAILURE!") && line.include?("(")
-      # if line.include?("<<< FAILURE!") && (line.include?("(") || line.include?(" - in "))
-        failure_count += 1
-        failure_lines << [path, line]
-      end
+isolated_failures.each do |line|
+  sheet.each do |cp|
+    if cp[0] == line[0] && cp[1] == line[1].split('.')[-1]
+      result[:cp] << cp
+      result[:if] << line
     end
   end
-
-  print '.'
 end
 
-CSV.open("check/log-falhas.csv", "w") do |csv|
-  csv << ["ARQUIVO", "FALHA"]
+CSV.open("check/complexidade.csv", "w") do |csv|
+  csv << sheet[0]
 
-  failure_lines.each do |line|
+  result[:cp].each do |line|
     csv << line
   end
 end
 
-puts ''
-puts "total: #{failure_count}"
+# CSV.open("check/falhas-isoladas-x-acoplamento.csv", "w") do |csv|
+#   csv << isolated_failures[0]
+
+#   result[:if].each do |line|
+#     csv << line
+#   end
+# end
+
+
+## NUMERO DE FALHAS ENCONTRADAS:
+
+# file_paths = []
+# failure_count = 0
+# failure_lines = []
+
+# Find.find("/home/guilherme/dennis/logs/") do |path|
+#   file_paths << path if path.include?('.txt')
+# end
+
+# file_paths.each do |path|
+
+#   File.open("#{path}", 'r') do |file|
+#     while line = file.gets
+#       # if line.include?("<<< FAILURE!")
+#       if line.include?("<<< FAILURE!") && line.include?("(")
+#       # if line.include?("<<< FAILURE!") && (line.include?("(") || line.include?(" - in "))
+#         failure_count += 1
+#         failure_lines << [path, line]
+#       end
+#     end
+#   end
+
+#   print '.'
+# end
+
+# CSV.open("check/log-falhas.csv", "w") do |csv|
+#   csv << ["ARQUIVO", "FALHA"]
+
+#   failure_lines.each do |line|
+#     csv << line
+#   end
+# end
+
+# puts ''
+# puts "total: #{failure_count}"

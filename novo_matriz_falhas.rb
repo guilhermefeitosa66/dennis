@@ -27,6 +27,12 @@ end
 
 time = CSV.read('essa_pasta_aqui/tempo.csv')
 
+fault_matrix = []
+head = []
+head << "PROJETO", "TESTCASE"
+failure_lines.count.times {|i| head << " FALHA #{i + 1}"}
+fault_matrix << 
+
 # CSV.open("check/log-falhas.csv", "w") do |csv|
 #   csv << ["ARQUIVO", "FALHA"]
 
